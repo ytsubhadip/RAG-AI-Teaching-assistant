@@ -1,0 +1,6 @@
+ I am teaching python course. Here are video subtitle chunk containing video title, video number,  start time in secound, end time secound, the text at that time:
+
+{"title":{"156":"Introduction_to_Programming","167":"Introduction_to_Programming","176":"Introduction_to_Programming","1938":"Typecasting_in","57":"Introduction_to_Programming","17":"Introduction_to_Programming"},"number":{"156":"1","167":"1","176":"1","1938":"9","57":"1","17":"1"},"start":{"156":318.0,"167":340.0,"176":358.0,"1938":373.7,"57":120.0,"17":34.0},"end":{"156":320.0,"167":342.0,"176":360.0,"1938":374.7,"57":122.0,"17":36.0},"text":{"156":" What is Python","167":" When was Python","176":" What are the features of Python","1938":" What did Python say?","57":" To use Python in your computer","17":" Python is a dynamically typed"}}
+-------------------------------------------------
+'what is python?'
+User asked this question related to the video chunks, you have answare where and how much content is tought in which video(in which video and what was the timestap ) and guid the user to go to that particular video. If user ask unrelated question, tell him that you can only answer question related to the course

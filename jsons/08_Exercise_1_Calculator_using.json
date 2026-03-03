@@ -1,0 +1,2056 @@
+{
+    "chunks": [
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 0.0,
+            "end": 4.44,
+            "text": " I am feeling so good after watching this 100 days of code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 4.44,
+            "end": 7.44,
+            "text": " and in today's video, I will give a shoutout to all of you"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 7.44,
+            "end": 10.56,
+            "text": " who have solved our exercise 1"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 10.56,
+            "end": 12.08,
+            "text": " and then I will tell you the solution"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 12.08,
+            "end": 15.200000000000001,
+            "text": " Let's go to the computer screen and let's get started"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 15.200000000000001,
+            "end": 24.48,
+            "text": " Intro"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 24.48,
+            "end": 26.560000000000002,
+            "text": " So I have come inside my computer screen"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 26.560000000000002,
+            "end": 28.080000000000002,
+            "text": " and as you can see"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 28.319999999999997,
+            "end": 32.48,
+            "text": " I am going to open the solution's raffle which I have made"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 32.48,
+            "end": 35.04,
+            "text": " So I have come here in my raffle"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 35.04,
+            "end": 36.08,
+            "text": " 0 to Hero"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 36.08,
+            "end": 37.04,
+            "text": " Day 8"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 37.04,
+            "end": 38.64,
+            "text": " We will see the solution on this"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 38.64,
+            "end": 41.68,
+            "text": " But along with the solution, we are going to see"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 43.2,
+            "end": 45.92,
+            "text": " what all did each of us do in Day 7"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 45.92,
+            "end": 46.64,
+            "text": " Okay"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 46.64,
+            "end": 50.959999999999994,
+            "text": " And where did my Day 7 raffle go on Day 7"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 51.599999999999994,
+            "end": 53.2,
+            "text": " I will open this raffle"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 53.2,
+            "end": 54.959999999999994,
+            "text": " and I am going to give a shoutout to all of you"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 55.04,
+            "end": 58.160000000000004,
+            "text": " So first of all, whoever posted their comment"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 58.160000000000004,
+            "end": 61.92,
+            "text": " and most importantly posted the solution in the comment"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 61.92,
+            "end": 63.92,
+            "text": " Okay, so I will click on the cover page here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 63.92,
+            "end": 65.36,
+            "text": " and see all these people"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 65.36,
+            "end": 67.36,
+            "text": " Oh my God, people are posting so fast"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 67.36,
+            "end": 69.12,
+            "text": " We need this kind of tempo"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 69.12,
+            "end": 71.76,
+            "text": " We will make a blast in 100 days of code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 71.76,
+            "end": 73.76,
+            "text": " 20 seconds ago, 23 seconds ago"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 73.76,
+            "end": 76.56,
+            "text": " I want us to make such a blast"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 76.56,
+            "end": 79.44,
+            "text": " in this 100 days of code series"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 79.44,
+            "end": 80.88,
+            "text": " that it will be a blast"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 80.88,
+            "end": 81.44,
+            "text": " Okay"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 81.44,
+            "end": 82.64,
+            "text": " So here you see"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 82.72,
+            "end": 84.32000000000001,
+            "text": " that what we talked about"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 84.32000000000001,
+            "end": 85.68,
+            "text": " that we have to make a calculator"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 85.68,
+            "end": 89.12,
+            "text": " Yes, I know I told you some things"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 89.12,
+            "end": 90.32,
+            "text": " like what is a data type"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 90.32,
+            "end": 91.84,
+            "text": " We talked about all these things"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 91.84,
+            "end": 94.48,
+            "text": " But this exercise was a bit too simple"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 94.48,
+            "end": 95.44,
+            "text": " And I got comments"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 95.44,
+            "end": 97.04,
+            "text": " and I said in the video in the last"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 97.04,
+            "end": 99.03999999999999,
+            "text": " that man, comments will come"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 99.03999999999999,
+            "end": 101.04,
+            "text": " that such an easy thing"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 101.04,
+            "end": 101.84,
+            "text": " Why are you making it?"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 101.84,
+            "end": 104.64,
+            "text": " Man, some people are starting programming here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 104.64,
+            "end": 107.28,
+            "text": " You give me 5 to 6 days time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 107.28,
+            "end": 109.28,
+            "text": " and then see where I will take the level"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 109.28,
+            "end": 111.2,
+            "text": " and I will ensure that everyone understands"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 111.2,
+            "end": 112.8,
+            "text": " Whatever I am teaching here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 112.8,
+            "end": 114.0,
+            "text": " Now what we have to do here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 114.0,
+            "end": 116.0,
+            "text": " is addition, subtraction, multiplication and division"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 116.0,
+            "end": 116.96000000000001,
+            "text": " I did not say modulo"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 116.96000000000001,
+            "end": 118.16,
+            "text": " I did not say floor division"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 118.16,
+            "end": 119.60000000000001,
+            "text": " You can add if you want"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 119.60000000000001,
+            "end": 121.36,
+            "text": " But what I am doing here simply"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 121.36,
+            "end": 123.04,
+            "text": " I will say a is equal to 56"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 123.04,
+            "end": 125.28,
+            "text": " and b is equal to 7"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 125.28,
+            "end": 125.92,
+            "text": " Okay"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 125.92,
+            "end": 127.04,
+            "text": " or 3"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 127.04,
+            "end": 128.64000000000001,
+            "text": " And see what I am going to do here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 128.64000000000001,
+            "end": 129.76,
+            "text": " I will make it a little easy"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 129.76,
+            "end": 132.16,
+            "text": " so that I can verify my calculation"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 132.16,
+            "end": 135.2,
+            "text": " The value of"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 135.2,
+            "end": 137.2,
+            "text": " and I will write 50 here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 138.48000000000002,
+            "end": 140.72,
+            "text": " So I will write 50 here by comma"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 140.72,
+            "end": 142.72,
+            "text": " I will write a here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 142.72,
+            "end": 144.72,
+            "text": " and then I will write plus"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 144.72,
+            "end": 146.72,
+            "text": " and then I will write"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 146.72,
+            "end": 148.72,
+            "text": " value of b"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 148.72,
+            "end": 150.72,
+            "text": " 3 is"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 150.72,
+            "end": 152.72,
+            "text": " and then I will write plus"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 152.72,
+            "end": 154.72,
+            "text": " Basically I am adding it"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 154.72,
+            "end": 156.72,
+            "text": " I will do one thing"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 156.72,
+            "end": 158.72,
+            "text": " I will put a comma, I will not add"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 158.72,
+            "end": 160.72,
+            "text": " By doing this, the value of which is a string"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 160.72,
+            "end": 162.72,
+            "text": " this, then after that this is a string"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 162.72,
+            "end": 164.72,
+            "text": " then this is a number, it will be printed"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 164.72,
+            "end": 166.72,
+            "text": " Then I will put a comma"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 166.72,
+            "end": 168.72,
+            "text": " Then another string will be printed"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 168.72,
+            "end": 170.72,
+            "text": " and here I will put a comma"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 170.72,
+            "end": 172.72,
+            "text": " and print a plus b"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 172.72,
+            "end": 174.72,
+            "text": " and now you see"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 174.72,
+            "end": 176.72,
+            "text": " as soon as I run it, its output will come"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 176.72,
+            "end": 178.72,
+            "text": " So this is the work I can do"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 178.72,
+            "end": 180.72,
+            "text": " which I have done here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 180.72,
+            "end": 182.72,
+            "text": " a plus b, I can do the same"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 182.72,
+            "end": 184.72,
+            "text": " with other operations"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 184.72,
+            "end": 186.72,
+            "text": " Now see I do not need to put this here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 186.72,
+            "end": 188.72,
+            "text": " No need to give space, automatically a space comes"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 188.72,
+            "end": 190.72,
+            "text": " When we put a comma in print"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 190.72,
+            "end": 192.72,
+            "text": " So this is going to be printed and this is going to be printed"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 192.72,
+            "end": 194.72,
+            "text": " A space comes between the two"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 194.72,
+            "end": 196.72,
+            "text": " Now what I have to do simply is to replicate it"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 196.72,
+            "end": 198.72,
+            "text": " Alt plus shift plus down arrow"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 198.72,
+            "end": 200.72,
+            "text": " is the shortcut of VS code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 200.72,
+            "end": 202.72,
+            "text": " Replicate the line"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 202.72,
+            "end": 204.72,
+            "text": " I am pressing the down arrow key"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 204.72,
+            "end": 206.72,
+            "text": " I am not doing any magic"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 206.72,
+            "end": 208.72,
+            "text": " I am not doing any magic"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 208.72,
+            "end": 210.72,
+            "text": " and whatever magic I am doing, you can also do"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 210.72,
+            "end": 212.72,
+            "text": " It is a simple thing, not only in this series"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 212.72,
+            "end": 214.72,
+            "text": " In life, whatever I am doing"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 214.72,
+            "end": 216.72,
+            "text": " You can do all that"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 216.72,
+            "end": 218.72,
+            "text": " and if anyone is doing it, you can do it"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 218.72,
+            "end": 220.72,
+            "text": " If anyone says to you that you can't do it"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 220.72,
+            "end": 222.72,
+            "text": " Then he is lying to you"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 222.72,
+            "end": 224.72,
+            "text": " You can do it"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 224.72,
+            "end": 226.72,
+            "text": " So here what I will do is the value of a divided by"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 226.72,
+            "end": 228.72,
+            "text": " 3 is"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 228.72,
+            "end": 230.72,
+            "text": " This a by b value will come"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 230.72,
+            "end": 232.72,
+            "text": " Now see here it came 50 plus 3"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 232.72,
+            "end": 234.72,
+            "text": " Now I don't know what to do"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 234.72,
+            "end": 236.72,
+            "text": " I am pressing alt shift here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 236.72,
+            "end": 238.72,
+            "text": " I am clicking by pressing alt"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 238.72,
+            "end": 240.72,
+            "text": " Okay"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 240.72,
+            "end": 242.72,
+            "text": " I am clicking by pressing alt"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 242.72,
+            "end": 244.72,
+            "text": " Something like this, okay"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 244.72,
+            "end": 246.72,
+            "text": " Wherever I click by pressing alt, I will get multiple cursors"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 246.72,
+            "end": 248.72,
+            "text": " And I can edit in all of them"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 248.72,
+            "end": 250.72,
+            "text": " You are seeing how amazing this thing is"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 250.72,
+            "end": 252.72,
+            "text": " This is also a shortcut of VS code and you should know"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 252.72,
+            "end": 254.72,
+            "text": " Okay, so here you can see"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 254.72,
+            "end": 256.72,
+            "text": " All the shortcuts of VS code are available in the replate"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 256.72,
+            "end": 258.72,
+            "text": " I am using replate so that things"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 258.72,
+            "end": 260.72,
+            "text": " Become very easy, you see here the value"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 260.72,
+            "end": 262.72,
+            "text": " 50 plus 3 50 minus 3"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 262.72,
+            "end": 264.72,
+            "text": " 50 multiplied by 3"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 264.72,
+            "end": 266.72,
+            "text": " 50 divided by 3 value has also come here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 266.72,
+            "end": 268.72,
+            "text": " And that's about it, this is the solution"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 268.72,
+            "end": 270.72,
+            "text": " To our first exercise"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 270.72,
+            "end": 272.72,
+            "text": " Number 1, okay, now I will come"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 272.72,
+            "end": 274.72,
+            "text": " Exercise number 1 in apple"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 274.72,
+            "end": 276.72,
+            "text": " One reload is made"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 276.72,
+            "end": 278.72,
+            "text": " See who is giving the solution to them"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 278.72,
+            "end": 280.72,
+            "text": " Now 4 seconds ago, the solution has been given"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 280.72,
+            "end": 282.72,
+            "text": " By Taha Pasha"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 282.72,
+            "end": 284.72,
+            "text": " Ashitosh Zolte has given 4 seconds"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 284.72,
+            "end": 286.72,
+            "text": " I hope I pronounce your name right"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 286.72,
+            "end": 288.72,
+            "text": " If I pronounce someone's name wrong"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 288.72,
+            "end": 290.72,
+            "text": " Then automatically forgive me, I am saying throughout the course"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 290.72,
+            "end": 292.72,
+            "text": " Otherwise, the comment comes that my name is"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 292.72,
+            "end": 294.72,
+            "text": " Pronunciation is wrong, oh love you"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 294.72,
+            "end": 296.72,
+            "text": " Love you too bro, love you too"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 296.72,
+            "end": 298.72,
+            "text": " Now what I am going to do here is load more comments"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 298.72,
+            "end": 300.72,
+            "text": " I know I will not be able to reach below but it will be unfair"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 300.72,
+            "end": 302.72,
+            "text": " If I don't reach below"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 302.72,
+            "end": 304.72,
+            "text": " So I am doing a load more comments here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 304.72,
+            "end": 306.72,
+            "text": " What is going on, what have I opened"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 306.72,
+            "end": 308.72,
+            "text": " I have opened someone's profile"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 308.72,
+            "end": 310.72,
+            "text": " I am going to take my time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 310.72,
+            "end": 312.72,
+            "text": " And I am taking my time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 314.72,
+            "end": 316.72,
+            "text": " I will scroll it down"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 316.72,
+            "end": 318.72,
+            "text": " Give me some time, so I have scrolled"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 318.72,
+            "end": 320.72,
+            "text": " I took some time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 320.72,
+            "end": 322.72,
+            "text": " Now see here"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 322.72,
+            "end": 324.72,
+            "text": " I am going to see some repls"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 324.72,
+            "end": 326.72,
+            "text": " I am opening these repls, the link was not working"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 326.72,
+            "end": 328.72,
+            "text": " I have uploaded this on day 6"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 328.72,
+            "end": 330.72,
+            "text": " Link was not working"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 330.72,
+            "end": 332.72,
+            "text": " I think link will work"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 332.72,
+            "end": 334.72,
+            "text": " Click once, link will work well"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 334.72,
+            "end": 336.72,
+            "text": " Here calculator"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 338.72,
+            "end": 340.72,
+            "text": " Give shoutout to all of them"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 340.72,
+            "end": 342.72,
+            "text": " Shoutout to all of them with full high tempo"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 342.72,
+            "end": 344.72,
+            "text": " By the way, in case you are in a hurry"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 344.72,
+            "end": 346.72,
+            "text": " And want to move on to the next topic"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 346.72,
+            "end": 348.72,
+            "text": " You can leave this video"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 348.72,
+            "end": 350.72,
+            "text": " Because here shoutout game is going on"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 350.72,
+            "end": 352.72,
+            "text": " So I will give shoutout"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 352.72,
+            "end": 354.72,
+            "text": " Kunal Panchal, try to do this"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 354.72,
+            "end": 356.72,
+            "text": " As soon as you click on run"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 356.72,
+            "end": 358.72,
+            "text": " Your repl will run"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 358.72,
+            "end": 360.72,
+            "text": " Now you see here I am seeing files"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 360.72,
+            "end": 362.72,
+            "text": " But your repl is not running"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 362.72,
+            "end": 364.72,
+            "text": " So ensure that your repl runs by clicking on run button"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 364.72,
+            "end": 366.72,
+            "text": " And"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 366.72,
+            "end": 368.72,
+            "text": " Well you did it really quick"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 368.72,
+            "end": 370.72,
+            "text": " Yes you did it really quick"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 370.72,
+            "end": 372.72,
+            "text": " Kunal Panchal, but let me see your code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 372.72,
+            "end": 374.72,
+            "text": " Let me see your code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 374.72,
+            "end": 376.72,
+            "text": " So here your 6 is running"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 376.72,
+            "end": 378.72,
+            "text": " Then 9"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 378.72,
+            "end": 380.72,
+            "text": " Now see, don't use all these"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 380.72,
+            "end": 382.72,
+            "text": " Disqualified man, disqualified"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 382.72,
+            "end": 384.72,
+            "text": " Just kidding, but actually disqualified"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 384.72,
+            "end": 386.72,
+            "text": " I am kidding but actually disqualified"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 386.72,
+            "end": 388.72,
+            "text": " Means it doesn't make much difference"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 388.72,
+            "end": 390.72,
+            "text": " But it is disqualified"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 390.72,
+            "end": 392.72,
+            "text": " If you are using something which"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 392.72,
+            "end": 394.72,
+            "text": " I have not taught yet"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 394.72,
+            "end": 396.72,
+            "text": " Did I say this in the first video"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 396.72,
+            "end": 398.72,
+            "text": " Yes, it can be your argument"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 398.72,
+            "end": 400.72,
+            "text": " You didn't say anything like this"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 400.72,
+            "end": 402.72,
+            "text": " So it is okay, not disqualified"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 402.72,
+            "end": 404.72,
+            "text": " But in future, if I have never said"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 404.72,
+            "end": 406.72,
+            "text": " Then whatever I have taught"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 406.72,
+            "end": 408.72,
+            "text": " Till day 7"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 408.72,
+            "end": 410.72,
+            "text": " You have to use that much knowledge"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 410.72,
+            "end": 412.72,
+            "text": " You can use AFL, match case"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 412.72,
+            "end": 414.72,
+            "text": " Then you can use"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 414.72,
+            "end": 416.72,
+            "text": " Artificial intelligence"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 416.72,
+            "end": 418.72,
+            "text": " You know everyone knows"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 418.72,
+            "end": 420.72,
+            "text": " But your repl has to run"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 420.72,
+            "end": 422.72,
+            "text": " Oh what happened"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 422.72,
+            "end": 424.72,
+            "text": " I had to choose numbers from above"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 424.72,
+            "end": 426.72,
+            "text": " So I choose 3"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 426.72,
+            "end": 428.72,
+            "text": " Actually I gave invalid input"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 428.72,
+            "end": 430.72,
+            "text": " You have handled the error too"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 430.72,
+            "end": 432.72,
+            "text": " Very good, I will write 4"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 432.72,
+            "end": 434.72,
+            "text": " Then I will write 5, then 1"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 434.72,
+            "end": 436.72,
+            "text": " Then 9 will come, very good"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 436.72,
+            "end": 438.72,
+            "text": " Very good"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 438.72,
+            "end": 440.72,
+            "text": " Now after this, next shoutout will be given to Suryansh Kumar"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 440.72,
+            "end": 442.72,
+            "text": " Suryansh Kumar has made this repl"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 442.72,
+            "end": 444.72,
+            "text": " And has received 3 comments"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 444.72,
+            "end": 446.72,
+            "text": " Suryansh Kumar, big thumbs up to you man"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 446.72,
+            "end": 448.72,
+            "text": " You have tried out on time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 448.72,
+            "end": 450.72,
+            "text": " But are you disqualified"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 450.72,
+            "end": 452.72,
+            "text": " Oh I gave wrong operation"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 452.72,
+            "end": 454.72,
+            "text": " Let me see how the repl behaves on wrong operation"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 456.72,
+            "end": 458.72,
+            "text": " Now I don't have to handle the error"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 458.72,
+            "end": 460.72,
+            "text": " So there is nothing to worry"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 460.72,
+            "end": 462.72,
+            "text": " First number is 4"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 462.72,
+            "end": 464.72,
+            "text": " Second number is 65"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 464.72,
+            "end": 466.72,
+            "text": " Oops, I am making a mistake every time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 466.72,
+            "end": 468.72,
+            "text": " I am putting second number instead of operation"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 468.72,
+            "end": 470.72,
+            "text": " So your user interface"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 470.72,
+            "end": 472.72,
+            "text": " Should not be confusing"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 472.72,
+            "end": 474.72,
+            "text": " See the user will make a mistake"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 474.72,
+            "end": 476.72,
+            "text": " He will blame you"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 476.72,
+            "end": 478.72,
+            "text": " So remember this"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 478.72,
+            "end": 480.72,
+            "text": " Remember this"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 480.72,
+            "end": 482.72,
+            "text": " 6.0, great"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 482.72,
+            "end": 484.72,
+            "text": " Big shoutout to Suryansh Kumar"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 484.72,
+            "end": 486.72,
+            "text": " After this, we would like to give shoutout to"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 486.72,
+            "end": 488.72,
+            "text": " Kirtin, Tushar Gameplex"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 488.72,
+            "end": 490.72,
+            "text": " Sobin Banerjee"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 490.72,
+            "end": 492.72,
+            "text": " Omesh Goyal"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 492.72,
+            "end": 494.72,
+            "text": " For trying this out"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 494.72,
+            "end": 496.72,
+            "text": " Nirmith Mishra"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 496.72,
+            "end": 498.72,
+            "text": " 21BEIT30010"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 498.72,
+            "end": 500.72,
+            "text": " Om"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 500.72,
+            "end": 502.72,
+            "text": " Is this your name?"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 502.72,
+            "end": 504.72,
+            "text": " Tell me in the comment"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 504.72,
+            "end": 506.72,
+            "text": " Oh my god"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 506.72,
+            "end": 508.72,
+            "text": " Piyush Goyal"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 508.72,
+            "end": 510.72,
+            "text": " What have you done"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 510.72,
+            "end": 512.72,
+            "text": " You have put image in such a great repl"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 512.72,
+            "end": 514.72,
+            "text": " Piyush Goyal"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 514.72,
+            "end": 516.72,
+            "text": " Very good Piyush Goyal"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 516.72,
+            "end": 518.72,
+            "text": " First number is 4"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 518.72,
+            "end": 520.72,
+            "text": " Second number is 1"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 520.72,
+            "end": 522.72,
+            "text": " Amazing man"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 522.72,
+            "end": 524.72,
+            "text": " Big shoutout to Piyush Goyal"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 524.72,
+            "end": 526.72,
+            "text": " For attempting this repl"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 526.72,
+            "end": 528.72,
+            "text": " Day 7 calculator"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 528.72,
+            "end": 530.72,
+            "text": " Great"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 530.72,
+            "end": 532.72,
+            "text": " I am running"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 532.72,
+            "end": 534.72,
+            "text": " Let me see the code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 534.72,
+            "end": 536.72,
+            "text": " Why did you use input"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 536.72,
+            "end": 538.72,
+            "text": " Why did you use input"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 538.72,
+            "end": 540.72,
+            "text": " When we didn't read"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 540.72,
+            "end": 542.72,
+            "text": " You could have used hardcode"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 542.72,
+            "end": 544.72,
+            "text": " But no problem"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 544.72,
+            "end": 546.72,
+            "text": " You should have used input"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 546.72,
+            "end": 548.72,
+            "text": " Great"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 548.72,
+            "end": 550.72,
+            "text": " Big shoutout to Candyinstate"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 550.72,
+            "end": 552.72,
+            "text": " Big shoutout to Priyanka Garg"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 552.72,
+            "end": 554.72,
+            "text": " And in the coming videos"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 554.72,
+            "end": 556.72,
+            "text": " We will see many more things"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 556.72,
+            "end": 558.72,
+            "text": " And the coming exercises"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 558.72,
+            "end": 560.72,
+            "text": " Will not be that easy"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 560.72,
+            "end": 562.72,
+            "text": " Some people were saying"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 562.72,
+            "end": 564.72,
+            "text": " So my friends"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 564.72,
+            "end": 566.72,
+            "text": " Wait"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 566.72,
+            "end": 568.72,
+            "text": " Be patient"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 568.72,
+            "end": 570.72,
+            "text": " The fruit of patience"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 570.72,
+            "end": 572.72,
+            "text": " Is strawberry flavor"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 572.72,
+            "end": 574.72,
+            "text": " So be patient"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 574.72,
+            "end": 576.72,
+            "text": " And in the coming videos"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 576.72,
+            "end": 578.72,
+            "text": " We will increase the level"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 578.72,
+            "end": 580.72,
+            "text": " And if you are watching"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 580.72,
+            "end": 582.72,
+            "text": " Day 70 and 80"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 582.72,
+            "end": 584.72,
+            "text": " Then there will be a different level"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 584.72,
+            "end": 586.72,
+            "text": " I hope you are enjoying this course"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 586.72,
+            "end": 588.72,
+            "text": " I will meet you in day 9"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 588.72,
+            "end": 590.72,
+            "text": " I will put the day 8 repl in the description"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 590.72,
+            "end": 592.72,
+            "text": " Keep practicing"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 592.72,
+            "end": 594.72,
+            "text": " And keep coming"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 594.72,
+            "end": 596.72,
+            "text": " In 100 days of code"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 596.72,
+            "end": 598.72,
+            "text": " And we will rock"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 598.72,
+            "end": 600.72,
+            "text": " Thank you so much for watching"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 600.72,
+            "end": 602.72,
+            "text": " And I will see you next time"
+        },
+        {
+            "number": "8",
+            "title": "Exercise_1_Calculator_using",
+            "start": 620.72,
+            "end": 622.72,
+            "text": " Thank you"
+        }
+    ],
+    "text": " I am feeling so good after watching this 100 days of code and in today's video, I will give a shoutout to all of you who have solved our exercise 1 and then I will tell you the solution Let's go to the computer screen and let's get started Intro So I have come inside my computer screen and as you can see I am going to open the solution's raffle which I have made So I have come here in my raffle 0 to Hero Day 8 We will see the solution on this But along with the solution, we are going to see what all did each of us do in Day 7 Okay And where did my Day 7 raffle go on Day 7 I will open this raffle and I am going to give a shoutout to all of you So first of all, whoever posted their comment and most importantly posted the solution in the comment Okay, so I will click on the cover page here and see all these people Oh my God, people are posting so fast We need this kind of tempo We will make a blast in 100 days of code 20 seconds ago, 23 seconds ago I want us to make such a blast in this 100 days of code series that it will be a blast Okay So here you see that what we talked about that we have to make a calculator Yes, I know I told you some things like what is a data type We talked about all these things But this exercise was a bit too simple And I got comments and I said in the video in the last that man, comments will come that such an easy thing Why are you making it? Man, some people are starting programming here You give me 5 to 6 days time and then see where I will take the level and I will ensure that everyone understands Whatever I am teaching here Now what we have to do here is addition, subtraction, multiplication and division I did not say modulo I did not say floor division You can add if you want But what I am doing here simply I will say a is equal to 56 and b is equal to 7 Okay or 3 And see what I am going to do here I will make it a little easy so that I can verify my calculation The value of and I will write 50 here So I will write 50 here by comma I will write a here and then I will write plus and then I will write value of b 3 is and then I will write plus Basically I am adding it I will do one thing I will put a comma, I will not add By doing this, the value of which is a string this, then after that this is a string then this is a number, it will be printed Then I will put a comma Then another string will be printed and here I will put a comma and print a plus b and now you see as soon as I run it, its output will come So this is the work I can do which I have done here a plus b, I can do the same with other operations Now see I do not need to put this here No need to give space, automatically a space comes When we put a comma in print So this is going to be printed and this is going to be printed A space comes between the two Now what I have to do simply is to replicate it Alt plus shift plus down arrow is the shortcut of VS code Replicate the line I am pressing the down arrow key I am not doing any magic I am not doing any magic and whatever magic I am doing, you can also do It is a simple thing, not only in this series In life, whatever I am doing You can do all that and if anyone is doing it, you can do it If anyone says to you that you can't do it Then he is lying to you You can do it So here what I will do is the value of a divided by 3 is This a by b value will come Now see here it came 50 plus 3 Now I don't know what to do I am pressing alt shift here I am clicking by pressing alt Okay I am clicking by pressing alt Something like this, okay Wherever I click by pressing alt, I will get multiple cursors And I can edit in all of them You are seeing how amazing this thing is This is also a shortcut of VS code and you should know Okay, so here you can see All the shortcuts of VS code are available in the replate I am using replate so that things Become very easy, you see here the value 50 plus 3 50 minus 3 50 multiplied by 3 50 divided by 3 value has also come here And that's about it, this is the solution To our first exercise Number 1, okay, now I will come Exercise number 1 in apple One reload is made See who is giving the solution to them Now 4 seconds ago, the solution has been given By Taha Pasha Ashitosh Zolte has given 4 seconds I hope I pronounce your name right If I pronounce someone's name wrong Then automatically forgive me, I am saying throughout the course Otherwise, the comment comes that my name is Pronunciation is wrong, oh love you Love you too bro, love you too Now what I am going to do here is load more comments I know I will not be able to reach below but it will be unfair If I don't reach below So I am doing a load more comments here What is going on, what have I opened I have opened someone's profile I am going to take my time And I am taking my time I will scroll it down Give me some time, so I have scrolled I took some time Now see here I am going to see some repls I am opening these repls, the link was not working I have uploaded this on day 6 Link was not working I think link will work Click once, link will work well Here calculator Give shoutout to all of them Shoutout to all of them with full high tempo By the way, in case you are in a hurry And want to move on to the next topic You can leave this video Because here shoutout game is going on So I will give shoutout Kunal Panchal, try to do this As soon as you click on run Your repl will run Now you see here I am seeing files But your repl is not running So ensure that your repl runs by clicking on run button And Well you did it really quick Yes you did it really quick Kunal Panchal, but let me see your code Let me see your code So here your 6 is running Then 9 Now see, don't use all these Disqualified man, disqualified Just kidding, but actually disqualified I am kidding but actually disqualified Means it doesn't make much difference But it is disqualified If you are using something which I have not taught yet Did I say this in the first video Yes, it can be your argument You didn't say anything like this So it is okay, not disqualified But in future, if I have never said Then whatever I have taught Till day 7 You have to use that much knowledge You can use AFL, match case Then you can use Artificial intelligence You know everyone knows But your repl has to run Oh what happened I had to choose numbers from above So I choose 3 Actually I gave invalid input You have handled the error too Very good, I will write 4 Then I will write 5, then 1 Then 9 will come, very good Very good Now after this, next shoutout will be given to Suryansh Kumar Suryansh Kumar has made this repl And has received 3 comments Suryansh Kumar, big thumbs up to you man You have tried out on time But are you disqualified Oh I gave wrong operation Let me see how the repl behaves on wrong operation Now I don't have to handle the error So there is nothing to worry First number is 4 Second number is 65 Oops, I am making a mistake every time I am putting second number instead of operation So your user interface Should not be confusing See the user will make a mistake He will blame you So remember this Remember this 6.0, great Big shoutout to Suryansh Kumar After this, we would like to give shoutout to Kirtin, Tushar Gameplex Sobin Banerjee Omesh Goyal For trying this out Nirmith Mishra 21BEIT30010 Om Is this your name? Tell me in the comment Oh my god Piyush Goyal What have you done You have put image in such a great repl Piyush Goyal Very good Piyush Goyal First number is 4 Second number is 1 Amazing man Big shoutout to Piyush Goyal For attempting this repl Day 7 calculator Great I am running Let me see the code Why did you use input Why did you use input When we didn't read You could have used hardcode But no problem You should have used input Great Big shoutout to Candyinstate Big shoutout to Priyanka Garg And in the coming videos We will see many more things And the coming exercises Will not be that easy Some people were saying So my friends Wait Be patient The fruit of patience Is strawberry flavor So be patient And in the coming videos We will increase the level And if you are watching Day 70 and 80 Then there will be a different level I hope you are enjoying this course I will meet you in day 9 I will put the day 8 repl in the description Keep practicing And keep coming In 100 days of code And we will rock Thank you so much for watching And I will see you next time Thank you"
+}
