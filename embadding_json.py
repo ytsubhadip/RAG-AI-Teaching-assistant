@@ -12,7 +12,6 @@ def create_embadding(text_list):
     r = requests.post("http://localhost:11434/api/embed", json={
 
         "model":"bge-m3",
-        # "prompt":text
         "input":text_list
     }) 
     embedding = r.json()["embeddings"]
@@ -41,15 +40,10 @@ if __name__ == '__main__':
             chuck["embedding"] = embaddings[i]
             my_dicts.append(chuck)
             chanks_id +=1
-            
-
-    
-        
+                  
     df = pd.DataFrame.from_records(my_dicts)
     joblib.dump(df, "embaddings.joblib")
 
-    # a = create_embadding(["he is a boy", "he is a girl","asasasasasas","ASASAsa","ASASAsa"])
-    # print(a)
 
 
 
