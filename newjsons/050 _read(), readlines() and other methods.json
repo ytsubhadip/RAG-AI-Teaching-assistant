@@ -1,0 +1,425 @@
+{
+    "chunks": [
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 0.0,
+            "end": 10.92,
+            "text": " In the last video, we saw the basics of file IO  We saw how to do a basic bind and link in Python  Why do we have to close the file?  How to open the file?  What is the open method?"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 10.92,
+            "end": 29.560000000000002,
+            "text": " In today's video, we will continue this discussion  and see some more interesting methods  like readlines, writelines  Let's go to the computer screen and let's get started  Intro"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 29.599999999999998,
+            "end": 41.36,
+            "text": " Sometimes there are many lines in our code  and we want to read all those lines  In this case, we can use the readlines method  So, I will simply show you  Let's make a myfile.txt first"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 41.36,
+            "end": 55.76,
+            "text": " myfile.txt  in which I am going to write  Harry by Python course is great  Let me correct its spelling  Otherwise, people will think that I don't know its spelling"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 55.76,
+            "end": 68.75999999999999,
+            "text": " which I know  Now, I will tell you the usage of the readline method  Why did I make the readline method?  I made it so that you can read any file line by line  It's simple"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 68.75999999999999,
+            "end": 79.16,
+            "text": " You have written f is equal to open  Now, what are you doing?  You are reading a file till there is a line in it  As simple as that  At one time, I will do one thing"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 79.16,
+            "end": 91.56,
+            "text": " I will print the line first  So that at the end you can see the value of the line  So, you can see the value of the line  Now, I have to indent it  What have I done?"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 91.56,
+            "end": 103.56,
+            "text": " I should have done the indentation properly  No problem, we all make mistakes  So, you can see that  Harry by Python course is great  and then the line I printed is blank"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 103.56,
+            "end": 115.96000000000001,
+            "text": " Now, I will do one thing  I will print line and type of line  and you can see the value of the line  So, when I printed line and type of line  It became an empty string"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 115.96000000000001,
+            "end": 126.96000000000001,
+            "text": " At one time, it didn't get the line  and at that time, we will stop reading it  So, if I revert this program  to this program  So, you can see that"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 126.96000000000001,
+            "end": 136.96,
+            "text": " we are reading line by line from myfile.txt  But, there was only one line in myfile.txt  So, it didn't feel good  and I will write here  and this"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 136.96,
+            "end": 148.36,
+            "text": " umm  tutorial is also awesome  It's getting cold, my fingers are freezing  Now, I will write here  This is also good"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 148.36,
+            "end": 158.36,
+            "text": " I am writing small, I don't feel like writing big  But, it's not like that  I don't feel like writing code  When it's time to write code, fingers get cold  You can see, what we are doing here"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 158.36,
+            "end": 167.36,
+            "text": " We are printing line  Harry by Python course is great  Second line is printed  Third line is printed  If I want to do something"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 167.36,
+            "end": 178.76000000000002,
+            "text": " where I have to read line by line  Then, this is very handy  We have to do this many times  Sometimes, we need values  which are in each line"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 178.76000000000002,
+            "end": 187.76000000000002,
+            "text": " We have to parse them  So, we can do that  We are given a lot of data  If you do machine learning data science  Then, the data which is given to you"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 187.76000000000002,
+            "end": 198.76000000000002,
+            "text": " on Kaggle etc  is something like this  I will show you a very good use case  which will give you a lot of fun  Suppose, I have 56, 45, 67"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 198.76000000000002,
+            "end": 211.16,
+            "text": " 12, 34, 63  Similarly, I have this  Suppose, this is someone's marks  3 marks of 3 students  I have to write this properly"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 211.16,
+            "end": 221.16,
+            "text": " I can do something like this  I can say, I have this line  Now, I will say  M1 is equal to  Let me correct the indent"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 221.16,
+            "end": 231.16,
+            "text": " I have made double indent  I will write F.split  I will do something like this  I will split it with comma  I will say 0"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 231.56,
+            "end": 241.56,
+            "text": " Similarly, marks 2 and 3 will be done  I will do 1, 2  I will do M2  I will do M3  After that, you can see"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 241.56,
+            "end": 251.56,
+            "text": " M1, M2, M3  I will print them  I will say, marks of student 1  in maths is  and here"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 251.56,
+            "end": 261.96,
+            "text": " I will do M1  Suppose, the first mark is  the marks of maths  Similarly, I have  the marks of science"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 261.96,
+            "end": 271.96,
+            "text": " In fact, I will say  the marks of student i  I will say student i  What is i?  Let me tell you"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 271.96,
+            "end": 281.96,
+            "text": " Give me a minute  i will be my student  I will make  i is equal to 0  I will make i is equal to i plus 1"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 281.96,
+            "end": 292.35999999999996,
+            "text": " i is equal to i plus 1  What will happen by doing this?  First, the value of i will be  1, 2, 3  as the loop will continue"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 292.35999999999996,
+            "end": 302.35999999999996,
+            "text": " as the lines will be detected  Now, I will do English  and SST  There are only 3 characters in SST  I am lazy, that's why I have taken this subject"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 302.35999999999996,
+            "end": 312.35999999999996,
+            "text": " Do you know any other subject  which is smaller than SST?  Tell me in the comments  I don't think there is any other subject  which can be written in less letters than SST"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 312.35999999999996,
+            "end": 322.76,
+            "text": " Tell me in the comments  if you have it in your mind  What happened here?  In fact, I have to put this up  in that case"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 322.76,
+            "end": 332.76,
+            "text": " because  What is happening is  I am reading the lines one by one  and at some point, the line will be empty  But I have to read the line first"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 332.76,
+            "end": 342.76,
+            "text": " So, what is happening now?  If not of line  I have done something wrong here  What is happening is  I have done f.split by comma"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 342.76,
+            "end": 353.15999999999997,
+            "text": " Now, it is saying  I should have done f.split  What is this?  This is called programming  You make a mistake, and then you get an error"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 353.15999999999997,
+            "end": 363.15999999999997,
+            "text": " So, what happened here?  If our data was formatted like this  The marks of the first student were 56  and then 56 only came  What a joke is this?"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 363.15999999999997,
+            "end": 373.15999999999997,
+            "text": " I am saying that this is called programming  I have written m1 only  I have not written m2 and m3  So, this is called programming  You will make a mistake first"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 373.56,
+            "end": 383.56,
+            "text": " until everyone is satisfied  Literally everyone  56, 45, 67  12, 34, 63  13, 64"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 383.56,
+            "end": 393.56,
+            "text": " and 23  Make sure that  these marks are a string  This print is a string  If you want to convert it"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 393.56,
+            "end": 403.96,
+            "text": " to an integer  then you have to use time casting  If you want to convert it to float  For example  If I want to convert this mark"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 403.96,
+            "end": 413.96,
+            "text": " out of 100  and I want to convert it to percentage  I have to double the percentage  to convert it to percentage  So, if I do something like this"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 413.96,
+            "end": 423.96,
+            "text": " I will do int2  By the way  I am pressing alt on my keyboard  Then I am able to make multiple cursor  I will do this"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 423.96,
+            "end": 434.35999999999996,
+            "text": " So, you can see  marks of student 1 in maths  marks of student 1 in English  marks of student 1 in SST is  double which is wrong"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 434.35999999999996,
+            "end": 444.35999999999996,
+            "text": " 12, 12, 34, 34  Why is it coming? Because it is a string  So, what I have to do is  I will typecast it  I will typecast it"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 444.35999999999996,
+            "end": 454.35999999999996,
+            "text": " I will convert this thing  into an integer  I will get the value  But if I do int2 to string  then it will come twice"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 454.35999999999996,
+            "end": 464.76,
+            "text": " So, my desired result will not come  It is simple  Why did I double click on it?  What am I doing?  What is this?"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 464.76,
+            "end": 474.76,
+            "text": " I will close this  I will close this sidebar  Now, I will tell you about write lines method  You have seen read lines method  Write line method in python"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 474.76,
+            "end": 484.76,
+            "text": " writes a sequence of strings to a file  So, what will happen is  that  your iterable object is given  You want to paste the content in it"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 484.76,
+            "end": 495.15999999999997,
+            "text": " in a file  I will tell you  This program is written very well  I will start writing from the bottom  My file is 2.txt"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 495.15999999999997,
+            "end": 505.15999999999997,
+            "text": " It is opening in the right mode  I have not made it yet  But it will be ready as soon as this program runs  Now, see what will come in it  Line 1, line 2, line 3 and a blank"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 505.15999999999997,
+            "end": 515.16,
+            "text": " Why is it blank? Because  first line 1 came, then line 2, line 3  Backslash n was written at the end  So, a new line came  I have used write lines method"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 515.56,
+            "end": 525.56,
+            "text": " It is an iterable object  It will paste all the elements  one by one in that file  So, line 1, line 2, line 3  will come like this"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 525.56,
+            "end": 535.56,
+            "text": " I hope everyone is understanding this  Cool, man!  Very good!  I have made f.write lines, f.close lines  So, my file is closed"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 535.56,
+            "end": 545.9599999999999,
+            "text": " That's it! Keep that in mind  that write lines method does not  add newline characters between strings in the sequence  So, you have to do this yourself  You can expect a newline after line 1"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 545.9599999999999,
+            "end": 555.9599999999999,
+            "text": " No, that will not happen  You have to do it automatically  So, you can do it this way  If you want to add newlines between the strings  You can use a loop to write each string"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 555.9599999999999,
+            "end": 565.9599999999999,
+            "text": " separately or as I did  You can do it like this  If you have a very big list  You will not paste it in the elements one by one  Or if your list is coming from somewhere"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 565.9599999999999,
+            "end": 576.36,
+            "text": " Like from a database  Then you have to use write  Write lines are not for you  Okay!  I hope everyone understood"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 576.36,
+            "end": 586.36,
+            "text": " Now, I want to tell you one thing  If you have not accessed the playlist  Then do access it  And if you review this course in the first video  That would mean a lot to me"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 586.36,
+            "end": 596.36,
+            "text": " So, open the first video  And open the first video  And comment below  And do put a review here  Tell in the review how is this course"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 596.36,
+            "end": 606.76,
+            "text": " So that those people who are new  Who are coming here to see this course  And those who have a doubt in their mind  That this is a free course  Maybe it is not that strong"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 606.76,
+            "end": 616.76,
+            "text": " Tell them how is this course  What are the things being told  Give rating out of 5  And they will know  What is being told in this course"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 616.76,
+            "end": 626.76,
+            "text": " Can they learn or not  I really want that  You help those people who are going to start this course  That's it for now  Thank you so much for watching this video"
+        },
+        {
+            "number": "050 ",
+            "title": "read(), readlines() and other methods",
+            "start": 626.76,
+            "end": 646.76,
+            "text": " And I will see you next time  Music  Music"
+        }
+    ],
+    "text": " In the last video, we saw the basics of file IO We saw how to do a basic bind and link in Python Why do we have to close the file? How to open the file? What is the open method? In today's video, we will continue this discussion and see some more interesting methods like readlines, writelines Let's go to the computer screen and let's get started Intro Sometimes there are many lines in our code and we want to read all those lines In this case, we can use the readlines method So, I will simply show you Let's make a myfile.txt first myfile.txt in which I am going to write Harry by Python course is great Let me correct its spelling Otherwise, people will think that I don't know its spelling which I know Now, I will tell you the usage of the readline method Why did I make the readline method? I made it so that you can read any file line by line It's simple You have written f is equal to open Now, what are you doing? You are reading a file till there is a line in it As simple as that At one time, I will do one thing I will print the line first So that at the end you can see the value of the line So, you can see the value of the line Now, I have to indent it What have I done? I should have done the indentation properly No problem, we all make mistakes So, you can see that Harry by Python course is great and then the line I printed is blank Now, I will do one thing I will print line and type of line and you can see the value of the line So, when I printed line and type of line It became an empty string At one time, it didn't get the line and at that time, we will stop reading it So, if I revert this program to this program So, you can see that we are reading line by line from myfile.txt But, there was only one line in myfile.txt So, it didn't feel good and I will write here and this umm tutorial is also awesome It's getting cold, my fingers are freezing Now, I will write here This is also good I am writing small, I don't feel like writing big But, it's not like that I don't feel like writing code When it's time to write code, fingers get cold You can see, what we are doing here We are printing line Harry by Python course is great Second line is printed Third line is printed If I want to do something where I have to read line by line Then, this is very handy We have to do this many times Sometimes, we need values which are in each line We have to parse them So, we can do that We are given a lot of data If you do machine learning data science Then, the data which is given to you on Kaggle etc is something like this I will show you a very good use case which will give you a lot of fun Suppose, I have 56, 45, 67 12, 34, 63 Similarly, I have this Suppose, this is someone's marks 3 marks of 3 students I have to write this properly I can do something like this I can say, I have this line Now, I will say M1 is equal to Let me correct the indent I have made double indent I will write F.split I will do something like this I will split it with comma I will say 0 Similarly, marks 2 and 3 will be done I will do 1, 2 I will do M2 I will do M3 After that, you can see M1, M2, M3 I will print them I will say, marks of student 1 in maths is and here I will do M1 Suppose, the first mark is the marks of maths Similarly, I have the marks of science In fact, I will say the marks of student i I will say student i What is i? Let me tell you Give me a minute i will be my student I will make i is equal to 0 I will make i is equal to i plus 1 i is equal to i plus 1 What will happen by doing this? First, the value of i will be 1, 2, 3 as the loop will continue as the lines will be detected Now, I will do English and SST There are only 3 characters in SST I am lazy, that's why I have taken this subject Do you know any other subject which is smaller than SST? Tell me in the comments I don't think there is any other subject which can be written in less letters than SST Tell me in the comments if you have it in your mind What happened here? In fact, I have to put this up in that case because What is happening is I am reading the lines one by one and at some point, the line will be empty But I have to read the line first So, what is happening now? If not of line I have done something wrong here What is happening is I have done f.split by comma Now, it is saying I should have done f.split What is this? This is called programming You make a mistake, and then you get an error So, what happened here? If our data was formatted like this The marks of the first student were 56 and then 56 only came What a joke is this? I am saying that this is called programming I have written m1 only I have not written m2 and m3 So, this is called programming You will make a mistake first until everyone is satisfied Literally everyone 56, 45, 67 12, 34, 63 13, 64 and 23 Make sure that these marks are a string This print is a string If you want to convert it to an integer then you have to use time casting If you want to convert it to float For example If I want to convert this mark out of 100 and I want to convert it to percentage I have to double the percentage to convert it to percentage So, if I do something like this I will do int2 By the way I am pressing alt on my keyboard Then I am able to make multiple cursor I will do this So, you can see marks of student 1 in maths marks of student 1 in English marks of student 1 in SST is double which is wrong 12, 12, 34, 34 Why is it coming? Because it is a string So, what I have to do is I will typecast it I will typecast it I will convert this thing into an integer I will get the value But if I do int2 to string then it will come twice So, my desired result will not come It is simple Why did I double click on it? What am I doing? What is this? I will close this I will close this sidebar Now, I will tell you about write lines method You have seen read lines method Write line method in python writes a sequence of strings to a file So, what will happen is that your iterable object is given You want to paste the content in it in a file I will tell you This program is written very well I will start writing from the bottom My file is 2.txt It is opening in the right mode I have not made it yet But it will be ready as soon as this program runs Now, see what will come in it Line 1, line 2, line 3 and a blank Why is it blank? Because first line 1 came, then line 2, line 3 Backslash n was written at the end So, a new line came I have used write lines method It is an iterable object It will paste all the elements one by one in that file So, line 1, line 2, line 3 will come like this I hope everyone is understanding this Cool, man! Very good! I have made f.write lines, f.close lines So, my file is closed That's it! Keep that in mind that write lines method does not add newline characters between strings in the sequence So, you have to do this yourself You can expect a newline after line 1 No, that will not happen You have to do it automatically So, you can do it this way If you want to add newlines between the strings You can use a loop to write each string separately or as I did You can do it like this If you have a very big list You will not paste it in the elements one by one Or if your list is coming from somewhere Like from a database Then you have to use write Write lines are not for you Okay! I hope everyone understood Now, I want to tell you one thing If you have not accessed the playlist Then do access it And if you review this course in the first video That would mean a lot to me So, open the first video And open the first video And comment below And do put a review here Tell in the review how is this course So that those people who are new Who are coming here to see this course And those who have a doubt in their mind That this is a free course Maybe it is not that strong Tell them how is this course What are the things being told Give rating out of 5 And they will know What is being told in this course Can they learn or not I really want that You help those people who are going to start this course That's it for now Thank you so much for watching this video And I will see you next time Music Music"
+}

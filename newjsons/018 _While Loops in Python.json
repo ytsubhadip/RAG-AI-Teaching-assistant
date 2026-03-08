@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 0.0,
+            "end": 10.0,
+            "text": " We saw for loops in the last video  We had a lot of fun using for loops  And we saw how  a for loop makes things very easy  And along with for loop"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 10.0,
+            "end": 20.0,
+            "text": " we saw how  we can print multiplication tables  Now we will see how the same thing can be done in while loop  And why are while loops made  in the language? Why did they put it in"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 20.0,
+            "end": 30.0,
+            "text": " Python programming? We introduced while loops  in Python programming so that  the programmer's time is saved. How? Let's go to the computer screen  and I will tell you  So now we are going to talk about"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 30.0,
+            "end": 40.0,
+            "text": " while loop in Python  How can we use while loop?  First of all, I will tell you that  whether you use while loop or for loop  you have to be able to do both"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 40.0,
+            "end": 50.0,
+            "text": " But sometimes while loop syntax  is convenient for us in some cases  and sometimes for loop syntax is convenient  In the syntax of for loop, we saw  that we write for"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 50.0,
+            "end": 60.0,
+            "text": " i in range of  i in range of  i in range of  that we write for in range  and if I write"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 60.0,
+            "end": 70.0,
+            "text": " 3 and I print i  then simple thing is  we get 0, 1, 2  if I  use while loop"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 70.0,
+            "end": 80.0,
+            "text": " I will first make a variable  then I will write while i is  less than 3  and after this I will print  i and after that"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 80.0,
+            "end": 104.6,
+            "text": " I will increment the value of i  Let me explain what did I do  ok, see what I did here, I gave a condition in while, I said that make i's value 0  ok, after that what I did, I said while, means till i's value is less than 3  till then keep printing i's value and in every iteration I am increasing i's value"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 104.6,
+            "end": 135.6,
+            "text": " so once 0 will be printed, then i's value will be 1, then 1 will be printed, then i's value will be 2  then 2 will be printed, then i's value will be 3, but as i's value will increase and this loop will keep on executing  this condition will be checked in every iteration, now I will explain you how this works  i's value is 0, first of all it will come here in line no. 5, it will say that is this condition satisfying or not  because if it is not satisfying then we don't want to execute anything inside it"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 135.79999999999998,
+            "end": 170.60000000000002,
+            "text": " ok, it will execute because this condition is true, 0 is less than 3 is true  so the answer is yes, condition is true, print i means print 0, 0 will be printed here  then after this i's value will be 1, it will go here again, does 1 less than 3, yes it is  so it will print 1, i's value will be 2, does 2 less than 3, yes it is  it will print 2, i's value will be 3, does 3 less than 3, no it is not"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 170.60000000000002,
+            "end": 204.2,
+            "text": " because 3 less than 3 is not true, so you see here i's value will not be printed, the masala inside it will not be executed  and it will come out of the loop, and I will write here done with the loop  now I will remove this for loop, if I run this then 0, 1 and 2 will work here  but if I make i less than or equal to 3, you have to remember this also  3 is less than or equal to 3 is true, ok, if we talk about 3 is less than or equal to 3 then it is true"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 204.2,
+            "end": 235.2,
+            "text": " because less than or equal to means either less or equal, so if we talk about 3, i is equal to 3 then this condition satisfies  3 is less than or equal to 3, so while 3 is less than or equal to 3, print will be done here  so what will happen here, instead of 0, 1, 2, 0, 1, 2, 3 will be printed, if I put less than or equal to here  so you see here 0, 1, 2, 3 is printed, so this is how while loop works  ideally we don't use while loop with numbers, but we use it with complex conditions, ok"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 235.2,
+            "end": 273.6,
+            "text": " like I will tell you, let's say user gave an input, ok, let's say user gave an input  so I will write int input, I told you that we can take user's input as an integer, this is important  I will say while i is less than or equal to 3, you keep taking input from user, so I will put it in loop  I will say keep taking input from user till, I will make this number bigger, keep putting smaller number than 38  and keep printing it, and I will remove i is equal to i plus 1 from here, so what is this loop doing"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 273.6,
+            "end": 315.4,
+            "text": " it is saying that keep taking input from user, till when, till i is less than or equal to 38  so I will run this program and show you, as soon as I run it, here it is saying i is not defined, what kind of joke is this  ok, so I will do one thing, I will have to take an initial value of i from user, so I will take value of i before running while loop  so I took value of i from user, so I will ask value of i, let's say I told 8, now because 8 is less than or equal to 38  it will ask me again and will print it, or let's say I will print 9, 9 enter, so it printed 9 and asked me again"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 315.4,
+            "end": 352.20000000000005,
+            "text": " let's say I write 34, it asked me again, let's say I write 38, 38 is actually less than or equal to 38  so it will keep running in loop, these lines will keep getting executed, till when, till i is less than or equal to 38  and the moment the value of i becomes greater than 38, means if this condition is not getting satisfied  then it will come out of the loop, it will print done with the loop and finish the job, so here if I print 98  so 98 was printed, condition was checked, condition was false, this was printed and the program is over"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 352.20000000000005,
+            "end": 386.59999999999997,
+            "text": " I hope you understood this, now here I have written as the name suggests while loop executes statements while the condition is true  till the condition is true, while loop will keep getting executed, as soon as the condition becomes false, the interpreter comes out of the loop  interpreter means python which is executing, what does interpreter mean, it is executing our program, it is controlling our program  when I say interpreter, it means the interpreter will come out, means the control will come out  and if this condition is true, then it will keep running in this loop, I say interpreter, I say control, I say program control, it is the same thing"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 386.59999999999997,
+            "end": 419.0,
+            "text": " you are understanding what I am saying, now this is the program, you can run it, here I have given a simple example  of a decrementing loop, now this is also important, let me comment this, this is also very important  this is a decrementing loop, a decrementing while loop, what is happening, count value is 5 and condition is saying count should be greater than 0  so if I decrease the value of count in the loop, then at one time this condition will become false because at one time the value of count will become 0  so this is reverse loop, reverse while loop, decrementing while loop, first 5 will be printed, then 4, 3, 2, 1"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 419.0,
+            "end": 461.79999999999995,
+            "text": " if I explain its execution to you, then listen, count value was 5, this condition was true because 5 is greater than 0  print count was 5, then count is equal to count minus, count value is 4, condition will be checked again because it is in the loop  is 4 greater than 0, yes, 4 will be printed, value will be 3 again because of this line, then 3 will be checked, 3 will be printed, then 2 will be printed, then 1 will be printed, so on  at one time value of count will become 0, is 0 greater than 0, no, absolutely not, so this condition will become false and the program will exit out of the loop  I hope everyone understood this, here the count variable is set to 5, I have explained this thing here, which decrements after each iteration"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 461.79999999999995,
+            "end": 504.2,
+            "text": " iteration means, every time it enters the loop, it becomes an iteration, it went into the loop once, went into the loop of condition checks, one iteration  went into the loop of condition checks again, second iteration, this is what iteration means, depending upon the while loop condition, we need to either increment or decrement the counter variable  now we need to increment or decrease according to our program, if we make a mistake in the while loop, like I made a mistake and made count equal to count plus 1  this will become an infinite loop, let me show you, see this has become an infinite loop and it will keep printing value, you are understanding  means first it will do 5, then 6, 7, 8, 9, 10, it will keep on doing, you are seeing, till I cancel it, it will not stop"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 504.59999999999997,
+            "end": 577.8,
+            "text": " I have to cancel it, I will delete it, then it will cancel, I have run infinite while loop, how can I cancel it, I think I can close this console  I can stop the program, there was a stop option, it did not stop, why did it stop, it stopped, I have run it again, let me fix it  let me fix it, let me stop it, sorry replate people, I am taking so much of your compute, infinite loop will go, let me tell you an incident  I had a lot of ants on my laptop, I had run an infinite while loop, I was in java programming language, and my laptop's fan was spinning so fast, it felt like it will fly away like a drone  so while loop can be used in many other things, let me run it, it will print 5, 4, 3, 2, 1, now with while loop else can be used, and else is used in a way"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 578.1999999999999,
+            "end": 646.2,
+            "text": " that if it is not in while loop, then it will go in else, now I will write print I am inside else, count value is 5, let me tell you how it works, it will run, and finally when this condition is false  then it will print I am inside else, so it is a very simple thing, you can even use the else statement with while loop, essentially what the else statement does is  that as soon as the while loop condition becomes false, interpreter comes out of the while loop, and the else statement is executed, as soon as it comes out of the while loop  then the else statement will be executed, I hope you understood that whenever the condition is false, it will execute the else statement, now if I make count equal to minus 5, then what else will be executed, you tell me in the comment  will it be executed or not, I hope you all guessed that it will be executed, now you can see that I am inside else will be printed, so this is a very simple thing, now I want to tell you one more thing"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 646.2,
+            "end": 754.2,
+            "text": " we have in other programming languages, there is do while loop, it is not there in python, let me tell you, in do while loop, it executes the loop at least once, do while loop is made for such cases  which we discussed here first, which I have just uncommented, now I will comment the one below, what we did is, we run it once outside the while loop, now if I write print I B here, then it will be a very good do while loop  do while loop runs the loop content, like this is the content of this while loop, do while loop runs it once irrespective of whether the condition is true or not, now what will happen if do while loop was here, this is do while loop, I will tell you the syntax of do while loop, it does not work in python, it works in C, Java, C++, but you should know how do while loop works  so if I talk about C language, now I am not teaching you C language, do not think that I am teaching you C language, here there is a condition and here is a content, so the loop body, in fact I should write loop body here, so what happens is, first of all this thing is executed, then if the condition is true, then it is executed, this is a simple thing, this is do while loop, so sometimes a question comes in python, emulate do while loop in python  so this thing comes, this is a very frequently asked question, so I am telling you what is do while loop, now if you say that I am learning python, I have no meaning of do while loop in python, so don't think like this, because if you don't know what is do while loop, then how will you emulate it, so do while loop is a simple while loop which is executed at least once irrespective of whether the condition is true or not, once it is executed, then if the condition is true, then it will be executed again, if the condition is false, then it will be executed again,"
+        },
+        {
+            "number": "018 ",
+            "title": "While Loops in Python",
+            "start": 755.2,
+            "end": 830.2,
+            "text": " so this is do while loop, now I am telling you one more thing, in the next video I will tell you about break and continue statement, in the meantime what you have to do is, try to figure out this yourself, now you will say why should I figure it out myself, when you figure out things by yourself, and if you understand after that, then you will have a different feeling, remember this, in the next video I will tell you about break and continue statement,  and it's your duty to come back to this rappel, day 18 rappel and try do while loop emulation by yourself, what is the meaning of emulation, what you have to do is, you have to emulate do while loop, now this is one way to emulate do while loop, I have written body twice, if the body was of 2000 lines, then our code would have become of 4000 lines, because once you write outside, once you write inside, that is not ideal,  so this is a better way, which you will adopt, watch the next video, watch the video of day 19, after that you try to emulate do while loop, I hope everyone understood what is while loop, if you have not accessed the playlist of python yet, then do access it, that's all for now, thank you so much for watching this video, and I will see you next time."
+        }
+    ],
+    "text": " We saw for loops in the last video We had a lot of fun using for loops And we saw how a for loop makes things very easy And along with for loop we saw how we can print multiplication tables Now we will see how the same thing can be done in while loop And why are while loops made in the language? Why did they put it in Python programming? We introduced while loops in Python programming so that the programmer's time is saved. How? Let's go to the computer screen and I will tell you So now we are going to talk about while loop in Python How can we use while loop? First of all, I will tell you that whether you use while loop or for loop you have to be able to do both But sometimes while loop syntax is convenient for us in some cases and sometimes for loop syntax is convenient In the syntax of for loop, we saw that we write for i in range of i in range of i in range of that we write for in range and if I write 3 and I print i then simple thing is we get 0, 1, 2 if I use while loop I will first make a variable then I will write while i is less than 3 and after this I will print i and after that I will increment the value of i Let me explain what did I do ok, see what I did here, I gave a condition in while, I said that make i's value 0 ok, after that what I did, I said while, means till i's value is less than 3 till then keep printing i's value and in every iteration I am increasing i's value so once 0 will be printed, then i's value will be 1, then 1 will be printed, then i's value will be 2 then 2 will be printed, then i's value will be 3, but as i's value will increase and this loop will keep on executing this condition will be checked in every iteration, now I will explain you how this works i's value is 0, first of all it will come here in line no. 5, it will say that is this condition satisfying or not because if it is not satisfying then we don't want to execute anything inside it ok, it will execute because this condition is true, 0 is less than 3 is true so the answer is yes, condition is true, print i means print 0, 0 will be printed here then after this i's value will be 1, it will go here again, does 1 less than 3, yes it is so it will print 1, i's value will be 2, does 2 less than 3, yes it is it will print 2, i's value will be 3, does 3 less than 3, no it is not because 3 less than 3 is not true, so you see here i's value will not be printed, the masala inside it will not be executed and it will come out of the loop, and I will write here done with the loop now I will remove this for loop, if I run this then 0, 1 and 2 will work here but if I make i less than or equal to 3, you have to remember this also 3 is less than or equal to 3 is true, ok, if we talk about 3 is less than or equal to 3 then it is true because less than or equal to means either less or equal, so if we talk about 3, i is equal to 3 then this condition satisfies 3 is less than or equal to 3, so while 3 is less than or equal to 3, print will be done here so what will happen here, instead of 0, 1, 2, 0, 1, 2, 3 will be printed, if I put less than or equal to here so you see here 0, 1, 2, 3 is printed, so this is how while loop works ideally we don't use while loop with numbers, but we use it with complex conditions, ok like I will tell you, let's say user gave an input, ok, let's say user gave an input so I will write int input, I told you that we can take user's input as an integer, this is important I will say while i is less than or equal to 3, you keep taking input from user, so I will put it in loop I will say keep taking input from user till, I will make this number bigger, keep putting smaller number than 38 and keep printing it, and I will remove i is equal to i plus 1 from here, so what is this loop doing it is saying that keep taking input from user, till when, till i is less than or equal to 38 so I will run this program and show you, as soon as I run it, here it is saying i is not defined, what kind of joke is this ok, so I will do one thing, I will have to take an initial value of i from user, so I will take value of i before running while loop so I took value of i from user, so I will ask value of i, let's say I told 8, now because 8 is less than or equal to 38 it will ask me again and will print it, or let's say I will print 9, 9 enter, so it printed 9 and asked me again let's say I write 34, it asked me again, let's say I write 38, 38 is actually less than or equal to 38 so it will keep running in loop, these lines will keep getting executed, till when, till i is less than or equal to 38 and the moment the value of i becomes greater than 38, means if this condition is not getting satisfied then it will come out of the loop, it will print done with the loop and finish the job, so here if I print 98 so 98 was printed, condition was checked, condition was false, this was printed and the program is over I hope you understood this, now here I have written as the name suggests while loop executes statements while the condition is true till the condition is true, while loop will keep getting executed, as soon as the condition becomes false, the interpreter comes out of the loop interpreter means python which is executing, what does interpreter mean, it is executing our program, it is controlling our program when I say interpreter, it means the interpreter will come out, means the control will come out and if this condition is true, then it will keep running in this loop, I say interpreter, I say control, I say program control, it is the same thing you are understanding what I am saying, now this is the program, you can run it, here I have given a simple example of a decrementing loop, now this is also important, let me comment this, this is also very important this is a decrementing loop, a decrementing while loop, what is happening, count value is 5 and condition is saying count should be greater than 0 so if I decrease the value of count in the loop, then at one time this condition will become false because at one time the value of count will become 0 so this is reverse loop, reverse while loop, decrementing while loop, first 5 will be printed, then 4, 3, 2, 1 if I explain its execution to you, then listen, count value was 5, this condition was true because 5 is greater than 0 print count was 5, then count is equal to count minus, count value is 4, condition will be checked again because it is in the loop is 4 greater than 0, yes, 4 will be printed, value will be 3 again because of this line, then 3 will be checked, 3 will be printed, then 2 will be printed, then 1 will be printed, so on at one time value of count will become 0, is 0 greater than 0, no, absolutely not, so this condition will become false and the program will exit out of the loop I hope everyone understood this, here the count variable is set to 5, I have explained this thing here, which decrements after each iteration iteration means, every time it enters the loop, it becomes an iteration, it went into the loop once, went into the loop of condition checks, one iteration went into the loop of condition checks again, second iteration, this is what iteration means, depending upon the while loop condition, we need to either increment or decrement the counter variable now we need to increment or decrease according to our program, if we make a mistake in the while loop, like I made a mistake and made count equal to count plus 1 this will become an infinite loop, let me show you, see this has become an infinite loop and it will keep printing value, you are understanding means first it will do 5, then 6, 7, 8, 9, 10, it will keep on doing, you are seeing, till I cancel it, it will not stop I have to cancel it, I will delete it, then it will cancel, I have run infinite while loop, how can I cancel it, I think I can close this console I can stop the program, there was a stop option, it did not stop, why did it stop, it stopped, I have run it again, let me fix it let me fix it, let me stop it, sorry replate people, I am taking so much of your compute, infinite loop will go, let me tell you an incident I had a lot of ants on my laptop, I had run an infinite while loop, I was in java programming language, and my laptop's fan was spinning so fast, it felt like it will fly away like a drone so while loop can be used in many other things, let me run it, it will print 5, 4, 3, 2, 1, now with while loop else can be used, and else is used in a way that if it is not in while loop, then it will go in else, now I will write print I am inside else, count value is 5, let me tell you how it works, it will run, and finally when this condition is false then it will print I am inside else, so it is a very simple thing, you can even use the else statement with while loop, essentially what the else statement does is that as soon as the while loop condition becomes false, interpreter comes out of the while loop, and the else statement is executed, as soon as it comes out of the while loop then the else statement will be executed, I hope you understood that whenever the condition is false, it will execute the else statement, now if I make count equal to minus 5, then what else will be executed, you tell me in the comment will it be executed or not, I hope you all guessed that it will be executed, now you can see that I am inside else will be printed, so this is a very simple thing, now I want to tell you one more thing we have in other programming languages, there is do while loop, it is not there in python, let me tell you, in do while loop, it executes the loop at least once, do while loop is made for such cases which we discussed here first, which I have just uncommented, now I will comment the one below, what we did is, we run it once outside the while loop, now if I write print I B here, then it will be a very good do while loop do while loop runs the loop content, like this is the content of this while loop, do while loop runs it once irrespective of whether the condition is true or not, now what will happen if do while loop was here, this is do while loop, I will tell you the syntax of do while loop, it does not work in python, it works in C, Java, C++, but you should know how do while loop works so if I talk about C language, now I am not teaching you C language, do not think that I am teaching you C language, here there is a condition and here is a content, so the loop body, in fact I should write loop body here, so what happens is, first of all this thing is executed, then if the condition is true, then it is executed, this is a simple thing, this is do while loop, so sometimes a question comes in python, emulate do while loop in python so this thing comes, this is a very frequently asked question, so I am telling you what is do while loop, now if you say that I am learning python, I have no meaning of do while loop in python, so don't think like this, because if you don't know what is do while loop, then how will you emulate it, so do while loop is a simple while loop which is executed at least once irrespective of whether the condition is true or not, once it is executed, then if the condition is true, then it will be executed again, if the condition is false, then it will be executed again, so this is do while loop, now I am telling you one more thing, in the next video I will tell you about break and continue statement, in the meantime what you have to do is, try to figure out this yourself, now you will say why should I figure it out myself, when you figure out things by yourself, and if you understand after that, then you will have a different feeling, remember this, in the next video I will tell you about break and continue statement, and it's your duty to come back to this rappel, day 18 rappel and try do while loop emulation by yourself, what is the meaning of emulation, what you have to do is, you have to emulate do while loop, now this is one way to emulate do while loop, I have written body twice, if the body was of 2000 lines, then our code would have become of 4000 lines, because once you write outside, once you write inside, that is not ideal, so this is a better way, which you will adopt, watch the next video, watch the video of day 19, after that you try to emulate do while loop, I hope everyone understood what is while loop, if you have not accessed the playlist of python yet, then do access it, that's all for now, thank you so much for watching this video, and I will see you next time."
+}

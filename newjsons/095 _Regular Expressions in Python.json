@@ -1,0 +1,544 @@
+{
+    "chunks": [
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 0.0,
+            "end": 10.0,
+            "text": " Today's video is about regular expressions  How to use regular expressions in python  and  what are regular expressions  you may not know"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 10.0,
+            "end": 20.0,
+            "text": " no problem, i will break everything in this video  and explain you practically  lets go to computer screen and lets get started  music  music"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 20.0,
+            "end": 30.0,
+            "text": " music  music  music  lets explore regular expressions  so as you can see"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 30.0,
+            "end": 40.0,
+            "text": " i have made a repl  and to explain regular expressions  first of all i will tell you  why to use regular expressions  first of all you should not use regular expressions"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 40.0,
+            "end": 50.0,
+            "text": " for basic matching  you should not use it for basic matching  because for basic matching you can use  in keyword, you can check by using for loop  there is no point"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 50.0,
+            "end": 60.0,
+            "text": " yes i know you can check complex patterns  by using for loop  by using your brain and logic  i have made regular expressions  so that you don't have to use your brain"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 60.0,
+            "end": 70.0,
+            "text": " and you can get things  by using them  to use regular expressions  you have to import re package  this is a built in package"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 70.0,
+            "end": 80.0,
+            "text": " this is one step which i wanted to tell you  you can import re module  after this  there are two things  one is pattern"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 80.0,
+            "end": 90.0,
+            "text": " this is my pattern and this is my text  this is my text  now as you know  you can write python string in triple quotes  now let's say"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 90.0,
+            "end": 100.0,
+            "text": " i go to wikipedia  let's say i write wikipedia  and  and  yes i write anything"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 100.0,
+            "end": 110.0,
+            "text": " wikipedia  and copy it  and paste it  so this is my text  i have written my text"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 110.0,
+            "end": 120.0,
+            "text": " and there are many text in it  this is my pattern and this is my text  i have to search my text  by using pattern  means i have to see"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 120.0,
+            "end": 130.0,
+            "text": " where is this pattern in my text  so i can do this by using re package  which is regular expression  now how i will do this  now see re.search has a function"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 130.0,
+            "end": 140.0,
+            "text": " so first of all i will show you  what is pattern  let's say i want to find pattern  i am saying tell me where is the pattern  so if i do this and print"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 140.0,
+            "end": 150.0,
+            "text": " match  so it will not tell me where is the pattern  but it will tell me  whether there is pattern in this text or not  so i will run this"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 150.0,
+            "end": 160.0,
+            "text": " and see  here it is telling that pattern is found  and  here is your pattern  so in this way i can tell"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 160.0,
+            "end": 170.0,
+            "text": " whether there is pattern or not  now you will say what is going on  what is the need of doing so much circus  i can do this easily by using these keywords  but"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 170.0,
+            "end": 180.0,
+            "text": " how about if i make pattern  little complex  and here main regular expression  starts  now here i will define meta characters"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 180.0,
+            "end": 190.0,
+            "text": " meta characters are used to make pattern  for example  i am saying  search me here  like here is written cyclone"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 190.0,
+            "end": 200.0,
+            "text": " and here is written cyclone  and here is written  diclone  now i am saying  tell me"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 200.0,
+            "end": 210.0,
+            "text": " where is written  iclone which starts with capital  means diclone starts with capital D  and iclone starts with capital E  and zyclone starts with capital Z"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 210.0,
+            "end": 220.0,
+            "text": " search me that  now you will say  i will make my custom logic  you will say this  but you will say i need some time"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 220.0,
+            "end": 230.0,
+            "text": " i have to think  to reduce that i have to think  i am making you to meet regular expression  now what i can do  i can say"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 230.0,
+            "end": 240.0,
+            "text": " my first letter should be capital  i can write like this  capital letter should be  and after this i should have iclone  capital letter should be"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 240.0,
+            "end": 250.0,
+            "text": " and after that i should have iclone  so capital letter should be  i can write like this  and i will put r here  so that it will become raw string"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 250.0,
+            "end": 260.0,
+            "text": " i will tell you what is raw string  so when i write backslash n  it will print raw string  and it will not parse  so i have put a square bracket"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 260.0,
+            "end": 270.0,
+            "text": " i said see  from here from capital A  to capital Z  any character will work  and after this iclone"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 270.0,
+            "end": 280.0,
+            "text": " so this will work  now i have made character class  i said see from A to Z  any character  i know many people will say"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 280.0,
+            "end": 290.0,
+            "text": " i am not able to understand  from A to Z any character  from capital A to Z  small one will not work  any character"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 290.0,
+            "end": 300.0,
+            "text": " should come at least once  what i want  i want iclone  so here you see  plus means one or more occurrences"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 300.0,
+            "end": 310.0,
+            "text": " so if i put plus here  and i run it  so you see here  cyclone match  but one thing is that cyclone match did not work"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 310.0,
+            "end": 320.0,
+            "text": " i have to see why  because  re.search  stops at first match  now you will say"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 320.0,
+            "end": 330.0,
+            "text": " i don't want to know  whether match is working or not  i don't want only first occurrence  i am not interested in first occurrence  i am interested in"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 330.0,
+            "end": 340.0,
+            "text": " all occurrences  so for that i will say  match is equal to  find iter  i will write pattern and text"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 340.0,
+            "end": 350.0,
+            "text": " and after this what i will do  for match in matches  i will make it matches  and here i will say print  match, now this is a match object"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 350.0,
+            "end": 360.0,
+            "text": " ok, if i run it  it will give me all matches  so  here  you can see it gave two matches"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 360.0,
+            "end": 370.0,
+            "text": " cyclone and diclone  and it also told  where i have to  span it  now i can do something like this"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 370.0,
+            "end": 380.0,
+            "text": " i can say for match in matches  match.span  now if i show you  its type  what is its type"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 380.0,
+            "end": 390.0,
+            "text": " so you see here  match.span type will be printed  and it is a tuple  you understood it  it means"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 390.0,
+            "end": 400.0,
+            "text": " i can do something like this  that in matches  what i have to do  this is my match  i have to do something like this"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 400.0,
+            "end": 410.0,
+            "text": " match.span  i have to do slicing  of match  like this  here i will give"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 410.0,
+            "end": 420.0,
+            "text": " match.span 0  and here i will give  match.span 1  so what will happen  i will get that word"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 420.0,
+            "end": 430.0,
+            "text": " should i get it  now it is saying no such group  let me see what is the problem  match.span  i did match"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 430.0,
+            "end": 440.0,
+            "text": " ok so i have to text  match so i said  in text match.span 0  and match.span 1  give me that"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 440.0,
+            "end": 450.0,
+            "text": " 0 7  now it is saying string indices must be  integers now it is saying  it is not integers  if i run match.span"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 450.0,
+            "end": 460.0,
+            "text": " and then 0  then it is saying  it is not integers  if i print only this  match.span 0"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 460.0,
+            "end": 470.0,
+            "text": " then i am getting  0  i don't have to put comma  i have to put colon  so i made a small mistake"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 470.0,
+            "end": 480.0,
+            "text": " and it will work now  so like this you can  match regular expression  so again regular expression is a big topic  it is a big topic"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 480.0,
+            "end": 490.0,
+            "text": " you will get to see a lot of things in it  regular expression will take you a lot of time to learn  so for this  i have given a link here  so that you can"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 490.0,
+            "end": 500.0,
+            "text": " know about all the meta characters  and a lot of things  about which you need to know  now if i talk about backslash  it marks next character"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 500.0,
+            "end": 510.0,
+            "text": " as a special character or  literal for example  backslash matches the character end  whereas backslash matches the newline character  so the sequence double backslash matches"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 510.0,
+            "end": 520.0,
+            "text": " backslash means the specialness  of the character  it finishes it  so here are a lot of things which can be done  so what you have to do is"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 520.0,
+            "end": 530.0,
+            "text": " see the pattern  and if you learn to write a good pattern  then you will get the thing from the text  which you want  or if you want to know if that thing is present in the text"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 530.0,
+            "end": 540.0,
+            "text": " you can do that  so this thing is very easy  if you learn to write a pattern  now i want to tell you  about a website"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 540.0,
+            "end": 550.0,
+            "text": " whose name is  Python docs  this is for those people who want to get a big skill  in regular expressions  seriously you will get this"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 550.0,
+            "end": 560.0,
+            "text": " as a book  if you start reading it from here  it is a very detailed documentation  but once you complete 100 days of code  after that you want to become"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 560.0,
+            "end": 570.0,
+            "text": " a king of Python  so you can come here  one more website which i want to talk about is  i am forgetting the name  but i am sure that it is here"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 570.0,
+            "end": 580.0,
+            "text": " it will come on google i knew it  now see here a to z  and then it becomes a group from bracket  as i told you i put a bracket  and i say that i want"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 580.0,
+            "end": 590.0,
+            "text": " one of these  either i want h or w  or r  and what is the meaning of backslash w  if you remember it matches any word character"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 590.0,
+            "end": 600.0,
+            "text": " any word character  and more than one word character  now see here i have written hwr  and backslash w  it means that"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 600.0,
+            "end": 610.0,
+            "text": " hw or r  and after that  backslash w  and then plus  it means that"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 610.0,
+            "end": 620.0,
+            "text": " any character will take it  like it should start from hwr  and after that any character  and here i have matched the rule  and here is a cheat sheet"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 620.0,
+            "end": 630.0,
+            "text": " if you click on it you can learn many things  i am telling you dot means any character  except newline  so if i put a dot after hwr  so what it will do"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 630.0,
+            "end": 640.0,
+            "text": " it will match two characters  any one of hwr and any other character  so see re he re  it has matched  if i put double dot here it will match three characters"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 640.0,
+            "end": 650.0,
+            "text": " if i make a group here  that r e  so after hwr there will be two characters  and after that i will put e  so see it has matched"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 650.0,
+            "end": 660.0,
+            "text": " so here i have put any character  and after that e  now it is possible that  i want e  and along with e"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 660.0,
+            "end": 670.0,
+            "text": " r can also be there  so it has matched  so like this you can make patterns  and in python  you can use match"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 670.0,
+            "end": 680.0,
+            "text": " now what happens is  match returns none  if match is not found  so if i do this  it will not show anything"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 680.0,
+            "end": 690.0,
+            "text": " because matches are empty  but if i show you this  it will return none  because this pattern is not matched  so like this you can"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 690.0,
+            "end": 700.0,
+            "text": " start your journey of regular expressions  i know it is a little  complicated topic  if you are a beginner  when i started learning regular expressions"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 700.0,
+            "end": 710.0,
+            "text": " but as you progress in programming  it will come in javascript  you will get to see it everywhere  in almost every programming language  and it will make things easy"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 710.0,
+            "end": 720.0,
+            "text": " it will not make it difficult for you  so do learn it and this website  regexr.com let me link  this here so that  you can"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 720.0,
+            "end": 730.0,
+            "text": " explore it  so i put it here  so this website  you must visit it  and there are many things"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 730.0,
+            "end": 740.0,
+            "text": " which you will understand  and the best thing about this website is that it explains  how and what  is working  when and why"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 740.0,
+            "end": 750.0,
+            "text": " this thing is matching and this thing is not  so you can click here  and play around with it  so i hope you understood regular expressions  and you"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 750.0,
+            "end": 760.0,
+            "text": " will not understand it  until you practice it  so that's it for this video  if you have not accessed this playlist  then do it"
+        },
+        {
+            "number": "095 ",
+            "title": "Regular Expressions in Python",
+            "start": 760.0,
+            "end": 764.0,
+            "text": " thank you so much guys for watching this video  and i will see you next time"
+        }
+    ],
+    "text": " Today's video is about regular expressions How to use regular expressions in python and what are regular expressions you may not know no problem, i will break everything in this video and explain you practically lets go to computer screen and lets get started music music music music music lets explore regular expressions so as you can see i have made a repl and to explain regular expressions first of all i will tell you why to use regular expressions first of all you should not use regular expressions for basic matching you should not use it for basic matching because for basic matching you can use in keyword, you can check by using for loop there is no point yes i know you can check complex patterns by using for loop by using your brain and logic i have made regular expressions so that you don't have to use your brain and you can get things by using them to use regular expressions you have to import re package this is a built in package this is one step which i wanted to tell you you can import re module after this there are two things one is pattern this is my pattern and this is my text this is my text now as you know you can write python string in triple quotes now let's say i go to wikipedia let's say i write wikipedia and and yes i write anything wikipedia and copy it and paste it so this is my text i have written my text and there are many text in it this is my pattern and this is my text i have to search my text by using pattern means i have to see where is this pattern in my text so i can do this by using re package which is regular expression now how i will do this now see re.search has a function so first of all i will show you what is pattern let's say i want to find pattern i am saying tell me where is the pattern so if i do this and print match so it will not tell me where is the pattern but it will tell me whether there is pattern in this text or not so i will run this and see here it is telling that pattern is found and here is your pattern so in this way i can tell whether there is pattern or not now you will say what is going on what is the need of doing so much circus i can do this easily by using these keywords but how about if i make pattern little complex and here main regular expression starts now here i will define meta characters meta characters are used to make pattern for example i am saying search me here like here is written cyclone and here is written cyclone and here is written diclone now i am saying tell me where is written iclone which starts with capital means diclone starts with capital D and iclone starts with capital E and zyclone starts with capital Z search me that now you will say i will make my custom logic you will say this but you will say i need some time i have to think to reduce that i have to think i am making you to meet regular expression now what i can do i can say my first letter should be capital i can write like this capital letter should be and after this i should have iclone capital letter should be and after that i should have iclone so capital letter should be i can write like this and i will put r here so that it will become raw string i will tell you what is raw string so when i write backslash n it will print raw string and it will not parse so i have put a square bracket i said see from here from capital A to capital Z any character will work and after this iclone so this will work now i have made character class i said see from A to Z any character i know many people will say i am not able to understand from A to Z any character from capital A to Z small one will not work any character should come at least once what i want i want iclone so here you see plus means one or more occurrences so if i put plus here and i run it so you see here cyclone match but one thing is that cyclone match did not work i have to see why because re.search stops at first match now you will say i don't want to know whether match is working or not i don't want only first occurrence i am not interested in first occurrence i am interested in all occurrences so for that i will say match is equal to find iter i will write pattern and text and after this what i will do for match in matches i will make it matches and here i will say print match, now this is a match object ok, if i run it it will give me all matches so here you can see it gave two matches cyclone and diclone and it also told where i have to span it now i can do something like this i can say for match in matches match.span now if i show you its type what is its type so you see here match.span type will be printed and it is a tuple you understood it it means i can do something like this that in matches what i have to do this is my match i have to do something like this match.span i have to do slicing of match like this here i will give match.span 0 and here i will give match.span 1 so what will happen i will get that word should i get it now it is saying no such group let me see what is the problem match.span i did match ok so i have to text match so i said in text match.span 0 and match.span 1 give me that 0 7 now it is saying string indices must be integers now it is saying it is not integers if i run match.span and then 0 then it is saying it is not integers if i print only this match.span 0 then i am getting 0 i don't have to put comma i have to put colon so i made a small mistake and it will work now so like this you can match regular expression so again regular expression is a big topic it is a big topic you will get to see a lot of things in it regular expression will take you a lot of time to learn so for this i have given a link here so that you can know about all the meta characters and a lot of things about which you need to know now if i talk about backslash it marks next character as a special character or literal for example backslash matches the character end whereas backslash matches the newline character so the sequence double backslash matches backslash means the specialness of the character it finishes it so here are a lot of things which can be done so what you have to do is see the pattern and if you learn to write a good pattern then you will get the thing from the text which you want or if you want to know if that thing is present in the text you can do that so this thing is very easy if you learn to write a pattern now i want to tell you about a website whose name is Python docs this is for those people who want to get a big skill in regular expressions seriously you will get this as a book if you start reading it from here it is a very detailed documentation but once you complete 100 days of code after that you want to become a king of Python so you can come here one more website which i want to talk about is i am forgetting the name but i am sure that it is here it will come on google i knew it now see here a to z and then it becomes a group from bracket as i told you i put a bracket and i say that i want one of these either i want h or w or r and what is the meaning of backslash w if you remember it matches any word character any word character and more than one word character now see here i have written hwr and backslash w it means that hw or r and after that backslash w and then plus it means that any character will take it like it should start from hwr and after that any character and here i have matched the rule and here is a cheat sheet if you click on it you can learn many things i am telling you dot means any character except newline so if i put a dot after hwr so what it will do it will match two characters any one of hwr and any other character so see re he re it has matched if i put double dot here it will match three characters if i make a group here that r e so after hwr there will be two characters and after that i will put e so see it has matched so here i have put any character and after that e now it is possible that i want e and along with e r can also be there so it has matched so like this you can make patterns and in python you can use match now what happens is match returns none if match is not found so if i do this it will not show anything because matches are empty but if i show you this it will return none because this pattern is not matched so like this you can start your journey of regular expressions i know it is a little complicated topic if you are a beginner when i started learning regular expressions but as you progress in programming it will come in javascript you will get to see it everywhere in almost every programming language and it will make things easy it will not make it difficult for you so do learn it and this website regexr.com let me link this here so that you can explore it so i put it here so this website you must visit it and there are many things which you will understand and the best thing about this website is that it explains how and what is working when and why this thing is matching and this thing is not so you can click here and play around with it so i hope you understood regular expressions and you will not understand it until you practice it so that's it for this video if you have not accessed this playlist then do it thank you so much guys for watching this video and i will see you next time"
+}

@@ -1,0 +1,733 @@
+{
+    "chunks": [
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 0.0,
+            "end": 15.200000000000001,
+            "text": " Do you remember when it used to rain in our childhood, we used to say that if it rains then we will not go to school.  And if it does not rain then we will go to school.  In this way, we used to make a decision.  We make a lot of decisions in our life.  For example, if I am tired then I will not go out to roam."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 15.200000000000001,
+            "end": 27.0,
+            "text": " And if I am not tired then I will go out to roam.  So this kind of decision making goes on that if you are hungry then order food.  If you are not hungry then don't order.  If you are hungry and have money in your pocket then order food.  Otherwise, control your hunger."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 27.0,
+            "end": 40.2,
+            "text": " Make something at home and eat.  So this kind of decision making goes on in our daily life.  In our Python programming also to do this kind of decision making,  there are if else statements.  We can use if, we can use elif, we can use else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 40.2,
+            "end": 63.0,
+            "text": " How to use all these conditionals in Python programming, I will tell you today.  Let's go to the computer screen and let's get started.  So guys, I will open my rappel.  First of all, it is of day 14.  And as you can see here, today's topic is if else statement."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 63.0,
+            "end": 78.8,
+            "text": " Many times in the program, it happens that according to a condition,  I will do some work.  For example, let's say I take an input from the user.  And I say, by the way, I can write int input like this.  To take an input as an integer."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 78.8,
+            "end": 92.8,
+            "text": " Because you know that whatever comes from the input, it comes as a string.  And if I want to take it in an integer, then I can use the int function.  I can do typecasting of these.  Suppose I say enter your age.  And I am bringing the user's age in A."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 92.8,
+            "end": 113.8,
+            "text": " And I do something like this.  Your age is and I will put a comma in some way and print its age.  After this, I can display it conditionally if its age is more than 18.  That you can drive or you can not drive.  One of the two things is fine."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 113.8,
+            "end": 136.8,
+            "text": " Assume that its age is greater than 18.  So I will tell him that what you do, I will put a colon like this.  I will enter and after this I will say that you can drive.  And after this, see I will write the program first.  After that, I will explain to you one by one what is what, what space is given, what is indentation."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 136.8,
+            "end": 149.8,
+            "text": " You can not drive.  Suppose I wrote 9 in enter your age.  Your age is 9.  I am running the program again with these two if else statements.  If I wrote 9 and hit enter, then see you can not drive."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 149.8,
+            "end": 163.8,
+            "text": " But if I write 90 or 78.  The program has not run yet.  If I write 78.  In fact, I have given a very big number.  I wrote 76, your age is 76."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 163.8,
+            "end": 180.8,
+            "text": " You can drive.  I will give a little space here.  So based on input, we have determined here that a person can drive or not.  And now I would like to come here, the tutorial I have written.  Sometimes the program needs to check the evaluation of a certain expression."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 180.8,
+            "end": 195.8,
+            "text": " Whether the expression evaluates to true or false.  Now what happens is that these are our conditional operators.  Greater than, less than, equal to, greater than, double equals to, greater than, equal to.  Equal to is not a conditional operator.  If I want to check the equality, then I will do it with double equal to."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 195.8,
+            "end": 217.8,
+            "text": " First of all, I tell you about the conditional operators.  I tell you about the conditional operators.  Greater than, less than, greater than or equal to, less than or equal to.  And after this, double equal to means equal to.  It checks whether two numbers are equal or not."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 217.8,
+            "end": 235.8,
+            "text": " So I will show you an example.  I will just print a is greater than 18.  And I will just print a is less than or equal to 18.  And after this I will print a is double equal to 18.  And after this I will print a is not equal to 18."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 235.8,
+            "end": 248.8,
+            "text": " This not equal to is also our conditional operator.  Now I will print this.  Now I am taking the age dynamically as an input from the user.  Suppose I want to keep the age 18.  I have kept the age 18."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 248.8,
+            "end": 258.8,
+            "text": " So you see what will happen.  Is age greater than 18?  No, it is not greater than 18.  Even if it is 18.  If it is 18, then greater than 18 will not be true."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 258.8,
+            "end": 269.8,
+            "text": " After this, you see less than equal to 18.  Is less than equal to 18?  Yes, it is 18.  Where is less than or equal to?  It is also fine if less than or equal to."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 269.8,
+            "end": 278.8,
+            "text": " So this will evaluate to true.  Is age equal to 18?  Exactly equal to 18.  Yes, that's true.  So true is printed here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 278.8,
+            "end": 289.8,
+            "text": " This is our Boolean type return.  a is less than equal to greater than equal to double equal to.  a is greater than 18.  This is our Boolean type return.  a is not equal to 18."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 289.8,
+            "end": 296.8,
+            "text": " Is this true?  No, this is not true.  a is actually equal to 18.  So these are our conditional operators.  I will comment this out."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 296.8,
+            "end": 309.8,
+            "text": " I hope you understood.  Our if statement takes the conditional operator.  That is, a condition which will be evaluated in true or false.  It looks at that.  And after seeing, if this thing is true."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 309.8,
+            "end": 322.8,
+            "text": " That is, if age is greater than 18.  Then this block of code prints.  And if this is not true, then this block of code prints.  But it will never print both together.  Either it will go inside if or else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 322.8,
+            "end": 332.8,
+            "text": " It will go inside one of these two.  Now you must be thinking what is this colon?  And why have I given this space?  Why can't we remove this space?  Now see, as soon as I removed the space, I got to see the error here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 332.8,
+            "end": 344.8,
+            "text": " This space is called indentation in Python.  And modern IDEs, whether you use VS code.  You use PyCharm.  You are also using Raplet.  If you hit enter, then automatically this space will give you."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 344.8,
+            "end": 357.8,
+            "text": " This space is called indentation in Python.  Indentation means that you people are starting a block.  If you are coming from C language, then you understand something like this.  We do not use curly brackets here.  We only tell by spaces here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 357.8,
+            "end": 368.8,
+            "text": " By putting a colon that we have entered this block.  Here after if we put a colon.  And after that we have given a space.  That is, we have entered inside this if.  I will hit enter here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 368.8,
+            "end": 378.8,
+            "text": " If I write print yes, then we are still inside if.  If I print no here.  Then we are still inside else.  Because we started inside else.  This is inside else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 378.8,
+            "end": 387.8,
+            "text": " This is inside else.  Now you people tell me by commenting.  Is this inside else?  Is this inside else?  No, it is inside else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 387.8,
+            "end": 400.8,
+            "text": " So if the code inside else is being evaluated.  This code is being executed.  After that, you people will get this thing printed.  If not, then also it will be printed.  That is, whether the code inside else is being executed or not."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 400.8,
+            "end": 407.8,
+            "text": " This has no meaning.  This code will always be executed.  I will do it and show.  See if age is greater than 18.  Once I take greater than 18 age."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 407.8,
+            "end": 417.8,
+            "text": " Suppose I take 48.  Will this print for age 48?  Yes it will.  Because it has no meaning from if or else.  This is our written statement."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 417.8,
+            "end": 426.8,
+            "text": " So see you people are printing the code inside else.  Sorry, the code inside if is being printed.  Because it is greater than 18.  You can drive and yes.  And after that you see this is also being printed."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 426.8,
+            "end": 435.8,
+            "text": " But if I take an age like this.  Suppose I take 8.  Which is less than 18 obviously.  Then if I run it, then see.  9 was also printed and this was also printed."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 435.8,
+            "end": 445.8,
+            "text": " But if I put this inside.  Else statement.  Then you people see that this has become a part of else.  Because I have given an indentation here.  I will not call it space."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 445.8,
+            "end": 455.8,
+            "text": " Now remember I will say indentation.  Then when I say indentation, you understand who I am talking about.  I have entered the else block.  I have entered the else block.  Okay."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 455.8,
+            "end": 465.8,
+            "text": " And because I have entered the else block.  That's why now if age.  If not greater than 18.  Then this will be printed.  But if I put greater than 18 age."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 465.8,
+            "end": 475.8,
+            "text": " Then this will not be printed.  You see for 78.  For 78 age you see here.  Yes is being printed.  This is not being printed because this is now a part of else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 475.8,
+            "end": 485.8,
+            "text": " The way we saw the if else statement.  Similarly we have an else if statement.  Okay.  We also have a nested if else.  So I will talk about everyone in this video."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 485.8,
+            "end": 495.8,
+            "text": " For you people.  I have written everything.  If evaluate is true.  Otherwise it will go inside else.  I have written a simple thing."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 495.8,
+            "end": 505.8,
+            "text": " Let's do one thing.  Let's make a new file in repl.  I was working with only one file.  But now I will make files.  I will make a file named if else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 505.8,
+            "end": 515.8,
+            "text": " I have made a file named if else.py.  I will copy it.  I will paste it here and run it.  What is being said here.  Apple's price is 200."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 515.8,
+            "end": 525.8,
+            "text": " Budget is 200.  In fact, I have run the main.  In fact, this template of python.  In this, the main.py file is running.  So what will I do."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 525.8,
+            "end": 535.8,
+            "text": " Here.  I will do one thing.  I want to open shell.  I will write here.  Python if else.py."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 535.8,
+            "end": 545.8,
+            "text": " If else.py.  Alexa do not add apples to the card.  I can see it here.  Why can I see it now.  I will put the shell here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 545.8,
+            "end": 555.8,
+            "text": " Why can I see it now.  The price was 210.  And after this, you see here.  Budget was 200.  If the budget is smaller than the price."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 555.8,
+            "end": 565.8,
+            "text": " So obviously.  If the budget is bigger than the price.  I can buy it.  I am saying Alexa add 1 kg apples to the card.  Otherwise I am saying do not add."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 565.8,
+            "end": 575.8,
+            "text": " Here I have used if else.  A very simple example.  We took here.  So we will move forward.  Now we will see about the elif statement."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 575.8,
+            "end": 585.8,
+            "text": " Suppose I have to execute more than one statement.  Based on certain conditions.  Suppose.  If the budget is 200.  And the price is 210."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 585.8,
+            "end": 595.8,
+            "text": " So this budget is very close.  So I may not want to buy.  200 rupees apples.  If apples are also 190.  I will do 190."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 595.8,
+            "end": 605.8,
+            "text": " So I may not want to buy.  So I will do one thing.  If the apple price is less than or equal to the budget.  And along with that.  I want to check."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 605.8,
+            "end": 615.8,
+            "text": " Or I will say.  Budget minus apple price.  So basically what I am doing here.  Budget minus apple price.  Is greater than."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 615.8,
+            "end": 625.8,
+            "text": " Suppose I have money.  I have 20,000 rupees.  And the apple is 190.  So it does not make any difference.  If I have the remaining money."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 625.8,
+            "end": 635.8,
+            "text": " That is, this is the money that will be left after buying the apple.  My budget is in my pocket.  Suppose I have 10 apples.  Suppose I have 10 apples.  And I have 200 rupees in my pocket."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 635.8,
+            "end": 645.8,
+            "text": " So 190 is left in my pocket.  If it is greater than as long as 50.  I will buy the apples.  But.  But if."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 645.8,
+            "end": 655.8,
+            "text": " Budget minus apple price.  Is greater than 20.  If it is greater than 20.  Or greater than 70.  Then what I will do."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 655.8,
+            "end": 665.8,
+            "text": " I will print.  It's ok you can buy.  Now I am printing.  If I run it.  Then you see that it is 190."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 665.8,
+            "end": 675.8,
+            "text": " In fact, I have to run it from shell.  Python if else.py.  Add 1 kg apples to the cart.  So what happened that this condition came true.  So it executed it."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 675.8,
+            "end": 685.8,
+            "text": " If this condition came false.  Then it would have checked it.  Let me change the example.  And take a good example.  So what I will do."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 685.8,
+            "end": 695.8,
+            "text": " I will revert the program.  And I will copy it.  And take a good example of elif statements.  So here.  If else statements."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 695.8,
+            "end": 705.8,
+            "text": " Along with if else.  So I will copy it.  And I will make a program with the name of elif.py.  Ok.  So you can see here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 705.8,
+            "end": 715.8,
+            "text": " A program is made with the name of elif.py.  Num value is 0.  Let's take the value of num from the user.  And enter the value.  Enter the value of num."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 715.8,
+            "end": 725.8,
+            "text": " I have done something like this.  If num is less than 0.  Then number is negative.  If it is equal to 0.  Then it is positive."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 725.8,
+            "end": 735.8,
+            "text": " And if I run it.  I will write python.  And I will write elif.py.  And it will run.  Enter the value of num."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 735.8,
+            "end": 745.8,
+            "text": " I will run this program again.  And I will write minus 8.  Number is negative.  And if I give 0.  How does this work?"
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 745.8,
+            "end": 755.8,
+            "text": " First check the condition of if.  If it is true.  Then only one of these three will be executed.  Which is if.  If condition of if is true."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 755.8,
+            "end": 765.8,
+            "text": " But if this condition is not true.  Then it will go to the condition of elif.  And will try to match it.  If there was another elif.  Then it would also try to check it."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 765.8,
+            "end": 775.8,
+            "text": " If num is equal to.  Minus 9999.  Ok.  Suppose it is minus 9999.  Or I will write plus 9999."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 775.8,
+            "end": 785.8,
+            "text": " Because if it is minus 9999.  Then my if will stop here.  Suppose I do this.  Else number is positive.  Now let's run this."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 785.8,
+            "end": 795.8,
+            "text": " And see if I do 9999.  Then number is special.  So how does this work?  Now see here it starts with if.  It will check the condition of if."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 795.8,
+            "end": 805.8,
+            "text": " If the condition of if is true.  Then it will jump from here to here.  Suppose I write here.  I am happy now.  So this program will be happy."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 805.8,
+            "end": 815.8,
+            "text": " It will say that I wanted to match this condition.  I got it.  And once its condition is matched.  Then it is so greedy that it does not even look at the rest of the people.  If its work is done."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 815.8,
+            "end": 825.8,
+            "text": " Then it will not get it.  It should only work.  First it will go to the if.  It will say that if condition match.  If will say no I did not do it."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 825.8,
+            "end": 835.8,
+            "text": " My condition is written as less than zero.  You are 9999.  Then it will say.  Equal to equal to zero.  Please match my condition."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 835.8,
+            "end": 845.8,
+            "text": " It will say no I am equal to equal to zero.  I can not match your condition.  Then it will come here.  It will say that condition is matching.  What is the condition?"
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 845.8,
+            "end": 855.8,
+            "text": " Double equal to 9999.  And it is matching.  Because it is matching.  It will not go to the else.  It will jump directly here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 855.8,
+            "end": 865.8,
+            "text": " It is jumping here.  I am happy now.  I will get to see.  You will get to see the code inside it.  And I am happy now."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 865.8,
+            "end": 875.8,
+            "text": " Whatever is executed.  Enter the value of number.  Number is positive.  Enter the value of number.  Minus 9."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 875.8,
+            "end": 885.8,
+            "text": " Number is negative.  I am happy now.  I am happy now.  This if else ladder.  There is no meaning."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 885.8,
+            "end": 895.8,
+            "text": " There is no meaning.  If, else, alif, alif.  I can put alif.  And it will check.  Till condition matches."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 895.8,
+            "end": 905.8,
+            "text": " This is how it works.  I hope you understood.  After this I will make a program.  Nested.  I will rename it."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 905.8,
+            "end": 915.8,
+            "text": " Rename.  I will correct the spelling.  Python's keyword.  Program should not be made in their name.  I will rename it."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 915.8,
+            "end": 925.8,
+            "text": " Myif.py.  Because if is a keyword in Python.  I don't want the keyword to clash.  Or the name of the file to clash.  There is a very classic error in Python."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 925.8,
+            "end": 935.8,
+            "text": " In which what happens.  If you make a file in the name of the module.  It does not look in the module.  It looks in your file.  So whenever you work with a module."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 935.8,
+            "end": 945.8,
+            "text": " Like flask, django, flask.py.  Do not make a program.  I hope you understood.  I made it myif.  Then I made alif."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 945.8,
+            "end": 955.8,
+            "text": " I will make it better.  I will rename it.  Myalif.  Myalif.  In fact this program."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 955.8,
+            "end": 965.8,
+            "text": " And this program.  I will rename it.  02.  For your convenience.  So that you get."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 965.8,
+            "end": 977.8,
+            "text": " Which program you have to run first.  I will make a 04.  And its name will be nested.py.  I made this program in the name of nested.py.  Now what I will do."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 977.8,
+            "end": 987.8,
+            "text": " I will make you about nested iffile statements.  Nested iffile statement is nothing.  You have put an if in an if.  And you can do this 10-50 times.  Let me explain."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 987.8,
+            "end": 997.8,
+            "text": " What we have written here.  Num is equal to 18.  If num is less than 0.  Then it will execute this code.  If on this level of indent."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 997.8,
+            "end": 1007.8,
+            "text": " Now understand the concept of level of indent.  This is one level of indent.  Okay.  Assume num less than 0 which is not.  So it will go to alif."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1007.8,
+            "end": 1017.8,
+            "text": " Is num greater than 0?  Yes, num is actually equal to 18.  Which is greater than 0.  So it will go to alif.  It will evaluate it."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1017.8,
+            "end": 1029.8,
+            "text": " Then it will get an iffile letter again.  It will evaluate it.  So if num is less than or equal to 10.  Is num greater than 10 and less than or equal to 20?  Yes, that's true."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1029.8,
+            "end": 1039.8,
+            "text": " So it will go to this.  So this is the second level of indent.  One indent was of this alif.  Now it is in the alif inside this alif.  Okay."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1039.8,
+            "end": 1049.8,
+            "text": " So this way you have to evaluate your programs.  So it will print this.  Num is between 11 to 20.  And after this it will not go to else.  And after this it will not go to this else."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1049.8,
+            "end": 1059.8,
+            "text": " This was the else of this if.  And this else was of this if.  I hope you are understanding.  Now I will run this program.  And I will show you."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1059.8,
+            "end": 1069.8,
+            "text": " 04 underscore nested 04 tab.  By the way I can complete it with tab.  If you can't see.  Then I will take myself here.  I have come here."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1069.8,
+            "end": 1079.8,
+            "text": " Now you can see.  In fact I will come up here.  I am looking fine here.  Now you can see here I have made 04.  Nested.py"
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1079.8,
+            "end": 1089.8,
+            "text": " And see the number is between 11 to 20.  It came here.  I hope you are happy now.  Now you understand.  How this fell self works."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1089.8,
+            "end": 1099.8,
+            "text": " Now even if someone says to me.  We did not understand what is the output.  How does it work.  I would like to tell you that you need to practice.  And practice every topic."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1099.8,
+            "end": 1109.8,
+            "text": " Make some programs.  Solve the coming exercises.  And stay in the course.  No topic is understood.  Watch it again."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1109.8,
+            "end": 1119.8,
+            "text": " If you have to watch it 10 times.  It is worth it.  As long as you understand.  It doesn't matter.  You have seen 10 times."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1119.8,
+            "end": 1129.8,
+            "text": " You have written 100 programs.  It doesn't matter.  Do whatever it takes.  If you have successfully.  Made a website."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1129.8,
+            "end": 1139.8,
+            "text": " You have to do machine learning.  You have become a job ready.  So nobody is going to ask you.  How many times you have written a program.  I hope you understand this thing."
+        },
+        {
+            "number": "014 ",
+            "title": "If Else Conditional Statements in Python",
+            "start": 1139.8,
+            "end": 1147.8,
+            "text": " If you have not accessed the playlist.  Then do it.  Thank you so much for watching this video.  I will see you next time."
+        }
+    ],
+    "text": " Do you remember when it used to rain in our childhood, we used to say that if it rains then we will not go to school. And if it does not rain then we will go to school. In this way, we used to make a decision. We make a lot of decisions in our life. For example, if I am tired then I will not go out to roam. And if I am not tired then I will go out to roam. So this kind of decision making goes on that if you are hungry then order food. If you are not hungry then don't order. If you are hungry and have money in your pocket then order food. Otherwise, control your hunger. Make something at home and eat. So this kind of decision making goes on in our daily life. In our Python programming also to do this kind of decision making, there are if else statements. We can use if, we can use elif, we can use else. How to use all these conditionals in Python programming, I will tell you today. Let's go to the computer screen and let's get started. So guys, I will open my rappel. First of all, it is of day 14. And as you can see here, today's topic is if else statement. Many times in the program, it happens that according to a condition, I will do some work. For example, let's say I take an input from the user. And I say, by the way, I can write int input like this. To take an input as an integer. Because you know that whatever comes from the input, it comes as a string. And if I want to take it in an integer, then I can use the int function. I can do typecasting of these. Suppose I say enter your age. And I am bringing the user's age in A. And I do something like this. Your age is and I will put a comma in some way and print its age. After this, I can display it conditionally if its age is more than 18. That you can drive or you can not drive. One of the two things is fine. Assume that its age is greater than 18. So I will tell him that what you do, I will put a colon like this. I will enter and after this I will say that you can drive. And after this, see I will write the program first. After that, I will explain to you one by one what is what, what space is given, what is indentation. You can not drive. Suppose I wrote 9 in enter your age. Your age is 9. I am running the program again with these two if else statements. If I wrote 9 and hit enter, then see you can not drive. But if I write 90 or 78. The program has not run yet. If I write 78. In fact, I have given a very big number. I wrote 76, your age is 76. You can drive. I will give a little space here. So based on input, we have determined here that a person can drive or not. And now I would like to come here, the tutorial I have written. Sometimes the program needs to check the evaluation of a certain expression. Whether the expression evaluates to true or false. Now what happens is that these are our conditional operators. Greater than, less than, equal to, greater than, double equals to, greater than, equal to. Equal to is not a conditional operator. If I want to check the equality, then I will do it with double equal to. First of all, I tell you about the conditional operators. I tell you about the conditional operators. Greater than, less than, greater than or equal to, less than or equal to. And after this, double equal to means equal to. It checks whether two numbers are equal or not. So I will show you an example. I will just print a is greater than 18. And I will just print a is less than or equal to 18. And after this I will print a is double equal to 18. And after this I will print a is not equal to 18. This not equal to is also our conditional operator. Now I will print this. Now I am taking the age dynamically as an input from the user. Suppose I want to keep the age 18. I have kept the age 18. So you see what will happen. Is age greater than 18? No, it is not greater than 18. Even if it is 18. If it is 18, then greater than 18 will not be true. After this, you see less than equal to 18. Is less than equal to 18? Yes, it is 18. Where is less than or equal to? It is also fine if less than or equal to. So this will evaluate to true. Is age equal to 18? Exactly equal to 18. Yes, that's true. So true is printed here. This is our Boolean type return. a is less than equal to greater than equal to double equal to. a is greater than 18. This is our Boolean type return. a is not equal to 18. Is this true? No, this is not true. a is actually equal to 18. So these are our conditional operators. I will comment this out. I hope you understood. Our if statement takes the conditional operator. That is, a condition which will be evaluated in true or false. It looks at that. And after seeing, if this thing is true. That is, if age is greater than 18. Then this block of code prints. And if this is not true, then this block of code prints. But it will never print both together. Either it will go inside if or else. It will go inside one of these two. Now you must be thinking what is this colon? And why have I given this space? Why can't we remove this space? Now see, as soon as I removed the space, I got to see the error here. This space is called indentation in Python. And modern IDEs, whether you use VS code. You use PyCharm. You are also using Raplet. If you hit enter, then automatically this space will give you. This space is called indentation in Python. Indentation means that you people are starting a block. If you are coming from C language, then you understand something like this. We do not use curly brackets here. We only tell by spaces here. By putting a colon that we have entered this block. Here after if we put a colon. And after that we have given a space. That is, we have entered inside this if. I will hit enter here. If I write print yes, then we are still inside if. If I print no here. Then we are still inside else. Because we started inside else. This is inside else. This is inside else. Now you people tell me by commenting. Is this inside else? Is this inside else? No, it is inside else. So if the code inside else is being evaluated. This code is being executed. After that, you people will get this thing printed. If not, then also it will be printed. That is, whether the code inside else is being executed or not. This has no meaning. This code will always be executed. I will do it and show. See if age is greater than 18. Once I take greater than 18 age. Suppose I take 48. Will this print for age 48? Yes it will. Because it has no meaning from if or else. This is our written statement. So see you people are printing the code inside else. Sorry, the code inside if is being printed. Because it is greater than 18. You can drive and yes. And after that you see this is also being printed. But if I take an age like this. Suppose I take 8. Which is less than 18 obviously. Then if I run it, then see. 9 was also printed and this was also printed. But if I put this inside. Else statement. Then you people see that this has become a part of else. Because I have given an indentation here. I will not call it space. Now remember I will say indentation. Then when I say indentation, you understand who I am talking about. I have entered the else block. I have entered the else block. Okay. And because I have entered the else block. That's why now if age. If not greater than 18. Then this will be printed. But if I put greater than 18 age. Then this will not be printed. You see for 78. For 78 age you see here. Yes is being printed. This is not being printed because this is now a part of else. The way we saw the if else statement. Similarly we have an else if statement. Okay. We also have a nested if else. So I will talk about everyone in this video. For you people. I have written everything. If evaluate is true. Otherwise it will go inside else. I have written a simple thing. Let's do one thing. Let's make a new file in repl. I was working with only one file. But now I will make files. I will make a file named if else. I have made a file named if else.py. I will copy it. I will paste it here and run it. What is being said here. Apple's price is 200. Budget is 200. In fact, I have run the main. In fact, this template of python. In this, the main.py file is running. So what will I do. Here. I will do one thing. I want to open shell. I will write here. Python if else.py. If else.py. Alexa do not add apples to the card. I can see it here. Why can I see it now. I will put the shell here. Why can I see it now. The price was 210. And after this, you see here. Budget was 200. If the budget is smaller than the price. So obviously. If the budget is bigger than the price. I can buy it. I am saying Alexa add 1 kg apples to the card. Otherwise I am saying do not add. Here I have used if else. A very simple example. We took here. So we will move forward. Now we will see about the elif statement. Suppose I have to execute more than one statement. Based on certain conditions. Suppose. If the budget is 200. And the price is 210. So this budget is very close. So I may not want to buy. 200 rupees apples. If apples are also 190. I will do 190. So I may not want to buy. So I will do one thing. If the apple price is less than or equal to the budget. And along with that. I want to check. Or I will say. Budget minus apple price. So basically what I am doing here. Budget minus apple price. Is greater than. Suppose I have money. I have 20,000 rupees. And the apple is 190. So it does not make any difference. If I have the remaining money. That is, this is the money that will be left after buying the apple. My budget is in my pocket. Suppose I have 10 apples. Suppose I have 10 apples. And I have 200 rupees in my pocket. So 190 is left in my pocket. If it is greater than as long as 50. I will buy the apples. But. But if. Budget minus apple price. Is greater than 20. If it is greater than 20. Or greater than 70. Then what I will do. I will print. It's ok you can buy. Now I am printing. If I run it. Then you see that it is 190. In fact, I have to run it from shell. Python if else.py. Add 1 kg apples to the cart. So what happened that this condition came true. So it executed it. If this condition came false. Then it would have checked it. Let me change the example. And take a good example. So what I will do. I will revert the program. And I will copy it. And take a good example of elif statements. So here. If else statements. Along with if else. So I will copy it. And I will make a program with the name of elif.py. Ok. So you can see here. A program is made with the name of elif.py. Num value is 0. Let's take the value of num from the user. And enter the value. Enter the value of num. I have done something like this. If num is less than 0. Then number is negative. If it is equal to 0. Then it is positive. And if I run it. I will write python. And I will write elif.py. And it will run. Enter the value of num. I will run this program again. And I will write minus 8. Number is negative. And if I give 0. How does this work? First check the condition of if. If it is true. Then only one of these three will be executed. Which is if. If condition of if is true. But if this condition is not true. Then it will go to the condition of elif. And will try to match it. If there was another elif. Then it would also try to check it. If num is equal to. Minus 9999. Ok. Suppose it is minus 9999. Or I will write plus 9999. Because if it is minus 9999. Then my if will stop here. Suppose I do this. Else number is positive. Now let's run this. And see if I do 9999. Then number is special. So how does this work? Now see here it starts with if. It will check the condition of if. If the condition of if is true. Then it will jump from here to here. Suppose I write here. I am happy now. So this program will be happy. It will say that I wanted to match this condition. I got it. And once its condition is matched. Then it is so greedy that it does not even look at the rest of the people. If its work is done. Then it will not get it. It should only work. First it will go to the if. It will say that if condition match. If will say no I did not do it. My condition is written as less than zero. You are 9999. Then it will say. Equal to equal to zero. Please match my condition. It will say no I am equal to equal to zero. I can not match your condition. Then it will come here. It will say that condition is matching. What is the condition? Double equal to 9999. And it is matching. Because it is matching. It will not go to the else. It will jump directly here. It is jumping here. I am happy now. I will get to see. You will get to see the code inside it. And I am happy now. Whatever is executed. Enter the value of number. Number is positive. Enter the value of number. Minus 9. Number is negative. I am happy now. I am happy now. This if else ladder. There is no meaning. There is no meaning. If, else, alif, alif. I can put alif. And it will check. Till condition matches. This is how it works. I hope you understood. After this I will make a program. Nested. I will rename it. Rename. I will correct the spelling. Python's keyword. Program should not be made in their name. I will rename it. Myif.py. Because if is a keyword in Python. I don't want the keyword to clash. Or the name of the file to clash. There is a very classic error in Python. In which what happens. If you make a file in the name of the module. It does not look in the module. It looks in your file. So whenever you work with a module. Like flask, django, flask.py. Do not make a program. I hope you understood. I made it myif. Then I made alif. I will make it better. I will rename it. Myalif. Myalif. In fact this program. And this program. I will rename it. 02. For your convenience. So that you get. Which program you have to run first. I will make a 04. And its name will be nested.py. I made this program in the name of nested.py. Now what I will do. I will make you about nested iffile statements. Nested iffile statement is nothing. You have put an if in an if. And you can do this 10-50 times. Let me explain. What we have written here. Num is equal to 18. If num is less than 0. Then it will execute this code. If on this level of indent. Now understand the concept of level of indent. This is one level of indent. Okay. Assume num less than 0 which is not. So it will go to alif. Is num greater than 0? Yes, num is actually equal to 18. Which is greater than 0. So it will go to alif. It will evaluate it. Then it will get an iffile letter again. It will evaluate it. So if num is less than or equal to 10. Is num greater than 10 and less than or equal to 20? Yes, that's true. So it will go to this. So this is the second level of indent. One indent was of this alif. Now it is in the alif inside this alif. Okay. So this way you have to evaluate your programs. So it will print this. Num is between 11 to 20. And after this it will not go to else. And after this it will not go to this else. This was the else of this if. And this else was of this if. I hope you are understanding. Now I will run this program. And I will show you. 04 underscore nested 04 tab. By the way I can complete it with tab. If you can't see. Then I will take myself here. I have come here. Now you can see. In fact I will come up here. I am looking fine here. Now you can see here I have made 04. Nested.py And see the number is between 11 to 20. It came here. I hope you are happy now. Now you understand. How this fell self works. Now even if someone says to me. We did not understand what is the output. How does it work. I would like to tell you that you need to practice. And practice every topic. Make some programs. Solve the coming exercises. And stay in the course. No topic is understood. Watch it again. If you have to watch it 10 times. It is worth it. As long as you understand. It doesn't matter. You have seen 10 times. You have written 100 programs. It doesn't matter. Do whatever it takes. If you have successfully. Made a website. You have to do machine learning. You have become a job ready. So nobody is going to ask you. How many times you have written a program. I hope you understand this thing. If you have not accessed the playlist. Then do it. Thank you so much for watching this video. I will see you next time."
+}

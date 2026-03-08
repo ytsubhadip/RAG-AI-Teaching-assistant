@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 0.0,
+            "end": 14.6,
+            "text": " In Python programming, we saw for loops.  But do you know that you can use else with for loop?  Today's video is about this.  Let's go to the computer screen and see how to use the else statement with for loop.  Let's get started."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 23.92,
+            "end": 40.64,
+            "text": " In many interviews, people are trapped.  They are asked if else can be used with only if.  Can else be used with for or while loops?  The answer is yes.  So I want to show you a quick demo of this."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 40.64,
+            "end": 59.56,
+            "text": " We can use else with for loop.  The simple thing is that if I write for i in range 5  and if I write print i after colon  and then I write else and I print  sorry no i and I run it."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 59.56,
+            "end": 70.36,
+            "text": " If the control is not able to go inside the for loop,  then it will go inside the else.  This is the general thing.  And that's about it.  If we write i in range 5,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 70.36,
+            "end": 83.84,
+            "text": " then it goes from 0 to 4.  You and everyone in the world know this.  But after 0, 1, 2, 3, 4,  the value of i cannot be 5  because we know that range works from 0 to n-1."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 83.84,
+            "end": 97.44,
+            "text": " So in this case, else will be executed after that.  If I write here for i in an empty list,  I gave an empty list.  There is nothing in it.  So it is obvious that it will go inside else"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 97.44,
+            "end": 109.64,
+            "text": " and it will give me sorry no i.  So we can use else with for loop.  So here I have written this thing.  As you have learned before,  the else clause is used along with the if statement."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 109.64,
+            "end": 122.04,
+            "text": " Else clause is used along with the if statement.  Python allows the else keyword to be used with the for loops  and while loops as well.  You can use the else keyword with while loops as well.  The else block appears after the body of the loop."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 122.04,
+            "end": 136.24,
+            "text": " The statements in the else block will be executed  after all iterations are completed.  The program exits the loop only after the else block is executed.  That means if you are running a for loop or a while loop,  then at the end when all the values are finished,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 136.44,
+            "end": 152.84,
+            "text": " then your else will be executed.  However, I will ask you a question.  This question is especially for those who think it is very easy.  If I write here if i equals to equals to 0 break,  you tell me,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 152.84,
+            "end": 167.83999999999997,
+            "text": " I will do one thing, I will move the print i up a little.  If i equals to equals to, let's do one thing,  let's do 4 and I will arrange it again.  And I will arrange 6.  If I am breaking this for loop after 4,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 167.83999999999997,
+            "end": 184.64,
+            "text": " or if it was a while loop and I would break it,  then you tell me whether the content inside the else will be executed or not.  If you think it is easy, then tell me in the comment section below.  Some of you must be thinking that it is very easy  that you can use else with for loop and else with while loop."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 184.64,
+            "end": 201.04,
+            "text": " I am pausing for you, you tell me in the comment section below.  I hope you commented and I will run it and show you.  The answer is it does not execute.  So, the meaning of else being executed is that  the loop did not break, the loop has ended."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 201.04,
+            "end": 217.44,
+            "text": " One more time, the loop did not break, the loop has ended.  It has ended successfully.  And its last value has reached there.  And now it has ended, the last value has been processed,  the last iteration has been processed."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 217.44,
+            "end": 229.04,
+            "text": " That's why the content of else is being printed.  This was very important here.  Super important.  And it is asked in interview questions.  Many people come to me, they do machine learning in python,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 229.04,
+            "end": 243.64,
+            "text": " they do data science, they remember the syntax of pandas,  where do they get stuck in the end? In else.  How do you use else with loop?  The interviewer asks and the question is that the loop has been broken.  Tell me whether the content inside else will be printed or not."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 243.64,
+            "end": 257.24,
+            "text": " And they get stuck there.  And it happens.  If it is not with you, then take care.  The same thing can be done with while loop.  If this loop while i is less than 7,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 257.24,
+            "end": 266.84,
+            "text": " and I make it i is equal to 0,  and I make it i plus plus,  i plus 1,  it is exactly the same thing.  Okay?"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 266.84,
+            "end": 282.44,
+            "text": " I forgot to put colon.  And don't forget to put indentation.  If I do exactly the same thing, then sorry, no i print will not happen.  And if I don't break it, then what will happen?  Then it will be printed."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 282.44,
+            "end": 292.04,
+            "text": " So you see, sorry, no i print is done.  It went from 0 to 6.  So you have to keep this thing in mind.  And exactly the same thing I have told you and you have told me.  And I have used dot format,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 292.04,
+            "end": 301.44,
+            "text": " which I told you in the chapter on string formatting.  Okay?  So if you want, you can run this program too.  And if you run this,  then you will get to see this."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 301.44,
+            "end": 311.64,
+            "text": " Iteration number 1 in for loop,  and then at the end else block in loop.  That is, this thing went on.  When all your iterations of for loop are over.  And at the end, out of loop,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 311.64,
+            "end": 320.64,
+            "text": " which is printed, you can see it.  Okay?  I hope you understood.  And you will never get stuck with else.  Whatever kind of loop you get,"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 320.64,
+            "end": 327.64,
+            "text": " you will never get stuck with else.  I hope so.  That's all for now.  Guys, if you have not accessed the playlist yet,  then do access it."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 327.64,
+            "end": 339.24,
+            "text": " And I would like to make a request to everyone  that put a comment in the video of day 1.  Put your review that how did you like this course?  You can write by reviewing that,  I have seen 35 videos of this course."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 339.24,
+            "end": 349.84,
+            "text": " And according to watching 35 videos,  I am telling you how did you like this thing?  You can give me rating.  How many stars out of 5 do you want to give this course?  Why do you want to give?"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 349.84,
+            "end": 357.64,
+            "text": " What are the pros and cons?  Write in the first video,  so that when a new person comes to see this course,  then I want him to see that review  and he will be able to take a good decision for himself"
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 357.64,
+            "end": 367.24,
+            "text": " that whether he wants to watch this course or not.  Okay?  I am not expecting that you go and write a good comment.  But I want you to keep the reality in front of people.  So go and give a review in the first video."
+        },
+        {
+            "number": "035 ",
+            "title": "for Loop with else in Python",
+            "start": 367.24,
+            "end": 373.84,
+            "text": " That's it for now, guys.  Thank you so much guys for watching this video.  And I will see you next time."
+        }
+    ],
+    "text": " In Python programming, we saw for loops. But do you know that you can use else with for loop? Today's video is about this. Let's go to the computer screen and see how to use the else statement with for loop. Let's get started. In many interviews, people are trapped. They are asked if else can be used with only if. Can else be used with for or while loops? The answer is yes. So I want to show you a quick demo of this. We can use else with for loop. The simple thing is that if I write for i in range 5 and if I write print i after colon and then I write else and I print sorry no i and I run it. If the control is not able to go inside the for loop, then it will go inside the else. This is the general thing. And that's about it. If we write i in range 5, then it goes from 0 to 4. You and everyone in the world know this. But after 0, 1, 2, 3, 4, the value of i cannot be 5 because we know that range works from 0 to n-1. So in this case, else will be executed after that. If I write here for i in an empty list, I gave an empty list. There is nothing in it. So it is obvious that it will go inside else and it will give me sorry no i. So we can use else with for loop. So here I have written this thing. As you have learned before, the else clause is used along with the if statement. Else clause is used along with the if statement. Python allows the else keyword to be used with the for loops and while loops as well. You can use the else keyword with while loops as well. The else block appears after the body of the loop. The statements in the else block will be executed after all iterations are completed. The program exits the loop only after the else block is executed. That means if you are running a for loop or a while loop, then at the end when all the values are finished, then your else will be executed. However, I will ask you a question. This question is especially for those who think it is very easy. If I write here if i equals to equals to 0 break, you tell me, I will do one thing, I will move the print i up a little. If i equals to equals to, let's do one thing, let's do 4 and I will arrange it again. And I will arrange 6. If I am breaking this for loop after 4, or if it was a while loop and I would break it, then you tell me whether the content inside the else will be executed or not. If you think it is easy, then tell me in the comment section below. Some of you must be thinking that it is very easy that you can use else with for loop and else with while loop. I am pausing for you, you tell me in the comment section below. I hope you commented and I will run it and show you. The answer is it does not execute. So, the meaning of else being executed is that the loop did not break, the loop has ended. One more time, the loop did not break, the loop has ended. It has ended successfully. And its last value has reached there. And now it has ended, the last value has been processed, the last iteration has been processed. That's why the content of else is being printed. This was very important here. Super important. And it is asked in interview questions. Many people come to me, they do machine learning in python, they do data science, they remember the syntax of pandas, where do they get stuck in the end? In else. How do you use else with loop? The interviewer asks and the question is that the loop has been broken. Tell me whether the content inside else will be printed or not. And they get stuck there. And it happens. If it is not with you, then take care. The same thing can be done with while loop. If this loop while i is less than 7, and I make it i is equal to 0, and I make it i plus plus, i plus 1, it is exactly the same thing. Okay? I forgot to put colon. And don't forget to put indentation. If I do exactly the same thing, then sorry, no i print will not happen. And if I don't break it, then what will happen? Then it will be printed. So you see, sorry, no i print is done. It went from 0 to 6. So you have to keep this thing in mind. And exactly the same thing I have told you and you have told me. And I have used dot format, which I told you in the chapter on string formatting. Okay? So if you want, you can run this program too. And if you run this, then you will get to see this. Iteration number 1 in for loop, and then at the end else block in loop. That is, this thing went on. When all your iterations of for loop are over. And at the end, out of loop, which is printed, you can see it. Okay? I hope you understood. And you will never get stuck with else. Whatever kind of loop you get, you will never get stuck with else. I hope so. That's all for now. Guys, if you have not accessed the playlist yet, then do access it. And I would like to make a request to everyone that put a comment in the video of day 1. Put your review that how did you like this course? You can write by reviewing that, I have seen 35 videos of this course. And according to watching 35 videos, I am telling you how did you like this thing? You can give me rating. How many stars out of 5 do you want to give this course? Why do you want to give? What are the pros and cons? Write in the first video, so that when a new person comes to see this course, then I want him to see that review and he will be able to take a good decision for himself that whether he wants to watch this course or not. Okay? I am not expecting that you go and write a good comment. But I want you to keep the reality in front of people. So go and give a review in the first video. That's it for now, guys. Thank you so much guys for watching this video. And I will see you next time."
+}

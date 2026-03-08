@@ -1,0 +1,397 @@
+{
+    "chunks": [
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 0.0,
+            "end": 16.4,
+            "text": " In Python, you can make getters and setters.  By which you can use a function's return value  as an object's property and set it.  Now what I said, what is the syntax, how do these things work,  I'll show you by demoing it in this video."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 16.4,
+            "end": 37.68,
+            "text": " Let's go to the video screen and let's get started.  \ud83c\udfb6 Music \ud83c\udfb6  In object-oriented programming, we have getters and setters.  By using both of them, you get a lot of wonderful powers  to write object-oriented programs."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 37.68,
+            "end": 50.879999999999995,
+            "text": " So keeping those wonderful powers in mind,  I am going to teach you this thing today.  So what I will do here, I will close this markdown,  I will close this too and I will open my main.py here  so that we can do coding."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 50.879999999999995,
+            "end": 62.64,
+            "text": " One thing about Raplet is that you can easily  make your screen according to your needs.  I mean, it is made very easily.  Now if you drag it, it goes to the side like butter.  Great, it's fun."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 62.64,
+            "end": 76.76,
+            "text": " Now here you see what getters are and what setters are.  First of all, let's copy this class blindly  because who will type so much, okay?  Life is very easy, okay?  Copy this, paste it here, learn it."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 76.76,
+            "end": 86.04,
+            "text": " Keep the notes here, the video is going down.  Everything is fine.  Now look here, if I make an object of this,  then what will happen? I am not making an object,  I will copy it from here, okay?"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 86.04,
+            "end": 96.76,
+            "text": " I will copy it from here.  If I make an object of this, then what will happen?  Simply, the object will be made.  Let's say I write a method in this, okay?  And you should know at this point that"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 96.76,
+            "end": 107.72,
+            "text": " if you write a method in this,  then you have to give self first.  You have to give self first.  And after this, I will print here  and I will put an f-string here"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 107.72,
+            "end": 123.84,
+            "text": " and I will write something like this, self.value  and after this, I will write  self.value, here it is underscore value actually.  I will say self.underscore value  is, value is"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 123.84,
+            "end": 144.36,
+            "text": " where am I getting confused?  And I will run this method obj.show, okay?  I will run this and after running, you see  after doing obj.show, you see  this is your value is 10, okay?"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 144.36,
+            "end": 158.76000000000002,
+            "text": " Value is 10 is visible here.  Great, okay?  And this method of show, I have called it here.  Now, if I want to use value directly here,  like if I want to do something like this,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 158.76000000000002,
+            "end": 173.36,
+            "text": " obj.value, if I print it like this,  then if I do underscore value,  then this will be printed, okay?  I will show you, I did underscore value,  this will be printed, okay?"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 173.36,
+            "end": 184.36,
+            "text": " Here I will get to see 10  and after that value is 10 will also be seen.  But what if I don't want to print this,  I want to make a property named value,  or I want to make a property named 10x value,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 184.36,
+            "end": 199.36,
+            "text": " which will print 10 times value,  let's say I want to print 10 underscore value  and I want to return 10 multiplied by this value.  After doing a complex calculation,  I want to return this value, I want to give a name to it."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 199.36,
+            "end": 211.36,
+            "text": " I want that when I print 10 underscore value here,  then it will print 10 times value and give me,  so I can put a property decorator.  What will happen by putting a property decorator,  when you will write 10 underscore value here,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 211.36,
+            "end": 221.36,
+            "text": " like this,  then it will become a getter  and you can see here that  I am getting to see 100,  you see, I am getting to see."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 221.36,
+            "end": 231.36,
+            "text": " So what I have done here is  I have made a getter.  Can I do something like this?  Let's say I want to change this.  I want to say that if I want to make it 67,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 231.36,
+            "end": 241.36,
+            "text": " can I do this?  Let's say I run this,  obj.10 underscore value is equal to 67.  No, I can't do this.  I will get an error."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 241.36,
+            "end": 251.36,
+            "text": " It is not the way to set.  So what is the way?  How to make a setter?  The way to make a setter is that  first of all,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 251.36,
+            "end": 261.36,
+            "text": " I will copy this and show you  what is a setter.  So here we used the property at the rate.  Now what I will do is  I will say 10 underscore value dot setter"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 261.36,
+            "end": 271.36,
+            "text": " here I will make a decorator by this name.  After making a decorator by this name,  what I will do is  I will change  this and I will say"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 271.36,
+            "end": 281.36,
+            "text": " that change the self underscore value.  Change it.  What should I change?  I will take  new underscore value."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 281.36,
+            "end": 291.36,
+            "text": " I will say change it to  new underscore value  divided by 10.  Why did I divide it by 10?  If 10 underscore value is 1000,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 291.36,
+            "end": 301.36,
+            "text": " then what will be the value? 100.  So I will divide it by 10.  So I want to do this.  Will I return anything? Absolutely no.  There is no need to return."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 301.36,
+            "end": 311.36,
+            "text": " Now if I  run this function,  run this program,  I should get 10 underscore value  value which is going to be 67."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 311.36,
+            "end": 321.36,
+            "text": " After that,  what will it give me?  It will show me the value.  It will show me the underscore value.  What will it be? 6.7"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 321.36,
+            "end": 331.36,
+            "text": " because I have set the value  new value divided by 10.  Now what is this show method showing me?  It is showing me the value of underscore value.  So it will show me 6.7."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 331.36,
+            "end": 341.36,
+            "text": " So this is the example of getter and setter.  I hope you understood.  Let's see the theory also.  In case you didn't digest what is getter and setter.  Let's make it bigger."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 341.36,
+            "end": 351.36,
+            "text": " Many people are giving me this recommendation.  They are saying to make it bigger.  I know that I am using  Mac for a long time.  I have recently switched to Mac for tutorials."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 351.36,
+            "end": 361.36,
+            "text": " But I am using it for a long time.  Getters and Python are methods that are  used to access the values  of an object's property.  In a way, what we have done is"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 361.36,
+            "end": 371.36,
+            "text": " we are making a new method  like a property.  I have made a new method 10 underscore value.  I have made a method.  I have made it feel like a property."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 371.36,
+            "end": 381.36,
+            "text": " I was able to print it  as a property.  I was able to print it.  But as soon as I tried to set it, I couldn't.  So if you have put a property decorator,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 381.36,
+            "end": 391.36,
+            "text": " then you can make a getter.  This function  will work as a getter.  It will show you  10 underscore value"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 391.36,
+            "end": 401.36,
+            "text": " in a way  that you will feel that it is a property.  But what is this? This is actually a method.  It is hidden.  I have written a very interesting thing here."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 401.36,
+            "end": 411.36,
+            "text": " This is a very  fun way to encapsulate.  The implementation is hidden from you.  And you just need  what you are getting."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 411.36,
+            "end": 421.36,
+            "text": " You need 10 underscore value.  Don't look at the code. Use it.  What happens is that you buy a car.  You use it.  You don't look at the engine."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 421.36,
+            "end": 431.36,
+            "text": " You don't look at the number of wires.  You don't look at the implementation.  You don't look at the number of mm wires.  You just use it.  This is the same thing in object-oriented programming."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 431.36,
+            "end": 441.36,
+            "text": " My class is now ready. Use it.  If there is any problem, get it repaired.  Bring it to the service center.  The programmer will repair it.  This is how it works."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 441.36,
+            "end": 451.36,
+            "text": " First, we made a getter.  Then we said that we also need to set it.  We want to set it.  We said that if you want to set it,  you can make a setter."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 451.36,
+            "end": 461.36,
+            "text": " Don't think about how the decorator  is working. Don't trace it in your mind.  Just for now  memorize it.  By applying the add the rate property,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 461.36,
+            "end": 471.36,
+            "text": " the method becomes that property.  And by writing the name of the method  and the property,  it sets the values.  Now definitely"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 471.36,
+            "end": 481.36,
+            "text": " you want to set the value  which is already there.  I did it with underscore value.  Because everything is happening with underscore value.  The value of 10 underscore value"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 481.36,
+            "end": 491.36,
+            "text": " is also derived from underscore value.  So when I set it, I will not set 10 underscore value.  I will set underscore value  by which the value of 10 underscore value  is derived."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 491.36,
+            "end": 501.36,
+            "text": " So this is the getter.  This is the setter.  I hope you understood.  And definitely read it out.  I don't want to read out the same thing in every video."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 501.36,
+            "end": 511.36,
+            "text": " I am giving the explanation in the video.  The only thing is that you read out the notes.  Because sometimes if something is missed  or I am also a human,  something happens that I forgot to tell in the video."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 511.36,
+            "end": 521.36,
+            "text": " Some small thing.  95 to 99 percent of the time it will not happen.  But if 1 percent to 4 percent  happens, then what will you do?  If you read it,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 521.36,
+            "end": 531.36,
+            "text": " you will also know that thing which  I may have added in the future after making the video.  Maybe a new feature will come.  I will give all the updates here.  Suppose some method stops working after 10 years."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 531.36,
+            "end": 541.36,
+            "text": " Suppose an update comes in Python.  I am giving an example.  I will write an update here.  This is the idea of coming to this system.  The video is running below."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 541.36,
+            "end": 551.36,
+            "text": " You are getting to see the tutorial.  According to me, it is a very good learning experience.  Rest, where you have to code, how to do it,  you can do it in your hands.  So I hope you understood"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 551.36,
+            "end": 561.36,
+            "text": " what is getter and setter.  And this property decorator  and this property name  and setter decorator, how to use it.  So these are two decorators."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 561.36,
+            "end": 571.36,
+            "text": " Just put this and keep the name of the same function.  Whatever property you want to make,  your work will be done.  I hope you understood.  If you have not accessed the playlist yet,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 571.36,
+            "end": 581.36,
+            "text": " do access this playlist.  And please write a review for me in the first video.  My humble request to you all.  Write a review here.  And many people wrote a review."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 581.36,
+            "end": 591.36,
+            "text": " Thank you so much.  This will help all those children  who are going to come and start this course.  If you have not written your review,  then you must write your review here."
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 591.36,
+            "end": 601.36,
+            "text": " Please, I request you.  Write your review.  Go to this playlist.  I know it will take some time for you.  But if you give me this time,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 601.36,
+            "end": 611.36,
+            "text": " I will feel very good.  First video to open.  Write a comment.  Whatever you think,  based on these 60 videos,"
+        },
+        {
+            "number": "060 ",
+            "title": "Getters and Setters in Python",
+            "start": 611.36,
+            "end": 617.36,
+            "text": " which is 100 days of code,  60% you have seen the course.  I will see you next time."
+        }
+    ],
+    "text": " In Python, you can make getters and setters. By which you can use a function's return value as an object's property and set it. Now what I said, what is the syntax, how do these things work, I'll show you by demoing it in this video. Let's go to the video screen and let's get started. \ud83c\udfb6 Music \ud83c\udfb6 In object-oriented programming, we have getters and setters. By using both of them, you get a lot of wonderful powers to write object-oriented programs. So keeping those wonderful powers in mind, I am going to teach you this thing today. So what I will do here, I will close this markdown, I will close this too and I will open my main.py here so that we can do coding. One thing about Raplet is that you can easily make your screen according to your needs. I mean, it is made very easily. Now if you drag it, it goes to the side like butter. Great, it's fun. Now here you see what getters are and what setters are. First of all, let's copy this class blindly because who will type so much, okay? Life is very easy, okay? Copy this, paste it here, learn it. Keep the notes here, the video is going down. Everything is fine. Now look here, if I make an object of this, then what will happen? I am not making an object, I will copy it from here, okay? I will copy it from here. If I make an object of this, then what will happen? Simply, the object will be made. Let's say I write a method in this, okay? And you should know at this point that if you write a method in this, then you have to give self first. You have to give self first. And after this, I will print here and I will put an f-string here and I will write something like this, self.value and after this, I will write self.value, here it is underscore value actually. I will say self.underscore value is, value is where am I getting confused? And I will run this method obj.show, okay? I will run this and after running, you see after doing obj.show, you see this is your value is 10, okay? Value is 10 is visible here. Great, okay? And this method of show, I have called it here. Now, if I want to use value directly here, like if I want to do something like this, obj.value, if I print it like this, then if I do underscore value, then this will be printed, okay? I will show you, I did underscore value, this will be printed, okay? Here I will get to see 10 and after that value is 10 will also be seen. But what if I don't want to print this, I want to make a property named value, or I want to make a property named 10x value, which will print 10 times value, let's say I want to print 10 underscore value and I want to return 10 multiplied by this value. After doing a complex calculation, I want to return this value, I want to give a name to it. I want that when I print 10 underscore value here, then it will print 10 times value and give me, so I can put a property decorator. What will happen by putting a property decorator, when you will write 10 underscore value here, like this, then it will become a getter and you can see here that I am getting to see 100, you see, I am getting to see. So what I have done here is I have made a getter. Can I do something like this? Let's say I want to change this. I want to say that if I want to make it 67, can I do this? Let's say I run this, obj.10 underscore value is equal to 67. No, I can't do this. I will get an error. It is not the way to set. So what is the way? How to make a setter? The way to make a setter is that first of all, I will copy this and show you what is a setter. So here we used the property at the rate. Now what I will do is I will say 10 underscore value dot setter here I will make a decorator by this name. After making a decorator by this name, what I will do is I will change this and I will say that change the self underscore value. Change it. What should I change? I will take new underscore value. I will say change it to new underscore value divided by 10. Why did I divide it by 10? If 10 underscore value is 1000, then what will be the value? 100. So I will divide it by 10. So I want to do this. Will I return anything? Absolutely no. There is no need to return. Now if I run this function, run this program, I should get 10 underscore value value which is going to be 67. After that, what will it give me? It will show me the value. It will show me the underscore value. What will it be? 6.7 because I have set the value new value divided by 10. Now what is this show method showing me? It is showing me the value of underscore value. So it will show me 6.7. So this is the example of getter and setter. I hope you understood. Let's see the theory also. In case you didn't digest what is getter and setter. Let's make it bigger. Many people are giving me this recommendation. They are saying to make it bigger. I know that I am using Mac for a long time. I have recently switched to Mac for tutorials. But I am using it for a long time. Getters and Python are methods that are used to access the values of an object's property. In a way, what we have done is we are making a new method like a property. I have made a new method 10 underscore value. I have made a method. I have made it feel like a property. I was able to print it as a property. I was able to print it. But as soon as I tried to set it, I couldn't. So if you have put a property decorator, then you can make a getter. This function will work as a getter. It will show you 10 underscore value in a way that you will feel that it is a property. But what is this? This is actually a method. It is hidden. I have written a very interesting thing here. This is a very fun way to encapsulate. The implementation is hidden from you. And you just need what you are getting. You need 10 underscore value. Don't look at the code. Use it. What happens is that you buy a car. You use it. You don't look at the engine. You don't look at the number of wires. You don't look at the implementation. You don't look at the number of mm wires. You just use it. This is the same thing in object-oriented programming. My class is now ready. Use it. If there is any problem, get it repaired. Bring it to the service center. The programmer will repair it. This is how it works. First, we made a getter. Then we said that we also need to set it. We want to set it. We said that if you want to set it, you can make a setter. Don't think about how the decorator is working. Don't trace it in your mind. Just for now memorize it. By applying the add the rate property, the method becomes that property. And by writing the name of the method and the property, it sets the values. Now definitely you want to set the value which is already there. I did it with underscore value. Because everything is happening with underscore value. The value of 10 underscore value is also derived from underscore value. So when I set it, I will not set 10 underscore value. I will set underscore value by which the value of 10 underscore value is derived. So this is the getter. This is the setter. I hope you understood. And definitely read it out. I don't want to read out the same thing in every video. I am giving the explanation in the video. The only thing is that you read out the notes. Because sometimes if something is missed or I am also a human, something happens that I forgot to tell in the video. Some small thing. 95 to 99 percent of the time it will not happen. But if 1 percent to 4 percent happens, then what will you do? If you read it, you will also know that thing which I may have added in the future after making the video. Maybe a new feature will come. I will give all the updates here. Suppose some method stops working after 10 years. Suppose an update comes in Python. I am giving an example. I will write an update here. This is the idea of coming to this system. The video is running below. You are getting to see the tutorial. According to me, it is a very good learning experience. Rest, where you have to code, how to do it, you can do it in your hands. So I hope you understood what is getter and setter. And this property decorator and this property name and setter decorator, how to use it. So these are two decorators. Just put this and keep the name of the same function. Whatever property you want to make, your work will be done. I hope you understood. If you have not accessed the playlist yet, do access this playlist. And please write a review for me in the first video. My humble request to you all. Write a review here. And many people wrote a review. Thank you so much. This will help all those children who are going to come and start this course. If you have not written your review, then you must write your review here. Please, I request you. Write your review. Go to this playlist. I know it will take some time for you. But if you give me this time, I will feel very good. First video to open. Write a comment. Whatever you think, based on these 60 videos, which is 100 days of code, 60% you have seen the course. I will see you next time."
+}

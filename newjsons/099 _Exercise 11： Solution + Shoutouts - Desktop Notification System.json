@@ -1,0 +1,390 @@
+{
+    "chunks": [
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 0.0,
+            "end": 14.0,
+            "text": " I gave you exercise 11  and today I will tell you the solution of exercise 11  what is my way to solve it  and after that I am excited to see your solution  but I am also ready to give you a shoutout"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 14.0,
+            "end": 35.0,
+            "text": " let's go to computer screen and let's get started  music  to solve this exercise 11  where I have to bring the notification  I will show you a natural process"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 35.0,
+            "end": 47.0,
+            "text": " because I am in mac and I know many of you are in windows and linux  so you have to write mac for your operating system  I wrote mac and I will write here  display notification  now you can see here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 47.0,
+            "end": 63.0,
+            "text": " I got a page for display notification  and I got the code for it  now let's see if this thing works or not  now it is saying that this code shows notification  but if you run this code then it will show"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 63.0,
+            "end": 75.0,
+            "text": " and here they have given many variations  so let's see this one  execute after long running program  so I will copy it here  and paste it here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 75.0,
+            "end": 85.0,
+            "text": " now you can see  it is saying that display alert will be done  so let's do one thing  I will write here display alert  and here drink water"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 87.0,
+            "end": 105.0,
+            "text": " and I will write here hey harry drink water  and I will do the same thing from here  I will say hey harry drink water  hey harry drink water  so it showed me this"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 105.0,
+            "end": 117.0,
+            "text": " so I want this  that it will remind me of drink water notification  now how will I do this  now many of you will think how to do this  so I will make a plan here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 117.0,
+            "end": 129.0,
+            "text": " in fact I will make a program  so here  I will write import os  and here I will write os.system  and I have to run this thing"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 130.0,
+            "end": 140.0,
+            "text": " so I will remove sleep2 from here  and I will say what is happening here  it is saying invalid syntax  yes it is saying invalid syntax  because what I have done here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 140.0,
+            "end": 150.0,
+            "text": " that  these double quotes  I have to escape them  so I will do one thing  I will write here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 150.0,
+            "end": 160.0,
+            "text": " command  is equal to  and my command will be  I will use triple quotes  and I will do this"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 160.0,
+            "end": 170.0,
+            "text": " and I think this is correct  can I make fstring like this  I guess I can  but let me check  I will write say"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 170.0,
+            "end": 180.0,
+            "text": " let's do one thing  we don't need to make fstring  we will write here os.system command  let's see if this program works or not  so here I will write python3"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 180.0,
+            "end": 190.0,
+            "text": " and I will paste it here  it is saying  I will see what is the problem here  I copied it here  and here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 190.0,
+            "end": 200.0,
+            "text": " when I will paste it  it is saying  terminated string literal  what is this  let me see what is wrong"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 200.0,
+            "end": 210.0,
+            "text": " I wrote here  I guess I have to write extra here  let me see  what is going on here  let me see"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 210.0,
+            "end": 220.0,
+            "text": " and I will paste it here  and it is saying  looking for matching  so I am having some problem  in running it"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 220.0,
+            "end": 230.0,
+            "text": " let me try it again  I wrote here  display alert hello world  and I will close it with single quote  display alert"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 230.0,
+            "end": 240.0,
+            "text": " let me do one thing  now  here  I will  press ctrl"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 240.0,
+            "end": 250.0,
+            "text": " and exit  so this was my program  os script  let me copy it  and paste it here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 250.0,
+            "end": 260.0,
+            "text": " so this was my program  so what I have to do is  I will do one thing  I will escape it  by writing backslash"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 260.0,
+            "end": 270.0,
+            "text": " here I have written backslash  here I have written backslash  and here  and here  and I will write double quote here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 270.0,
+            "end": 280.0,
+            "text": " and this should be fine  so I will copy it  and one more attempt  to execute it with the help of python  command is equal to"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 280.0,
+            "end": 290.0,
+            "text": " hey harry drink water  awesome, it was fun  so it worked  so I used escape sequence characters  now what I have to do is"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 290.0,
+            "end": 300.0,
+            "text": " here I have to say import time  you can use scheduler  there is task scheduler in windows  you can see it  windows task scheduler"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 300.0,
+            "end": 310.0,
+            "text": " because many people are using windows  so you can make automated task with task scheduler  you can run it every hour  here you can see how to do it  create basic task, when to repeat"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 310.0,
+            "end": 320.0,
+            "text": " what is the trigger, daily, weekly, monthly  one time  you can use task trigger  and show your python program  but for now what we are going to do"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 320.0,
+            "end": 330.0,
+            "text": " we will use an approach  which will do  while true  I will run it  and I will set time.sleep"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 330.0,
+            "end": 340.0,
+            "text": " for one hour  one hour is 3600 seconds  one hour is 3600 seconds  one minute is 60 seconds  one minute is 60 seconds"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 340.0,
+            "end": 350.0,
+            "text": " so I will do one thing  in every 10 seconds  I will write the program to run it  so here  I will write"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 350.0,
+            "end": 360.0,
+            "text": " repeat  interval is equal to  I will write 10  and here I will write  repeat frequency"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 360.0,
+            "end": 370.0,
+            "text": " in seconds  so here  I will write it like this  while true time.sleep  and here I will write"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 370.0,
+            "end": 380.0,
+            "text": " repeat interval  so now if I copy it  program and  run it  so you can see here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 380.0,
+            "end": 390.0,
+            "text": " shift enter  it did once  I did ok  now what it will do here  it will say this thing again after 10 seconds"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 394.0,
+            "end": 404.0,
+            "text": " it said again  now obviously I will not make it  say this in every 10 seconds  I just wanted to show you a demo  I have done ctrl c"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 404.0,
+            "end": 414.0,
+            "text": " I will turn off terminate  so what it will do in every 10 seconds  obviously I will not make it 10 seconds  so it will tell me every hour  but I am telling you again"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 414.0,
+            "end": 424.0,
+            "text": " don't use while true  use cron jobs  or use task scheduler  in windows  now what we will do here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 424.0,
+            "end": 434.0,
+            "text": " we will see who all  solved it  so I have come to the cover page of exercise 11  and here  many people have solved it"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 434.0,
+            "end": 444.0,
+            "text": " and I am going to give a shoutout to all of them  you can see here  I am scrolling down  135 people have solved it  so I will try to give a shoutout to all"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 444.0,
+            "end": 454.0,
+            "text": " big shoutout to mfezan3  Suryansh Kumar, M Rehan  M Zohan, Dheeraj Kumar  Mumtaz 99  Himanshu Kumar"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 454.0,
+            "end": 464.0,
+            "text": " Kodvit Pravar  and  Aai Swatik Mishra  Shridh Malty  Shaurya Koter"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 464.0,
+            "end": 474.0,
+            "text": " and I am going to see everyone's rappel  don't take tension  just keep growing like this  this was our last exercise of this course  so now there will be no exercise of python"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 474.0,
+            "end": 484.0,
+            "text": " in this 100 days of code course  my hand is getting a little hot  that this is the last exercise  last exercise  but again"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 484.0,
+            "end": 494.0,
+            "text": " it feels good that  I have been able to  complete it continuously  so here if I show you  mfezan's rappel"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 494.0,
+            "end": 504.0,
+            "text": " you can see here  he has made a very good detail  he has used  gi.repo  and this is for windows"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 504.0,
+            "end": 514.0,
+            "text": " no, it is for kali linux  wow  mfezan bhai  I don't have kali linux yet  I can't check it"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 514.0,
+            "end": 524.0,
+            "text": " but if you have it, check it  and give feedback to mfezan bhai  Suryansh Kumar's rappel  he has made it for windows  so this is windows only"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 524.0,
+            "end": 534.0,
+            "text": " of Suryansh Kumar  but I can't see it  I don't know why it is happening  it is taking time to load  but big shoutout to Suryansh Kumar"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 534.0,
+            "end": 544.0,
+            "text": " I will give shoutout to others too  I will see everyone's rappel from time  and once we see Suryansh Kumar's rappel  we will end this video  if you have not yet accessed the playlist"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 544.0,
+            "end": 554.0,
+            "text": " of this course  then do access it  and give feedback in the first video  now it is saying set the hours after which you want to drink water  so if I do 1"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 554.0,
+            "end": 564.0,
+            "text": " that I want to drink water after 1 hour  so it is scheduled  and to see its code  I will have to fork  and here"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 564.0,
+            "end": 574.0,
+            "text": " can I see its code without forking  yes I can see  here it is written from player  I have also used player  to give notification on windows"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 574.0,
+            "end": 584.0,
+            "text": " it is very good  it gives work  I hope you are enjoying this course  that's it for now  thank you so much for watching this video"
+        },
+        {
+            "number": "099 ",
+            "title": "Exercise 11\uff1a Solution + Shoutouts - Desktop Notification System",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " and I will see you next time"
+        }
+    ],
+    "text": " I gave you exercise 11 and today I will tell you the solution of exercise 11 what is my way to solve it and after that I am excited to see your solution but I am also ready to give you a shoutout let's go to computer screen and let's get started music to solve this exercise 11 where I have to bring the notification I will show you a natural process because I am in mac and I know many of you are in windows and linux so you have to write mac for your operating system I wrote mac and I will write here display notification now you can see here I got a page for display notification and I got the code for it now let's see if this thing works or not now it is saying that this code shows notification but if you run this code then it will show and here they have given many variations so let's see this one execute after long running program so I will copy it here and paste it here now you can see it is saying that display alert will be done so let's do one thing I will write here display alert and here drink water and I will write here hey harry drink water and I will do the same thing from here I will say hey harry drink water hey harry drink water so it showed me this so I want this that it will remind me of drink water notification now how will I do this now many of you will think how to do this so I will make a plan here in fact I will make a program so here I will write import os and here I will write os.system and I have to run this thing so I will remove sleep2 from here and I will say what is happening here it is saying invalid syntax yes it is saying invalid syntax because what I have done here that these double quotes I have to escape them so I will do one thing I will write here command is equal to and my command will be I will use triple quotes and I will do this and I think this is correct can I make fstring like this I guess I can but let me check I will write say let's do one thing we don't need to make fstring we will write here os.system command let's see if this program works or not so here I will write python3 and I will paste it here it is saying I will see what is the problem here I copied it here and here when I will paste it it is saying terminated string literal what is this let me see what is wrong I wrote here I guess I have to write extra here let me see what is going on here let me see and I will paste it here and it is saying looking for matching so I am having some problem in running it let me try it again I wrote here display alert hello world and I will close it with single quote display alert let me do one thing now here I will press ctrl and exit so this was my program os script let me copy it and paste it here so this was my program so what I have to do is I will do one thing I will escape it by writing backslash here I have written backslash here I have written backslash and here and here and I will write double quote here and this should be fine so I will copy it and one more attempt to execute it with the help of python command is equal to hey harry drink water awesome, it was fun so it worked so I used escape sequence characters now what I have to do is here I have to say import time you can use scheduler there is task scheduler in windows you can see it windows task scheduler because many people are using windows so you can make automated task with task scheduler you can run it every hour here you can see how to do it create basic task, when to repeat what is the trigger, daily, weekly, monthly one time you can use task trigger and show your python program but for now what we are going to do we will use an approach which will do while true I will run it and I will set time.sleep for one hour one hour is 3600 seconds one hour is 3600 seconds one minute is 60 seconds one minute is 60 seconds so I will do one thing in every 10 seconds I will write the program to run it so here I will write repeat interval is equal to I will write 10 and here I will write repeat frequency in seconds so here I will write it like this while true time.sleep and here I will write repeat interval so now if I copy it program and run it so you can see here shift enter it did once I did ok now what it will do here it will say this thing again after 10 seconds it said again now obviously I will not make it say this in every 10 seconds I just wanted to show you a demo I have done ctrl c I will turn off terminate so what it will do in every 10 seconds obviously I will not make it 10 seconds so it will tell me every hour but I am telling you again don't use while true use cron jobs or use task scheduler in windows now what we will do here we will see who all solved it so I have come to the cover page of exercise 11 and here many people have solved it and I am going to give a shoutout to all of them you can see here I am scrolling down 135 people have solved it so I will try to give a shoutout to all big shoutout to mfezan3 Suryansh Kumar, M Rehan M Zohan, Dheeraj Kumar Mumtaz 99 Himanshu Kumar Kodvit Pravar and Aai Swatik Mishra Shridh Malty Shaurya Koter and I am going to see everyone's rappel don't take tension just keep growing like this this was our last exercise of this course so now there will be no exercise of python in this 100 days of code course my hand is getting a little hot that this is the last exercise last exercise but again it feels good that I have been able to complete it continuously so here if I show you mfezan's rappel you can see here he has made a very good detail he has used gi.repo and this is for windows no, it is for kali linux wow mfezan bhai I don't have kali linux yet I can't check it but if you have it, check it and give feedback to mfezan bhai Suryansh Kumar's rappel he has made it for windows so this is windows only of Suryansh Kumar but I can't see it I don't know why it is happening it is taking time to load but big shoutout to Suryansh Kumar I will give shoutout to others too I will see everyone's rappel from time and once we see Suryansh Kumar's rappel we will end this video if you have not yet accessed the playlist of this course then do access it and give feedback in the first video now it is saying set the hours after which you want to drink water so if I do 1 that I want to drink water after 1 hour so it is scheduled and to see its code I will have to fork and here can I see its code without forking yes I can see here it is written from player I have also used player to give notification on windows it is very good it gives work I hope you are enjoying this course that's it for now thank you so much for watching this video and I will see you next time"
+}

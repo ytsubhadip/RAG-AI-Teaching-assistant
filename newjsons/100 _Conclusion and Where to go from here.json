@@ -1,0 +1,649 @@
+{
+    "chunks": [
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 0.0,
+            "end": 17.0,
+            "text": " So guys we have completed 100 days of code and what an experience it was  I never thought that I would be able to put videos for 100 days  But I took the challenge, many challenges came, I got many reasons  Not to put a video of 100 days of code on any day  But this thing used to come to my mind"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 17.0,
+            "end": 35.0,
+            "text": " If the challenger is not going to start, if the challenger is broken  My motivation was somewhere that I have to stay focused on my challenge  Motivation, whatever your motivation is, if your work is done and you progress because of it  Then it's positive and absolutely right, there is nothing wrong in it  Now what I will do here quickly is that where to go from here"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 35.0,
+            "end": 49.5,
+            "text": " I will tell you about this  So many people ask that now we have done 100 days of code python  Where to go from here, where to go here, what to learn, what to become  How to earn money, how to find jobs, let's talk a little about this  First of all, you have done 100 days of code python"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 49.5,
+            "end": 64.5,
+            "text": " If you have done this 100 days with me  Then there is a chance that some topics will be very weak, you may not have understood  So the first thing you have to do is to make projects  Now a new playlist of projects is coming very soon on this channel  But I will say that don't wait for it"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 64.5,
+            "end": 79.0,
+            "text": " You start making your projects  I have already put a lot of projects  So you go and search python project  And open it on my channel and search python project  When you write code with arry python project, you will get a lot to see"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 79.0,
+            "end": 94.5,
+            "text": " And from there you can start learning things  Now I have given you a resource of kinter  Now what is kinter, it is used to make GUI in python  So you can come to this homepage of kinter and learn kinter from here  You will learn and be able to do things very easily"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 94.5,
+            "end": 107.5,
+            "text": " After this, if you want to learn machine learning  So there is a very good playlist for motivation  This is a playlist by google developers  It is a very good thing, Josh has told very well  How does machine learning work"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 107.5,
+            "end": 126.0,
+            "text": " And you can use pip install, scikit learn very easily  You can easily train classifier by using the packages of machine learning  What is classifier, what is regressor, these are all concepts of machine learning  And how is machine learning done in python  You can learn all this very easily"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 126.0,
+            "end": 138.0,
+            "text": " Then there is a module called pytorch  If you are in machine learning or data science  So let me tell you from the starting what are the things  In data science, you learn numpy to some extent  And learn pandas to a larger extent"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 138.0,
+            "end": 151.5,
+            "text": " Learn a lot of pandas  You will get help in handling big data  You will know how you can parse your data  Then after knowing all this, what do you have to do  Go to scikit learn and tensorflow"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 151.5,
+            "end": 161.5,
+            "text": " Because data science and machine learning go hand in hand  You can never say to yourself  I will learn data science but I will stay away from machine learning  No, see hand in hand  You should both come"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 161.5,
+            "end": 173.0,
+            "text": " And it is not that you are learning machine learning  You are saying that I have no interest in data, I only know machine learning  Learn both data science and machine learning hand in hand  Don't waste too much time on this  What is the difference between ML, DL, DS"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 173.0,
+            "end": 183.0,
+            "text": " Learn the concept of pandas  Pandas is a library  If you don't know  And it helps in data analysis in python  Now some people will say"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 183.0,
+            "end": 193.0,
+            "text": " Why not do this in javascript  Why not do it in C or C++  This level of library is not in javascript  I am giving you this statement  Not yet"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 193.0,
+            "end": 203.5,
+            "text": " You do not get this level of data analysis  Now this book  This is a very good book  I have read this book  And I learned pandas from this"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 203.5,
+            "end": 213.5,
+            "text": " So go and buy this  I am not putting any link here  You buy it according to your own  And it is a very good book  I am giving you this statement"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 213.5,
+            "end": 223.5,
+            "text": " Buy it from amazon.in  This is amazon.com  Python for data analysis  By Wes McKinney  I have not mentioned it here"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 223.5,
+            "end": 234.0,
+            "text": " But I saw it so I told you  She teaches pandas very well  And if you read this, your life will change  I have no interest in selling this book  I am not giving any affiliate link"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 234.0,
+            "end": 244.0,
+            "text": " But you can buy it  It is a little expensive  You can get it on amazon.in  But it is a little expensive  So I do one thing here"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 244.0,
+            "end": 254.0,
+            "text": " What was the name of this  Python for data analysis  It used to come in a red color cover  But now it comes in a white color cover  Wes McKinney"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 254.5,
+            "end": 264.5,
+            "text": " Wes McKinney  And always ensure  That it is the latest version  It is a very recent version  It is a little expensive book"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 264.5,
+            "end": 274.5,
+            "text": " So you can see if you are in the offline market  Get this book anyhow  And pdf  I don't know where you are getting it from  I don't know"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 274.5,
+            "end": 285.0,
+            "text": " Buy it and learn it  So this is a book  And its name is hands on machine learning  Everyone should have these two books  Machine learning with scikit learn and tensorflow"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 285.0,
+            "end": 295.0,
+            "text": " Machine learning with scikit learn and tensorflow  Yes I know it is a little expensive book  I know that  But again it is a different level book  It is fun"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 295.0,
+            "end": 305.0,
+            "text": " Now in this, they keep updating  The author is a very good book for machine learning  He upgraded in 2019  I have this version  But now he has upgraded it again in 2022"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 305.0,
+            "end": 315.5,
+            "text": " And what do they do in this  The code snippets have changed according to the new version  What a book  Machine learning you will learn by reading this book  Yes, I have no benefit in this"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 315.5,
+            "end": 325.5,
+            "text": " I will tell you again  I know them, they don't know me  Very good author  He was in youtube  He was a data scientist in youtube"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 325.5,
+            "end": 335.5,
+            "text": " Data scientist ML engineer  So very good  I don't know this book  But these two books are very good  I have not explored this book much"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 335.5,
+            "end": 346.0,
+            "text": " These two have done  In a lot of depth  It is fun  And in this they give supplement material  You don't need supplement material"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 346.0,
+            "end": 356.0,
+            "text": " Because I have this book  But I say  You will never regret buying this book  And don't buy the recent version  Don't buy the old version cheaply"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 356.0,
+            "end": 366.0,
+            "text": " Because the code snippets will not work  If you buy this version  It is a money-making  One thing is done  And after this I have written some more things"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 366.0,
+            "end": 376.5,
+            "text": " I have talked about Django  If you want to learn back-end development  Django is a very good thing  I have given the link of the tutorial  You will say that official documentation is boring"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 376.5,
+            "end": 386.5,
+            "text": " No, official documentation of Django is very good  I am telling you  You will enjoy reading  Django is an example of how a good documentation should look like  According to me"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 386.5,
+            "end": 396.5,
+            "text": " Django's official documentation is very good  Read it  What is the project  What is the app  They have made a poll"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 397.0,
+            "end": 407.0,
+            "text": " Flask framework is very minimal  It is very lightweight  You will learn it  Django has a lot of concepts  You will have to read it a little"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 407.0,
+            "end": 417.0,
+            "text": " After this I have talked to you about machine learning  I have talked about data science  And after this  I tell you  If you are going to find a job in a company"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 417.0,
+            "end": 427.5,
+            "text": " You can do data structures through python  But I will never recommend  You do data structures through python  You use Java or C++  There are many reasons"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 427.5,
+            "end": 437.5,
+            "text": " Python has many libraries  By which you can import  Although libraries can be used in C and C++  But  Java, C and C++"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 437.5,
+            "end": 447.5,
+            "text": " Low level operations are very easy  You can make anything from basics  You can make it in python  By using numpy  But"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 447.5,
+            "end": 458.0,
+            "text": " Many companies  Recruiters have a thing in their mind  If a person has brought python  To do data structures  Then it is not good"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 458.0,
+            "end": 468.0,
+            "text": " This thought has become  If I sit to explain in depth  I will prove it  Why python is not good for data structures  But again python is a good language"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 468.0,
+            "end": 478.0,
+            "text": " For doing development  Machine learning, data science  You can do a lot of things  But  If college students are doing data structures"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 478.0,
+            "end": 488.5,
+            "text": " Then do not use python  Although it is allowed  But I do not recommend  Now here  If you see this playlist"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 488.5,
+            "end": 498.5,
+            "text": " You will like it  7 minutes of animation videos  They explained very well  I enjoyed  Binge watch from the first video"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 498.5,
+            "end": 508.5,
+            "text": " And you will do it  I was waiting  When to put these videos  I was waiting  But unfortunately only 10 videos"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 508.5,
+            "end": 519.0,
+            "text": " But watch 10  There are some concepts in machine learning  Which are machine learning specific concepts  So machine learning specific concepts  You will come after learning machine learning"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 519.0,
+            "end": 529.0,
+            "text": " But if you want to learn  Deep learning  Then you have to see tensorflow  And tensorflow hub  You have to learn tensorflow"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 529.0,
+            "end": 539.0,
+            "text": " If you want to do deep learning  But if you go to tensorflow hub  It is a very good example  How can you use trained models  Here you see"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 539.5,
+            "end": 549.5,
+            "text": " Models are already trained  You have to do it simply  Embedding means  You have to convert a text  In vector"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 549.5,
+            "end": 559.5,
+            "text": " And then see how similar it is  I want to make bird embeddings  I can use this  And can use their pre-trained models  You can explore it"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 559.5,
+            "end": 570.0,
+            "text": " Here  Models are in gb  You have to explore it  You do not have to know much  I have used this a lot"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 570.0,
+            "end": 580.0,
+            "text": " It gives you embeddings  I have used it to make search  If I want to see a search query  Which text is matching  I will make search query embeddings"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 580.0,
+            "end": 590.0,
+            "text": " I will make text embeddings  I will match it  You will find all these high level topics  But again  Keep in mind tensorflow hub"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 590.0,
+            "end": 600.5,
+            "text": " And try to use it  Then there is a library  You can use it  There are many things  How to start"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 600.5,
+            "end": 610.5,
+            "text": " Start with basics  Start with this book  And follow its code snippets  But before this  If you want to learn data science"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 610.5,
+            "end": 620.5,
+            "text": " I will tell you  If you want to learn machine learning  You have to learn data science  For that you have to buy this book  I do not know where to buy"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 620.5,
+            "end": 631.0,
+            "text": " I do not know how to print  10 pages on one page  I do not know how  This book should be available  This is worth it"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 631.0,
+            "end": 641.0,
+            "text": " If you buy these two books  And read it  These two books are very good  Then  There are many things related to python"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 641.0,
+            "end": 651.0,
+            "text": " I will put it on this channel  I want to congratulate you  Those who have completed 100 days of code  Congratulations to me  I have completed"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 651.0,
+            "end": 661.5,
+            "text": " 100 consecutive days of code  100 consecutive days of code  But 100 consecutive days of code  I did not miss a day  I did not miss a day"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 661.5,
+            "end": 671.5,
+            "text": " I did 100 days of code daily  I can do  With so many things  You can also do  To make your career"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 671.5,
+            "end": 681.5,
+            "text": " Use it as a motivation  When this series was published  I did 100 consecutive days of code  I will remember this  And it will give me confidence"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 682.0,
+            "end": 692.0,
+            "text": " When I look at my past achievements  I feel  I did this  I solved this problem  I came first"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 692.0,
+            "end": 702.0,
+            "text": " When I feel I can not do this  Past achievements  No matter how big or small  I did it  Whatever you did"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 702.0,
+            "end": 712.5,
+            "text": " I did it  I can do this  I believe that you do not have to defeat anyone  You just have to win  And win people"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 712.5,
+            "end": 722.5,
+            "text": " This should be the motive of your life  But the truth of society is  We are under constant competition  If there are 300 people, then only 3 will get a job  So with that said"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 722.5,
+            "end": 732.5,
+            "text": " I tell you one more thing  Do watch chat gpt  I am not sure  When you are watching this video  It will be free"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 732.5,
+            "end": 743.0,
+            "text": " But I want to tell you  I will show you  Chat gpt is a bot  You can use chat gpt  And learn"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 743.0,
+            "end": 753.0,
+            "text": " You can ask chat gpt  Give me a random python question  You can do many things  Many things can be done here  I will log in chat gpt"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 753.0,
+            "end": 763.0,
+            "text": " And show you  I know what chat gpt is  If it is not free  In future  If you are a professional"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 763.0,
+            "end": 773.5,
+            "text": " If you are getting it  If it is coming in your budget  Like I say  Give me a random python mcq  Question"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 773.5,
+            "end": 783.5,
+            "text": " I can test my python skills  With this  Here is a random python mcq  Question  What will be its output"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 783.5,
+            "end": 793.5,
+            "text": " What a dangerous thing  What a dangerous thing  Now it is saying  What did you do  Printed"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 793.5,
+            "end": 804.0,
+            "text": " List.pop  3  3  3  3"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 804.0,
+            "end": 814.0,
+            "text": " 3  3  3  3  3"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 814.0,
+            "end": 824.0,
+            "text": " 3  3  3  3  3"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 824.5,
+            "end": 834.5,
+            "text": " Give me a random  Question  On  Next.js  It will give me a random question"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 834.5,
+            "end": 844.5,
+            "text": " It is asking  What is the purpose of get static paths  Method of next.js  It collects all the  Static paths"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 844.5,
+            "end": 855.0,
+            "text": " And your site  Will look fast  Let me see  It is used to fetch data at build time  For predefined paths"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 855.0,
+            "end": 865.0,
+            "text": " This one is correct  It is used to generate dynamic routes  Based on  Get static paths is used to generate dynamic routes  The first option is wrong"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 865.0,
+            "end": 875.0,
+            "text": " Because  It is used to fetch data at build time  And generate static html pages  For predefined paths  No, predefined paths"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 875.0,
+            "end": 885.5,
+            "text": " Is defined by C  C is correct  I will write C is correct  You can interact with chatgbt  By this method"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 885.5,
+            "end": 895.5,
+            "text": " And you can ask  Sometimes I can be wrong  It is not like that  All the answers are correct  I had to think a little"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 895.5,
+            "end": 905.5,
+            "text": " And then I told  You will know which parts are weak  You can ask chatgbt  After taking 10 answers  You can ask chatgbt"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 905.5,
+            "end": 916.0,
+            "text": " Which part is weak  And what should I practice  I am a Python developer  By using chatgbt  Learn from it"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 916.0,
+            "end": 926.0,
+            "text": " I hope you liked this course  You have to do one thing  I am saying this from my heart  I know it is your wish  I can't do anything"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 926.0,
+            "end": 936.0,
+            "text": " To ensure that you do it  So this is  About trust model  All of you who appreciate this course  This playlist"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 936.0,
+            "end": 946.5,
+            "text": " I want you to go to the first video  And write a review  You have seen 100 videos  There is no better person than you  So I want you to review it"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 946.5,
+            "end": 956.5,
+            "text": " And tell me how this course is  For that new person  Who will access this course  And give his time  Someone's 100 days are going"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 956.5,
+            "end": 966.5,
+            "text": " Someone is coming with his time and trust  So I want  They know how this course is  So that's it for now  We will keep learning in the coming time"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 967.0,
+            "end": 977.0,
+            "text": " And I hope  You liked this learning journey  So that's it for now  Thank you so much  For watching this video"
+        },
+        {
+            "number": "100 ",
+            "title": "Conclusion and Where to go from here",
+            "start": 977.0,
+            "end": 999.0,
+            "text": " And see you in some other course  Bye  Thank you"
+        }
+    ],
+    "text": " So guys we have completed 100 days of code and what an experience it was I never thought that I would be able to put videos for 100 days But I took the challenge, many challenges came, I got many reasons Not to put a video of 100 days of code on any day But this thing used to come to my mind If the challenger is not going to start, if the challenger is broken My motivation was somewhere that I have to stay focused on my challenge Motivation, whatever your motivation is, if your work is done and you progress because of it Then it's positive and absolutely right, there is nothing wrong in it Now what I will do here quickly is that where to go from here I will tell you about this So many people ask that now we have done 100 days of code python Where to go from here, where to go here, what to learn, what to become How to earn money, how to find jobs, let's talk a little about this First of all, you have done 100 days of code python If you have done this 100 days with me Then there is a chance that some topics will be very weak, you may not have understood So the first thing you have to do is to make projects Now a new playlist of projects is coming very soon on this channel But I will say that don't wait for it You start making your projects I have already put a lot of projects So you go and search python project And open it on my channel and search python project When you write code with arry python project, you will get a lot to see And from there you can start learning things Now I have given you a resource of kinter Now what is kinter, it is used to make GUI in python So you can come to this homepage of kinter and learn kinter from here You will learn and be able to do things very easily After this, if you want to learn machine learning So there is a very good playlist for motivation This is a playlist by google developers It is a very good thing, Josh has told very well How does machine learning work And you can use pip install, scikit learn very easily You can easily train classifier by using the packages of machine learning What is classifier, what is regressor, these are all concepts of machine learning And how is machine learning done in python You can learn all this very easily Then there is a module called pytorch If you are in machine learning or data science So let me tell you from the starting what are the things In data science, you learn numpy to some extent And learn pandas to a larger extent Learn a lot of pandas You will get help in handling big data You will know how you can parse your data Then after knowing all this, what do you have to do Go to scikit learn and tensorflow Because data science and machine learning go hand in hand You can never say to yourself I will learn data science but I will stay away from machine learning No, see hand in hand You should both come And it is not that you are learning machine learning You are saying that I have no interest in data, I only know machine learning Learn both data science and machine learning hand in hand Don't waste too much time on this What is the difference between ML, DL, DS Learn the concept of pandas Pandas is a library If you don't know And it helps in data analysis in python Now some people will say Why not do this in javascript Why not do it in C or C++ This level of library is not in javascript I am giving you this statement Not yet You do not get this level of data analysis Now this book This is a very good book I have read this book And I learned pandas from this So go and buy this I am not putting any link here You buy it according to your own And it is a very good book I am giving you this statement Buy it from amazon.in This is amazon.com Python for data analysis By Wes McKinney I have not mentioned it here But I saw it so I told you She teaches pandas very well And if you read this, your life will change I have no interest in selling this book I am not giving any affiliate link But you can buy it It is a little expensive You can get it on amazon.in But it is a little expensive So I do one thing here What was the name of this Python for data analysis It used to come in a red color cover But now it comes in a white color cover Wes McKinney Wes McKinney And always ensure That it is the latest version It is a very recent version It is a little expensive book So you can see if you are in the offline market Get this book anyhow And pdf I don't know where you are getting it from I don't know Buy it and learn it So this is a book And its name is hands on machine learning Everyone should have these two books Machine learning with scikit learn and tensorflow Machine learning with scikit learn and tensorflow Yes I know it is a little expensive book I know that But again it is a different level book It is fun Now in this, they keep updating The author is a very good book for machine learning He upgraded in 2019 I have this version But now he has upgraded it again in 2022 And what do they do in this The code snippets have changed according to the new version What a book Machine learning you will learn by reading this book Yes, I have no benefit in this I will tell you again I know them, they don't know me Very good author He was in youtube He was a data scientist in youtube Data scientist ML engineer So very good I don't know this book But these two books are very good I have not explored this book much These two have done In a lot of depth It is fun And in this they give supplement material You don't need supplement material Because I have this book But I say You will never regret buying this book And don't buy the recent version Don't buy the old version cheaply Because the code snippets will not work If you buy this version It is a money-making One thing is done And after this I have written some more things I have talked about Django If you want to learn back-end development Django is a very good thing I have given the link of the tutorial You will say that official documentation is boring No, official documentation of Django is very good I am telling you You will enjoy reading Django is an example of how a good documentation should look like According to me Django's official documentation is very good Read it What is the project What is the app They have made a poll Flask framework is very minimal It is very lightweight You will learn it Django has a lot of concepts You will have to read it a little After this I have talked to you about machine learning I have talked about data science And after this I tell you If you are going to find a job in a company You can do data structures through python But I will never recommend You do data structures through python You use Java or C++ There are many reasons Python has many libraries By which you can import Although libraries can be used in C and C++ But Java, C and C++ Low level operations are very easy You can make anything from basics You can make it in python By using numpy But Many companies Recruiters have a thing in their mind If a person has brought python To do data structures Then it is not good This thought has become If I sit to explain in depth I will prove it Why python is not good for data structures But again python is a good language For doing development Machine learning, data science You can do a lot of things But If college students are doing data structures Then do not use python Although it is allowed But I do not recommend Now here If you see this playlist You will like it 7 minutes of animation videos They explained very well I enjoyed Binge watch from the first video And you will do it I was waiting When to put these videos I was waiting But unfortunately only 10 videos But watch 10 There are some concepts in machine learning Which are machine learning specific concepts So machine learning specific concepts You will come after learning machine learning But if you want to learn Deep learning Then you have to see tensorflow And tensorflow hub You have to learn tensorflow If you want to do deep learning But if you go to tensorflow hub It is a very good example How can you use trained models Here you see Models are already trained You have to do it simply Embedding means You have to convert a text In vector And then see how similar it is I want to make bird embeddings I can use this And can use their pre-trained models You can explore it Here Models are in gb You have to explore it You do not have to know much I have used this a lot It gives you embeddings I have used it to make search If I want to see a search query Which text is matching I will make search query embeddings I will make text embeddings I will match it You will find all these high level topics But again Keep in mind tensorflow hub And try to use it Then there is a library You can use it There are many things How to start Start with basics Start with this book And follow its code snippets But before this If you want to learn data science I will tell you If you want to learn machine learning You have to learn data science For that you have to buy this book I do not know where to buy I do not know how to print 10 pages on one page I do not know how This book should be available This is worth it If you buy these two books And read it These two books are very good Then There are many things related to python I will put it on this channel I want to congratulate you Those who have completed 100 days of code Congratulations to me I have completed 100 consecutive days of code 100 consecutive days of code But 100 consecutive days of code I did not miss a day I did not miss a day I did 100 days of code daily I can do With so many things You can also do To make your career Use it as a motivation When this series was published I did 100 consecutive days of code I will remember this And it will give me confidence When I look at my past achievements I feel I did this I solved this problem I came first When I feel I can not do this Past achievements No matter how big or small I did it Whatever you did I did it I can do this I believe that you do not have to defeat anyone You just have to win And win people This should be the motive of your life But the truth of society is We are under constant competition If there are 300 people, then only 3 will get a job So with that said I tell you one more thing Do watch chat gpt I am not sure When you are watching this video It will be free But I want to tell you I will show you Chat gpt is a bot You can use chat gpt And learn You can ask chat gpt Give me a random python question You can do many things Many things can be done here I will log in chat gpt And show you I know what chat gpt is If it is not free In future If you are a professional If you are getting it If it is coming in your budget Like I say Give me a random python mcq Question I can test my python skills With this Here is a random python mcq Question What will be its output What a dangerous thing What a dangerous thing Now it is saying What did you do Printed List.pop 3 3 3 3 3 3 3 3 3 3 3 3 3 3 Give me a random Question On Next.js It will give me a random question It is asking What is the purpose of get static paths Method of next.js It collects all the Static paths And your site Will look fast Let me see It is used to fetch data at build time For predefined paths This one is correct It is used to generate dynamic routes Based on Get static paths is used to generate dynamic routes The first option is wrong Because It is used to fetch data at build time And generate static html pages For predefined paths No, predefined paths Is defined by C C is correct I will write C is correct You can interact with chatgbt By this method And you can ask Sometimes I can be wrong It is not like that All the answers are correct I had to think a little And then I told You will know which parts are weak You can ask chatgbt After taking 10 answers You can ask chatgbt Which part is weak And what should I practice I am a Python developer By using chatgbt Learn from it I hope you liked this course You have to do one thing I am saying this from my heart I know it is your wish I can't do anything To ensure that you do it So this is About trust model All of you who appreciate this course This playlist I want you to go to the first video And write a review You have seen 100 videos There is no better person than you So I want you to review it And tell me how this course is For that new person Who will access this course And give his time Someone's 100 days are going Someone is coming with his time and trust So I want They know how this course is So that's it for now We will keep learning in the coming time And I hope You liked this learning journey So that's it for now Thank you so much For watching this video And see you in some other course Bye Thank you"
+}

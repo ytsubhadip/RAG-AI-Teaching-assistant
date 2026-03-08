@@ -1,0 +1,334 @@
+{
+    "chunks": [
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 0.0,
+            "end": 10.0,
+            "text": " 100 days of code is a lot of fun  I know that  In today's video we will learn about tuple  The list we read was very useful  We saw many methods of tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 10.0,
+            "end": 20.0,
+            "text": " And we also saw  What we can do with this list  There is another data type in python  Which is tuple  And it is equally useful"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 20.0,
+            "end": 30.0,
+            "text": " Because you can't change tuple  And it has some important methods  Which I am going to tell you about  Let's go to the computer screen  And let's get started"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 38.0,
+            "end": 48.0,
+            "text": " The way we saw about list  Tuple is also very similar  But the difference is  You can't change tuple  And what I will do to make tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 48.0,
+            "end": 60.0,
+            "text": " I will do something like this  I will write tuple  And I will use these brackets  And I will write values  1, 5, 6"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 60.0,
+            "end": 70.0,
+            "text": " If I print type  I will say type of tuple  And if I print tuple  I will get these values  3 values"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 70.0,
+            "end": 82.0,
+            "text": " And I will get last tuple  If there were 2 elements  Like this  I would get 1 and 5  What about if there was only 1 element"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 82.0,
+            "end": 92.0,
+            "text": " Then there will be a confusion  And see  Class int  Now you will say I made tuple  Of 1 element"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 92.0,
+            "end": 102.0,
+            "text": " So this is the biggest confusion of python developers  If you are making tuple of 1 element  Then comma is necessary  Otherwise python will get confused  That you are writing 1 value"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 102.0,
+            "end": 112.0,
+            "text": " In brackets  Or you are making a new tuple  Python will get confused  So you have to write 1 comma  Run it like this"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 112.0,
+            "end": 122.0,
+            "text": " So class tuple is made  Of 1 element  Tuples are ordered collection of data items  They store multiple items in a single variable  Tuple items are separated by commas"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 122.0,
+            "end": 132.0,
+            "text": " And enclosed within round brackets  Tuples are unchangeable  Means you cannot change tuples  If there was a list  Then I could have done something like this"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 132.0,
+            "end": 142.0,
+            "text": " That  Tuple 0 is equal to  90  And then the 0th value of tuple would have changed  But here you see"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 142.0,
+            "end": 152.0,
+            "text": " Type error  Tuple object does not support item assignment  If I would have added more values  And run it like this  Then you see"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 152.0,
+            "end": 162.0,
+            "text": " Same error is coming  But how about if this was a list  I have written tuple  But this is a list  Type of tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 162.0,
+            "end": 172.0,
+            "text": " Will show a list  So the first value of this has changed  So I can change in list  Now you will say  Why should I use tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 172.0,
+            "end": 182.0,
+            "text": " I can change everything  No, it does not work like this  What happens is  Sometimes you will want to intentionally  Like you want to make a constant"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 182.0,
+            "end": 192.0,
+            "text": " Kind of a constant list  Which you want to change by mistake  And you are working on a very complex program  So you will want  That no one should change it by mistake"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 192.0,
+            "end": 202.0,
+            "text": " So you will use tuple  Now here I have given an example  I have printed both  Tuple has the same thing  If I give a value"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 202.0,
+            "end": 212.0,
+            "text": " Like a string  Then the string will also come here  So you can see here  It is printing like this  I hope you are understanding"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 212.0,
+            "end": 222.0,
+            "text": " And the rest  Almost everything is the same  Except the fact that you cannot change it  You can put some other values  Of other data type"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 222.0,
+            "end": 232.0,
+            "text": " That will also work  But you can't change it  Here  Now if I  Print tup0"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 232.0,
+            "end": 242.0,
+            "text": " Let's say I print tup0  And after this  I print tup1, tup2  I print tup34  If I print 34 then there will be an error"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 242.0,
+            "end": 252.0,
+            "text": " Because 34 does not exist  So see tuple index is out of range  But the program will run up to here  And you will see 1, 2, 76  Which is present on 0, 1st and 2nd"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 252.0,
+            "end": 262.0,
+            "text": " I hope you understood  So this way we can  Index tuple  Positive indexing and negative indexing  Are same in tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 262.0,
+            "end": 272.0,
+            "text": " Like we talked about list  So if someone  Wrote tuple-1  Then you will not process minus 1  You will see the length"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 272.0,
+            "end": 282.0,
+            "text": " 3, 2, 5, 5-1, 4  So tuple is 4  0, 1, 2, 3, 4  So it is 32  In fact I printed the length wrong"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 282.0,
+            "end": 292.0,
+            "text": " I am sorry  Let's print it  Print the length  Double click  L-E-N"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 292.0,
+            "end": 302.0,
+            "text": " Let's print the length  Length is  7, so 7-1 is 6  So 0, 1, 2, 3, 4, 5, 6  So it is true print"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 302.0,
+            "end": 312.0,
+            "text": " So we can resolve negative indexing  Like we saw  In list  Now you can check  If"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 312.0,
+            "end": 322.0,
+            "text": " 342  In tuple  Yes 342  Is present  In this tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 322.0,
+            "end": 332.0,
+            "text": " So you can do like this  Now run it  And your work will be done  So 342 is present in this tuple  You got it printed"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 332.0,
+            "end": 342.0,
+            "text": " If I print 3421  Then it will not be printed  It will be evaluated in false  So like this item can be checked  If it is present or not"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 342.0,
+            "end": 352.0,
+            "text": " Similarly like we talked about slicing  In list  We can talk about slicing here also  Slicing can be done  But you will say slicing can be done"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 352.0,
+            "end": 362.0,
+            "text": " But tuple is not like that  After slicing a new tuple is written  So tuple does not change  A new tuple is made  Like if I write here"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 362.0,
+            "end": 372.0,
+            "text": " Tube2 is equal to tube  So I will write here from 1 to 4  So a new tuple will be made  So if I print tube2  So a new tuple will be made"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 372.0,
+            "end": 382.0,
+            "text": " And it will be returned  Which will start from 2 and will run till 342  0, 1, 2, 3  This is minus 1 index  So 2, 76 and 342"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 382.0,
+            "end": 392.0,
+            "text": " It will be exactly like we talked about  Slicing of list  Similarly we can do tuple slicing  Similarly  Like we printed list"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 392.0,
+            "end": 402.0,
+            "text": " We can do it  It is very similar  We can convert negative indexes into positive indexes  Whenever you get to see something like this  So where there is blank"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 402.0,
+            "end": 412.0,
+            "text": " You can put 0  If there is blank here then you can put length of this tuple  Like I told you in list  If someone writes something like this  Tube0 to blank"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 412.0,
+            "end": 422.0,
+            "text": " So instead of blank  You can write length of tuple  If someone writes like this  This to 4 or this to 3  Like this"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 422.0,
+            "end": 432.0,
+            "text": " So you can put 0 here  If there is blank here then you can put length of this tuple  I hope this is clear  It is exactly like we did in list  So I hope you understood"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 432.0,
+            "end": 442.0,
+            "text": " I want you to try all the methods  Try all the methods  Try to revision list  With the help of tuple  How you will do it"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 442.0,
+            "end": 452.0,
+            "text": " Do slicing, it will be revisioned  As it is in list, it is in tuple  Then use in keyword  The difference is  You can't change tuple"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 452.0,
+            "end": 462.0,
+            "text": " You can't change its value  You can't change its length  Once you have made tuple then you will make new tuple  Or you can't change existing tuple  Tuples are immutable"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 462.0,
+            "end": 472.0,
+            "text": " Strings are immutable  Lists are immutable  Remember this  If you haven't accessed the playlist yet  So do access it"
+        },
+        {
+            "number": "024 ",
+            "title": "Tuples in Python",
+            "start": 472.0,
+            "end": 476.0,
+            "text": " That's all for now  Thank you so much for watching this video"
+        }
+    ],
+    "text": " 100 days of code is a lot of fun I know that In today's video we will learn about tuple The list we read was very useful We saw many methods of tuple And we also saw What we can do with this list There is another data type in python Which is tuple And it is equally useful Because you can't change tuple And it has some important methods Which I am going to tell you about Let's go to the computer screen And let's get started The way we saw about list Tuple is also very similar But the difference is You can't change tuple And what I will do to make tuple I will do something like this I will write tuple And I will use these brackets And I will write values 1, 5, 6 If I print type I will say type of tuple And if I print tuple I will get these values 3 values And I will get last tuple If there were 2 elements Like this I would get 1 and 5 What about if there was only 1 element Then there will be a confusion And see Class int Now you will say I made tuple Of 1 element So this is the biggest confusion of python developers If you are making tuple of 1 element Then comma is necessary Otherwise python will get confused That you are writing 1 value In brackets Or you are making a new tuple Python will get confused So you have to write 1 comma Run it like this So class tuple is made Of 1 element Tuples are ordered collection of data items They store multiple items in a single variable Tuple items are separated by commas And enclosed within round brackets Tuples are unchangeable Means you cannot change tuples If there was a list Then I could have done something like this That Tuple 0 is equal to 90 And then the 0th value of tuple would have changed But here you see Type error Tuple object does not support item assignment If I would have added more values And run it like this Then you see Same error is coming But how about if this was a list I have written tuple But this is a list Type of tuple Will show a list So the first value of this has changed So I can change in list Now you will say Why should I use tuple I can change everything No, it does not work like this What happens is Sometimes you will want to intentionally Like you want to make a constant Kind of a constant list Which you want to change by mistake And you are working on a very complex program So you will want That no one should change it by mistake So you will use tuple Now here I have given an example I have printed both Tuple has the same thing If I give a value Like a string Then the string will also come here So you can see here It is printing like this I hope you are understanding And the rest Almost everything is the same Except the fact that you cannot change it You can put some other values Of other data type That will also work But you can't change it Here Now if I Print tup0 Let's say I print tup0 And after this I print tup1, tup2 I print tup34 If I print 34 then there will be an error Because 34 does not exist So see tuple index is out of range But the program will run up to here And you will see 1, 2, 76 Which is present on 0, 1st and 2nd I hope you understood So this way we can Index tuple Positive indexing and negative indexing Are same in tuple Like we talked about list So if someone Wrote tuple-1 Then you will not process minus 1 You will see the length 3, 2, 5, 5-1, 4 So tuple is 4 0, 1, 2, 3, 4 So it is 32 In fact I printed the length wrong I am sorry Let's print it Print the length Double click L-E-N Let's print the length Length is 7, so 7-1 is 6 So 0, 1, 2, 3, 4, 5, 6 So it is true print So we can resolve negative indexing Like we saw In list Now you can check If 342 In tuple Yes 342 Is present In this tuple So you can do like this Now run it And your work will be done So 342 is present in this tuple You got it printed If I print 3421 Then it will not be printed It will be evaluated in false So like this item can be checked If it is present or not Similarly like we talked about slicing In list We can talk about slicing here also Slicing can be done But you will say slicing can be done But tuple is not like that After slicing a new tuple is written So tuple does not change A new tuple is made Like if I write here Tube2 is equal to tube So I will write here from 1 to 4 So a new tuple will be made So if I print tube2 So a new tuple will be made And it will be returned Which will start from 2 and will run till 342 0, 1, 2, 3 This is minus 1 index So 2, 76 and 342 It will be exactly like we talked about Slicing of list Similarly we can do tuple slicing Similarly Like we printed list We can do it It is very similar We can convert negative indexes into positive indexes Whenever you get to see something like this So where there is blank You can put 0 If there is blank here then you can put length of this tuple Like I told you in list If someone writes something like this Tube0 to blank So instead of blank You can write length of tuple If someone writes like this This to 4 or this to 3 Like this So you can put 0 here If there is blank here then you can put length of this tuple I hope this is clear It is exactly like we did in list So I hope you understood I want you to try all the methods Try all the methods Try to revision list With the help of tuple How you will do it Do slicing, it will be revisioned As it is in list, it is in tuple Then use in keyword The difference is You can't change tuple You can't change its value You can't change its length Once you have made tuple then you will make new tuple Or you can't change existing tuple Tuples are immutable Strings are immutable Lists are immutable Remember this If you haven't accessed the playlist yet So do access it That's all for now Thank you so much for watching this video"
+}

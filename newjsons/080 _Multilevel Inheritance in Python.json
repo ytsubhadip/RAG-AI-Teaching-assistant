@@ -1,0 +1,222 @@
+{
+    "chunks": [
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 0.0,
+            "end": 23.0,
+            "text": " Today we are going to talk about multi level inheritance  So lets go to the computer screen and see what is multi level inheritance  Lets get started  Now we are going to talk about multi level inheritance  Multi level inheritance is a type of inheritance in object oriented programming"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 23.0,
+            "end": 38.0,
+            "text": " Where a derived class inherits from another derived class  For example, a class was made from a derived class  And another class was made from another derived class  Lets say that grandfather is the father of grandfather  And father's son is the son of father"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 38.0,
+            "end": 53.0,
+            "text": " So grandfather's grandson is the father of grandfather  For example, class A to B and class B to C  So class C is the grandson of class A  You can understand it like this  It will be simple for you to understand"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 53.0,
+            "end": 68.0,
+            "text": " Multi level inheritance allows you to build a hierarchy of classes  Where one class builds upon another  Leading to a more specialized class  I will give you a very classic example  Lets say there is a human"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 68.0,
+            "end": 83.0,
+            "text": " Human has basic functions like eating  And what else does the human do  And many more things  Now the human will be an employee  Now you can make an employee from him"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 83.0,
+            "end": 98.0,
+            "text": " And add more things to it  Make a programmer from an employee  So the programmer is a type of employee  Which has all the functions of a basic employee  Like employee takes a paycheck"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 98.0,
+            "end": 113.0,
+            "text": " And he does his work  And along with that  There are many other things that all employees do  Like employees go on lunch break  Employees take their holidays"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 113.0,
+            "end": 128.0,
+            "text": " Employees take a Sunday holiday  But there are some things that only the programmer does  He is a type of employee  In that we need all the methods of the employee  And on top of that we need some other methods"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 128.0,
+            "end": 143.0,
+            "text": " So I will show you a diagram  You will have some clarity  I got a good example here  I got a very good image here  A to B is simple inheritance"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 143.0,
+            "end": 158.0,
+            "text": " The most popular inheritance  Which we studied in the name of single inheritance  Then we studied multiple inheritance  What happens in multiple inheritance  More than one class becomes a new class"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 158.0,
+            "end": 173.0,
+            "text": " That is multiple inheritance  One child is from one class  Then multi-level inheritance  Then hierarchical inheritance  I will tell you this in code"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 173.0,
+            "end": 188.0,
+            "text": " There is a base class and a derived class 1  And we made derived class 2  In this example there is a derived class 1  And derived class 2  Derived class 2 is made from derived class 1"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 188.0,
+            "end": 203.0,
+            "text": " And derived class 2 has access to all the attributes  And methods of derived class 1 and base class  You must have understood this  Now see here  I will copy this example"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 203.0,
+            "end": 218.0,
+            "text": " I will run the console  So that you have clarity  I have not made any method  There is an animal  Then we have a dog"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 218.0,
+            "end": 233.0,
+            "text": " In this show details method has been overwritten  And finally in golden retriever  Has been changed  You can see the method here  Here we have said that parent's show details"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 233.0,
+            "end": 248.0,
+            "text": " Call and then call this  I will quickly make an object here  And what does the constructor need  Name will be Tommy  Your dog is Tommy, our dog is dog"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 248.0,
+            "end": 263.0,
+            "text": " Now you will see the color will be black  I have made it black  And now I will call show details  I will call this method  And when I will call show details"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 263.0,
+            "end": 278.0,
+            "text": " Dog's show details will run  Dog's class is here  I have to call animal's show details  It will show name species  Then it will come back"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 278.0,
+            "end": 293.0,
+            "text": " Now I will print breed  But the dog's show details  Was coming from here  I hope you understood  You can see it"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 293.0,
+            "end": 308.0,
+            "text": " If you didn't understand  Now see  We have said call show details  Means call these two lines  Now we will go to dog's show details"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 308.0,
+            "end": 323.0,
+            "text": " And bring its code  I can replace dog's show details  Yes I can  Now here is animal's show details  I can replace animal's show details"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 323.0,
+            "end": 338.0,
+            "text": " I will write this  It is saying to print this  So golden retriever's show details  Is saying to print these four lines  If I would have done the same"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 338.0,
+            "end": 353.0,
+            "text": " For dog, what is the name and breed  If I would have written dog  Would I have printed these four lines  And what is the reason, tell me in the comments  And once again"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 353.0,
+            "end": 368.0,
+            "text": " I want to tell you  If I print golden retriever's  MRO  Method resolution order  I can print it like this"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 368.0,
+            "end": 383.0,
+            "text": " It will tell me where it will go  I have done wrong spelling  Retriever  Retriever  I have done golden"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 383.0,
+            "end": 398.0,
+            "text": " So don't do this kind of spelling mistakes  You can see, whatever method it is  It will find in golden retriever, dog, animal  It will find in dog because golden retriever is made from dog  If it didn't find any method in dog"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 398.0,
+            "end": 413.0,
+            "text": " It will find in animal  And there can be any long chain  So this way  You can do multi-level inheritance  So I hope you understood multi-level inheritance"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 413.0,
+            "end": 428.0,
+            "text": " As we can see from the output, golden retriever object has access to all the attributes  And methods of animal and dog  And it also has its own unique attributes and methods  Which we have defined in golden retriever  This is the example of multi-level inheritance"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 428.0,
+            "end": 443.0,
+            "text": " Another important aspect of multi-level inheritance is that it allows you to reuse code  And avoid repeating the same logic multiple times  It reduces your repeatability  You don't have to write one code 10 times  You can use your previous code"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 443.0,
+            "end": 458.0,
+            "text": " So here you can see how we did multi-level inheritance  If you haven't accessed the playlist, then do access it  That's all for this video  Thank you so much for watching this video  And I will see you next time"
+        },
+        {
+            "number": "080 ",
+            "title": "Multilevel Inheritance in Python",
+            "start": 458.0,
+            "end": 461.0,
+            "text": " Thank you so much"
+        }
+    ],
+    "text": " Today we are going to talk about multi level inheritance So lets go to the computer screen and see what is multi level inheritance Lets get started Now we are going to talk about multi level inheritance Multi level inheritance is a type of inheritance in object oriented programming Where a derived class inherits from another derived class For example, a class was made from a derived class And another class was made from another derived class Lets say that grandfather is the father of grandfather And father's son is the son of father So grandfather's grandson is the father of grandfather For example, class A to B and class B to C So class C is the grandson of class A You can understand it like this It will be simple for you to understand Multi level inheritance allows you to build a hierarchy of classes Where one class builds upon another Leading to a more specialized class I will give you a very classic example Lets say there is a human Human has basic functions like eating And what else does the human do And many more things Now the human will be an employee Now you can make an employee from him And add more things to it Make a programmer from an employee So the programmer is a type of employee Which has all the functions of a basic employee Like employee takes a paycheck And he does his work And along with that There are many other things that all employees do Like employees go on lunch break Employees take their holidays Employees take a Sunday holiday But there are some things that only the programmer does He is a type of employee In that we need all the methods of the employee And on top of that we need some other methods So I will show you a diagram You will have some clarity I got a good example here I got a very good image here A to B is simple inheritance The most popular inheritance Which we studied in the name of single inheritance Then we studied multiple inheritance What happens in multiple inheritance More than one class becomes a new class That is multiple inheritance One child is from one class Then multi-level inheritance Then hierarchical inheritance I will tell you this in code There is a base class and a derived class 1 And we made derived class 2 In this example there is a derived class 1 And derived class 2 Derived class 2 is made from derived class 1 And derived class 2 has access to all the attributes And methods of derived class 1 and base class You must have understood this Now see here I will copy this example I will run the console So that you have clarity I have not made any method There is an animal Then we have a dog In this show details method has been overwritten And finally in golden retriever Has been changed You can see the method here Here we have said that parent's show details Call and then call this I will quickly make an object here And what does the constructor need Name will be Tommy Your dog is Tommy, our dog is dog Now you will see the color will be black I have made it black And now I will call show details I will call this method And when I will call show details Dog's show details will run Dog's class is here I have to call animal's show details It will show name species Then it will come back Now I will print breed But the dog's show details Was coming from here I hope you understood You can see it If you didn't understand Now see We have said call show details Means call these two lines Now we will go to dog's show details And bring its code I can replace dog's show details Yes I can Now here is animal's show details I can replace animal's show details I will write this It is saying to print this So golden retriever's show details Is saying to print these four lines If I would have done the same For dog, what is the name and breed If I would have written dog Would I have printed these four lines And what is the reason, tell me in the comments And once again I want to tell you If I print golden retriever's MRO Method resolution order I can print it like this It will tell me where it will go I have done wrong spelling Retriever Retriever I have done golden So don't do this kind of spelling mistakes You can see, whatever method it is It will find in golden retriever, dog, animal It will find in dog because golden retriever is made from dog If it didn't find any method in dog It will find in animal And there can be any long chain So this way You can do multi-level inheritance So I hope you understood multi-level inheritance As we can see from the output, golden retriever object has access to all the attributes And methods of animal and dog And it also has its own unique attributes and methods Which we have defined in golden retriever This is the example of multi-level inheritance Another important aspect of multi-level inheritance is that it allows you to reuse code And avoid repeating the same logic multiple times It reduces your repeatability You don't have to write one code 10 times You can use your previous code So here you can see how we did multi-level inheritance If you haven't accessed the playlist, then do access it That's all for this video Thank you so much for watching this video And I will see you next time Thank you so much"
+}

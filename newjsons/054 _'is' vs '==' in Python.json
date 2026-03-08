@@ -1,0 +1,376 @@
+{
+    "chunks": [
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 0.0,
+            "end": 15.200000000000001,
+            "text": " Python has a is keyword which allows us to know if a variable is none, we can write if e is none  if it is none, it will return true  but there is also a double equal to operator in Python which is very similar  what is the difference between these two?  we are going to see this in this video"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 15.200000000000001,
+            "end": 41.84,
+            "text": " let's go to the computer screen and let's get started  so if I want to tell you the difference between is and equal to, equal to in one line  so is compares the exact location of object in memory  and equal to compares the values  that whether the values of two objects are same or not"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 41.84,
+            "end": 60.480000000000004,
+            "text": " like I give you an example  suppose I have only one value here, I am writing here a is equal to 4  and I am saying here b is equal to, I have 4 here  so what will happen if I print here a is b  and if I print a equal to equal to b"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 60.480000000000004,
+            "end": 72.64,
+            "text": " then what will be the print?  for your information, I have already told you  but I will tell you again that is and equal to, equal to are both comparison operators  what are comparison operators?  which compare two objects"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 72.72,
+            "end": 95.84,
+            "text": " the difference is that this compares the value  and this compares the exact location of the object  so I will write here exact location of object in memory  it checks whether it is the same thing in memory  if I tell you that, let me pick any object from here"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 95.84,
+            "end": 110.72,
+            "text": " I say this is Harry's mouse, this is a mouse  or it is a hard disk  you say it is Harry's hard disk  and another person says that it is code with Harry's hard disk  it is the same thing, this is a hard disk, this is a hard disk"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 110.72,
+            "end": 122.08000000000001,
+            "text": " if someone says that it is WD's hard disk  which can be another hard disk  and Harry's hard disk  so these are two different things  but they will be exactly the same model of 1TB"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 122.08000000000001,
+            "end": 131.28,
+            "text": " it is possible  but they are two different things  so if you say a is b, it is the same  then it will be wrong, two different things  if I have an iPhone 14"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 131.28,
+            "end": 140.0,
+            "text": " someone else has an iPhone 14  if you say that these two are the same phone  it will be wrong to say that  yes, they are exactly the same things  but they are not the same thing"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 140.0,
+            "end": 152.08,
+            "text": " but if you say that my mom's iPhone  and suppose you take your mom's iPhone  sometimes you go to a party  if someone says that this iPhone is your mom's  and you say it is mine"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 152.08,
+            "end": 161.2,
+            "text": " so it is the same thing  so a is b will be true in that case  when we are referring to the same object  here we are referring to the same object in memory  remember this"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 161.2,
+            "end": 168.0,
+            "text": " so if I run this now  so this will also be false  both will be false  because neither the value is equal  nor these two are equal"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 168.0,
+            "end": 178.72,
+            "text": " now see what happens  if I make a list here  1, 2 and 43  and here I make 1, 2, 43  so it will make two different lists"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 178.72,
+            "end": 185.76,
+            "text": " python is smart enough  python will say that there are two lists  both are requesting the list  they are requesting the same  but I make them different"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 185.76,
+            "end": 196.0,
+            "text": " a's value is same  b's value is same  suppose you bought an iPhone from Apple  and someone else bought the same model of iPhone from Apple  both will be given separately"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 196.0,
+            "end": 202.95999999999998,
+            "text": " will be given  now if I run this  so a is b will be false  and a equals to equals to b  value is same"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 202.95999999999998,
+            "end": 208.95999999999998,
+            "text": " exactly same model  because it was bought  ok  now if I do something here  that I say that"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 208.95999999999998,
+            "end": 218.4,
+            "text": " I do 3 here  and I do 3 for b's value  now if I run this  so a is b will also be true here  now you will say why this happened"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 218.4,
+            "end": 225.6,
+            "text": " I gave a list  then you will be confused  you will say that I am not playing this  you will get this kind of feeling  I will tell you exactly what happens"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 225.6,
+            "end": 234.24,
+            "text": " when we make a constant in python  a is equal to 3  so this is made once in memory location  because python knows that  this constant is not going to change"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 234.24,
+            "end": 240.96,
+            "text": " 3 is a value, it is a constant  it is immutable  so it is not going to change  ok  now because it is not going to change"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 241.68,
+            "end": 249.76000000000002,
+            "text": " that's why python will not waste  one more memory location  and will not put 3 again  in another memory location  what it will do"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 249.76000000000002,
+            "end": 257.2,
+            "text": " it will leverage this  so a and b are pointing  to the same memory location  in which 3 is kept  so a is b will be true"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 257.2,
+            "end": 264.64,
+            "text": " and a equals to equals to b is there  ok  so if you give any immutable object  so if you give a string here  you write Harry here"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 264.64,
+            "end": 272.88,
+            "text": " and you write Harry here too  and then run  so you will get a is b true  a equals to equals to b will also be true  if you write a tuple here"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 273.52,
+            "end": 280.4,
+            "text": " suppose I write 1,2 here  and here also 1,2  tuple is immutable  exactly immutable  so here you will get"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 280.4,
+            "end": 289.68,
+            "text": " a equals to equals to b is true  and a is b will also be true  because python is smart enough  it knows that this change is not going to happen  so there is no point in making it again and again"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 289.68,
+            "end": 296.15999999999997,
+            "text": " so make it in the same memory location  ok  so you can do such things  same goes for none  if you do none"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 296.15999999999997,
+            "end": 304.71999999999997,
+            "text": " and you do none of this  ok  so these two will return true  but here  if I do something like this"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 304.71999999999997,
+            "end": 311.91999999999996,
+            "text": " if I do a is none  will it give true?  yes, it will give true  because a is none  if you do a is equal to none"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 311.91999999999996,
+            "end": 319.36,
+            "text": " it will be made once in the memory location  ok  so I hope this thing is clear to everyone  so equals to equals to  and the difference in is is"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 319.36,
+            "end": 327.84,
+            "text": " that equals to equals to  compares the value  and the is compares the identity  ok  is operator compares the identity"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 327.84,
+            "end": 336.08,
+            "text": " compares the identity  that is this the same phone?  now assume that you have a phone  you dropped it and broke it  now if my phone broke"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 336.08,
+            "end": 342.32,
+            "text": " then it doesn't mean that  the model like my phone  will break of someone else  all the iPhone 14 in this world  will break"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 342.32,
+            "end": 350.15999999999997,
+            "text": " they won't break, ok  similarly  if you  changed this value  ok, if this list was there"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 350.15999999999997,
+            "end": 356.08,
+            "text": " then I could have changed it  this is constant  so I can't change it  if I changed it  then a is b"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 356.08,
+            "end": 363.68,
+            "text": " that was false before  equals to equals to b will also be false  because it compares the value  so equals to equals to b  will return true"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 363.68,
+            "end": 371.76,
+            "text": " till the value is same  and a is b  will return true  when the identity of both the objects is same  that means both are the same thing"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 371.76,
+            "end": 378.56,
+            "text": " you can say  that the iPhone kept on this table  or you can say  that the iPhone is kept on the table  of room number 3 in Harry's house"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 378.56,
+            "end": 382.96000000000004,
+            "text": " understand it like this  ok  so it is the same thing  if you assume that there is a teacher  his name is Himanshu"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 382.96000000000004,
+            "end": 387.92,
+            "text": " and he is a maths teacher  you can say that the iPhone is of a maths teacher  or you can say that the iPhone is of Himanshu sir  so it is the same thing  ok"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 387.92,
+            "end": 396.56,
+            "text": " so you should know this thing  I hope that you have understood  the concept of is and equals to  I know that we have learned a lot of things  in this video"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 396.56,
+            "end": 402.96,
+            "text": " so do grasp it easily  ok  and after this  do write your program  do fork the REPL"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 402.96,
+            "end": 409.6,
+            "text": " still people have doubt  like I have told many times in my initial videos  not once but many times  any REPL  do fork REPL first"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 409.6,
+            "end": 416.0,
+            "text": " so that you get the copy of it  and you get to see this interface  ok  after that you can do your edits here  that REPL is your property"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 416.0,
+            "end": 421.12,
+            "text": " ok  but this REPL is mine  obviously you can't change it  ok  many comments come"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 421.12,
+            "end": 427.36,
+            "text": " that we are changing your REPL  why do you want to change my REPL  you can fork and change your own  ok  so that's all for this video guys"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 427.36,
+            "end": 435.44,
+            "text": " if you have not accessed this playlist yet  then do access it first  and if in the first video  you have not written a comment below  if you have not written a comment"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 435.44,
+            "end": 441.44,
+            "text": " and have not given a star rating to this course  then give it in the comment of the first video  ok  what will happen with that  if any new person"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 441.44,
+            "end": 447.92,
+            "text": " is going to come here  to see this course  because this is a free course  so many people ask questions  that is this taught in this course"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 447.92,
+            "end": 455.20000000000005,
+            "text": " is this course taught well  in this  are all the concepts clear  please rate this  that's all for this video guys"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 455.20000000000005,
+            "end": 461.68,
+            "text": " please rate this  thank you so much guys  for watching this video  and I will see you  next time"
+        },
+        {
+            "number": "054 ",
+            "title": "'is' vs '==' in Python",
+            "start": 475.04,
+            "end": 483.04,
+            "text": " Thank you for watching it  and I will see you next time  till then bye  bye"
+        }
+    ],
+    "text": " Python has a is keyword which allows us to know if a variable is none, we can write if e is none if it is none, it will return true but there is also a double equal to operator in Python which is very similar what is the difference between these two? we are going to see this in this video let's go to the computer screen and let's get started so if I want to tell you the difference between is and equal to, equal to in one line so is compares the exact location of object in memory and equal to compares the values that whether the values of two objects are same or not like I give you an example suppose I have only one value here, I am writing here a is equal to 4 and I am saying here b is equal to, I have 4 here so what will happen if I print here a is b and if I print a equal to equal to b then what will be the print? for your information, I have already told you but I will tell you again that is and equal to, equal to are both comparison operators what are comparison operators? which compare two objects the difference is that this compares the value and this compares the exact location of the object so I will write here exact location of object in memory it checks whether it is the same thing in memory if I tell you that, let me pick any object from here I say this is Harry's mouse, this is a mouse or it is a hard disk you say it is Harry's hard disk and another person says that it is code with Harry's hard disk it is the same thing, this is a hard disk, this is a hard disk if someone says that it is WD's hard disk which can be another hard disk and Harry's hard disk so these are two different things but they will be exactly the same model of 1TB it is possible but they are two different things so if you say a is b, it is the same then it will be wrong, two different things if I have an iPhone 14 someone else has an iPhone 14 if you say that these two are the same phone it will be wrong to say that yes, they are exactly the same things but they are not the same thing but if you say that my mom's iPhone and suppose you take your mom's iPhone sometimes you go to a party if someone says that this iPhone is your mom's and you say it is mine so it is the same thing so a is b will be true in that case when we are referring to the same object here we are referring to the same object in memory remember this so if I run this now so this will also be false both will be false because neither the value is equal nor these two are equal now see what happens if I make a list here 1, 2 and 43 and here I make 1, 2, 43 so it will make two different lists python is smart enough python will say that there are two lists both are requesting the list they are requesting the same but I make them different a's value is same b's value is same suppose you bought an iPhone from Apple and someone else bought the same model of iPhone from Apple both will be given separately will be given now if I run this so a is b will be false and a equals to equals to b value is same exactly same model because it was bought ok now if I do something here that I say that I do 3 here and I do 3 for b's value now if I run this so a is b will also be true here now you will say why this happened I gave a list then you will be confused you will say that I am not playing this you will get this kind of feeling I will tell you exactly what happens when we make a constant in python a is equal to 3 so this is made once in memory location because python knows that this constant is not going to change 3 is a value, it is a constant it is immutable so it is not going to change ok now because it is not going to change that's why python will not waste one more memory location and will not put 3 again in another memory location what it will do it will leverage this so a and b are pointing to the same memory location in which 3 is kept so a is b will be true and a equals to equals to b is there ok so if you give any immutable object so if you give a string here you write Harry here and you write Harry here too and then run so you will get a is b true a equals to equals to b will also be true if you write a tuple here suppose I write 1,2 here and here also 1,2 tuple is immutable exactly immutable so here you will get a equals to equals to b is true and a is b will also be true because python is smart enough it knows that this change is not going to happen so there is no point in making it again and again so make it in the same memory location ok so you can do such things same goes for none if you do none and you do none of this ok so these two will return true but here if I do something like this if I do a is none will it give true? yes, it will give true because a is none if you do a is equal to none it will be made once in the memory location ok so I hope this thing is clear to everyone so equals to equals to and the difference in is is that equals to equals to compares the value and the is compares the identity ok is operator compares the identity compares the identity that is this the same phone? now assume that you have a phone you dropped it and broke it now if my phone broke then it doesn't mean that the model like my phone will break of someone else all the iPhone 14 in this world will break they won't break, ok similarly if you changed this value ok, if this list was there then I could have changed it this is constant so I can't change it if I changed it then a is b that was false before equals to equals to b will also be false because it compares the value so equals to equals to b will return true till the value is same and a is b will return true when the identity of both the objects is same that means both are the same thing you can say that the iPhone kept on this table or you can say that the iPhone is kept on the table of room number 3 in Harry's house understand it like this ok so it is the same thing if you assume that there is a teacher his name is Himanshu and he is a maths teacher you can say that the iPhone is of a maths teacher or you can say that the iPhone is of Himanshu sir so it is the same thing ok so you should know this thing I hope that you have understood the concept of is and equals to I know that we have learned a lot of things in this video so do grasp it easily ok and after this do write your program do fork the REPL still people have doubt like I have told many times in my initial videos not once but many times any REPL do fork REPL first so that you get the copy of it and you get to see this interface ok after that you can do your edits here that REPL is your property ok but this REPL is mine obviously you can't change it ok many comments come that we are changing your REPL why do you want to change my REPL you can fork and change your own ok so that's all for this video guys if you have not accessed this playlist yet then do access it first and if in the first video you have not written a comment below if you have not written a comment and have not given a star rating to this course then give it in the comment of the first video ok what will happen with that if any new person is going to come here to see this course because this is a free course so many people ask questions that is this taught in this course is this course taught well in this are all the concepts clear please rate this that's all for this video guys please rate this thank you so much guys for watching this video and I will see you next time Thank you for watching it and I will see you next time till then bye bye"
+}

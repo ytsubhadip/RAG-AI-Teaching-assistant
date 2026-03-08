@@ -1,0 +1,432 @@
+{
+    "chunks": [
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 0.0,
+            "end": 24.6,
+            "text": " Guys, Valness Operator is a new addition to Python 3.8 onwards.  And it makes it very easy to do some work.  In this video, we are going to see what are the things that Valness Operator makes easy for you.  Let's go to the computer screen and let's get started.  Intro"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 24.6,
+            "end": 39.96,
+            "text": " If you are coming from any other programming language,  then you must be aware that you can do an expression within assignment.  This problem used to be there in Python from the beginning.  Because of which there were a lot of problems.  Now, Valness Operator has come, all these problems have been solved."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 39.96,
+            "end": 50.480000000000004,
+            "text": " So, I will come to my RAPL first.  And we will talk about Valness Operator.  So, what is Valness Operator?  First of all, it is not a big rocket science.  It is a very simple operator,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 50.480000000000004,
+            "end": 67.16,
+            "text": " with which you can do assignments while being within an expression.  For example, I say A is equal to true.  I wrote here A is equal to true.  And after this, I want to write print.  And I want to write A here."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 67.16,
+            "end": 76.96000000000001,
+            "text": " And I want to make it false and print it.  So, if I do something like this,  if I tried to do something like this in Python,  then what would have happened?  If I run it, it will say, what are you doing?"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 76.96000000000001,
+            "end": 90.88,
+            "text": " In short, it is saying that this does not work here.  We don't do this here.  But with the help of Valness Operator, this can be done.  So, a new operator came in Python 3.8 onwards.  Python said that this operator is needed."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 90.88,
+            "end": 104.16,
+            "text": " Because some people who come from other programming languages,  they need this.  So, because they need this,  they can use it by writing colon is equal to false.  So, now if I run it, it is false here."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 104.16,
+            "end": 117.24,
+            "text": " And even if I don't do this, it will still show me false.  Because what I am doing here is,  I am making A false and printing it.  So, this is the simplest use of Valness Operator.  So, this is a new addition in Python 3.8."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 117.24,
+            "end": 129.24,
+            "text": " And it allows you to assign a value to a variable within an expression.  So, we are inside an expression here,  which we are printing with the help of print function.  And what we are doing is,  we are printing it."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 129.24,
+            "end": 135.24,
+            "text": " Otherwise, if Valness Operator was not there,  then what would we do?  We would have said A is equal to false.  Then we would have said print A.  We have coded two lines in one line."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 135.24,
+            "end": 144.32000000000002,
+            "text": " Very good.  And readability is also maintained.  It is not that we have lost readability.  We have not lost readability.  Valness Operator is represented by this syntax"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 144.32000000000002,
+            "end": 155.32000000000002,
+            "text": " and can be used in a variety of contexts  including while loops and if statements.  Okay?  So, you should know this.  Here is an example of how you can use a Valness Operator in a while loop."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 155.32000000000002,
+            "end": 165.32000000000002,
+            "text": " If you want to use Valness Operator in a while loop,  then you can do something like this.  In this example, if you see,  we have numbers, which is a list.  There are 1, 2, 3, 4, 5 numbers in it."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 165.32000000000002,
+            "end": 179.4,
+            "text": " We are saying that while n is equal to len of number.  So, we are saying that we should keep n equal to the number list.  Okay?  And we are saying that this result of this expression,  which is n,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 179.4,
+            "end": 190.4,
+            "text": " which we have assigned to Valness Operator,  is equal to len of numbers.  In this case, it will be 5.  If n is greater than 0,  then it will go into the loop or else it will not go."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 190.4,
+            "end": 199.48000000000002,
+            "text": " We are removing one element from it in the loop.  So, what will happen?  If the iteration of the loop runs once,  then 5 will be removed.  We will have only 1, 2, 3, 4."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 199.48000000000002,
+            "end": 211.48000000000002,
+            "text": " We will have only 1, 2, 3 in the next iteration.  We will have 1 and 2 in the next iteration.  We will have 1 in the next iteration.  And eventually, it will become an empty list.  And the value of n will become 0."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 211.48000000000002,
+            "end": 224.48000000000002,
+            "text": " And this condition will be false,  because of which this loop will exit.  So, what will happen?  We will get 5, 4, 3, 2, 1 printed.  Because numbers.pop() returns the last element or the popped element."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 224.48000000000002,
+            "end": 231.56,
+            "text": " And in this case, we are printing it.  So, first 5 will be printed,  which has been removed from this list.  Then 4 will be printed.  And eventually, 1 will be printed."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 231.56,
+            "end": 242.56,
+            "text": " And this loop will exit.  So, this way, the validation operator can be used.  I have given one more example here.  But I have an example better than this.  In which I will explain the validation operator in a little detail."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 243.56,
+            "end": 255.56,
+            "text": " I will remove this line now.  And first of all, I will uncomment this commented code.  I uncommented it.  Let me comment it.  It is written here that what does it do?"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 255.64000000000001,
+            "end": 268.64,
+            "text": " So, in a very simple sentence,  what does it do?  Assigns values to variables as part of a larger expression.  A part of a large expression,  whatever the expression is,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 268.64,
+            "end": 284.64,
+            "text": " it assigns with the help of this operator.  And it provides the value of that expression.  It is a simple thing.  Now, we have said that happy is equal to true.  We printed happy."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 284.71999999999997,
+            "end": 297.71999999999997,
+            "text": " Then we said that print happy is equal to true.  What will happen by doing this?  True print will be done here too.  If I do this false,  then you will understand it better."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 297.71999999999997,
+            "end": 306.71999999999997,
+            "text": " Let me comment this.  This is the same thing that I have already told you.  But I have written a program  according to which I thought that you will understand it better.  So, I will comment this now."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 306.71999999999997,
+            "end": 312.8,
+            "text": " In fact, I will remove this.  I don't remove it.  I will comment it.  I have said here that make a new list.  Food is equal to list."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 312.8,
+            "end": 322.8,
+            "text": " So, we are making an empty list by using the list constructor.  After this, I am saying while true.  What you do is,  the indent is a little spoilt here.  I have to fix the indent."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 322.8,
+            "end": 331.8,
+            "text": " So, I have fixed its indent.  I should fix it here too.  But even if I forget,  you please fix this indent.  Now, you can see while true."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 331.8,
+            "end": 338.8,
+            "text": " Food is equal to input.  What food do you like?  I have written this here.  Now, if the value of food is quit,  then it will break from this loop."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 338.8,
+            "end": 345.88,
+            "text": " So, this is one way to do it  by using the ballress operator.  After this, I am appending food.  So, basically I am not doing anything.  I am asking the user,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 345.88,
+            "end": 353.88,
+            "text": " what food do you like?  And it will keep telling me,  what food do they like?  And let's say I write here,  let's say apple."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 353.88,
+            "end": 363.88,
+            "text": " Then I write banana.  Then let's say I write banana here.  Then I write apple here.  Then I write orange here.  Then I write orange here."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 363.88,
+            "end": 371.96,
+            "text": " Then I write,  let's say lychee.  And I write,  and what happens?  I say, it's done."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 371.96,
+            "end": 377.96,
+            "text": " Just quit.  So, as soon as I write quit,  this program will exit  because the value of food will be quit.  The break will start here"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 377.96,
+            "end": 384.96,
+            "text": " and it will put us outside the loop.  Okay?  So, this is one way to do it without ballress.  So, this was the common life.  Okay?"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 384.96,
+            "end": 390.96,
+            "text": " Now, I will show you the mentor life.  Which will be done with the help of ballress operator.  It will do the same thing,  but with the help of ballress.  It will be more readable"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 390.96,
+            "end": 398.96,
+            "text": " and it will be done more easily.  Okay?  So, this is the way to do the same thing  with the help of ballress.  So, see what I have done here."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 399.03999999999996,
+            "end": 405.03999999999996,
+            "text": " If you see here,  I have made a list.  I said,  see this expression.  Try to understand this expression."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 405.03999999999996,
+            "end": 413.03999999999996,
+            "text": " See as much as I have selected from here.  And don't see the next one.  See, I have said,  food ballress is equal to input,  what food do you like?"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 413.03999999999996,
+            "end": 421.03999999999996,
+            "text": " So, basically I am saying,  put whatever input the user has given in food.  That  and that will be the value of this expression.  Now, this value of the expression,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 421.03999999999996,
+            "end": 427.03999999999996,
+            "text": " if it's not equal to quit,  then you append  inside food,  whatever input is there,  that is, food."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 427.03999999999996,
+            "end": 433.12,
+            "text": " Okay?  So, whatever work we did in so many lines,  we did it in three lines.  Okay?  And it will work, I will show you."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 433.12,
+            "end": 438.12,
+            "text": " So, I have written it here,  so see,  banana,  banana,  orange,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 438.12,
+            "end": 445.12,
+            "text": " and apple,  and bread,  vegetable,  okra,  quit."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 445.12,
+            "end": 451.12,
+            "text": " Okay?  As soon as I write quit, it will be quit.  Okay?  So, this is one way to do it.  So, ballress operator is not a very big rocket science."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 451.12,
+            "end": 460.2,
+            "text": " Ballress operator,  initially when I started using it,  I am telling you my personal experience,  I felt that what is the need of it,  my long programs are better than this."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 460.2,
+            "end": 468.2,
+            "text": " But, to tell you the truth,  when the number of lines of your programs  reduces,  readability remains maintained,  then you will not want to miss such an opportunity."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 468.2,
+            "end": 476.2,
+            "text": " And you get such an opportunity from ballress operator.  Initially, you will feel that  I can make a mistake with what I am using,  why should I get into this,  get into this new thing,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 476.2,
+            "end": 482.2,
+            "text": " but sometimes,  adopting some things  is beneficial,  instead of ignoring them.  We have a human tendency inside,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 482.2,
+            "end": 489.28,
+            "text": " that whatever I am doing is fine,  I don't want to do anything new.  Like, I teach typing to anyone,  I say,  you do 10 finger typing,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 489.28,
+            "end": 494.28,
+            "text": " they say,  I am fine like this,  I am fine with 2 finger typing,  I can do it.  If you keep that thought,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 494.28,
+            "end": 501.28,
+            "text": " then you will never be able to excel.  If you do 10 finger typing,  then your speed can go up to 150, 175, 200.  This is a possibility.  But, if you do 2 finger typing,"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 501.28,
+            "end": 511.28,
+            "text": " then it will be impossible to do it,  the possibility is very, very, very less.  I have never met anyone  who has taken out the speed of 150, 200  while doing 2 finger typing."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 511.28,
+            "end": 518.36,
+            "text": " I have not met anyone personally,  and I have met a lot of people  who do typing fast.  Everyone became fast  after adopting 10 finger typing."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 518.36,
+            "end": 526.36,
+            "text": " So, this is a difference  between adopting good things  and bad things.  So, I hope you understood Walrus  and we are very close"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 526.36,
+            "end": 533.36,
+            "text": " to finishing 100 days of code.  So, I would like you to come  in the first video  and express your feelings,  tell people"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 533.36,
+            "end": 539.36,
+            "text": " how is this course,  do you like it,  what is looking good,  if you are liking it.  I want you to tell all these things"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 539.36,
+            "end": 545.44,
+            "text": " so that those people  who are going to start this course  will find it easy.  Do leave a review  in your first video"
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 545.44,
+            "end": 550.44,
+            "text": " in day 1,  in the comment section.  Please leave a review  for me,  and I will be very grateful."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 550.44,
+            "end": 571.44,
+            "text": " That's it for now guys.  Thank you so much guys  for watching this video  and I will see you next time.  Thank you so much for watching this video."
+        },
+        {
+            "number": "086 ",
+            "title": "Walrus Operator in Python",
+            "start": 571.44,
+            "end": 573.44,
+            "text": " I will see you next time.  Bye."
+        }
+    ],
+    "text": " Guys, Valness Operator is a new addition to Python 3.8 onwards. And it makes it very easy to do some work. In this video, we are going to see what are the things that Valness Operator makes easy for you. Let's go to the computer screen and let's get started. Intro If you are coming from any other programming language, then you must be aware that you can do an expression within assignment. This problem used to be there in Python from the beginning. Because of which there were a lot of problems. Now, Valness Operator has come, all these problems have been solved. So, I will come to my RAPL first. And we will talk about Valness Operator. So, what is Valness Operator? First of all, it is not a big rocket science. It is a very simple operator, with which you can do assignments while being within an expression. For example, I say A is equal to true. I wrote here A is equal to true. And after this, I want to write print. And I want to write A here. And I want to make it false and print it. So, if I do something like this, if I tried to do something like this in Python, then what would have happened? If I run it, it will say, what are you doing? In short, it is saying that this does not work here. We don't do this here. But with the help of Valness Operator, this can be done. So, a new operator came in Python 3.8 onwards. Python said that this operator is needed. Because some people who come from other programming languages, they need this. So, because they need this, they can use it by writing colon is equal to false. So, now if I run it, it is false here. And even if I don't do this, it will still show me false. Because what I am doing here is, I am making A false and printing it. So, this is the simplest use of Valness Operator. So, this is a new addition in Python 3.8. And it allows you to assign a value to a variable within an expression. So, we are inside an expression here, which we are printing with the help of print function. And what we are doing is, we are printing it. Otherwise, if Valness Operator was not there, then what would we do? We would have said A is equal to false. Then we would have said print A. We have coded two lines in one line. Very good. And readability is also maintained. It is not that we have lost readability. We have not lost readability. Valness Operator is represented by this syntax and can be used in a variety of contexts including while loops and if statements. Okay? So, you should know this. Here is an example of how you can use a Valness Operator in a while loop. If you want to use Valness Operator in a while loop, then you can do something like this. In this example, if you see, we have numbers, which is a list. There are 1, 2, 3, 4, 5 numbers in it. We are saying that while n is equal to len of number. So, we are saying that we should keep n equal to the number list. Okay? And we are saying that this result of this expression, which is n, which we have assigned to Valness Operator, is equal to len of numbers. In this case, it will be 5. If n is greater than 0, then it will go into the loop or else it will not go. We are removing one element from it in the loop. So, what will happen? If the iteration of the loop runs once, then 5 will be removed. We will have only 1, 2, 3, 4. We will have only 1, 2, 3 in the next iteration. We will have 1 and 2 in the next iteration. We will have 1 in the next iteration. And eventually, it will become an empty list. And the value of n will become 0. And this condition will be false, because of which this loop will exit. So, what will happen? We will get 5, 4, 3, 2, 1 printed. Because numbers.pop() returns the last element or the popped element. And in this case, we are printing it. So, first 5 will be printed, which has been removed from this list. Then 4 will be printed. And eventually, 1 will be printed. And this loop will exit. So, this way, the validation operator can be used. I have given one more example here. But I have an example better than this. In which I will explain the validation operator in a little detail. I will remove this line now. And first of all, I will uncomment this commented code. I uncommented it. Let me comment it. It is written here that what does it do? So, in a very simple sentence, what does it do? Assigns values to variables as part of a larger expression. A part of a large expression, whatever the expression is, it assigns with the help of this operator. And it provides the value of that expression. It is a simple thing. Now, we have said that happy is equal to true. We printed happy. Then we said that print happy is equal to true. What will happen by doing this? True print will be done here too. If I do this false, then you will understand it better. Let me comment this. This is the same thing that I have already told you. But I have written a program according to which I thought that you will understand it better. So, I will comment this now. In fact, I will remove this. I don't remove it. I will comment it. I have said here that make a new list. Food is equal to list. So, we are making an empty list by using the list constructor. After this, I am saying while true. What you do is, the indent is a little spoilt here. I have to fix the indent. So, I have fixed its indent. I should fix it here too. But even if I forget, you please fix this indent. Now, you can see while true. Food is equal to input. What food do you like? I have written this here. Now, if the value of food is quit, then it will break from this loop. So, this is one way to do it by using the ballress operator. After this, I am appending food. So, basically I am not doing anything. I am asking the user, what food do you like? And it will keep telling me, what food do they like? And let's say I write here, let's say apple. Then I write banana. Then let's say I write banana here. Then I write apple here. Then I write orange here. Then I write orange here. Then I write, let's say lychee. And I write, and what happens? I say, it's done. Just quit. So, as soon as I write quit, this program will exit because the value of food will be quit. The break will start here and it will put us outside the loop. Okay? So, this is one way to do it without ballress. So, this was the common life. Okay? Now, I will show you the mentor life. Which will be done with the help of ballress operator. It will do the same thing, but with the help of ballress. It will be more readable and it will be done more easily. Okay? So, this is the way to do the same thing with the help of ballress. So, see what I have done here. If you see here, I have made a list. I said, see this expression. Try to understand this expression. See as much as I have selected from here. And don't see the next one. See, I have said, food ballress is equal to input, what food do you like? So, basically I am saying, put whatever input the user has given in food. That and that will be the value of this expression. Now, this value of the expression, if it's not equal to quit, then you append inside food, whatever input is there, that is, food. Okay? So, whatever work we did in so many lines, we did it in three lines. Okay? And it will work, I will show you. So, I have written it here, so see, banana, banana, orange, and apple, and bread, vegetable, okra, quit. Okay? As soon as I write quit, it will be quit. Okay? So, this is one way to do it. So, ballress operator is not a very big rocket science. Ballress operator, initially when I started using it, I am telling you my personal experience, I felt that what is the need of it, my long programs are better than this. But, to tell you the truth, when the number of lines of your programs reduces, readability remains maintained, then you will not want to miss such an opportunity. And you get such an opportunity from ballress operator. Initially, you will feel that I can make a mistake with what I am using, why should I get into this, get into this new thing, but sometimes, adopting some things is beneficial, instead of ignoring them. We have a human tendency inside, that whatever I am doing is fine, I don't want to do anything new. Like, I teach typing to anyone, I say, you do 10 finger typing, they say, I am fine like this, I am fine with 2 finger typing, I can do it. If you keep that thought, then you will never be able to excel. If you do 10 finger typing, then your speed can go up to 150, 175, 200. This is a possibility. But, if you do 2 finger typing, then it will be impossible to do it, the possibility is very, very, very less. I have never met anyone who has taken out the speed of 150, 200 while doing 2 finger typing. I have not met anyone personally, and I have met a lot of people who do typing fast. Everyone became fast after adopting 10 finger typing. So, this is a difference between adopting good things and bad things. So, I hope you understood Walrus and we are very close to finishing 100 days of code. So, I would like you to come in the first video and express your feelings, tell people how is this course, do you like it, what is looking good, if you are liking it. I want you to tell all these things so that those people who are going to start this course will find it easy. Do leave a review in your first video in day 1, in the comment section. Please leave a review for me, and I will be very grateful. That's it for now guys. Thank you so much guys for watching this video and I will see you next time. Thank you so much for watching this video. I will see you next time. Bye."
+}

@@ -1,0 +1,418 @@
+{
+    "chunks": [
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 0.0,
+            "end": 15.200000000000001,
+            "text": " I am feeling so good after watching this 100 days of code  and in today's video, I will give a shoutout to all of you  who have solved our exercise 1  and then I will tell you the solution  Let's go to the computer screen and let's get started"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 15.200000000000001,
+            "end": 35.04,
+            "text": " Intro  So I have come inside my computer screen  and as you can see  I am going to open the solution's raffle which I have made  So I have come here in my raffle"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 35.04,
+            "end": 45.92,
+            "text": " 0 to Hero  Day 8  We will see the solution on this  But along with the solution, we are going to see  what all did each of us do in Day 7"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 45.92,
+            "end": 58.160000000000004,
+            "text": " Okay  And where did my Day 7 raffle go on Day 7  I will open this raffle  and I am going to give a shoutout to all of you  So first of all, whoever posted their comment"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 58.160000000000004,
+            "end": 69.12,
+            "text": " and most importantly posted the solution in the comment  Okay, so I will click on the cover page here  and see all these people  Oh my God, people are posting so fast  We need this kind of tempo"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 69.12,
+            "end": 80.88,
+            "text": " We will make a blast in 100 days of code  20 seconds ago, 23 seconds ago  I want us to make such a blast  in this 100 days of code series  that it will be a blast"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 80.88,
+            "end": 89.12,
+            "text": " Okay  So here you see  that what we talked about  that we have to make a calculator  Yes, I know I told you some things"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 89.12,
+            "end": 97.04,
+            "text": " like what is a data type  We talked about all these things  But this exercise was a bit too simple  And I got comments  and I said in the video in the last"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 97.04,
+            "end": 107.28,
+            "text": " that man, comments will come  that such an easy thing  Why are you making it?  Man, some people are starting programming here  You give me 5 to 6 days time"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 107.28,
+            "end": 116.0,
+            "text": " and then see where I will take the level  and I will ensure that everyone understands  Whatever I am teaching here  Now what we have to do here  is addition, subtraction, multiplication and division"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 116.0,
+            "end": 123.04,
+            "text": " I did not say modulo  I did not say floor division  You can add if you want  But what I am doing here simply  I will say a is equal to 56"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 123.04,
+            "end": 129.76,
+            "text": " and b is equal to 7  Okay  or 3  And see what I am going to do here  I will make it a little easy"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 129.76,
+            "end": 142.72,
+            "text": " so that I can verify my calculation  The value of  and I will write 50 here  So I will write 50 here by comma  I will write a here"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 142.72,
+            "end": 152.72,
+            "text": " and then I will write plus  and then I will write  value of b  3 is  and then I will write plus"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 152.72,
+            "end": 162.72,
+            "text": " Basically I am adding it  I will do one thing  I will put a comma, I will not add  By doing this, the value of which is a string  this, then after that this is a string"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 162.72,
+            "end": 172.72,
+            "text": " then this is a number, it will be printed  Then I will put a comma  Then another string will be printed  and here I will put a comma  and print a plus b"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 172.72,
+            "end": 182.72,
+            "text": " and now you see  as soon as I run it, its output will come  So this is the work I can do  which I have done here  a plus b, I can do the same"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 182.72,
+            "end": 192.72,
+            "text": " with other operations  Now see I do not need to put this here  No need to give space, automatically a space comes  When we put a comma in print  So this is going to be printed and this is going to be printed"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 192.72,
+            "end": 202.72,
+            "text": " A space comes between the two  Now what I have to do simply is to replicate it  Alt plus shift plus down arrow  is the shortcut of VS code  Replicate the line"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 202.72,
+            "end": 212.72,
+            "text": " I am pressing the down arrow key  I am not doing any magic  I am not doing any magic  and whatever magic I am doing, you can also do  It is a simple thing, not only in this series"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 212.72,
+            "end": 222.72,
+            "text": " In life, whatever I am doing  You can do all that  and if anyone is doing it, you can do it  If anyone says to you that you can't do it  Then he is lying to you"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 222.72,
+            "end": 232.72,
+            "text": " You can do it  So here what I will do is the value of a divided by  3 is  This a by b value will come  Now see here it came 50 plus 3"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 232.72,
+            "end": 242.72,
+            "text": " Now I don't know what to do  I am pressing alt shift here  I am clicking by pressing alt  Okay  I am clicking by pressing alt"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 242.72,
+            "end": 252.72,
+            "text": " Something like this, okay  Wherever I click by pressing alt, I will get multiple cursors  And I can edit in all of them  You are seeing how amazing this thing is  This is also a shortcut of VS code and you should know"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 252.72,
+            "end": 262.72,
+            "text": " Okay, so here you can see  All the shortcuts of VS code are available in the replate  I am using replate so that things  Become very easy, you see here the value  50 plus 3 50 minus 3"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 262.72,
+            "end": 272.72,
+            "text": " 50 multiplied by 3  50 divided by 3 value has also come here  And that's about it, this is the solution  To our first exercise  Number 1, okay, now I will come"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 272.72,
+            "end": 282.72,
+            "text": " Exercise number 1 in apple  One reload is made  See who is giving the solution to them  Now 4 seconds ago, the solution has been given  By Taha Pasha"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 282.72,
+            "end": 292.72,
+            "text": " Ashitosh Zolte has given 4 seconds  I hope I pronounce your name right  If I pronounce someone's name wrong  Then automatically forgive me, I am saying throughout the course  Otherwise, the comment comes that my name is"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 292.72,
+            "end": 302.72,
+            "text": " Pronunciation is wrong, oh love you  Love you too bro, love you too  Now what I am going to do here is load more comments  I know I will not be able to reach below but it will be unfair  If I don't reach below"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 302.72,
+            "end": 312.72,
+            "text": " So I am doing a load more comments here  What is going on, what have I opened  I have opened someone's profile  I am going to take my time  And I am taking my time"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 314.72,
+            "end": 324.72,
+            "text": " I will scroll it down  Give me some time, so I have scrolled  I took some time  Now see here  I am going to see some repls"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 324.72,
+            "end": 334.72,
+            "text": " I am opening these repls, the link was not working  I have uploaded this on day 6  Link was not working  I think link will work  Click once, link will work well"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 334.72,
+            "end": 346.72,
+            "text": " Here calculator  Give shoutout to all of them  Shoutout to all of them with full high tempo  By the way, in case you are in a hurry  And want to move on to the next topic"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 346.72,
+            "end": 356.72,
+            "text": " You can leave this video  Because here shoutout game is going on  So I will give shoutout  Kunal Panchal, try to do this  As soon as you click on run"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 356.72,
+            "end": 366.72,
+            "text": " Your repl will run  Now you see here I am seeing files  But your repl is not running  So ensure that your repl runs by clicking on run button  And"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 366.72,
+            "end": 376.72,
+            "text": " Well you did it really quick  Yes you did it really quick  Kunal Panchal, but let me see your code  Let me see your code  So here your 6 is running"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 376.72,
+            "end": 386.72,
+            "text": " Then 9  Now see, don't use all these  Disqualified man, disqualified  Just kidding, but actually disqualified  I am kidding but actually disqualified"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 386.72,
+            "end": 396.72,
+            "text": " Means it doesn't make much difference  But it is disqualified  If you are using something which  I have not taught yet  Did I say this in the first video"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 396.72,
+            "end": 406.72,
+            "text": " Yes, it can be your argument  You didn't say anything like this  So it is okay, not disqualified  But in future, if I have never said  Then whatever I have taught"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 406.72,
+            "end": 416.72,
+            "text": " Till day 7  You have to use that much knowledge  You can use AFL, match case  Then you can use  Artificial intelligence"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 416.72,
+            "end": 426.72,
+            "text": " You know everyone knows  But your repl has to run  Oh what happened  I had to choose numbers from above  So I choose 3"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 426.72,
+            "end": 436.72,
+            "text": " Actually I gave invalid input  You have handled the error too  Very good, I will write 4  Then I will write 5, then 1  Then 9 will come, very good"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 436.72,
+            "end": 446.72,
+            "text": " Very good  Now after this, next shoutout will be given to Suryansh Kumar  Suryansh Kumar has made this repl  And has received 3 comments  Suryansh Kumar, big thumbs up to you man"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 446.72,
+            "end": 458.72,
+            "text": " You have tried out on time  But are you disqualified  Oh I gave wrong operation  Let me see how the repl behaves on wrong operation  Now I don't have to handle the error"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 458.72,
+            "end": 468.72,
+            "text": " So there is nothing to worry  First number is 4  Second number is 65  Oops, I am making a mistake every time  I am putting second number instead of operation"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 468.72,
+            "end": 478.72,
+            "text": " So your user interface  Should not be confusing  See the user will make a mistake  He will blame you  So remember this"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 478.72,
+            "end": 488.72,
+            "text": " Remember this  6.0, great  Big shoutout to Suryansh Kumar  After this, we would like to give shoutout to  Kirtin, Tushar Gameplex"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 488.72,
+            "end": 498.72,
+            "text": " Sobin Banerjee  Omesh Goyal  For trying this out  Nirmith Mishra  21BEIT30010"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 498.72,
+            "end": 508.72,
+            "text": " Om  Is this your name?  Tell me in the comment  Oh my god  Piyush Goyal"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 508.72,
+            "end": 518.72,
+            "text": " What have you done  You have put image in such a great repl  Piyush Goyal  Very good Piyush Goyal  First number is 4"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 518.72,
+            "end": 528.72,
+            "text": " Second number is 1  Amazing man  Big shoutout to Piyush Goyal  For attempting this repl  Day 7 calculator"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 528.72,
+            "end": 538.72,
+            "text": " Great  I am running  Let me see the code  Why did you use input  Why did you use input"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 538.72,
+            "end": 548.72,
+            "text": " When we didn't read  You could have used hardcode  But no problem  You should have used input  Great"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 548.72,
+            "end": 558.72,
+            "text": " Big shoutout to Candyinstate  Big shoutout to Priyanka Garg  And in the coming videos  We will see many more things  And the coming exercises"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 558.72,
+            "end": 568.72,
+            "text": " Will not be that easy  Some people were saying  So my friends  Wait  Be patient"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 568.72,
+            "end": 578.72,
+            "text": " The fruit of patience  Is strawberry flavor  So be patient  And in the coming videos  We will increase the level"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 578.72,
+            "end": 588.72,
+            "text": " And if you are watching  Day 70 and 80  Then there will be a different level  I hope you are enjoying this course  I will meet you in day 9"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 588.72,
+            "end": 598.72,
+            "text": " I will put the day 8 repl in the description  Keep practicing  And keep coming  In 100 days of code  And we will rock"
+        },
+        {
+            "number": "008 ",
+            "title": "Exercise 1\uff1a Calculator using Python (Solution)",
+            "start": 598.72,
+            "end": 622.72,
+            "text": " Thank you so much for watching  And I will see you next time  Thank you"
+        }
+    ],
+    "text": " I am feeling so good after watching this 100 days of code and in today's video, I will give a shoutout to all of you who have solved our exercise 1 and then I will tell you the solution Let's go to the computer screen and let's get started Intro So I have come inside my computer screen and as you can see I am going to open the solution's raffle which I have made So I have come here in my raffle 0 to Hero Day 8 We will see the solution on this But along with the solution, we are going to see what all did each of us do in Day 7 Okay And where did my Day 7 raffle go on Day 7 I will open this raffle and I am going to give a shoutout to all of you So first of all, whoever posted their comment and most importantly posted the solution in the comment Okay, so I will click on the cover page here and see all these people Oh my God, people are posting so fast We need this kind of tempo We will make a blast in 100 days of code 20 seconds ago, 23 seconds ago I want us to make such a blast in this 100 days of code series that it will be a blast Okay So here you see that what we talked about that we have to make a calculator Yes, I know I told you some things like what is a data type We talked about all these things But this exercise was a bit too simple And I got comments and I said in the video in the last that man, comments will come that such an easy thing Why are you making it? Man, some people are starting programming here You give me 5 to 6 days time and then see where I will take the level and I will ensure that everyone understands Whatever I am teaching here Now what we have to do here is addition, subtraction, multiplication and division I did not say modulo I did not say floor division You can add if you want But what I am doing here simply I will say a is equal to 56 and b is equal to 7 Okay or 3 And see what I am going to do here I will make it a little easy so that I can verify my calculation The value of and I will write 50 here So I will write 50 here by comma I will write a here and then I will write plus and then I will write value of b 3 is and then I will write plus Basically I am adding it I will do one thing I will put a comma, I will not add By doing this, the value of which is a string this, then after that this is a string then this is a number, it will be printed Then I will put a comma Then another string will be printed and here I will put a comma and print a plus b and now you see as soon as I run it, its output will come So this is the work I can do which I have done here a plus b, I can do the same with other operations Now see I do not need to put this here No need to give space, automatically a space comes When we put a comma in print So this is going to be printed and this is going to be printed A space comes between the two Now what I have to do simply is to replicate it Alt plus shift plus down arrow is the shortcut of VS code Replicate the line I am pressing the down arrow key I am not doing any magic I am not doing any magic and whatever magic I am doing, you can also do It is a simple thing, not only in this series In life, whatever I am doing You can do all that and if anyone is doing it, you can do it If anyone says to you that you can't do it Then he is lying to you You can do it So here what I will do is the value of a divided by 3 is This a by b value will come Now see here it came 50 plus 3 Now I don't know what to do I am pressing alt shift here I am clicking by pressing alt Okay I am clicking by pressing alt Something like this, okay Wherever I click by pressing alt, I will get multiple cursors And I can edit in all of them You are seeing how amazing this thing is This is also a shortcut of VS code and you should know Okay, so here you can see All the shortcuts of VS code are available in the replate I am using replate so that things Become very easy, you see here the value 50 plus 3 50 minus 3 50 multiplied by 3 50 divided by 3 value has also come here And that's about it, this is the solution To our first exercise Number 1, okay, now I will come Exercise number 1 in apple One reload is made See who is giving the solution to them Now 4 seconds ago, the solution has been given By Taha Pasha Ashitosh Zolte has given 4 seconds I hope I pronounce your name right If I pronounce someone's name wrong Then automatically forgive me, I am saying throughout the course Otherwise, the comment comes that my name is Pronunciation is wrong, oh love you Love you too bro, love you too Now what I am going to do here is load more comments I know I will not be able to reach below but it will be unfair If I don't reach below So I am doing a load more comments here What is going on, what have I opened I have opened someone's profile I am going to take my time And I am taking my time I will scroll it down Give me some time, so I have scrolled I took some time Now see here I am going to see some repls I am opening these repls, the link was not working I have uploaded this on day 6 Link was not working I think link will work Click once, link will work well Here calculator Give shoutout to all of them Shoutout to all of them with full high tempo By the way, in case you are in a hurry And want to move on to the next topic You can leave this video Because here shoutout game is going on So I will give shoutout Kunal Panchal, try to do this As soon as you click on run Your repl will run Now you see here I am seeing files But your repl is not running So ensure that your repl runs by clicking on run button And Well you did it really quick Yes you did it really quick Kunal Panchal, but let me see your code Let me see your code So here your 6 is running Then 9 Now see, don't use all these Disqualified man, disqualified Just kidding, but actually disqualified I am kidding but actually disqualified Means it doesn't make much difference But it is disqualified If you are using something which I have not taught yet Did I say this in the first video Yes, it can be your argument You didn't say anything like this So it is okay, not disqualified But in future, if I have never said Then whatever I have taught Till day 7 You have to use that much knowledge You can use AFL, match case Then you can use Artificial intelligence You know everyone knows But your repl has to run Oh what happened I had to choose numbers from above So I choose 3 Actually I gave invalid input You have handled the error too Very good, I will write 4 Then I will write 5, then 1 Then 9 will come, very good Very good Now after this, next shoutout will be given to Suryansh Kumar Suryansh Kumar has made this repl And has received 3 comments Suryansh Kumar, big thumbs up to you man You have tried out on time But are you disqualified Oh I gave wrong operation Let me see how the repl behaves on wrong operation Now I don't have to handle the error So there is nothing to worry First number is 4 Second number is 65 Oops, I am making a mistake every time I am putting second number instead of operation So your user interface Should not be confusing See the user will make a mistake He will blame you So remember this Remember this 6.0, great Big shoutout to Suryansh Kumar After this, we would like to give shoutout to Kirtin, Tushar Gameplex Sobin Banerjee Omesh Goyal For trying this out Nirmith Mishra 21BEIT30010 Om Is this your name? Tell me in the comment Oh my god Piyush Goyal What have you done You have put image in such a great repl Piyush Goyal Very good Piyush Goyal First number is 4 Second number is 1 Amazing man Big shoutout to Piyush Goyal For attempting this repl Day 7 calculator Great I am running Let me see the code Why did you use input Why did you use input When we didn't read You could have used hardcode But no problem You should have used input Great Big shoutout to Candyinstate Big shoutout to Priyanka Garg And in the coming videos We will see many more things And the coming exercises Will not be that easy Some people were saying So my friends Wait Be patient The fruit of patience Is strawberry flavor So be patient And in the coming videos We will increase the level And if you are watching Day 70 and 80 Then there will be a different level I hope you are enjoying this course I will meet you in day 9 I will put the day 8 repl in the description Keep practicing And keep coming In 100 days of code And we will rock Thank you so much for watching And I will see you next time Thank you"
+}

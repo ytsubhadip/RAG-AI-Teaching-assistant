@@ -1,0 +1,348 @@
+{
+    "chunks": [
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 0.0,
+            "end": 16.4,
+            "text": " We all saw the function, it was fun to know about functions.  Today I will tell you about recursion.  Recursions are basically functions, but if we call the same function in the function,  then it is called recursion.  This topic blows the minds of many people, but how easy it is, you will be able to appreciate after this video."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 16.4,
+            "end": 39.24,
+            "text": " Let's go to the computer screen and see how recursion is written in Python.  Let's get started.  The functions we saw till now, we used to run once.  Can we run a function in a function?  If you apply a little common sense, you will get the answer yes."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 39.24,
+            "end": 54.120000000000005,
+            "text": " If I made an average function and I want to use the sum function in it,  then definitely I can do it.  There is no confusion in this.  But can I call a function in it?  This thing will seem confusing to you."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 54.120000000000005,
+            "end": 69.88,
+            "text": " And you will say, wait a minute, we made a function to call it.  So why are we calling it?  Let me explain and tell you where and in which scenario it is used.  I will take a very simple example first.  After that I will tell you."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 69.88,
+            "end": 92.8,
+            "text": " Now let's say I talk about factorial.  If you don't know what factorial is, then I will tell you.  I will make a comment here.  Let's say I talk about 7 factorial.  7 factorial means 7 x 6 x 5 x 4 x 3 x 2 x 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 92.8,
+            "end": 105.52,
+            "text": " This is 7 factorial.  And I don't know what is the value of this.  You can calculate it.  Whatever comes after multiplying it.  If I talk about factorial 6, then I will multiply from 6 to 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 105.52,
+            "end": 118.84,
+            "text": " And I will get the value of factorial.  Similarly, if I talk about factorial 5,  Then I will have to calculate this value.  If I want to get factorial 5.  And the same goes for factorial 4."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 118.84,
+            "end": 133.92,
+            "text": " And the same goes for factorial 3.  And so on.  By definition, the factorial 0 is 1.  This is by definition.  Factorial 0 is 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 133.92,
+            "end": 151.72,
+            "text": " With this information, can I write that  If I want to get factorial of any number.  Then I will get factorial of that number minus 1.  And I will multiply it by n.  If you don't have a mathematical background."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 151.72,
+            "end": 164.72,
+            "text": " Or you hate maths.  Or you have at least learnt maths in your life.  Then it will look a little haunting.  But look up.  Can I write factorial 7 as 7 x factorial 6?"
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 164.72,
+            "end": 178.52,
+            "text": " See, what I highlighted is factorial 6.  And if you think a little, you will get the answer.  Can I write factorial 6 as 6 x factorial 5?  Definitely I can.  So this formula is correct."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 178.52,
+            "end": 190.52,
+            "text": " Absolutely correct.  Using this information.  Can I recursively calculate factorial?  The answer is yes.  And with this I will explain recursion concept."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 190.52,
+            "end": 204.32000000000002,
+            "text": " So let's write it down in the form of a python program.  If I am taking factorial n.  If n is equal to 1.  Here it is 0.  If n is equal to 0."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 204.32000000000002,
+            "end": 220.32000000000002,
+            "text": " Then I will return 1.  Or n is equal to 1.  For 0 or 1, 1 will be the value.  Otherwise what will be the value?  Else return n into factorial."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 220.32000000000002,
+            "end": 233.12,
+            "text": " That means I have called this.  n minus 1.  Is it correct?  Will it calculate factorial?  Will python accept this?"
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 233.12,
+            "end": 249.12,
+            "text": " That I have called factorial n minus 1.  That means I have called the same function in it.  The answer is yes.  Now I will show you.  If I print factorial of 3."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 249.12,
+            "end": 259.92,
+            "text": " Why I have chosen 3?  So that we can evaluate it ourselves.  4 and 5.  Now you see when I tried to calculate factorial 3.  3 multiplied by 2 multiplied by 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 259.92,
+            "end": 269.92,
+            "text": " Which is 6.  I got it.  If I tried to calculate 4.  4 multiplied by 3 multiplied by 2 multiplied by 1.  Which is 24."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 269.92,
+            "end": 279.92,
+            "text": " I got factorial 5.  5 times 4 is 20.  3 times 6 is 20.  So what we did here?  In a function."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 279.92,
+            "end": 290.72,
+            "text": " We called it.  With n minus 1 argument.  So how this function is working?  I will explain it to you.  First of all."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 290.72,
+            "end": 300.72,
+            "text": " It will start calculating factorial 5.  I will remove these two.  Suppose we are calculating factorial 5.  When it will start calculating factorial 5.  It will not be able to go inside this."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 300.72,
+            "end": 310.72,
+            "text": " It will go inside else.  It will be caught.  5 multiplied by.  It will be told.  5 multiplied by factorial 4."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 311.52000000000004,
+            "end": 321.52000000000004,
+            "text": " I wanted to know factorial 5.  But 5 multiplied by factorial 4.  Yes.  5 multiplied by factorial 4.  Now I will go again to find factorial 4."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 321.52000000000004,
+            "end": 331.52000000000004,
+            "text": " I will say.  This time n is 4.  It will say.  Do one thing.  You want factorial 4."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 331.52000000000004,
+            "end": 342.32,
+            "text": " 4 multiplied by factorial 3.  4 multiplied by factorial 3.  Then what will happen?  You want factorial 3.  2 multiplied by factorial 2."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 342.32,
+            "end": 352.32,
+            "text": " Now.  What is it?  You want factorial 2.  2 multiplied by factorial 1.  This time things will change a little."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 352.32,
+            "end": 362.32,
+            "text": " How will things change this time?  Things will change.  When we start calculating factorial 1.  Instead of going to else.  This time our condition will be true."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 362.32,
+            "end": 373.12,
+            "text": " Because n is value 1.  And we will get 1 return.  If I take it like this.  If I write like this.  I have got the value."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 373.12,
+            "end": 383.12,
+            "text": " 5 multiplied by 4.  Why Siri is activated?  Siri stop.  I don't know what is going on.  Siri."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 383.12,
+            "end": 393.12,
+            "text": " Don't bother me.  It's okay.  5 multiplied by 4.  3 multiplied by 2.  5 multiplied by 4 is 20."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 393.12,
+            "end": 403.92,
+            "text": " 3 multiplied by 4 is 60.  2 multiplied by 4 is 120.  Now see what I have written here.  Let's read it and try to understand it.  Recursion is a process of defining something in terms of itself."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 403.92,
+            "end": 413.92,
+            "text": " Like we did factorial.  We said that factorial n is n multiplied by factorial of n minus 1.  So in the definition of factorial.  We have inserted factorial.  So this is called."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 413.92,
+            "end": 423.92,
+            "text": " Defining something in terms of itself.  One more example is very popular.  And that is calculation of Fibonacci series.  Fibonacci sequence.  Its formula is."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 423.92,
+            "end": 434.72,
+            "text": " If you want to calculate Fibonacci series.  I will show you the Fibonacci series.  Fibonacci number is here.  F0 is 0.  F1 is 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 434.72,
+            "end": 444.72,
+            "text": " If you want to calculate any other number.  Then add the previous two numbers.  So 0 will be 1.  Then add the two numbers.  F0 is 0."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 444.72,
+            "end": 454.72,
+            "text": " F1 is 1.  So 0 and 1.  And if you want to calculate F2.  Its formula is.  F2 is."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 455.52000000000004,
+            "end": 465.52000000000004,
+            "text": " F1 plus F0.  F1 plus F0.  Something like this.  And Fn is.  Fn minus 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 465.52000000000004,
+            "end": 475.52000000000004,
+            "text": " Plus Fn minus 2.  Something like this.  You can add the previous two numbers.  Now I will give you a quick quiz.  You have to answer in the comment section of Rapplet."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 475.52000000000004,
+            "end": 486.32,
+            "text": " By making your own Rapple.  And that is.  You have to calculate Fibonacci series.  You have to make a function.  I am writing exactly the same."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 486.32,
+            "end": 496.32,
+            "text": " As I wrote for my.  For my factorial.  I am writing exactly the same.  F0 is 0.  I am writing here."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 496.32,
+            "end": 506.32,
+            "text": " Fibonacci.  Fibonacci.  Sequence.  Now you have to do.  You have to write a program to print Fibonacci sequence."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 506.32,
+            "end": 517.12,
+            "text": " I am writing here.  This is a quick quiz for you.  Write a program.  To print the Fibonacci sequence.  Write a program to print the Fibonacci sequence."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 517.12,
+            "end": 527.12,
+            "text": " Write a program to print the Fibonacci sequence.  So this F0 is 0.  F1 is 1.  F1 plus F0 is Fn.  Fn minus 1 plus Fn minus 2."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 527.12,
+            "end": 537.12,
+            "text": " I hope you understood this thing.  You will definitely make this.  I have to tell you in the comment section.  By making this program.  And do check it yourself."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 537.12,
+            "end": 547.92,
+            "text": " It is very easy to generate Fibonacci sequence.  First it is 0.  Then it is 2.  Then it is 3.  Then it is 5."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 547.92,
+            "end": 557.92,
+            "text": " Then it is 8.  And so on.  I hope I have not made any mistake.  And so on.  0 plus 1 is 1."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 557.92,
+            "end": 567.92,
+            "text": " 1 plus 1 is 2.  2 plus 1 is 3.  5 plus 3 is 8.  And so on.  If you are taking F6."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 567.92,
+            "end": 578.7199999999999,
+            "text": " You should get 8.  I hope this thing is clear to you.  If you have not accessed this playlist yet.  Click here to bookmark.  Click here to save."
+        },
+        {
+            "number": "030 ",
+            "title": "Recursion in Python",
+            "start": 578.7199999999999,
+            "end": 601.92,
+            "text": " Thank you so much for watching this video.  I will see you next time.  Thank you for watching it."
+        }
+    ],
+    "text": " We all saw the function, it was fun to know about functions. Today I will tell you about recursion. Recursions are basically functions, but if we call the same function in the function, then it is called recursion. This topic blows the minds of many people, but how easy it is, you will be able to appreciate after this video. Let's go to the computer screen and see how recursion is written in Python. Let's get started. The functions we saw till now, we used to run once. Can we run a function in a function? If you apply a little common sense, you will get the answer yes. If I made an average function and I want to use the sum function in it, then definitely I can do it. There is no confusion in this. But can I call a function in it? This thing will seem confusing to you. And you will say, wait a minute, we made a function to call it. So why are we calling it? Let me explain and tell you where and in which scenario it is used. I will take a very simple example first. After that I will tell you. Now let's say I talk about factorial. If you don't know what factorial is, then I will tell you. I will make a comment here. Let's say I talk about 7 factorial. 7 factorial means 7 x 6 x 5 x 4 x 3 x 2 x 1. This is 7 factorial. And I don't know what is the value of this. You can calculate it. Whatever comes after multiplying it. If I talk about factorial 6, then I will multiply from 6 to 1. And I will get the value of factorial. Similarly, if I talk about factorial 5, Then I will have to calculate this value. If I want to get factorial 5. And the same goes for factorial 4. And the same goes for factorial 3. And so on. By definition, the factorial 0 is 1. This is by definition. Factorial 0 is 1. With this information, can I write that If I want to get factorial of any number. Then I will get factorial of that number minus 1. And I will multiply it by n. If you don't have a mathematical background. Or you hate maths. Or you have at least learnt maths in your life. Then it will look a little haunting. But look up. Can I write factorial 7 as 7 x factorial 6? See, what I highlighted is factorial 6. And if you think a little, you will get the answer. Can I write factorial 6 as 6 x factorial 5? Definitely I can. So this formula is correct. Absolutely correct. Using this information. Can I recursively calculate factorial? The answer is yes. And with this I will explain recursion concept. So let's write it down in the form of a python program. If I am taking factorial n. If n is equal to 1. Here it is 0. If n is equal to 0. Then I will return 1. Or n is equal to 1. For 0 or 1, 1 will be the value. Otherwise what will be the value? Else return n into factorial. That means I have called this. n minus 1. Is it correct? Will it calculate factorial? Will python accept this? That I have called factorial n minus 1. That means I have called the same function in it. The answer is yes. Now I will show you. If I print factorial of 3. Why I have chosen 3? So that we can evaluate it ourselves. 4 and 5. Now you see when I tried to calculate factorial 3. 3 multiplied by 2 multiplied by 1. Which is 6. I got it. If I tried to calculate 4. 4 multiplied by 3 multiplied by 2 multiplied by 1. Which is 24. I got factorial 5. 5 times 4 is 20. 3 times 6 is 20. So what we did here? In a function. We called it. With n minus 1 argument. So how this function is working? I will explain it to you. First of all. It will start calculating factorial 5. I will remove these two. Suppose we are calculating factorial 5. When it will start calculating factorial 5. It will not be able to go inside this. It will go inside else. It will be caught. 5 multiplied by. It will be told. 5 multiplied by factorial 4. I wanted to know factorial 5. But 5 multiplied by factorial 4. Yes. 5 multiplied by factorial 4. Now I will go again to find factorial 4. I will say. This time n is 4. It will say. Do one thing. You want factorial 4. 4 multiplied by factorial 3. 4 multiplied by factorial 3. Then what will happen? You want factorial 3. 2 multiplied by factorial 2. Now. What is it? You want factorial 2. 2 multiplied by factorial 1. This time things will change a little. How will things change this time? Things will change. When we start calculating factorial 1. Instead of going to else. This time our condition will be true. Because n is value 1. And we will get 1 return. If I take it like this. If I write like this. I have got the value. 5 multiplied by 4. Why Siri is activated? Siri stop. I don't know what is going on. Siri. Don't bother me. It's okay. 5 multiplied by 4. 3 multiplied by 2. 5 multiplied by 4 is 20. 3 multiplied by 4 is 60. 2 multiplied by 4 is 120. Now see what I have written here. Let's read it and try to understand it. Recursion is a process of defining something in terms of itself. Like we did factorial. We said that factorial n is n multiplied by factorial of n minus 1. So in the definition of factorial. We have inserted factorial. So this is called. Defining something in terms of itself. One more example is very popular. And that is calculation of Fibonacci series. Fibonacci sequence. Its formula is. If you want to calculate Fibonacci series. I will show you the Fibonacci series. Fibonacci number is here. F0 is 0. F1 is 1. If you want to calculate any other number. Then add the previous two numbers. So 0 will be 1. Then add the two numbers. F0 is 0. F1 is 1. So 0 and 1. And if you want to calculate F2. Its formula is. F2 is. F1 plus F0. F1 plus F0. Something like this. And Fn is. Fn minus 1. Plus Fn minus 2. Something like this. You can add the previous two numbers. Now I will give you a quick quiz. You have to answer in the comment section of Rapplet. By making your own Rapple. And that is. You have to calculate Fibonacci series. You have to make a function. I am writing exactly the same. As I wrote for my. For my factorial. I am writing exactly the same. F0 is 0. I am writing here. Fibonacci. Fibonacci. Sequence. Now you have to do. You have to write a program to print Fibonacci sequence. I am writing here. This is a quick quiz for you. Write a program. To print the Fibonacci sequence. Write a program to print the Fibonacci sequence. Write a program to print the Fibonacci sequence. So this F0 is 0. F1 is 1. F1 plus F0 is Fn. Fn minus 1 plus Fn minus 2. I hope you understood this thing. You will definitely make this. I have to tell you in the comment section. By making this program. And do check it yourself. It is very easy to generate Fibonacci sequence. First it is 0. Then it is 2. Then it is 3. Then it is 5. Then it is 8. And so on. I hope I have not made any mistake. And so on. 0 plus 1 is 1. 1 plus 1 is 2. 2 plus 1 is 3. 5 plus 3 is 8. And so on. If you are taking F6. You should get 8. I hope this thing is clear to you. If you have not accessed this playlist yet. Click here to bookmark. Click here to save. Thank you so much for watching this video. I will see you next time. Thank you for watching it."
+}

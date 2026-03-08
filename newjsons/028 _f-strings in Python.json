@@ -1,0 +1,348 @@
+{
+    "chunks": [
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 0.0,
+            "end": 12.700000000000001,
+            "text": " We have seen many good methods of Python strings  But in today's video, I am going to tell you a method of string formatting  Which will surprise you  And you will also appreciate the beauty of Python  fStrings is a method in Python"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 12.700000000000001,
+            "end": 26.0,
+            "text": " Which helps you to place variables in strings very conveniently  Let's go to the computer screen and see how fStrings is made  And we get to see this Python 3.6 version in Python  Such a great feature of Python  Let's see it"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 26.0,
+            "end": 44.5,
+            "text": " Let's get started  Intro  The first thing I want to tell you about fString is that  It is used for string formatting  fString actually solved a problem"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 44.5,
+            "end": 55.5,
+            "text": " Which was in Python programming  Python programmers were facing  And that was the problem while formatting a string  Now I will tell you what is string formatting  Suppose I have written here letter is equal to"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 55.5,
+            "end": 69.0,
+            "text": " And I made a string here  And I write here, Hey my name is  And after this I put brackets like this  And after doing this I write something like this  And I am very"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 69.0,
+            "end": 81.0,
+            "text": " Or else, and I am from  And after that I write something like this  Now suppose what happens is  Country  Country"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 81.0,
+            "end": 95.5,
+            "text": " Is equal to, I write India  And with that I write name is equal to Harry  So I can do something like this  I can say letter.format  And format is a method, a string method"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 95.5,
+            "end": 106.5,
+            "text": " And I can say name and country  So if I do something like this  Then the value of name will go in this bracket  And the value of country will go in that bracket  In total what will happen is"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 106.5,
+            "end": 114.5,
+            "text": " If I print this  I print this, print letter.format  So what will happen is  I will get my name is Harry  And I am from India"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 114.5,
+            "end": 126.5,
+            "text": " As you can see here  So what did it do, format method  Put the name here and put the country here  Now suppose something like this happens  That I would have given something like this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 126.5,
+            "end": 136.5,
+            "text": " Country name  Then what would have happened, it would have been reversed  Country first, name later  My name is India and I am from Harry  Which is wrong, so what can I do to fix this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 136.5,
+            "end": 149.5,
+            "text": " I can put a number here  Which is giving my first value after format  I will write 0 here and 1 here  So country will come here and name will come here  So in the first python string formatting was done like this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 149.5,
+            "end": 160.5,
+            "text": " See, hey my name is Harry and I am from India  Now there is no problem with this approach  It is not that you can't use it now  You can definitely do it  And you will also get to see this in old programs"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 160.5,
+            "end": 171.5,
+            "text": " The problem is that it does not give convenience  Somewhere I have to write a lot of code  And even after that I have to understand  If it is 0 then country has to be kept here  If it is name then name 1 is here"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 171.5,
+            "end": 182.5,
+            "text": " Then name has to be kept here  If we give arguments to this format in 5, 10  Then you will keep looking for where  What value of which variable will come  That's why there is an easy way to do it"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 182.5,
+            "end": 191.5,
+            "text": " F string  Which is written like this in python  You first write f then make a string  This will automatically recognize python  As an f string"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 191.5,
+            "end": 202.5,
+            "text": " F string means that  You can now put variables in your string  So I have written here  Hey my name is  I can write it in such a way"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 202.5,
+            "end": 211.5,
+            "text": " That I can put variables directly here  I can put name here as a variable  And what will I put here  I will put country here  So automatically this string"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 211.5,
+            "end": 221.5,
+            "text": " Python as an f string  Will recognize it first  After that python will say ok  Because you have used f string  And you have written name in curly brackets"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 221.5,
+            "end": 230.5,
+            "text": " That's why let me populate the value of name  The value of name which is in this case  Harry, let's populate it here  Populated  And I am from country"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 230.5,
+            "end": 239.5,
+            "text": " Let me populate the value of country  So India will come here  That's about it  F string is so simple  Now here I have told you about string formatting"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 239.5,
+            "end": 250.5,
+            "text": " That you can do it in this way  And do you know what happens by putting point 2f  If I write here price colon point 2f  What will happen  The value of the price"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 250.5,
+            "end": 262.5,
+            "text": " Let me print it and show you  And if I write 49.099999  Then it will take only two decimal places  So here you can see  It has taken only two decimal places"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 262.5,
+            "end": 270.5,
+            "text": " So this kind of work can also be done  If you want to take only two decimal places  Of one floating value  Then you can take  I have put price point 2f here"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 270.5,
+            "end": 279.5,
+            "text": " So in this way  You can use f string  Conveniently  Now if I have to write this thing with f string  Then what I would have done simply"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 279.5,
+            "end": 287.5,
+            "text": " That I would have made it f string  And after that what I would have done  I wrote txt is equal to this  And it is saying undefined variable price  So I will do one thing"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 287.5,
+            "end": 296.5,
+            "text": " I will define the value of price here  By pressing ctrl x  I will comment this out  And if I run it now  So you guys see here"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 296.5,
+            "end": 306.5,
+            "text": " For only 49.  Wait a minute  I haven't printed txt  Print txt  Do it"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 306.5,
+            "end": 316.5,
+            "text": " So as soon as I print txt  For only 49.10 dollars  Which means the work we used to do with format  Including this point 2f  If I want only two decimal points"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 316.5,
+            "end": 326.5,
+            "text": " Then I can write colon and space  Point 2f, point 3f  I can do this with f string  So this is the thing in f string  I can do something like this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 326.5,
+            "end": 336.5,
+            "text": " I have put double quotes  I have written my string in it  And I have put my variables in curly braces  I hope you guys understood this thing  Now this is newly introduced"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 336.5,
+            "end": 346.5,
+            "text": " So you should know this thing  And you guys can directly insert variables here  Do read it  I have written it  If you have only one variable"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 346.5,
+            "end": 356.5,
+            "text": " Like in this case if you want to make a string  With value 60 inside of it  You can make it  You can do this kind of work  And you will get this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 356.5,
+            "end": 366.5,
+            "text": " 2x30 value will be there as a string  And  I hope this works  I think there is a bracket missing here  I will fix it"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 368.5,
+            "end": 378.5,
+            "text": " Oops I have put this bracket in wrong place  So I will fix this thing  So in total 60 will be there  You can see  And if I print its type"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 378.5,
+            "end": 388.5,
+            "text": " Then definitely it will be a string  Because f string will be a string  I have run it  And you guys can see  Class str is there"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 388.5,
+            "end": 398.5,
+            "text": " Its class is a string  So this is the thing in f string python  You can use f string  In big strings where we want to plug variables  Just by using curly braces"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 398.5,
+            "end": 408.5,
+            "text": " We can insert variables  Inside it  I hope you guys understood  Now one important thing I want to tell you  That if you want to"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 408.5,
+            "end": 418.5,
+            "text": " Print this thing literally  Literally means  This thing written here  I want to see this thing here  Like here it has replaced value"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 418.5,
+            "end": 428.5,
+            "text": " Of name  And here it has replaced value of name  So it has been populated  In my string  Now let's say I want to show this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 428.5,
+            "end": 438.5,
+            "text": " In your output  My name is curly braces  Let's say I want to do something like this  We use f strings  Like this"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 438.5,
+            "end": 448.5,
+            "text": " Let's say I want to show this  I am writing program in between  I want to use f string like this  So I want to see name printed here  If I run it now"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 448.5,
+            "end": 458.5,
+            "text": " It will replace value of name  You can see here  My name is Harry and I am from India  We use f string like this  But"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 458.5,
+            "end": 468.5,
+            "text": " If I want  As it is display  I will do like this  I will insert curly braces like this  And you can see here"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 468.5,
+            "end": 478.5,
+            "text": " If I run it now  You can see it is showing as it is  So if you want  Your curly brackets  To be visible in your string"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 478.5,
+            "end": 488.5,
+            "text": " You have to insert double curly brackets  Many people don't know this  They struggle  And you will come to one point of your Python programming career  When you will feel"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 488.5,
+            "end": 498.5,
+            "text": " Yes this thing is useful  And when you will feel like  F string replaces variable  How do I retain my f string  As an f string"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 498.5,
+            "end": 508.5,
+            "text": " Like my raw f string  So you can print like this  If you haven't accessed the playlist  Click here to bookmark  And click here to save it"
+        },
+        {
+            "number": "028 ",
+            "title": "f-strings in Python",
+            "start": 508.5,
+            "end": 512.5,
+            "text": " Thank you so much guys for watching this video  And I will see you next time"
+        }
+    ],
+    "text": " We have seen many good methods of Python strings But in today's video, I am going to tell you a method of string formatting Which will surprise you And you will also appreciate the beauty of Python fStrings is a method in Python Which helps you to place variables in strings very conveniently Let's go to the computer screen and see how fStrings is made And we get to see this Python 3.6 version in Python Such a great feature of Python Let's see it Let's get started Intro The first thing I want to tell you about fString is that It is used for string formatting fString actually solved a problem Which was in Python programming Python programmers were facing And that was the problem while formatting a string Now I will tell you what is string formatting Suppose I have written here letter is equal to And I made a string here And I write here, Hey my name is And after this I put brackets like this And after doing this I write something like this And I am very Or else, and I am from And after that I write something like this Now suppose what happens is Country Country Is equal to, I write India And with that I write name is equal to Harry So I can do something like this I can say letter.format And format is a method, a string method And I can say name and country So if I do something like this Then the value of name will go in this bracket And the value of country will go in that bracket In total what will happen is If I print this I print this, print letter.format So what will happen is I will get my name is Harry And I am from India As you can see here So what did it do, format method Put the name here and put the country here Now suppose something like this happens That I would have given something like this Country name Then what would have happened, it would have been reversed Country first, name later My name is India and I am from Harry Which is wrong, so what can I do to fix this I can put a number here Which is giving my first value after format I will write 0 here and 1 here So country will come here and name will come here So in the first python string formatting was done like this See, hey my name is Harry and I am from India Now there is no problem with this approach It is not that you can't use it now You can definitely do it And you will also get to see this in old programs The problem is that it does not give convenience Somewhere I have to write a lot of code And even after that I have to understand If it is 0 then country has to be kept here If it is name then name 1 is here Then name has to be kept here If we give arguments to this format in 5, 10 Then you will keep looking for where What value of which variable will come That's why there is an easy way to do it F string Which is written like this in python You first write f then make a string This will automatically recognize python As an f string F string means that You can now put variables in your string So I have written here Hey my name is I can write it in such a way That I can put variables directly here I can put name here as a variable And what will I put here I will put country here So automatically this string Python as an f string Will recognize it first After that python will say ok Because you have used f string And you have written name in curly brackets That's why let me populate the value of name The value of name which is in this case Harry, let's populate it here Populated And I am from country Let me populate the value of country So India will come here That's about it F string is so simple Now here I have told you about string formatting That you can do it in this way And do you know what happens by putting point 2f If I write here price colon point 2f What will happen The value of the price Let me print it and show you And if I write 49.099999 Then it will take only two decimal places So here you can see It has taken only two decimal places So this kind of work can also be done If you want to take only two decimal places Of one floating value Then you can take I have put price point 2f here So in this way You can use f string Conveniently Now if I have to write this thing with f string Then what I would have done simply That I would have made it f string And after that what I would have done I wrote txt is equal to this And it is saying undefined variable price So I will do one thing I will define the value of price here By pressing ctrl x I will comment this out And if I run it now So you guys see here For only 49. Wait a minute I haven't printed txt Print txt Do it So as soon as I print txt For only 49.10 dollars Which means the work we used to do with format Including this point 2f If I want only two decimal points Then I can write colon and space Point 2f, point 3f I can do this with f string So this is the thing in f string I can do something like this I have put double quotes I have written my string in it And I have put my variables in curly braces I hope you guys understood this thing Now this is newly introduced So you should know this thing And you guys can directly insert variables here Do read it I have written it If you have only one variable Like in this case if you want to make a string With value 60 inside of it You can make it You can do this kind of work And you will get this 2x30 value will be there as a string And I hope this works I think there is a bracket missing here I will fix it Oops I have put this bracket in wrong place So I will fix this thing So in total 60 will be there You can see And if I print its type Then definitely it will be a string Because f string will be a string I have run it And you guys can see Class str is there Its class is a string So this is the thing in f string python You can use f string In big strings where we want to plug variables Just by using curly braces We can insert variables Inside it I hope you guys understood Now one important thing I want to tell you That if you want to Print this thing literally Literally means This thing written here I want to see this thing here Like here it has replaced value Of name And here it has replaced value of name So it has been populated In my string Now let's say I want to show this In your output My name is curly braces Let's say I want to do something like this We use f strings Like this Let's say I want to show this I am writing program in between I want to use f string like this So I want to see name printed here If I run it now It will replace value of name You can see here My name is Harry and I am from India We use f string like this But If I want As it is display I will do like this I will insert curly braces like this And you can see here If I run it now You can see it is showing as it is So if you want Your curly brackets To be visible in your string You have to insert double curly brackets Many people don't know this They struggle And you will come to one point of your Python programming career When you will feel Yes this thing is useful And when you will feel like F string replaces variable How do I retain my f string As an f string Like my raw f string So you can print like this If you haven't accessed the playlist Click here to bookmark And click here to save it Thank you so much guys for watching this video And I will see you next time"
+}

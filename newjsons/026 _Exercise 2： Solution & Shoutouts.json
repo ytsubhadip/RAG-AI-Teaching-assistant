@@ -1,0 +1,320 @@
+{
+    "chunks": [
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 0.0,
+            "end": 21.0,
+            "text": " In today's video, I will tell you the solution to exercise 2  and then we will give shoutouts to some people who solved exercise 2 first  Let's go to the computer screen and let's get started  Intro  So guys, it's time for the solution to this exercise"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 21.0,
+            "end": 31.080000000000002,
+            "text": " So the first thing I am going to do is  I will use this hint that I gave you guys  Okay  I had already given you the biggest hint  But there was still some work left in it"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 31.080000000000002,
+            "end": 42.0,
+            "text": " And many people complained that you are neither giving a hint nor doing it wrong  So we will increase the difficulty level  The difficulty level will increase to a great extent from exercise 3  And it will be fun too  It will be a lot of fun in exercise 3"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 42.0,
+            "end": 47.72,
+            "text": " I am telling you right now  Okay  Now see here  Import time  Timestamp is equal to time.y"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 47.72,
+            "end": 54.84,
+            "text": " I did this, so this came  Otherwise this came  Otherwise this came  And then this came  Now see this raplet is running in the US"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 54.84,
+            "end": 62.44,
+            "text": " Their server is in the US  So the time it is giving me is telling me about the US  Okay  So you guys keep this in mind  If you run this program on your local computer"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 62.44,
+            "end": 72.84,
+            "text": " Then it will tell you the time of your time zone  Okay  For this, I will show you this thing  See guys, it doesn't make much difference where you are running your program  Okay"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 72.84,
+            "end": 84.96,
+            "text": " But I am showing you  That if I print the timestamp  So see here it is showing me 9.02 pm  Okay  I hope you guys are understanding what I am saying"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 84.96,
+            "end": 91.48,
+            "text": " Now see here  I did the print timestamp  I got the hour, minute and second  What I will do is  I will print this"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 92.56,
+            "end": 98.52000000000001,
+            "text": " And I will say this is the hour  Okay  And I don't need minutes and seconds  This was just to confuse you  Okay"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 99.2,
+            "end": 106.68,
+            "text": " Now see what I did here  I will print only the hour  I will not print the time  I will print the hour  Okay"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 106.68,
+            "end": 115.04,
+            "text": " I will print the hour  And I do one thing  I will call this t, time  And if I print the hour, it will tell me only the hours  Which one is running"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 115.04,
+            "end": 127.12,
+            "text": " See it is telling me 15  Okay  Now I will use my if condition  Now I will say if hour is greater than 0  And hour is less than 12"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 127.12,
+            "end": 134.92000000000002,
+            "text": " Then what you have to do  Greater than 0 and less than 12 means good morning  Okay  So what you have to write  Good morning sir"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 134.92000000000002,
+            "end": 143.72,
+            "text": " You have to print  What you have to print  Good morning sir  Okay  Now what you have to do after this"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 143.72,
+            "end": 156.2,
+            "text": " You have to write else if here  And after this if hour is greater than 12  And less than say 19  Okay  Or less than 16"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 156.2,
+            "end": 167.72,
+            "text": " Then what you have to do  I will make this 17  So you have to write good afternoon sir  And after this if hour is greater than  Let us say 17"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 167.72,
+            "end": 177.72,
+            "text": " And less than 16  And less than equal to 0  Less than or equal to 0  Now I just want to see  If all the cases are covered or not"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 177.72,
+            "end": 189.72,
+            "text": " Greater than equal to 12  And less than 17  Or greater than equal to this  And I will remove equal to from here  Because I want to keep equal to here"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 189.72,
+            "end": 199.72,
+            "text": " And here good night sir  Okay  Now if I run this  It will tell me  So I wrote"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 199.72,
+            "end": 209.72,
+            "text": " If hour is greater than  In fact in python we have to write  And like this A and D  If you are in C++  Then you have to write and"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 209.72,
+            "end": 219.72,
+            "text": " But in python you have to write and like this  I will say this is very user friendly  And it is a very understandable language  And I am doing a lot of mistakes  I don't know what happened today"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 219.72,
+            "end": 229.72,
+            "text": " You are also saying what is this  Why are you writing else if  You told in the video  See I just run this  And it will tell me"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 229.72,
+            "end": 239.72,
+            "text": " Good morning good afternoon  Now it is saying invalid syntax  What happened here  I didn't close the bracket  What is happening with me"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 239.72,
+            "end": 249.72,
+            "text": " I don't know what is going on  But good afternoon sir it is telling me  Because it is 15  Now I will do one thing  I will take input"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 249.72,
+            "end": 259.72,
+            "text": " I will say int input  Enter hour  And I will test  I just want to see  If I did hour 12 then what will happen"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 259.72,
+            "end": 269.72,
+            "text": " I did 12  Then what will it do  Good afternoon sir  If I did hour 5  Will it say good morning"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 269.72,
+            "end": 279.72,
+            "text": " Yes it said good morning  So this is our logic  And I will do one more thing  I will lift this also  And after doing this"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 279.72,
+            "end": 289.72,
+            "text": " Our program will run very well  I was doing this to test  And I will comment this also  And my program is done  I hope you enjoyed"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 289.72,
+            "end": 299.72,
+            "text": " But I will give you a shout out  Who solved exercise 2  Where is exercise 2  Where is it  Here it is"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 299.72,
+            "end": 309.72,
+            "text": " Now I will come to  Its cover page  And see who commented  See it is very difficult for me  To give shout out to everyone"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 309.72,
+            "end": 319.72,
+            "text": " But if you  Solved it  Then I will definitely like to give you a shout out  So I am scrolling it  Till the bottom"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 319.72,
+            "end": 329.72,
+            "text": " So here I would like to give a shout out to Aniket  So Aniket  A big shout out to you  After this I will  Close my rappels"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 329.72,
+            "end": 339.72,
+            "text": " After this a big shout out to Neha Srivastav  But before that I will see Aniket's program  So here  What I will do  I am running it"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 339.72,
+            "end": 349.72,
+            "text": " After running  Enter your name  Ok good afternoon Harry  Wow, because according to rappels  It is 15th"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 349.72,
+            "end": 359.72,
+            "text": " 15th is running, hour 15th  So that's why  Now let's see Neha Srivastav's rappels  This was pretty easy  See here they have also done this"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 359.72,
+            "end": 369.72,
+            "text": " From 4 to 12  Now this timing  Varies  According to rules  They say good afternoon at 2 in the night"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 369.72,
+            "end": 379.72,
+            "text": " And good morning  I am not sure  I will have to google it  But again you got the point  Maybe your rappels are more accurate"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 379.72,
+            "end": 389.72,
+            "text": " Neha Srivastav has given another  Program, this is cheating Neha  Now here Shaurya Kodar  Vashu Goyal  Astroji, did I miss anyone"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 389.72,
+            "end": 399.72,
+            "text": " Shout out to Om Ratan, Kunal Panchal  Hamza Niazi  Neha Srivastav has done it twice  No problem, take it twice  Astroji, legend Vibhu Astroji"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 399.72,
+            "end": 409.72,
+            "text": " Astroji  Don't do it twice  Adnan Altaf, Sven Biswas  So I will see all these rappels  Once and I think"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 409.72,
+            "end": 419.72,
+            "text": " Definitely it was pretty easy and  Straight forward, so everyone must have done it right  And if you have not done it  By any chance, you could not do it  You think it was difficult for you"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 419.72,
+            "end": 429.72,
+            "text": " So do it, the coming  Exercises will be a little challenging  So you will have to work a little  So that's why you  Need a little"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 429.72,
+            "end": 439.72,
+            "text": " Focus and time  That's all for now, if you have not  Accessed the playlist of Python, then  Do access it or click on bookmark  And click on save, thank you so much"
+        },
+        {
+            "number": "026 ",
+            "title": "Exercise 2\uff1a Solution & Shoutouts",
+            "start": 439.72,
+            "end": 461.72,
+            "text": " Guys for watching this video and I will  See you next time  Music"
+        }
+    ],
+    "text": " In today's video, I will tell you the solution to exercise 2 and then we will give shoutouts to some people who solved exercise 2 first Let's go to the computer screen and let's get started Intro So guys, it's time for the solution to this exercise So the first thing I am going to do is I will use this hint that I gave you guys Okay I had already given you the biggest hint But there was still some work left in it And many people complained that you are neither giving a hint nor doing it wrong So we will increase the difficulty level The difficulty level will increase to a great extent from exercise 3 And it will be fun too It will be a lot of fun in exercise 3 I am telling you right now Okay Now see here Import time Timestamp is equal to time.y I did this, so this came Otherwise this came Otherwise this came And then this came Now see this raplet is running in the US Their server is in the US So the time it is giving me is telling me about the US Okay So you guys keep this in mind If you run this program on your local computer Then it will tell you the time of your time zone Okay For this, I will show you this thing See guys, it doesn't make much difference where you are running your program Okay But I am showing you That if I print the timestamp So see here it is showing me 9.02 pm Okay I hope you guys are understanding what I am saying Now see here I did the print timestamp I got the hour, minute and second What I will do is I will print this And I will say this is the hour Okay And I don't need minutes and seconds This was just to confuse you Okay Now see what I did here I will print only the hour I will not print the time I will print the hour Okay I will print the hour And I do one thing I will call this t, time And if I print the hour, it will tell me only the hours Which one is running See it is telling me 15 Okay Now I will use my if condition Now I will say if hour is greater than 0 And hour is less than 12 Then what you have to do Greater than 0 and less than 12 means good morning Okay So what you have to write Good morning sir You have to print What you have to print Good morning sir Okay Now what you have to do after this You have to write else if here And after this if hour is greater than 12 And less than say 19 Okay Or less than 16 Then what you have to do I will make this 17 So you have to write good afternoon sir And after this if hour is greater than Let us say 17 And less than 16 And less than equal to 0 Less than or equal to 0 Now I just want to see If all the cases are covered or not Greater than equal to 12 And less than 17 Or greater than equal to this And I will remove equal to from here Because I want to keep equal to here And here good night sir Okay Now if I run this It will tell me So I wrote If hour is greater than In fact in python we have to write And like this A and D If you are in C++ Then you have to write and But in python you have to write and like this I will say this is very user friendly And it is a very understandable language And I am doing a lot of mistakes I don't know what happened today You are also saying what is this Why are you writing else if You told in the video See I just run this And it will tell me Good morning good afternoon Now it is saying invalid syntax What happened here I didn't close the bracket What is happening with me I don't know what is going on But good afternoon sir it is telling me Because it is 15 Now I will do one thing I will take input I will say int input Enter hour And I will test I just want to see If I did hour 12 then what will happen I did 12 Then what will it do Good afternoon sir If I did hour 5 Will it say good morning Yes it said good morning So this is our logic And I will do one more thing I will lift this also And after doing this Our program will run very well I was doing this to test And I will comment this also And my program is done I hope you enjoyed But I will give you a shout out Who solved exercise 2 Where is exercise 2 Where is it Here it is Now I will come to Its cover page And see who commented See it is very difficult for me To give shout out to everyone But if you Solved it Then I will definitely like to give you a shout out So I am scrolling it Till the bottom So here I would like to give a shout out to Aniket So Aniket A big shout out to you After this I will Close my rappels After this a big shout out to Neha Srivastav But before that I will see Aniket's program So here What I will do I am running it After running Enter your name Ok good afternoon Harry Wow, because according to rappels It is 15th 15th is running, hour 15th So that's why Now let's see Neha Srivastav's rappels This was pretty easy See here they have also done this From 4 to 12 Now this timing Varies According to rules They say good afternoon at 2 in the night And good morning I am not sure I will have to google it But again you got the point Maybe your rappels are more accurate Neha Srivastav has given another Program, this is cheating Neha Now here Shaurya Kodar Vashu Goyal Astroji, did I miss anyone Shout out to Om Ratan, Kunal Panchal Hamza Niazi Neha Srivastav has done it twice No problem, take it twice Astroji, legend Vibhu Astroji Astroji Don't do it twice Adnan Altaf, Sven Biswas So I will see all these rappels Once and I think Definitely it was pretty easy and Straight forward, so everyone must have done it right And if you have not done it By any chance, you could not do it You think it was difficult for you So do it, the coming Exercises will be a little challenging So you will have to work a little So that's why you Need a little Focus and time That's all for now, if you have not Accessed the playlist of Python, then Do access it or click on bookmark And click on save, thank you so much Guys for watching this video and I will See you next time Music"
+}

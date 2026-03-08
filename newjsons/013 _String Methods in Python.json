@@ -1,0 +1,1461 @@
+{
+    "chunks": [
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 0.0,
+            "end": 11.0,
+            "text": " This 100 days of code is running like Netflix  People are coming to watch it daily like a TV series  It's fun  In today's video we are going to talk about string methods  We read about string"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 11.0,
+            "end": 25.0,
+            "text": " We saw what is a string  We saw that it is a very important data type  We also saw that what are the other ways to make a string  Today I will tell you how operations can be done with a string  For example, you want to convert a string in upper case"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 25.0,
+            "end": 36.0,
+            "text": " Suppose you want to convert the whole string in lower case  You want to find the length of a string  How to find it?  I will tell you all these things in this video  Let's go to the computer screen and let's get started"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 46.0,
+            "end": 56.0,
+            "text": " As you can see I have come to my Apple  If you have not accessed the playlist yet  Then do access it or click and bookmark  Or click and save  Today we are going to see some string methods"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 56.0,
+            "end": 68.0,
+            "text": " I have written here a is equal to Harry  This is a 5 length string  I know we saw in the last video  That we can print len of a in this way  And python will give us 5"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 68.0,
+            "end": 83.0,
+            "text": " There was no big deal in it  We also got 5  But what will I do if I want to convert this string in upper case  The first thing I want to explain to you is the concept of immutability  I want to explain this to you"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 83.0,
+            "end": 94.0,
+            "text": " The strings are immutable  You can't change them  But you can change them  It's not that you can't change them  You can't change them in place"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 94.0,
+            "end": 106.0,
+            "text": " Let me explain  Suppose I have a is equal to Harry  I can't change this variable as it is  What is made is made  I can make a new copy of it"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 106.0,
+            "end": 120.0,
+            "text": " When I apply any string method  Suppose I write here a.upper  I get a new string  I get a new string  In which all the characters are in upper case"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 120.0,
+            "end": 131.0,
+            "text": " As you can see it has come in Harry capital  It's not that the old string has changed  This question comes in the interview  That's why I am telling you  That the strings are immutable"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 131.0,
+            "end": 143.0,
+            "text": " I write here to remind you  That strings are immutable  Strings are immutable  And I will make a comment  With the help of control forward slash"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 143.0,
+            "end": 151.0,
+            "text": " So that it doesn't execute  Because if it executes  It will give an error  And I don't want it to give an error  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 151.0,
+            "end": 164.0,
+            "text": " As I told you about upper method  Similarly, there is a lower method  Which converts our string to lower case  And it's very obvious  That the lower method converts a string to lower case"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 164.0,
+            "end": 174.0,
+            "text": " I have given an example here  In case you want to try it  Will this example convert string 1 to lower case  Do you know what is the answer to this question  It won't do"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 174.0,
+            "end": 184.0,
+            "text": " Why it won't do  Because it will make a new string  It won't change the existing string  Strings are immutable in python  You can't change them"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 184.0,
+            "end": 192.0,
+            "text": " Okay  But you can make a new string  By using string methods  So what do string methods do  They operate on your existing string"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 192.0,
+            "end": 199.0,
+            "text": " And return a new string  So we saw this thing  a.upper  a.lower  a.lower will convert entire Harry to lower case"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 199.0,
+            "end": 206.0,
+            "text": " It was H  Now it's h  Okay  Now there is a method called rstrip  Which removes trailing characters"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 206.0,
+            "end": 217.0,
+            "text": " Suppose I had written something like this in my name  Okay, Harry  So if I print a.upper, a.lower  Or a for that matter  Then I will get my string directly"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 217.0,
+            "end": 226.0,
+            "text": " But I want  If I get this exclamation mark as a strip  Then I will do a.rstrip  Okay, what does it do  It strips"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 226.0,
+            "end": 234.0,
+            "text": " Who does it strip  The trailing characters  So I can strip the exclamation mark  Like this  You can see here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 234.0,
+            "end": 243.0,
+            "text": " It's stripped  Does it strip the leading?  Does it strip the leading exclamation mark?  The answer is no  The exclamation will be there in the starting"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 243.0,
+            "end": 249.0,
+            "text": " As you can see  It strips only the trailing  Okay  So we have learned this  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 249.0,
+            "end": 256.0,
+            "text": " I will leave it like this  To Harry  So that you can understand this rstrip  Now let's talk about replace  What does it do"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 256.0,
+            "end": 265.0,
+            "text": " It replaces all occurrence of a string with another string  Suppose I want to write john instead of harry  Okay  So I will write  a.replace"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 265.0,
+            "end": 275.0,
+            "text": " Replace harry with what  And I will obviously write in double quote  Replace all the occurrences of harry  With john  So if I print this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 275.0,
+            "end": 282.0,
+            "text": " Then this string will be printed  And john will be written here  As you can see  Okay  What if there were 2-3 more Harrys here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 282.0,
+            "end": 289.0,
+            "text": " Would they also change?  Yes, all occurrences are written  So all Harrys will change to john  As you can see  a.replace harry"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 289.0,
+            "end": 294.0,
+            "text": " It became john  This was harry harry  It became john  Okay  So this is the thing"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 294.0,
+            "end": 302.0,
+            "text": " Now what does split do?  Split is a very good method  Because what it does  That your  This string"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 302.0,
+            "end": 313.0,
+            "text": " Converts it into a list  Now we have not read so much about the list  So I will not talk much about this method  But I will show you  If I"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 313.0,
+            "end": 321.0,
+            "text": " Split  Split with a space  And my string should also have space  Then it will split  So this will be the first element of the list"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 321.0,
+            "end": 327.0,
+            "text": " This will be the second element of the list  If there is space somewhere else  Then this will be the third element of the list  That is, this  This"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 327.0,
+            "end": 335.0,
+            "text": " And this will become a list  I will show you how this thing works  If I run this  Then a list will be made  In that will come harry"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 335.0,
+            "end": 341.0,
+            "text": " Then this  Then this harry  As you can see here  What is a list?  I will tell you very clearly in the future"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 341.0,
+            "end": 347.0,
+            "text": " We will also see the method of the list  There is a capitalized method  In JavaScript  JavaScript language  Yes, I am talking about JavaScript"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 347.0,
+            "end": 355.0,
+            "text": " There is no capitalized method in JavaScript  Capitalized method comes in handy  When you are writing blogs etc  I remember when I was in my python jango blog  Codewithharry.com"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 355.0,
+            "end": 363.0,
+            "text": " When I wrote in jango  Then I used to come in handy  When I had to capitalize the first character  That is, the first one  Which is my character"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 363.0,
+            "end": 370.0,
+            "text": " I wanted to show it in capital  Like let's say  My blog heading  I take my very good realistic example  So that you can understand clearly"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 370.0,
+            "end": 377.0,
+            "text": " Okay  Let's say  Introduction to JS  Okay, let's say this is my heading  Now I want to capitalize it"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 377.0,
+            "end": 383.0,
+            "text": " Now you will say  Make the heading properly  Why is the need to capitalize?  So what happens  Sometimes we forget"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 383.0,
+            "end": 390.0,
+            "text": " Writing in capital  We write like this in a hurry  So if we write like this in a hurry  Blog heading  So I would like"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 390.0,
+            "end": 398.0,
+            "text": " My blog heading  It will be converted well  In which  Its first character is in uppercase  Blog heading"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 398.0,
+            "end": 404.0,
+            "text": " Dot  And I will write here  Capitalize  And as soon as I do this  This"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 404.0,
+            "end": 410.0,
+            "text": " Its first character  It will come in capital  And my blog  It will look good  You see here the introduction to JS"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 410.0,
+            "end": 415.0,
+            "text": " Which is coming  It is coming in capital now  Which looks pretty good  Okay  So you can do it like this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 415.0,
+            "end": 423.0,
+            "text": " Now here you can see  If I write the same thing  Something like this  Suppose someone made a mistake  Okay, he made it capital"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 423.0,
+            "end": 431.0,
+            "text": " And this mistake is very common  When you are writing blogs  When you are publishing 2-3 blogs daily  Then such a human error comes  And suppose you wrote something like this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 431.0,
+            "end": 438.0,
+            "text": " J capital S  Now when you run it  Then you see here  What will capitalize do  It will fix it automatically"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 438.0,
+            "end": 446.0,
+            "text": " See all  It has done in lower case  So if you come here  And see the description of the capitalize method  Then you will see"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 446.0,
+            "end": 455.0,
+            "text": " The capitalize method  Turns only the first character of the string to uppercase  It will convert the first character to uppercase  But the rest  Will convert all the characters to lowercase"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 455.0,
+            "end": 463.0,
+            "text": " The string has no effect  If the first character is already uppercase  Which is so obvious  If you have it in uppercase from the beginning  Then what will it do"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 463.0,
+            "end": 468.0,
+            "text": " Okay  And if it is also in lowercase  Then what will it do  When everything is done  Then no effect is taken"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 468.0,
+            "end": 474.0,
+            "text": " Capitalize  But this is how it works  Okay  After this there is a center method  What does the center method simply do"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 474.0,
+            "end": 482.0,
+            "text": " Aligns the string to the center  As per the parameter given  So I will take this example  Which I have taken here  And I will run it and show you"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 482.0,
+            "end": 488.0,
+            "text": " So welcome to the console  What will happen in the starting  That 50  You see here  It has given spaces"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 488.0,
+            "end": 497.0,
+            "text": " Okay  Now I will show you one thing  I will print the len of this  I will print the len of this  And I will print the len of str1"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 497.0,
+            "end": 505.0,
+            "text": " So if I print  Len of str1  And run it  So you see  The len of str1 is 25"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 505.0,
+            "end": 513.0,
+            "text": " And its length is 50  So what does the center do  That 25 was the length of the string  What did it do in the starting  Added 25 more spaces"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 513.0,
+            "end": 521.0,
+            "text": " So that it moves towards the center  So this is how our center method works  Okay  I have also written the description here  Now we will move forward"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 521.0,
+            "end": 528.0,
+            "text": " And talk about count  What does count do  How many times is anything in a string  It tells us  Like Harry is coming here twice"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 528.0,
+            "end": 538.0,
+            "text": " So if I want to see  How many times is Harry coming in my a string  So I can print something like this  I will say  a.count"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 538.0,
+            "end": 544.0,
+            "text": " count Harry  Tell me  How many times is Harry coming in a string  It is coming twice  So it gave me 2"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 544.0,
+            "end": 552.0,
+            "text": " Okay  So this is how count works  Then ends with function is very useful  We can find out from this  That is any string"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 552.0,
+            "end": 561.0,
+            "text": " In the set of given characters  I will say that it ends with a given string  Okay  I will show you  I will show you this example"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 561.0,
+            "end": 567.0,
+            "text": " I have given you  I will copy and paste it here  And show you  The biggest benefit of using raplet  Here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 567.0,
+            "end": 574.0,
+            "text": " I have written a tutorial for you directly  You can practice  Ideally what you have to do  I will tell you  Why this question was coming"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 574.0,
+            "end": 580.0,
+            "text": " That's why I am interrupting and telling you  You  First of all, fork my raplet  Fork my raplet first  And after forking"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 580.0,
+            "end": 588.0,
+            "text": " You will be able to run it like this  You will see this interface  If you directly access the raplet  Then you will not see this interface  You have to fork"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 588.0,
+            "end": 594.0,
+            "text": " What happens by forking  I will show you  Because this is important  This is very important  I have to do this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 594.0,
+            "end": 600.0,
+            "text": " I am interrupting  I am interrupting this lecture for a minute  And I want to show you  Okay  So here if you"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 600.0,
+            "end": 606.0,
+            "text": " Raplet.com  Slash  Code with Harry  And  Here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 606.0,
+            "end": 613.0,
+            "text": " I have to write at the rate code with Harry  You come at the rate code with Harry  So  Suppose this is my raplet  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 613.0,
+            "end": 619.0,
+            "text": " What you do is  Login it  And click on fork raplet  And as soon as you click on fork raplet  You guys"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 619.0,
+            "end": 624.0,
+            "text": " This one  Interface will be seen  I am not logged in here  That's why I can't see  But here you will see this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 624.0,
+            "end": 629.0,
+            "text": " So what happens  Basically the raplet I have made  It becomes yours  Okay  So you can do any kind of edits"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 629.0,
+            "end": 634.0,
+            "text": " In your raplet  Okay  So I want to tell you this thing  This is very important  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 634.0,
+            "end": 640.0,
+            "text": " So by doing str1.endswith  What will happen  That it will tell  This string is ending  So"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 640.0,
+            "end": 645.0,
+            "text": " Yes it is happening  True here  I got  Boolean data type will return me  I can use Boolean data type"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 645.0,
+            "end": 652.0,
+            "text": " In if else  Which I will tell you  In the coming lecture  So we can use it like this  Our endswith"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 652.0,
+            "end": 659.0,
+            "text": " Now see here  We can even check  For a value in between  By providing start and end  Index positions"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 659.0,
+            "end": 666.0,
+            "text": " So see  Here I can also tell  That from here to here  Ending in 2  Do you understand"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 666.0,
+            "end": 673.0,
+            "text": " What does it mean  I will explain to you  See if I do slicing of this string  Okay  And I go from 4 to 10"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 673.0,
+            "end": 680.0,
+            "text": " So what will I get  I will get 0, 1, 2, 3  And this will be found  The string I have highlighted  Will be found"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 680.0,
+            "end": 688.0,
+            "text": " OME space  TO will be found  So is this string  Ending in TO  Yes it is doing"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 688.0,
+            "end": 695.0,
+            "text": " So I will get to see true here  So you see if I run it like this  And by the way for your information  I can tell  That I can overwrite a variable"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 695.0,
+            "end": 700.0,
+            "text": " In python programming  Like this  Okay so you see  I got to see true here  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 700.0,
+            "end": 709.0,
+            "text": " So it works like this  Now let's talk about find method  Find method is a very simple method  Which searches  First occurrences of a given value"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 709.0,
+            "end": 716.0,
+            "text": " And returns  Index where it is present  Okay  So here I want to tell you  That if that"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 716.0,
+            "end": 723.0,
+            "text": " The string which you are searching  Is not found  Then it returns minus 1  This way it will not be known  So that's why I give you an example"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 723.0,
+            "end": 730.0,
+            "text": " So here you see  I have a guy named Dan  He is  Name is Dan  Is written"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 730.0,
+            "end": 735.0,
+            "text": " He is an honest man  Now you will say  He is  What is written  Why is it used"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 735.0,
+            "end": 741.0,
+            "text": " I will tell you  It will not detect this  It will detect this  In fact it will detect this  Because it is the first occurrence"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 741.0,
+            "end": 749.0,
+            "text": " So I will show you here  If we do dot find method  Then I will get the index of this  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10  I should get"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 749.0,
+            "end": 755.0,
+            "text": " I am getting 10  So what will it do  The first occurrence  Which will be  Is"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 755.0,
+            "end": 762.0,
+            "text": " Its index will return me here  So str1.find is  If I do  Then it will give the first occurrence of is  Neither it will give"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 762.0,
+            "end": 767.0,
+            "text": " Neither it will give  It will not give because it is not is  Python does not know  Python is not a human  Python is not a human"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 767.0,
+            "end": 774.0,
+            "text": " Python is not a human  Python is not a snake  Python is an interpreter  It is a computer  So it can compute"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 774.0,
+            "end": 782.0,
+            "text": " It cannot see that  He is means he is  So here literally  Where will get is  Its index will give me here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 782.0,
+            "end": 788.0,
+            "text": " Now the next method after this  About which I want to talk  That is index method  What is index method  Index method is basically the same"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 788.0,
+            "end": 794.0,
+            "text": " In fact it is very similar  Of find method  But what does find do  Returns minus 1  If I have"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 794.0,
+            "end": 799.0,
+            "text": " Is  If I have is  H  H  H"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 799.0,
+            "end": 804.0,
+            "text": " Then it will return minus 1  Because there is no occurrence of is  H  H  H"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 804.0,
+            "end": 809.0,
+            "text": " In the string  So it will return minus 1  But if I do this  And I will write index here  Then I will get an exception"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 809.0,
+            "end": 814.0,
+            "text": " So I will get an error  So maybe if we are  In our program  We are very sure  That we should get it"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 814.0,
+            "end": 819.0,
+            "text": " In this string  Then we can use this kind of thing  If we want  That our program  Will give an error and exit"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 819.0,
+            "end": 825.0,
+            "text": " If it is not found  Then we will use the index  What does this index method do  It raises an exception  And"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 825.0,
+            "end": 830.0,
+            "text": " Exactly the same  Value error  Sub string not found  This kind of  This"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 830.0,
+            "end": 835.0,
+            "text": " Error throws  Okay  After this  The next method is  Is elnum"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 835.0,
+            "end": 840.0,
+            "text": " That is your string  Is alpha numeric or not  To find this  We use  Is elnum"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 840.0,
+            "end": 845.0,
+            "text": " This elnum method  Returns true only  If the entire string  Consists of  This character"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 845.0,
+            "end": 851.0,
+            "text": " That is alpha numeric characters  If any other characters  Or punctuations are present  Then it returns false  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 851.0,
+            "end": 856.0,
+            "text": " Like if I run this  You can see  Welcome to the console  Yes  I will comment this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 856.0,
+            "end": 861.0,
+            "text": " Because it is giving an error  I will comment this  Because  There is no occurrence of  I, S, H, H"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 861.0,
+            "end": 866.0,
+            "text": " And it is giving an error  So see here  This is an alpha numeric string  So it is true  Alpha numeric means"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 866.0,
+            "end": 871.0,
+            "text": " Capital A to capital Z  Small a to small z  And between 0 to 9  The string made  By the character"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 871.0,
+            "end": 876.0,
+            "text": " Then after this  There is an is alpha  In this  Numbers are not present  In alpha numeric"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 876.0,
+            "end": 881.0,
+            "text": " Numbers are also present  In is alpha  Capital A to capital Z  Small a to small z  If you have"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 881.0,
+            "end": 886.0,
+            "text": " If it is present  In your string  Then it will return true  Otherwise it will return false  And this time"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 886.0,
+            "end": 891.0,
+            "text": " I will show you  By doing welcome double zero  That false is returning  Or not  So if I do welcome double zero"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 891.0,
+            "end": 896.0,
+            "text": " Then false will return  We just saw  True was returning  I hope I am not  Doing this thing too fast"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 896.0,
+            "end": 901.0,
+            "text": " So see here  False is returned  If I remove double zero  Then instead of false  Here true will return"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 901.0,
+            "end": 906.0,
+            "text": " Okay  And you do this  By yourself  Till you do it by yourself  You will not get"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 906.0,
+            "end": 911.0,
+            "text": " Such good clarity  Okay  After this is lower  Do you  All the characters"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 911.0,
+            "end": 916.0,
+            "text": " Are in lower case or not  So true will return  Otherwise  False will return  So see here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 916.0,
+            "end": 921.0,
+            "text": " You have this rappel  You know by forking  You have to see  Such interface  You can move it"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 921.0,
+            "end": 926.0,
+            "text": " Wherever you want  By your will  If you want to go down  You can move it down  Means"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 926.0,
+            "end": 931.0,
+            "text": " This navigation is so smooth  Means  I chose rappelate  For this course  That's why I chose"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 931.0,
+            "end": 936.0,
+            "text": " That it will be fun  Here tutorial  Here floating video  Means I don't think  We will get such a good experience"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 936.0,
+            "end": 941.0,
+            "text": " As of now  Okay  So here you can see  Printable  Next method"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 941.0,
+            "end": 946.0,
+            "text": " You guys try this lower  If it is made from lower case  Then it will give you true  If I have put capital H here  If any character"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 946.0,
+            "end": 951.0,
+            "text": " Is in upper case  Then what will happen here  It will be false  Okay  I do ctrl z"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 951.0,
+            "end": 956.0,
+            "text": " And here it will be true  Again  As you guys can see  Okay  Now what is this printable"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 956.0,
+            "end": 961.0,
+            "text": " Okay  Returns true  If all the values  Within the given strings  Are printable"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 961.0,
+            "end": 966.0,
+            "text": " Otherwise  It returns false  So if the character is printable  Then true will return  Otherwise false will return"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 966.0,
+            "end": 972.0,
+            "text": " As I want to show you  That  Which are printable characters  If all these characters are printable  Then true will return"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 972.0,
+            "end": 977.0,
+            "text": " But if I put  A carriage return here  Backslash n  Then it will return false  Because it is not a printable character"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 977.0,
+            "end": 982.0,
+            "text": " You will not see this backslash n  So that's why it is false  If I print here  Str1  So you guys"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 982.0,
+            "end": 987.0,
+            "text": " Will not see  Backslash n  In this  You will get a newline character  Literally printed"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 987.0,
+            "end": 992.0,
+            "text": " So this  Backslash n  Is not from printable characters  Okay  So I hope you understood"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 992.0,
+            "end": 997.0,
+            "text": " This thing  Now what I will do  That you guys  Will get the is space  And I will show you"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 997.0,
+            "end": 1002.0,
+            "text": " That I will tell you  About is space  This true returns  Only and only  If the string contains"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1002.0,
+            "end": 1007.0,
+            "text": " White spaces  Otherwise it returns  False  So if we have  Put white spaces"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1007.0,
+            "end": 1012.0,
+            "text": " With the help of space bar  Then you will get  True return  Okay  So I have put"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1012.0,
+            "end": 1017.0,
+            "text": " Space bar  Here  Like this  And this true  Is returning me"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1017.0,
+            "end": 1022.0,
+            "text": " If I put it  From tab  Then that is also white space  Okay  If I put tab"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1022.0,
+            "end": 1027.0,
+            "text": " Then also that is white space  So here  What space is in it  Okay  So true is returning"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1027.0,
+            "end": 1032.0,
+            "text": " Okay  True true  I hope you understood  This thing  Now this title"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1032.0,
+            "end": 1037.0,
+            "text": " Is a method which  Returns true  Only if the first letter  Of each word  Of the string is"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1037.0,
+            "end": 1042.0,
+            "text": " Capitalized  Otherwise it returns  False  So what can we do  If we"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1042.0,
+            "end": 1047.0,
+            "text": " In blog  I remember I used this method  In my jango blog  When I  All the titles"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1047.0,
+            "end": 1052.0,
+            "text": " Of my blogs  I had to capitalize  And keep it like this  And if any  Is not capitalized"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1052.0,
+            "end": 1057.0,
+            "text": " Then I  Could see in the dashboard  That the title  Which is capitalized  Is not capitalized"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1057.0,
+            "end": 1062.0,
+            "text": " So I  Can do this thing  If I run it  See my iphone is also saying  That my 20% battery is left"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1062.0,
+            "end": 1067.0,
+            "text": " End the video  Quickly  By the way  If any of you want to know  How I am recording"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1067.0,
+            "end": 1072.0,
+            "text": " Then I  Use continuity camera  Of iphone  Because I was getting  A lot of questions"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1072.0,
+            "end": 1077.0,
+            "text": " That's why I am telling you  So it is very good  Now I will talk at the end of the video  So that no one has time face  I will end this title"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1077.0,
+            "end": 1082.0,
+            "text": " Quickly  To kill a mockingbird  Okay  I have to check  This title"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1082.0,
+            "end": 1087.0,
+            "text": " Is it not  So I  Can do it like this  And  Here you see"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1087.0,
+            "end": 1092.0,
+            "text": " Key to kill  A mockingbird  False  Okay  Now what does"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1092.0,
+            "end": 1097.0,
+            "text": " Is upper do  Is lower  As we saw  Exactly the same thing  After this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1097.0,
+            "end": 1102.0,
+            "text": " The next method is start  Which is exactly  Like end  If your string  Is starting"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1102.0,
+            "end": 1107.0,
+            "text": " From a given character  So you  Will see  True here  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1107.0,
+            "end": 1112.0,
+            "text": " So see here  True will come  Because it is starting  From python  After this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1112.0,
+            "end": 1117.0,
+            "text": " The next method is swap  Which is upper case  Upper case  Converts it to lower case  A very straight forward method"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1117.0,
+            "end": 1122.0,
+            "text": " You guys run it  And practice  Okay  Swap case  See he has swapped"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1122.0,
+            "end": 1127.0,
+            "text": " All cases  Upper case  Lower lower  Made it upper  After this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1127.0,
+            "end": 1132.0,
+            "text": " There is a title method  Which does  Converts it  In title case  You see what is happening here"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1132.0,
+            "end": 1137.0,
+            "text": " If I run it  So  His name is  Dan  I will make it his"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1137.0,
+            "end": 1142.0,
+            "text": " His name is Dan  And Dan  Is an honest man  Now see what will happen  That"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1142.0,
+            "end": 1147.0,
+            "text": " This will become  I capital  As you can see  It has become D capital  All his"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1147.0,
+            "end": 1152.0,
+            "text": " First characters  Have become capital  So this is used a lot  In blogs  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1152.0,
+            "end": 1157.0,
+            "text": " I hope you guys  Understood this thing  Now if  Those who want to hear  How am I recording"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1157.0,
+            "end": 1162.0,
+            "text": " What is the setup  I want to tell  There are a lot of questions  For the rest of the people  In the next video"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1162.0,
+            "end": 1167.0,
+            "text": " Meet you  Coding is just this  I am just telling a little  About the setup  Now whoever wants to hear"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1167.0,
+            "end": 1172.0,
+            "text": " Will listen  Rest of the people  Watch the next video  Okay  So this is my"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1172.0,
+            "end": 1177.0,
+            "text": " Macbook  I have bought a macbook  Recently  To make videos  I bought it because"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1177.0,
+            "end": 1182.0,
+            "text": " I was very impressed with macbook  I was using macbook  In my workplace  And macbook was looking  Very good"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1182.0,
+            "end": 1187.0,
+            "text": " So I bought macbook  I thought I was used to it  I mean see here  My arrow used to go here  In windows"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1187.0,
+            "end": 1192.0,
+            "text": " I was doing office work  So it was going here  I thought let's stay  On macbook  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1192.0,
+            "end": 1197.0,
+            "text": " Is windows bad  No, windows is very good  Okay  And start from windows  I recommend this"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1197.0,
+            "end": 1202.0,
+            "text": " Okay  All those discussions  In some other video  And continuity camera  Is a feature"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1202.0,
+            "end": 1207.0,
+            "text": " In your iphone  Okay  What does continuity camera do  I show you  Continuity camera"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1207.0,
+            "end": 1212.0,
+            "text": " If you have  A macbook  And you have an iphone  So what happens  When you bring your iphone"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1212.0,
+            "end": 1217.0,
+            "text": " Near your macbook  And turn on  Wi-Fi bluetooth  In it  So automatically"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1217.0,
+            "end": 1222.0,
+            "text": " Your iphone  Starts being used  As a webcam  Okay  So you see"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1222.0,
+            "end": 1227.0,
+            "text": " Such a good quality  Is coming from my iphone  Okay  So I mean  I tried"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1227.0,
+            "end": 1232.0,
+            "text": " I also have a camera  Maybe you can see  What has happened  I can also use that  I have different kinds of lenses"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1232.0,
+            "end": 1238.0,
+            "text": " The quality can be more clear  But again  I am pretty satisfied  With the quality of the iphone  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1238.0,
+            "end": 1243.0,
+            "text": " So I said  I have mounted my iphone here  And very easily  Everything is happening  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1243.0,
+            "end": 1248.0,
+            "text": " Now what is in this  It is a very impressive thing  That you get to see things  Here  Video effects"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1248.0,
+            "end": 1253.0,
+            "text": " Like  You see  I will stage the center  So it came to the center  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1253.0,
+            "end": 1258.0,
+            "text": " I will do portrait  If I show you here  Where am I doing this  Click here  Here comes the option"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1258.0,
+            "end": 1264.0,
+            "text": " Okay  So here are three options  I am showing you all three  I have done the first one  Tick"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1264.0,
+            "end": 1269.0,
+            "text": " The second one is tick  Then if I do studio light  So see the lighting is changing  Like this  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1269.0,
+            "end": 1274.0,
+            "text": " So if I do portrait  It is blurred  But it is not taking that much blur  I think it should not blur the mic  At least"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1274.0,
+            "end": 1279.0,
+            "text": " If I do this  It is looking good  Okay  It has blurred the mic  So somewhere"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1279.0,
+            "end": 1284.0,
+            "text": " There are improvements in it  Which I know  Apple will do  But  It is very good"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1284.0,
+            "end": 1289.0,
+            "text": " I will turn off the effects  Because I put effects in post processing  I have turned off the effects  Because I put effects in post processing  Then the desk view comes"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1289.0,
+            "end": 1294.0,
+            "text": " In the desk view  You will get to see my desk  You can see here  You are getting to see  Here my desk is getting to see"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1294.0,
+            "end": 1299.0,
+            "text": " You can see here  So it is a very good experience  Very big  Everything is getting to see  What is on my desk"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1299.0,
+            "end": 1304.0,
+            "text": " I mean  This desk view  I am getting to see  This view  Okay"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1304.0,
+            "end": 1309.0,
+            "text": " Means  It is very impressive  You can see  From where it is showing me  From which angle it is showing me"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1309.0,
+            "end": 1314.0,
+            "text": " So I will turn it off now  And  That's it  I have set up the mic  I have set up my mic"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1314.0,
+            "end": 1319.0,
+            "text": " I have set up my mic  I have set up my mic  I have set up my mic  I have set up my mic  It is a good mic"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1319.0,
+            "end": 1324.0,
+            "text": " It can work with a normal mic  But again  I have upgraded it a little  I hope you are enjoying  When the quality is good"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1324.0,
+            "end": 1329.0,
+            "text": " When the quality is good  Then finally  It is fun  Okay  That's it for now guys"
+        },
+        {
+            "number": "013 ",
+            "title": "String Methods in Python",
+            "start": 1329.0,
+            "end": 1351.5,
+            "text": " Thank you so much guys  For watching this video  And I will see you  Next time  \ud83c\udfb6Music\ud83c\udfb6"
+        }
+    ],
+    "text": " This 100 days of code is running like Netflix People are coming to watch it daily like a TV series It's fun In today's video we are going to talk about string methods We read about string We saw what is a string We saw that it is a very important data type We also saw that what are the other ways to make a string Today I will tell you how operations can be done with a string For example, you want to convert a string in upper case Suppose you want to convert the whole string in lower case You want to find the length of a string How to find it? I will tell you all these things in this video Let's go to the computer screen and let's get started As you can see I have come to my Apple If you have not accessed the playlist yet Then do access it or click and bookmark Or click and save Today we are going to see some string methods I have written here a is equal to Harry This is a 5 length string I know we saw in the last video That we can print len of a in this way And python will give us 5 There was no big deal in it We also got 5 But what will I do if I want to convert this string in upper case The first thing I want to explain to you is the concept of immutability I want to explain this to you The strings are immutable You can't change them But you can change them It's not that you can't change them You can't change them in place Let me explain Suppose I have a is equal to Harry I can't change this variable as it is What is made is made I can make a new copy of it When I apply any string method Suppose I write here a.upper I get a new string I get a new string In which all the characters are in upper case As you can see it has come in Harry capital It's not that the old string has changed This question comes in the interview That's why I am telling you That the strings are immutable I write here to remind you That strings are immutable Strings are immutable And I will make a comment With the help of control forward slash So that it doesn't execute Because if it executes It will give an error And I don't want it to give an error Okay As I told you about upper method Similarly, there is a lower method Which converts our string to lower case And it's very obvious That the lower method converts a string to lower case I have given an example here In case you want to try it Will this example convert string 1 to lower case Do you know what is the answer to this question It won't do Why it won't do Because it will make a new string It won't change the existing string Strings are immutable in python You can't change them Okay But you can make a new string By using string methods So what do string methods do They operate on your existing string And return a new string So we saw this thing a.upper a.lower a.lower will convert entire Harry to lower case It was H Now it's h Okay Now there is a method called rstrip Which removes trailing characters Suppose I had written something like this in my name Okay, Harry So if I print a.upper, a.lower Or a for that matter Then I will get my string directly But I want If I get this exclamation mark as a strip Then I will do a.rstrip Okay, what does it do It strips Who does it strip The trailing characters So I can strip the exclamation mark Like this You can see here It's stripped Does it strip the leading? Does it strip the leading exclamation mark? The answer is no The exclamation will be there in the starting As you can see It strips only the trailing Okay So we have learned this Okay I will leave it like this To Harry So that you can understand this rstrip Now let's talk about replace What does it do It replaces all occurrence of a string with another string Suppose I want to write john instead of harry Okay So I will write a.replace Replace harry with what And I will obviously write in double quote Replace all the occurrences of harry With john So if I print this Then this string will be printed And john will be written here As you can see Okay What if there were 2-3 more Harrys here Would they also change? Yes, all occurrences are written So all Harrys will change to john As you can see a.replace harry It became john This was harry harry It became john Okay So this is the thing Now what does split do? Split is a very good method Because what it does That your This string Converts it into a list Now we have not read so much about the list So I will not talk much about this method But I will show you If I Split Split with a space And my string should also have space Then it will split So this will be the first element of the list This will be the second element of the list If there is space somewhere else Then this will be the third element of the list That is, this This And this will become a list I will show you how this thing works If I run this Then a list will be made In that will come harry Then this Then this harry As you can see here What is a list? I will tell you very clearly in the future We will also see the method of the list There is a capitalized method In JavaScript JavaScript language Yes, I am talking about JavaScript There is no capitalized method in JavaScript Capitalized method comes in handy When you are writing blogs etc I remember when I was in my python jango blog Codewithharry.com When I wrote in jango Then I used to come in handy When I had to capitalize the first character That is, the first one Which is my character I wanted to show it in capital Like let's say My blog heading I take my very good realistic example So that you can understand clearly Okay Let's say Introduction to JS Okay, let's say this is my heading Now I want to capitalize it Now you will say Make the heading properly Why is the need to capitalize? So what happens Sometimes we forget Writing in capital We write like this in a hurry So if we write like this in a hurry Blog heading So I would like My blog heading It will be converted well In which Its first character is in uppercase Blog heading Dot And I will write here Capitalize And as soon as I do this This Its first character It will come in capital And my blog It will look good You see here the introduction to JS Which is coming It is coming in capital now Which looks pretty good Okay So you can do it like this Now here you can see If I write the same thing Something like this Suppose someone made a mistake Okay, he made it capital And this mistake is very common When you are writing blogs When you are publishing 2-3 blogs daily Then such a human error comes And suppose you wrote something like this J capital S Now when you run it Then you see here What will capitalize do It will fix it automatically See all It has done in lower case So if you come here And see the description of the capitalize method Then you will see The capitalize method Turns only the first character of the string to uppercase It will convert the first character to uppercase But the rest Will convert all the characters to lowercase The string has no effect If the first character is already uppercase Which is so obvious If you have it in uppercase from the beginning Then what will it do Okay And if it is also in lowercase Then what will it do When everything is done Then no effect is taken Capitalize But this is how it works Okay After this there is a center method What does the center method simply do Aligns the string to the center As per the parameter given So I will take this example Which I have taken here And I will run it and show you So welcome to the console What will happen in the starting That 50 You see here It has given spaces Okay Now I will show you one thing I will print the len of this I will print the len of this And I will print the len of str1 So if I print Len of str1 And run it So you see The len of str1 is 25 And its length is 50 So what does the center do That 25 was the length of the string What did it do in the starting Added 25 more spaces So that it moves towards the center So this is how our center method works Okay I have also written the description here Now we will move forward And talk about count What does count do How many times is anything in a string It tells us Like Harry is coming here twice So if I want to see How many times is Harry coming in my a string So I can print something like this I will say a.count count Harry Tell me How many times is Harry coming in a string It is coming twice So it gave me 2 Okay So this is how count works Then ends with function is very useful We can find out from this That is any string In the set of given characters I will say that it ends with a given string Okay I will show you I will show you this example I have given you I will copy and paste it here And show you The biggest benefit of using raplet Here I have written a tutorial for you directly You can practice Ideally what you have to do I will tell you Why this question was coming That's why I am interrupting and telling you You First of all, fork my raplet Fork my raplet first And after forking You will be able to run it like this You will see this interface If you directly access the raplet Then you will not see this interface You have to fork What happens by forking I will show you Because this is important This is very important I have to do this I am interrupting I am interrupting this lecture for a minute And I want to show you Okay So here if you Raplet.com Slash Code with Harry And Here I have to write at the rate code with Harry You come at the rate code with Harry So Suppose this is my raplet Okay What you do is Login it And click on fork raplet And as soon as you click on fork raplet You guys This one Interface will be seen I am not logged in here That's why I can't see But here you will see this So what happens Basically the raplet I have made It becomes yours Okay So you can do any kind of edits In your raplet Okay So I want to tell you this thing This is very important Okay So by doing str1.endswith What will happen That it will tell This string is ending So Yes it is happening True here I got Boolean data type will return me I can use Boolean data type In if else Which I will tell you In the coming lecture So we can use it like this Our endswith Now see here We can even check For a value in between By providing start and end Index positions So see Here I can also tell That from here to here Ending in 2 Do you understand What does it mean I will explain to you See if I do slicing of this string Okay And I go from 4 to 10 So what will I get I will get 0, 1, 2, 3 And this will be found The string I have highlighted Will be found OME space TO will be found So is this string Ending in TO Yes it is doing So I will get to see true here So you see if I run it like this And by the way for your information I can tell That I can overwrite a variable In python programming Like this Okay so you see I got to see true here Okay So it works like this Now let's talk about find method Find method is a very simple method Which searches First occurrences of a given value And returns Index where it is present Okay So here I want to tell you That if that The string which you are searching Is not found Then it returns minus 1 This way it will not be known So that's why I give you an example So here you see I have a guy named Dan He is Name is Dan Is written He is an honest man Now you will say He is What is written Why is it used I will tell you It will not detect this It will detect this In fact it will detect this Because it is the first occurrence So I will show you here If we do dot find method Then I will get the index of this 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 I should get I am getting 10 So what will it do The first occurrence Which will be Is Its index will return me here So str1.find is If I do Then it will give the first occurrence of is Neither it will give Neither it will give It will not give because it is not is Python does not know Python is not a human Python is not a human Python is not a human Python is not a snake Python is an interpreter It is a computer So it can compute It cannot see that He is means he is So here literally Where will get is Its index will give me here Now the next method after this About which I want to talk That is index method What is index method Index method is basically the same In fact it is very similar Of find method But what does find do Returns minus 1 If I have Is If I have is H H H Then it will return minus 1 Because there is no occurrence of is H H H In the string So it will return minus 1 But if I do this And I will write index here Then I will get an exception So I will get an error So maybe if we are In our program We are very sure That we should get it In this string Then we can use this kind of thing If we want That our program Will give an error and exit If it is not found Then we will use the index What does this index method do It raises an exception And Exactly the same Value error Sub string not found This kind of This Error throws Okay After this The next method is Is elnum That is your string Is alpha numeric or not To find this We use Is elnum This elnum method Returns true only If the entire string Consists of This character That is alpha numeric characters If any other characters Or punctuations are present Then it returns false Okay Like if I run this You can see Welcome to the console Yes I will comment this Because it is giving an error I will comment this Because There is no occurrence of I, S, H, H And it is giving an error So see here This is an alpha numeric string So it is true Alpha numeric means Capital A to capital Z Small a to small z And between 0 to 9 The string made By the character Then after this There is an is alpha In this Numbers are not present In alpha numeric Numbers are also present In is alpha Capital A to capital Z Small a to small z If you have If it is present In your string Then it will return true Otherwise it will return false And this time I will show you By doing welcome double zero That false is returning Or not So if I do welcome double zero Then false will return We just saw True was returning I hope I am not Doing this thing too fast So see here False is returned If I remove double zero Then instead of false Here true will return Okay And you do this By yourself Till you do it by yourself You will not get Such good clarity Okay After this is lower Do you All the characters Are in lower case or not So true will return Otherwise False will return So see here You have this rappel You know by forking You have to see Such interface You can move it Wherever you want By your will If you want to go down You can move it down Means This navigation is so smooth Means I chose rappelate For this course That's why I chose That it will be fun Here tutorial Here floating video Means I don't think We will get such a good experience As of now Okay So here you can see Printable Next method You guys try this lower If it is made from lower case Then it will give you true If I have put capital H here If any character Is in upper case Then what will happen here It will be false Okay I do ctrl z And here it will be true Again As you guys can see Okay Now what is this printable Okay Returns true If all the values Within the given strings Are printable Otherwise It returns false So if the character is printable Then true will return Otherwise false will return As I want to show you That Which are printable characters If all these characters are printable Then true will return But if I put A carriage return here Backslash n Then it will return false Because it is not a printable character You will not see this backslash n So that's why it is false If I print here Str1 So you guys Will not see Backslash n In this You will get a newline character Literally printed So this Backslash n Is not from printable characters Okay So I hope you understood This thing Now what I will do That you guys Will get the is space And I will show you That I will tell you About is space This true returns Only and only If the string contains White spaces Otherwise it returns False So if we have Put white spaces With the help of space bar Then you will get True return Okay So I have put Space bar Here Like this And this true Is returning me If I put it From tab Then that is also white space Okay If I put tab Then also that is white space So here What space is in it Okay So true is returning Okay True true I hope you understood This thing Now this title Is a method which Returns true Only if the first letter Of each word Of the string is Capitalized Otherwise it returns False So what can we do If we In blog I remember I used this method In my jango blog When I All the titles Of my blogs I had to capitalize And keep it like this And if any Is not capitalized Then I Could see in the dashboard That the title Which is capitalized Is not capitalized So I Can do this thing If I run it See my iphone is also saying That my 20% battery is left End the video Quickly By the way If any of you want to know How I am recording Then I Use continuity camera Of iphone Because I was getting A lot of questions That's why I am telling you So it is very good Now I will talk at the end of the video So that no one has time face I will end this title Quickly To kill a mockingbird Okay I have to check This title Is it not So I Can do it like this And Here you see Key to kill A mockingbird False Okay Now what does Is upper do Is lower As we saw Exactly the same thing After this The next method is start Which is exactly Like end If your string Is starting From a given character So you Will see True here Okay So see here True will come Because it is starting From python After this The next method is swap Which is upper case Upper case Converts it to lower case A very straight forward method You guys run it And practice Okay Swap case See he has swapped All cases Upper case Lower lower Made it upper After this There is a title method Which does Converts it In title case You see what is happening here If I run it So His name is Dan I will make it his His name is Dan And Dan Is an honest man Now see what will happen That This will become I capital As you can see It has become D capital All his First characters Have become capital So this is used a lot In blogs Okay I hope you guys Understood this thing Now if Those who want to hear How am I recording What is the setup I want to tell There are a lot of questions For the rest of the people In the next video Meet you Coding is just this I am just telling a little About the setup Now whoever wants to hear Will listen Rest of the people Watch the next video Okay So this is my Macbook I have bought a macbook Recently To make videos I bought it because I was very impressed with macbook I was using macbook In my workplace And macbook was looking Very good So I bought macbook I thought I was used to it I mean see here My arrow used to go here In windows I was doing office work So it was going here I thought let's stay On macbook Okay Is windows bad No, windows is very good Okay And start from windows I recommend this Okay All those discussions In some other video And continuity camera Is a feature In your iphone Okay What does continuity camera do I show you Continuity camera If you have A macbook And you have an iphone So what happens When you bring your iphone Near your macbook And turn on Wi-Fi bluetooth In it So automatically Your iphone Starts being used As a webcam Okay So you see Such a good quality Is coming from my iphone Okay So I mean I tried I also have a camera Maybe you can see What has happened I can also use that I have different kinds of lenses The quality can be more clear But again I am pretty satisfied With the quality of the iphone Okay So I said I have mounted my iphone here And very easily Everything is happening Okay Now what is in this It is a very impressive thing That you get to see things Here Video effects Like You see I will stage the center So it came to the center Okay I will do portrait If I show you here Where am I doing this Click here Here comes the option Okay So here are three options I am showing you all three I have done the first one Tick The second one is tick Then if I do studio light So see the lighting is changing Like this Okay So if I do portrait It is blurred But it is not taking that much blur I think it should not blur the mic At least If I do this It is looking good Okay It has blurred the mic So somewhere There are improvements in it Which I know Apple will do But It is very good I will turn off the effects Because I put effects in post processing I have turned off the effects Because I put effects in post processing Then the desk view comes In the desk view You will get to see my desk You can see here You are getting to see Here my desk is getting to see You can see here So it is a very good experience Very big Everything is getting to see What is on my desk I mean This desk view I am getting to see This view Okay Means It is very impressive You can see From where it is showing me From which angle it is showing me So I will turn it off now And That's it I have set up the mic I have set up my mic I have set up my mic I have set up my mic I have set up my mic I have set up my mic It is a good mic It can work with a normal mic But again I have upgraded it a little I hope you are enjoying When the quality is good When the quality is good Then finally It is fun Okay That's it for now guys Thank you so much guys For watching this video And I will see you Next time \ud83c\udfb6Music\ud83c\udfb6"
+}

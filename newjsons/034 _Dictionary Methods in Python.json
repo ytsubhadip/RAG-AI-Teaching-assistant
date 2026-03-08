@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 0.0,
+            "end": 14.0,
+            "text": " In the last video we saw everything about Dictionary  How to make a dictionary  What is the importance of Dictionary in Python Programming Language  In this video I would like to talk about Dictionary Methods  Let's go to the computer screen and let's get started"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 14.0,
+            "end": 35.0,
+            "text": " Intro  Some of the methods of Dictionary are very useful  One of the methods is update  Which is used to update the dictionary  Let's say I have some employee ID's"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 35.0,
+            "end": 50.0,
+            "text": " And their performances  I write employee or ep  I will make a simple name of the dictionary  Let's say I have some employee ID's  Let's say it is 1 to 2 and its performance is 45 out of 100"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 50.0,
+            "end": 71.0,
+            "text": " And 1 to 3 and its performance is 89 out of 100  And I have one more employee ID and its performance is 69 out of 100  And 670 is another employee ID  Its performance is also 69 out of 100  So what is happening is that we have stored the performance of many people in a variable"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 71.0,
+            "end": 87.0,
+            "text": " Now let's say another person comes and he is also a manager  He says according to my database  I have some other employee ID's  Like 2 to 2 employee ID's performance is 67  566 employee ID's performance is 90"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 87.0,
+            "end": 100.0,
+            "text": " So now they decide to do one thing  Because he is a senior manager  EP1 is a senior manager  He says EP2 you are junior than me  You give me all your ratings and I will store them in my database"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 100.0,
+            "end": 114.0,
+            "text": " So EP1 says ok sir no problem  Sorry it is EP2 not EP1  EP1 is a senior I forget  EP2 says ok sir you take all my ratings  So what will EP1 do?"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 114.0,
+            "end": 129.0,
+            "text": " EP1 will update itself with the values and key value pairs  I should say items of EP2  So if I run this method once  So I just need to run  And once I will print EP1"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 129.0,
+            "end": 146.0,
+            "text": " So I will see that these two performances have also come in it  You can see 2 to 2 67 566 90 has also come  Now the set is unordered in python  You must know this  But the dictionary is ordered from python 3.7 onwards"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 146.0,
+            "end": 160.0,
+            "text": " So set unordered python dictionary ordered  So in this way we can use the update method  Now we can use the clear method to clear all the dictionaries  So if I do not do this here  If I say ep1.clear"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 160.0,
+            "end": 174.0,
+            "text": " So what will happen?  EP1 will be completely empty  And an empty dictionary will be printed here  How to make an empty dictionary?  If I do this"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 174.0,
+            "end": 185.0,
+            "text": " So this is an empty dictionary  So if I print the empty dictionary  So an empty dictionary will be printed  Similarly we have a pop method  Which removes the key value pairs"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 185.0,
+            "end": 201.0,
+            "text": " So if I show you here  If I say here ep1.pop122  So what I will do is  I will remove this key value pair  So see 123, 567 and 670"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 201.0,
+            "end": 213.0,
+            "text": " By the way, I will tell you  I have commented out the method of update  That's why you can't see the values  So by pop I can remove a key value pair  What does pop item do?"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 213.0,
+            "end": 227.0,
+            "text": " It removes the last key value pair from a dictionary  So what you have to do is  If you want this entry to be removed from ep1  So what you will do is  You will use pop item here"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 227.0,
+            "end": 237.0,
+            "text": " And you will write 670 here  What will happen by writing 670?  That your pop item method  Sorry I don't need to write 670  I will just write pop item"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 237.0,
+            "end": 246.0,
+            "text": " And automatically 670 will be removed from here  So you can see here  Now the print of ep1  There is no 670 in it  So I just need to write pop item"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 246.0,
+            "end": 256.0,
+            "text": " And my last key value pair  Will be removed from my dictionary  Again there is a del keyword  Which we saw in set  What does this del keyword do?"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 256.0,
+            "end": 266.0,
+            "text": " It deletes the whole dictionary  So if you have written del here  Suppose I have written here del ep1  Then I will get an error  Now line no.9 will say"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 266.0,
+            "end": 275.0,
+            "text": " What is ep1?  And it will give an error  That ep1 is not defined  So we can do such things with dictionary  So I will comment this"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 275.0,
+            "end": 284.0,
+            "text": " So that we don't get to see  This not defined error  If key is not provided  Then the del keyword will delete the dictionary  Entirely"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 284.0,
+            "end": 291.0,
+            "text": " If you didn't delete like this  By giving a key  Then the whole dictionary will be deleted  Like we did here  But if you give a key"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 291.0,
+            "end": 302.0,
+            "text": " You say that I want to delete 122  Sorry not 122 as a string  Because 122 is an integer  So I will write 122 like this  So the entry 122 colon 45"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 302.0,
+            "end": 312.0,
+            "text": " Will be deleted from my dictionary  What if I write it like this  As a string  I will say that if you delete 122  Then you will get a key error"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 312.0,
+            "end": 323.0,
+            "text": " Many people get confused in this  That 122 was in my dictionary  Why am I getting a key error?  So you are getting a key error  Because you are seeing 122 as a string"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 323.0,
+            "end": 332.0,
+            "text": " And as an integer  The key in ep1  Is as an integer  So you should know this  So I will do it again"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 332.0,
+            "end": 342.0,
+            "text": " So that the error doesn't come  I hope you understood this  So exactly the same things  Which we saw for list, tuple  Set, dictionary"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 342.0,
+            "end": 352.0,
+            "text": " There are some methods  There is a data type  It has some uses  Whenever you want to create a mapping of key value pairs  You do it"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 352.0,
+            "end": 362.0,
+            "text": " Many times when you work with database  With MongoDB, PyMongo  Because in that almost everything  Is like a dictionary  You have to use many methods"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 362.0,
+            "end": 372.0,
+            "text": " And when you solve  Actual real world problems  Like creating a website in Django  Or creating a NAPI in Flask  When you do that kind of work"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 372.0,
+            "end": 382.0,
+            "text": " Then you will know the actual usage of these things  And now you may have theories  Always  Keep doing something like this  Python, Dictionary"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 382.0,
+            "end": 392.0,
+            "text": " Documentation  If you do this kind of work  Then you read latest documentation  Here all methods are written  You can see"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 392.0,
+            "end": 402.0,
+            "text": " Here is the list, here is the dictionary  So you can see here  You can see some of the methods of dictionary  Which I may not have told you  So here"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 402.0,
+            "end": 412.0,
+            "text": " Actually this is the CAPI reference of dictionary  So let's close it  We want to see here  I will click here  You can read it"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 412.0,
+            "end": 422.0,
+            "text": " This is the source, this is the documentation  When Python is created  Then this thing is released  Wherever you see  It comes from here"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 422.0,
+            "end": 432.0,
+            "text": " So how about reading this  Or at least trying to read this  You can try  It's not like reading it like a book  You can read it from the middle"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 432.0,
+            "end": 442.0,
+            "text": " You can scroll through it  You can see if there is any method  Which I don't know  So try it  See what is that"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 442.0,
+            "end": 452.0,
+            "text": " Read about looping techniques  Once you know the basics  Your information will increase  As much as you know about dictionary  Your knowledge will increase"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 452.0,
+            "end": 462.0,
+            "text": " In total, this is the thing  If you have not accessed the playlist yet  Then do access it  Or click here and save  If you have seen the course up to 34 days"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 462.0,
+            "end": 472.0,
+            "text": " Continuously  Then I want to request you  That you go to the first video  And leave a comment  Tell me how many stars will you give to this course"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 472.0,
+            "end": 482.0,
+            "text": " And honestly you give so that people help  Who are going to start this course  If you do this, I will feel very good  Many people have left their comments  So I say thank you to them"
+        },
+        {
+            "number": "034 ",
+            "title": "Dictionary Methods in Python",
+            "start": 482.0,
+            "end": 508.0,
+            "text": " That's all for now guys  Thank you so much guys for watching this video  And I will see you next time  Outro"
+        }
+    ],
+    "text": " In the last video we saw everything about Dictionary How to make a dictionary What is the importance of Dictionary in Python Programming Language In this video I would like to talk about Dictionary Methods Let's go to the computer screen and let's get started Intro Some of the methods of Dictionary are very useful One of the methods is update Which is used to update the dictionary Let's say I have some employee ID's And their performances I write employee or ep I will make a simple name of the dictionary Let's say I have some employee ID's Let's say it is 1 to 2 and its performance is 45 out of 100 And 1 to 3 and its performance is 89 out of 100 And I have one more employee ID and its performance is 69 out of 100 And 670 is another employee ID Its performance is also 69 out of 100 So what is happening is that we have stored the performance of many people in a variable Now let's say another person comes and he is also a manager He says according to my database I have some other employee ID's Like 2 to 2 employee ID's performance is 67 566 employee ID's performance is 90 So now they decide to do one thing Because he is a senior manager EP1 is a senior manager He says EP2 you are junior than me You give me all your ratings and I will store them in my database So EP1 says ok sir no problem Sorry it is EP2 not EP1 EP1 is a senior I forget EP2 says ok sir you take all my ratings So what will EP1 do? EP1 will update itself with the values and key value pairs I should say items of EP2 So if I run this method once So I just need to run And once I will print EP1 So I will see that these two performances have also come in it You can see 2 to 2 67 566 90 has also come Now the set is unordered in python You must know this But the dictionary is ordered from python 3.7 onwards So set unordered python dictionary ordered So in this way we can use the update method Now we can use the clear method to clear all the dictionaries So if I do not do this here If I say ep1.clear So what will happen? EP1 will be completely empty And an empty dictionary will be printed here How to make an empty dictionary? If I do this So this is an empty dictionary So if I print the empty dictionary So an empty dictionary will be printed Similarly we have a pop method Which removes the key value pairs So if I show you here If I say here ep1.pop122 So what I will do is I will remove this key value pair So see 123, 567 and 670 By the way, I will tell you I have commented out the method of update That's why you can't see the values So by pop I can remove a key value pair What does pop item do? It removes the last key value pair from a dictionary So what you have to do is If you want this entry to be removed from ep1 So what you will do is You will use pop item here And you will write 670 here What will happen by writing 670? That your pop item method Sorry I don't need to write 670 I will just write pop item And automatically 670 will be removed from here So you can see here Now the print of ep1 There is no 670 in it So I just need to write pop item And my last key value pair Will be removed from my dictionary Again there is a del keyword Which we saw in set What does this del keyword do? It deletes the whole dictionary So if you have written del here Suppose I have written here del ep1 Then I will get an error Now line no.9 will say What is ep1? And it will give an error That ep1 is not defined So we can do such things with dictionary So I will comment this So that we don't get to see This not defined error If key is not provided Then the del keyword will delete the dictionary Entirely If you didn't delete like this By giving a key Then the whole dictionary will be deleted Like we did here But if you give a key You say that I want to delete 122 Sorry not 122 as a string Because 122 is an integer So I will write 122 like this So the entry 122 colon 45 Will be deleted from my dictionary What if I write it like this As a string I will say that if you delete 122 Then you will get a key error Many people get confused in this That 122 was in my dictionary Why am I getting a key error? So you are getting a key error Because you are seeing 122 as a string And as an integer The key in ep1 Is as an integer So you should know this So I will do it again So that the error doesn't come I hope you understood this So exactly the same things Which we saw for list, tuple Set, dictionary There are some methods There is a data type It has some uses Whenever you want to create a mapping of key value pairs You do it Many times when you work with database With MongoDB, PyMongo Because in that almost everything Is like a dictionary You have to use many methods And when you solve Actual real world problems Like creating a website in Django Or creating a NAPI in Flask When you do that kind of work Then you will know the actual usage of these things And now you may have theories Always Keep doing something like this Python, Dictionary Documentation If you do this kind of work Then you read latest documentation Here all methods are written You can see Here is the list, here is the dictionary So you can see here You can see some of the methods of dictionary Which I may not have told you So here Actually this is the CAPI reference of dictionary So let's close it We want to see here I will click here You can read it This is the source, this is the documentation When Python is created Then this thing is released Wherever you see It comes from here So how about reading this Or at least trying to read this You can try It's not like reading it like a book You can read it from the middle You can scroll through it You can see if there is any method Which I don't know So try it See what is that Read about looping techniques Once you know the basics Your information will increase As much as you know about dictionary Your knowledge will increase In total, this is the thing If you have not accessed the playlist yet Then do access it Or click here and save If you have seen the course up to 34 days Continuously Then I want to request you That you go to the first video And leave a comment Tell me how many stars will you give to this course And honestly you give so that people help Who are going to start this course If you do this, I will feel very good Many people have left their comments So I say thank you to them That's all for now guys Thank you so much guys for watching this video And I will see you next time Outro"
+}

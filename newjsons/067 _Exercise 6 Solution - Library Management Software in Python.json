@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 0.0,
+            "end": 18.76,
+            "text": " So if you remember, I told you that I will bring the solution of exercise 6 for you very soon.  In this video, we will see how you solved this problem.  And after that, I am going to give you my solution in this video.  And shout out to all those people who made the solution.  Let's go to the computer screen and let's get started."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 18.76,
+            "end": 42.34,
+            "text": " Intro  So I told you to make a library management system in exercise 6.  I will show you how to make it.  So I will create a tutorial folder here.  I will make it like this."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 42.34,
+            "end": 59.0,
+            "text": " And if I reload this page, I will see this.  But I want to take you straight to the problem solution.  First of all, you see what we have to do here.  We have to make a library class.  In that, we have to make the number of books and books as instance variables."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 59.0,
+            "end": 83.0,
+            "text": " I know you want to make the number of books a class variable.  But again, because the question is to make an instance variable, we will make an instance variable.  Write a program to create a library from this library class and show how you can print all books, add a book and get the number of books using different methods.  So let's start this.  So first of all, I will make a main.py file and make a class library here."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 83.0,
+            "end": 101.0,
+            "text": " I will reload this so that I can see the question here.  It will be a little convenient for me.  So I am reloading it.  And now you see that it has come here.  Now what I have to do is first of all make its constructor."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 101.0,
+            "end": 134.0,
+            "text": " So I will make it like this.  And here I will write self.numberOfBooks is equal to numberOfBooks.  And then I will write self.books is equal to an empty list.  In fact, I don't need to give anything here.  And this number of books will remain zero."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 134.0,
+            "end": 163.0,
+            "text": " Now what I will do here is I will write here def add books.  And here I will write self and I will add a book here.  Now I will give a book here and I will write here self.books.push.  Push is in JavaScript and append is in Python.  Actually, I work in multiple languages, so sometimes I have a problem."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 163.0,
+            "end": 192.0,
+            "text": " And I booked it here and I will write here self.numberOfBooks is equal to self.books.length.  I have made an option to add here.  Now I will write here l1 is equal to library.  And then I will write l1.addBook and I will write here Harry Potter.  And then I will write here l1.showInfo."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 192.0,
+            "end": 239.0,
+            "text": " I can make a method with the name showInfo.  Def and I will make a method with the name showInfo.  I will make it with the name showInfo.  And then I will write books.  And after doing this, I will run l1.addBook and l1.showInfo."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 239.0,
+            "end": 256.0,
+            "text": " And as soon as I run it, the error comes.  List object has no attribute length.  Actually, it will be like this.  I will have to do it by doing len.  And here you see the library has one book."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 256.0,
+            "end": 270.0,
+            "text": " And as I keep adding books, let's say I have added two more books.  And I know I am doing a lot of laziness here.  You don't have to do it.  You have to work hard.  If I run it, three books will come here."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 270.0,
+            "end": 289.0,
+            "text": " Because I added three books in it.  What I wanted to make here is show how you can print all books, add a book and get the number of books using different methods.  Now here you can also make getter setters.  This question is very vague.  I mean, I didn't tell you exactly how to do it."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 289.0,
+            "end": 308.0,
+            "text": " But I do one thing with the name showbooks.  In fact, I give showinfo.  The books are and the books are and after this for book in self.books.  Print book.  Now if I run it, all the books will show me here."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 308.0,
+            "end": 318.0,
+            "text": " Harry Potter 1, Harry Potter 2, Harry Potter 3.  The library has three books.  The books are.  It has shown these three books here.  So you can do something like this."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 318.0,
+            "end": 334.0,
+            "text": " Definitely you can make getter in this.  You can make setter in this.  You can implement all the concepts I have told you.  But now the time has come to give a shoutout to the solvers of exercise.  And what will I do here?"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 334.0,
+            "end": 346.0,
+            "text": " How much spam are people doing?  They are doing a lot of spam.  In fact, I will scroll down this time.  I will scroll down completely.  And I will scroll down, I will scroll down, I will scroll down."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 346.0,
+            "end": 370.0,
+            "text": " And here we give shoutout to some people from the middle.  Shoutout to Mohammed Anas, shoutout to Dhanush, shoutout to Pratyaksh Dankh, shoutout to My name is Great.  And after this, shoutout to Preeti Misty Rishabh, shoutout to Mariam Tathir, shoutout to LBC Singh.  But let's see what they have done.  We have to open their Rappel also."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 370.0,
+            "end": 386.0,
+            "text": " They will give a shoutout for free.  They will give a shoutout only when the Rappel is good.  So here you see, they made a number of books.  And here number of books is not equal to books.  They asserted, why did they make a global variable in the class?"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 386.0,
+            "end": 400.0,
+            "text": " This is something which I find a little weird.  But again well tried.  After this, I will see one more program of Preeti Misty.  And the day it is loading, I will give a shoutout to Shubham Vishwal.  Where is the solution for the question, Shubham Vishwal?"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 400.0,
+            "end": 414.0,
+            "text": " I just need a shoutout.  I will not give a shoutout to Shubham Vishwal.  Actually I have already given.  I have already given.  So this is also a way to get a shoutout."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 414.0,
+            "end": 424.0,
+            "text": " What you guys do is,  So what you guys do is,  So here you see,  Ya reply man, post a comment.  Oh Harry programmer so bright with skill."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 424.0,
+            "end": 436.0,
+            "text": " What does this mean?  He did not do this with chat gpt.  I am going to read this in my free time.  I will read all the comments in a while.  But I would like to give a shoutout to Mav98."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 436.0,
+            "end": 446.0,
+            "text": " He has written a good program.  He has written one for print books, one for art books.  He has written one to get number of books.  And he has written a very good program.  And awesome, he has also put a wild true."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 446.0,
+            "end": 460.0,
+            "text": " That you can access different libraries and books.  So awesome.  So whoever has solved, I would like to give a shoutout to all of them.  From here, shoutout to M. Faizan.  Shoutout to Piyush Goyal."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 460.0,
+            "end": 470.0,
+            "text": " Shoutout to Vibhav Mehta.  Shoutout to SK Sahil.  Shoutout to Suryansh Kumar.  Shoutout to Ekrahi.  Shoutout to Ankul Chauhan."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 470.0,
+            "end": 480.0,
+            "text": " Shoutout to Bulkit Parikh.  Shoutout to Pallak Nikhil.  Shoutout to Swayam.  Shoutout to Yugam Tiwana.  Shoutout to Ranjan Kashyap."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 480.0,
+            "end": 490.0,
+            "text": " Shoutout to Yugam Tiwana.  Shoutout to HelloSartak007.  Shoutout to Lohitash Singh.  Shoutout to Bilal0204505.  Shoutout to Tech Abhigyan."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 490.0,
+            "end": 500.0,
+            "text": " Shoutout to Tanay Bhardwaj.  Shoutout to Anonymous019.  And also shoutout to Stupid Programmer.  Shoutout to Sirisridmulti.  Shoutout to ItsAvinav23."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 500.0,
+            "end": 510.0,
+            "text": " Shoutout to ItsAvinav2306.  Shoutout to everyone.  It's awesome.  Shoutout to everyone who  tried to solve this"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 510.0,
+            "end": 520.0,
+            "text": " and are trying to learn Python.  Awesome.  If you haven't accessed this playlist yet,  then do it.  If you have watched this course,"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 520.0,
+            "end": 530.0,
+            "text": " then I would like to request you  to come to the first video  and post a comment.  By doing this,  those who are going to start this course"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 530.0,
+            "end": 540.0,
+            "text": " will get to know  how this course is structured,  what is in this course,  how good is this course,  can you learn something"
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 540.0,
+            "end": 550.0,
+            "text": " by watching this course.  Do post a review,  comment on how many of the five started.  It will be great.  That's all for this video."
+        },
+        {
+            "number": "067 ",
+            "title": "Exercise 6 Solution - Library Management Software in Python",
+            "start": 550.0,
+            "end": 573.0,
+            "text": " Thank you so much for watching this video.  I will see you next time.  Music."
+        }
+    ],
+    "text": " So if you remember, I told you that I will bring the solution of exercise 6 for you very soon. In this video, we will see how you solved this problem. And after that, I am going to give you my solution in this video. And shout out to all those people who made the solution. Let's go to the computer screen and let's get started. Intro So I told you to make a library management system in exercise 6. I will show you how to make it. So I will create a tutorial folder here. I will make it like this. And if I reload this page, I will see this. But I want to take you straight to the problem solution. First of all, you see what we have to do here. We have to make a library class. In that, we have to make the number of books and books as instance variables. I know you want to make the number of books a class variable. But again, because the question is to make an instance variable, we will make an instance variable. Write a program to create a library from this library class and show how you can print all books, add a book and get the number of books using different methods. So let's start this. So first of all, I will make a main.py file and make a class library here. I will reload this so that I can see the question here. It will be a little convenient for me. So I am reloading it. And now you see that it has come here. Now what I have to do is first of all make its constructor. So I will make it like this. And here I will write self.numberOfBooks is equal to numberOfBooks. And then I will write self.books is equal to an empty list. In fact, I don't need to give anything here. And this number of books will remain zero. Now what I will do here is I will write here def add books. And here I will write self and I will add a book here. Now I will give a book here and I will write here self.books.push. Push is in JavaScript and append is in Python. Actually, I work in multiple languages, so sometimes I have a problem. And I booked it here and I will write here self.numberOfBooks is equal to self.books.length. I have made an option to add here. Now I will write here l1 is equal to library. And then I will write l1.addBook and I will write here Harry Potter. And then I will write here l1.showInfo. I can make a method with the name showInfo. Def and I will make a method with the name showInfo. I will make it with the name showInfo. And then I will write books. And after doing this, I will run l1.addBook and l1.showInfo. And as soon as I run it, the error comes. List object has no attribute length. Actually, it will be like this. I will have to do it by doing len. And here you see the library has one book. And as I keep adding books, let's say I have added two more books. And I know I am doing a lot of laziness here. You don't have to do it. You have to work hard. If I run it, three books will come here. Because I added three books in it. What I wanted to make here is show how you can print all books, add a book and get the number of books using different methods. Now here you can also make getter setters. This question is very vague. I mean, I didn't tell you exactly how to do it. But I do one thing with the name showbooks. In fact, I give showinfo. The books are and the books are and after this for book in self.books. Print book. Now if I run it, all the books will show me here. Harry Potter 1, Harry Potter 2, Harry Potter 3. The library has three books. The books are. It has shown these three books here. So you can do something like this. Definitely you can make getter in this. You can make setter in this. You can implement all the concepts I have told you. But now the time has come to give a shoutout to the solvers of exercise. And what will I do here? How much spam are people doing? They are doing a lot of spam. In fact, I will scroll down this time. I will scroll down completely. And I will scroll down, I will scroll down, I will scroll down. And here we give shoutout to some people from the middle. Shoutout to Mohammed Anas, shoutout to Dhanush, shoutout to Pratyaksh Dankh, shoutout to My name is Great. And after this, shoutout to Preeti Misty Rishabh, shoutout to Mariam Tathir, shoutout to LBC Singh. But let's see what they have done. We have to open their Rappel also. They will give a shoutout for free. They will give a shoutout only when the Rappel is good. So here you see, they made a number of books. And here number of books is not equal to books. They asserted, why did they make a global variable in the class? This is something which I find a little weird. But again well tried. After this, I will see one more program of Preeti Misty. And the day it is loading, I will give a shoutout to Shubham Vishwal. Where is the solution for the question, Shubham Vishwal? I just need a shoutout. I will not give a shoutout to Shubham Vishwal. Actually I have already given. I have already given. So this is also a way to get a shoutout. What you guys do is, So what you guys do is, So here you see, Ya reply man, post a comment. Oh Harry programmer so bright with skill. What does this mean? He did not do this with chat gpt. I am going to read this in my free time. I will read all the comments in a while. But I would like to give a shoutout to Mav98. He has written a good program. He has written one for print books, one for art books. He has written one to get number of books. And he has written a very good program. And awesome, he has also put a wild true. That you can access different libraries and books. So awesome. So whoever has solved, I would like to give a shoutout to all of them. From here, shoutout to M. Faizan. Shoutout to Piyush Goyal. Shoutout to Vibhav Mehta. Shoutout to SK Sahil. Shoutout to Suryansh Kumar. Shoutout to Ekrahi. Shoutout to Ankul Chauhan. Shoutout to Bulkit Parikh. Shoutout to Pallak Nikhil. Shoutout to Swayam. Shoutout to Yugam Tiwana. Shoutout to Ranjan Kashyap. Shoutout to Yugam Tiwana. Shoutout to HelloSartak007. Shoutout to Lohitash Singh. Shoutout to Bilal0204505. Shoutout to Tech Abhigyan. Shoutout to Tanay Bhardwaj. Shoutout to Anonymous019. And also shoutout to Stupid Programmer. Shoutout to Sirisridmulti. Shoutout to ItsAvinav23. Shoutout to ItsAvinav2306. Shoutout to everyone. It's awesome. Shoutout to everyone who tried to solve this and are trying to learn Python. Awesome. If you haven't accessed this playlist yet, then do it. If you have watched this course, then I would like to request you to come to the first video and post a comment. By doing this, those who are going to start this course will get to know how this course is structured, what is in this course, how good is this course, can you learn something by watching this course. Do post a review, comment on how many of the five started. It will be great. That's all for this video. Thank you so much for watching this video. I will see you next time. Music."
+}

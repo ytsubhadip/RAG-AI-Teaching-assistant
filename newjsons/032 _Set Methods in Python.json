@@ -1,0 +1,677 @@
+{
+    "chunks": [
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 0.0,
+            "end": 14.6,
+            "text": " We learned almost everything about sets in the last video  In today's video, I will tell you some methods of sets  Which methods can be used to manipulate sets  How to get union, intersection, etc  We will see in today's video"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 15.0,
+            "end": 39.7,
+            "text": " Let's go to the computer screen and let's get started  So now we will see how to do operation with sets  There are many methods of sets which help us a lot in manipulating sets  If you have read sets in mathematics, then you know what is set  Here also set is exactly the same thing"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 39.7,
+            "end": 64.9,
+            "text": " Collection of well-defined objects which are not repeated  And I am going to tell you some methods through an example  Suppose we have a set S1, S2  Now if I want to get a set which is a combination of these two  Like the elements in S1 are in S2 and the elements in S2 are also in S1"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 64.9,
+            "end": 84.9,
+            "text": " Now you can see that 6 is being repeated here  So obviously it will not be repeated in the resulting set  So what I will do is write S1.union  And union means that the result is coming by merging both sets  I will do one thing here, union in set"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 84.9,
+            "end": 97.30000000000001,
+            "text": " And I will show you a Venn diagram  Now if you don't know what is Venn diagram  Then there is no need to take much tension  But what happens is that it is understood a little easily  Now see what happens is that this is A union B"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 97.30000000000001,
+            "end": 111.9,
+            "text": " If we have A set, this is green and this is B  So what is A union B  A union B is a combination of these two  In this case, A union B will be 1,2,3,4,5,6  And A intersection will be 3 and 4"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 111.9,
+            "end": 126.1,
+            "text": " If we have A 1,2,3,4 and B 3,4,5,6  Then 3,4 is common and it will be intersection  So this is how union and intersection comes out in the set  So if I run this program, then S1 union S2 will be there  That is, I will get to see the combination of S1 and S2"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 126.3,
+            "end": 139.5,
+            "text": " And in this case, you can see here that  1,2,5,3,7 and 6 will come in our final resulting set  As you can see here  So what we do in this way is that  We can get the union and intersection of our set"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 139.5,
+            "end": 151.29999999999998,
+            "text": " So this is one thing  Now sometimes I would like my S1 set to be updated  Now I will show you one thing  When I did this operation, S1 and S2 remained untouched  S1 and S2 remained untouched"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 151.29999999999998,
+            "end": 167.5,
+            "text": " That is, the value of S1 and S2 did not change  As you can see here, my S1 and S2 are the same  Sometimes I would like my S1 or S2 to be updated  In that case, I will use the update function  If I write here S1.update and S2"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 167.5,
+            "end": 179.5,
+            "text": " Then it means that the values in S1 should also be the same as in S2  And not in S1, do you understand?  What are those values? 3 and 7  So 3 and 7 will be added in our S1  Because we are updating S1"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 179.5,
+            "end": 190.1,
+            "text": " So now the value of S1 will change  As you can see here that 1,2,5,6 is there  So after 1,2,5,6, one more value will come  In fact, two more values will come, 3 and 7  So you should know this thing"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 190.1,
+            "end": 203.1,
+            "text": " Now we have seen S1.union and update  Similarly, we have intersection and intersection update  What does intersection do? It gives us intersection  And intersection update updates the set with intersection  So I will show you here"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 203.1,
+            "end": 216.7,
+            "text": " Sets in Python more or less work the same way  As they work in mathematics  We can perform union and intersection which are considered very basic operations in sets  Now the difference between union and update is that  I would like to take this example"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 216.7,
+            "end": 229.7,
+            "text": " We have cities, Tokyo, Madrid, Berlin and Delhi  And in cities2, Tokyo, Seoul, Kabul and Madrid  So if we show union and print it  Then we will get this thing printed  But if we use the update method"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 229.7,
+            "end": 243.9,
+            "text": " Then by using the update method, our cities will be updated  If I update cities2.  Then cities2 will be updated  So whatever value will be there will be updated  With values of this set"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 243.9,
+            "end": 256.9,
+            "text": " So you should know this thing  Same thing is there with intersection and intersection update  So I won't waste your time here  If I write cities3 is equal to cities.intersection  So intersection means those values which are in both the sets"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 256.9,
+            "end": 266.9,
+            "text": " Like in this case, you see here Tokyo and Madrid  These are in both the sets  So we call it intersection  So intersection will come here  If I update this intersection"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 266.9,
+            "end": 279.29999999999995,
+            "text": " So what will happen is  I just have to run this function on cities  I just have to write cities.intersection update cities2  And my original set cities will be updated  Those values will come in it"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 279.29999999999995,
+            "end": 290.5,
+            "text": " Which are in cities and cities2  And the rest of the extra values will be removed  As you can see  So my cities is updated with the intersection of cities and cities2  Okay, so this is an easy thing"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 290.5,
+            "end": 304.9,
+            "text": " Now I will explain you the symmetric difference through Venn diagram  Symmetric difference  I want you to understand this thing even if you don't know set theory  Now what is symmetric difference?  I will tell you"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 304.9,
+            "end": 314.9,
+            "text": " It is like, suppose we have  See this  There is a set A  Suppose the values in this circle are A  And the values in this circle are B"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 314.9,
+            "end": 329.3,
+            "text": " Symmetric difference is A union B minus A intersection B  Means the values of A and B are A union B  We will remove A intersection B from it  Means we will remove this value  So this area of bar will be left"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 329.3,
+            "end": 340.3,
+            "text": " Now what is the meaning of symmetric difference?  Symmetric difference means  All those values which are not common  Okay, are you understanding?  All those values which are not common in two sets"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 340.3,
+            "end": 350.3,
+            "text": " So if I come here and show you the symmetric difference  So you have to see here  That values which are not common will be printed  Tokyo is common  Madrid is not common"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 350.3,
+            "end": 359.3,
+            "text": " Berlin is not common  Delhi is not common  Seoul and Kabul are not common  Okay, so Berlin, Delhi, Seoul, Kabul are here  And order doesn't matter"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 359.3,
+            "end": 369.3,
+            "text": " If your order is coming here  Then don't say that why my Kabul is coming first  Why your Berlin is coming later  Order doesn't matter here  Okay, you should know this thing"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 369.3,
+            "end": 377.3,
+            "text": " So I wrote this here  Now difference and difference update  I will tell you what is it?  Difference and difference update methods prints only items  That are only present in the original set"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 377.3,
+            "end": 389.3,
+            "text": " And not present in both the sets  Okay, are you understanding?  Which is only present in one set  Like if I did cities.difference  So those values which are in cities but not in this"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 389.3,
+            "end": 396.3,
+            "text": " Which values are those?  One is Tokyo  Okay, then after that is Berlin  Okay, and after that is Madrid  Yes, Madrid is also there"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 396.3,
+            "end": 406.3,
+            "text": " Is Delhi there?  No, Delhi is not there, Delhi is in both  So in a way you can say A-B  Okay, see one thing I would like to tell you  If you don't use set theory at all in your life"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 406.3,
+            "end": 415.3,
+            "text": " Then maybe you will find it a little weird  I will not say that you can skip it  Because set theory is used  You will use it unknowingly  Sometimes you will have to make a set"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 415.3,
+            "end": 424.3,
+            "text": " And difference, intersection, union  You will have to use all these functions  So understand these three basic operations  Okay, what is update?  What is union?"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 424.3,
+            "end": 435.3,
+            "text": " Union and update are very similar  Union will return union  And update will update with the union  Okay, and here  What is the difference between intersection and intersection update?"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 435.3,
+            "end": 446.3,
+            "text": " Intersection will give you intersection A, intersection B  Intersection update will update your set  On which you have run  In this case, it will update cities  If you have run cities.intersection cities2"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 446.3,
+            "end": 455.3,
+            "text": " Until you run these programs  You will not understand, this is the guarantee  Okay, are you understanding?  Now here I will show you  I had a sir"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 455.3,
+            "end": 467.3,
+            "text": " He used to tell me at the time of JEE  That you will study, you will work hard  Your selection will be done  There is no guarantee of this  But you will not study and have fun"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 467.3,
+            "end": 475.3,
+            "text": " And your selection will not be done  There is a guarantee of this  And he told me  I was watching him at that time  So he told me"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 475.3,
+            "end": 483.3,
+            "text": " There were three boys and women with me  He told us  Think about this when you go home  Okay, when I went home  So I thought what did sir say"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 483.3,
+            "end": 492.3,
+            "text": " Then you will understand  What did sir say  Okay, so the same thing is here  Now we will see some methods of the next set  Which I have written for you here"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 492.3,
+            "end": 502.3,
+            "text": " There are several inbuilt methods  Used for the manipulation of sets  Which is explained below  Is disjoint or is superset  Now what does this disjoint mean"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 502.3,
+            "end": 512.3,
+            "text": " It checks if items of a given set  Are present in another set  What are disjoint sets  Disjoint sets are those  Which have no meaning to each other"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 512.3,
+            "end": 520.3,
+            "text": " There is no intersection in them  So you see here  I am coming from set theory  I will tell you everything  If you guys"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 520.3,
+            "end": 529.3,
+            "text": " There is a little problem here  So you read about disjoint sets  You will know  In mathematics two sets are  Said to be disjoint if they have no element in common"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 529.3,
+            "end": 536.3,
+            "text": " Very simple thing  There is no intersection  Intersection should be zero  In this case you see  It is not disjoint"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 536.3,
+            "end": 541.3,
+            "text": " Because there is an intersection  There is a value of Tokyo  Which is in both  There is a value of Madrid  Which is in both"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 541.3,
+            "end": 547.3,
+            "text": " If I make it Tokyo 2  And make it Madrid 2  Then it will be true  These sets will be disjoint  So you see"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 547.3,
+            "end": 556.3,
+            "text": " Here true print has come  So this is our disjoint set  So its output will be false  Now here if you see  Is this superset or not"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 556.3,
+            "end": 565.3,
+            "text": " What is the meaning of superset  Superset means  Cities.is superset  If I make it cities 2  So what is the meaning of superset"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 565.3,
+            "end": 575.3,
+            "text": " Is cities superset of cities 2  Means are these two elements  In this already  See there is no Seoul and no Kabul  So it means"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 575.3,
+            "end": 585.3,
+            "text": " This is not superset  Superset of cities 2  Is cities when these two values are there  And cities 2 is called  Subset of cities"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 585.3,
+            "end": 591.3,
+            "text": " Now many of you will find this  A little haunting  That where has this set theory  Moved but those people  Who work with set theory"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 591.3,
+            "end": 599.3,
+            "text": " They will find it very easy  So this is set theory  And there are some methods  In python which check and tell you  That is this superset or not"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 599.3,
+            "end": 606.3,
+            "text": " Is it a subset or not  If I talk here  If I make it Delhi  If I make Kabul Delhi  And make Seoul Tokyo"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 606.3,
+            "end": 612.3,
+            "text": " And now if I run  Then it will come true  Cities 3 because  What is it  Superset is a subset of cities"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 612.3,
+            "end": 622.3,
+            "text": " And cities is a superset of cities 3  Because in cities  There are all values which are in cities 3  So that's why it came true  So this is one method"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 622.3,
+            "end": 630.3,
+            "text": " Then if we talk about subset  Then subset is the opposite of superset  Means cities 3 is a subset of cities  So if I  Repair this program"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 630.3,
+            "end": 640.3,
+            "text": " Like this you see  If I write is subset  And run it  So is cities 3  Subset of cities"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 640.3,
+            "end": 648.3,
+            "text": " That's true  Because these values  Are already present in cities  Tokyo Madrid and Delhi  Are present"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 648.3,
+            "end": 656.3,
+            "text": " So that's why  This set is cities  This is superset of cities 2  And cities 3 is  Subset of cities"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 656.3,
+            "end": 664.3,
+            "text": " And see the definition again  If you feel a little haunting  Then after this an important method  Add if you want to add a single item  To the set"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 664.3,
+            "end": 672.3,
+            "text": " Use add  If you do something like this  If you run it  So in this set  Helsinki will also be added"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 672.3,
+            "end": 680.3,
+            "text": " Now see here  It is added  Now what does the update method do here  If you want to add more than one item  Then you can use update"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 680.3,
+            "end": 690.3,
+            "text": " Update we saw a little while ago  So if you want to update  Any set with values of another set  Then you can use update  Then remove or discard"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 690.3,
+            "end": 698.3,
+            "text": " There are two methods which you can use  To remove the items  From the list  In fact from the set  So I will run it"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 698.3,
+            "end": 707.3,
+            "text": " And see here  Tokyo Madrid Berlin Delhi  And here we removed Tokyo  So Madrid Delhi and Berlin  Are left"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 707.3,
+            "end": 716.3,
+            "text": " The main difference between remove and discard  Is that if you try to delete an item  Which is not present in the set  Remove will raise an error  But discard will not raise an error"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 716.3,
+            "end": 723.3,
+            "text": " Like if I say  Remove Tokyo 2 from here  If Tokyo 2 is not there  Then error will come  Error means"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 723.3,
+            "end": 732.3,
+            "text": " That the lines below it will not run  But if I would have  Discarded here  Discarded  Then what happens"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 732.3,
+            "end": 737.3,
+            "text": " Error does not throw  Now you will say  Obviously we will use discard  Because error does not throw  But no"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 737.3,
+            "end": 744.3,
+            "text": " Sometimes you will want to throw an error  In your programs  Because if you do not throw an error  Then something more  Will be unexpected in the future"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 744.3,
+            "end": 752.3,
+            "text": " So you want that the error comes  And things stop there  So error is also good sometimes  But error means bad  Error is raised intentionally"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 752.3,
+            "end": 760.3,
+            "text": " We will see  How to raise custom error  In the coming videos in python  But you will want to raise errors  When you want"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 760.3,
+            "end": 769.3,
+            "text": " Things are not working intentionally  You stop them there  And want to tell the other programmer  That you fix your program  Fix your code"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 769.3,
+            "end": 775.3,
+            "text": " This is not correct  Okay  Now what is the pop method  What will it do  It will remove any value"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 775.3,
+            "end": 782.3,
+            "text": " Now you see here  This method removes the last element of the set  But the catch is  We don't know which element gets popped  As sets are unordered"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 782.3,
+            "end": 789.3,
+            "text": " Okay  So what happens here  Any random value pops  But you can access that value  I will show you here"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 789.3,
+            "end": 800.3,
+            "text": " How these things work  So if I paste it here  Now see I have done item is equal to cities.pop  A random value will pop from it  And I will know which value it is"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 800.3,
+            "end": 807.3,
+            "text": " Now see it has popped Madrid  But if I run again  There is a chance that Madrid does not pop  Something else pops  There is a chance"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 807.3,
+            "end": 815.3,
+            "text": " In this case Madrid is popping  But there is a chance that something else pops  Okay  So you should know this thing  Del is not a method"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 815.3,
+            "end": 823.3,
+            "text": " It is a keyword  And you can delete  An entire set  By using the del keyword  So if I write something like this"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 823.3,
+            "end": 831.3,
+            "text": " Del cities  So my cities will be deleted  Like you can see here  And here it is saying cities is not defined  What kind of joke is this"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 831.3,
+            "end": 842.3,
+            "text": " I wrote del cities here  It is saying cities  Cities is not defined  Okay so I am trying to print here  It is saying cities is not defined"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 842.3,
+            "end": 851.3,
+            "text": " Because I have deleted cities here  So here it is the same thing  Output is the name error  What if we don't want to delete the entire set  We just want to delete all items"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 851.3,
+            "end": 858.3,
+            "text": " Within that set  So we will use clear  Okay  In this way clear method  Will be very useful for us"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 858.3,
+            "end": 866.3,
+            "text": " And it will help us to delete  All the elements  So you have put 50-70 elements  Within the set  Now you want them to be removed"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 866.3,
+            "end": 872.3,
+            "text": " From your set  So clear is the method  That you must use  Okay  Now if you want"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 872.3,
+            "end": 880.3,
+            "text": " Any value to exist in the set  Then you can use the keyword  Like you saw in list  Or like you saw in tuple  You can do it here also"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 880.3,
+            "end": 888.3,
+            "text": " Like in this case you see  Carla is in info  Okay  So here it will be printed  Carla is present"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 888.3,
+            "end": 896.3,
+            "text": " Okay  So the data types of python are very similar  So in total  If you check these methods one by one  So"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 896.3,
+            "end": 905.3,
+            "text": " And if you don't want to know much about set theory  Then I would like to tell you  That these methods of the first page  Maybe you don't use as much as you did  This pop and then it became clear"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 905.3,
+            "end": 913.3,
+            "text": " Use all these methods  Add, update, remove, discard  These methods should be on your fingers  If you are using set  And you will use"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 913.3,
+            "end": 920.3,
+            "text": " Sometimes you don't need repetitive value  In your programs  Now you will do  So it is not that if you don't know set theory  If you are not a mathematician"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 920.3,
+            "end": 928.3,
+            "text": " Then you will leave set data type  No  Understand set data type  And focus on the most important methods of it  Okay"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 928.3,
+            "end": 935.3,
+            "text": " If you have not yet accessed the playlist of python  Then do access it  Click and bookmark  Click and save  That's all for this video"
+        },
+        {
+            "number": "032 ",
+            "title": "Set Methods in Python",
+            "start": 935.3,
+            "end": 958.3,
+            "text": " Thank you so much guys for watching this video  And I will see you next time  Outro"
+        }
+    ],
+    "text": " We learned almost everything about sets in the last video In today's video, I will tell you some methods of sets Which methods can be used to manipulate sets How to get union, intersection, etc We will see in today's video Let's go to the computer screen and let's get started So now we will see how to do operation with sets There are many methods of sets which help us a lot in manipulating sets If you have read sets in mathematics, then you know what is set Here also set is exactly the same thing Collection of well-defined objects which are not repeated And I am going to tell you some methods through an example Suppose we have a set S1, S2 Now if I want to get a set which is a combination of these two Like the elements in S1 are in S2 and the elements in S2 are also in S1 Now you can see that 6 is being repeated here So obviously it will not be repeated in the resulting set So what I will do is write S1.union And union means that the result is coming by merging both sets I will do one thing here, union in set And I will show you a Venn diagram Now if you don't know what is Venn diagram Then there is no need to take much tension But what happens is that it is understood a little easily Now see what happens is that this is A union B If we have A set, this is green and this is B So what is A union B A union B is a combination of these two In this case, A union B will be 1,2,3,4,5,6 And A intersection will be 3 and 4 If we have A 1,2,3,4 and B 3,4,5,6 Then 3,4 is common and it will be intersection So this is how union and intersection comes out in the set So if I run this program, then S1 union S2 will be there That is, I will get to see the combination of S1 and S2 And in this case, you can see here that 1,2,5,3,7 and 6 will come in our final resulting set As you can see here So what we do in this way is that We can get the union and intersection of our set So this is one thing Now sometimes I would like my S1 set to be updated Now I will show you one thing When I did this operation, S1 and S2 remained untouched S1 and S2 remained untouched That is, the value of S1 and S2 did not change As you can see here, my S1 and S2 are the same Sometimes I would like my S1 or S2 to be updated In that case, I will use the update function If I write here S1.update and S2 Then it means that the values in S1 should also be the same as in S2 And not in S1, do you understand? What are those values? 3 and 7 So 3 and 7 will be added in our S1 Because we are updating S1 So now the value of S1 will change As you can see here that 1,2,5,6 is there So after 1,2,5,6, one more value will come In fact, two more values will come, 3 and 7 So you should know this thing Now we have seen S1.union and update Similarly, we have intersection and intersection update What does intersection do? It gives us intersection And intersection update updates the set with intersection So I will show you here Sets in Python more or less work the same way As they work in mathematics We can perform union and intersection which are considered very basic operations in sets Now the difference between union and update is that I would like to take this example We have cities, Tokyo, Madrid, Berlin and Delhi And in cities2, Tokyo, Seoul, Kabul and Madrid So if we show union and print it Then we will get this thing printed But if we use the update method Then by using the update method, our cities will be updated If I update cities2. Then cities2 will be updated So whatever value will be there will be updated With values of this set So you should know this thing Same thing is there with intersection and intersection update So I won't waste your time here If I write cities3 is equal to cities.intersection So intersection means those values which are in both the sets Like in this case, you see here Tokyo and Madrid These are in both the sets So we call it intersection So intersection will come here If I update this intersection So what will happen is I just have to run this function on cities I just have to write cities.intersection update cities2 And my original set cities will be updated Those values will come in it Which are in cities and cities2 And the rest of the extra values will be removed As you can see So my cities is updated with the intersection of cities and cities2 Okay, so this is an easy thing Now I will explain you the symmetric difference through Venn diagram Symmetric difference I want you to understand this thing even if you don't know set theory Now what is symmetric difference? I will tell you It is like, suppose we have See this There is a set A Suppose the values in this circle are A And the values in this circle are B Symmetric difference is A union B minus A intersection B Means the values of A and B are A union B We will remove A intersection B from it Means we will remove this value So this area of bar will be left Now what is the meaning of symmetric difference? Symmetric difference means All those values which are not common Okay, are you understanding? All those values which are not common in two sets So if I come here and show you the symmetric difference So you have to see here That values which are not common will be printed Tokyo is common Madrid is not common Berlin is not common Delhi is not common Seoul and Kabul are not common Okay, so Berlin, Delhi, Seoul, Kabul are here And order doesn't matter If your order is coming here Then don't say that why my Kabul is coming first Why your Berlin is coming later Order doesn't matter here Okay, you should know this thing So I wrote this here Now difference and difference update I will tell you what is it? Difference and difference update methods prints only items That are only present in the original set And not present in both the sets Okay, are you understanding? Which is only present in one set Like if I did cities.difference So those values which are in cities but not in this Which values are those? One is Tokyo Okay, then after that is Berlin Okay, and after that is Madrid Yes, Madrid is also there Is Delhi there? No, Delhi is not there, Delhi is in both So in a way you can say A-B Okay, see one thing I would like to tell you If you don't use set theory at all in your life Then maybe you will find it a little weird I will not say that you can skip it Because set theory is used You will use it unknowingly Sometimes you will have to make a set And difference, intersection, union You will have to use all these functions So understand these three basic operations Okay, what is update? What is union? Union and update are very similar Union will return union And update will update with the union Okay, and here What is the difference between intersection and intersection update? Intersection will give you intersection A, intersection B Intersection update will update your set On which you have run In this case, it will update cities If you have run cities.intersection cities2 Until you run these programs You will not understand, this is the guarantee Okay, are you understanding? Now here I will show you I had a sir He used to tell me at the time of JEE That you will study, you will work hard Your selection will be done There is no guarantee of this But you will not study and have fun And your selection will not be done There is a guarantee of this And he told me I was watching him at that time So he told me There were three boys and women with me He told us Think about this when you go home Okay, when I went home So I thought what did sir say Then you will understand What did sir say Okay, so the same thing is here Now we will see some methods of the next set Which I have written for you here There are several inbuilt methods Used for the manipulation of sets Which is explained below Is disjoint or is superset Now what does this disjoint mean It checks if items of a given set Are present in another set What are disjoint sets Disjoint sets are those Which have no meaning to each other There is no intersection in them So you see here I am coming from set theory I will tell you everything If you guys There is a little problem here So you read about disjoint sets You will know In mathematics two sets are Said to be disjoint if they have no element in common Very simple thing There is no intersection Intersection should be zero In this case you see It is not disjoint Because there is an intersection There is a value of Tokyo Which is in both There is a value of Madrid Which is in both If I make it Tokyo 2 And make it Madrid 2 Then it will be true These sets will be disjoint So you see Here true print has come So this is our disjoint set So its output will be false Now here if you see Is this superset or not What is the meaning of superset Superset means Cities.is superset If I make it cities 2 So what is the meaning of superset Is cities superset of cities 2 Means are these two elements In this already See there is no Seoul and no Kabul So it means This is not superset Superset of cities 2 Is cities when these two values are there And cities 2 is called Subset of cities Now many of you will find this A little haunting That where has this set theory Moved but those people Who work with set theory They will find it very easy So this is set theory And there are some methods In python which check and tell you That is this superset or not Is it a subset or not If I talk here If I make it Delhi If I make Kabul Delhi And make Seoul Tokyo And now if I run Then it will come true Cities 3 because What is it Superset is a subset of cities And cities is a superset of cities 3 Because in cities There are all values which are in cities 3 So that's why it came true So this is one method Then if we talk about subset Then subset is the opposite of superset Means cities 3 is a subset of cities So if I Repair this program Like this you see If I write is subset And run it So is cities 3 Subset of cities That's true Because these values Are already present in cities Tokyo Madrid and Delhi Are present So that's why This set is cities This is superset of cities 2 And cities 3 is Subset of cities And see the definition again If you feel a little haunting Then after this an important method Add if you want to add a single item To the set Use add If you do something like this If you run it So in this set Helsinki will also be added Now see here It is added Now what does the update method do here If you want to add more than one item Then you can use update Update we saw a little while ago So if you want to update Any set with values of another set Then you can use update Then remove or discard There are two methods which you can use To remove the items From the list In fact from the set So I will run it And see here Tokyo Madrid Berlin Delhi And here we removed Tokyo So Madrid Delhi and Berlin Are left The main difference between remove and discard Is that if you try to delete an item Which is not present in the set Remove will raise an error But discard will not raise an error Like if I say Remove Tokyo 2 from here If Tokyo 2 is not there Then error will come Error means That the lines below it will not run But if I would have Discarded here Discarded Then what happens Error does not throw Now you will say Obviously we will use discard Because error does not throw But no Sometimes you will want to throw an error In your programs Because if you do not throw an error Then something more Will be unexpected in the future So you want that the error comes And things stop there So error is also good sometimes But error means bad Error is raised intentionally We will see How to raise custom error In the coming videos in python But you will want to raise errors When you want Things are not working intentionally You stop them there And want to tell the other programmer That you fix your program Fix your code This is not correct Okay Now what is the pop method What will it do It will remove any value Now you see here This method removes the last element of the set But the catch is We don't know which element gets popped As sets are unordered Okay So what happens here Any random value pops But you can access that value I will show you here How these things work So if I paste it here Now see I have done item is equal to cities.pop A random value will pop from it And I will know which value it is Now see it has popped Madrid But if I run again There is a chance that Madrid does not pop Something else pops There is a chance In this case Madrid is popping But there is a chance that something else pops Okay So you should know this thing Del is not a method It is a keyword And you can delete An entire set By using the del keyword So if I write something like this Del cities So my cities will be deleted Like you can see here And here it is saying cities is not defined What kind of joke is this I wrote del cities here It is saying cities Cities is not defined Okay so I am trying to print here It is saying cities is not defined Because I have deleted cities here So here it is the same thing Output is the name error What if we don't want to delete the entire set We just want to delete all items Within that set So we will use clear Okay In this way clear method Will be very useful for us And it will help us to delete All the elements So you have put 50-70 elements Within the set Now you want them to be removed From your set So clear is the method That you must use Okay Now if you want Any value to exist in the set Then you can use the keyword Like you saw in list Or like you saw in tuple You can do it here also Like in this case you see Carla is in info Okay So here it will be printed Carla is present Okay So the data types of python are very similar So in total If you check these methods one by one So And if you don't want to know much about set theory Then I would like to tell you That these methods of the first page Maybe you don't use as much as you did This pop and then it became clear Use all these methods Add, update, remove, discard These methods should be on your fingers If you are using set And you will use Sometimes you don't need repetitive value In your programs Now you will do So it is not that if you don't know set theory If you are not a mathematician Then you will leave set data type No Understand set data type And focus on the most important methods of it Okay If you have not yet accessed the playlist of python Then do access it Click and bookmark Click and save That's all for this video Thank you so much guys for watching this video And I will see you next time Outro"
+}

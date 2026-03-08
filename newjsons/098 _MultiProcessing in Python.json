@@ -1,0 +1,719 @@
+{
+    "chunks": [
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 0.0,
+            "end": 26.36,
+            "text": " Today I will tell you how to do multiprocessing with the help of Python programming.  Let's go to the computer screen and let's get started.  Intro  Guys, this happens many times when we want to run multiple processes by using one program.  That is, our Python program will spawn a lot of child processes."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 26.36,
+            "end": 48.239999999999995,
+            "text": " Spawn is a term that means starting a process.  Now you will say that what is the need for me to do all this, I am already using multithreading and I am happy with it.  Now I want to tell you that multithreading and multiprocessing are a little different in themselves.  Now there is a little difference in the process and thread.  If you have multiple CPUs, then you can use them by using processes."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 48.239999999999995,
+            "end": 71.6,
+            "text": " If you are using threading, then it is easy to spawn threads, it is easy, it happens in less time.  Now threading vs processing is a very big topic of the operating system.  But you can understand that threads are lightweight, threads are inside a process.  But the processes are a big job parallel to the CPUs.  If you want to execute a heavy task, then you use the process."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 71.6,
+            "end": 95.88,
+            "text": " In today's video, we will see how multiprocessing is done with the help of Python.  And how similar it is to threading, you will also laugh at seeing it.  You will say that I know this, I know this, you know it, I just have to tell you that you know it.  So come here, we write the code for it.  And the first thing I want to tell you is that you import it like this."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 95.88,
+            "end": 114.16000000000001,
+            "text": " And after importing, what will I do, I will make a sleep function here.  Let's do one thing, this time we don't make a sleep function, we don't make a demo function.  This time we make a download file function.  Which will download the file from the URL.  Now this is amazing because if we do something in actual, it will be fun."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 114.16000000000001,
+            "end": 137.28,
+            "text": " So I do one thing here, in 100 days of code, in the last REPL, in the last of last I guess REPL.  In which I told you about async I O.  I wrote a function with the help of request module.  With the help of request module, we were downloading files from the internet.  So now I want to tell you that how can it be done parallelly, download."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 137.4,
+            "end": 158.16,
+            "text": " Now I have to open this REPL, what will I do here, I will write pass here.  And here I will make a list of URLs.  Because I want to give you a real feeling, I want to give you real fun.  And here I will do images URL demo.  List of images, give me something."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 158.16,
+            "end": 177.84,
+            "text": " Here webp image gallery, see here I got something.  Open link in new tab, side by side compression.  What is this, reproducing the images, files below.  I will do one thing, I will get something here.  Random image, yes it is giving random image."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 177.84,
+            "end": 196.32,
+            "text": " Great, this is a good thing.  It is giving random image, great.  So here you can see what we are doing.  I will do one thing, I will get a specific image by adding slash id slash image to the start of the URL.  You can find a list of images here."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 197.2,
+            "end": 220.95999999999998,
+            "text": " So what I have to do is, I want to download all these images.  Now this is a URL of the image.  But what I want, I want that I will get this image again and again or not.  I want a list of images, in which I will get a lot of images.  I will do one thing, I will take a random image."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 220.95999999999998,
+            "end": 239.20000000000002,
+            "text": " And I will change 200 by 300 to 2000 by 3000.  To get square image just at the size.  So I will do one thing, first I have to get this function from here.  Which is downloading.  And second thing I have to do is, I have to put this in my program."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 239.20000000000002,
+            "end": 249.20000000000002,
+            "text": " So I have a lot of work.  So I will do one thing, I will write in URL.  I will write this with a list comprehension.  And I will write here.  Or I don't have to write in URL."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 249.20000000000002,
+            "end": 259.2,
+            "text": " There is no need to write in URL.  There is no need to write in URL.  There is no need to write in URL.  It will download a different image every time.  Now what I will do is, I will download the file."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 259.2,
+            "end": 269.2,
+            "text": " I will do URL.  And I will do name.  From which name I want to save it.  Now I will download the code.  Oops."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 269.2,
+            "end": 279.2,
+            "text": " I have to do ctrl c.  Not ctrl x.  Now I did this.  And I will do import request.  Import request."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 279.2,
+            "end": 289.2,
+            "text": " And here I will do URL.  And I will do name.  And what is going to happen.  I will name it here.  So I will do one thing."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 289.2,
+            "end": 299.2,
+            "text": " What kind of image is this?  It is giving jpg images.  So I will name it here.  Name.jpg.  I will make an f-string."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 299.2,
+            "end": 309.2,
+            "text": " Great.  Now it is absolutely correct.  Why is it giving red?  Contains server response to an HTTP request.  Unmatched bracket."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 309.2,
+            "end": 319.2,
+            "text": " What is this?  Now it is fine.  So I said URL is equal to this.  Now if I want to download one by one.  So I will write here."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 319.2,
+            "end": 329.2,
+            "text": " For underscore in range 5.  Now you will say what is this underscore?  This is a throwaway variable.  I did not need any value of i here.  So I used underscore."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 329.2,
+            "end": 339.2,
+            "text": " Now what I will do is, I will say download file.  And do download file.  URL will come first.  And the second one is name.  So I will do one thing."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 339.2,
+            "end": 349.2,
+            "text": " I will give i in name.  So that  1.jpg, 2.jpg,  5.jpg.  So if I run it, you will see."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 349.2,
+            "end": 359.2,
+            "text": " I will show you.  All files are downloaded.  If I increase the resolution here.  It will be a little difficult.  I will do one thing."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 359.2,
+            "end": 369.2,
+            "text": " I will name it.  File.  And if I run it now.  File 0, File 1, File 2.  File 0 is made."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 369.2,
+            "end": 379.2,
+            "text": " Till now only file 0 is made.  Now file 1 is made.  Now file 2 is made.  Now file 3 is made.  So it is running a little slow."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 379.2,
+            "end": 389.2,
+            "text": " Because I increased the resolution.  You must be thinking that it was so fast.  What is the use of doing all this?  If you deal with big files.  It is useful."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 389.2,
+            "end": 399.2,
+            "text": " Now I will run the cleaning campaign here.  I will delete all this.  After deleting all this.  I will show you.  I will do one thing."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 399.2,
+            "end": 409.2,
+            "text": " I will make a folder.  With the name of files.  I will slash the file.  And I will download it.  I will delete the folder."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 409.2,
+            "end": 419.2,
+            "text": " I will run it.  You can see.  The folder with files is populated.  You can see.  The folder with files is populated."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 419.2,
+            "end": 429.2,
+            "text": " 0, 1, 2, 3.  You will download all the files.  Now you will say,  How to parallelize?  Multiprocessing is similar to multithreading."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 431.2,
+            "end": 443.2,
+            "text": " You have to write.  p is equal to.  You have to write.  I don't want to do download file URL.  I want to do."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 443.2,
+            "end": 453.2,
+            "text": " multiprocessing.process  I want to run the process.  What will be my target?  My target is.  Download file."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 453.2,
+            "end": 463.2,
+            "text": " What will be my args?  My args is.  One is going to be URL.  One is going to be I.  So we have given the target."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 463.2,
+            "end": 473.2,
+            "text": " Undefined name. Download file.  Did I forget to do F capital?  Yes, I forgot to do F capital.  Now I will do one thing.  I will make a folder named files2."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 473.2,
+            "end": 483.2,
+            "text": " I will put all this in the file.  I will delete the files folder.  I will put all the files folder.  Yes, overwrite these files.  Yes, overwrite these files."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 483.2,
+            "end": 493.2,
+            "text": " Yes, overwrite these files.  Yes, overwrite these files.  Main.py  I will bring it here.  Now if I run it."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 493.2,
+            "end": 503.2,
+            "text": " I will delete the files.  I will make the files again.  Now what will I do?  As soon as I run it.  You see."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 503.2,
+            "end": 513.2,
+            "text": " I have not written the whole program.  I have made a process.  Now I will start p.  I will say p.start.  Do I want to join it?"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 513.2,
+            "end": 523.2,
+            "text": " No, I don't want to join it.  Start it.  At the end, I will join all of them.  I will join all of them.  I can do something like this."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 523.2,
+            "end": 533.2,
+            "text": " I can say process is equal to.  Now I will say  process.append p.  Now I will say  for p in process."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 533.2,
+            "end": 543.2,
+            "text": " I will say p.join.  At the end, I will say  I am joining them.  Otherwise you will say why are you doing it in the air.  So what I did? I made a process."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 543.2,
+            "end": 553.2,
+            "text": " I started that process.  After that  I appended process.  In this list.  At the end, when this loop will be running."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 553.2,
+            "end": 563.2,
+            "text": " Then I will have all the processes.  Now I can join them.  By iterating.  I can join them by iterating.  After joining."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 563.2,
+            "end": 573.2,
+            "text": " What I will do?  I will expect.  My files folder.  It will be populated.  It will be parallel."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 573.2,
+            "end": 583.2,
+            "text": " Let's do one thing.  I will write here.  Print.  Finished downloading.  Here"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 583.2,
+            "end": 593.2,
+            "text": " I will write the name of the variable.  I will write name.  I will put an f string here.  I will write started downloading.  Ok."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 593.2,
+            "end": 603.2,
+            "text": " Started downloading name.  Finished downloading name.  I will run it.  It started all at once.  1204."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 603.2,
+            "end": 613.2,
+            "text": " It is saying here.  I made it files2.  It didn't exist.  I made a mistake.  Let's run it again."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 613.2,
+            "end": 623.2,
+            "text": " It started all at once.  It is downloading.  Did you see the speed?  Where we thought?  Now I am going to do a circus."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 623.2,
+            "end": 633.2,
+            "text": " Do not try this at home.  I am joking.  It is nothing like that.  I am downloading 50 files at once.  Don't try by doing 5000."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 633.2,
+            "end": 643.2,
+            "text": " It will be a big mistake.  It will be a big mistake.  It will be a big mistake.  I am downloading 50 files.  It will start all at once."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 643.2,
+            "end": 653.2,
+            "text": " It will start all at once.  It will start all at once.  It is downloading all at once.  What a speed.  What to say?"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 653.2,
+            "end": 663.2,
+            "text": " This is called  Multiprocessing module.  It is downloading in different order.  It is downloading in different order.  It is printing."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 663.2,
+            "end": 673.2,
+            "text": " It is great.  If you open your activity monitor.  In mac.  Most of the people are in windows.  It is saying."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 673.2,
+            "end": 683.2,
+            "text": " How to open?  Activity monitor.  It is like this.  If you see here.  CPU."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 683.2,
+            "end": 693.2,
+            "text": " It is showing many processes.  Here you can see.  Which process is being used by network.  Which process is being used by network.  Why it is not showing?"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 693.2,
+            "end": 703.2,
+            "text": " It is showing here.  Which process is being used by network.  If I run it again.  And show you activity monitor.  See."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 703.2,
+            "end": 713.2,
+            "text": " See.  It is showing many processes.  I am also a fool.  I am seeing here.  My program is running."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 713.2,
+            "end": 723.2,
+            "text": " What I have to do to see here?  I am not cutting this.  I am not cutting this.  I am not cutting this.  I am not cutting this."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 723.2,
+            "end": 763.2,
+            "text": " I am not cutting this.  I am not cutting this.  I am not cutting this.  Now I will run it.  But there will not be a folder named files."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 763.2,
+            "end": 773.2,
+            "text": " This is a drama.  No problem.  To get rid of this drama.  I have put this test script in the folder.  I have put this test script in the folder."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 773.2,
+            "end": 783.2,
+            "text": " I will do.  I will do.  I will delete this.  I will delete this.  I will right click."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 783.2,
+            "end": 793.2,
+            "text": " I will say.  New terminal add folder.  In this terminal.  I will create a directory named files.  I will create a directory named files."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 793.2,
+            "end": 803.2,
+            "text": " Now from python3.  I will run test script.py.  Now from python3.  I will run test script.py.  This is a joke."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 803.2,
+            "end": 813.2,
+            "text": " It says to do this.  Nothing more.  It says to do this.  Then I will end my joke.  Then I will end my joke."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 813.2,
+            "end": 823.2,
+            "text": " What is happening?  To get rid of this problem.  To get rid of this problem.  If name equals to main.  I have told you about this."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 823.2,
+            "end": 833.2,
+            "text": " In previous lessons.  Now we will run.  Now we will run.  Now we will run.  I will show you."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 833.2,
+            "end": 843.2,
+            "text": " I will show you.  I will show you.  I will show you.  I will show you.  I will show you."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 843.2,
+            "end": 855.2,
+            "text": " Python Python Python Python.  I can see full process.  Downloading encantils.  Downloading encantils.  Downloading encantils."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 855.2,
+            "end": 865.2,
+            "text": " Downloading encantils.  Downloading cantils.  Downloading encantils.  Downloading cantils.  Downloading cantils."
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 865.2,
+            "end": 876.1600000000001,
+            "text": " Downloading cantils.  Downloading cantils.  Downloading cantils.  now i have given all the images in computer  now you can watch them"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 876.5400000000001,
+            "end": 887.1800000000001,
+            "text": " and be happy  so i will do one thing  i am happy in this  in control backspace  in mac there is shortcut for delete"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 887.1800000000001,
+            "end": 897.1800000000001,
+            "text": " i just wanted to show you the process  i will close this  and this  and come back to replit  and after coming back to replit"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 897.1800000000001,
+            "end": 907.18,
+            "text": " i will close this  and i hope you understood  now you don't do this  by doing 500 or 5000  your apple will hang"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 907.18,
+            "end": 917.18,
+            "text": " then don't say to me that apple is hang  because there is so much data  maybe there is a limit of data  so i hope you understood  multiprocessing"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 917.18,
+            "end": 927.18,
+            "text": " now you will say that as we used concurrent and feature  can we use something like that  here also  so the answer is yes  the way we have thread pool executor"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 927.18,
+            "end": 937.18,
+            "text": " we have process pool executor  and other steps are similar  so come  let's do this  so i will close this"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 937.18,
+            "end": 947.18,
+            "text": " and come back to replit  and instead of doing this  that i am doing for loop and append loop  i will say that  you become copy paster"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 947.18,
+            "end": 957.18,
+            "text": " ok  what should i become  copy paster  why should i become copy paster  i am becoming"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 957.18,
+            "end": 967.18,
+            "text": " now you can see  that we have pasted  now you invest your mind  in that  and don't invest in other things"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 967.18,
+            "end": 977.18,
+            "text": " that are already there  now see here  i have already put for loop  now i will say that  i will import"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 977.18,
+            "end": 987.18,
+            "text": " concurrent.futures  now i am saying  process pool executor  that by looping this  what should i do"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 987.18,
+            "end": 997.18,
+            "text": " executor.map  i will show you one thing  i will do it my way  results is equal to  results is equal to"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 997.18,
+            "end": 1007.18,
+            "text": " executor.map  and here what i will do  download file  and here i will say  url is my first argument"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1007.18,
+            "end": 1017.18,
+            "text": " then i is my second argument  now after this i will say  what is i  so i will do one thing  here i will"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1017.18,
+            "end": 1027.1799999999998,
+            "text": " put random.randint  put random.randint  here i will do one thing  i will do one thing  i will put l"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1027.1799999999998,
+            "end": 1037.1799999999998,
+            "text": " i will have to make l  i will write l is equal to  i for i in range  i for i in range  60"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1037.1799999999998,
+            "end": 1047.18,
+            "text": " now here i will write  r in results  r in results  now here i will say  what i can do"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1047.18,
+            "end": 1057.18,
+            "text": " you see  result will come in executor.map  i will say print r  print r  now i will run it"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1057.18,
+            "end": 1067.18,
+            "text": " print  no scheme was supplied  so as you can see  i have made l1  in which all my urls were"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1067.18,
+            "end": 1077.18,
+            "text": " now you can see  it has downloaded  all my files  should give  49"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1077.18,
+            "end": 1087.18,
+            "text": " now it is  downloading  it has  done  56"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1087.18,
+            "end": 1097.18,
+            "text": " and it is downloading  all files  and you can see  it has downloaded all files  so this way"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1097.18,
+            "end": 1107.18,
+            "text": " you can use concurrent.futures  remember whenever there are multiple  arguments then what you have to do  is write something like this  first list of first argument"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1107.18,
+            "end": 1117.18,
+            "text": " second list of second argument  if first argument is url then first you have to give url list  then name list  like i have given here  so i hope you have understood how to use multiprocessing"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1117.18,
+            "end": 1127.18,
+            "text": " in python  now see any topic  if you have heard  maybe siri has heard  let me close it"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1127.18,
+            "end": 1137.18,
+            "text": " so whenever you have to  deep dive any topic  you can do it from here  you will get 10 more things  you will get 10 more functions"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1137.18,
+            "end": 1147.18,
+            "text": " explore them, this way human knowledge  is deep  i will never claim that  all functions in python  are written here"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1147.18,
+            "end": 1157.18,
+            "text": " i also encounter new things  in my life and this is called learning  and that's how we all grow  so i want to tell you this  so that's it for now"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1157.18,
+            "end": 1167.18,
+            "text": " if you have not written review  then you will come here  and open this first video  and write a review  and you will tell"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1167.18,
+            "end": 1177.18,
+            "text": " if any new person is going to start this course  then how is this course for him  and you have to do this  you have no other choice  you have to open this and write"
+        },
+        {
+            "number": "098 ",
+            "title": "MultiProcessing in Python",
+            "start": 1177.18,
+            "end": 1185.18,
+            "text": " please write a review  thank you so much for watching  this video and i will see you  next time"
+        }
+    ],
+    "text": " Today I will tell you how to do multiprocessing with the help of Python programming. Let's go to the computer screen and let's get started. Intro Guys, this happens many times when we want to run multiple processes by using one program. That is, our Python program will spawn a lot of child processes. Spawn is a term that means starting a process. Now you will say that what is the need for me to do all this, I am already using multithreading and I am happy with it. Now I want to tell you that multithreading and multiprocessing are a little different in themselves. Now there is a little difference in the process and thread. If you have multiple CPUs, then you can use them by using processes. If you are using threading, then it is easy to spawn threads, it is easy, it happens in less time. Now threading vs processing is a very big topic of the operating system. But you can understand that threads are lightweight, threads are inside a process. But the processes are a big job parallel to the CPUs. If you want to execute a heavy task, then you use the process. In today's video, we will see how multiprocessing is done with the help of Python. And how similar it is to threading, you will also laugh at seeing it. You will say that I know this, I know this, you know it, I just have to tell you that you know it. So come here, we write the code for it. And the first thing I want to tell you is that you import it like this. And after importing, what will I do, I will make a sleep function here. Let's do one thing, this time we don't make a sleep function, we don't make a demo function. This time we make a download file function. Which will download the file from the URL. Now this is amazing because if we do something in actual, it will be fun. So I do one thing here, in 100 days of code, in the last REPL, in the last of last I guess REPL. In which I told you about async I O. I wrote a function with the help of request module. With the help of request module, we were downloading files from the internet. So now I want to tell you that how can it be done parallelly, download. Now I have to open this REPL, what will I do here, I will write pass here. And here I will make a list of URLs. Because I want to give you a real feeling, I want to give you real fun. And here I will do images URL demo. List of images, give me something. Here webp image gallery, see here I got something. Open link in new tab, side by side compression. What is this, reproducing the images, files below. I will do one thing, I will get something here. Random image, yes it is giving random image. Great, this is a good thing. It is giving random image, great. So here you can see what we are doing. I will do one thing, I will get a specific image by adding slash id slash image to the start of the URL. You can find a list of images here. So what I have to do is, I want to download all these images. Now this is a URL of the image. But what I want, I want that I will get this image again and again or not. I want a list of images, in which I will get a lot of images. I will do one thing, I will take a random image. And I will change 200 by 300 to 2000 by 3000. To get square image just at the size. So I will do one thing, first I have to get this function from here. Which is downloading. And second thing I have to do is, I have to put this in my program. So I have a lot of work. So I will do one thing, I will write in URL. I will write this with a list comprehension. And I will write here. Or I don't have to write in URL. There is no need to write in URL. There is no need to write in URL. There is no need to write in URL. It will download a different image every time. Now what I will do is, I will download the file. I will do URL. And I will do name. From which name I want to save it. Now I will download the code. Oops. I have to do ctrl c. Not ctrl x. Now I did this. And I will do import request. Import request. And here I will do URL. And I will do name. And what is going to happen. I will name it here. So I will do one thing. What kind of image is this? It is giving jpg images. So I will name it here. Name.jpg. I will make an f-string. Great. Now it is absolutely correct. Why is it giving red? Contains server response to an HTTP request. Unmatched bracket. What is this? Now it is fine. So I said URL is equal to this. Now if I want to download one by one. So I will write here. For underscore in range 5. Now you will say what is this underscore? This is a throwaway variable. I did not need any value of i here. So I used underscore. Now what I will do is, I will say download file. And do download file. URL will come first. And the second one is name. So I will do one thing. I will give i in name. So that 1.jpg, 2.jpg, 5.jpg. So if I run it, you will see. I will show you. All files are downloaded. If I increase the resolution here. It will be a little difficult. I will do one thing. I will name it. File. And if I run it now. File 0, File 1, File 2. File 0 is made. Till now only file 0 is made. Now file 1 is made. Now file 2 is made. Now file 3 is made. So it is running a little slow. Because I increased the resolution. You must be thinking that it was so fast. What is the use of doing all this? If you deal with big files. It is useful. Now I will run the cleaning campaign here. I will delete all this. After deleting all this. I will show you. I will do one thing. I will make a folder. With the name of files. I will slash the file. And I will download it. I will delete the folder. I will run it. You can see. The folder with files is populated. You can see. The folder with files is populated. 0, 1, 2, 3. You will download all the files. Now you will say, How to parallelize? Multiprocessing is similar to multithreading. You have to write. p is equal to. You have to write. I don't want to do download file URL. I want to do. multiprocessing.process I want to run the process. What will be my target? My target is. Download file. What will be my args? My args is. One is going to be URL. One is going to be I. So we have given the target. Undefined name. Download file. Did I forget to do F capital? Yes, I forgot to do F capital. Now I will do one thing. I will make a folder named files2. I will put all this in the file. I will delete the files folder. I will put all the files folder. Yes, overwrite these files. Yes, overwrite these files. Yes, overwrite these files. Yes, overwrite these files. Main.py I will bring it here. Now if I run it. I will delete the files. I will make the files again. Now what will I do? As soon as I run it. You see. I have not written the whole program. I have made a process. Now I will start p. I will say p.start. Do I want to join it? No, I don't want to join it. Start it. At the end, I will join all of them. I will join all of them. I can do something like this. I can say process is equal to. Now I will say process.append p. Now I will say for p in process. I will say p.join. At the end, I will say I am joining them. Otherwise you will say why are you doing it in the air. So what I did? I made a process. I started that process. After that I appended process. In this list. At the end, when this loop will be running. Then I will have all the processes. Now I can join them. By iterating. I can join them by iterating. After joining. What I will do? I will expect. My files folder. It will be populated. It will be parallel. Let's do one thing. I will write here. Print. Finished downloading. Here I will write the name of the variable. I will write name. I will put an f string here. I will write started downloading. Ok. Started downloading name. Finished downloading name. I will run it. It started all at once. 1204. It is saying here. I made it files2. It didn't exist. I made a mistake. Let's run it again. It started all at once. It is downloading. Did you see the speed? Where we thought? Now I am going to do a circus. Do not try this at home. I am joking. It is nothing like that. I am downloading 50 files at once. Don't try by doing 5000. It will be a big mistake. It will be a big mistake. It will be a big mistake. I am downloading 50 files. It will start all at once. It will start all at once. It will start all at once. It is downloading all at once. What a speed. What to say? This is called Multiprocessing module. It is downloading in different order. It is downloading in different order. It is printing. It is great. If you open your activity monitor. In mac. Most of the people are in windows. It is saying. How to open? Activity monitor. It is like this. If you see here. CPU. It is showing many processes. Here you can see. Which process is being used by network. Which process is being used by network. Why it is not showing? It is showing here. Which process is being used by network. If I run it again. And show you activity monitor. See. See. It is showing many processes. I am also a fool. I am seeing here. My program is running. What I have to do to see here? I am not cutting this. I am not cutting this. I am not cutting this. I am not cutting this. I am not cutting this. I am not cutting this. I am not cutting this. Now I will run it. But there will not be a folder named files. This is a drama. No problem. To get rid of this drama. I have put this test script in the folder. I have put this test script in the folder. I will do. I will do. I will delete this. I will delete this. I will right click. I will say. New terminal add folder. In this terminal. I will create a directory named files. I will create a directory named files. Now from python3. I will run test script.py. Now from python3. I will run test script.py. This is a joke. It says to do this. Nothing more. It says to do this. Then I will end my joke. Then I will end my joke. What is happening? To get rid of this problem. To get rid of this problem. If name equals to main. I have told you about this. In previous lessons. Now we will run. Now we will run. Now we will run. I will show you. I will show you. I will show you. I will show you. I will show you. I will show you. Python Python Python Python. I can see full process. Downloading encantils. Downloading encantils. Downloading encantils. Downloading encantils. Downloading cantils. Downloading encantils. Downloading cantils. Downloading cantils. Downloading cantils. Downloading cantils. Downloading cantils. now i have given all the images in computer now you can watch them and be happy so i will do one thing i am happy in this in control backspace in mac there is shortcut for delete i just wanted to show you the process i will close this and this and come back to replit and after coming back to replit i will close this and i hope you understood now you don't do this by doing 500 or 5000 your apple will hang then don't say to me that apple is hang because there is so much data maybe there is a limit of data so i hope you understood multiprocessing now you will say that as we used concurrent and feature can we use something like that here also so the answer is yes the way we have thread pool executor we have process pool executor and other steps are similar so come let's do this so i will close this and come back to replit and instead of doing this that i am doing for loop and append loop i will say that you become copy paster ok what should i become copy paster why should i become copy paster i am becoming now you can see that we have pasted now you invest your mind in that and don't invest in other things that are already there now see here i have already put for loop now i will say that i will import concurrent.futures now i am saying process pool executor that by looping this what should i do executor.map i will show you one thing i will do it my way results is equal to results is equal to executor.map and here what i will do download file and here i will say url is my first argument then i is my second argument now after this i will say what is i so i will do one thing here i will put random.randint put random.randint here i will do one thing i will do one thing i will put l i will have to make l i will write l is equal to i for i in range i for i in range 60 now here i will write r in results r in results now here i will say what i can do you see result will come in executor.map i will say print r print r now i will run it print no scheme was supplied so as you can see i have made l1 in which all my urls were now you can see it has downloaded all my files should give 49 now it is downloading it has done 56 and it is downloading all files and you can see it has downloaded all files so this way you can use concurrent.futures remember whenever there are multiple arguments then what you have to do is write something like this first list of first argument second list of second argument if first argument is url then first you have to give url list then name list like i have given here so i hope you have understood how to use multiprocessing in python now see any topic if you have heard maybe siri has heard let me close it so whenever you have to deep dive any topic you can do it from here you will get 10 more things you will get 10 more functions explore them, this way human knowledge is deep i will never claim that all functions in python are written here i also encounter new things in my life and this is called learning and that's how we all grow so i want to tell you this so that's it for now if you have not written review then you will come here and open this first video and write a review and you will tell if any new person is going to start this course then how is this course for him and you have to do this you have no other choice you have to open this and write please write a review thank you so much for watching this video and i will see you next time"
+}

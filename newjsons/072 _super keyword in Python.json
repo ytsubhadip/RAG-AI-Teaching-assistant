@@ -1,0 +1,446 @@
+{
+    "chunks": [
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 0.0,
+            "end": 15.88,
+            "text": " Guys, in today's video, I'll tell you about the super keyword.  Sometimes, we have to call methods from child class to parent class.  And to do that, we use super.  I'll tell you in today's video how to use super and what syntax is used.  Let's go to the computer screen and let's get started."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 25.240000000000002,
+            "end": 38.64,
+            "text": " So, first of all, we'll see this thing practically.  What exactly is the super keyword?  So, look, super keyword in Python is used to refer to the parent class.  Now, let's say I copy this code.  So, I made a parent class and made a parent method in it."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 38.64,
+            "end": 52.64,
+            "text": " In which I printed this is the parent method.  Then I made a child class.  I'll give some space to this.  Then I made a child class and made a child method in it.  Now, let's say I want to call parent method of parent class."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 52.64,
+            "end": 69.2,
+            "text": " Look, when we make child class from parent class,  So, it's clear to all of you that all the methods and attributes are in the parent class.  All of them will come in the child class.  They will come. They will definitely come.  So, now if I want to call a method of parent class,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 69.2,
+            "end": 80.96000000000001,
+            "text": " then how will I do that?  I can do that with the help of super keyword.  So, super keyword is useful when a class inherits from multiple parent classes.  And you want to call a method from one of the parent classes.  Okay?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 80.96000000000001,
+            "end": 90.2,
+            "text": " Now, let's say what happens?  That this is a parent class.  Let's say there is a parent method in it.  Now, let's say I make another parent method in it.  And I name it as parent method."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 90.2,
+            "end": 100.68,
+            "text": " And I'll put self here.  And I'll write print here.  And I'll write here, let's say, Harry.  I'll just write Harry.  Now, if I want to do something here,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 100.68,
+            "end": 110.16,
+            "text": " that I want to run the parent method of an old class in this parent method,  then I can do that.  I can say super.parent method.  Okay?  So, let's say I'll do super.parent method along with Harry."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 110.28,
+            "end": 118.39999999999999,
+            "text": " So, if I run this,  then first of all, you'll see that we're making an object of child class.  And after that, we're running the child method in it.  So, when I run the child method,  this is a child class."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 118.39999999999999,
+            "end": 125.12,
+            "text": " This thing will definitely run.  Along with that, what will happen?  That...  Let me put this here.  Along with that, what will happen?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 125.12,
+            "end": 135.51999999999998,
+            "text": " That by doing super.parent method,  the parent method of the parent class will be called.  So, because of this, we can see this.  Now, let's say I do something like this.  Child object dot..."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 135.51999999999998,
+            "end": 144.83999999999997,
+            "text": " And after this, I'll do parent method.  Let's say I want to call its parent method.  So, you'll see that this method will be called.  So, first of all, Harry will be printed.  Then, after that, what will happen?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 144.83999999999997,
+            "end": 151.44,
+            "text": " This is the parent method.  This method will be called.  Okay?  So, what does super mean?  Go one step up."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 151.44,
+            "end": 160.11999999999998,
+            "text": " Go to the parent class.  And call its method.  It's a simple thing.  So, when a class inherits from a parent class,  it can override or extend the methods defined"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 160.11999999999998,
+            "end": 169.51999999999998,
+            "text": " in the parent class, which I'll tell you later.  Okay?  That means, if I made an object  in the name of child object  and I called it dot parent method,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 169.52,
+            "end": 178.48000000000002,
+            "text": " then what will happen?  This parent method will work.  But what would have happened  if this parent method didn't exist?  So, wouldn't we have seen Harry?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 178.48000000000002,
+            "end": 185.60000000000002,
+            "text": " He would have called this method directly.  Because it's not present here.  I'll make it 1, 2.  I'll make it 1.  After all the methods here,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 185.60000000000002,
+            "end": 193.88,
+            "text": " I'll put 2, 2.  Okay?  So, now look here.  When I run this,  what will child object dot child method run?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 193.88,
+            "end": 201.27999999999997,
+            "text": " Child object dot child method  will run this method.  And child object dot parent method,  will run this parent method.  Because child class doesn't have"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 201.27999999999997,
+            "end": 206.95999999999998,
+            "text": " its own parent method.  Okay?  Child class doesn't have its own parent method.  That's why,  what will it do?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 206.95999999999998,
+            "end": 213.55999999999997,
+            "text": " It will call its parent method.  So, look here, parent method 1.  But if I, let's say,  here,  here, I made Harry 2."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 214.76,
+            "end": 221.23999999999998,
+            "text": " Then what will happen?  It will not call this method,  but this method.  Because now it has its own method.  But I want to take some code"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 221.23999999999998,
+            "end": 230.0,
+            "text": " from the old method as well.  So, for this, I'll use super.  So, I wrote super dot parent method.  Sometimes, what happens is  we want to call the constructor"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 230.0,
+            "end": 236.68,
+            "text": " of super class.  So, we'll use super even then.  Let me show you.  Suppose I wrote here,  def init."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 236.68,
+            "end": 243.04000000000002,
+            "text": " In fact, let me do one thing.  Let me give you a new, fresh example.  I made class employee here.  Okay?  I said,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 243.04000000000002,
+            "end": 249.16000000000003,
+            "text": " that it will be made by a constructor.  Okay?  I'm writing fast,  so that your time will stop.  Okay?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 249.16000000000003,
+            "end": 255.52,
+            "text": " I'm writing fast,  so that your time will stop.  Now, I wrote here,  self dot name is equal to name.  Okay?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 255.52,
+            "end": 262.08,
+            "text": " I'm fast forwarding for you, friends.  I'm fast forwarding for you, friends.  And here, I'm writing,  along with name,  let us say, ID."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 262.08,
+            "end": 269.36,
+            "text": " Employee ID.  Okay?  So, I'm here,  alt shift down arrow key.  I'll do this,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 269.36,
+            "end": 275.76,
+            "text": " self dot ID is equal to ID.  Now, suppose,  what I did here,  that I made a class,  programmer."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 275.76,
+            "end": 282.36,
+            "text": " Okay?  And I'll make,  init in it.  Now, suppose,  I need programming language in it."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 282.36,
+            "end": 290.24,
+            "text": " So, I have a way,  that what I'll do is,  that here,  I'll write something like this.  Self dot lang is equal to lang."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 290.24,
+            "end": 297.96000000000004,
+            "text": " Self dot lang is equal to lang.  Okay?  And here, I'll say,  give lang as well.  That means,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 297.96000000000004,
+            "end": 303.8,
+            "text": " give language as well.  So, if a person will make,  suppose,  A is an employee.  Or, I'll do one thing,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 303.8,
+            "end": 308.48,
+            "text": " Rohan is an employee.  Okay?  And,  along with employee,  what I'll do here,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 308.48,
+            "end": 316.64,
+            "text": " I'll give his name,  Rohan Das.  And after that,  now, suppose,  I'll give his employee ID,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 316.64,
+            "end": 325.84,
+            "text": " 420.  Okay?  So, 420 is his employee ID.  And after that,  Harry is his employee ID."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 325.84,
+            "end": 337.52,
+            "text": " I'll do something like this here.  And, what I'll do here,  let us say,  2, 3, 4, 5 is my employee ID.  Now, Harry is a programmer."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 337.52,
+            "end": 342.96,
+            "text": " And,  employee is Rohan Normal.  Harry is a programmer.  Okay?  Now, suppose,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 342.96,
+            "end": 347.56,
+            "text": " I run this code here.  Okay?  So, there will be an error.  Because, he'll say,  see,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 347.56,
+            "end": 355.68,
+            "text": " we have to give language to the programmer.  So, this is wrong.  Isn't it?  So, you have to give a language here.  Suppose, I'll give Python."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 355.68,
+            "end": 360.71999999999997,
+            "text": " Okay?  I'll run it.  It'll work.  There won't be any error in this code.  Why?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 360.71999999999997,
+            "end": 366.76,
+            "text": " Because,  in programmer's constructor,  three arguments were applied.  In employee's constructor,  two arguments were applied."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 366.76,
+            "end": 371.91999999999996,
+            "text": " So, this is satisfied.  He got what he wanted.  And obviously,  I haven't printed anything.  So, I'll say,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 371.92,
+            "end": 378.24,
+            "text": " suppose,  Rohan.name  I'll print it.  Just to see,  whether the programmer has run or not."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 378.24,
+            "end": 383.0,
+            "text": " So, Rohan Das has come here.  It's printed.  But,  now, suppose,  that,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 383.0,
+            "end": 390.44,
+            "text": " I want to take maximum advantage of code reusability here.  So, I'll say,  see,  now, there are only two lines.  It's possible that there are 50 lines."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 390.44,
+            "end": 400.04,
+            "text": " So, I have to copy these 50 lines here.  Suppose,  there is some parsing of the string in these lines.  Then, I'll repeat all this logic here.  So, we always"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 400.08000000000004,
+            "end": 405.88,
+            "text": " have to take care of the dry principle.  Do not repeat yourself.  You don't have to repeat yourself.  Okay?  Why should we repeat?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 405.88,
+            "end": 413.0,
+            "text": " We don't have to repeat.  Okay?  So, what we'll do is,  to avoid repeating ourselves,  I'll say here,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 413.0,
+            "end": 423.56,
+            "text": " that, see, it's like this.  Call super.init.  super.__init  And call super.init.  And give it a name and ID."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 423.56,
+            "end": 431.68,
+            "text": " Because it takes name and ID.  Okay?  So, I have given super.init name and ID.  And I'll set the language manually.  So, I'll write here,"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 431.68,
+            "end": 442.64,
+            "text": " lang.lang.  So, if I do this,  then, can I print  harry.name, harry.id,  harry.lang or not?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 442.64,
+            "end": 453.24,
+            "text": " The answer is yes, I can.  I have run this function as-redis from here.  Actually, I made a mistake here.  I didn't inherit the programmer from the employee.  So, I should have inherited it."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 453.24,
+            "end": 461.48,
+            "text": " I should have done programmer.employee.  What should I have done?  I should have inherited it.  So, as soon as I wrote programmer.employee here,  now, programmer is a subclass."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 461.48,
+            "end": 469.92,
+            "text": " This is a superclass.  If I do super.init here,  then, what will happen?  I can pass it in name and ID and set it.  See, I'll run this now."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 469.92,
+            "end": 476.56,
+            "text": " So, you'll get to see,  harry2345 and python.  So, by doing super.init,  what I did was,  I called the parent class constructor."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 476.56,
+            "end": 484.56,
+            "text": " So, you can do this.  So, I hope you understood this thing.  And along with that,  if you haven't accessed this playlist,  then, do access it."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 484.56,
+            "end": 491.72,
+            "text": " What you have to do simply is,  go to the first video and put a review.  Many people haven't put a review yet.  Put a review.  It won't work like this."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 491.72,
+            "end": 502.92,
+            "text": " Okay? You'll have to put a review.  For those who are new to this course.  I want you to write your review.  That you accepted 100 days of code challenge.  You have now come to day 72."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 502.92,
+            "end": 512.5600000000001,
+            "text": " You have seen 72% of this course.  Which is a very good amount of videos.  So, you know how this course is.  So, you can write a review.  You can give 5 stars."
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 512.5600000000001,
+            "end": 520.4,
+            "text": " How many stars you want to give.  Along with that, you can write here.  How did you like the course?  You'll have to write.  Okay?"
+        },
+        {
+            "number": "072 ",
+            "title": "super keyword in Python",
+            "start": 520.4,
+            "end": 547.6,
+            "text": " So, that's it for this video.  Do access the playlist.  Thank you so much for watching this video.  And I will see you next time.  Thank you so much for watching this video."
+        }
+    ],
+    "text": " Guys, in today's video, I'll tell you about the super keyword. Sometimes, we have to call methods from child class to parent class. And to do that, we use super. I'll tell you in today's video how to use super and what syntax is used. Let's go to the computer screen and let's get started. So, first of all, we'll see this thing practically. What exactly is the super keyword? So, look, super keyword in Python is used to refer to the parent class. Now, let's say I copy this code. So, I made a parent class and made a parent method in it. In which I printed this is the parent method. Then I made a child class. I'll give some space to this. Then I made a child class and made a child method in it. Now, let's say I want to call parent method of parent class. Look, when we make child class from parent class, So, it's clear to all of you that all the methods and attributes are in the parent class. All of them will come in the child class. They will come. They will definitely come. So, now if I want to call a method of parent class, then how will I do that? I can do that with the help of super keyword. So, super keyword is useful when a class inherits from multiple parent classes. And you want to call a method from one of the parent classes. Okay? Now, let's say what happens? That this is a parent class. Let's say there is a parent method in it. Now, let's say I make another parent method in it. And I name it as parent method. And I'll put self here. And I'll write print here. And I'll write here, let's say, Harry. I'll just write Harry. Now, if I want to do something here, that I want to run the parent method of an old class in this parent method, then I can do that. I can say super.parent method. Okay? So, let's say I'll do super.parent method along with Harry. So, if I run this, then first of all, you'll see that we're making an object of child class. And after that, we're running the child method in it. So, when I run the child method, this is a child class. This thing will definitely run. Along with that, what will happen? That... Let me put this here. Along with that, what will happen? That by doing super.parent method, the parent method of the parent class will be called. So, because of this, we can see this. Now, let's say I do something like this. Child object dot... And after this, I'll do parent method. Let's say I want to call its parent method. So, you'll see that this method will be called. So, first of all, Harry will be printed. Then, after that, what will happen? This is the parent method. This method will be called. Okay? So, what does super mean? Go one step up. Go to the parent class. And call its method. It's a simple thing. So, when a class inherits from a parent class, it can override or extend the methods defined in the parent class, which I'll tell you later. Okay? That means, if I made an object in the name of child object and I called it dot parent method, then what will happen? This parent method will work. But what would have happened if this parent method didn't exist? So, wouldn't we have seen Harry? He would have called this method directly. Because it's not present here. I'll make it 1, 2. I'll make it 1. After all the methods here, I'll put 2, 2. Okay? So, now look here. When I run this, what will child object dot child method run? Child object dot child method will run this method. And child object dot parent method, will run this parent method. Because child class doesn't have its own parent method. Okay? Child class doesn't have its own parent method. That's why, what will it do? It will call its parent method. So, look here, parent method 1. But if I, let's say, here, here, I made Harry 2. Then what will happen? It will not call this method, but this method. Because now it has its own method. But I want to take some code from the old method as well. So, for this, I'll use super. So, I wrote super dot parent method. Sometimes, what happens is we want to call the constructor of super class. So, we'll use super even then. Let me show you. Suppose I wrote here, def init. In fact, let me do one thing. Let me give you a new, fresh example. I made class employee here. Okay? I said, that it will be made by a constructor. Okay? I'm writing fast, so that your time will stop. Okay? I'm writing fast, so that your time will stop. Now, I wrote here, self dot name is equal to name. Okay? I'm fast forwarding for you, friends. I'm fast forwarding for you, friends. And here, I'm writing, along with name, let us say, ID. Employee ID. Okay? So, I'm here, alt shift down arrow key. I'll do this, self dot ID is equal to ID. Now, suppose, what I did here, that I made a class, programmer. Okay? And I'll make, init in it. Now, suppose, I need programming language in it. So, I have a way, that what I'll do is, that here, I'll write something like this. Self dot lang is equal to lang. Self dot lang is equal to lang. Okay? And here, I'll say, give lang as well. That means, give language as well. So, if a person will make, suppose, A is an employee. Or, I'll do one thing, Rohan is an employee. Okay? And, along with employee, what I'll do here, I'll give his name, Rohan Das. And after that, now, suppose, I'll give his employee ID, 420. Okay? So, 420 is his employee ID. And after that, Harry is his employee ID. I'll do something like this here. And, what I'll do here, let us say, 2, 3, 4, 5 is my employee ID. Now, Harry is a programmer. And, employee is Rohan Normal. Harry is a programmer. Okay? Now, suppose, I run this code here. Okay? So, there will be an error. Because, he'll say, see, we have to give language to the programmer. So, this is wrong. Isn't it? So, you have to give a language here. Suppose, I'll give Python. Okay? I'll run it. It'll work. There won't be any error in this code. Why? Because, in programmer's constructor, three arguments were applied. In employee's constructor, two arguments were applied. So, this is satisfied. He got what he wanted. And obviously, I haven't printed anything. So, I'll say, suppose, Rohan.name I'll print it. Just to see, whether the programmer has run or not. So, Rohan Das has come here. It's printed. But, now, suppose, that, I want to take maximum advantage of code reusability here. So, I'll say, see, now, there are only two lines. It's possible that there are 50 lines. So, I have to copy these 50 lines here. Suppose, there is some parsing of the string in these lines. Then, I'll repeat all this logic here. So, we always have to take care of the dry principle. Do not repeat yourself. You don't have to repeat yourself. Okay? Why should we repeat? We don't have to repeat. Okay? So, what we'll do is, to avoid repeating ourselves, I'll say here, that, see, it's like this. Call super.init. super.__init And call super.init. And give it a name and ID. Because it takes name and ID. Okay? So, I have given super.init name and ID. And I'll set the language manually. So, I'll write here, lang.lang. So, if I do this, then, can I print harry.name, harry.id, harry.lang or not? The answer is yes, I can. I have run this function as-redis from here. Actually, I made a mistake here. I didn't inherit the programmer from the employee. So, I should have inherited it. I should have done programmer.employee. What should I have done? I should have inherited it. So, as soon as I wrote programmer.employee here, now, programmer is a subclass. This is a superclass. If I do super.init here, then, what will happen? I can pass it in name and ID and set it. See, I'll run this now. So, you'll get to see, harry2345 and python. So, by doing super.init, what I did was, I called the parent class constructor. So, you can do this. So, I hope you understood this thing. And along with that, if you haven't accessed this playlist, then, do access it. What you have to do simply is, go to the first video and put a review. Many people haven't put a review yet. Put a review. It won't work like this. Okay? You'll have to put a review. For those who are new to this course. I want you to write your review. That you accepted 100 days of code challenge. You have now come to day 72. You have seen 72% of this course. Which is a very good amount of videos. So, you know how this course is. So, you can write a review. You can give 5 stars. How many stars you want to give. Along with that, you can write here. How did you like the course? You'll have to write. Okay? So, that's it for this video. Do access the playlist. Thank you so much for watching this video. And I will see you next time. Thank you so much for watching this video."
+}

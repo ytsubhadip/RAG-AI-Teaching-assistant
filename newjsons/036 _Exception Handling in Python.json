@@ -1,0 +1,530 @@
+{
+    "chunks": [
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 0.0,
+            "end": 12.0,
+            "text": " Sometimes we write code and there is an error.  In fact, sometimes, no, there is an error in our code.  It happens often.  In this case, when a programmer makes a mistake,  or sometimes the mistake can be caused by a server,"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 12.0,
+            "end": 25.96,
+            "text": " maybe we have ordered some records from the server  and those records could not come from the server due to server error.  In this case, our Python program can terminate.  We don't want our program to stop due to any error.  That's why we do error handling in our Python program."
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 25.96,
+            "end": 37.32,
+            "text": " And to handle errors in Python, we use try-except.  Try-except exception handling.  This video will tell you how easy it is.  Let's go to the computer screen  and see how error handling is done in Python."
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 37.32,
+            "end": 58.32,
+            "text": " Let's get started.  So, the basic use case of exception handling is that  errors will often come in your program.  You will make a mistake here.  Or it may be that there will be a situation"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 58.32,
+            "end": 70.96000000000001,
+            "text": " like you ordered data from the server  and the data that came from the server came in the wrong format  or the server was not working  or for any reason, that data could not be compatible.  In this case, you will see an error."
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 70.96000000000001,
+            "end": 83.88,
+            "text": " But if you see an error,  then your program will stop.  We all know this.  For example, if I say a is equal to input  and I say enter the number"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 83.88,
+            "end": 99.08000000000001,
+            "text": " and after that I do something like this  and after that, let's say I write here  that multiplication table  multiplication table of a  or I use an f-string in this."
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 99.08000000000001,
+            "end": 111.52000000000001,
+            "text": " I will write something like this  and I will say multiplication table of a is  and I will say here with the help of for loop  for i in range of 1 to 11  so that it goes from 1 to 10"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 111.52000000000001,
+            "end": 123.44,
+            "text": " and I will write print again an f-string  and I will write here whatever is my variable a  and I will write multiply by  and I will write here i  and I will write is equal to"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 123.44,
+            "end": 138.04,
+            "text": " and here I will simply write a multiplied by i  okay, this value will be evaluated  and if I put my value of a as 7  and obviously I will have to convert it into an integer  I will write int of a here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 138.04,
+            "end": 147.2,
+            "text": " and when I am calculating here  then I will convert it into int  and now if I run  then let's say I put a number 8  then the table of 8 will be printed here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 147.2,
+            "end": 156.96,
+            "text": " as you can see  and similarly if I put any other number here  then its table will be printed  and this program works absolutely fine  there is no problem yet"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 156.96,
+            "end": 167.8,
+            "text": " I did not press enter  now I have pressed and the table of 4 has also come  but just think if I  wrote here Harry  you will say, wait a minute, why are you writing Harry"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 167.8,
+            "end": 174.68,
+            "text": " bro, my will, my keyboard  I am writing, okay  and I will also hit enter  and you see here  an error has come"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 174.68,
+            "end": 184.88,
+            "text": " error in total is saying that  bro, you have written Harry  you cannot convert it into an integer  and what is the meaning of its multiplication table  the meaning of multiplication table of 8 is understandable"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 184.88,
+            "end": 194.92,
+            "text": " what is the meaning of multiplication table of Harry  here comes the error, okay  now notice one thing  if I write here print  some lines of code"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 194.92,
+            "end": 205.23999999999998,
+            "text": " let's say we have some lines of code here  and here our program is ending  so I write here end of program  okay, so if I run this  so you see here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 205.23999999999998,
+            "end": 211.79999999999998,
+            "text": " it is coming enter the number  let's say I wrote 3  multiplication table is running here  I can see 3  and after that see here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 211.79999999999998,
+            "end": 222.44,
+            "text": " some lines of code and end of program is coming  and I will do some important lines of code  let's say after this we are running some important lines of code  on which let's say we  are sending this multiplication table somewhere"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 222.44,
+            "end": 230.48,
+            "text": " okay, for some work  let's say  now if I write my name here  or I write joker here  my name is not joker, I am writing joker"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 230.48,
+            "end": 240.6,
+            "text": " so these two lines are not printed  that means our program came here and got halted  now see there is no guarantee  that whatever number the user is giving in the input  that will be an integer"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 240.6,
+            "end": 253.76,
+            "text": " or whatever string the user is putting literally  that will always be a valid number  there is no guarantee of this  but here I have to do something like this  in line number 4 and 5, listen to me carefully"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 253.76,
+            "end": 262.32,
+            "text": " and if you have heard this  then you have understood try accept  I have to do something like this  that if I want  then my program should run"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 262.32,
+            "end": 272.0,
+            "text": " but if I have to do something like this  that if my program is running properly  then it should run  then normally this should happen  but if there is an error"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 272.0,
+            "end": 279.0,
+            "text": " then something else should happen  okay, what else should happen  we will see that  okay, now I will show you here  that what I will do"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 279.0,
+            "end": 287.92,
+            "text": " that in these two lines of code  because I know that there is a possibility of error  so I will try this  I will say try  for this I will use the try keyword"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 287.92,
+            "end": 295.6,
+            "text": " and I will put indent  like I put in loops  like I put everywhere  exactly here also I will put indent  and here I will write accept"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 295.6,
+            "end": 306.0,
+            "text": " and I will write here  exception as e  so that I know what is the error  and I will write here print e  okay, this is used like a template"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 306.0,
+            "end": 313.24,
+            "text": " often by Python programmers  that try anything  whatever code you want to write  you write two lines  write 50 lines"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 313.24,
+            "end": 319.24,
+            "text": " write 100 lines  whatever you want to try  write that code  except exception as e  that if there is an error"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 319.24,
+            "end": 325.44,
+            "text": " like suppose  50 lines are written here  in try  and error came on line number 5  so after line number 5"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 325.44,
+            "end": 332.52,
+            "text": " control will go here  will tell you the error  and the code below  will start running exactly the same  so if I run this program"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 332.52,
+            "end": 338.64,
+            "text": " then you see  if I write here Harry  then see  multiplication table of Harry is printed  then this error"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 338.64,
+            "end": 345.56,
+            "text": " because I printed  that's why it was printed  this e is an error  so this error was printed  and my two lines"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 345.56,
+            "end": 350.64,
+            "text": " also started running successfully  okay  if I want  then I can write here  sorry"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 351.76,
+            "end": 360.32,
+            "text": " I can write here  like this  sorry some error occurred  okay  so if I run this"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 362.36,
+            "end": 367.68,
+            "text": " you see here  that I am not using e  enter the number  suppose I wrote u  multiplication table of u"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 367.68,
+            "end": 376.68,
+            "text": " is sorry some error occurred  then after this  some important lines of code  it will be good if I write here  invalid input"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 377.68,
+            "end": 383.04,
+            "text": " okay  and  I don't even need  to write exception as e  if I am not using e"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 383.04,
+            "end": 389.2,
+            "text": " then I can write only except like this  that if any error occurs  then here  you see here  invalid input is written"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 389.2,
+            "end": 393.68,
+            "text": " and after this  the code after this  will keep on executing  this is the most important  because"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 393.68,
+            "end": 398.92,
+            "text": " we do this work  because  our lines of code  keep on executing  okay"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 398.92,
+            "end": 405.56,
+            "text": " our lines of code  keep on executing  program should not halt  when does program halt  when it gets an error"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 405.56,
+            "end": 411.84,
+            "text": " and if it gets an error  then if it gets an error on line number 7  or line number 5  then my program will stop there  I don't want this"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 411.84,
+            "end": 418.24,
+            "text": " I want my program to keep on continuing  and  in case  if error occurs from these two lines  then it should do something else"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 418.24,
+            "end": 423.76,
+            "text": " okay  so I can move my program  in another direction  if there is an error  I can also handle"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 423.76,
+            "end": 430.36,
+            "text": " a specific type of error  okay  so I can do all those things  so I hope  that you understood"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 430.48,
+            "end": 438.68,
+            "text": " how exceptions work in python  now let's read  what is written here  exception handling is the process of responding  to unwanted or unexpected events"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 438.68,
+            "end": 444.56,
+            "text": " like in this case  unexpected event was  inputting string through user  instead of number  this was an unexpected event"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 444.56,
+            "end": 453.36,
+            "text": " when a computer program runs  exception handling deals with these events  to avoid the program or system crashing  and without this process  exceptions would disrupt"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 453.36,
+            "end": 460.96,
+            "text": " the normal operation of a program  okay  so you should know this thing  python has many built in exceptions  that are raised when your program"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 460.96,
+            "end": 468.35999999999996,
+            "text": " encounters an error  something in the program goes wrong  if anything happens  that your program is not running properly  then what will happen"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 468.35999999999996,
+            "end": 475.96,
+            "text": " you will see an exception  when these exceptions occur  the python interpreter stops the current process  and passes it to the calling process  until it is handled"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 475.96,
+            "end": 480.96,
+            "text": " if not handled  program will crash  like you saw here  our program cache  crashed"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 480.96,
+            "end": 488.56,
+            "text": " okay  and this is the syntax of try except  which I told you  now you can handle a specific type of error  like you see here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 488.56,
+            "end": 496.56,
+            "text": " this example  if you see this example  then you will see here  I handled a value error  that num is equal to int"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 496.56,
+            "end": 503.56,
+            "text": " I did this  if I don't put an integer  then the specific type of error was  value error  number entered is not an integer"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 503.56,
+            "end": 510.96,
+            "text": " I handled the value error  okay  now in one line  five types of errors can occur  there is a possibility"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 510.96,
+            "end": 520.56,
+            "text": " now suppose you are doing this here  and suppose you are doing something like  let us say  you are ordering data from server  if you are ordering data from server"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 520.56,
+            "end": 527.56,
+            "text": " and there is an error  then you can handle that error  if you want to handle this value error  then if this happens  then you can do something else"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 527.56,
+            "end": 536.56,
+            "text": " so you can apply multiple except  suppose I write here  except or exception object  means you can give any error here  and you see here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 536.56,
+            "end": 544.56,
+            "text": " I have written except index error  means I want to handle index error  like this  now suppose here  a is equal to 6 3"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 544.56,
+            "end": 553.56,
+            "text": " and what I am doing here  in fact I will do this work here  and I am doing here  a num  means I am saying"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 553.56,
+            "end": 561.56,
+            "text": " print a num  okay  now you see what is happening here  in try I tried to do three lines  now see if I put here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 561.56,
+            "end": 567.56,
+            "text": " num value 0  then what will happen  that a0 will be printed  okay  if I put here"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 567.56,
+            "end": 575.56,
+            "text": " num value  some invalid  and enter  number entered is not an integer  you entered was not an integer"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 575.56,
+            "end": 584.56,
+            "text": " if I put a valid integer  which will throw error here  because this list is not that big  to run a4  then you see"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 584.56,
+            "end": 590.56,
+            "text": " it is giving me index error  so I am handling specific type of errors  you see  means if index error comes  then I will do this"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 590.56,
+            "end": 595.56,
+            "text": " if memory error comes  then I will do this  if value error comes  then I will do this  we will study about error objects"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 595.56,
+            "end": 602.56,
+            "text": " what are the errors in python  and we will see  when and which are erased  but this is how basic exception handling  works in python"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 602.56,
+            "end": 611.56,
+            "text": " I hope you all understood  that how basic exception handling  works in python  and you all  try this program"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 611.56,
+            "end": 619.56,
+            "text": " and the source code I have given  not only this  you try it yourself  try to produce different types of errors  and try to handle them"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 619.56,
+            "end": 625.56,
+            "text": " with the help of accept  okay  so that's all for this video  if you have not accessed the playlist  then do access it"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 625.56,
+            "end": 631.56,
+            "text": " click here to bookmark  and click here to save  that's all for this video guys  thank you so much guys  for watching this video"
+        },
+        {
+            "number": "036 ",
+            "title": "Exception Handling in Python",
+            "start": 631.56,
+            "end": 634.56,
+            "text": " and I will see you  next time"
+        }
+    ],
+    "text": " Sometimes we write code and there is an error. In fact, sometimes, no, there is an error in our code. It happens often. In this case, when a programmer makes a mistake, or sometimes the mistake can be caused by a server, maybe we have ordered some records from the server and those records could not come from the server due to server error. In this case, our Python program can terminate. We don't want our program to stop due to any error. That's why we do error handling in our Python program. And to handle errors in Python, we use try-except. Try-except exception handling. This video will tell you how easy it is. Let's go to the computer screen and see how error handling is done in Python. Let's get started. So, the basic use case of exception handling is that errors will often come in your program. You will make a mistake here. Or it may be that there will be a situation like you ordered data from the server and the data that came from the server came in the wrong format or the server was not working or for any reason, that data could not be compatible. In this case, you will see an error. But if you see an error, then your program will stop. We all know this. For example, if I say a is equal to input and I say enter the number and after that I do something like this and after that, let's say I write here that multiplication table multiplication table of a or I use an f-string in this. I will write something like this and I will say multiplication table of a is and I will say here with the help of for loop for i in range of 1 to 11 so that it goes from 1 to 10 and I will write print again an f-string and I will write here whatever is my variable a and I will write multiply by and I will write here i and I will write is equal to and here I will simply write a multiplied by i okay, this value will be evaluated and if I put my value of a as 7 and obviously I will have to convert it into an integer I will write int of a here and when I am calculating here then I will convert it into int and now if I run then let's say I put a number 8 then the table of 8 will be printed here as you can see and similarly if I put any other number here then its table will be printed and this program works absolutely fine there is no problem yet I did not press enter now I have pressed and the table of 4 has also come but just think if I wrote here Harry you will say, wait a minute, why are you writing Harry bro, my will, my keyboard I am writing, okay and I will also hit enter and you see here an error has come error in total is saying that bro, you have written Harry you cannot convert it into an integer and what is the meaning of its multiplication table the meaning of multiplication table of 8 is understandable what is the meaning of multiplication table of Harry here comes the error, okay now notice one thing if I write here print some lines of code let's say we have some lines of code here and here our program is ending so I write here end of program okay, so if I run this so you see here it is coming enter the number let's say I wrote 3 multiplication table is running here I can see 3 and after that see here some lines of code and end of program is coming and I will do some important lines of code let's say after this we are running some important lines of code on which let's say we are sending this multiplication table somewhere okay, for some work let's say now if I write my name here or I write joker here my name is not joker, I am writing joker so these two lines are not printed that means our program came here and got halted now see there is no guarantee that whatever number the user is giving in the input that will be an integer or whatever string the user is putting literally that will always be a valid number there is no guarantee of this but here I have to do something like this in line number 4 and 5, listen to me carefully and if you have heard this then you have understood try accept I have to do something like this that if I want then my program should run but if I have to do something like this that if my program is running properly then it should run then normally this should happen but if there is an error then something else should happen okay, what else should happen we will see that okay, now I will show you here that what I will do that in these two lines of code because I know that there is a possibility of error so I will try this I will say try for this I will use the try keyword and I will put indent like I put in loops like I put everywhere exactly here also I will put indent and here I will write accept and I will write here exception as e so that I know what is the error and I will write here print e okay, this is used like a template often by Python programmers that try anything whatever code you want to write you write two lines write 50 lines write 100 lines whatever you want to try write that code except exception as e that if there is an error like suppose 50 lines are written here in try and error came on line number 5 so after line number 5 control will go here will tell you the error and the code below will start running exactly the same so if I run this program then you see if I write here Harry then see multiplication table of Harry is printed then this error because I printed that's why it was printed this e is an error so this error was printed and my two lines also started running successfully okay if I want then I can write here sorry I can write here like this sorry some error occurred okay so if I run this you see here that I am not using e enter the number suppose I wrote u multiplication table of u is sorry some error occurred then after this some important lines of code it will be good if I write here invalid input okay and I don't even need to write exception as e if I am not using e then I can write only except like this that if any error occurs then here you see here invalid input is written and after this the code after this will keep on executing this is the most important because we do this work because our lines of code keep on executing okay our lines of code keep on executing program should not halt when does program halt when it gets an error and if it gets an error then if it gets an error on line number 7 or line number 5 then my program will stop there I don't want this I want my program to keep on continuing and in case if error occurs from these two lines then it should do something else okay so I can move my program in another direction if there is an error I can also handle a specific type of error okay so I can do all those things so I hope that you understood how exceptions work in python now let's read what is written here exception handling is the process of responding to unwanted or unexpected events like in this case unexpected event was inputting string through user instead of number this was an unexpected event when a computer program runs exception handling deals with these events to avoid the program or system crashing and without this process exceptions would disrupt the normal operation of a program okay so you should know this thing python has many built in exceptions that are raised when your program encounters an error something in the program goes wrong if anything happens that your program is not running properly then what will happen you will see an exception when these exceptions occur the python interpreter stops the current process and passes it to the calling process until it is handled if not handled program will crash like you saw here our program cache crashed okay and this is the syntax of try except which I told you now you can handle a specific type of error like you see here this example if you see this example then you will see here I handled a value error that num is equal to int I did this if I don't put an integer then the specific type of error was value error number entered is not an integer I handled the value error okay now in one line five types of errors can occur there is a possibility now suppose you are doing this here and suppose you are doing something like let us say you are ordering data from server if you are ordering data from server and there is an error then you can handle that error if you want to handle this value error then if this happens then you can do something else so you can apply multiple except suppose I write here except or exception object means you can give any error here and you see here I have written except index error means I want to handle index error like this now suppose here a is equal to 6 3 and what I am doing here in fact I will do this work here and I am doing here a num means I am saying print a num okay now you see what is happening here in try I tried to do three lines now see if I put here num value 0 then what will happen that a0 will be printed okay if I put here num value some invalid and enter number entered is not an integer you entered was not an integer if I put a valid integer which will throw error here because this list is not that big to run a4 then you see it is giving me index error so I am handling specific type of errors you see means if index error comes then I will do this if memory error comes then I will do this if value error comes then I will do this we will study about error objects what are the errors in python and we will see when and which are erased but this is how basic exception handling works in python I hope you all understood that how basic exception handling works in python and you all try this program and the source code I have given not only this you try it yourself try to produce different types of errors and try to handle them with the help of accept okay so that's all for this video if you have not accessed the playlist then do access it click here to bookmark and click here to save that's all for this video guys thank you so much guys for watching this video and I will see you next time"
+}

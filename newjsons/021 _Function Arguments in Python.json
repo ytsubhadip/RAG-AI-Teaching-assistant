@@ -1,0 +1,544 @@
+{
+    "chunks": [
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 0.0,
+            "end": 16.5,
+            "text": " What's up guys, you are back in 100 days of code  and today I will tell you about function arguments  that how can arguments be passed to function  we said that function is used to separate code  but there are many ways by which we can pass arguments to function"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 16.5,
+            "end": 28.5,
+            "text": " we can pass some arguments to function as a tuple  and we can pass as a dictionary  let's go to the computer screen and see how default arguments are passed  many arguments which you want to pass in bulk  how are they passed"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 28.5,
+            "end": 48.5,
+            "text": " let's get started  Code Separation  we all know that function is used to separate code  and we can repeat it as many times as we want  today I will create a function"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 48.5,
+            "end": 63.0,
+            "text": " and I will name it as average  and I will print  and I will print  the average is  and I will write here"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 63.0,
+            "end": 77.5,
+            "text": " a plus b by 2  now you have to remember one thing  that if you are doing calculation like this  then you should know that  which calculation you want to do first"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 77.5,
+            "end": 89.0,
+            "text": " in this case if I show you  I want to do a plus b by 2 first  and after that I want to do  this by 2  so I will run this program"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 89.0,
+            "end": 102.0,
+            "text": " so you can see here  nothing happened  why nothing happened  because I have given two numbers  which I have to calculate the average"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 102.0,
+            "end": 112.0,
+            "text": " and obviously I will do a comma b  and now I will run as you can see  the average is 5.0  it is printed here  so this is a simple function"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 112.0,
+            "end": 120.0,
+            "text": " there are four types of arguments  that we can provide in a function  default arguments, keyword arguments  variable length arguments  and required arguments"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 120.0,
+            "end": 132.0,
+            "text": " in this case a and b are required arguments  now let's talk about default arguments  I can give a value  9 and b value  1 by default"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 132.0,
+            "end": 143.0,
+            "text": " in this case if I run the average  I will run the average like this  then it will work  and it will assume a value as 9 and b value as 1  and give me 5"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 143.0,
+            "end": 159.0,
+            "text": " but if I give a value as 1 and b value as 5  then it will ignore 9 and 1  and it will take a and b value respectively  so my answer will be 3  as you can see"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 159.0,
+            "end": 169.0,
+            "text": " so these are our default arguments  we can provide a default value while creating a function  this way the function assumes a default value  even if a value is not provided in the function  for that argument"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 169.0,
+            "end": 179.0,
+            "text": " now here I want to give a value  and want to put b value as default  so what I will do here  let's say I give 4 or 5  and I run it"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 179.0,
+            "end": 188.0,
+            "text": " so you can see I gave a value as 5  and I didn't give b value  so b value will be 1  and 5 plus 1 by 2  6 by 2 means 3 will be printed"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 188.0,
+            "end": 197.0,
+            "text": " if I want to give b value  then I will write something like this  let's say b is equal to 9  a value is 9  b value will be 9"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 197.0,
+            "end": 208.0,
+            "text": " and 9.0 will be printed  so I can give any value like this  and the other value  will be taken from the default arguments  so these are the default arguments"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 208.0,
+            "end": 220.0,
+            "text": " now here I have given an example  that a function named name is made  first name, middle name, last name  and after that if you give only first name  then your middle name and last name"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 220.0,
+            "end": 232.0,
+            "text": " will be from the default arguments  if you give all three  then obviously your first name, middle name  and last name will be from the default arguments  and I want to run this example"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 232.0,
+            "end": 242.0,
+            "text": " and see here  when we are printing  hello amy john watson is written  if I write here  amy agarwal"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 242.0,
+            "end": 252.0,
+            "text": " then amy agarwal watson  will be printed  you can see amy agarwal watson  if I print  amy agarwal jain"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 252.0,
+            "end": 262.0,
+            "text": " then amy agarwal jain will be printed  so we have seen  that amy agarwal jain is printed  now what we will do  I will remove this example"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 262.0,
+            "end": 272.0,
+            "text": " because it is already given in rappel  now let's talk about keyword arguments  keyword arguments  are very simple arguments  which you can give like this"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 272.0,
+            "end": 282.0,
+            "text": " you can change the order of arguments  like in this case  if I want to give value of b  then I can give value of b as 9  and a is equal to 21"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 282.0,
+            "end": 292.0,
+            "text": " and if a is equal to 21  then b is equal to 9  so I don't need to give in that order  so this is how they are used  we can provide arguments with key is equal to value"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 292.0,
+            "end": 302.0,
+            "text": " this way the interpreter recognizes the arguments  by the parameter name  hence the order in which the arguments are passed  does not matter  if you want that order doesn't matter"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 302.0,
+            "end": 312.0,
+            "text": " if you give arguments by default  then you have to give a first  if you use this kind of syntax  then you don't have to  care about the order"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 312.0,
+            "end": 322.0,
+            "text": " so here this thing is also clear  now see what are required arguments  required arguments are those arguments  which you have to give  now if I don't write a is equal to 9"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 322.0,
+            "end": 332.0,
+            "text": " then a will become required argument  you have to give value of a  you can't escape from that  so you have to give value of a  whether you give value of b or not"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 332.0,
+            "end": 342.0,
+            "text": " if you give then it will take that value  if you don't give then  it will take the default value of b  simple thing  in case we don't pass the arguments"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 342.0,
+            "end": 352.0,
+            "text": " it is necessary to pass the arguments  in the correct position order  and the number of arguments passed  should match with actual function definition  this is very important"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 352.0,
+            "end": 362.0,
+            "text": " if here value of a, b and c are taken  suppose 3 values are taken  c is also taken  so I write a, b and c is equal to 1  so c is optional"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 362.0,
+            "end": 372.0,
+            "text": " if you are giving a or b  without key is equal to value  then you have to give like this  suppose 5, 6  so value of a is 5 and value of b is 6"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 372.0,
+            "end": 382.0,
+            "text": " and here I will comment  this function  because I have to give 3 values  so average is 6.0  value of a is 5, value of b is 6"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 382.0,
+            "end": 392.0,
+            "text": " and default value of c is taken  so this is how  you can do  now you have to  run this"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 392.0,
+            "end": 402.0,
+            "text": " and tell me  whether you could do it successfully  or not, whether you understood things or not  now let's see about  variable length argument"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 402.0,
+            "end": 412.0,
+            "text": " so what happens is  you can give variable length argument  like  suppose I have to get average of many numbers  now I can get"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 412.0,
+            "end": 422.0,
+            "text": " average of 3 numbers, 4 numbers  I can get average of 10 numbers  so what I will do  I will do something like this  I will do numbers"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 422.0,
+            "end": 434.0,
+            "text": " I will comment this  and I will write it again  I will comment this also  and I will write this function again  so I will write here"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 434.0,
+            "end": 444.0,
+            "text": " star numbers  now numbers  is an iterable  for i in numbers  and I will write"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 444.0,
+            "end": 454.0,
+            "text": " sum is equal to  sum plus i  and finally what I will do  that  I will write print"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 454.0,
+            "end": 464.0,
+            "text": " average is  and I will write here  something like this  average is sum  divided by length of"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 464.0,
+            "end": 474.0,
+            "text": " numbers  and I will initialize  sum from 0  something like this  and finally if I will do average 5, 6"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 474.0,
+            "end": 484.0,
+            "text": " so it is giving me 5.5  so what happened is  it took numbers as a tuple  if I print here  type of numbers"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 484.0,
+            "end": 494.0,
+            "text": " so I will get tuple  so it will take as a tuple  so it will take tuple  so I hope  you are getting it"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 494.0,
+            "end": 504.0,
+            "text": " how it is working behind the scenes  what is happening is  I am getting a tuple of numbers  means I am getting a list of numbers  so we will see in the future"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 504.0,
+            "end": 514.0,
+            "text": " what is the difference in tuple list  and how we can use it  but for now you can understand  that we have looped on it  and we have added all the numbers"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 514.0,
+            "end": 524.0,
+            "text": " and divided all the numbers  from them  what we got by doing this  we are able to get average  now I can get 5, 6 or 5, 6, 7"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 524.0,
+            "end": 534.0,
+            "text": " or 15 or 25  no problem  now 6 is here  if I do this  so the average will change"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 534.0,
+            "end": 544.0,
+            "text": " sum divided by length  in this case it is 4  so it will be divided by 4  so I hope you understood  now assume that"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 544.0,
+            "end": 554.0,
+            "text": " I want to take as a dictionary  my arguments  so what I can do  I can use this kind of syntax  I will copy it and show you"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 554.0,
+            "end": 564.0,
+            "text": " and I am commenting the average  so there is a function named name  if I will write star star name  so whatever key is equal to value  I will give it"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 564.0,
+            "end": 574.0,
+            "text": " I will get it as a dictionary  I will come back to this example  when I will teach you the dictionary  for now if you don't understand it  so that's fine"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 574.0,
+            "end": 584.0,
+            "text": " so I wrote hello here  and the first name of the name  middle name and last name  you got it like this  so what you are doing here"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 584.0,
+            "end": 594.0,
+            "text": " you are taking the name as a dictionary  so if I will  type print type of name  so it will be printed as a dictionary  so I will indent it properly"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 594.0,
+            "end": 604.0,
+            "text": " in fact I did it a little more  but that's fine  so you can see here  what is happening  indentation error"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 604.0,
+            "end": 614.0,
+            "text": " so class dict is printed here  so why class dict is printed  because  it is taking as a dictionary  when we pass key value pairs"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 614.0,
+            "end": 624.0,
+            "text": " and double star here  so in function we get  a dictionary named name  so for now you take care of it  and if you don't understand it"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 624.0,
+            "end": 634.0,
+            "text": " that's totally fine  because I will teach you  in the chapter of dictionary  so we will see it that day  for now you can ignore it"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 634.0,
+            "end": 644.0,
+            "text": " now come back to my average function  now what happens  when I am running the function  so I want  function to return a value"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 644.0,
+            "end": 654.0,
+            "text": " instead of  printing the average I want it to  return  so I will write return here  and you keep watching"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 654.0,
+            "end": 664.0,
+            "text": " as soon as I will write return here  and I will write here c is equal to this  and I will print c  so I will get this value here  so basically what is this average"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 664.0,
+            "end": 674.0,
+            "text": " it is computing average of all numbers  and it is storing it in c  so what happens by return  so when you return it will be stored here  so in calling function"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 674.0,
+            "end": 684.0,
+            "text": " there you will get the value  which you want finally  what you want from average, you want value  so now if I run it  so you will see that"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 684.0,
+            "end": 694.0,
+            "text": " average of these numbers will come in c  so you will get 4.75  if I don't return this  so you will get none  because this function is not returning"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 694.0,
+            "end": 704.0,
+            "text": " so you will see none  but I want to return this value  so if I return 7  so what will I get, obviously 7  if we put two return statements"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 704.0,
+            "end": 714.0,
+            "text": " so first return is accepted  and second return  and all the returns you put after that  are ignored, whatever return  you got earlier, if you are putting return in else"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 714.0,
+            "end": 724.0,
+            "text": " so whatever return you got earlier  that value will be finalized  and this function will return, return means  return this value, what does it mean  everyone write in the comment, return means"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 724.0,
+            "end": 734.0,
+            "text": " return this value, so this average function  will return 7 value  will give to c and print c  will give 7, but that's not what  we want, we want"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 734.0,
+            "end": 744.0,
+            "text": " sum divided by len of numbers  that's why we want 4.75  so we are getting 4.75  you can see here  average 5671"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 744.0,
+            "end": 754.0,
+            "text": " we printed 4.75, so return  statement is used to return the value of the  expression back to the calling function  calling function in this case is average  it gets back the value"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 754.0,
+            "end": 764.0,
+            "text": " which value?  this value which  average function has computed  sum by len of numbers because it is 4.75  I hope you understood"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 764.0,
+            "end": 774.0,
+            "text": " this, you can read this  again and if you find  this difficult, that's totally fine  because we are going to see tuple  we are going to see dictionary"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 774.0,
+            "end": 784.0,
+            "text": " so if you didn't understand this bit  this  no, not this, this  double star and star, that's totally  fine, here we"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 784.0,
+            "end": 794.0,
+            "text": " get our arguments in  tuple and here  we get our key value pair  arguments in dictionary  if you didn't understand"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 794.0,
+            "end": 804.0,
+            "text": " that's totally fine because we are going to  reiterate this in tuple and dictionary  so if you haven't  accessed python's playlist  then do access it"
+        },
+        {
+            "number": "021 ",
+            "title": "Function Arguments in Python",
+            "start": 804.0,
+            "end": 812.0,
+            "text": " that's it for now, thank you  so much for watching this video  and I will see you next  time"
+        }
+    ],
+    "text": " What's up guys, you are back in 100 days of code and today I will tell you about function arguments that how can arguments be passed to function we said that function is used to separate code but there are many ways by which we can pass arguments to function we can pass some arguments to function as a tuple and we can pass as a dictionary let's go to the computer screen and see how default arguments are passed many arguments which you want to pass in bulk how are they passed let's get started Code Separation we all know that function is used to separate code and we can repeat it as many times as we want today I will create a function and I will name it as average and I will print and I will print the average is and I will write here a plus b by 2 now you have to remember one thing that if you are doing calculation like this then you should know that which calculation you want to do first in this case if I show you I want to do a plus b by 2 first and after that I want to do this by 2 so I will run this program so you can see here nothing happened why nothing happened because I have given two numbers which I have to calculate the average and obviously I will do a comma b and now I will run as you can see the average is 5.0 it is printed here so this is a simple function there are four types of arguments that we can provide in a function default arguments, keyword arguments variable length arguments and required arguments in this case a and b are required arguments now let's talk about default arguments I can give a value 9 and b value 1 by default in this case if I run the average I will run the average like this then it will work and it will assume a value as 9 and b value as 1 and give me 5 but if I give a value as 1 and b value as 5 then it will ignore 9 and 1 and it will take a and b value respectively so my answer will be 3 as you can see so these are our default arguments we can provide a default value while creating a function this way the function assumes a default value even if a value is not provided in the function for that argument now here I want to give a value and want to put b value as default so what I will do here let's say I give 4 or 5 and I run it so you can see I gave a value as 5 and I didn't give b value so b value will be 1 and 5 plus 1 by 2 6 by 2 means 3 will be printed if I want to give b value then I will write something like this let's say b is equal to 9 a value is 9 b value will be 9 and 9.0 will be printed so I can give any value like this and the other value will be taken from the default arguments so these are the default arguments now here I have given an example that a function named name is made first name, middle name, last name and after that if you give only first name then your middle name and last name will be from the default arguments if you give all three then obviously your first name, middle name and last name will be from the default arguments and I want to run this example and see here when we are printing hello amy john watson is written if I write here amy agarwal then amy agarwal watson will be printed you can see amy agarwal watson if I print amy agarwal jain then amy agarwal jain will be printed so we have seen that amy agarwal jain is printed now what we will do I will remove this example because it is already given in rappel now let's talk about keyword arguments keyword arguments are very simple arguments which you can give like this you can change the order of arguments like in this case if I want to give value of b then I can give value of b as 9 and a is equal to 21 and if a is equal to 21 then b is equal to 9 so I don't need to give in that order so this is how they are used we can provide arguments with key is equal to value this way the interpreter recognizes the arguments by the parameter name hence the order in which the arguments are passed does not matter if you want that order doesn't matter if you give arguments by default then you have to give a first if you use this kind of syntax then you don't have to care about the order so here this thing is also clear now see what are required arguments required arguments are those arguments which you have to give now if I don't write a is equal to 9 then a will become required argument you have to give value of a you can't escape from that so you have to give value of a whether you give value of b or not if you give then it will take that value if you don't give then it will take the default value of b simple thing in case we don't pass the arguments it is necessary to pass the arguments in the correct position order and the number of arguments passed should match with actual function definition this is very important if here value of a, b and c are taken suppose 3 values are taken c is also taken so I write a, b and c is equal to 1 so c is optional if you are giving a or b without key is equal to value then you have to give like this suppose 5, 6 so value of a is 5 and value of b is 6 and here I will comment this function because I have to give 3 values so average is 6.0 value of a is 5, value of b is 6 and default value of c is taken so this is how you can do now you have to run this and tell me whether you could do it successfully or not, whether you understood things or not now let's see about variable length argument so what happens is you can give variable length argument like suppose I have to get average of many numbers now I can get average of 3 numbers, 4 numbers I can get average of 10 numbers so what I will do I will do something like this I will do numbers I will comment this and I will write it again I will comment this also and I will write this function again so I will write here star numbers now numbers is an iterable for i in numbers and I will write sum is equal to sum plus i and finally what I will do that I will write print average is and I will write here something like this average is sum divided by length of numbers and I will initialize sum from 0 something like this and finally if I will do average 5, 6 so it is giving me 5.5 so what happened is it took numbers as a tuple if I print here type of numbers so I will get tuple so it will take as a tuple so it will take tuple so I hope you are getting it how it is working behind the scenes what is happening is I am getting a tuple of numbers means I am getting a list of numbers so we will see in the future what is the difference in tuple list and how we can use it but for now you can understand that we have looped on it and we have added all the numbers and divided all the numbers from them what we got by doing this we are able to get average now I can get 5, 6 or 5, 6, 7 or 15 or 25 no problem now 6 is here if I do this so the average will change sum divided by length in this case it is 4 so it will be divided by 4 so I hope you understood now assume that I want to take as a dictionary my arguments so what I can do I can use this kind of syntax I will copy it and show you and I am commenting the average so there is a function named name if I will write star star name so whatever key is equal to value I will give it I will get it as a dictionary I will come back to this example when I will teach you the dictionary for now if you don't understand it so that's fine so I wrote hello here and the first name of the name middle name and last name you got it like this so what you are doing here you are taking the name as a dictionary so if I will type print type of name so it will be printed as a dictionary so I will indent it properly in fact I did it a little more but that's fine so you can see here what is happening indentation error so class dict is printed here so why class dict is printed because it is taking as a dictionary when we pass key value pairs and double star here so in function we get a dictionary named name so for now you take care of it and if you don't understand it that's totally fine because I will teach you in the chapter of dictionary so we will see it that day for now you can ignore it now come back to my average function now what happens when I am running the function so I want function to return a value instead of printing the average I want it to return so I will write return here and you keep watching as soon as I will write return here and I will write here c is equal to this and I will print c so I will get this value here so basically what is this average it is computing average of all numbers and it is storing it in c so what happens by return so when you return it will be stored here so in calling function there you will get the value which you want finally what you want from average, you want value so now if I run it so you will see that average of these numbers will come in c so you will get 4.75 if I don't return this so you will get none because this function is not returning so you will see none but I want to return this value so if I return 7 so what will I get, obviously 7 if we put two return statements so first return is accepted and second return and all the returns you put after that are ignored, whatever return you got earlier, if you are putting return in else so whatever return you got earlier that value will be finalized and this function will return, return means return this value, what does it mean everyone write in the comment, return means return this value, so this average function will return 7 value will give to c and print c will give 7, but that's not what we want, we want sum divided by len of numbers that's why we want 4.75 so we are getting 4.75 you can see here average 5671 we printed 4.75, so return statement is used to return the value of the expression back to the calling function calling function in this case is average it gets back the value which value? this value which average function has computed sum by len of numbers because it is 4.75 I hope you understood this, you can read this again and if you find this difficult, that's totally fine because we are going to see tuple we are going to see dictionary so if you didn't understand this bit this no, not this, this double star and star, that's totally fine, here we get our arguments in tuple and here we get our key value pair arguments in dictionary if you didn't understand that's totally fine because we are going to reiterate this in tuple and dictionary so if you haven't accessed python's playlist then do access it that's it for now, thank you so much for watching this video and I will see you next time"
+}

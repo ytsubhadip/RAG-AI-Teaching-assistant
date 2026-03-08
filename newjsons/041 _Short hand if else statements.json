@@ -1,0 +1,271 @@
+{
+    "chunks": [
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 0.0,
+            "end": 17.240000000000002,
+            "text": " In today's video, I'll tell you about shorthand if-else.  We had studied about if-else in Python and we had used it a lot.  But today, I'll tell you about a shortcut method, a one-liner method  which will help you write expressions quickly  and will make your life very easy in terms of Python programming."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 17.240000000000002,
+            "end": 37.36,
+            "text": " Let's go to the computer screen and let's get started.  \ud83c\udfb6Music\ud83c\udfb6  Now let's talk about shorthand if-else.  Because shorthand if-else is something that will save you a lot of time.  Especially when you have to write expressions."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 37.36,
+            "end": 52.0,
+            "text": " So here I have opened my REPL, as you can see.  Now here I have written a program in main.py.  In fact, I have copied this program.  So, let's say my value of A is 330.  And my value of B is 3330."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 52.0,
+            "end": 63.0,
+            "text": " So I can say something like this.  Print A if A is greater than B.  Otherwise, print equals to...  If A equals to equals to B.  Otherwise, print B."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 63.0,
+            "end": 77.96000000000001,
+            "text": " And it is very readable.  According to me, no one should have any problem with this.  If you have any problem, then tell me. I don't think there should be any problem with this.  Because it is very readable.  Now if I run this, then what will happen? Tell me."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 77.96000000000001,
+            "end": 85.56,
+            "text": " Is A greater than B? No.  So it will move forward.  First of all, I have said that print A if A is greater than B.  But A is not greater than B.  Okay?"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 85.56,
+            "end": 95.36,
+            "text": " So it will say, okay, no problem.  Let's move forward.  Otherwise, print equals to if A equals to B.  Is it equals to? No.  So it will move forward."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 95.36,
+            "end": 104.16,
+            "text": " Else print B.  That's why B will be printed. Capital B.  Note that it is in double quote.  So capital B will be printed.  The value of B will not be printed. Okay?"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 104.2,
+            "end": 112.72,
+            "text": " I hope you will not have such confusions now.  Because capital B is in double quote.  If I had written small b, then the value of B would have been printed.  If I had written capital B, then what would have happened?  Tell me in the comment."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 112.72,
+            "end": 121.64,
+            "text": " Without double quotes.  What would have happened? Tell me in the comments below.  Do write the timestamp that this would have happened.  Okay?  Write the timestamp of this time."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 121.64,
+            "end": 132.04,
+            "text": " Then say that this will be the output.  I want to know what is in your mind.  I am waiting for your comment.  If you have written a syntax error, then it is correct.  Because there is no variable named capital B."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 132.04,
+            "end": 142.04,
+            "text": " I hope this thing is clear to everyone.  So what is here?  There is also a shorthand syntax  for the if-else statement.  That can be used when the condition being tested is simple."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 142.04,
+            "end": 154.04,
+            "text": " And the code blocks to be executed are short.  Sometimes code blocks are short.  Just think that I have to simply write  that print A if A is greater than B.  So I have to write such bad indents."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 154.04,
+            "end": 166.64,
+            "text": " This can be written in a simple one-liner in Python.  And Python is famous for this thing that it is readable.  Okay?  So here you see that if I have to write only this much,  I can write print 9 if A is less than B."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 166.64,
+            "end": 175.64,
+            "text": " And after else, I will put a double quote.  Else double quote.  It is necessary to put a double quote and write else.  Otherwise, there will be a syntax error.  So if I write like this,"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 175.64,
+            "end": 185.64,
+            "text": " then if A is less than B, then it will be printed.  If I make it A greater than B,  then what will happen?  Nothing will happen.  Because I have written an expression."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 185.64,
+            "end": 199.64,
+            "text": " So you can see here that I can use if-else like this.  If A is greater than B, then this thing will happen.  Otherwise, it will not happen.  Okay.  Now I will write here that C equals to 9 if A is greater than B."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 199.64,
+            "end": 209.64,
+            "text": " Something like this.  Else 0.  So will this work?  If I print C here now,  then will it give me the value of C as 9 if A is greater than B?"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 209.64,
+            "end": 217.64,
+            "text": " Yes, it will definitely give it if A is greater than B.  But in this case, A is less than B.  That's why it made the value of C 0.  If I increase it, A.  Okay?"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 217.64,
+            "end": 229.64,
+            "text": " If I increase A.  So you see that the upper output has also changed.  A is coming here and 9 is coming here.  So in this way, we can also write expressions.  If we write conditional expressions in a single line, then we can also write that."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 229.64,
+            "end": 240.64,
+            "text": " Either knock the value of C if A is greater than B,  or make it 0.  And if you want to see the complex one, then this is a big syntax above.  What will happen is that it goes left to right.  What will you do now?"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 240.64,
+            "end": 251.64,
+            "text": " Print A if A is greater than B.  If A is greater than B, then print A will happen.  Otherwise, print equals to if A equals to equals to B.  So this is one thing.  This syntax is kept to make it readable."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 251.64,
+            "end": 261.64,
+            "text": " Otherwise, print B.  So this is how else is happening.  Otherwise, if you read, things will be simple.  Okay?  You can also have multiple statements."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 261.64,
+            "end": 271.64,
+            "text": " Like I told you and I have written this example here.  Another example you see here.  Result equals to value if true.  Here I wrote the generic example.  Okay? This is equivalent to this."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 271.64,
+            "end": 282.64,
+            "text": " So you can write any variable name here.  And after that, you can write any condition here.  Or you can write value.  If you write a condition, then result equals to true or false will come.  According to that, write the value."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 282.64,
+            "end": 295.64,
+            "text": " Whatever value you write, like I wrote 9 here.  And after that, write a condition here.  If that condition is true, then the value of the result will be that value.  If the condition is false, then the value of the result will be this.  Okay? So this is a generic example."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 295.64,
+            "end": 316.64,
+            "text": " And by writing this syntax, you are saved from writing so big.  Okay? So this is our shorthand FL statement.  Shorthand syntax can be a convenient way to write simple FL statements.  Especially when you want to assign a value to a variable based on a condition.  If you want to assign a value to a variable based on a condition, then you can do this."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 316.64,
+            "end": 332.64,
+            "text": " However, it is not suitable for some complex situations where you need to execute multiple statements  and perform more complex logic.  Because see what happens is that this readability is spoiling the code.  If there is complex logic.  And if there is no complex logic, then it is making readability simple."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 332.64,
+            "end": 344.64,
+            "text": " I also believe this.  If you try to become such a hero  that your FL slider is of 10 to 12 lines.  Now you are saying that I will make it in shorthand.  You will make it. I agree."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 344.64,
+            "end": 354.64,
+            "text": " But will it make your readability right?  Will it make your readability?  Your readability will be spoiled by it.  Will you want this? Will you not want this?  I will not want this for you."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 354.64,
+            "end": 366.64,
+            "text": " I will want good for you.  So this thing happens.  We don't want to spoil the readability.  We have to use the shorthand where it is being used.  If it is not being used, then we are happy with our big statements."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 366.64,
+            "end": 376.64,
+            "text": " Never think that by increasing the name of the variable,  the number of lines of code will increase.  You will have a problem.  The readability will be less.  The most important thing is the maintenance of the code."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 376.64,
+            "end": 387.64,
+            "text": " The code I have written today.  After 10 years, if I am picked up and slept,  I will still tell that code how it was written and why it was written.  What was the purpose of it?  If yes, then your code is maintainable."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 387.64,
+            "end": 401.64,
+            "text": " If not, then your code is not maintainable.  Remember that the genius programmers do not write code for themselves.  They write code for other programmers so that they also understand.  So always remember this thing.  Whatever the programming language, this thing holds true."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 401.64,
+            "end": 411.64,
+            "text": " I hope you are enjoying this course.  If no one has accessed the playlist at this point,  then do access it.  By the way, I want to show you something.  And I show you."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 411.64,
+            "end": 427.64,
+            "text": " So if you go to the home page of raplet and then you go to the learn page,  then I will show you on the learn page of raplet.  Our 100 days of code python has been featured.  Which is amazing.  Where did I see 100 days of code python?"
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 427.64,
+            "end": 436.64,
+            "text": " I saw it somewhere.  Here is 100 days of code python.  You see here 100 days of code python.  Here, raplet has featured on our learn page.  Which is amazing."
+        },
+        {
+            "number": "041 ",
+            "title": "Short hand if else statements",
+            "start": 436.64,
+            "end": 447.64,
+            "text": " Thank you so much.  And that's it for this video.  Thank you so much for watching this video.  And I will see you next time.  Thank you."
+        }
+    ],
+    "text": " In today's video, I'll tell you about shorthand if-else. We had studied about if-else in Python and we had used it a lot. But today, I'll tell you about a shortcut method, a one-liner method which will help you write expressions quickly and will make your life very easy in terms of Python programming. Let's go to the computer screen and let's get started. \ud83c\udfb6Music\ud83c\udfb6 Now let's talk about shorthand if-else. Because shorthand if-else is something that will save you a lot of time. Especially when you have to write expressions. So here I have opened my REPL, as you can see. Now here I have written a program in main.py. In fact, I have copied this program. So, let's say my value of A is 330. And my value of B is 3330. So I can say something like this. Print A if A is greater than B. Otherwise, print equals to... If A equals to equals to B. Otherwise, print B. And it is very readable. According to me, no one should have any problem with this. If you have any problem, then tell me. I don't think there should be any problem with this. Because it is very readable. Now if I run this, then what will happen? Tell me. Is A greater than B? No. So it will move forward. First of all, I have said that print A if A is greater than B. But A is not greater than B. Okay? So it will say, okay, no problem. Let's move forward. Otherwise, print equals to if A equals to B. Is it equals to? No. So it will move forward. Else print B. That's why B will be printed. Capital B. Note that it is in double quote. So capital B will be printed. The value of B will not be printed. Okay? I hope you will not have such confusions now. Because capital B is in double quote. If I had written small b, then the value of B would have been printed. If I had written capital B, then what would have happened? Tell me in the comment. Without double quotes. What would have happened? Tell me in the comments below. Do write the timestamp that this would have happened. Okay? Write the timestamp of this time. Then say that this will be the output. I want to know what is in your mind. I am waiting for your comment. If you have written a syntax error, then it is correct. Because there is no variable named capital B. I hope this thing is clear to everyone. So what is here? There is also a shorthand syntax for the if-else statement. That can be used when the condition being tested is simple. And the code blocks to be executed are short. Sometimes code blocks are short. Just think that I have to simply write that print A if A is greater than B. So I have to write such bad indents. This can be written in a simple one-liner in Python. And Python is famous for this thing that it is readable. Okay? So here you see that if I have to write only this much, I can write print 9 if A is less than B. And after else, I will put a double quote. Else double quote. It is necessary to put a double quote and write else. Otherwise, there will be a syntax error. So if I write like this, then if A is less than B, then it will be printed. If I make it A greater than B, then what will happen? Nothing will happen. Because I have written an expression. So you can see here that I can use if-else like this. If A is greater than B, then this thing will happen. Otherwise, it will not happen. Okay. Now I will write here that C equals to 9 if A is greater than B. Something like this. Else 0. So will this work? If I print C here now, then will it give me the value of C as 9 if A is greater than B? Yes, it will definitely give it if A is greater than B. But in this case, A is less than B. That's why it made the value of C 0. If I increase it, A. Okay? If I increase A. So you see that the upper output has also changed. A is coming here and 9 is coming here. So in this way, we can also write expressions. If we write conditional expressions in a single line, then we can also write that. Either knock the value of C if A is greater than B, or make it 0. And if you want to see the complex one, then this is a big syntax above. What will happen is that it goes left to right. What will you do now? Print A if A is greater than B. If A is greater than B, then print A will happen. Otherwise, print equals to if A equals to equals to B. So this is one thing. This syntax is kept to make it readable. Otherwise, print B. So this is how else is happening. Otherwise, if you read, things will be simple. Okay? You can also have multiple statements. Like I told you and I have written this example here. Another example you see here. Result equals to value if true. Here I wrote the generic example. Okay? This is equivalent to this. So you can write any variable name here. And after that, you can write any condition here. Or you can write value. If you write a condition, then result equals to true or false will come. According to that, write the value. Whatever value you write, like I wrote 9 here. And after that, write a condition here. If that condition is true, then the value of the result will be that value. If the condition is false, then the value of the result will be this. Okay? So this is a generic example. And by writing this syntax, you are saved from writing so big. Okay? So this is our shorthand FL statement. Shorthand syntax can be a convenient way to write simple FL statements. Especially when you want to assign a value to a variable based on a condition. If you want to assign a value to a variable based on a condition, then you can do this. However, it is not suitable for some complex situations where you need to execute multiple statements and perform more complex logic. Because see what happens is that this readability is spoiling the code. If there is complex logic. And if there is no complex logic, then it is making readability simple. I also believe this. If you try to become such a hero that your FL slider is of 10 to 12 lines. Now you are saying that I will make it in shorthand. You will make it. I agree. But will it make your readability right? Will it make your readability? Your readability will be spoiled by it. Will you want this? Will you not want this? I will not want this for you. I will want good for you. So this thing happens. We don't want to spoil the readability. We have to use the shorthand where it is being used. If it is not being used, then we are happy with our big statements. Never think that by increasing the name of the variable, the number of lines of code will increase. You will have a problem. The readability will be less. The most important thing is the maintenance of the code. The code I have written today. After 10 years, if I am picked up and slept, I will still tell that code how it was written and why it was written. What was the purpose of it? If yes, then your code is maintainable. If not, then your code is not maintainable. Remember that the genius programmers do not write code for themselves. They write code for other programmers so that they also understand. So always remember this thing. Whatever the programming language, this thing holds true. I hope you are enjoying this course. If no one has accessed the playlist at this point, then do access it. By the way, I want to show you something. And I show you. So if you go to the home page of raplet and then you go to the learn page, then I will show you on the learn page of raplet. Our 100 days of code python has been featured. Which is amazing. Where did I see 100 days of code python? I saw it somewhere. Here is 100 days of code python. You see here 100 days of code python. Here, raplet has featured on our learn page. Which is amazing. Thank you so much. And that's it for this video. Thank you so much for watching this video. And I will see you next time. Thank you."
+}

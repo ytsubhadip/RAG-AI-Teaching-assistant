@@ -1,0 +1,712 @@
+{
+    "chunks": [
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 0.0,
+            "end": 22.8,
+            "text": " Guys, you must have seen a lot of command line utilities  which are invoked from the terminal and run.  In today's video, we will see how you can make a command line utility with the help of Python.  Let's go to the computer screen and let's get started.  Intro"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 22.8,
+            "end": 38.0,
+            "text": " So guys, today we are going to see how to make a command line utility in Python.  You will find my voice a little weird.  I am not really very well.  But again, I don't want to break the streak of 100 days of code.  And here you can see that we are going to make it using the R-Parse module."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 38.0,
+            "end": 57.5,
+            "text": " The code I copied is from here.  I want to start with a clean slate just for you guys.  And here I want to tell you quickly what is a command line utility.  I will show you this in the Mac.  And along with that, here is wget."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 57.5,
+            "end": 68.9,
+            "text": " There is no wget here.  I think there is curl in it.  Yes, there is curl.  You can see that there is a command called curl.  Try curl--help or curl--manual."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 69.8,
+            "end": 84.4,
+            "text": " curl--manual  Their manuals have very dangerous English written in it.  And I used to struggle a lot with English.  At one time, my English was so weak that I couldn't do anything.  And there were small words in English."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 84.4,
+            "end": 102.3,
+            "text": " Once what happened was that I used to think of respect as being given.  As it is written somewhere, Ram, Shyam and Mohan respectively.  So I thought that they were giving respect to Ram, Shyam and Mohan.  I saw what was written in the copy, Lithium, Beryllium and Boron respectively.  I said why is Lithium, Beryllium and Boron being respected?"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 102.3,
+            "end": 113.3,
+            "text": " I said that Ram, Shyam and Mohan were being given.  Why are we giving respect to them?  Then I understood that respect is not respect.  It is something else.  It means that we see things in sequence."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 113.3,
+            "end": 125.89999999999999,
+            "text": " So I keep confusing a lot of things.  Not now, I used to do a lot before.  But coming back to the topic of command line utility.  Curl is a command line utility.  If I say here that curl and along with it,"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 125.89999999999999,
+            "end": 141.9,
+            "text": " I write index of movies here.  So here you can see 3gpvid.com background.jpg  Suppose I want to download this.  I have taken a very random one.  URL"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 141.9,
+            "end": 151.5,
+            "text": " And what happened here?  I do ctrl c.  Command c.  Curl, ctrl b, enter.  What will happen by doing this?"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 151.5,
+            "end": 161.5,
+            "text": " Binary output can mess up your terminal.  Okay.  So what happens in this?  Warning file to save to file.  So it is saying that you use minus minus output."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 161.5,
+            "end": 170.5,
+            "text": " And harry.jpg  So see it downloaded.  Harry.jpg  Now I can say here  .slash harry.jpg"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 170.5,
+            "end": 182.1,
+            "text": " Permission denied.  So if I do ls, you will see harry.jpg here.  I can show you from here.  You can see here.  You can see harry.jpg"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 182.1,
+            "end": 193.1,
+            "text": " I downloaded this.  So curl is a command line utility.  You can make a command line utility like curl in python.  So command line utility means  a utility which can be used by giving command on command line."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 193.1,
+            "end": 203.1,
+            "text": " Like I gave command to this.  What command did I give it?  I said, download from this URL.  And save it from this file name.  So I gave these two commands through command line."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 203.7,
+            "end": 213.7,
+            "text": " There is another way to take command.  What input?  We have seen that we take user input.  And we tell our program.  That we have to see things like this."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 213.7,
+            "end": 223.7,
+            "text": " It will be like this.  So that also happens.  You understood this thing well.  Now here creating command line utilities in python.  So command line utilities are programs"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 223.7,
+            "end": 234.29999999999998,
+            "text": " which can be run from terminal.  Like curl I showed you how to run it.  And they are essential for many development workflows.  Like curl I personally use a lot.  And in python you can create it with the help of arc parse module."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 234.29999999999998,
+            "end": 244.29999999999998,
+            "text": " So is the arc parse module built in?  Or you have to install it?  So sometimes if you don't remember.  Then do it yourself.  So you will import arc parse."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 244.29999999999998,
+            "end": 254.29999999999998,
+            "text": " So you see there is no error.  But if you import sklearn.  Then it may give you an error.  If it is not installed.  It will be installed in mine."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 254.29999999999998,
+            "end": 264.90000000000003,
+            "text": " But if you import  say pymovie.  So it says no module named pymovie.  So you will see an error like this.  If it is not a built in module."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 264.90000000000003,
+            "end": 274.90000000000003,
+            "text": " Or it is not a module which you have installed.  Now here arc parse is a built in module.  So it is a good thing for me.  Now you see what I have done here.  I have imported arc parse."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 274.90000000000003,
+            "end": 284.90000000000003,
+            "text": " And I have said parser is equal to arc parse.argument parser.  So I have made my parser instance.  Then I said add this command.  Like I want to add.  File to download."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 284.90000000000003,
+            "end": 295.5,
+            "text": " And after this help is equal to.  I want to do.  URL of the file.  To download.  And I will."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 295.5,
+            "end": 305.5,
+            "text": " Make file URL.  And I will name it.  File URL.  And what is this.  Output."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 305.5,
+            "end": 315.5,
+            "text": " What name to save this.  How.  By which name.  Do you want to save.  Your."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 315.5,
+            "end": 326.1,
+            "text": " File.  Then after this.  We do arcs is equal to parser.parse arcs.  What happens with this.  All the arguments given."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 326.1,
+            "end": 336.1,
+            "text": " Are parsed.  And in this case we use our arguments.  In this case, you are printing.  But I am not using.  Arc1 and Arc2."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 336.1,
+            "end": 346.1,
+            "text": " Because I am using URL and output.  And how will I download.  A file.  I will go to the net.  How to download a file."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 346.70000000000005,
+            "end": 356.70000000000005,
+            "text": " I have done this.  And after doing this.  You can see.  I will get something.  Now what happens."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 356.70000000000005,
+            "end": 366.70000000000005,
+            "text": " Sometimes we get old code.  But on stack overflow.  Pick up recent code.  Here in the name of download file.  This is given."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 366.70000000000005,
+            "end": 377.3,
+            "text": " Here f.write is given.  What name to save.  Local file name.  I will do one thing.  I am a copy paster."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 377.3,
+            "end": 387.3,
+            "text": " You are also a copy paster.  You know this.  But we are copy pasters.  Copy paste coders.  There is no problem."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 387.3,
+            "end": 397.3,
+            "text": " Now here I will do.  Local file name.  I will keep the name.  And I will not do this.  Download file."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 397.3,
+            "end": 407.90000000000003,
+            "text": " Let's see what is the download file.  Download file.  Arcs.url.  Arcs.output.  Let's see if this works."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 407.90000000000003,
+            "end": 417.90000000000003,
+            "text": " What I will do.  I will not run it from this run.  I will run it in shell.  Python main.py.  I will take the url."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 417.90000000000003,
+            "end": 429.90000000000003,
+            "text": " Which file.  I closed the file.  I have to write index of images.  Maybe I will get an image.  3d chromosome.zip."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 429.90000000000003,
+            "end": 440.5,
+            "text": " Cell colony 2.  Let's download this.  And you see.  I pasted this.  Now I will save it."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 440.5,
+            "end": 452.5,
+            "text": " Harry.jpg.  Name request is not defined.  Let me import request.  If we want to use any module.  Will we import it or not?"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 452.5,
+            "end": 463.1,
+            "text": " I made a mistake.  But it is necessary to run it.  Once I run it.  Request module will be installed.  Let me see."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 463.1,
+            "end": 477.1,
+            "text": " If it runs.  It got the request.  You can see.  Harry.jpg is downloaded.  We made a command line utility."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 477.1,
+            "end": 489.1,
+            "text": " Which you can use easily.  You can see.  What I did.  I have to open main.py.  We made a useful command line utility."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 489.70000000000005,
+            "end": 499.70000000000005,
+            "text": " Now see one more thing.  If we want to give optional argument.  Let's say I want.  An optional argument.  If I have not given a file name."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 499.70000000000005,
+            "end": 511.70000000000005,
+            "text": " Then what should happen.  That file name should be automatically taken.  Like it was written here.  I copied it from here.  It was automatically taking the file name."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 511.70000000000005,
+            "end": 522.3000000000001,
+            "text": " From url.  That will also work.  If I didn't pass.  I want to make an optional argument.  I will do this."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 522.3000000000001,
+            "end": 532.3000000000001,
+            "text": " Let me do this.  How to add optional argument.  We will do it by dash.  I will copy this line.  And replace it with this line."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 532.3000000000001,
+            "end": 542.3000000000001,
+            "text": " Where I am taking the output.  I will make the output optional.  I will do minus o.  It is optional argument.  And here."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 542.3000000000001,
+            "end": 552.9,
+            "text": " The default value.  I will do one thing.  I will keep the default value as none.  Like this.  Now here."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 552.9,
+            "end": 562.9,
+            "text": " Name of the file.  Name of the file.  Name of the file.  Now what I will do.  I have given minus o."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 562.9,
+            "end": 572.9,
+            "text": " When I run it.  I will run it like this.  Minus o.  And harry.jpg.  Then I will get args.output."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 572.9,
+            "end": 583.5,
+            "text": " I will run it.  And you can see.  Namespace object has no attribute output.  I am facing a problem.  It is printed correctly."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 583.5,
+            "end": 593.5,
+            "text": " But .output is not printed.  I have kept it as o.  I will make it o.  In fact.  I want to check it."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 593.5,
+            "end": 603.5,
+            "text": " If I do optional argument like this.  args.  Here.  It is optional.  I will keep it as it is."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 604.1,
+            "end": 614.1,
+            "text": " I will keep it as output.  Now I want to run it.  And check if everything is correct.  Yes.  It is running."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 614.1,
+            "end": 624.1,
+            "text": " Now I will do it as harry3.jpg.  To check if it is working.  To check if it is working.  harry3.jpg.  Is it working?"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 624.1,
+            "end": 634.7,
+            "text": " harry3.jpg.  Is not working.  Because I overwrote the local file name.  I will do one thing.  I will comment it."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 634.7,
+            "end": 644.7,
+            "text": " It should be harry3.jpg.  I am checking if everything is working.  It should be working.  No harry3.jpg is not working.  It should be cellcolony2.jpg."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 644.7,
+            "end": 654.7,
+            "text": " I took it from this name.  But if I run it now.  It should be harry3.jpg.  I want to see what is going wrong.  Yes it is working."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 654.7,
+            "end": 665.3000000000001,
+            "text": " It takes time to save.  Now you know what we will do.  Now I want.  When I don't pass this argument.  I want to see the value."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 665.3000000000001,
+            "end": 675.3000000000001,
+            "text": " It is none.  Now it is saying local file url is none.  Now it is saying local file url is none.  What I will do?  If local file name is none."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 675.3000000000001,
+            "end": 685.3000000000001,
+            "text": " Then you do this.  Or don't do this.  Now you see here.  I clicked on url.  Now you see here."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 685.3000000000001,
+            "end": 695.9,
+            "text": " If I run it like this.  Cellcolony2.jpg  It will download it.  In fact I will have to delete it.  I will delete all the files."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 695.9,
+            "end": 705.9,
+            "text": " I will delete all the files.  I have deleted all the files.  I will run it like this.  If I don't give output by saying minus o.  I said I don't want to give name of file."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 705.9,
+            "end": 715.9,
+            "text": " I said I don't want to give name of file.  It will take by default like this.  And if I want.  Minus o.  Minus o."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 715.9,
+            "end": 726.5,
+            "text": " Suppose.  I want to save it by any name.  Mycell.jpg  I can do that too.  If I try to save it by mycell.jpg"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 726.5,
+            "end": 736.5,
+            "text": " Then it should have been saved by mycell.jpg  But it didn't.  Why it didn't?  I will delete it and see again.  Is there any problem?"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 736.5,
+            "end": 746.5,
+            "text": " Now you see.  Now you see the reason.  This none.  I have done it by default.  This none will come as a string."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 747.1,
+            "end": 757.1,
+            "text": " If I print the type of this.  Args.output  Args.output  It will show me a string.  Which will be a problem."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 757.1,
+            "end": 767.1,
+            "text": " I have written it as args.  I have written it as args.  I have written it as args.  No problem.  If I see the type of this."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 767.1,
+            "end": 777.7,
+            "text": " Why it is saying args.  It didn't save.  See class str.  I don't want.  The type is a string."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 777.7,
+            "end": 787.7,
+            "text": " Or if I want to keep a string.  I will do like this.  If it is none.  But it has a solution.  This problem has a solution."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 787.7,
+            "end": 797.7,
+            "text": " If I want the type to be none.  Then I can specify type here.  See adding argument with type.  How will you do?  Type is equal to none."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 797.7,
+            "end": 808.3000000000001,
+            "text": " I will say.  Default is equal to none.  And type is equal to.  I don't want to do none.  Because the name of the output is by default string."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 808.3000000000001,
+            "end": 818.3000000000001,
+            "text": " I just want to tell you.  If you want to take a string.  Or you want to take an int.  Then you can do type is equal to.  But I will not do this here."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 818.3000000000001,
+            "end": 828.3000000000001,
+            "text": " My program will work just fine.  See here.  If I run it like this.  It is saying.  Is with literal."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 828.3000000000001,
+            "end": 838.9,
+            "text": " Do you mean double equals to.  Yes I mean double equals to.  See here.  The file should have been downloaded.  Cell colony to."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 838.9,
+            "end": 848.9,
+            "text": " My cell.jpg  But it didn't happen.  Why did this happen?  If it is none.  Then it will run."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 848.9,
+            "end": 860.9,
+            "text": " But I am waiting.  That it will download.  It is not downloading.  I want to see what's wrong.  I just realized."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 861.5,
+            "end": 871.5,
+            "text": " It is taking it as a none type.  When I am trying to print its type.  When it is actually none.  Here we don't need to give type is equal to.  Because by default."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 871.5,
+            "end": 881.5,
+            "text": " I am telling it that default is none.  When it is none.  It will take none type.  One more mistake in our program.  If I bring the console and shell down."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 881.5,
+            "end": 892.1,
+            "text": " I will show you.  We will get a view easily.  I have made a mistake in the indentation.  I have to remove this indentation.  From here to the end."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 892.1,
+            "end": 902.1,
+            "text": " I have to remove it.  I will remove it.  And now.  I will make it none again.  And I will do it like this."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 902.1,
+            "end": 912.1,
+            "text": " I have made a lot of mistakes.  But that's fine.  I want people to learn from my mistakes.  Now I will run it.  It will work properly."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 912.1,
+            "end": 922.7,
+            "text": " First of all I will say.  What to do?  When the local file name.  Why the shell is not opening?  Open the shell."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 924.7,
+            "end": 934.7,
+            "text": " I will bring the shell up again.  Now it is open.  If I do something like this.  I.  I will do it with the name of cell colony 2."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 934.7,
+            "end": 944.7,
+            "text": " It is downloaded with the name of cell colony 2.  But if I do minus o harry.jpg.  Or harryt.jpg.  Then you will see.  It will be saved with the name of harryt.jpg."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 944.7,
+            "end": 955.3000000000001,
+            "text": " We have made a command line utility.  It works very well.  It works very well.  It is fun to make it.  I hope you have understood the argparts module."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 955.3000000000001,
+            "end": 965.3000000000001,
+            "text": " I want to tell you one more thing.  Because I have not emphasized.  If you want to put arguments with type.  You can put it like this.  If you type is equal to int."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 965.3000000000001,
+            "end": 975.3000000000001,
+            "text": " It will always be int.  But if you do it like this.  If you have done default is equal to none.  And here your minus o.  Is not present in the command."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 975.9,
+            "end": 985.9,
+            "text": " Then you will get none type.  If I type is equal to string.  Then I will get string.  If I type is equal to str.  And I want to test it."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 985.9,
+            "end": 995.9,
+            "text": " I want to test this thing too.  If I type is equal to.  This.  If I type is equal to string.  Then class none type is available."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 995.9,
+            "end": 1006.5,
+            "text": " Because we have given it here.  If I do this.  Then yes, maybe I will get string.  So the behavior depends on the design.  And you don't have to remember this behavior."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1006.5,
+            "end": 1016.5,
+            "text": " I am telling you honestly.  But while figuring out.  You will be able to make useful things.  And that's what actually matters.  A person who has already made 100 command line utilities."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1016.5,
+            "end": 1026.5,
+            "text": " Already.  Within 2023.  So he will definitely be better than me.  Because he is doing this work every day.  So while figuring out things."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1026.5,
+            "end": 1037.1,
+            "text": " You will learn.  It's not that you have to remember.  If you are working on multiple platforms.  You are working with multiple languages.  What will you remember?"
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1037.1,
+            "end": 1047.1,
+            "text": " Default is equal to none.  String is not available.  This will happen.  I know which are the worst questions.  Such questions."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1047.1,
+            "end": 1057.1,
+            "text": " Which do this to the edge cases.  Tell me if I do this in python.  That is the opposite thing.  Once type cast in integer.  Then this."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1057.1,
+            "end": 1067.6999999999998,
+            "text": " Tell me what will happen in return.  Which does not take mind.  It depends on the operating system.  If you do this in iOS.  It will be according to the operating system."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1067.6999999999998,
+            "end": 1077.6999999999998,
+            "text": " According to the platform.  According to the operating system.  Who made the operating system.  It will depend on the operating system.  You have to remember things."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1077.6999999999998,
+            "end": 1087.6999999999998,
+            "text": " But again you got the point.  And with this we will finish this video.  We have come very close.  To complete 100 days.  So you guys go to the first video."
+        },
+        {
+            "number": "085 ",
+            "title": "Creating command line utility in python",
+            "start": 1087.6999999999998,
+            "end": 1092.3,
+            "text": " And give the review.  I will see you next time."
+        }
+    ],
+    "text": " Guys, you must have seen a lot of command line utilities which are invoked from the terminal and run. In today's video, we will see how you can make a command line utility with the help of Python. Let's go to the computer screen and let's get started. Intro So guys, today we are going to see how to make a command line utility in Python. You will find my voice a little weird. I am not really very well. But again, I don't want to break the streak of 100 days of code. And here you can see that we are going to make it using the R-Parse module. The code I copied is from here. I want to start with a clean slate just for you guys. And here I want to tell you quickly what is a command line utility. I will show you this in the Mac. And along with that, here is wget. There is no wget here. I think there is curl in it. Yes, there is curl. You can see that there is a command called curl. Try curl--help or curl--manual. curl--manual Their manuals have very dangerous English written in it. And I used to struggle a lot with English. At one time, my English was so weak that I couldn't do anything. And there were small words in English. Once what happened was that I used to think of respect as being given. As it is written somewhere, Ram, Shyam and Mohan respectively. So I thought that they were giving respect to Ram, Shyam and Mohan. I saw what was written in the copy, Lithium, Beryllium and Boron respectively. I said why is Lithium, Beryllium and Boron being respected? I said that Ram, Shyam and Mohan were being given. Why are we giving respect to them? Then I understood that respect is not respect. It is something else. It means that we see things in sequence. So I keep confusing a lot of things. Not now, I used to do a lot before. But coming back to the topic of command line utility. Curl is a command line utility. If I say here that curl and along with it, I write index of movies here. So here you can see 3gpvid.com background.jpg Suppose I want to download this. I have taken a very random one. URL And what happened here? I do ctrl c. Command c. Curl, ctrl b, enter. What will happen by doing this? Binary output can mess up your terminal. Okay. So what happens in this? Warning file to save to file. So it is saying that you use minus minus output. And harry.jpg So see it downloaded. Harry.jpg Now I can say here .slash harry.jpg Permission denied. So if I do ls, you will see harry.jpg here. I can show you from here. You can see here. You can see harry.jpg I downloaded this. So curl is a command line utility. You can make a command line utility like curl in python. So command line utility means a utility which can be used by giving command on command line. Like I gave command to this. What command did I give it? I said, download from this URL. And save it from this file name. So I gave these two commands through command line. There is another way to take command. What input? We have seen that we take user input. And we tell our program. That we have to see things like this. It will be like this. So that also happens. You understood this thing well. Now here creating command line utilities in python. So command line utilities are programs which can be run from terminal. Like curl I showed you how to run it. And they are essential for many development workflows. Like curl I personally use a lot. And in python you can create it with the help of arc parse module. So is the arc parse module built in? Or you have to install it? So sometimes if you don't remember. Then do it yourself. So you will import arc parse. So you see there is no error. But if you import sklearn. Then it may give you an error. If it is not installed. It will be installed in mine. But if you import say pymovie. So it says no module named pymovie. So you will see an error like this. If it is not a built in module. Or it is not a module which you have installed. Now here arc parse is a built in module. So it is a good thing for me. Now you see what I have done here. I have imported arc parse. And I have said parser is equal to arc parse.argument parser. So I have made my parser instance. Then I said add this command. Like I want to add. File to download. And after this help is equal to. I want to do. URL of the file. To download. And I will. Make file URL. And I will name it. File URL. And what is this. Output. What name to save this. How. By which name. Do you want to save. Your. File. Then after this. We do arcs is equal to parser.parse arcs. What happens with this. All the arguments given. Are parsed. And in this case we use our arguments. In this case, you are printing. But I am not using. Arc1 and Arc2. Because I am using URL and output. And how will I download. A file. I will go to the net. How to download a file. I have done this. And after doing this. You can see. I will get something. Now what happens. Sometimes we get old code. But on stack overflow. Pick up recent code. Here in the name of download file. This is given. Here f.write is given. What name to save. Local file name. I will do one thing. I am a copy paster. You are also a copy paster. You know this. But we are copy pasters. Copy paste coders. There is no problem. Now here I will do. Local file name. I will keep the name. And I will not do this. Download file. Let's see what is the download file. Download file. Arcs.url. Arcs.output. Let's see if this works. What I will do. I will not run it from this run. I will run it in shell. Python main.py. I will take the url. Which file. I closed the file. I have to write index of images. Maybe I will get an image. 3d chromosome.zip. Cell colony 2. Let's download this. And you see. I pasted this. Now I will save it. Harry.jpg. Name request is not defined. Let me import request. If we want to use any module. Will we import it or not? I made a mistake. But it is necessary to run it. Once I run it. Request module will be installed. Let me see. If it runs. It got the request. You can see. Harry.jpg is downloaded. We made a command line utility. Which you can use easily. You can see. What I did. I have to open main.py. We made a useful command line utility. Now see one more thing. If we want to give optional argument. Let's say I want. An optional argument. If I have not given a file name. Then what should happen. That file name should be automatically taken. Like it was written here. I copied it from here. It was automatically taking the file name. From url. That will also work. If I didn't pass. I want to make an optional argument. I will do this. Let me do this. How to add optional argument. We will do it by dash. I will copy this line. And replace it with this line. Where I am taking the output. I will make the output optional. I will do minus o. It is optional argument. And here. The default value. I will do one thing. I will keep the default value as none. Like this. Now here. Name of the file. Name of the file. Name of the file. Now what I will do. I have given minus o. When I run it. I will run it like this. Minus o. And harry.jpg. Then I will get args.output. I will run it. And you can see. Namespace object has no attribute output. I am facing a problem. It is printed correctly. But .output is not printed. I have kept it as o. I will make it o. In fact. I want to check it. If I do optional argument like this. args. Here. It is optional. I will keep it as it is. I will keep it as output. Now I want to run it. And check if everything is correct. Yes. It is running. Now I will do it as harry3.jpg. To check if it is working. To check if it is working. harry3.jpg. Is it working? harry3.jpg. Is not working. Because I overwrote the local file name. I will do one thing. I will comment it. It should be harry3.jpg. I am checking if everything is working. It should be working. No harry3.jpg is not working. It should be cellcolony2.jpg. I took it from this name. But if I run it now. It should be harry3.jpg. I want to see what is going wrong. Yes it is working. It takes time to save. Now you know what we will do. Now I want. When I don't pass this argument. I want to see the value. It is none. Now it is saying local file url is none. Now it is saying local file url is none. What I will do? If local file name is none. Then you do this. Or don't do this. Now you see here. I clicked on url. Now you see here. If I run it like this. Cellcolony2.jpg It will download it. In fact I will have to delete it. I will delete all the files. I will delete all the files. I have deleted all the files. I will run it like this. If I don't give output by saying minus o. I said I don't want to give name of file. I said I don't want to give name of file. It will take by default like this. And if I want. Minus o. Minus o. Suppose. I want to save it by any name. Mycell.jpg I can do that too. If I try to save it by mycell.jpg Then it should have been saved by mycell.jpg But it didn't. Why it didn't? I will delete it and see again. Is there any problem? Now you see. Now you see the reason. This none. I have done it by default. This none will come as a string. If I print the type of this. Args.output Args.output It will show me a string. Which will be a problem. I have written it as args. I have written it as args. I have written it as args. No problem. If I see the type of this. Why it is saying args. It didn't save. See class str. I don't want. The type is a string. Or if I want to keep a string. I will do like this. If it is none. But it has a solution. This problem has a solution. If I want the type to be none. Then I can specify type here. See adding argument with type. How will you do? Type is equal to none. I will say. Default is equal to none. And type is equal to. I don't want to do none. Because the name of the output is by default string. I just want to tell you. If you want to take a string. Or you want to take an int. Then you can do type is equal to. But I will not do this here. My program will work just fine. See here. If I run it like this. It is saying. Is with literal. Do you mean double equals to. Yes I mean double equals to. See here. The file should have been downloaded. Cell colony to. My cell.jpg But it didn't happen. Why did this happen? If it is none. Then it will run. But I am waiting. That it will download. It is not downloading. I want to see what's wrong. I just realized. It is taking it as a none type. When I am trying to print its type. When it is actually none. Here we don't need to give type is equal to. Because by default. I am telling it that default is none. When it is none. It will take none type. One more mistake in our program. If I bring the console and shell down. I will show you. We will get a view easily. I have made a mistake in the indentation. I have to remove this indentation. From here to the end. I have to remove it. I will remove it. And now. I will make it none again. And I will do it like this. I have made a lot of mistakes. But that's fine. I want people to learn from my mistakes. Now I will run it. It will work properly. First of all I will say. What to do? When the local file name. Why the shell is not opening? Open the shell. I will bring the shell up again. Now it is open. If I do something like this. I. I will do it with the name of cell colony 2. It is downloaded with the name of cell colony 2. But if I do minus o harry.jpg. Or harryt.jpg. Then you will see. It will be saved with the name of harryt.jpg. We have made a command line utility. It works very well. It works very well. It is fun to make it. I hope you have understood the argparts module. I want to tell you one more thing. Because I have not emphasized. If you want to put arguments with type. You can put it like this. If you type is equal to int. It will always be int. But if you do it like this. If you have done default is equal to none. And here your minus o. Is not present in the command. Then you will get none type. If I type is equal to string. Then I will get string. If I type is equal to str. And I want to test it. I want to test this thing too. If I type is equal to. This. If I type is equal to string. Then class none type is available. Because we have given it here. If I do this. Then yes, maybe I will get string. So the behavior depends on the design. And you don't have to remember this behavior. I am telling you honestly. But while figuring out. You will be able to make useful things. And that's what actually matters. A person who has already made 100 command line utilities. Already. Within 2023. So he will definitely be better than me. Because he is doing this work every day. So while figuring out things. You will learn. It's not that you have to remember. If you are working on multiple platforms. You are working with multiple languages. What will you remember? Default is equal to none. String is not available. This will happen. I know which are the worst questions. Such questions. Which do this to the edge cases. Tell me if I do this in python. That is the opposite thing. Once type cast in integer. Then this. Tell me what will happen in return. Which does not take mind. It depends on the operating system. If you do this in iOS. It will be according to the operating system. According to the platform. According to the operating system. Who made the operating system. It will depend on the operating system. You have to remember things. But again you got the point. And with this we will finish this video. We have come very close. To complete 100 days. So you guys go to the first video. And give the review. I will see you next time."
+}

@@ -1,0 +1,1048 @@
+{
+    "chunks": [
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 0.0,
+            "end": 16.4,
+            "text": " In Python programming, list is a very important data type.  If you want to store 10, 15, 20 things in a particular entity,  then you can make a list of it.  For example, you can make a list of marks of students of class 8,  or you can make a list of people living in Europe,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 16.4,
+            "end": 32.56,
+            "text": " or you can make a list of people enrolled in 100 days of code Python.  By making all these lists, you can perform some operations on them,  you can iterate them, and you can call them by one name.  For example, a list of class 10th maths marks has been made,  in which all the people's marks are written."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 32.56,
+            "end": 45.68,
+            "text": " A list of class 11th science marks has been made.  By making a list, we can collect things in one entity,  and it is very easy for us to refer it.  Let's go to the computer screen, we will see the list,  and after that we will see what operations can be done with the list."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 45.68,
+            "end": 67.36,
+            "text": " How will the list help you in Python programming?  Let's get started.  Today's day is very special because we are going to talk about the list.  It is a very good data type,  good in the sense that it is a very useful data type,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 67.36,
+            "end": 79.03999999999999,
+            "text": " and you have to understand the list very carefully.  If you are not focusing, then start focusing,  because this is one of the most important topics.  What is a list?  First of all, I will tell you by myself what a list is."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 79.03999999999999,
+            "end": 89.92,
+            "text": " I will write l is equal to,  suppose I put a square bracket like this,  and I wrote 3, 5, 6, okay?  So this became a list, okay?  This is a valid Python program because I am running it,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 89.92,
+            "end": 103.92,
+            "text": " so see here, there is no error.  If I want to print it, I will simply print l,  and I will see 3, 5, 6, just like I made this list.  If I print its type,  then Python will tell me that this is a list,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 103.92,
+            "end": 119.12,
+            "text": " and you see here, I will see class list.  Okay, so far so good, we understood what a list is.  Why is a list made?  List, in one name, listen to me carefully,  if you want to put multiple things in one name,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 119.12,
+            "end": 129.04,
+            "text": " like suppose marks, okay?  Marks of a student,  I will say that these were 3 students who came to class for tuition,  these are marks of 3 out of 10,  1 has 3, 1 has 5, 1 has 6,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 129.04,
+            "end": 145.2,
+            "text": " so what we did is,  we put a lot of values under one name.  In this case, we put these 3, 5, 6 values under marks.  Now if I want to display all the marks,  then I can display it like this,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 145.2,
+            "end": 158.0,
+            "text": " mark 0 means,  the first marks,  like we saw in case of string,  we saw that in our string,  if we use 0, then we get the first character,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 158.0,
+            "end": 166.64,
+            "text": " and if we use 1, then we get the second character,  and so on, the count starts from 0,  this is called index.  So index starts from 0 in Python,  okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 166.64,
+            "end": 175.52,
+            "text": " It starts from 0 in Python list too.  So if I write print mark 0 here,  then I will only see 3.  If I write mark 1,  then what will I see?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 175.52,
+            "end": 184.24,
+            "text": " I will see 5.  And if I write print mark 2,  then I will see 6.  Okay?  So mark 0, mark 1,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 184.24,
+            "end": 191.92000000000002,
+            "text": " mark 2, 3, 5, and 6.  Okay?  So I hope this thing is clear to you.  So if you come to notes,  then I have written list,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 191.92000000000002,
+            "end": 199.20000000000002,
+            "text": " are ordered collection of data items.  Okay?  Ordered collection,  means their order is maintained.  First 3, then 5, then 6,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 199.20000000000002,
+            "end": 205.92,
+            "text": " so this order will be maintained.  If you print, then this order will be maintained.  If you do indexing like this,  then this order will be maintained.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 205.92,
+            "end": 216.16,
+            "text": " They store multiple items in a single variable.  As we have seen,  multiple values are stored in a variable named marks.  List items are separated by commas  and enclosed within square brackets."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 216.16,
+            "end": 222.72,
+            "text": " Okay?  See here, separated by commas  and enclosed within square brackets.  Okay?  Starts with square brackets"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 222.72,
+            "end": 230.56,
+            "text": " and ends with square brackets.  Okay?  I hope this thing is clear to you.  List items are separated by commas,  then this is list are changeable,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 230.56,
+            "end": 237.36,
+            "text": " meaning we can alter them after creation.  Okay?  After this,  after making marks,  I can add one more value in it."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 237.36,
+            "end": 244.64000000000001,
+            "text": " Suppose, one more student came to study in the 4th division.  He says,  brother, include me also.  Suppose, a test was going on at that time.  He says,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 244.64000000000001,
+            "end": 252.8,
+            "text": " brother, I also want to give a test.  I want to see how much water I am in.  So, master will say,  come on, brother, sit down.  So, I will also add marks in the variable named marks."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 252.8,
+            "end": 260.8,
+            "text": " So, it can be added in the list at the end.  We will see how it is done in the list method.  Okay?  But if we talk about tuple,  then it does not change."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 260.8,
+            "end": 266.24,
+            "text": " Okay?  I will tell you that before.  Tuple cannot be changed.  List can be changed.  We have some methods of list."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 266.24,
+            "end": 272.08000000000004,
+            "text": " There is an append method.  With the help of that,  we can add things at the end of the list.  Okay?  So, this thing is done."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 272.08000000000004,
+            "end": 279.6,
+            "text": " Now,  you can print the list like this.  We saw this.  Can a string data type also come here?  Meaning,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 279.6,
+            "end": 286.88000000000005,
+            "text": " in one list,  can any other data type also come?  If it is a number list,  then can a string also come in it?  Can, let us say,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 286.88000000000005,
+            "end": 292.08,
+            "text": " a Boolean also come in it?  So, the answer is,  it can come.  Okay?  It can definitely come."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 292.08,
+            "end": 297.52,
+            "text": " Why not?  Python allows.  But,  the thing is,  if you are making a variable named marks,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 297.52,
+            "end": 302.88,
+            "text": " in which you have to store marks,  then you will not want to do this.  Okay?  But, it can come.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 302.88,
+            "end": 306.0,
+            "text": " It can come.  You see here,  3, 5, 6,  is not there.  True."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 306.0,
+            "end": 311.76,
+            "text": " See, it came here.  Okay?  Now, along with marks 2,  I can print marks 3 also.  I can print marks 4 also."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 311.76,
+            "end": 319.28,
+            "text": " I can print marks 5 also.  I can print 6 also.  0, 1, 2, 3, 4,  5 cannot be done.  Actually, if I run this program now,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 319.28,
+            "end": 325.20000000000005,
+            "text": " then it will come here.  Because, 0, 1, 2, 3, 4,  marks 5 is not there.  It will say,  list out of,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 325.20000000000005,
+            "end": 331.92,
+            "text": " index out of range.  That,  you are trying to access marks 5.  Marks 5 is nothing.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 331.92,
+            "end": 339.52000000000004,
+            "text": " So, this is the kind of thing.  That's why, error will come.  If I remove this and run it for you,  then you will see all these values.  Because, I have printed 0, 1, 2, 3, 4."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 339.52000000000004,
+            "end": 344.32000000000005,
+            "text": " 3, 5, 6, is there.  And, true will be seen.  Okay?  So, this way,  you can do this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 344.32000000000005,
+            "end": 348.56,
+            "text": " So,  here, in one list,  different data types can be there.  We have seen this.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 348.56,
+            "end": 354.8,
+            "text": " Now, let's talk about list index.  Because, we have already done it.  It is just like string index.  There is nothing like,  there is something different in it."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 354.8,
+            "end": 359.92,
+            "text": " If you print 0, then red will come.  If you print 1, then green will come.  And so on.  Okay?  If you print 5 colors,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 359.92,
+            "end": 365.04,
+            "text": " then you will get an error.  Okay?  Keep this in mind.  Each item element in a list,  has its own unique index."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 365.04,
+            "end": 373.20000000000005,
+            "text": " This index can be used to access,  any particular item from the list.  The first item has index 0.  Index of the second item is 1.  Index of the third item is 2."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 373.20000000000005,
+            "end": 380.16,
+            "text": " And so on.  Because, counting starts from 0.  Many people get confused in this.  That,  why the first item is not from 1?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 380.16,
+            "end": 385.92,
+            "text": " Or, the last item,  like if its length is of marks,  see, 1, 2, 3, 4,  there are 5 items in this.  But,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 385.92,
+            "end": 392.96000000000004,
+            "text": " to access the last,  why is it not written as marks 5?  Why is it written as 4?  Because, counting starts from 0.  If you start counting from 0,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 392.96000000000004,
+            "end": 402.0,
+            "text": " then on your 5th finger,  you will get 4.  0, 1, 2, 3, 4.  So, you will get it like this.  So, because counting starts from 0,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 402.0,
+            "end": 409.28000000000003,
+            "text": " that's why it happens.  So, never,  get this confusion in your mind.  If you want to print Harry from this list,  0, 1, 2, 3."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 409.28000000000003,
+            "end": 415.12,
+            "text": " It is on 3.  It is the fourth element, I agree.  But, because counting starts from 0,  that's why its index is 3.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 415.76,
+            "end": 420.88,
+            "text": " I hope it is clear.  Okay?  Many people get confused in this too.  If someone asks you,  what is the length of the color?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 420.88,
+            "end": 428.72,
+            "text": " So, don't say 4 by looking at this 4.  Because, counting starts from 0.  If it starts from 1,  then you would get to see 5.  So, the index is different."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 428.72,
+            "end": 434.88,
+            "text": " Length is different.  Length is 5.  The length of the color is 5.  But, its index is 0 for the first one,  and for the second, 1, 2, 3, 4."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 434.88,
+            "end": 441.12,
+            "text": " Okay?  You should know this thing.  You can access this.  We have square bracket notation.  I have told you this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 441.12,
+            "end": 449.28,
+            "text": " It is just like a string.  Let's talk about negative indexing.  We talked about negative indexing in the string.  If I am here,  I would like to comment on this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 449.28,
+            "end": 459.52,
+            "text": " All the print statements I have put here,  and I will put a fresh print statement here.  If I write marks minus 3 here,  then what will be the print?  I will tell you the easiest way to do this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 459.52,
+            "end": 470.8,
+            "text": " And I had told you in the chapter on strings too.  The easiest way to do this is,  what you have to do is,  that if you have been given marks minus 3,  then what will you do?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 470.8,
+            "end": 479.12,
+            "text": " This is negative index.  Okay?  You have to convert this into positive index.  Okay?  How will you convert it into positive index?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 479.12,
+            "end": 486.32,
+            "text": " Here, what you will do is,  you will put length of marks.  What will you do?  You will put length of marks.  What is the length of marks?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 486.32,
+            "end": 491.20000000000005,
+            "text": " What is the length of marks?  You tell me what is the length of marks?  It is 5.  Okay?  It is 5, right?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 491.20000000000005,
+            "end": 499.2,
+            "text": " Yes, it is 5.  So, what is 5 minus 3?  What is 5 minus 3?  Is it 2?  Yes, it is 2."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 499.2,
+            "end": 505.59999999999997,
+            "text": " So, you have converted it into positive index.  Now, this is easy for you.  Tell me the marks to 6.  Okay?  So, this will also print 6."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 505.59999999999997,
+            "end": 510.64,
+            "text": " This will also print 6.  This will also print 6.  This will also print 6.  Okay?  So, I can expect 4 times 6."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 511.52,
+            "end": 521.4399999999999,
+            "text": " And I got to see 4 times 6.  So, whenever you get negative index,  first convert it into positive index.  By putting length of marks here.  Otherwise, there will be confusion."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 521.4399999999999,
+            "end": 528.08,
+            "text": " Many people will tell you in this way,  that count the third from behind.  Okay?  0, 1, 2.  Or count from behind."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 528.08,
+            "end": 534.48,
+            "text": " 1, 2, 3.  Marks minus 3 will come.  I don't believe in such rules  that you should remember.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 535.2,
+            "end": 542.16,
+            "text": " I am not saying that you will not get the right answer.  You will get.  But in my life,  this is the easiest way.  And I never use negative indexing"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 542.16,
+            "end": 550.64,
+            "text": " in my personal projects.  I feel a little confused.  Okay?  If I get to see it in someone else's project,  or sometimes some scenarios become like"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 550.64,
+            "end": 556.1600000000001,
+            "text": " that negative indexing has to be used.  Okay?  In that case,  yes, I will use it.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 556.1600000000001,
+            "end": 565.5200000000001,
+            "text": " In that case, if I feel like  writing the last item as minus 3.  But you will do all that work  when you become an advanced Python developer.  If someone is asking you"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 565.5200000000001,
+            "end": 573.5200000000001,
+            "text": " the output of the program in the exam,  and you are telling him  that this is negative indexing.  You convert it into positive indexing first.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 573.5200000000001,
+            "end": 580.48,
+            "text": " Convert it into positive indexing.  After that, your work will be done.  Okay?  I hope everyone is understanding this thing.  Now look here."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 581.44,
+            "end": 588.8,
+            "text": " We have also seen negative indexing.  Okay?  I told you how to do it.  If I want to know  whether an element is in the list or not."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 588.8,
+            "end": 598.4,
+            "text": " Suppose I want to know  whether 7 is in this list or not.  So what will I write here?  If I will write  7 in marks"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 599.28,
+            "end": 606.4,
+            "text": " in marks  print yes  else print no.  Okay?  I will write here"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 606.4,
+            "end": 611.68,
+            "text": " else  print  no.  Okay?  I will run it."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 611.68,
+            "end": 617.92,
+            "text": " Obviously, no print will be there.  So by using these keywords,  we can find out  whether 7 is in this list or not.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 617.92,
+            "end": 625.5999999999999,
+            "text": " The same thing can be done in string.  I will show you here  an example of how these keywords  are used in string.  But if I write here Harry,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 625.5999999999999,
+            "end": 633.8399999999999,
+            "text": " then will it print yes or no?  You tell me in the comment first.  I am waiting for you.  And the answer is yes.  Because Harry is in the variable named marks."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 633.8399999999999,
+            "end": 639.04,
+            "text": " Okay?  So you will get to see yes.  Okay?  I hope this is clear.  I hope everyone understood."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 639.04,
+            "end": 644.3199999999999,
+            "text": " Okay?  Very good.  Now look here.  If you put 6 here,  okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 644.3199999999999,
+            "end": 652.8,
+            "text": " If you put 6 here,  then also you will get to see yes.  But I will show you one thing.  If I put 6 here like this,  that is, as a string,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 653.4399999999999,
+            "end": 657.84,
+            "text": " then will you get it or not?  You tell me.  Tell me in the comment  whether you will get it or not.  Write like this"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 657.84,
+            "end": 663.76,
+            "text": " whether 6 will be found as a string or not.  Okay?  I am running.  And it will not be found.  Why will it not be found?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 663.76,
+            "end": 671.6,
+            "text": " Because 6 is in our list as an integer.  6 is not as a string.  Okay?  So this thing  you can do with the help of these keywords."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 672.5600000000001,
+            "end": 679.2,
+            "text": " Now one more thing comes.  The concept of jump index comes.  But before that, I want to tell you  that suppose I write  if"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 679.2,
+            "end": 689.12,
+            "text": " arry in harry.  So what happens is  in the string,  you can do something like this.  Now look here I have written"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 689.12,
+            "end": 695.84,
+            "text": " is arry in harry?  And yes, it is.  So yes, I will get it printed.  Is arry in harry?  No."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 695.84,
+            "end": 703.4399999999999,
+            "text": " So I will not get yes print.  Here only this no will be found.  Yes will not be found.  And if I write here  if ha in harry."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 703.4399999999999,
+            "end": 710.8,
+            "text": " Then I will get true.  That is, yes will be found to see.  So you see here no yes will be found.  So in this way we can apply the same thing  for the string as well."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 710.8,
+            "end": 721.12,
+            "text": " I will write here  same thing applies for strings as well.  Okay?  Same thing applies for the string.  Great, man."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 721.12,
+            "end": 728.0,
+            "text": " Great, it was fun.  Okay?  Now you guys see here  that if you want to print all the elements  of the list, then how will you do it?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 728.0,
+            "end": 736.8,
+            "text": " If I want to print all the marks,  I am commenting this thing again  so that you do not get confused.  If I want to print all the marks,  then I can either do this"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 737.36,
+            "end": 747.36,
+            "text": " or if I do this too,  that I left the starting empty,  left the ending empty.  So here I will get to see this whole thing.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 747.36,
+            "end": 753.84,
+            "text": " Marks.  Okay, if I write 1 here,  then what will happen?  So you see here  this index will start from 1"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 753.84,
+            "end": 764.4,
+            "text": " and will go all the way till length minus 1.  That is, it will go till the last element.  But if I write minus 1 here,  then what will I do first?  Personally, I will convert it into positive indexing."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 764.4,
+            "end": 769.84,
+            "text": " First of all, I will not get confused.  What will be the length of marks?  Length of marks is 5.  5, right?  3, 2, 5."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 769.84,
+            "end": 774.48,
+            "text": " Yes, it is 5.  So what will be 5 minus 1?  It will be 4.  Okay?  Because 5 minus 1 is 4."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 774.48,
+            "end": 781.44,
+            "text": " That's why I will make it 1 to 4 here.  Okay?  I made it marks 1 to 4.  If I do 1 to 4,  then it will start from 1"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 781.44,
+            "end": 788.0799999999999,
+            "text": " and 4 will not be included.  So 5, 6 and Harry  I will get to see here.  You guys see.  I will get to see 5, 6 and Harry."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 788.0799999999999,
+            "end": 792.7199999999999,
+            "text": " Okay?  So in this way,  as we saw in the string,  we can do slicing.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 792.7199999999999,
+            "end": 800.16,
+            "text": " There is also a concept of a jump index.  If I make the jump index 2,  let's say.  Okay?  If I make it 1, 4, 2,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 800.16,
+            "end": 808.4799999999999,
+            "text": " then what will happen?  In my original marks,  it will start taking values one by one.  So see, it will do slicing  from 1 to 4 first."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 808.4799999999999,
+            "end": 812.8,
+            "text": " Okay?  So from 1 to 4,  first of all, I will get this.  5, 6 and Harry.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 812.8,
+            "end": 820.32,
+            "text": " Then what will it do?  First of all, it will take the first value.  Okay?  Then it will take 1, 2.  Then it will keep taking 1, 2."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 820.32,
+            "end": 828.32,
+            "text": " Okay?  So here after doing 1, 2, it is over.  That's why 5 and Harry came here.  To explain it a little better,  I will tell you a little better."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 828.32,
+            "end": 837.36,
+            "text": " You see here.  I have increased some more values in it.  So see, if I run it now,  then see what is getting here.  First of all, you will get marks,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 837.36,
+            "end": 847.68,
+            "text": " which is the whole marks.  Then marks 1 minus 1 means marks 1 and 4.  Not 1 and 4, sorry.  Now its length has changed.  So length of this whole minus 1."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 847.68,
+            "end": 857.28,
+            "text": " Okay?  So whatever it is, okay?  I do one thing.  Here I make it 1, 2, 8.  0, 1, 2, 3, 4, 5, 6, 7, 8."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 857.28,
+            "end": 862.9599999999999,
+            "text": " Yes, okay.  It will go.  Now see, 1 to 8,  first of all, it will do marks 1 to 8.  I will do 8 here."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 863.92,
+            "end": 871.04,
+            "text": " So that I can see  how much is marks 1 to 8.  Okay?  So here I am waiting for it.  Marks 1 to 8 is this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 871.1999999999999,
+            "end": 876.88,
+            "text": " 5, 6, Harry, true.  6, 7, 2.  Now because I have given jump index 2 here,  so what will it do?  First of all, it will print 5."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 877.4399999999999,
+            "end": 885.4399999999999,
+            "text": " Then it will print 1, 2, Harry.  Then it will print 1, 2, 6.  Then it will print 1, 2, 2.  If I do 3 in the same jump index,  then what will it do?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 885.4399999999999,
+            "end": 893.8399999999999,
+            "text": " It will jump 3 times.  I will show you how.  First of all, what will I get to see?  First of all, it will bring the value of marks 1, 8 here.  See, this is my marks 1, 8 value."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 893.8399999999999,
+            "end": 904.0,
+            "text": " Whenever you have to solve such a question,  first of all, you do slicing.  Marks 1 colon 8, take out how much is it?  This is my marks 1 colon 8.  Now see what I will do."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 904.0,
+            "end": 910.4,
+            "text": " Because 1 colon 8 colon 3,  so my jump index is 3.  So I will take the first value first.  Okay, I took it.  Then 1, 2, 3."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 911.36,
+            "end": 917.2,
+            "text": " I will take this value.  Then 1, 2, 3.  I will take this value.  Now I can't go ahead.  Now because I can't go ahead,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 917.2,
+            "end": 925.28,
+            "text": " so there is no point of it.  Okay, if I do 9 as well,  I will do 9 and show you.  I will do 9 here as well.  And I will run and show it."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 925.28,
+            "end": 933.6,
+            "text": " So what will be the value of 1 colon 9?  The value of marks 1 colon 9 will be this.  Now because the jump index is 3,  first 5 will come.  1, 2, 3."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 933.6,
+            "end": 938.8800000000001,
+            "text": " Then true will come.  1, 2, 3.  Then 2 will come.  I can't go 1, 2, 3.  It will stop."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 938.8800000000001,
+            "end": 946.24,
+            "text": " So that's why we will get to see this.  Okay, so this is how the jump index works.  I hope you understood.  Okay, read this.  What I have told you here,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 946.24,
+            "end": 953.0400000000001,
+            "text": " go through it.  Okay, you will like it.  You will understand.  Okay, now if you keep these positive indices like this,  then convert the positive to negative."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 953.0400000000001,
+            "end": 964.24,
+            "text": " Convert negative to positive.  Okay, if you leave colon colon,  okay, leave marks colon colon like this,  then Python will automatically put 0 here.  And here it will put len of marks."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 965.12,
+            "end": 972.88,
+            "text": " Len of marks.  Okay, if you write like this,  marks 1 colon,  write like this,  then what will happen?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 972.88,
+            "end": 981.9200000000001,
+            "text": " Python will automatically put len of marks here.  Okay, if you leave it empty too.  And if you write 1 colon 7,  or write this,  write empty colon 7,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 981.9200000000001,
+            "end": 991.4399999999999,
+            "text": " then Python will automatically put 0 here.  Okay, so if you ever get to see something like this,  then Python will put 0 in the starting,  and in the ending,  it will put len of whatever your list is."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 991.4399999999999,
+            "end": 1001.28,
+            "text": " Okay, I hope that's not confusing.  You are understanding.  Okay, now here I have given many examples.  You have to see them.  Negative indices are also a little confusing."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1001.28,
+            "end": 1008.56,
+            "text": " Because questions are asked,  what do you have to do?  Do a simple job.  First of all, convert negative to positive.  And after that,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1008.56,
+            "end": 1016.56,
+            "text": " you have to continue your work.  Okay, now see here,  there are many examples given.  You have to try all of them yourself.  Okay,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1017.1199999999999,
+            "end": 1029.04,
+            "text": " so now I will tell you about list comprehension.  I hope that today's video is not going too long.  But there are many concepts  that I want us to learn directly in today's video.  What is list comprehension?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1029.04,
+            "end": 1037.28,
+            "text": " What does list comprehension do?  You are generating a list on the fly.  Okay, what are you doing?  You are generating a list on the fly.  So what we will do?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1037.28,
+            "end": 1046.3999999999999,
+            "text": " We will write print here.  And I have put a list comprehension here.  List comprehension means  I am generating a list on the fly.  In fact, let's not print."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1046.4,
+            "end": 1059.2,
+            "text": " Let's write a name.  I want to make a list named LST.  I will say LST is equal to square brackets.  I will say I for I in range 45.  Here 4, okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1059.2,
+            "end": 1066.5600000000002,
+            "text": " 45 will be too many numbers.  4, okay?  So this is list comprehension.  What will happen?  For I in range 4,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1066.5600000000002,
+            "end": 1075.44,
+            "text": " 0, 1, 2, 3.  These four values will come.  So these four values will come here  in 0, 1, 2, 3 list.  I will show you."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1075.52,
+            "end": 1088.0800000000002,
+            "text": " So as you can see,  0, 1, 2, 3 are visible here.  Now I could have done I multiplied by I.  And if I do I multiplied by I,  then I will get 0, 1, 4, 9 printed."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1088.0800000000002,
+            "end": 1094.0,
+            "text": " I can write anything here.  I can write any expression here.  It will be evaluated and  become an element of my list.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1094.0,
+            "end": 1103.6000000000001,
+            "text": " And this will be for every I.  And if I want,  I can make another list from a list  by iterating a list here.  So list comprehension can be very complex."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1103.6000000000001,
+            "end": 1113.04,
+            "text": " Now let's say I say  I want to go up to 10.  Now I can also put a condition here.  Okay? This is one thing.  I will make another copy of this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1113.76,
+            "end": 1124.6399999999999,
+            "text": " I can also put a condition here.  I will say if I percent 2  is equal to equal to 0.  That is, if I is divisible by 2,  then only I want I to be in the list."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1124.6399999999999,
+            "end": 1131.6799999999998,
+            "text": " I want to put this expression  in the list only when  this condition is true.  Okay?  When this condition is true."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1131.6799999999998,
+            "end": 1140.3999999999999,
+            "text": " And if I run it now,  then you see that  only even numbers will come here.  0 came, 2 came, 4 came, 6 came,  and 8 came."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1140.3999999999999,
+            "end": 1146.08,
+            "text": " 7 did not come, 5 did not come,  3 did not come.  Okay?  1 also did not come.  So by putting a condition like this,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1146.08,
+            "end": 1156.3999999999999,
+            "text": " I can change my list comprehension.  I can take some selective values in it.  Okay?  I hope this thing is clear to you.  Go through this."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1156.3999999999999,
+            "end": 1162.48,
+            "text": " There are other examples in this.  You guys see, run it,  copy the code, run it,  and you will enjoy it more.  Okay?"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1162.48,
+            "end": 1169.92,
+            "text": " That's all for now in this video.  I know this video has become a little long,  but I wanted to give you a very good  introduction to the list.  That's why I have kept this video a little long."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1169.92,
+            "end": 1177.12,
+            "text": " I hope you guys are not tired today.  Day 22 has become a little long.  But sometimes the day is small,  sometimes it is big,  sometimes there is exercise,"
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1177.12,
+            "end": 1182.0,
+            "text": " then there is rest that day.  But you guys have to be ready.  If a big day comes someday,  then there is no tension.  We will do it."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1182.0,
+            "end": 1195.52,
+            "text": " Okay?  That's all for now in this video.  Do access this playlist.  And I will see you next time.  Thank you for watching it."
+        },
+        {
+            "number": "022 ",
+            "title": "Introduction to Lists in Python",
+            "start": 1195.52,
+            "end": 1199.52,
+            "text": " And I will see you next time.  Bye."
+        }
+    ],
+    "text": " In Python programming, list is a very important data type. If you want to store 10, 15, 20 things in a particular entity, then you can make a list of it. For example, you can make a list of marks of students of class 8, or you can make a list of people living in Europe, or you can make a list of people enrolled in 100 days of code Python. By making all these lists, you can perform some operations on them, you can iterate them, and you can call them by one name. For example, a list of class 10th maths marks has been made, in which all the people's marks are written. A list of class 11th science marks has been made. By making a list, we can collect things in one entity, and it is very easy for us to refer it. Let's go to the computer screen, we will see the list, and after that we will see what operations can be done with the list. How will the list help you in Python programming? Let's get started. Today's day is very special because we are going to talk about the list. It is a very good data type, good in the sense that it is a very useful data type, and you have to understand the list very carefully. If you are not focusing, then start focusing, because this is one of the most important topics. What is a list? First of all, I will tell you by myself what a list is. I will write l is equal to, suppose I put a square bracket like this, and I wrote 3, 5, 6, okay? So this became a list, okay? This is a valid Python program because I am running it, so see here, there is no error. If I want to print it, I will simply print l, and I will see 3, 5, 6, just like I made this list. If I print its type, then Python will tell me that this is a list, and you see here, I will see class list. Okay, so far so good, we understood what a list is. Why is a list made? List, in one name, listen to me carefully, if you want to put multiple things in one name, like suppose marks, okay? Marks of a student, I will say that these were 3 students who came to class for tuition, these are marks of 3 out of 10, 1 has 3, 1 has 5, 1 has 6, so what we did is, we put a lot of values under one name. In this case, we put these 3, 5, 6 values under marks. Now if I want to display all the marks, then I can display it like this, mark 0 means, the first marks, like we saw in case of string, we saw that in our string, if we use 0, then we get the first character, and if we use 1, then we get the second character, and so on, the count starts from 0, this is called index. So index starts from 0 in Python, okay? It starts from 0 in Python list too. So if I write print mark 0 here, then I will only see 3. If I write mark 1, then what will I see? I will see 5. And if I write print mark 2, then I will see 6. Okay? So mark 0, mark 1, mark 2, 3, 5, and 6. Okay? So I hope this thing is clear to you. So if you come to notes, then I have written list, are ordered collection of data items. Okay? Ordered collection, means their order is maintained. First 3, then 5, then 6, so this order will be maintained. If you print, then this order will be maintained. If you do indexing like this, then this order will be maintained. Okay? They store multiple items in a single variable. As we have seen, multiple values are stored in a variable named marks. List items are separated by commas and enclosed within square brackets. Okay? See here, separated by commas and enclosed within square brackets. Okay? Starts with square brackets and ends with square brackets. Okay? I hope this thing is clear to you. List items are separated by commas, then this is list are changeable, meaning we can alter them after creation. Okay? After this, after making marks, I can add one more value in it. Suppose, one more student came to study in the 4th division. He says, brother, include me also. Suppose, a test was going on at that time. He says, brother, I also want to give a test. I want to see how much water I am in. So, master will say, come on, brother, sit down. So, I will also add marks in the variable named marks. So, it can be added in the list at the end. We will see how it is done in the list method. Okay? But if we talk about tuple, then it does not change. Okay? I will tell you that before. Tuple cannot be changed. List can be changed. We have some methods of list. There is an append method. With the help of that, we can add things at the end of the list. Okay? So, this thing is done. Now, you can print the list like this. We saw this. Can a string data type also come here? Meaning, in one list, can any other data type also come? If it is a number list, then can a string also come in it? Can, let us say, a Boolean also come in it? So, the answer is, it can come. Okay? It can definitely come. Why not? Python allows. But, the thing is, if you are making a variable named marks, in which you have to store marks, then you will not want to do this. Okay? But, it can come. Okay? It can come. You see here, 3, 5, 6, is not there. True. See, it came here. Okay? Now, along with marks 2, I can print marks 3 also. I can print marks 4 also. I can print marks 5 also. I can print 6 also. 0, 1, 2, 3, 4, 5 cannot be done. Actually, if I run this program now, then it will come here. Because, 0, 1, 2, 3, 4, marks 5 is not there. It will say, list out of, index out of range. That, you are trying to access marks 5. Marks 5 is nothing. Okay? So, this is the kind of thing. That's why, error will come. If I remove this and run it for you, then you will see all these values. Because, I have printed 0, 1, 2, 3, 4. 3, 5, 6, is there. And, true will be seen. Okay? So, this way, you can do this. So, here, in one list, different data types can be there. We have seen this. Okay? Now, let's talk about list index. Because, we have already done it. It is just like string index. There is nothing like, there is something different in it. If you print 0, then red will come. If you print 1, then green will come. And so on. Okay? If you print 5 colors, then you will get an error. Okay? Keep this in mind. Each item element in a list, has its own unique index. This index can be used to access, any particular item from the list. The first item has index 0. Index of the second item is 1. Index of the third item is 2. And so on. Because, counting starts from 0. Many people get confused in this. That, why the first item is not from 1? Or, the last item, like if its length is of marks, see, 1, 2, 3, 4, there are 5 items in this. But, to access the last, why is it not written as marks 5? Why is it written as 4? Because, counting starts from 0. If you start counting from 0, then on your 5th finger, you will get 4. 0, 1, 2, 3, 4. So, you will get it like this. So, because counting starts from 0, that's why it happens. So, never, get this confusion in your mind. If you want to print Harry from this list, 0, 1, 2, 3. It is on 3. It is the fourth element, I agree. But, because counting starts from 0, that's why its index is 3. Okay? I hope it is clear. Okay? Many people get confused in this too. If someone asks you, what is the length of the color? So, don't say 4 by looking at this 4. Because, counting starts from 0. If it starts from 1, then you would get to see 5. So, the index is different. Length is different. Length is 5. The length of the color is 5. But, its index is 0 for the first one, and for the second, 1, 2, 3, 4. Okay? You should know this thing. You can access this. We have square bracket notation. I have told you this. It is just like a string. Let's talk about negative indexing. We talked about negative indexing in the string. If I am here, I would like to comment on this. All the print statements I have put here, and I will put a fresh print statement here. If I write marks minus 3 here, then what will be the print? I will tell you the easiest way to do this. And I had told you in the chapter on strings too. The easiest way to do this is, what you have to do is, that if you have been given marks minus 3, then what will you do? This is negative index. Okay? You have to convert this into positive index. Okay? How will you convert it into positive index? Here, what you will do is, you will put length of marks. What will you do? You will put length of marks. What is the length of marks? What is the length of marks? You tell me what is the length of marks? It is 5. Okay? It is 5, right? Yes, it is 5. So, what is 5 minus 3? What is 5 minus 3? Is it 2? Yes, it is 2. So, you have converted it into positive index. Now, this is easy for you. Tell me the marks to 6. Okay? So, this will also print 6. This will also print 6. This will also print 6. This will also print 6. Okay? So, I can expect 4 times 6. And I got to see 4 times 6. So, whenever you get negative index, first convert it into positive index. By putting length of marks here. Otherwise, there will be confusion. Many people will tell you in this way, that count the third from behind. Okay? 0, 1, 2. Or count from behind. 1, 2, 3. Marks minus 3 will come. I don't believe in such rules that you should remember. Okay? I am not saying that you will not get the right answer. You will get. But in my life, this is the easiest way. And I never use negative indexing in my personal projects. I feel a little confused. Okay? If I get to see it in someone else's project, or sometimes some scenarios become like that negative indexing has to be used. Okay? In that case, yes, I will use it. Okay? In that case, if I feel like writing the last item as minus 3. But you will do all that work when you become an advanced Python developer. If someone is asking you the output of the program in the exam, and you are telling him that this is negative indexing. You convert it into positive indexing first. Okay? Convert it into positive indexing. After that, your work will be done. Okay? I hope everyone is understanding this thing. Now look here. We have also seen negative indexing. Okay? I told you how to do it. If I want to know whether an element is in the list or not. Suppose I want to know whether 7 is in this list or not. So what will I write here? If I will write 7 in marks in marks print yes else print no. Okay? I will write here else print no. Okay? I will run it. Obviously, no print will be there. So by using these keywords, we can find out whether 7 is in this list or not. Okay? The same thing can be done in string. I will show you here an example of how these keywords are used in string. But if I write here Harry, then will it print yes or no? You tell me in the comment first. I am waiting for you. And the answer is yes. Because Harry is in the variable named marks. Okay? So you will get to see yes. Okay? I hope this is clear. I hope everyone understood. Okay? Very good. Now look here. If you put 6 here, okay? If you put 6 here, then also you will get to see yes. But I will show you one thing. If I put 6 here like this, that is, as a string, then will you get it or not? You tell me. Tell me in the comment whether you will get it or not. Write like this whether 6 will be found as a string or not. Okay? I am running. And it will not be found. Why will it not be found? Because 6 is in our list as an integer. 6 is not as a string. Okay? So this thing you can do with the help of these keywords. Now one more thing comes. The concept of jump index comes. But before that, I want to tell you that suppose I write if arry in harry. So what happens is in the string, you can do something like this. Now look here I have written is arry in harry? And yes, it is. So yes, I will get it printed. Is arry in harry? No. So I will not get yes print. Here only this no will be found. Yes will not be found. And if I write here if ha in harry. Then I will get true. That is, yes will be found to see. So you see here no yes will be found. So in this way we can apply the same thing for the string as well. I will write here same thing applies for strings as well. Okay? Same thing applies for the string. Great, man. Great, it was fun. Okay? Now you guys see here that if you want to print all the elements of the list, then how will you do it? If I want to print all the marks, I am commenting this thing again so that you do not get confused. If I want to print all the marks, then I can either do this or if I do this too, that I left the starting empty, left the ending empty. So here I will get to see this whole thing. Okay? Marks. Okay, if I write 1 here, then what will happen? So you see here this index will start from 1 and will go all the way till length minus 1. That is, it will go till the last element. But if I write minus 1 here, then what will I do first? Personally, I will convert it into positive indexing. First of all, I will not get confused. What will be the length of marks? Length of marks is 5. 5, right? 3, 2, 5. Yes, it is 5. So what will be 5 minus 1? It will be 4. Okay? Because 5 minus 1 is 4. That's why I will make it 1 to 4 here. Okay? I made it marks 1 to 4. If I do 1 to 4, then it will start from 1 and 4 will not be included. So 5, 6 and Harry I will get to see here. You guys see. I will get to see 5, 6 and Harry. Okay? So in this way, as we saw in the string, we can do slicing. Okay? There is also a concept of a jump index. If I make the jump index 2, let's say. Okay? If I make it 1, 4, 2, then what will happen? In my original marks, it will start taking values one by one. So see, it will do slicing from 1 to 4 first. Okay? So from 1 to 4, first of all, I will get this. 5, 6 and Harry. Okay? Then what will it do? First of all, it will take the first value. Okay? Then it will take 1, 2. Then it will keep taking 1, 2. Okay? So here after doing 1, 2, it is over. That's why 5 and Harry came here. To explain it a little better, I will tell you a little better. You see here. I have increased some more values in it. So see, if I run it now, then see what is getting here. First of all, you will get marks, which is the whole marks. Then marks 1 minus 1 means marks 1 and 4. Not 1 and 4, sorry. Now its length has changed. So length of this whole minus 1. Okay? So whatever it is, okay? I do one thing. Here I make it 1, 2, 8. 0, 1, 2, 3, 4, 5, 6, 7, 8. Yes, okay. It will go. Now see, 1 to 8, first of all, it will do marks 1 to 8. I will do 8 here. So that I can see how much is marks 1 to 8. Okay? So here I am waiting for it. Marks 1 to 8 is this. 5, 6, Harry, true. 6, 7, 2. Now because I have given jump index 2 here, so what will it do? First of all, it will print 5. Then it will print 1, 2, Harry. Then it will print 1, 2, 6. Then it will print 1, 2, 2. If I do 3 in the same jump index, then what will it do? It will jump 3 times. I will show you how. First of all, what will I get to see? First of all, it will bring the value of marks 1, 8 here. See, this is my marks 1, 8 value. Whenever you have to solve such a question, first of all, you do slicing. Marks 1 colon 8, take out how much is it? This is my marks 1 colon 8. Now see what I will do. Because 1 colon 8 colon 3, so my jump index is 3. So I will take the first value first. Okay, I took it. Then 1, 2, 3. I will take this value. Then 1, 2, 3. I will take this value. Now I can't go ahead. Now because I can't go ahead, so there is no point of it. Okay, if I do 9 as well, I will do 9 and show you. I will do 9 here as well. And I will run and show it. So what will be the value of 1 colon 9? The value of marks 1 colon 9 will be this. Now because the jump index is 3, first 5 will come. 1, 2, 3. Then true will come. 1, 2, 3. Then 2 will come. I can't go 1, 2, 3. It will stop. So that's why we will get to see this. Okay, so this is how the jump index works. I hope you understood. Okay, read this. What I have told you here, go through it. Okay, you will like it. You will understand. Okay, now if you keep these positive indices like this, then convert the positive to negative. Convert negative to positive. Okay, if you leave colon colon, okay, leave marks colon colon like this, then Python will automatically put 0 here. And here it will put len of marks. Len of marks. Okay, if you write like this, marks 1 colon, write like this, then what will happen? Python will automatically put len of marks here. Okay, if you leave it empty too. And if you write 1 colon 7, or write this, write empty colon 7, then Python will automatically put 0 here. Okay, so if you ever get to see something like this, then Python will put 0 in the starting, and in the ending, it will put len of whatever your list is. Okay, I hope that's not confusing. You are understanding. Okay, now here I have given many examples. You have to see them. Negative indices are also a little confusing. Because questions are asked, what do you have to do? Do a simple job. First of all, convert negative to positive. And after that, you have to continue your work. Okay, now see here, there are many examples given. You have to try all of them yourself. Okay, so now I will tell you about list comprehension. I hope that today's video is not going too long. But there are many concepts that I want us to learn directly in today's video. What is list comprehension? What does list comprehension do? You are generating a list on the fly. Okay, what are you doing? You are generating a list on the fly. So what we will do? We will write print here. And I have put a list comprehension here. List comprehension means I am generating a list on the fly. In fact, let's not print. Let's write a name. I want to make a list named LST. I will say LST is equal to square brackets. I will say I for I in range 45. Here 4, okay? 45 will be too many numbers. 4, okay? So this is list comprehension. What will happen? For I in range 4, 0, 1, 2, 3. These four values will come. So these four values will come here in 0, 1, 2, 3 list. I will show you. So as you can see, 0, 1, 2, 3 are visible here. Now I could have done I multiplied by I. And if I do I multiplied by I, then I will get 0, 1, 4, 9 printed. I can write anything here. I can write any expression here. It will be evaluated and become an element of my list. Okay? And this will be for every I. And if I want, I can make another list from a list by iterating a list here. So list comprehension can be very complex. Now let's say I say I want to go up to 10. Now I can also put a condition here. Okay? This is one thing. I will make another copy of this. I can also put a condition here. I will say if I percent 2 is equal to equal to 0. That is, if I is divisible by 2, then only I want I to be in the list. I want to put this expression in the list only when this condition is true. Okay? When this condition is true. And if I run it now, then you see that only even numbers will come here. 0 came, 2 came, 4 came, 6 came, and 8 came. 7 did not come, 5 did not come, 3 did not come. Okay? 1 also did not come. So by putting a condition like this, I can change my list comprehension. I can take some selective values in it. Okay? I hope this thing is clear to you. Go through this. There are other examples in this. You guys see, run it, copy the code, run it, and you will enjoy it more. Okay? That's all for now in this video. I know this video has become a little long, but I wanted to give you a very good introduction to the list. That's why I have kept this video a little long. I hope you guys are not tired today. Day 22 has become a little long. But sometimes the day is small, sometimes it is big, sometimes there is exercise, then there is rest that day. But you guys have to be ready. If a big day comes someday, then there is no tension. We will do it. Okay? That's all for now in this video. Do access this playlist. And I will see you next time. Thank you for watching it. And I will see you next time. Bye."
+}

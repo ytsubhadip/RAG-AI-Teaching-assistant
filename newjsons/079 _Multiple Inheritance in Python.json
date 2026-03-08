@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 0.0,
+            "end": 20.0,
+            "text": " Guys, in today's video, I will tell you about multiple inheritance.  How does multiple inheritance work in Python?  And why you should be caring at the first place?  Let's go to the computer screen and let's get started.  Intro"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 20.0,
+            "end": 35.7,
+            "text": " So guys, multiple inheritance is when more than one class is made into one class.  I will explain it to you in detail.  What will happen in multiple inheritance?  That there will be one child class and it will have more than one parent.  Parent 1, 2, 3, how many parents can be there?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 35.7,
+            "end": 44.4,
+            "text": " Usually, two parents are seen.  I will show you here.  Suppose I have a class employee.  Okay?  And I will write a pass here."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 44.4,
+            "end": 59.7,
+            "text": " And I have a class dancer.  Now a person who is an employee in a company can also be a dancer.  Maybe he knows how to dance.  So what can we do?  We can make a class called dancer employee."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 59.7,
+            "end": 73.2,
+            "text": " And we can say that this is an employee and a dancer.  Okay?  And we can do something like this.  Now I will show you one thing.  What will I do here?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 73.2,
+            "end": 85.7,
+            "text": " I will make a constructor.  And here I will write self.  I will write here self.name is equal to name.  And here I will take the name as a variable.  Okay?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 85.7,
+            "end": 98.7,
+            "text": " And I will do the same here.  What will I do?  I will make a constructor here too.  And here I will write self.  And what will we do here?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 98.7,
+            "end": 111.7,
+            "text": " Self.dance is equal to dance.  Okay?  I will write dance here.  Means whatever the type of dance is.  Break dance or kathak, whatever the type is."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 111.7,
+            "end": 124.2,
+            "text": " We are going to write it here.  Now see what I am doing here.  I am making a dancer employee.  What will I do in its constructor?  I will say that look, it is like this."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 124.2,
+            "end": 137.7,
+            "text": " Tell me what is dance?  And tell me what is name?  And I can do something like this.  I can say that self.dance is equal to dance.  And along with that, self.name is equal to name."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 137.7,
+            "end": 146.7,
+            "text": " Okay?  Name is equal to name.  Now I want to show you one thing here.  Suppose I have made an object of this.  I said that O is equal to."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 146.7,
+            "end": 162.7,
+            "text": " Suppose I wrote O is equal to dancer employee.  And I gave your dance here first.  Suppose I gave kathak.  And along with that, I gave the name of the employee.  Suppose the name of the employee is Shivani."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 162.7,
+            "end": 170.7,
+            "text": " Okay?  So I gave Shivani and she does kathak.  So if I print O here.  So you guys see here.  I will bring the console here."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 172.2,
+            "end": 184.7,
+            "text": " Here I will get to see dancer employee object.  Okay?  I have not defined the str method here.  So I will do one thing.  I will do dance with O.name."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 186.2,
+            "end": 192.7,
+            "text": " And now I will run.  So I will get to see Shivani and kathak.  There are no surprises in that.  Okay?  Nothing special."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 192.7,
+            "end": 200.2,
+            "text": " Now you guys will see here.  Suppose I have a method here.  Okay?  Suppose I have a method here.  Print."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 200.2,
+            "end": 206.7,
+            "text": " Okay?  So here I will do one thing.  I will make a method with show name.  And what am I doing here?  I am printing."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 206.7,
+            "end": 212.7,
+            "text": " Suppose name.  Okay?  I am printing the name.  And I do one thing.  I will make an f-string here."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 212.7,
+            "end": 219.7,
+            "text": " So that it is a little easy.  The name is.  And I will write here.  Self.name.  Okay?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 219.7,
+            "end": 230.7,
+            "text": " I did this.  And along with that, I will make the same show method here.  And here I will write.  The dance is self.dance.  Okay?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 230.7,
+            "end": 237.2,
+            "text": " Now if I call show.  If I do something like this.  O.show.  Then what will happen?  What will be printed?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 237.2,
+            "end": 247.2,
+            "text": " Will I have this print or this print?  Whatever is written here first will be printed.  Now see the name is Shivani is being printed.  Because the show method of the employee class will be called.  What if I do this?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 247.2,
+            "end": 256.2,
+            "text": " Dancer, employee.  Then something will change.  Yes, it will change.  This time the name is Shivani will not come.  This time the dance is kathak will come."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 256.2,
+            "end": 266.2,
+            "text": " As you can see.  Okay?  Now I want to tell you about a special method.  Its name is MRO method resolution order.  So MRO."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 266.2,
+            "end": 276.2,
+            "text": " I write here.  So that you know how to use MRO.  So how does MRO work?  I tell you here.  See what you have to do?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 276.2,
+            "end": 285.2,
+            "text": " Print.  Write the name of the class.  Dancer employee I am writing here.  And I will call MRO on it.  As soon as I call MRO."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 285.2,
+            "end": 293.2,
+            "text": " You see here.  It is telling me that if there is any method.  Where will it be found?  First it will be found in the dancer employee.  Then it will be found in the dancer."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 293.2,
+            "end": 301.2,
+            "text": " Then it will be found in the employee.  If I change it here.  Something like this.  That first employee then dancer.  Will MRO change?"
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 301.2,
+            "end": 308.2,
+            "text": " Yes, it will change.  Method resolution order will change.  Means the method will be seen first.  Now after the dancer employee.  I run it in the employee."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 308.2,
+            "end": 316.2,
+            "text": " After the dancer employee.  Now it will be seen in the employee.  And after that it will be seen in the dancer.  So I hope you have understood.  Now I have written notes here."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 316.2,
+            "end": 326.2,
+            "text": " You must read it.  In this we have taken the example of animal and dog.  And this is called multiple inheritance.  Because more than one class.  Is being made by using."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 326.2,
+            "end": 335.2,
+            "text": " Multiple more than one.  And inheritance because it is inheritance.  I hope you have understood this thing.  If you have not yet done this playlist.  Then do access it."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 335.2,
+            "end": 343.2,
+            "text": " I want to go to the same.  In this first video.  Everyone must put their review.  Tell me how did you like this course?  So that if any new person comes to see this course."
+        },
+        {
+            "number": "079 ",
+            "title": "Multiple Inheritance in Python",
+            "start": 343.2,
+            "end": 352.2,
+            "text": " I want it to be very easy for him.  Find out how this course is.  That's it for this video.  Thank you so much for watching this video.  And I will see you next time."
+        }
+    ],
+    "text": " Guys, in today's video, I will tell you about multiple inheritance. How does multiple inheritance work in Python? And why you should be caring at the first place? Let's go to the computer screen and let's get started. Intro So guys, multiple inheritance is when more than one class is made into one class. I will explain it to you in detail. What will happen in multiple inheritance? That there will be one child class and it will have more than one parent. Parent 1, 2, 3, how many parents can be there? Usually, two parents are seen. I will show you here. Suppose I have a class employee. Okay? And I will write a pass here. And I have a class dancer. Now a person who is an employee in a company can also be a dancer. Maybe he knows how to dance. So what can we do? We can make a class called dancer employee. And we can say that this is an employee and a dancer. Okay? And we can do something like this. Now I will show you one thing. What will I do here? I will make a constructor. And here I will write self. I will write here self.name is equal to name. And here I will take the name as a variable. Okay? And I will do the same here. What will I do? I will make a constructor here too. And here I will write self. And what will we do here? Self.dance is equal to dance. Okay? I will write dance here. Means whatever the type of dance is. Break dance or kathak, whatever the type is. We are going to write it here. Now see what I am doing here. I am making a dancer employee. What will I do in its constructor? I will say that look, it is like this. Tell me what is dance? And tell me what is name? And I can do something like this. I can say that self.dance is equal to dance. And along with that, self.name is equal to name. Okay? Name is equal to name. Now I want to show you one thing here. Suppose I have made an object of this. I said that O is equal to. Suppose I wrote O is equal to dancer employee. And I gave your dance here first. Suppose I gave kathak. And along with that, I gave the name of the employee. Suppose the name of the employee is Shivani. Okay? So I gave Shivani and she does kathak. So if I print O here. So you guys see here. I will bring the console here. Here I will get to see dancer employee object. Okay? I have not defined the str method here. So I will do one thing. I will do dance with O.name. And now I will run. So I will get to see Shivani and kathak. There are no surprises in that. Okay? Nothing special. Now you guys will see here. Suppose I have a method here. Okay? Suppose I have a method here. Print. Okay? So here I will do one thing. I will make a method with show name. And what am I doing here? I am printing. Suppose name. Okay? I am printing the name. And I do one thing. I will make an f-string here. So that it is a little easy. The name is. And I will write here. Self.name. Okay? I did this. And along with that, I will make the same show method here. And here I will write. The dance is self.dance. Okay? Now if I call show. If I do something like this. O.show. Then what will happen? What will be printed? Will I have this print or this print? Whatever is written here first will be printed. Now see the name is Shivani is being printed. Because the show method of the employee class will be called. What if I do this? Dancer, employee. Then something will change. Yes, it will change. This time the name is Shivani will not come. This time the dance is kathak will come. As you can see. Okay? Now I want to tell you about a special method. Its name is MRO method resolution order. So MRO. I write here. So that you know how to use MRO. So how does MRO work? I tell you here. See what you have to do? Print. Write the name of the class. Dancer employee I am writing here. And I will call MRO on it. As soon as I call MRO. You see here. It is telling me that if there is any method. Where will it be found? First it will be found in the dancer employee. Then it will be found in the dancer. Then it will be found in the employee. If I change it here. Something like this. That first employee then dancer. Will MRO change? Yes, it will change. Method resolution order will change. Means the method will be seen first. Now after the dancer employee. I run it in the employee. After the dancer employee. Now it will be seen in the employee. And after that it will be seen in the dancer. So I hope you have understood. Now I have written notes here. You must read it. In this we have taken the example of animal and dog. And this is called multiple inheritance. Because more than one class. Is being made by using. Multiple more than one. And inheritance because it is inheritance. I hope you have understood this thing. If you have not yet done this playlist. Then do access it. I want to go to the same. In this first video. Everyone must put their review. Tell me how did you like this course? So that if any new person comes to see this course. I want it to be very easy for him. Find out how this course is. That's it for this video. Thank you so much for watching this video. And I will see you next time."
+}

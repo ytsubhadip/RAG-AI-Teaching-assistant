@@ -1,0 +1,446 @@
+{
+    "chunks": [
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 0.0,
+            "end": 16.52,
+            "text": " Object Oriented Programming is a very demanding thing  which is used to make a lot of big companies and big products.  Now what exactly is there in Object Oriented Programming  that we can't do with our normal functional programming?  Today I will tell you the whole story of Object Oriented Programming"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 16.52,
+            "end": 33.56,
+            "text": " that you will understand what is Object Oriented Programming.  You will never be in confusion that  why are we doing the Object Oriented Programming that we are doing in this video?  I will tell you everything from the basics to why we use it.  Let's go to the computer screen and let's get started."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 33.56,
+            "end": 55.239999999999995,
+            "text": " Intro  So to understand Object Oriented Programming properly  we have to understand why we are introducing Object Oriented Programming.  Why we will use Object Oriented Programming  or what is the use of Object Oriented Programming."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 55.24,
+            "end": 71.6,
+            "text": " So first of all, you will see that whatever programming we have done till now is procedural programming.  That is, we use functions.  We use logic in our own program.  Let's say we wrote a function by defining it as hello.  And let's say this function printed hello."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 71.6,
+            "end": 88.44000000000001,
+            "text": " And then we called this function.  No surprises there, hello will be printed.  And I know you don't even want to see this thing, hello will be printed.  Now let's say I say there is a variable.  There is a variable and let's say there are two numbers."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 88.44000000000001,
+            "end": 109.68,
+            "text": " And one is the real part and one is the imaginary part.  Real is equal to 6, img is equal to 8.  I say that let's leave the real and imaginary part, I will give you a good example.  Let's say a businessman has a sale of 6000 rupees.  If it is less than rupees, then consider it as dollars."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 109.80000000000001,
+            "end": 138.96,
+            "text": " And the sale is of 6000 rupees.  And its revenue or let's say its profit is of 2000 rupees.  And let's say the same businessman is promoting, he is putting ads in billboards.  Let's say he is hiring people, he is doing influencer marketing.  Let's say his ad spend is 1000 rupees or dollars, whatever you consider."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 139.08,
+            "end": 157.76000000000002,
+            "text": " So his profit is 2000 rupees, ad spend is this much.  And we can calculate its margin.  So these are all things, we have stored in different variables.  Now let's say I want to do this thing for another businessman.  Now I will say that I can't make it in the same name."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 157.76000000000002,
+            "end": 173.76000000000002,
+            "text": " I will make it sale1 and profit1.  I will make it ad1 and 2 to 2.  And here the values of the other businessman will come.  So if you say that I have to do this for a third businessman.  By businessman I mean businessman in case someone doesn't know Hindi well."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 173.76000000000002,
+            "end": 191.04000000000002,
+            "text": " So I have made it sales3, profit3, ad3.  So I am maintaining the variables for 3 days.  I want to make a variable with the name of a businessman.  Or I would have done something where all the information of that businessman would have come in one place.  It would have been so good."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 191.04000000000002,
+            "end": 203.36,
+            "text": " So classes and objects help us to do this.  Now you understand one more thing.  If you are a gamer, then I will tell you.  Suppose I have a city.  Suppose GTA is a city and you must have played GTA 5."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 203.36,
+            "end": 210.64000000000001,
+            "text": " If you haven't played, then there is no problem.  I am telling you.  There is a player.  That player roams around the whole city.  He has a gun."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 210.64000000000001,
+            "end": 219.12,
+            "text": " His health is 0.  So that player dies.  The game is over.  If his health is 100, it means that he can get beaten up a little.  It happens like this."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 219.12,
+            "end": 227.6,
+            "text": " He can get beaten up a little.  He can get beaten up with 2-4, 15-20 kicks.  And he can take 2-3 bullets easily.  Maybe he can eat more.  So what happens?"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 227.6,
+            "end": 238.4,
+            "text": " His health keeps decreasing.  Finally, it goes to 0 and he dies.  So to track such variables, we make an entity called a player.  It would have been so good.  We say that make a player."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 238.4,
+            "end": 252.07999999999998,
+            "text": " The health of the player will come automatically.  What guns does the player have will come automatically.  Along with this, there is a lot of information about the player.  That will come.  And we can also perform some operations on the player."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 252.16000000000003,
+            "end": 264.16,
+            "text": " Like we can say player.run.  Now this thing will seem complicated to you.  I am just giving you an idea.  What we are doing is that the variables that were just numbers and data for us earlier,  we are mapping it with the real world entity."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 264.16,
+            "end": 280.16,
+            "text": " We are saying that this is sales1, profit1, not add1.  We will do this that Rajiv is a businessman.  So we will say rajiv.sales.  And suppose we have another businessman here.  His name is Vikrant."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 280.24,
+            "end": 296.24,
+            "text": " Vikrant.  We say Vikrant.sales.  So I know that by doing .sales, the businessman's sale comes.  So we do something like this that Vikrant is equal to new business.  Something like this."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 296.24,
+            "end": 314.32,
+            "text": " And after doing this, we say that we have a new businessman.  Now we can track his sales, revenue, profit, and all the things like ad spend.  So this is the idea of object oriented programming.  Is object oriented programming necessary?  No."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 314.32,
+            "end": 326.32,
+            "text": " You can do procedural programming.  You can make variables here.  Object oriented programming, once you understand to a certain degree what it is,  then it makes things easy for you.  For example, just think that you have a main player."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 326.32,
+            "end": 342.4,
+            "text": " And there are a lot of people in the city who are enemies who will kill that player.  So will you make variables again and again?  No.  You will not make different variables of the enemy and track their different properties.  Then you will have to track the health of every enemy."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 342.4,
+            "end": 352.4,
+            "text": " Then you will have to track which weapons every enemy has.  You will not want this.  You would rather like to make an enemy class.  Make a template so that the enemy gets everything.  Along with his health, if he carries weapons,"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 352.4,
+            "end": 364.47999999999996,
+            "text": " which weapons he is carrying,  this data will get everything.  So this is the idea of object oriented programming.  So this is the idea of object oriented programming.  So this is what you should know."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 364.47999999999996,
+            "end": 376.47999999999996,
+            "text": " The same thing can be done by creating variables.  It can be done by spreading the mess.  Spreading the mess means  making a lot of variables like this.  Make your program very big,"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 376.47999999999996,
+            "end": 386.47999999999996,
+            "text": " but will it remain maintainable?  No.  Object oriented programming is a way  with which you can understand the program easily  and you can perform actions on it easily."
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 386.47999999999996,
+            "end": 400.48,
+            "text": " Therefore, object oriented programming is a good way.  that's why object oriented programming was made  to make things easier  now what is it, how classes and objects are made, I will tell you later  but let's read a little about it"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 400.48,
+            "end": 415.48,
+            "text": " there are two types of approaches in programming languages  procedural programming and object oriented programming  we were making functions, using logic  from one function to another function, control was going on  but what does object oriented programming do"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 415.48,
+            "end": 430.48,
+            "text": " it maps all variables with real world concepts and entities  now I will give you one more example  suppose you have a railway form  and you have three people  one is Harry, one is Tom and one is Shubham"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 430.48,
+            "end": 445.48,
+            "text": " Harry, Tom and Shubham, three people  now what will happen here, the railway form  all the information is pre filled  if you have made a reservation  you will know the form"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 445.48,
+            "end": 460.48,
+            "text": " you have to write in it, which train you are going in  train number, address, you pay money  you get the ticket, so that type of form  you get, through this form you get to know  what all things you have to fill, so that if you"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 460.48,
+            "end": 475.48,
+            "text": " write everything on a paper, then you might go  you submit your form, the people sitting in front of you  on the counter, they say that you have not filled the name  you have not filled the age, you have not filled the train  so that data is not missing, so you get a template"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 475.48,
+            "end": 490.48,
+            "text": " you automatically get that template  there are many forms there  you get it easily, it is easy for you to fill  what you have to give, to the person sitting  on the ticket counter, this is easy for you"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 490.48,
+            "end": 505.48,
+            "text": " so Harry, Tom and Shubham, these three have different forms  and when they fill their data, then they  will keep their own objects, their own forms  so this railway form, we can consider it as a class  what is this? it is a class"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 505.48,
+            "end": 520.48,
+            "text": " class means a template, a blueprint  which will explain how the objects made from this will look  for example, this is a railway form, so railway form  will be Harry's railway form, it will have Harry's information  so I will write here, Harry's info form"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 520.48,
+            "end": 535.48,
+            "text": " similarly, what is here?  Tom's info form  then what is here? Shubham's info form  ok  so these three forms will be different, these three started from the same form"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 535.48,
+            "end": 550.48,
+            "text": " which was a railway form, which was an empty blank form  but these three will have their own forms  and after filling, these three forms are not identical, they have put their train number  their address, their age, their name, and maybe they have put their phone number  ok, so they have put all these things, filled"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 550.48,
+            "end": 565.48,
+            "text": " now their forms are their forms  now this railway form is Harry's form, it has information about which train he wants to go  which box he wants to go  where he wants to go, everything is there  Tom's form has Tom's information, which train he will take, when"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 565.48,
+            "end": 580.48,
+            "text": " which station he will take, all these things are told in this  and Shubham's form has Shubham's information  so they started with this, which was a blueprint, so this is a blueprint  and what is this? these are entities which are made from this blueprint  so these are objects, so this is a blueprint"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 580.48,
+            "end": 595.48,
+            "text": " and what is this? this is an object  and what is an object? it is an entity  I will call this as an entity, so this is an object  and this railway form is a class, so  one object is this, and along with that"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 595.48,
+            "end": 610.48,
+            "text": " one object is this, and one more  object is this  this, this is it, ok, good  we understood this, I have written the same thing here  a class is a blueprint or template for creating objects"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 610.48,
+            "end": 625.48,
+            "text": " it defines the properties and methods that an object of that class will have  properties are data, state of an object is  and method is action, now suppose you want to  change the name, suppose you wrote Shubham's place  Shubhi, you wrote Shubhi by mistake"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 625.48,
+            "end": 640.48,
+            "text": " so you can do something like this, you can say Shubham.  change name  suppose you want to change the name of the ticket to Shubhi  so you can write Shubhi, so you can  run the methods on that object which is defined in this template"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 640.48,
+            "end": 655.48,
+            "text": " you can run them  so you don't have to define the method again and again, you don't have to pass arguments  you have directly run the method on this object, we will see this later  don't get confused, don't think that I didn't tell you what I wrote  I will tell you later, I was just telling you about the method"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 655.48,
+            "end": 670.48,
+            "text": " its property will be Shubham.ticketamount  I can say Shubham.boardingstation  I can say Shubham.phone number  so I will get all the data, so all this data  Shubham will pass in his form, how he will do this we will see later"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 670.48,
+            "end": 685.48,
+            "text": " how this object is made from a class, but you got the idea  why we are doing all this work and now you won't understand  that's very natural because till you don't write the code  you won't understand why we are doing all this, just try to understand  make sense of things"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 685.48,
+            "end": 700.48,
+            "text": " make sense of things  now you understand why we are doing this  convince yourself that yes I am getting it  because when you will write the code then you will understand  object is an instance which is made from a class, it has its own data"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 700.48,
+            "end": 715.48,
+            "text": " like Shubham has its own data, Tom has his own data and it has its own methods  obviously those methods come from the class  for example you could create a class called person  that has properties such as name, age and methods speak and walk  I will show you later"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 715.48,
+            "end": 730.48,
+            "text": " each instance of the person class would be a unique object with its own name and age  but they would all have the same name to speak  and walk, are you getting it  you will get the method speak and walk  both will be same"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 730.48,
+            "end": 745.48,
+            "text": " one of the key features of OOP in python is encapsulation  which means that the internal state of an object is hidden and can only  be accessed or modified through the object's methods  this is one of the key feature of OOP  encapsulation means that the object is closed inside the capsule"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 745.48,
+            "end": 760.48,
+            "text": " now you just run Shubham.changename  how the name will change is the responsibility of this class  the person who wrote this class had already thought about it  you just run Shubham.changename  this is called encapsulation"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 760.48,
+            "end": 775.48,
+            "text": " then there is another key feature of OOP which is inheritance  if we have made a railway form then from the railway form  we can make a railway special form  in which we can also tell what you want to eat  when you will board the train"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 775.48,
+            "end": 790.48,
+            "text": " we can make a special form or VIP railway form  some basic things will be there like train number  and who is boarding  what is the name of the station to board  along with this what additional things you have to add"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 790.48,
+            "end": 805.48,
+            "text": " what you will eat, what is your preference  you will also want to eat food  many people don't eat food, they eat food of railway  so here you can specify these things  and extend it"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 805.48,
+            "end": 820.48,
+            "text": " what is the meaning of extend, understand  extend means that suppose  I have something, I am using it  if I add something more to it  then I can work more with it, I will think of a good example"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 820.48,
+            "end": 835.48,
+            "text": " I will come back to it  suppose this is my phone  if I add something to it  so that it can fly, then it will become a drone  I know it is a bad example but it will become a drone"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 835.48,
+            "end": 850.48,
+            "text": " so the phone I had, the thing I already had  in this case I already had a railway form  I made a railway VIP form  I made a railway form for VIP people  in this case I need this camera"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 850.48,
+            "end": 865.48,
+            "text": " but I also want to fly it, so I added additional things  did I make a phone from the beginning, no it was made  I had it, the way I had the railway form  so this is called inheritance, that there was one thing  I added a few additional things to it and made a new thing"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 865.48,
+            "end": 880.48,
+            "text": " so this is inheritance, you don't have to do it from the beginning  you start from there, suppose you  made a cycle, now you put an engine in it  this is a good example, you have a cycle  now you make a cycle, now you extend the cycle, put an engine in it"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 880.48,
+            "end": 895.48,
+            "text": " it becomes a bike, then you put four wheels in the bike  it becomes a car, so you can do this kind of work  you don't have to reinvent it again, cycle frame  you start from there, you made a cycle  then you made a battery bike, using that"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 895.48,
+            "end": 910.48,
+            "text": " so this is inheritance, one more feature is polymorphism  that means one thing in multiple forms, we will see all these things later  now you just understand that  object oriented programming is used to map real world entities  so that the understanding of the program increases"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 910.48,
+            "end": 925.48,
+            "text": " so that the programmer can understand the program  in the coming videos, we will see how to make classes  how to make objects, we will see examples, we will see narrations  a lot of things are yet to be seen  so you stay in 100 days of code and if you haven't accessed the playlist"
+        },
+        {
+            "number": "056 ",
+            "title": "Introduction to OOPs in Python",
+            "start": 925.48,
+            "end": 934.48,
+            "text": " then do access it, that's it for now  thank you so much for watching this video  and I will see you next time"
+        }
+    ],
+    "text": " Object Oriented Programming is a very demanding thing which is used to make a lot of big companies and big products. Now what exactly is there in Object Oriented Programming that we can't do with our normal functional programming? Today I will tell you the whole story of Object Oriented Programming that you will understand what is Object Oriented Programming. You will never be in confusion that why are we doing the Object Oriented Programming that we are doing in this video? I will tell you everything from the basics to why we use it. Let's go to the computer screen and let's get started. Intro So to understand Object Oriented Programming properly we have to understand why we are introducing Object Oriented Programming. Why we will use Object Oriented Programming or what is the use of Object Oriented Programming. So first of all, you will see that whatever programming we have done till now is procedural programming. That is, we use functions. We use logic in our own program. Let's say we wrote a function by defining it as hello. And let's say this function printed hello. And then we called this function. No surprises there, hello will be printed. And I know you don't even want to see this thing, hello will be printed. Now let's say I say there is a variable. There is a variable and let's say there are two numbers. And one is the real part and one is the imaginary part. Real is equal to 6, img is equal to 8. I say that let's leave the real and imaginary part, I will give you a good example. Let's say a businessman has a sale of 6000 rupees. If it is less than rupees, then consider it as dollars. And the sale is of 6000 rupees. And its revenue or let's say its profit is of 2000 rupees. And let's say the same businessman is promoting, he is putting ads in billboards. Let's say he is hiring people, he is doing influencer marketing. Let's say his ad spend is 1000 rupees or dollars, whatever you consider. So his profit is 2000 rupees, ad spend is this much. And we can calculate its margin. So these are all things, we have stored in different variables. Now let's say I want to do this thing for another businessman. Now I will say that I can't make it in the same name. I will make it sale1 and profit1. I will make it ad1 and 2 to 2. And here the values of the other businessman will come. So if you say that I have to do this for a third businessman. By businessman I mean businessman in case someone doesn't know Hindi well. So I have made it sales3, profit3, ad3. So I am maintaining the variables for 3 days. I want to make a variable with the name of a businessman. Or I would have done something where all the information of that businessman would have come in one place. It would have been so good. So classes and objects help us to do this. Now you understand one more thing. If you are a gamer, then I will tell you. Suppose I have a city. Suppose GTA is a city and you must have played GTA 5. If you haven't played, then there is no problem. I am telling you. There is a player. That player roams around the whole city. He has a gun. His health is 0. So that player dies. The game is over. If his health is 100, it means that he can get beaten up a little. It happens like this. He can get beaten up a little. He can get beaten up with 2-4, 15-20 kicks. And he can take 2-3 bullets easily. Maybe he can eat more. So what happens? His health keeps decreasing. Finally, it goes to 0 and he dies. So to track such variables, we make an entity called a player. It would have been so good. We say that make a player. The health of the player will come automatically. What guns does the player have will come automatically. Along with this, there is a lot of information about the player. That will come. And we can also perform some operations on the player. Like we can say player.run. Now this thing will seem complicated to you. I am just giving you an idea. What we are doing is that the variables that were just numbers and data for us earlier, we are mapping it with the real world entity. We are saying that this is sales1, profit1, not add1. We will do this that Rajiv is a businessman. So we will say rajiv.sales. And suppose we have another businessman here. His name is Vikrant. Vikrant. We say Vikrant.sales. So I know that by doing .sales, the businessman's sale comes. So we do something like this that Vikrant is equal to new business. Something like this. And after doing this, we say that we have a new businessman. Now we can track his sales, revenue, profit, and all the things like ad spend. So this is the idea of object oriented programming. Is object oriented programming necessary? No. You can do procedural programming. You can make variables here. Object oriented programming, once you understand to a certain degree what it is, then it makes things easy for you. For example, just think that you have a main player. And there are a lot of people in the city who are enemies who will kill that player. So will you make variables again and again? No. You will not make different variables of the enemy and track their different properties. Then you will have to track the health of every enemy. Then you will have to track which weapons every enemy has. You will not want this. You would rather like to make an enemy class. Make a template so that the enemy gets everything. Along with his health, if he carries weapons, which weapons he is carrying, this data will get everything. So this is the idea of object oriented programming. So this is the idea of object oriented programming. So this is what you should know. The same thing can be done by creating variables. It can be done by spreading the mess. Spreading the mess means making a lot of variables like this. Make your program very big, but will it remain maintainable? No. Object oriented programming is a way with which you can understand the program easily and you can perform actions on it easily. Therefore, object oriented programming is a good way. that's why object oriented programming was made to make things easier now what is it, how classes and objects are made, I will tell you later but let's read a little about it there are two types of approaches in programming languages procedural programming and object oriented programming we were making functions, using logic from one function to another function, control was going on but what does object oriented programming do it maps all variables with real world concepts and entities now I will give you one more example suppose you have a railway form and you have three people one is Harry, one is Tom and one is Shubham Harry, Tom and Shubham, three people now what will happen here, the railway form all the information is pre filled if you have made a reservation you will know the form you have to write in it, which train you are going in train number, address, you pay money you get the ticket, so that type of form you get, through this form you get to know what all things you have to fill, so that if you write everything on a paper, then you might go you submit your form, the people sitting in front of you on the counter, they say that you have not filled the name you have not filled the age, you have not filled the train so that data is not missing, so you get a template you automatically get that template there are many forms there you get it easily, it is easy for you to fill what you have to give, to the person sitting on the ticket counter, this is easy for you so Harry, Tom and Shubham, these three have different forms and when they fill their data, then they will keep their own objects, their own forms so this railway form, we can consider it as a class what is this? it is a class class means a template, a blueprint which will explain how the objects made from this will look for example, this is a railway form, so railway form will be Harry's railway form, it will have Harry's information so I will write here, Harry's info form similarly, what is here? Tom's info form then what is here? Shubham's info form ok so these three forms will be different, these three started from the same form which was a railway form, which was an empty blank form but these three will have their own forms and after filling, these three forms are not identical, they have put their train number their address, their age, their name, and maybe they have put their phone number ok, so they have put all these things, filled now their forms are their forms now this railway form is Harry's form, it has information about which train he wants to go which box he wants to go where he wants to go, everything is there Tom's form has Tom's information, which train he will take, when which station he will take, all these things are told in this and Shubham's form has Shubham's information so they started with this, which was a blueprint, so this is a blueprint and what is this? these are entities which are made from this blueprint so these are objects, so this is a blueprint and what is this? this is an object and what is an object? it is an entity I will call this as an entity, so this is an object and this railway form is a class, so one object is this, and along with that one object is this, and one more object is this this, this is it, ok, good we understood this, I have written the same thing here a class is a blueprint or template for creating objects it defines the properties and methods that an object of that class will have properties are data, state of an object is and method is action, now suppose you want to change the name, suppose you wrote Shubham's place Shubhi, you wrote Shubhi by mistake so you can do something like this, you can say Shubham. change name suppose you want to change the name of the ticket to Shubhi so you can write Shubhi, so you can run the methods on that object which is defined in this template you can run them so you don't have to define the method again and again, you don't have to pass arguments you have directly run the method on this object, we will see this later don't get confused, don't think that I didn't tell you what I wrote I will tell you later, I was just telling you about the method its property will be Shubham.ticketamount I can say Shubham.boardingstation I can say Shubham.phone number so I will get all the data, so all this data Shubham will pass in his form, how he will do this we will see later how this object is made from a class, but you got the idea why we are doing all this work and now you won't understand that's very natural because till you don't write the code you won't understand why we are doing all this, just try to understand make sense of things make sense of things now you understand why we are doing this convince yourself that yes I am getting it because when you will write the code then you will understand object is an instance which is made from a class, it has its own data like Shubham has its own data, Tom has his own data and it has its own methods obviously those methods come from the class for example you could create a class called person that has properties such as name, age and methods speak and walk I will show you later each instance of the person class would be a unique object with its own name and age but they would all have the same name to speak and walk, are you getting it you will get the method speak and walk both will be same one of the key features of OOP in python is encapsulation which means that the internal state of an object is hidden and can only be accessed or modified through the object's methods this is one of the key feature of OOP encapsulation means that the object is closed inside the capsule now you just run Shubham.changename how the name will change is the responsibility of this class the person who wrote this class had already thought about it you just run Shubham.changename this is called encapsulation then there is another key feature of OOP which is inheritance if we have made a railway form then from the railway form we can make a railway special form in which we can also tell what you want to eat when you will board the train we can make a special form or VIP railway form some basic things will be there like train number and who is boarding what is the name of the station to board along with this what additional things you have to add what you will eat, what is your preference you will also want to eat food many people don't eat food, they eat food of railway so here you can specify these things and extend it what is the meaning of extend, understand extend means that suppose I have something, I am using it if I add something more to it then I can work more with it, I will think of a good example I will come back to it suppose this is my phone if I add something to it so that it can fly, then it will become a drone I know it is a bad example but it will become a drone so the phone I had, the thing I already had in this case I already had a railway form I made a railway VIP form I made a railway form for VIP people in this case I need this camera but I also want to fly it, so I added additional things did I make a phone from the beginning, no it was made I had it, the way I had the railway form so this is called inheritance, that there was one thing I added a few additional things to it and made a new thing so this is inheritance, you don't have to do it from the beginning you start from there, suppose you made a cycle, now you put an engine in it this is a good example, you have a cycle now you make a cycle, now you extend the cycle, put an engine in it it becomes a bike, then you put four wheels in the bike it becomes a car, so you can do this kind of work you don't have to reinvent it again, cycle frame you start from there, you made a cycle then you made a battery bike, using that so this is inheritance, one more feature is polymorphism that means one thing in multiple forms, we will see all these things later now you just understand that object oriented programming is used to map real world entities so that the understanding of the program increases so that the programmer can understand the program in the coming videos, we will see how to make classes how to make objects, we will see examples, we will see narrations a lot of things are yet to be seen so you stay in 100 days of code and if you haven't accessed the playlist then do access it, that's it for now thank you so much for watching this video and I will see you next time"
+}

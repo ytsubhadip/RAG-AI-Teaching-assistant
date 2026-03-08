@@ -1,0 +1,229 @@
+{
+    "chunks": [
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 0.0,
+            "end": 13.44,
+            "text": " Guys, there is a method of overriding in child class.  The method that came from parent class, you have to change it.  How can you override a method in python?  I will tell you in this video.  Let's go to the computer screen and let's get started."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 13.44,
+            "end": 40.84,
+            "text": " \ud83c\udfb5 Intro Music \ud83c\udfb5  So we do method overriding whenever we have to redefine a method of parent class according to child class.  Now see, method overriding is a powerful feature of object-oriented programming.  In general, in any language, you read object-oriented programming,  method overriding is a very important topic."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 40.84,
+            "end": 56.6,
+            "text": " Now I will tell you quickly when you will want to override a method.  Suppose we have made a class named shape.  I have defined the area in it.  Now I do one thing, I complete this class.  I say that there will be a constructor named init."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 57.32,
+            "end": 82.36,
+            "text": " I will write self in it.  After writing self, I will say that self.x is equal to x.  And self.y is equal to y.  And the area will be return self.x multiplied by self.y.  x and y."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 82.36,
+            "end": 95.0,
+            "text": " x and y.  Now suppose I have made an instance.  Suppose I have made a square.  Sq is equal to.  And I have made a shape."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 95.0,
+            "end": 103.56,
+            "text": " And I have said 34 and 3.  Or 4.  Or I take small numbers.  3 and 5.  Now I make it rectangle."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 103.56,
+            "end": 117.96,
+            "text": " Now if I say print rec.area.  I will say rec.area.  I want to find its area.  Will I get 15?  The answer is yes."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 117.96,
+            "end": 129.79999999999998,
+            "text": " But suppose I am defining a new shape.  It is a circle.  And the area of circle is pi r square.  We all know this.  So do I have to change the area method or not?"
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 129.79999999999998,
+            "end": 144.20000000000002,
+            "text": " Yes, I have to.  Now I am doing this to the circle.  And I definitely want that this shape.  I want to inherit it.  Now suppose there are some other utility methods."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 144.20000000000002,
+            "end": 154.2,
+            "text": " Which are applicable for all shapes.  Like suppose.  There is a show method.  Which displays about this shape.  That this is a circle."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 154.2,
+            "end": 164.2,
+            "text": " This is a rectangle.  But whatever the reason.  Suppose I want to make a circle.  I say c is equal to circle.  And its radius is 5."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 164.2,
+            "end": 174.28,
+            "text": " Now if I do print.  And I do c.area.  If I don't have this method.  Then it will give me a very bad error.  And it will say that I don't have x or y."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 174.28,
+            "end": 184.28,
+            "text": " So what is this?  Circle object has no attribute x.  It will say that x is not there.  You have made another init method.  Init is not there."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 184.28,
+            "end": 194.28,
+            "text": " Now if you do something like this.  Suppose for some reason.  I am doing this.  Logically, this sense may not be made.  But I can do anything to do."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 194.28,
+            "end": 204.36,
+            "text": " So if I use super keyword.  And I say that here super.init.  And radius.  Comma radius.  That is, set its x and y radius."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 204.36,
+            "end": 214.36,
+            "text": " So it will give me a wrong area.  Why?  Because it will do radius multiply by radius.  Which will be 25.  For this circle."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 214.36,
+            "end": 224.36,
+            "text": " So for this circle.  It will give me a wrong area.  Circle area is not radius multiply by radius.  Radius multiply by radius is not at all.  So what can I do here?"
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 224.36,
+            "end": 234.44000000000003,
+            "text": " I can say.  Multiply by.  Super.area.  I will say super.area.  Something like this."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 234.44000000000003,
+            "end": 244.44000000000003,
+            "text": " If I run it now.  You see here.  3.14 multiply by 25.  I can do this kind of work.  Now how is it working?"
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 244.44000000000003,
+            "end": 254.44000000000003,
+            "text": " It is calling super class area method.  Which is multiplying x and y.  So in this way I can override the super class method.  And I can also use it.  With the help of super method."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 254.52,
+            "end": 264.52,
+            "text": " So in this way.  Overriding of methods can be done.  If I don't like one method.  Then I can write another method.  So I hope you understood."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 264.52,
+            "end": 274.52,
+            "text": " I made a typing error.  I will correct it.  And many of you had a question.  That how does the content show in RAPL.  So you will see that too."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 274.52,
+            "end": 284.59999999999997,
+            "text": " So I am doing it in front of you.  So see here.  Tutorial.md  In RAPLite, you make a folder named .tutorial.  You will put a video.json file."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 284.59999999999997,
+            "end": 294.59999999999997,
+            "text": " In which the video information will be there.  So the video comes here.  And this content is there.  You can write code here.  Which makes learning experience absolutely brilliant."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 294.59999999999997,
+            "end": 304.59999999999997,
+            "text": " And very convenient.  I didn't close it here.  So I will do something like this.  And I will bring it here.  This is markdown syntax."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 304.59999999999997,
+            "end": 314.68,
+            "text": " And now I will open it and show it to you.  So see here.  I can see the preview here.  So I hope you are enjoying.  After watching all these videos."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 314.68,
+            "end": 324.68,
+            "text": " I will reload it.  So this thing will be fixed.  So you don't worry about it.  So I hope you are enjoying.  How to do method overriding."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 324.68,
+            "end": 334.68,
+            "text": " You make some classes yourself.  Do method overriding in them.  So you will get more clarity in this.  If you have not accessed this playlist yet.  Then do access it."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 334.68,
+            "end": 344.76,
+            "text": " And do put a review in the first video.  How is the course looking to you.  So 74%  74% is a good enough amount.  To judge a course."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 344.76,
+            "end": 354.76,
+            "text": " So you can go and tell.  How is the course.  To those who are going to watch this course.  So I hope you liked this video.  And practice it."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 354.76,
+            "end": 364.76,
+            "text": " And do method overriding.  Make some classes.  Make an employee class.  So you will get more clarity.  That's all for this video."
+        },
+        {
+            "number": "074 ",
+            "title": "Method Overriding in Python",
+            "start": 364.76,
+            "end": 368.84,
+            "text": " Thank you so much for watching this video.  I will see you next time."
+        }
+    ],
+    "text": " Guys, there is a method of overriding in child class. The method that came from parent class, you have to change it. How can you override a method in python? I will tell you in this video. Let's go to the computer screen and let's get started. \ud83c\udfb5 Intro Music \ud83c\udfb5 So we do method overriding whenever we have to redefine a method of parent class according to child class. Now see, method overriding is a powerful feature of object-oriented programming. In general, in any language, you read object-oriented programming, method overriding is a very important topic. Now I will tell you quickly when you will want to override a method. Suppose we have made a class named shape. I have defined the area in it. Now I do one thing, I complete this class. I say that there will be a constructor named init. I will write self in it. After writing self, I will say that self.x is equal to x. And self.y is equal to y. And the area will be return self.x multiplied by self.y. x and y. x and y. Now suppose I have made an instance. Suppose I have made a square. Sq is equal to. And I have made a shape. And I have said 34 and 3. Or 4. Or I take small numbers. 3 and 5. Now I make it rectangle. Now if I say print rec.area. I will say rec.area. I want to find its area. Will I get 15? The answer is yes. But suppose I am defining a new shape. It is a circle. And the area of circle is pi r square. We all know this. So do I have to change the area method or not? Yes, I have to. Now I am doing this to the circle. And I definitely want that this shape. I want to inherit it. Now suppose there are some other utility methods. Which are applicable for all shapes. Like suppose. There is a show method. Which displays about this shape. That this is a circle. This is a rectangle. But whatever the reason. Suppose I want to make a circle. I say c is equal to circle. And its radius is 5. Now if I do print. And I do c.area. If I don't have this method. Then it will give me a very bad error. And it will say that I don't have x or y. So what is this? Circle object has no attribute x. It will say that x is not there. You have made another init method. Init is not there. Now if you do something like this. Suppose for some reason. I am doing this. Logically, this sense may not be made. But I can do anything to do. So if I use super keyword. And I say that here super.init. And radius. Comma radius. That is, set its x and y radius. So it will give me a wrong area. Why? Because it will do radius multiply by radius. Which will be 25. For this circle. So for this circle. It will give me a wrong area. Circle area is not radius multiply by radius. Radius multiply by radius is not at all. So what can I do here? I can say. Multiply by. Super.area. I will say super.area. Something like this. If I run it now. You see here. 3.14 multiply by 25. I can do this kind of work. Now how is it working? It is calling super class area method. Which is multiplying x and y. So in this way I can override the super class method. And I can also use it. With the help of super method. So in this way. Overriding of methods can be done. If I don't like one method. Then I can write another method. So I hope you understood. I made a typing error. I will correct it. And many of you had a question. That how does the content show in RAPL. So you will see that too. So I am doing it in front of you. So see here. Tutorial.md In RAPLite, you make a folder named .tutorial. You will put a video.json file. In which the video information will be there. So the video comes here. And this content is there. You can write code here. Which makes learning experience absolutely brilliant. And very convenient. I didn't close it here. So I will do something like this. And I will bring it here. This is markdown syntax. And now I will open it and show it to you. So see here. I can see the preview here. So I hope you are enjoying. After watching all these videos. I will reload it. So this thing will be fixed. So you don't worry about it. So I hope you are enjoying. How to do method overriding. You make some classes yourself. Do method overriding in them. So you will get more clarity in this. If you have not accessed this playlist yet. Then do access it. And do put a review in the first video. How is the course looking to you. So 74% 74% is a good enough amount. To judge a course. So you can go and tell. How is the course. To those who are going to watch this course. So I hope you liked this video. And practice it. And do method overriding. Make some classes. Make an employee class. So you will get more clarity. That's all for this video. Thank you so much for watching this video. I will see you next time."
+}

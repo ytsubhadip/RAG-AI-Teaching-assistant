@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 0.0,
+            "end": 23.3,
+            "text": " Guys, in today's video, I will tell you about DIR, DECT and HELP methods  that how to use them for object introspection  and why you should use them whenever you are dealing with new classes.  Let's go to the computer screen and let's get started.  \ud83c\udfb5 Intro Music \ud83c\udfb5"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 23.3,
+            "end": 44.1,
+            "text": " Object introspection means that you want to see what all is present in an object.  How can it be used?  A class has been given to you, it is a completely unknown class, you don't know anything about that class.  You are told to use it, it is a very powerful class.  You say, yes, it is a powerful class, it will be there, but I don't know how to use it."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 44.1,
+            "end": 60.699999999999996,
+            "text": " How can you learn to use it or get information about it?  You can get it, I will tell you.  So see, there are three methods, mainly DIR, DECT and HELP methods.  We must look into these methods.  DECT is actually an attribute, not a method, so I will tell you about it."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 60.699999999999996,
+            "end": 78.1,
+            "text": " They make it easy for us to understand how classes resolve various functions and execute code.  In Python, there are three built-in functions.  There is a DIR, then there is __dict and then there is a HELP function.  Let's see about them first, let's see about DIR.  So I will copy this piece of code."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 78.1,
+            "end": 93.9,
+            "text": " I am copying this piece of code.  And basically, I know what?  Actually, I have used this Python REPL,  I have used it and copied and pasted it, so I will fix it a little later.  But you see here that I have x is equal to 1, 2, 3."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 93.9,
+            "end": 107.7,
+            "text": " There is a simple list.  After this, I said to print DIRX.  So I made a list and then I printed it.  Oops, maybe there is an extra indent here.  No problem, let's print it by solving the indent."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 107.7,
+            "end": 118.0,
+            "text": " This is a list.  So I want to know about a list object.  What do I get? What are the methods?  Actually, I should have printed it. I just left it by writing.  What is happening today?"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 118.0,
+            "end": 130.0,
+            "text": " Why am I doing this?  Okay, I printed DIRX.  So see what we get here.  We get to see which methods are there, what are its attributes.  We get to see everything in this."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 130.0,
+            "end": 144.5,
+            "text": " So here you see that if I start printing them one by one.  Suppose I want to know that, okay, what is __add?  Is this a method?  Is this something else?  Sorry, I have to add x.__."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 144.5,
+            "end": 157.5,
+            "text": " What is this? Is this a method?  I mean, what is this? I want to know about it.  So it will tell me. It says method wrapper add of list object.  So it is telling me what is __add?  What methods can be run in this?"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 157.5,
+            "end": 169.0,
+            "text": " It is telling me. It says __alien.  This is inside it.  __mul__ is inside it.  It is telling me many other things.  It is telling me to use wrap and method."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 169.0,
+            "end": 184.0,
+            "text": " You use clear method. You use copy method.  You use this. You use count.  Okay, so I can find out all the methods in this.  If someone tells me that tell me, is there a reverse method in any list?  So at least I know that there is a reverse method."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 184.0,
+            "end": 194.0,
+            "text": " Okay, I know that.  So I can find out by doing DIR.  Where will I get which method?  If I make it tuple?  Yes, you make it tuple."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 194.5,
+            "end": 202.5,
+            "text": " Then I will get to know about it.  What are the methods in it?  I did DIRX.  After that, I added __.  This method is there or not?"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 202.5,
+            "end": 212.5,
+            "text": " Yes, it is there. Otherwise, name error comes.  If I make it ADD?  I am trying to print it.  So this does not happen.  Nothing happens."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 212.5,
+            "end": 222.5,
+            "text": " See, error has come.  It is saying that there is no method or attribute in tuple object.  What do you want?  So this is one thing.  So what does DIR method do?"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 223.0,
+            "end": 233.0,
+            "text": " Including dender methods.  I will tell you about dender methods very soon.  Available for an object.  Dender methods are basically these methods.  Now I will tell you in which special case it is."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 233.0,
+            "end": 245.0,
+            "text": " It is a useful tool for discovering what you want to know about the object.  What do you want to know about the object?  Now I will tell you about dict.  What is __dict attribute?  Suppose you have made a class."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 245.0,
+            "end": 255.5,
+            "text": " I made this class.  And I will make it well and show you.  Change all occurrences  Change all occurrences  I will backspace it."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 255.5,
+            "end": 265.5,
+            "text": " I will correct the code.  Now our code is looking beautiful.  Now here our code is amazing.  Amazing.  Amazing."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 265.5,
+            "end": 275.5,
+            "text": " Now if I run it,  We have made a class.  We have made a person object.  Now if I print here.  Actually I have not printed it."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 275.5,
+            "end": 286.0,
+            "text": " I should have printed it.  If I print its __dict.  All the attributes of this object in this class.  All the attributes of this object in this class.  I will get it as a dictionary."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 286.0,
+            "end": 296.0,
+            "text": " It means that here it is.  I will increase it.  I will increase it by pressing ctrl.  So that you can see it properly.  And I will also show you properly."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 296.0,
+            "end": 306.0,
+            "text": " Now I will tell you what happened.  Now I will tell you what happened.  What will happen with dict?  Suppose I have written here self.  Suppose I have written here self."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 306.0,
+            "end": 316.5,
+            "text": " Version is equal to 1.  So whatever I have set here.  It will come here as __dict.  100% it is.  Great."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 316.5,
+            "end": 326.5,
+            "text": " Now I will tell you about help method.  Now I will tell you about help method.  What does help method do?  Method spelling is wrong.  But no problem."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 326.5,
+            "end": 336.5,
+            "text": " We will also tell you about help method.  What happens by helping here?  If I say help str.  It will tell me about the string.  It will tell me about the string."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 337.0,
+            "end": 347.0,
+            "text": " If I do here.  Help person.  If I do here.  It is telling me.  It is telling me."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 347.0,
+            "end": 359.0,
+            "text": " The class is here.  And whether I like it or not.  Data describer.  It tells you everything.  It tells you everything."
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 359.0,
+            "end": 371.14,
+            "text": " So help function is.  It tells you everything.  So these three methods.  I hope this video will help you  If you want to know more about this method"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 371.14,
+            "end": 386.52,
+            "text": " If you want to know more about this method  Then you can use these three methods  I hope you enjoyed this video  If you have not accessed this playlist yet  And you have not rated this course yet, then do it"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 386.52,
+            "end": 400.12,
+            "text": " First you have to go to the video  And put your review  You will tell me how this course is  You will tell me that I did this course till day 71  Now you have to tell me"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 400.12,
+            "end": 414.74,
+            "text": " Can anyone learn python from this course?  You have to tell me honestly  Because anyone is taking their time in this course  So he has to know a review  And you have to put it"
+        },
+        {
+            "number": "071 ",
+            "title": "dir, ",
+            "start": 414.74,
+            "end": 424.74,
+            "text": " Because you have seen this course till day 71  So you have to tell me  Thank you so much for watching this video  Good bye"
+        }
+    ],
+    "text": " Guys, in today's video, I will tell you about DIR, DECT and HELP methods that how to use them for object introspection and why you should use them whenever you are dealing with new classes. Let's go to the computer screen and let's get started. \ud83c\udfb5 Intro Music \ud83c\udfb5 Object introspection means that you want to see what all is present in an object. How can it be used? A class has been given to you, it is a completely unknown class, you don't know anything about that class. You are told to use it, it is a very powerful class. You say, yes, it is a powerful class, it will be there, but I don't know how to use it. How can you learn to use it or get information about it? You can get it, I will tell you. So see, there are three methods, mainly DIR, DECT and HELP methods. We must look into these methods. DECT is actually an attribute, not a method, so I will tell you about it. They make it easy for us to understand how classes resolve various functions and execute code. In Python, there are three built-in functions. There is a DIR, then there is __dict and then there is a HELP function. Let's see about them first, let's see about DIR. So I will copy this piece of code. I am copying this piece of code. And basically, I know what? Actually, I have used this Python REPL, I have used it and copied and pasted it, so I will fix it a little later. But you see here that I have x is equal to 1, 2, 3. There is a simple list. After this, I said to print DIRX. So I made a list and then I printed it. Oops, maybe there is an extra indent here. No problem, let's print it by solving the indent. This is a list. So I want to know about a list object. What do I get? What are the methods? Actually, I should have printed it. I just left it by writing. What is happening today? Why am I doing this? Okay, I printed DIRX. So see what we get here. We get to see which methods are there, what are its attributes. We get to see everything in this. So here you see that if I start printing them one by one. Suppose I want to know that, okay, what is __add? Is this a method? Is this something else? Sorry, I have to add x.__. What is this? Is this a method? I mean, what is this? I want to know about it. So it will tell me. It says method wrapper add of list object. So it is telling me what is __add? What methods can be run in this? It is telling me. It says __alien. This is inside it. __mul__ is inside it. It is telling me many other things. It is telling me to use wrap and method. You use clear method. You use copy method. You use this. You use count. Okay, so I can find out all the methods in this. If someone tells me that tell me, is there a reverse method in any list? So at least I know that there is a reverse method. Okay, I know that. So I can find out by doing DIR. Where will I get which method? If I make it tuple? Yes, you make it tuple. Then I will get to know about it. What are the methods in it? I did DIRX. After that, I added __. This method is there or not? Yes, it is there. Otherwise, name error comes. If I make it ADD? I am trying to print it. So this does not happen. Nothing happens. See, error has come. It is saying that there is no method or attribute in tuple object. What do you want? So this is one thing. So what does DIR method do? Including dender methods. I will tell you about dender methods very soon. Available for an object. Dender methods are basically these methods. Now I will tell you in which special case it is. It is a useful tool for discovering what you want to know about the object. What do you want to know about the object? Now I will tell you about dict. What is __dict attribute? Suppose you have made a class. I made this class. And I will make it well and show you. Change all occurrences Change all occurrences I will backspace it. I will correct the code. Now our code is looking beautiful. Now here our code is amazing. Amazing. Amazing. Now if I run it, We have made a class. We have made a person object. Now if I print here. Actually I have not printed it. I should have printed it. If I print its __dict. All the attributes of this object in this class. All the attributes of this object in this class. I will get it as a dictionary. It means that here it is. I will increase it. I will increase it by pressing ctrl. So that you can see it properly. And I will also show you properly. Now I will tell you what happened. Now I will tell you what happened. What will happen with dict? Suppose I have written here self. Suppose I have written here self. Version is equal to 1. So whatever I have set here. It will come here as __dict. 100% it is. Great. Now I will tell you about help method. Now I will tell you about help method. What does help method do? Method spelling is wrong. But no problem. We will also tell you about help method. What happens by helping here? If I say help str. It will tell me about the string. It will tell me about the string. If I do here. Help person. If I do here. It is telling me. It is telling me. The class is here. And whether I like it or not. Data describer. It tells you everything. It tells you everything. So help function is. It tells you everything. So these three methods. I hope this video will help you If you want to know more about this method If you want to know more about this method Then you can use these three methods I hope you enjoyed this video If you have not accessed this playlist yet And you have not rated this course yet, then do it First you have to go to the video And put your review You will tell me how this course is You will tell me that I did this course till day 71 Now you have to tell me Can anyone learn python from this course? You have to tell me honestly Because anyone is taking their time in this course So he has to know a review And you have to put it Because you have seen this course till day 71 So you have to tell me Thank you so much for watching this video Good bye"
+}

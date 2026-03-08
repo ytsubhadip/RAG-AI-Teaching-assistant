@@ -1,0 +1,642 @@
+{
+    "chunks": [
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 0.0,
+            "end": 11.88,
+            "text": " In today's video, we will talk about functions.  What are functions?  Sometimes we want to use our code,  the logic of the code, multiple times.  Let's say we want to print from 1 to 15 times in our program."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 11.88,
+            "end": 22.96,
+            "text": " And let's say the code to do this is of 10 lines.  So we don't want to repeat these 10 lines in our program.  There are two reasons for this.  If we repeat these lines,  so let's say I want to change the code in these lines,"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 22.96,
+            "end": 37.32,
+            "text": " then I will have to repeat it where the 15 places where this program is being used.  I have to repeat these lines where they are being used.  I will have to make a mistake if I want to correct it in my program.  Along with that, it will be very hectic for me.  My number of lines will increase."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 37.32,
+            "end": 51.36,
+            "text": " If I separate this particular logic from my main program  and make it a separate entity,  then it will be easy for me to update it.  And I will be able to use it 10 times  without increasing my number of lines."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 51.36,
+            "end": 60.839999999999996,
+            "text": " So how will I do this?  I will do it with the help of functions.  That is, I will separate the logic and make it a function.  I will say, there is a function to add.  There is a function to get the average."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 60.839999999999996,
+            "end": 72.16,
+            "text": " There is a function to get the geometric mean.  Sometimes the logic of functions is very complicated.  For example, it can be a function to get the multiplication table of a given number.  It can be a function to add 10 numbers.  It can be a function to get the average."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 72.16,
+            "end": 84.0,
+            "text": " It can be a function to get the mean, median, and mode.  So we will separate the logic and then just refer that  we will get the mean of these numbers.  And we will not see this entity much.  We will make a function once and then use that function."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 84.0,
+            "end": 103.2,
+            "text": " Whatever I said, you may not have understood it so well.  No problems, we are running on the computer screen right now.  And I will understand this concept and then I will tell you.  Let's get started.  \ud83c\udfb5Music\ud83c\udfb5"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 103.2,
+            "end": 119.32000000000001,
+            "text": " So function is basically a way of writing code.  Assume that you are using a block of code  in your program 10 or 50 times.  So will you copy and paste it again and again?  Assuming that the block of code is of 50 lines, 100 lines, 60, 70 lines."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 119.32000000000001,
+            "end": 133.32,
+            "text": " You will definitely not copy and paste it again and again.  You will wrap it in a function so that you can reuse it again and again.  So I will show you first how the function is made.  And after that we will talk about things.  Now here, what will I do?"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 133.32,
+            "end": 143.92000000000002,
+            "text": " I will open a new file.  Main.py  And I will take this console here.  Yes, it looks good.  Things are arranged perfectly here."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 144.11999999999998,
+            "end": 155.32,
+            "text": " Now see, function is a block of code that performs a specific task whenever it is called.  Now I will tell you in a very basic language.  First, let's see what I have written.  I will write def here.  Okay?"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 155.32,
+            "end": 167.32,
+            "text": " Or leave def too, I will start very simple.  Assume I have a program that  generates geometric mean.  G mean is equal to  I take two numbers."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 167.32,
+            "end": 176.72,
+            "text": " First of all, a is equal to 9  and b is equal to 8.  Okay?  What is geometric mean?  a b divided by a plus b."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 176.72,
+            "end": 187.72,
+            "text": " Okay? So I will do 9.  Or I will write a multiplied by b.  And I will write divided by a plus b.  Okay?  I will put this in brackets."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 187.72,
+            "end": 197.72,
+            "text": " So that  our geometric mean is correct.  Okay?  And then I will print geometric mean.  Okay?"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 197.72,
+            "end": 208.12,
+            "text": " I will run it.  Calculation will be done and output will be obtained.  We all know that.  I know you know that.  But I don't want to tell you this."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 208.12,
+            "end": 218.12,
+            "text": " Now assume that  I take two more numbers.  C and D.  Assume C is equal to 8  and D is equal to 7."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 218.12,
+            "end": 228.12,
+            "text": " And assume I want to get  their G mean again.  So I have to write it again  like this.  C multiplied by D"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 228.12,
+            "end": 238.52,
+            "text": " divided by C plus D.  I can override the variable.  But let's keep it simple.  Okay?  a b divided by a plus b."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 238.52,
+            "end": 248.52,
+            "text": " C D divided by C plus D.  This is showing 9 and 8 geometric mean.  And this is 8 and 7 geometric mean.  So far so good.  Everything is going according to plan."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 248.52,
+            "end": 258.52,
+            "text": " Now this is also a one line function.  This code to get geometric mean  is of one line.  If it was of 10 lines, then?  Assume it was a complex code."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 258.91999999999996,
+            "end": 268.91999999999996,
+            "text": " This would have been a 10 line code.  So I would have to write 10 lines here  and 10 lines here.  And my code would have been of 20 lines.  So what I will do is"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 268.91999999999996,
+            "end": 278.91999999999996,
+            "text": " I will put this geometric mean  in a function.  I will say def  and write G mean.  Or calculate"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 278.91999999999996,
+            "end": 289.32,
+            "text": " G mean  and a and b.  And what I will do in this?  I will write  mean is equal to"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 289.32,
+            "end": 299.32,
+            "text": " and here I will write  the logic like this.  And I will write print mean.  So  what I have written after def keyword"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 299.32,
+            "end": 309.32,
+            "text": " is the name of this function.  a and b are arguments  which this function is accepting.  Okay?  No arguments can be accepted by this function."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 309.32,
+            "end": 319.71999999999997,
+            "text": " It is not necessary that every function will accept arguments.  But it is accepting.  I can get a and b and it will give me this thing.  Okay?  So instead of doing this"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 319.71999999999997,
+            "end": 329.71999999999997,
+            "text": " now I can simply say  calculate G mean a, b.  And instead of doing this  I will comment this out  for you guys."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 329.71999999999997,
+            "end": 339.71999999999997,
+            "text": " I can do something like this.  And just so that you guys have the code  I will do this  which I wrote earlier.  I will restore this."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 339.71999999999997,
+            "end": 350.12,
+            "text": " a here b  here a here b.  So now if I run this  then the geometric mean of 9 and 8  will be printed."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 350.12,
+            "end": 360.12,
+            "text": " And then the geometric mean of 8 and 7  will be printed.  And our results will be the same.  You guys understood this story.  So this way we can separate our logic."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 360.12,
+            "end": 370.12,
+            "text": " I can write another function  in this program which will tell  which number is greater than two.  Now suppose instead of calculating  geometric mean, what I have to do"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 370.12,
+            "end": 380.52,
+            "text": " is to find out  which number is greater than two.  So I will simply write  if a is greater than b  print"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 380.52,
+            "end": 390.52,
+            "text": " first is greater  first number is greater.  Okay?  And then I will write else  and print second number is greater."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 390.52,
+            "end": 400.52,
+            "text": " Okay? I will do this.  Otherwise I will print second number is greater.  And this is a very simple thing  which you guys  have to do many times."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 400.91999999999996,
+            "end": 410.91999999999996,
+            "text": " And  here you can do  number is greater  and equal.  Otherwise comments will come"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 410.91999999999996,
+            "end": 420.91999999999996,
+            "text": " and people will say that this case is not handled.  Okay, I have done it.  So here I have also done calculate mean a.  I will take this up.  I have to find out which is greater than two."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 420.91999999999996,
+            "end": 431.32,
+            "text": " And then I have to print  its geometric mean.  I have to do the same with c and d.  If c is greater than d,  then this is greater."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 431.32,
+            "end": 441.32,
+            "text": " Now you see what will happen here.  As soon as I run this code,  you see here  I got first number is greater  then geometric mean."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 441.32,
+            "end": 451.32,
+            "text": " If the second number was greater,  then I would have got  second number is greater  along with geometric mean.  Okay?"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 451.32,
+            "end": 461.71999999999997,
+            "text": " So far so good. Are you enjoying?  Okay, good.  Now see what will happen here.  I want to do the same thing for many numbers.  So I have to repeat this code again and again."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 461.71999999999997,
+            "end": 471.71999999999997,
+            "text": " Which is not ideal.  So I will write a function.  Def  First of all, let's write a function.  It tells python that we are going to write a function."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 471.71999999999997,
+            "end": 481.71999999999997,
+            "text": " Okay?  Then I will write  is greater a, b.  Okay? A and b  are arguments of variable sense function."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 481.71999999999997,
+            "end": 494.12,
+            "text": " Okay?  I will paste the same code here.  In fact, I will cut from here  or paste and call this function here.  Now the rules of indentation"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 494.12,
+            "end": 504.12,
+            "text": " will have to be followed.  If I am inside this function, then I have to put everything in the tab.  That is, this is inside this function.  Because I have given space here.  Okay?"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 504.12,
+            "end": 514.12,
+            "text": " Do you understand this? This is indentation.  We have seen it before.  Now if I want something to come inside this if condition,  if it comes inside this if statement,  then I have to give one more level of indent"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 514.52,
+            "end": 524.52,
+            "text": " by pressing tab.  I have given that too.  And this is inside else.  So I have put one more indent.  And you see here,"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 524.52,
+            "end": 534.52,
+            "text": " I can do the same thing here.  Instead of writing such a big name,  I can do is greater c, d.  There is no need to write so big.  I have written its short form."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 534.52,
+            "end": 544.92,
+            "text": " So basically you will say that it is short form.  That is, you say that  suppose two friends are very good friends.  And at lunch time  I have to tell my friend that"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 544.92,
+            "end": 554.92,
+            "text": " I will eat at home.  You go alone in the canteen.  Now the two friends  talk about this again and again.  On a daily basis."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 554.92,
+            "end": 564.92,
+            "text": " And these two friends decided  that we say such a big statement again and again.  That I will eat at home.  You go to the canteen and eat.  Let's make a code word for this."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 564.92,
+            "end": 575.3199999999999,
+            "text": " And you know what that code word is?  Binod.  So he said that I will say binod.  So you understand that I will eat at home.  And you can go to the canteen and eat alone."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 575.3199999999999,
+            "end": 585.3199999999999,
+            "text": " So instead of saying such a big thing  that I have to eat at home.  You can go to the canteen and eat.  The first friend  will tell the second friend"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 585.3199999999999,
+            "end": 595.3199999999999,
+            "text": " binod.  He will understand that he will eat at home.  I should go to the canteen and eat.  So understand this function  as it is."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 595.3199999999999,
+            "end": 605.72,
+            "text": " Instead of doing the entire thing,  what are we doing?  Let's make a code word for it.  And define what this code word is.  This is called function definition."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 605.72,
+            "end": 615.72,
+            "text": " This is a code word.  Now wherever I write this greater,  it means that  for a and b, this thing has to be written.  Now look here, I have done the same thing"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 615.72,
+            "end": 625.72,
+            "text": " for c and d.  So it will replace c and d and come here.  So this is our function.  I hope you understood  what this thing is."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 625.72,
+            "end": 636.12,
+            "text": " Now come here.  Now I will tell you one more thing.  Suppose I am planning  to make a big program.  Suppose I am thinking that the way I made this greater,"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 636.12,
+            "end": 646.12,
+            "text": " I can also make this lesser.  I will write here  def is lesser  and that a, b  will work like this."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 646.12,
+            "end": 656.12,
+            "text": " But I will write the body of this function later.  Suppose I am thinking as a programmer  that I will write the body of this function later.  that I will write the body of this function later.  So I can write pass here."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 656.52,
+            "end": 666.52,
+            "text": " Suppose I don't write pass here.  Suppose I leave it like this.  I will get an error.  Python is actually looking for the function body.  It is not getting it."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 666.52,
+            "end": 676.52,
+            "text": " So it is giving an indentation error.  It is saying that what is this?  So this is an indentation error.  But  if I write pass here,"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 676.52,
+            "end": 686.92,
+            "text": " then pass means  that I will write this function later.  There is no need to do anything.  Pass means there is no need to do anything.  I have written the name of this function"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 686.92,
+            "end": 696.92,
+            "text": " and how many arguments it takes.  It is written here.  And here pass means that I will come back  and complete this function.  Pass means go ahead and process the next program."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 696.92,
+            "end": 706.92,
+            "text": " I hope you understood.  Now I will run.  So this will not give an error.  It will execute the program successfully.  So this was pass."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 706.92,
+            "end": 717.3199999999999,
+            "text": " Now come here.  Function is a block of code that performs a specific task.  I told you in bigger programs  that we have a lot of code.  It is advisable that you break down your logic"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 717.3199999999999,
+            "end": 727.3199999999999,
+            "text": " in functions.  So that your logic is separated.  Whenever  you have to do programming in such a way  that suppose we are making a big program."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 727.3199999999999,
+            "end": 737.3199999999999,
+            "text": " Suppose we are making a website.  We are making an e-commerce website.  In which one function is to process orders.  One function  is to check whether the user is logged in or not."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 737.3199999999999,
+            "end": 747.72,
+            "text": " One function is to check  whether the user's  pin code can be delivered or not.  So this function can be written by 4-5 programmers.  Let's say"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 747.72,
+            "end": 757.72,
+            "text": " I told my friend Shubham  that Shubham,  you write the function of pin code serviceability.  Meanwhile, I am doing the rest of the work.  So it gets parallelized."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 757.72,
+            "end": 767.72,
+            "text": " I left it as an is greater function.  Or I left it as an is lesser function.  And I told my fellow programmer  that you do this.  I will just use this lesser."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 767.72,
+            "end": 778.12,
+            "text": " And it should print  whichever number is greater or lesser.  Whatever is the function's function.  So the burden of writing  the body of this function is over."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 778.12,
+            "end": 788.12,
+            "text": " I will just use it.  This is also a big use of function.  Now functions are of two types.  As I told you in the beginning,  built-in functions and user-defined functions."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 788.12,
+            "end": 798.12,
+            "text": " Built-in functions are those  that we don't have to define with def keywords.  User-defined functions are those  that we have to define with def.  And we make it ourselves."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 798.52,
+            "end": 808.52,
+            "text": " We define it with the help of user-defined.  We define it with the help of user-defined.  Some examples of built-in functions are  min, max, len, sum, type, range, tick, list,  double, set, print."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 808.52,
+            "end": 818.52,
+            "text": " There are many more.  Like range.  There are many more.  You can google it.  List of all"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 818.52,
+            "end": 828.92,
+            "text": " List of all  built-in functions in python.  There are callable,  chr, class method, compile.  There are many more."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 828.92,
+            "end": 838.92,
+            "text": " You can use them.  But the point is  that we can write user-defined  function in this way.  I have written pass here."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 838.92,
+            "end": 848.92,
+            "text": " I have told you what pass is.  Pass means I will write it later.  This does not cause an error in the program.  Now create a function using the def keyword  followed by a function name"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 848.92,
+            "end": 859.3199999999999,
+            "text": " followed by parenthesis and colon.  This is the syntax.  Write the name of the function.  Write the name of the function.  Write the argument."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 859.3199999999999,
+            "end": 869.3199999999999,
+            "text": " Close the parenthesis.  Enter colon.  If you are in a good IDE,  it will be automatically indented.  If you are coding in Microsoft Word,"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 869.3199999999999,
+            "end": 879.3199999999999,
+            "text": " you have to press the tab.  Do you understand?  But this spacing is required here.  I don't know.  The interpreter says"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 879.3199999999999,
+            "end": 889.72,
+            "text": " that I don't know.  I will throw an error.  We have seen this.  Rules to naming a function  are similar to that of naming variables."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 889.72,
+            "end": 899.72,
+            "text": " We have talked about  the rules of naming variables.  Here also it is exactly the same.  The same rules.  Any statements and other code"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 899.72,
+            "end": 909.72,
+            "text": " with the function should be indented.  Indented means this space should be there.  If you use it, then if there is anything inside it,  it will be more indented.  Great!"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 909.72,
+            "end": 920.12,
+            "text": " Now how to call a function?  Let's do it like this.  I have shown you by calling this generator.  It will go here  and execute this logic"
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 920.12,
+            "end": 930.12,
+            "text": " for these two values.  Now there are 9 and 8 here.  So 9 and 8 will be executed here.  It was a simple thing.  So this is the basics of the function."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 930.12,
+            "end": 940.12,
+            "text": " I hope you understood.  If you understood,  then tell me by commenting.  If you didn't understand,  then tell me by commenting."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 940.52,
+            "end": 950.52,
+            "text": " I will try to make more videos like this.  You can also write code with me.  You can watch it once  and then write code with me.  That's all for this video."
+        },
+        {
+            "number": "020 ",
+            "title": "Functions in Python",
+            "start": 950.52,
+            "end": 958.52,
+            "text": " If you haven't accessed the Python playlist yet,  then access it.  Thank you so much for watching this video.  I will see you next time."
+        }
+    ],
+    "text": " In today's video, we will talk about functions. What are functions? Sometimes we want to use our code, the logic of the code, multiple times. Let's say we want to print from 1 to 15 times in our program. And let's say the code to do this is of 10 lines. So we don't want to repeat these 10 lines in our program. There are two reasons for this. If we repeat these lines, so let's say I want to change the code in these lines, then I will have to repeat it where the 15 places where this program is being used. I have to repeat these lines where they are being used. I will have to make a mistake if I want to correct it in my program. Along with that, it will be very hectic for me. My number of lines will increase. If I separate this particular logic from my main program and make it a separate entity, then it will be easy for me to update it. And I will be able to use it 10 times without increasing my number of lines. So how will I do this? I will do it with the help of functions. That is, I will separate the logic and make it a function. I will say, there is a function to add. There is a function to get the average. There is a function to get the geometric mean. Sometimes the logic of functions is very complicated. For example, it can be a function to get the multiplication table of a given number. It can be a function to add 10 numbers. It can be a function to get the average. It can be a function to get the mean, median, and mode. So we will separate the logic and then just refer that we will get the mean of these numbers. And we will not see this entity much. We will make a function once and then use that function. Whatever I said, you may not have understood it so well. No problems, we are running on the computer screen right now. And I will understand this concept and then I will tell you. Let's get started. \ud83c\udfb5Music\ud83c\udfb5 So function is basically a way of writing code. Assume that you are using a block of code in your program 10 or 50 times. So will you copy and paste it again and again? Assuming that the block of code is of 50 lines, 100 lines, 60, 70 lines. You will definitely not copy and paste it again and again. You will wrap it in a function so that you can reuse it again and again. So I will show you first how the function is made. And after that we will talk about things. Now here, what will I do? I will open a new file. Main.py And I will take this console here. Yes, it looks good. Things are arranged perfectly here. Now see, function is a block of code that performs a specific task whenever it is called. Now I will tell you in a very basic language. First, let's see what I have written. I will write def here. Okay? Or leave def too, I will start very simple. Assume I have a program that generates geometric mean. G mean is equal to I take two numbers. First of all, a is equal to 9 and b is equal to 8. Okay? What is geometric mean? a b divided by a plus b. Okay? So I will do 9. Or I will write a multiplied by b. And I will write divided by a plus b. Okay? I will put this in brackets. So that our geometric mean is correct. Okay? And then I will print geometric mean. Okay? I will run it. Calculation will be done and output will be obtained. We all know that. I know you know that. But I don't want to tell you this. Now assume that I take two more numbers. C and D. Assume C is equal to 8 and D is equal to 7. And assume I want to get their G mean again. So I have to write it again like this. C multiplied by D divided by C plus D. I can override the variable. But let's keep it simple. Okay? a b divided by a plus b. C D divided by C plus D. This is showing 9 and 8 geometric mean. And this is 8 and 7 geometric mean. So far so good. Everything is going according to plan. Now this is also a one line function. This code to get geometric mean is of one line. If it was of 10 lines, then? Assume it was a complex code. This would have been a 10 line code. So I would have to write 10 lines here and 10 lines here. And my code would have been of 20 lines. So what I will do is I will put this geometric mean in a function. I will say def and write G mean. Or calculate G mean and a and b. And what I will do in this? I will write mean is equal to and here I will write the logic like this. And I will write print mean. So what I have written after def keyword is the name of this function. a and b are arguments which this function is accepting. Okay? No arguments can be accepted by this function. It is not necessary that every function will accept arguments. But it is accepting. I can get a and b and it will give me this thing. Okay? So instead of doing this now I can simply say calculate G mean a, b. And instead of doing this I will comment this out for you guys. I can do something like this. And just so that you guys have the code I will do this which I wrote earlier. I will restore this. a here b here a here b. So now if I run this then the geometric mean of 9 and 8 will be printed. And then the geometric mean of 8 and 7 will be printed. And our results will be the same. You guys understood this story. So this way we can separate our logic. I can write another function in this program which will tell which number is greater than two. Now suppose instead of calculating geometric mean, what I have to do is to find out which number is greater than two. So I will simply write if a is greater than b print first is greater first number is greater. Okay? And then I will write else and print second number is greater. Okay? I will do this. Otherwise I will print second number is greater. And this is a very simple thing which you guys have to do many times. And here you can do number is greater and equal. Otherwise comments will come and people will say that this case is not handled. Okay, I have done it. So here I have also done calculate mean a. I will take this up. I have to find out which is greater than two. And then I have to print its geometric mean. I have to do the same with c and d. If c is greater than d, then this is greater. Now you see what will happen here. As soon as I run this code, you see here I got first number is greater then geometric mean. If the second number was greater, then I would have got second number is greater along with geometric mean. Okay? So far so good. Are you enjoying? Okay, good. Now see what will happen here. I want to do the same thing for many numbers. So I have to repeat this code again and again. Which is not ideal. So I will write a function. Def First of all, let's write a function. It tells python that we are going to write a function. Okay? Then I will write is greater a, b. Okay? A and b are arguments of variable sense function. Okay? I will paste the same code here. In fact, I will cut from here or paste and call this function here. Now the rules of indentation will have to be followed. If I am inside this function, then I have to put everything in the tab. That is, this is inside this function. Because I have given space here. Okay? Do you understand this? This is indentation. We have seen it before. Now if I want something to come inside this if condition, if it comes inside this if statement, then I have to give one more level of indent by pressing tab. I have given that too. And this is inside else. So I have put one more indent. And you see here, I can do the same thing here. Instead of writing such a big name, I can do is greater c, d. There is no need to write so big. I have written its short form. So basically you will say that it is short form. That is, you say that suppose two friends are very good friends. And at lunch time I have to tell my friend that I will eat at home. You go alone in the canteen. Now the two friends talk about this again and again. On a daily basis. And these two friends decided that we say such a big statement again and again. That I will eat at home. You go to the canteen and eat. Let's make a code word for this. And you know what that code word is? Binod. So he said that I will say binod. So you understand that I will eat at home. And you can go to the canteen and eat alone. So instead of saying such a big thing that I have to eat at home. You can go to the canteen and eat. The first friend will tell the second friend binod. He will understand that he will eat at home. I should go to the canteen and eat. So understand this function as it is. Instead of doing the entire thing, what are we doing? Let's make a code word for it. And define what this code word is. This is called function definition. This is a code word. Now wherever I write this greater, it means that for a and b, this thing has to be written. Now look here, I have done the same thing for c and d. So it will replace c and d and come here. So this is our function. I hope you understood what this thing is. Now come here. Now I will tell you one more thing. Suppose I am planning to make a big program. Suppose I am thinking that the way I made this greater, I can also make this lesser. I will write here def is lesser and that a, b will work like this. But I will write the body of this function later. Suppose I am thinking as a programmer that I will write the body of this function later. that I will write the body of this function later. So I can write pass here. Suppose I don't write pass here. Suppose I leave it like this. I will get an error. Python is actually looking for the function body. It is not getting it. So it is giving an indentation error. It is saying that what is this? So this is an indentation error. But if I write pass here, then pass means that I will write this function later. There is no need to do anything. Pass means there is no need to do anything. I have written the name of this function and how many arguments it takes. It is written here. And here pass means that I will come back and complete this function. Pass means go ahead and process the next program. I hope you understood. Now I will run. So this will not give an error. It will execute the program successfully. So this was pass. Now come here. Function is a block of code that performs a specific task. I told you in bigger programs that we have a lot of code. It is advisable that you break down your logic in functions. So that your logic is separated. Whenever you have to do programming in such a way that suppose we are making a big program. Suppose we are making a website. We are making an e-commerce website. In which one function is to process orders. One function is to check whether the user is logged in or not. One function is to check whether the user's pin code can be delivered or not. So this function can be written by 4-5 programmers. Let's say I told my friend Shubham that Shubham, you write the function of pin code serviceability. Meanwhile, I am doing the rest of the work. So it gets parallelized. I left it as an is greater function. Or I left it as an is lesser function. And I told my fellow programmer that you do this. I will just use this lesser. And it should print whichever number is greater or lesser. Whatever is the function's function. So the burden of writing the body of this function is over. I will just use it. This is also a big use of function. Now functions are of two types. As I told you in the beginning, built-in functions and user-defined functions. Built-in functions are those that we don't have to define with def keywords. User-defined functions are those that we have to define with def. And we make it ourselves. We define it with the help of user-defined. We define it with the help of user-defined. Some examples of built-in functions are min, max, len, sum, type, range, tick, list, double, set, print. There are many more. Like range. There are many more. You can google it. List of all List of all built-in functions in python. There are callable, chr, class method, compile. There are many more. You can use them. But the point is that we can write user-defined function in this way. I have written pass here. I have told you what pass is. Pass means I will write it later. This does not cause an error in the program. Now create a function using the def keyword followed by a function name followed by parenthesis and colon. This is the syntax. Write the name of the function. Write the name of the function. Write the argument. Close the parenthesis. Enter colon. If you are in a good IDE, it will be automatically indented. If you are coding in Microsoft Word, you have to press the tab. Do you understand? But this spacing is required here. I don't know. The interpreter says that I don't know. I will throw an error. We have seen this. Rules to naming a function are similar to that of naming variables. We have talked about the rules of naming variables. Here also it is exactly the same. The same rules. Any statements and other code with the function should be indented. Indented means this space should be there. If you use it, then if there is anything inside it, it will be more indented. Great! Now how to call a function? Let's do it like this. I have shown you by calling this generator. It will go here and execute this logic for these two values. Now there are 9 and 8 here. So 9 and 8 will be executed here. It was a simple thing. So this is the basics of the function. I hope you understood. If you understood, then tell me by commenting. If you didn't understand, then tell me by commenting. I will try to make more videos like this. You can also write code with me. You can watch it once and then write code with me. That's all for this video. If you haven't accessed the Python playlist yet, then access it. Thank you so much for watching this video. I will see you next time."
+}

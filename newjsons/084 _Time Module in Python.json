@@ -1,0 +1,684 @@
+{
+    "chunks": [
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 0.0,
+            "end": 13.040000000000001,
+            "text": " In this video, we will talk about Time Module.  Time Module is a built-in module in Python  which helps us to do a lot of time-related operations.  Let's go to the computer screen and see how to use Time Module.  Let's get started."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 13.040000000000001,
+            "end": 36.32,
+            "text": " \ud83c\udfb5 Music \ud83c\udfb5  So guys, Time Module is very helpful.  Time not only shows your watch, but also shows your Python.  And your watch can't give you things with such accuracy  as Python does with such precision and accuracy."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 36.32,
+            "end": 49.32,
+            "text": " So let me tell you the most important use of Time Module.  And then we will see things one by one.  For example, I wrote a function.  Suppose I have a fight with someone and he says that  for loop is good and I say while loop is good."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 49.32,
+            "end": 64.03999999999999,
+            "text": " Technically, I tell you that for loop and while loop  are almost boiled down in the same type of machine code.  But there is one thing.  Sometimes, your CPU, your resources,  it is not necessary that they work at the same time at all times."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 64.03999999999999,
+            "end": 77.84,
+            "text": " How much load is already on it.  One person is running while loop while playing GTA 5.  And one person is running while loop while playing Minesweeper.  So obviously, the person who is playing GTA 5 is more busy  if the specs of the same PC are there."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 77.84,
+            "end": 90.64,
+            "text": " So these things have to be kept in mind.  Now I will tell you.  Suppose I have a function using while.  And what is happening here?  And pass."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 90.64,
+            "end": 104.64,
+            "text": " What am I doing here?  Actually, I have left this REPL open from my other computer.  No problem.  And I wrote here def using for.  Actually, I know what mistake I made."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 104.64,
+            "end": 112.44,
+            "text": " I didn't do it like this.  Now it will understand.  Oh, it understood nicely.  I passed.  And now see."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 112.44,
+            "end": 128.44,
+            "text": " Suppose I run using for once.  And once I run using while.  So whenever we do this thing,  then you guys see here  that I will write while i is less than 5000."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 128.44,
+            "end": 144.24,
+            "text": " And I will write here i is equal to i plus 456.  In fact, I will write 1.  And I will print i here.  Now you will say, what program are you writing?  Are you boring?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 144.24,
+            "end": 150.24,
+            "text": " I am not boring.  See once.  i less than  And this i is equal to 0.  And what am I going to do here?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 150.24,
+            "end": 161.24,
+            "text": " I am going to do the same thing.  For i in range and exactly same number.  So obviously it will start from 0.  And this will go to minus 1.  And in this I will do exactly the same thing"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 161.24,
+            "end": 174.04000000000002,
+            "text": " that I am doing in this while loop.  So if I run this,  then it will be very confusing.  It will print numbers up to 5000.  Once in for loop, once in while loop."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 174.04000000000002,
+            "end": 181.04000000000002,
+            "text": " It will look a little weird.  But it will do.  It is python.  It is a snake.  Now see."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 181.04000000000002,
+            "end": 187.04000000000002,
+            "text": " Once this will work, once this will work.  You will say, yes, what are you saying?  Tell something new.  So listen to something new.  Listen to something new."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 187.04000000000002,
+            "end": 198.84,
+            "text": " What will I do here?  Import time.  Oh man, I have actually run it in my other room  in a laptop.  Mom is sitting in that room right now."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 198.84,
+            "end": 207.84,
+            "text": " But mom doesn't know python.  So I will get it closed from them.  No problem.  Mom will also have to sit in 100 days of code.  So I will write here i is equal to"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 207.84,
+            "end": 222.64000000000001,
+            "text": " In fact, in it is equal to time.time.  Fine.  And here I will write print time.time minus in it.  Now you will say, brother, what are you writing?  Fine."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 222.64000000000001,
+            "end": 230.64000000000001,
+            "text": " What is it?  In it, I tell you here.  Time.time function is equal to.  What is this?  It gives a floating point number."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 230.64000000000001,
+            "end": 238.64000000000001,
+            "text": " Return the time in seconds.  Fine.  I will do it so that you know.  And it is quite right.  Whenever you want to know about a function,"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 238.64000000000001,
+            "end": 250.44,
+            "text": " you take your mouse like this.  Return the current time in seconds since the epoch.  Fine.  So it tells you the time in seconds.  I guess from 1979."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 250.44,
+            "end": 260.44,
+            "text": " I see the definition of time.time.  Where does it take time?  Time.time function is.  It has a lot of functions.  It is official documentation."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 260.44,
+            "end": 268.44,
+            "text": " So if anything changes,  you will get it here.  So time.time.  Fine.  See time.time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 268.44,
+            "end": 277.24,
+            "text": " What is this?  What is this?  Similar to time.time.  Time.time returns the time since the last epoch  as a floating point number."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 277.24,
+            "end": 283.24,
+            "text": " Fine.  Now what is epoch?  See what is about epoch?  Epoch is a point where the time starts.  Fine."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 283.24,
+            "end": 290.24,
+            "text": " It tells the time from 1st January 1970.  How many seconds have passed.  Fine.  Now I can find out here.  Actually, it will be minus."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 290.24,
+            "end": 297.24,
+            "text": " So these seconds.  When this program did not start.  In fact, this function did not start.  Then.  And."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 297.24,
+            "end": 302.24,
+            "text": " I am doing minus.  In it.  So time.time.  Basically.  Since 1970."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 302.24,
+            "end": 308.04,
+            "text": " It will give me seconds.  Fine.  I am telling again.  How is it going on?  It will give time.time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 308.04,
+            "end": 315.04,
+            "text": " How many seconds have passed.  To this point.  Minus.  How many seconds have passed.  When this function did not run."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 315.04,
+            "end": 322.04,
+            "text": " So if I will do this minus.  Then it will be known.  How long did this function run?  Assume you came home at 10.  Fine."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 322.04,
+            "end": 327.04,
+            "text": " You ate food.  It is 11.  11 minus 10.  In this much time.  You ate food."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 327.04,
+            "end": 332.04,
+            "text": " It took so much time.  To eat food.  So that is being done.  Here also.  I have taken out the time of using for."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 332.04,
+            "end": 338.84000000000003,
+            "text": " Fine.  And.  I will do the same with using while.  I will take out the time of using while.  Fine."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 338.84000000000003,
+            "end": 346.84000000000003,
+            "text": " I will do this.  And I will print again.  And now I will run it.  And I will see.  How long is using for running?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 346.84000000000003,
+            "end": 352.84000000000003,
+            "text": " How long is using while running?  I will know.  Fine.  Now.  This time.time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 352.84000000000003,
+            "end": 358.84000000000003,
+            "text": " What does it return?  Returns in seconds.  Or.  Returns in milliseconds.  To tell the truth."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 358.84000000000003,
+            "end": 364.64,
+            "text": " I do not remember all these things.  I do not remember all these things.  Fine.  Returns the time.  The handling of leap second."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 364.64,
+            "end": 369.64,
+            "text": " Is performance.  Platform dependent.  And here.  Number return.  We want to know more."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 369.64,
+            "end": 374.64,
+            "text": " Confidence is here.  By passing it.  So this is seconds.  Fine.  It is written."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 374.64,
+            "end": 379.64,
+            "text": " Seconds.  Fine.  So seconds are there.  So see here.  It is telling."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 379.64,
+            "end": 384.64,
+            "text": " It is saying.  In 4.11 seconds.  This one ran.  But how long did this one run?  I do one thing."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 384.64,
+            "end": 389.64,
+            "text": " I take it in a variable.  T1 is equal to.  I do like this.  And I will make it T2.  There is no need to make it T2."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 389.64,
+            "end": 395.44,
+            "text": " In fact.  So.  If I print it T1.  Then I will get T1 and T2 at the end.  If I run it."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 395.44,
+            "end": 400.44,
+            "text": " Means.  Using while.  How long did it run?  Using for.  How long did it run?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 400.44,
+            "end": 405.44,
+            "text": " In fact.  I should have done this.  This is a little unfair.  Because I.  T1."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 405.44,
+            "end": 410.44,
+            "text": " The time to be printed.  I took it in it.  But again.  Let's see once.  How much time is it taking?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 410.44,
+            "end": 415.44,
+            "text": " How much time is it taking?  It is taking.  Like this.  A little.  This time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 415.44,
+            "end": 420.44,
+            "text": " It seems to be coming from the network.  So I have run it again.  And.  Here.  It will tell me."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 421.24,
+            "end": 426.24,
+            "text": " How much time did it take?  While loop.  In fact.  First it will tell for loop.  Then how much time did it take?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 426.24,
+            "end": 431.24,
+            "text": " It will tell.  As long as it is running.  I want to tell you about the time module.  Time module.  In python provides a set of functions."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 431.24,
+            "end": 436.24,
+            "text": " It is not necessary.  That time.  Time is a function.  There are many functions.  It is not that."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 436.24,
+            "end": 441.24,
+            "text": " About any module.  What I tell is that.  There are many more things.  Now you see here.  That 4.16 seconds."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 441.24,
+            "end": 446.24,
+            "text": " Took.  For loop.  And.  3.84 took.  While loop."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 446.24,
+            "end": 452.04,
+            "text": " Okay.  So this keeps changing.  I told you a little.  There are many reasons for this.  That the while loop is better."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 452.04,
+            "end": 457.04,
+            "text": " Not from while loop.  It is not like that.  Do not declare it by mistake.  Okay.  So here you see."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 457.04,
+            "end": 462.04,
+            "text": " About time.  Time function.  We saw.  About time.  Sleep."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 462.04,
+            "end": 467.04,
+            "text": " I want to tell you more.  What is time.  Sleep?  What does time.  Sleep do?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 467.04,
+            "end": 472.04,
+            "text": " Wait for some time.  Okay.  So I do one thing.  That I do the whole comment.  Till here."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 472.04,
+            "end": 477.04,
+            "text": " Okay.  And what I will do.  Here.  I will write.  Print."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 477.04,
+            "end": 482.04,
+            "text": " For.  Then I will write.  Time.  I will wait for it.  And I will write."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 482.04,
+            "end": 487.04,
+            "text": " This is printed.  After 3 seconds.  Sequence.  Okay.  Now I will."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 487.04,
+            "end": 492.04,
+            "text": " Run it.  And wait for it to run.  And here.  See.  For."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 492.04,
+            "end": 497.04,
+            "text": " Then it will wait for 3 seconds.  And then after this.  You can see here.  That.  This is printed after 3 seconds."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 497.04,
+            "end": 502.04,
+            "text": " You can see.  Okay.  So as much as you want to wait.  Python.  Execute the next line."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 502.04,
+            "end": 507.04,
+            "text": " Or to execute the next line.  It will wait.  So in this case.  I have made it wait for 3 seconds.  Okay."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 507.04,
+            "end": 512.04,
+            "text": " So.  I have made it wait for 3 seconds.  Okay.  As you have seen.  So we have seen about time.time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 512.04,
+            "end": 517.04,
+            "text": " We have seen about time.zip.  I have given this example.  And what I am telling.  That is written.  And here."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 517.04,
+            "end": 522.04,
+            "text": " You see.  There is a strf time.  Strf time.  What does it do?  Format."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 522.04,
+            "end": 527.04,
+            "text": " Time value.  As a string.  Based on a specific format.  Are you understanding?  So here."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 527.04,
+            "end": 532.04,
+            "text": " See.  Let's run this program.  I will comment it out.  And above.  Time is imported."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 532.04,
+            "end": 538.04,
+            "text": " So.  You see.  Formatted time is equal to.  There is a local time method.  Okay."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 538.04,
+            "end": 543.04,
+            "text": " What does it do?  It tells local time in seconds.  Now I can do this time.  What can I do?  I can format."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 543.04,
+            "end": 548.04,
+            "text": " Time.strf.  By using time function.  So I am telling.  First give year.  Then give month."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 548.04,
+            "end": 553.04,
+            "text": " Then give date.  Then give hour, minute, second.  And then give this t.  Which is t.  Time.local time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 553.04,
+            "end": 558.04,
+            "text": " If I wanted.  I could have written time.local time directly.  A little.  It would have been glitch.  That's why I didn't write."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 558.04,
+            "end": 563.04,
+            "text": " Okay.  So you see.  I have run this.  And here.  Time is telling me."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 563.04,
+            "end": 568.04,
+            "text": " Now this local time.  It is not telling about India.  It is telling about India.  Where this.  Rapplet's."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 568.04,
+            "end": 573.04,
+            "text": " Rappel is running.  Okay.  Wherever.  Code is being executed.  Time is being told there."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 573.04,
+            "end": 578.04,
+            "text": " Okay.  So this thing.  You people.  Keep in mind.  Don't say."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 578.04,
+            "end": 583.04,
+            "text": " You people.  I am running in Rapplet.  In fact.  You know what?  You know what?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 583.04,
+            "end": 588.04,
+            "text": " Let's execute.  This program.  In our.  Local computer.  So I will import."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 588.04,
+            "end": 593.04,
+            "text": " Time.  And I will paste.  This.  And you can see.  The output."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 594.04,
+            "end": 599.04,
+            "text": " Actually.  This is not the output.  This is the output.  Okay.  So see."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 599.04,
+            "end": 604.04,
+            "text": " This is my local time.  It is showing.  So this output.  Actually I have copied this.  This output."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 604.04,
+            "end": 609.04,
+            "text": " I have copied this.  This output.  I have written this.  When I had run this.  Okay."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 609.04,
+            "end": 614.04,
+            "text": " So you people.  Can see here.  That this time is showing now.  Okay.  This is my real time."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 614.04,
+            "end": 619.04,
+            "text": " Okay.  You see.  Here 7.50 pm.  You people are seeing.  Yes."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 619.04,
+            "end": 624.04,
+            "text": " Good.  So you people.  I hope.  That you people.  Enjoyed watching this."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 624.04,
+            "end": 629.04,
+            "text": " If you are.  Very busy person.  Then you can write MA.  Enjoyed it.  Okay."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 629.04,
+            "end": 634.04,
+            "text": " I want to see you people.  Writing MA in the comment.  Write MA.  And let people get confused.  Why did you write MA?"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 634.04,
+            "end": 639.04,
+            "text": " Let people.  Understand.  Or think.  That you have written Master of arts.  Even though you have written."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 639.04,
+            "end": 644.04,
+            "text": " Enjoyed it.  Okay.  So you can see here.  That this.  Playlist has become quite a lot."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 644.04,
+            "end": 649.04,
+            "text": " And you people.  Have to fulfill a duty.  And that is.  That here.  In the first video."
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 649.04,
+            "end": 660.04,
+            "text": " You have to go here.  And write MA.  in this video and write a good comment  infact you have to review this course  and you have to review and tell those people who are going to watch this"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 660.04,
+            "end": 674.04,
+            "text": " so that it is easy for them  to choose this course  they can choose this course very easily  tell them how this course is based on 84 videos you have watched  that's it for now guys"
+        },
+        {
+            "number": "084 ",
+            "title": "Time Module in Python",
+            "start": 674.04,
+            "end": 678.3199999999999,
+            "text": " thank you so much for watching this video and i will see you  next time"
+        }
+    ],
+    "text": " In this video, we will talk about Time Module. Time Module is a built-in module in Python which helps us to do a lot of time-related operations. Let's go to the computer screen and see how to use Time Module. Let's get started. \ud83c\udfb5 Music \ud83c\udfb5 So guys, Time Module is very helpful. Time not only shows your watch, but also shows your Python. And your watch can't give you things with such accuracy as Python does with such precision and accuracy. So let me tell you the most important use of Time Module. And then we will see things one by one. For example, I wrote a function. Suppose I have a fight with someone and he says that for loop is good and I say while loop is good. Technically, I tell you that for loop and while loop are almost boiled down in the same type of machine code. But there is one thing. Sometimes, your CPU, your resources, it is not necessary that they work at the same time at all times. How much load is already on it. One person is running while loop while playing GTA 5. And one person is running while loop while playing Minesweeper. So obviously, the person who is playing GTA 5 is more busy if the specs of the same PC are there. So these things have to be kept in mind. Now I will tell you. Suppose I have a function using while. And what is happening here? And pass. What am I doing here? Actually, I have left this REPL open from my other computer. No problem. And I wrote here def using for. Actually, I know what mistake I made. I didn't do it like this. Now it will understand. Oh, it understood nicely. I passed. And now see. Suppose I run using for once. And once I run using while. So whenever we do this thing, then you guys see here that I will write while i is less than 5000. And I will write here i is equal to i plus 456. In fact, I will write 1. And I will print i here. Now you will say, what program are you writing? Are you boring? I am not boring. See once. i less than And this i is equal to 0. And what am I going to do here? I am going to do the same thing. For i in range and exactly same number. So obviously it will start from 0. And this will go to minus 1. And in this I will do exactly the same thing that I am doing in this while loop. So if I run this, then it will be very confusing. It will print numbers up to 5000. Once in for loop, once in while loop. It will look a little weird. But it will do. It is python. It is a snake. Now see. Once this will work, once this will work. You will say, yes, what are you saying? Tell something new. So listen to something new. Listen to something new. What will I do here? Import time. Oh man, I have actually run it in my other room in a laptop. Mom is sitting in that room right now. But mom doesn't know python. So I will get it closed from them. No problem. Mom will also have to sit in 100 days of code. So I will write here i is equal to In fact, in it is equal to time.time. Fine. And here I will write print time.time minus in it. Now you will say, brother, what are you writing? Fine. What is it? In it, I tell you here. Time.time function is equal to. What is this? It gives a floating point number. Return the time in seconds. Fine. I will do it so that you know. And it is quite right. Whenever you want to know about a function, you take your mouse like this. Return the current time in seconds since the epoch. Fine. So it tells you the time in seconds. I guess from 1979. I see the definition of time.time. Where does it take time? Time.time function is. It has a lot of functions. It is official documentation. So if anything changes, you will get it here. So time.time. Fine. See time.time. What is this? What is this? Similar to time.time. Time.time returns the time since the last epoch as a floating point number. Fine. Now what is epoch? See what is about epoch? Epoch is a point where the time starts. Fine. It tells the time from 1st January 1970. How many seconds have passed. Fine. Now I can find out here. Actually, it will be minus. So these seconds. When this program did not start. In fact, this function did not start. Then. And. I am doing minus. In it. So time.time. Basically. Since 1970. It will give me seconds. Fine. I am telling again. How is it going on? It will give time.time. How many seconds have passed. To this point. Minus. How many seconds have passed. When this function did not run. So if I will do this minus. Then it will be known. How long did this function run? Assume you came home at 10. Fine. You ate food. It is 11. 11 minus 10. In this much time. You ate food. It took so much time. To eat food. So that is being done. Here also. I have taken out the time of using for. Fine. And. I will do the same with using while. I will take out the time of using while. Fine. I will do this. And I will print again. And now I will run it. And I will see. How long is using for running? How long is using while running? I will know. Fine. Now. This time.time. What does it return? Returns in seconds. Or. Returns in milliseconds. To tell the truth. I do not remember all these things. I do not remember all these things. Fine. Returns the time. The handling of leap second. Is performance. Platform dependent. And here. Number return. We want to know more. Confidence is here. By passing it. So this is seconds. Fine. It is written. Seconds. Fine. So seconds are there. So see here. It is telling. It is saying. In 4.11 seconds. This one ran. But how long did this one run? I do one thing. I take it in a variable. T1 is equal to. I do like this. And I will make it T2. There is no need to make it T2. In fact. So. If I print it T1. Then I will get T1 and T2 at the end. If I run it. Means. Using while. How long did it run? Using for. How long did it run? In fact. I should have done this. This is a little unfair. Because I. T1. The time to be printed. I took it in it. But again. Let's see once. How much time is it taking? How much time is it taking? It is taking. Like this. A little. This time. It seems to be coming from the network. So I have run it again. And. Here. It will tell me. How much time did it take? While loop. In fact. First it will tell for loop. Then how much time did it take? It will tell. As long as it is running. I want to tell you about the time module. Time module. In python provides a set of functions. It is not necessary. That time. Time is a function. There are many functions. It is not that. About any module. What I tell is that. There are many more things. Now you see here. That 4.16 seconds. Took. For loop. And. 3.84 took. While loop. Okay. So this keeps changing. I told you a little. There are many reasons for this. That the while loop is better. Not from while loop. It is not like that. Do not declare it by mistake. Okay. So here you see. About time. Time function. We saw. About time. Sleep. I want to tell you more. What is time. Sleep? What does time. Sleep do? Wait for some time. Okay. So I do one thing. That I do the whole comment. Till here. Okay. And what I will do. Here. I will write. Print. For. Then I will write. Time. I will wait for it. And I will write. This is printed. After 3 seconds. Sequence. Okay. Now I will. Run it. And wait for it to run. And here. See. For. Then it will wait for 3 seconds. And then after this. You can see here. That. This is printed after 3 seconds. You can see. Okay. So as much as you want to wait. Python. Execute the next line. Or to execute the next line. It will wait. So in this case. I have made it wait for 3 seconds. Okay. So. I have made it wait for 3 seconds. Okay. As you have seen. So we have seen about time.time. We have seen about time.zip. I have given this example. And what I am telling. That is written. And here. You see. There is a strf time. Strf time. What does it do? Format. Time value. As a string. Based on a specific format. Are you understanding? So here. See. Let's run this program. I will comment it out. And above. Time is imported. So. You see. Formatted time is equal to. There is a local time method. Okay. What does it do? It tells local time in seconds. Now I can do this time. What can I do? I can format. Time.strf. By using time function. So I am telling. First give year. Then give month. Then give date. Then give hour, minute, second. And then give this t. Which is t. Time.local time. If I wanted. I could have written time.local time directly. A little. It would have been glitch. That's why I didn't write. Okay. So you see. I have run this. And here. Time is telling me. Now this local time. It is not telling about India. It is telling about India. Where this. Rapplet's. Rappel is running. Okay. Wherever. Code is being executed. Time is being told there. Okay. So this thing. You people. Keep in mind. Don't say. You people. I am running in Rapplet. In fact. You know what? You know what? Let's execute. This program. In our. Local computer. So I will import. Time. And I will paste. This. And you can see. The output. Actually. This is not the output. This is the output. Okay. So see. This is my local time. It is showing. So this output. Actually I have copied this. This output. I have copied this. This output. I have written this. When I had run this. Okay. So you people. Can see here. That this time is showing now. Okay. This is my real time. Okay. You see. Here 7.50 pm. You people are seeing. Yes. Good. So you people. I hope. That you people. Enjoyed watching this. If you are. Very busy person. Then you can write MA. Enjoyed it. Okay. I want to see you people. Writing MA in the comment. Write MA. And let people get confused. Why did you write MA? Let people. Understand. Or think. That you have written Master of arts. Even though you have written. Enjoyed it. Okay. So you can see here. That this. Playlist has become quite a lot. And you people. Have to fulfill a duty. And that is. That here. In the first video. You have to go here. And write MA. in this video and write a good comment infact you have to review this course and you have to review and tell those people who are going to watch this so that it is easy for them to choose this course they can choose this course very easily tell them how this course is based on 84 videos you have watched that's it for now guys thank you so much for watching this video and i will see you next time"
+}

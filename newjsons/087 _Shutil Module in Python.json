@@ -1,0 +1,516 @@
+{
+    "chunks": [
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 0.0,
+            "end": 29.0,
+            "text": " Guys, in today's video we are going to see how the SHUtil module works and I will tell you my personal experience of using it.  Let's go to the computer screen and let's get started.  So guys, SHUtil's module has a lot of personal stories attached to it.  This module is so close to my heart.  You may ask what happened?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 29.0,
+            "end": 55.0,
+            "text": " In the initial days, I used SHUtil module to do a lot of freelancing.  Because SHUtil module was such a thing that when it came in the starting, a lot of things were being automated with its help.  For example, the work that is lying in a thousand folders, you have to copy and consolidate it in any given folder.  So it was very difficult for you to do this manually.  Around one week, the work that people were doing manually, that thing was being automated with SHUtil module."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 55.0,
+            "end": 75.0,
+            "text": " And programmers like us were making a lot of money.  Now people have also understood that it is straightforward that any such work should be done automatically, programmatically and not manually.  But there was a time when people used to do it manually and this thing was very normal for them.  So we didn't tell that we were doing it automatically.  We didn't even tell that we were not doing it manually."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 75.0,
+            "end": 94.0,
+            "text": " We didn't say anything and we said that this work will be done.  And web scrapping on Fiverr and a lot of jobs like this used to be very big.  I don't know much about the market today.  But at that time, I am telling you, it was a lot of fun.  So what I did with SHUtil module and how I freelanced, I will tell you in detail in some other video."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 94.0,
+            "end": 109.0,
+            "text": " Maybe your eyes will get wet and along with your eyes, many more things will get wet.  Like your heart.  Now we come here quickly and talk about the topic.  How to use SHUtil module.  By the way, one more story is connected with SHUtil module."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 109.0,
+            "end": 119.0,
+            "text": " That is about 100 days of code.  I will tell you that too.  I have to tell you a lot of things.  So let's start quickly without wasting time.  So here you see, it is very easy to install SHUtil module."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 119.0,
+            "end": 139.0,
+            "text": " If you are in your Mac or you are in Windows, on any platform, you have to do pip install and SHUtil.  Now because I am here on Mac, I will have to write pip3.  So you can use SHUtil module.  Now SHUtil module will not be installed like this.  The reason is that it is a built-in module."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 139.0,
+            "end": 155.0,
+            "text": " So Python built-in modules.  Sometimes, to be honest, I also forget which module is built-in and which is not built-in.  SHUtil module is built-in.  So if I show you from S, then you will see SHUtil.  SHUtil, where are you?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 155.0,
+            "end": 168.0,
+            "text": " SHUtil, it came.  So what does SHUtil do?  It helps in performing high-level file operations.  Now how did I use SHUtil in 100 days of code, I will tell you.  But before that, some of its important methods, which I want to tell you."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 168.0,
+            "end": 182.0,
+            "text": " The first important method is this.  SHUtil.copy  I will tell you another story.  SHUtil module is such a module that there are many stories about it.  It used to happen that the professor used to come to the class with a presentation."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 182.0,
+            "end": 190.0,
+            "text": " And he used to say, we will not give you a presentation.  We will not give you a presentation.  You attend the class here.  Make notes in the class.  Make notes."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 190.0,
+            "end": 197.0,
+            "text": " No one will get the PPT file.  Now what did people do?  They were programmers.  What did they do?  In the same computer, in which the computer has come."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 197.0,
+            "end": 208.0,
+            "text": " In IIT Kharagpur, there are computers in the classes.  The professor comes with his pen drive.  Give presentation.  Go away.  So what happened there was that people used to write their programs in while true."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 208.0,
+            "end": 224.0,
+            "text": " As soon as the pen drive was installed, whatever .ppt file was found in it.  Using the OS module, OS.listdir.  All the ppt files, they used to remove all of them.  And in that computer, somewhere in system32, they used to copy it.  So the professor put his pen drive."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 224.0,
+            "end": 235.0,
+            "text": " The program that was running, it was taken.  Which function was used?  SHHTuttle.copy or copy2.  So all these things are not done.  Whatever is not legal, should not be done."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 235.0,
+            "end": 244.0,
+            "text": " But people do it.  You should know how to do things as a programmer.  Now use things properly.  This is your responsibility.  But you should know."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 244.0,
+            "end": 255.0,
+            "text": " Everything can be used correctly and wrongly.  But the use of things should come first.  With that said, we see the use of copy here.  How can it be done?  Now see, I have a file."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 255.0,
+            "end": 266.0,
+            "text": " I open main.py here.  Files main.py  And I will import the SHHTuttle module first.  I imported.  I will say, SHHTuttle.copy"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 266.0,
+            "end": 276.0,
+            "text": " I will say, copy main.py.  And where to copy?  In main2.py.  And I will run this program.  As soon as I run, main.py was here."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 276.0,
+            "end": 288.0,
+            "text": " But as soon as this program runs, main2.py will also come here.  I will show you.  So as you can see here, main2.py is found.  And its content is exactly the same as main.py.  So for now, I will delete it."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 288.0,
+            "end": 294.0,
+            "text": " Obviously, I don't want to keep it.  I delete it.  Main2.py  But you got the point.  How is it?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 294.0,
+            "end": 302.0,
+            "text": " So you can use copy like this.  I used it in 100 days of code.  I will tell you how it is done.  And it is done during editing.  I have done it on the computer."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 302.0,
+            "end": 308.0,
+            "text": " You will get a little taste of editing.  I do it like this.  What does copy2 do?  Copy2 is a little different from copy.  It is very similar."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 308.0,
+            "end": 318.0,
+            "text": " But it preserves metadata a little.  So you should also know copy2 function.  But almost all the work is done by copy.  So if I had kept copy2 instead of copy,  then it would have become the exact copy."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 318.0,
+            "end": 325.0,
+            "text": " At what time the first file is made.  All this metadata also goes away.  After copying.  This is one thing.  After this, what does copy3 do?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 325.0,
+            "end": 336.0,
+            "text": " It copies the whole folder.  Assume I have a dot tutorial folder here.  Assume I have another file in this dot tutorial folder.  With the name file.file.  Now what I want to do is"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 336.0,
+            "end": 346.0,
+            "text": " that this whole dot tutorial folder  in the name of my tutorial.  I open main.py here.  What I want to do in the name of my tutorial.  I want to copy this."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 346.0,
+            "end": 354.0,
+            "text": " So what I will do is  to copy a folder.  I will not use copy.  I will use copy3.  Because the use of copy is for files."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 354.0,
+            "end": 364.0,
+            "text": " It is not for folders.  So what I will do here is  I will say shutil.copy3  and I will say  that this dot tutorial"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 364.0,
+            "end": 375.0,
+            "text": " copy it as my tutorial.  So what it will do is  it will copy all the content of this directory  and put it here in the folder named my tutorial.  All the content will be the same."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 375.0,
+            "end": 386.0,
+            "text": " I am deleting it now.  Because I don't want a lot of mess to be created here.  I hate mess.  Now look here.  There is a function named shutil.move."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 386.0,
+            "end": 393.0,
+            "text": " What it does is  it moves a file.  Suppose I want this file.file  to do is  move it from here."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 393.0,
+            "end": 403.0,
+            "text": " Oops.  I am replicating it.  By using ctrl-alt-down arrow key.  And I am commenting it.  And along with that"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 403.0,
+            "end": 411.0,
+            "text": " I want to use move.  Now suppose I want  this file.file in dot tutorial  file.file  I want it to come out."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 411.0,
+            "end": 421.0,
+            "text": " It should be made in the name of file.file.  So the file.file in dot tutorial  should come out.  See it came out.  So this kind of work"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 421.0,
+            "end": 428.0,
+            "text": " shutil module  makes it easy.  It makes it programmatically easy.  I will do it if there are 2-3 files.  I will do it with accuracy."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 428.0,
+            "end": 437.0,
+            "text": " I will do it even if there are 2-3 thousand files.  I will do it.  It will take me 4-5 days.  I will do it.  But what guarantee I will do it with accuracy."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 437.0,
+            "end": 447.0,
+            "text": " There is no guarantee that I will do it with accuracy.  I take the guarantee of the computer.  I will do it with accuracy.  If the computer is alive.  So you have not put water."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 447.0,
+            "end": 457.0,
+            "text": " Don't do this.  By the way, my phone had also fallen in the water.  And I removed it completely.  It is alive.  This was also a useless update."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 457.0,
+            "end": 466.0,
+            "text": " But let's move forward.  And let's talk about the rm tree.  There is such a shutil.rm tree.  What it does is it helps in deleting  a file or a folder."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 466.0,
+            "end": 475.0,
+            "text": " So suppose I do one.  Suppose I do one.  I run the copy tree again.  Suppose I run it.  Now suppose I want to programatically"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 475.0,
+            "end": 486.0,
+            "text": " delete the folder named my tutorial.  So what will I do?  I will say shutil.rm tree.  And what will I do here?  My tutorial."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 486.0,
+            "end": 494.0,
+            "text": " Okay.  What will happen with this?  The folder named my tutorial will be deleted.  And can I do this with the file?  Now there is an error here."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 494.0,
+            "end": 502.0,
+            "text": " shutil.  So let's do one thing.  I should leave both the files.  Now it is saying that file.file  What is the problem?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 502.0,
+            "end": 513.0,
+            "text": " Not a directory error.  Actually, the rm tree is used for the directory.  And for the file we have rm.  shutil.rm  Not even rm tree."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 513.0,
+            "end": 520.0,
+            "text": " I think shutil.rm path is there.  I am not sure.  To be honest.  And it's okay.  If I don't know anything"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 520.0,
+            "end": 527.0,
+            "text": " Along with .rm tree  What else happens?  File along with directory.  Delete.  Is it delete?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 527.0,
+            "end": 537.0,
+            "text": " I don't know.  To be honest.  So I see here that  I get something to delete.  Let's delete a file."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 537.0,
+            "end": 549.0,
+            "text": " With the help of shutil.  Delete files.  No longer delete files.  So recently I did google searches.  I found out that you can't delete."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 549.0,
+            "end": 557.0,
+            "text": " Okay. That's fine.  I will do import os.  I will take out a knife called os.  And delete it.  And I will use os.remove."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 557.0,
+            "end": 564.0,
+            "text": " os.remove  You can do it by removing os.  And it will definitely be deleted.  I know that.  Okay."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 564.0,
+            "end": 573.0,
+            "text": " So you should know this thing.  How and when you have to use which tool.  But that was all about shutil.  Now I want to tell you.  How did I use shutil in 100 days of code?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 573.0,
+            "end": 581.0,
+            "text": " Maybe I have a program for it.  I will show that too.  If I have that program.  So here you can see.  Day 38, Day 39, Day 40."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 581.0,
+            "end": 590.0,
+            "text": " All folders are made.  These are all folders.  These are different videos of different days.  I will tell you how I edit.  Like Day 50."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 590.0,
+            "end": 598.0,
+            "text": " I edit the intro of Day 50 separately.  And the main video of it.  That is, the screen recording.  In which we do coding.  I record it separately."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 598.0,
+            "end": 606.0,
+            "text": " So what happens is that our main folder.  There is a main video in it.  Now sometimes there is one file.  Sometimes there are two files.  So here in the main video."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 606.0,
+            "end": 616.0,
+            "text": " What do we have to do?  That its content.  I merge the intro in this.  I have a template.  This is the final video template."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 616.0,
+            "end": 624.0,
+            "text": " All lower thirds.  All the editing.  So I keep it here.  Now what do I do?  Whenever I have to make a video."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 624.0,
+            "end": 633.0,
+            "text": " So I need the exact copy of Day 50.  With this file.  This folder.  And with that.  I just need this."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 633.0,
+            "end": 640.0,
+            "text": " And I also need this here.  Whatever is edited.  My intro video is that.  So what I do is.  I bring the intro video here."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 640.0,
+            "end": 649.0,
+            "text": " I keep the main video here.  But this process will be very tedious for me.  If I manually copy it every day.  So I wrote a program with shuttle.  I said, I made it for one day."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 649.0,
+            "end": 655.0,
+            "text": " And the rest of the days.  I made the folders by running for loop.  So see exactly.  I have made it till Day 100.  These folders are ready for me."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 655.0,
+            "end": 662.0,
+            "text": " There is a main in each folder.  And one is edited.  There is a main and one is edited.  And this is exactly the same file.  If you see."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 662.0,
+            "end": 670.0,
+            "text": " This file is called edited final video.  And I have made it till Day 100.  All days.  So I wrote a program with the help of shuttle.  And I can also rewrite it."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 670.0,
+            "end": 677.0,
+            "text": " The program is very simple.  So what I did was.  I had a day written.  As you know I have Day 44 written.  Day 1 is written."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 677.0,
+            "end": 684.0,
+            "text": " Now I have to take it to Day 100.  So what I will do is.  I will use shuttle.copy.  And I will use copy tree.  And using copy tree."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 684.0,
+            "end": 694.0,
+            "text": " Running for loop.  I will copy it all the way till Day 100.  As simple as that.  That's all I have to do.  Nothing more to do than this."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 694.0,
+            "end": 703.0,
+            "text": " I wrote a very simple program.  But it solved my big problem.  I know it doesn't take time to copy.  But I am doing the same thing every day.  I mean."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 703.0,
+            "end": 710.0,
+            "text": " By doing little little little.  Time is saved.  So if it is saved.  Then why not save.  And I have to write the program once."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 710.0,
+            "end": 721.0,
+            "text": " It takes less time to copy 100 times.  I knew this.  So you can use shuttle like this in daily life.  So that's all for this video.  If you have not accessed the playlist yet."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 721.0,
+            "end": 728.0,
+            "text": " Then do access it.  Open the first video.  Write your review in it.  Very few people wrote a review.  Which was unfortunately sad."
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 728.0,
+            "end": 734.0,
+            "text": " But I want as many people as possible to write their review.  You can do this.  You have to go on Day 1.  And write a review.  How did you like this course?"
+        },
+        {
+            "number": "087 ",
+            "title": "Shutil Module in Python",
+            "start": 734.0,
+            "end": 754.0,
+            "text": " And I hope that you will definitely write a review.  So that's all for this video.  Thank you so much guys for watching this video.  And I will see you next time.  Thank you."
+        }
+    ],
+    "text": " Guys, in today's video we are going to see how the SHUtil module works and I will tell you my personal experience of using it. Let's go to the computer screen and let's get started. So guys, SHUtil's module has a lot of personal stories attached to it. This module is so close to my heart. You may ask what happened? In the initial days, I used SHUtil module to do a lot of freelancing. Because SHUtil module was such a thing that when it came in the starting, a lot of things were being automated with its help. For example, the work that is lying in a thousand folders, you have to copy and consolidate it in any given folder. So it was very difficult for you to do this manually. Around one week, the work that people were doing manually, that thing was being automated with SHUtil module. And programmers like us were making a lot of money. Now people have also understood that it is straightforward that any such work should be done automatically, programmatically and not manually. But there was a time when people used to do it manually and this thing was very normal for them. So we didn't tell that we were doing it automatically. We didn't even tell that we were not doing it manually. We didn't say anything and we said that this work will be done. And web scrapping on Fiverr and a lot of jobs like this used to be very big. I don't know much about the market today. But at that time, I am telling you, it was a lot of fun. So what I did with SHUtil module and how I freelanced, I will tell you in detail in some other video. Maybe your eyes will get wet and along with your eyes, many more things will get wet. Like your heart. Now we come here quickly and talk about the topic. How to use SHUtil module. By the way, one more story is connected with SHUtil module. That is about 100 days of code. I will tell you that too. I have to tell you a lot of things. So let's start quickly without wasting time. So here you see, it is very easy to install SHUtil module. If you are in your Mac or you are in Windows, on any platform, you have to do pip install and SHUtil. Now because I am here on Mac, I will have to write pip3. So you can use SHUtil module. Now SHUtil module will not be installed like this. The reason is that it is a built-in module. So Python built-in modules. Sometimes, to be honest, I also forget which module is built-in and which is not built-in. SHUtil module is built-in. So if I show you from S, then you will see SHUtil. SHUtil, where are you? SHUtil, it came. So what does SHUtil do? It helps in performing high-level file operations. Now how did I use SHUtil in 100 days of code, I will tell you. But before that, some of its important methods, which I want to tell you. The first important method is this. SHUtil.copy I will tell you another story. SHUtil module is such a module that there are many stories about it. It used to happen that the professor used to come to the class with a presentation. And he used to say, we will not give you a presentation. We will not give you a presentation. You attend the class here. Make notes in the class. Make notes. No one will get the PPT file. Now what did people do? They were programmers. What did they do? In the same computer, in which the computer has come. In IIT Kharagpur, there are computers in the classes. The professor comes with his pen drive. Give presentation. Go away. So what happened there was that people used to write their programs in while true. As soon as the pen drive was installed, whatever .ppt file was found in it. Using the OS module, OS.listdir. All the ppt files, they used to remove all of them. And in that computer, somewhere in system32, they used to copy it. So the professor put his pen drive. The program that was running, it was taken. Which function was used? SHHTuttle.copy or copy2. So all these things are not done. Whatever is not legal, should not be done. But people do it. You should know how to do things as a programmer. Now use things properly. This is your responsibility. But you should know. Everything can be used correctly and wrongly. But the use of things should come first. With that said, we see the use of copy here. How can it be done? Now see, I have a file. I open main.py here. Files main.py And I will import the SHHTuttle module first. I imported. I will say, SHHTuttle.copy I will say, copy main.py. And where to copy? In main2.py. And I will run this program. As soon as I run, main.py was here. But as soon as this program runs, main2.py will also come here. I will show you. So as you can see here, main2.py is found. And its content is exactly the same as main.py. So for now, I will delete it. Obviously, I don't want to keep it. I delete it. Main2.py But you got the point. How is it? So you can use copy like this. I used it in 100 days of code. I will tell you how it is done. And it is done during editing. I have done it on the computer. You will get a little taste of editing. I do it like this. What does copy2 do? Copy2 is a little different from copy. It is very similar. But it preserves metadata a little. So you should also know copy2 function. But almost all the work is done by copy. So if I had kept copy2 instead of copy, then it would have become the exact copy. At what time the first file is made. All this metadata also goes away. After copying. This is one thing. After this, what does copy3 do? It copies the whole folder. Assume I have a dot tutorial folder here. Assume I have another file in this dot tutorial folder. With the name file.file. Now what I want to do is that this whole dot tutorial folder in the name of my tutorial. I open main.py here. What I want to do in the name of my tutorial. I want to copy this. So what I will do is to copy a folder. I will not use copy. I will use copy3. Because the use of copy is for files. It is not for folders. So what I will do here is I will say shutil.copy3 and I will say that this dot tutorial copy it as my tutorial. So what it will do is it will copy all the content of this directory and put it here in the folder named my tutorial. All the content will be the same. I am deleting it now. Because I don't want a lot of mess to be created here. I hate mess. Now look here. There is a function named shutil.move. What it does is it moves a file. Suppose I want this file.file to do is move it from here. Oops. I am replicating it. By using ctrl-alt-down arrow key. And I am commenting it. And along with that I want to use move. Now suppose I want this file.file in dot tutorial file.file I want it to come out. It should be made in the name of file.file. So the file.file in dot tutorial should come out. See it came out. So this kind of work shutil module makes it easy. It makes it programmatically easy. I will do it if there are 2-3 files. I will do it with accuracy. I will do it even if there are 2-3 thousand files. I will do it. It will take me 4-5 days. I will do it. But what guarantee I will do it with accuracy. There is no guarantee that I will do it with accuracy. I take the guarantee of the computer. I will do it with accuracy. If the computer is alive. So you have not put water. Don't do this. By the way, my phone had also fallen in the water. And I removed it completely. It is alive. This was also a useless update. But let's move forward. And let's talk about the rm tree. There is such a shutil.rm tree. What it does is it helps in deleting a file or a folder. So suppose I do one. Suppose I do one. I run the copy tree again. Suppose I run it. Now suppose I want to programatically delete the folder named my tutorial. So what will I do? I will say shutil.rm tree. And what will I do here? My tutorial. Okay. What will happen with this? The folder named my tutorial will be deleted. And can I do this with the file? Now there is an error here. shutil. So let's do one thing. I should leave both the files. Now it is saying that file.file What is the problem? Not a directory error. Actually, the rm tree is used for the directory. And for the file we have rm. shutil.rm Not even rm tree. I think shutil.rm path is there. I am not sure. To be honest. And it's okay. If I don't know anything Along with .rm tree What else happens? File along with directory. Delete. Is it delete? I don't know. To be honest. So I see here that I get something to delete. Let's delete a file. With the help of shutil. Delete files. No longer delete files. So recently I did google searches. I found out that you can't delete. Okay. That's fine. I will do import os. I will take out a knife called os. And delete it. And I will use os.remove. os.remove You can do it by removing os. And it will definitely be deleted. I know that. Okay. So you should know this thing. How and when you have to use which tool. But that was all about shutil. Now I want to tell you. How did I use shutil in 100 days of code? Maybe I have a program for it. I will show that too. If I have that program. So here you can see. Day 38, Day 39, Day 40. All folders are made. These are all folders. These are different videos of different days. I will tell you how I edit. Like Day 50. I edit the intro of Day 50 separately. And the main video of it. That is, the screen recording. In which we do coding. I record it separately. So what happens is that our main folder. There is a main video in it. Now sometimes there is one file. Sometimes there are two files. So here in the main video. What do we have to do? That its content. I merge the intro in this. I have a template. This is the final video template. All lower thirds. All the editing. So I keep it here. Now what do I do? Whenever I have to make a video. So I need the exact copy of Day 50. With this file. This folder. And with that. I just need this. And I also need this here. Whatever is edited. My intro video is that. So what I do is. I bring the intro video here. I keep the main video here. But this process will be very tedious for me. If I manually copy it every day. So I wrote a program with shuttle. I said, I made it for one day. And the rest of the days. I made the folders by running for loop. So see exactly. I have made it till Day 100. These folders are ready for me. There is a main in each folder. And one is edited. There is a main and one is edited. And this is exactly the same file. If you see. This file is called edited final video. And I have made it till Day 100. All days. So I wrote a program with the help of shuttle. And I can also rewrite it. The program is very simple. So what I did was. I had a day written. As you know I have Day 44 written. Day 1 is written. Now I have to take it to Day 100. So what I will do is. I will use shuttle.copy. And I will use copy tree. And using copy tree. Running for loop. I will copy it all the way till Day 100. As simple as that. That's all I have to do. Nothing more to do than this. I wrote a very simple program. But it solved my big problem. I know it doesn't take time to copy. But I am doing the same thing every day. I mean. By doing little little little. Time is saved. So if it is saved. Then why not save. And I have to write the program once. It takes less time to copy 100 times. I knew this. So you can use shuttle like this in daily life. So that's all for this video. If you have not accessed the playlist yet. Then do access it. Open the first video. Write your review in it. Very few people wrote a review. Which was unfortunately sad. But I want as many people as possible to write their review. You can do this. You have to go on Day 1. And write a review. How did you like this course? And I hope that you will definitely write a review. So that's all for this video. Thank you so much guys for watching this video. And I will see you next time. Thank you."
+}

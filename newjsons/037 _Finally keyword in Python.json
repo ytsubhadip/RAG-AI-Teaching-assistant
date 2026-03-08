@@ -1,0 +1,348 @@
+{
+    "chunks": [
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 0.0,
+            "end": 14.92,
+            "text": " In last video we learned how to handle errors in python  After learning all this, our program won't face any more errors  But there is one more concept which I want to tell you  That is finally clause  Along with try and accept, you can also use finally for cleanups"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 14.92,
+            "end": 39.36,
+            "text": " And I will tell you what kind of cleanups it does  The code put inside finally always gets executed  Irrespective of whether the error occurred or not  Let's go to the computer screen, see this topic and let's get started  In try and accept, we used to try any code"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 39.36,
+            "end": 51.879999999999995,
+            "text": " If it works then it's good  If it doesn't work then at least our program won't crash  It will go to accept lock  To handle specific errors, value error, memory error or index error  I can handle them too"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 51.879999999999995,
+            "end": 66.0,
+            "text": " So I had this facility too  Now what happens here is that sometimes we have to do some cleanup  And sometimes we want some code irrespective of whatever happens  To get executed  So let's say I try something"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 66.0,
+            "end": 78.88,
+            "text": " Let's say I wrote that L is equal to a list  And there are some numbers in it  Ok, these are numbers  And I ask the user  That I is equal to int of input of"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 78.88,
+            "end": 93.92,
+            "text": " And I say enter the index  I am asking the user to tell me the index which you want  And I print the value of that index  Now I will write accept here  And if there is an error"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 93.92,
+            "end": 106.91999999999999,
+            "text": " Then what happens is that I will print here  Some error occurred  Ok, some error occurred, simple thing  Now if I run this  Then you can see here that"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 106.91999999999999,
+            "end": 119.12,
+            "text": " I am being asked to enter the index  And what I will do is that I will put the value of the index  Let's say I put 5  And it is saying some error occurred  And I will tell you what was that error"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 119.12,
+            "end": 134.8,
+            "text": " The error was that index will be valid from 1, 5, 6, 7, 4 values to 0, 1, 2, 3  Even if you put 4, there will be an error  Even if you put 5, there will be an error  What is said about finally  That whether you go to try or accept"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 134.8,
+            "end": 148.56,
+            "text": " I am always executed  Ok, this code is always executed  Whether it goes in try or accept  So you will say that yes, I put 0  I am always executed"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 148.56,
+            "end": 160.6,
+            "text": " This program worked because I printed li which was 1  And I am always executed  That means finally the content inside also worked  Ok, now I will do error produce  Ok, how will I produce the error"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 160.6,
+            "end": 168.64000000000001,
+            "text": " It is simple to produce the error  I will write my name here  When it will ask me to enter the index  Then I will simply write my name here  Let's say I wrote df here"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 168.64000000000001,
+            "end": 178.52,
+            "text": " Some error occurs  And it is coming here, I am always executed  Now people's question is  People's question is that  Ok, you told us about finally"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 178.52,
+            "end": 189.0,
+            "text": " You told us about try and accept, it is correct  You told us about finally that it always executes  So why should I put finally block  Why should I not do this  This is the biggest doubt of people"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 189.0,
+            "end": 197.36,
+            "text": " They say, brother, I will do this  Why will I get stuck in finally  Why should I not do this  Print I am always executed  This will also always execute"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 197.36,
+            "end": 206.64000000000001,
+            "text": " It will execute even if it goes inside try  It will execute even if it goes inside accept  So what is the story  See I will write here and produce the error  Even then you will see that"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 206.64000000000001,
+            "end": 215.64000000000001,
+            "text": " Here  Here I am always executed  And if I don't produce error in this  Let's say I do something like this  I put zero in index"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 215.64000000000001,
+            "end": 227.64000000000001,
+            "text": " Even then I am always executed  So what is the difference  Now I will tell you where the difference is seen  When you wrap the same thing in a function  Let's say I am wrapping in a function named func1"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 227.64000000000001,
+            "end": 236.92,
+            "text": " Ok  Oops, I will do it like this  And what I am doing is  I am giving value of I in func1  Ok"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 236.92,
+            "end": 245.92,
+            "text": " Or let's say I am simply running func1 here  Ok  And I am saying that x is equal to func1  And I am writing print x here  Ok"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 245.92,
+            "end": 253.92,
+            "text": " Now if I am trying  So I return 0  Ok  And if I am going inside accept  So what will happen"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 253.92,
+            "end": 264.2,
+            "text": " That it is obvious that I want to return it  Let's say 1  Ok  Let's say I want to return some value  In fact I return 1 and 0"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 264.2,
+            "end": 273.20000000000005,
+            "text": " 0 means error has come  And 1 means it has successfully run  Ok  If I run this program  So it will be exactly what you expected"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 273.20000000000005,
+            "end": 282.20000000000005,
+            "text": " That it will not run  I am always executed  Like if I put 0 here  So you see if I put 0 here  So 1 came from here"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 282.20000000000005,
+            "end": 288.20000000000005,
+            "text": " And 1 came from print x  I am always executed  It didn't run  Ok  Similarly if I produce an error here"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 288.47999999999996,
+            "end": 297.47999999999996,
+            "text": " Then you will see that  I am always executed  It won't run  So you can see here  That if I write it like this"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 297.47999999999996,
+            "end": 303.48,
+            "text": " Let's say I write dd here  And produce an error  Some error occurred  And then 0 was printed  Because this function returned 0"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 303.48,
+            "end": 311.48,
+            "text": " So 0 came from here  And some error occurred  And it came from here  But now I will tell you  That if I would have done it like this"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 311.48,
+            "end": 318.76,
+            "text": " Then what would have happened  So first of all I will show you  By putting a valid index  I will show you by putting 0  And I put 0 here"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 318.76,
+            "end": 324.76,
+            "text": " So you can see  I am always executed  It ran  So even if the function returns  Then it will execute"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 324.76,
+            "end": 330.76,
+            "text": " It won't accept  So you had returned  In the try  But it will say  No finally means"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 330.76,
+            "end": 335.76,
+            "text": " If it has to happen  Then it has to happen  Ok  So it will accept  And in accept"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 335.76,
+            "end": 342.76,
+            "text": " You will see the same thing  That if an error is produced  Then it will say  If I have to happen  Then it has to execute"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 342.76,
+            "end": 349.03999999999996,
+            "text": " Now you can't stop me  But you will say  But you have returned  So there was a rule of function  That if you will return"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 349.03999999999996,
+            "end": 355.03999999999996,
+            "text": " Then nothing will execute  It will say  No finally means  It has to happen  Even if the function returns"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 355.03999999999996,
+            "end": 362.03999999999996,
+            "text": " Ok  If you found this video confusing  Then watch it again  Because this is a very  Questioned interview question"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 362.03999999999996,
+            "end": 369.03999999999996,
+            "text": " That what is the use of finally  People ask  What is the use of finally  And people tell  If you will read normally"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 369.03999999999996,
+            "end": 375.03999999999996,
+            "text": " About finally  It is always executed  If it is always executed  Then I can do it like this  By writing it like this"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 375.32,
+            "end": 384.32,
+            "text": " So what is the need of finally  This is the need of finally  That if you want  That you have a database connection  You want to break it"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 384.32,
+            "end": 393.32000000000005,
+            "text": " Because if you have an error  In which you want  That you have established  The database connection  You can revoke it"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 393.32000000000005,
+            "end": 401.32000000000005,
+            "text": " Or you want  That you can clean up a file  Or you were opening a file  On which you were doing operations  You can close it"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 401.32000000000005,
+            "end": 409.59999999999997,
+            "text": " So if you want to do such a work  So what you have to do  That you have to put that thing  Inside finally  And your work will be done"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 409.59999999999997,
+            "end": 416.6,
+            "text": " Ok  Irrespective of whether you are  Returning inside try  Irrespective of whether you are  Returning inside accept"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 416.6,
+            "end": 424.6,
+            "text": " Your work will be done  So this example  That I have written in main.py  Is very important  Believe me it is very important"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 424.6,
+            "end": 432.6,
+            "text": " You must try it  And if you have not yet  Accessed this course playlist of Python  Then access it too  That's all for now guys"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 432.88,
+            "end": 442.88,
+            "text": " I would like to request you  If you have not yet  Reviewed this course in the first video  Then post a comment  Review colon and give your review"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 442.88,
+            "end": 450.88,
+            "text": " That this is my review of this course  I think about this course  And I recommend this course  Or in this course  Which are the pros and cons"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 450.88,
+            "end": 458.88,
+            "text": " So that any new person  Who is coming to do this course  So that they can get a good input  I hope that you will leave your review comment  Because you have seen this course"
+        },
+        {
+            "number": "037 ",
+            "title": "Finally keyword in Python",
+            "start": 458.88,
+            "end": 466.15999999999997,
+            "text": " For 37 consecutive days  That's all for now guys  Thank you so much guys for watching this video  And I will see you next time"
+        }
+    ],
+    "text": " In last video we learned how to handle errors in python After learning all this, our program won't face any more errors But there is one more concept which I want to tell you That is finally clause Along with try and accept, you can also use finally for cleanups And I will tell you what kind of cleanups it does The code put inside finally always gets executed Irrespective of whether the error occurred or not Let's go to the computer screen, see this topic and let's get started In try and accept, we used to try any code If it works then it's good If it doesn't work then at least our program won't crash It will go to accept lock To handle specific errors, value error, memory error or index error I can handle them too So I had this facility too Now what happens here is that sometimes we have to do some cleanup And sometimes we want some code irrespective of whatever happens To get executed So let's say I try something Let's say I wrote that L is equal to a list And there are some numbers in it Ok, these are numbers And I ask the user That I is equal to int of input of And I say enter the index I am asking the user to tell me the index which you want And I print the value of that index Now I will write accept here And if there is an error Then what happens is that I will print here Some error occurred Ok, some error occurred, simple thing Now if I run this Then you can see here that I am being asked to enter the index And what I will do is that I will put the value of the index Let's say I put 5 And it is saying some error occurred And I will tell you what was that error The error was that index will be valid from 1, 5, 6, 7, 4 values to 0, 1, 2, 3 Even if you put 4, there will be an error Even if you put 5, there will be an error What is said about finally That whether you go to try or accept I am always executed Ok, this code is always executed Whether it goes in try or accept So you will say that yes, I put 0 I am always executed This program worked because I printed li which was 1 And I am always executed That means finally the content inside also worked Ok, now I will do error produce Ok, how will I produce the error It is simple to produce the error I will write my name here When it will ask me to enter the index Then I will simply write my name here Let's say I wrote df here Some error occurs And it is coming here, I am always executed Now people's question is People's question is that Ok, you told us about finally You told us about try and accept, it is correct You told us about finally that it always executes So why should I put finally block Why should I not do this This is the biggest doubt of people They say, brother, I will do this Why will I get stuck in finally Why should I not do this Print I am always executed This will also always execute It will execute even if it goes inside try It will execute even if it goes inside accept So what is the story See I will write here and produce the error Even then you will see that Here Here I am always executed And if I don't produce error in this Let's say I do something like this I put zero in index Even then I am always executed So what is the difference Now I will tell you where the difference is seen When you wrap the same thing in a function Let's say I am wrapping in a function named func1 Ok Oops, I will do it like this And what I am doing is I am giving value of I in func1 Ok Or let's say I am simply running func1 here Ok And I am saying that x is equal to func1 And I am writing print x here Ok Now if I am trying So I return 0 Ok And if I am going inside accept So what will happen That it is obvious that I want to return it Let's say 1 Ok Let's say I want to return some value In fact I return 1 and 0 0 means error has come And 1 means it has successfully run Ok If I run this program So it will be exactly what you expected That it will not run I am always executed Like if I put 0 here So you see if I put 0 here So 1 came from here And 1 came from print x I am always executed It didn't run Ok Similarly if I produce an error here Then you will see that I am always executed It won't run So you can see here That if I write it like this Let's say I write dd here And produce an error Some error occurred And then 0 was printed Because this function returned 0 So 0 came from here And some error occurred And it came from here But now I will tell you That if I would have done it like this Then what would have happened So first of all I will show you By putting a valid index I will show you by putting 0 And I put 0 here So you can see I am always executed It ran So even if the function returns Then it will execute It won't accept So you had returned In the try But it will say No finally means If it has to happen Then it has to happen Ok So it will accept And in accept You will see the same thing That if an error is produced Then it will say If I have to happen Then it has to execute Now you can't stop me But you will say But you have returned So there was a rule of function That if you will return Then nothing will execute It will say No finally means It has to happen Even if the function returns Ok If you found this video confusing Then watch it again Because this is a very Questioned interview question That what is the use of finally People ask What is the use of finally And people tell If you will read normally About finally It is always executed If it is always executed Then I can do it like this By writing it like this So what is the need of finally This is the need of finally That if you want That you have a database connection You want to break it Because if you have an error In which you want That you have established The database connection You can revoke it Or you want That you can clean up a file Or you were opening a file On which you were doing operations You can close it So if you want to do such a work So what you have to do That you have to put that thing Inside finally And your work will be done Ok Irrespective of whether you are Returning inside try Irrespective of whether you are Returning inside accept Your work will be done So this example That I have written in main.py Is very important Believe me it is very important You must try it And if you have not yet Accessed this course playlist of Python Then access it too That's all for now guys I would like to request you If you have not yet Reviewed this course in the first video Then post a comment Review colon and give your review That this is my review of this course I think about this course And I recommend this course Or in this course Which are the pros and cons So that any new person Who is coming to do this course So that they can get a good input I hope that you will leave your review comment Because you have seen this course For 37 consecutive days That's all for now guys Thank you so much guys for watching this video And I will see you next time"
+}

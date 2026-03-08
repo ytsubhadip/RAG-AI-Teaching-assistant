@@ -1,0 +1,264 @@
+{
+    "chunks": [
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 0.0,
+            "end": 16.2,
+            "text": " In today's video, I will tell you about dog strings and pep8.  In both these topics, a lot of people are asked in interviews about what is dog string and what is pep8.  But this is not a big rocket science.  So I will take you to the computer screen now and we will explore both these topics well.  Let's get started."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 16.2,
+            "end": 41.2,
+            "text": " Intro  So guys, today we are going to talk about dog strings.  Now, dog strings are not a very special thing.  I am telling you that dog strings simply help you understand a function correctly.  If I wrote a function and you get that function with the description, then there can be no better thing than this."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 41.2,
+            "end": 58.6,
+            "text": " So this is what dog strings do here.  So python dog strings are the string literals that appear right after the definition of a function method lassium module.  It is not necessary that it is limited to only the function.  We can also write dog strings in the definition of a class.  And I will tell you how it is different from the comment."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 58.6,
+            "end": 73.2,
+            "text": " So let's say we wrote a function that prints a square.  And I run it.  And you guys see here what will happen is that as soon as I run it, it shows 25.  5 square 25.  But you guys can see here that I have put a string."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 73.2,
+            "end": 90.4,
+            "text": " Takes in a number n, returns a square of n.  Which is a dog string that tells me about this function.  And tells what is the input of this function, what input is it expecting and what will be its output.  Now I want to show you something.  You guys will see that you will have a lot of fun seeing that thing."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 90.4,
+            "end": 114.4,
+            "text": " If I write something like this here, square dot underscore underscore doc underscore underscore.  If I print something like this, then you guys will see here that this dog string has literally been printed.  This means that dog strings are not ignored like comments.  And to put dog strings, you have to put a string on the body of the function.  Something like this."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 114.4,
+            "end": 125.4,
+            "text": " So this is a special kind of string.  This is not a comment.  Don't think that this is a comment and it will be ignored.  This is a dog string and python gives it a special treatment.  Like you guys have already seen."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 125.4,
+            "end": 138.6,
+            "text": " Underscore underscore doc underscore underscore in the variable.  In fact, it stores it in the attribute.  So if I want to see the dog string of this function, then I can see it like this.  And I can parse it.  I can find out what kind of input it will take."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 138.6,
+            "end": 164.6,
+            "text": " If I set a specific pattern of my dog string and I told all my fellow programmers  that whatever dog string you put, first of all, you write in the first line  what is the type of expected input and then write that how many times you can take that input.  What is the total number of input and after that we will be able to parse square dot underscore underscore doc.  So this kind of work can be done with dog strings."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 164.79999999999998,
+            "end": 183.79999999999998,
+            "text": " But the comment can be written anything and by changing the comment, the program will not change.  By changing the dog string, the program can be changed.  Do you understand that the output of the program can be changed?  By changing the comment, the output of the program does not change.  So you have to keep this thing in your mind."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 183.79999999999998,
+            "end": 201.0,
+            "text": " So here is this dog string and its output is definitely 25.  And if you print the dog string, then you will get to see this.  Now see here, I have written comments versus dog string.  Comments are descriptions that help programmers better understand the intent and functionality of the program  and Python interpreter completely ignores them."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 201.0,
+            "end": 224.2,
+            "text": " On the other hand, the dog strings are strings used right above the function definition.  And they are used to document your code.  And you can also access them by using the dog attribute.  So this is how I showed you how to access the dog string.  So this is our dog string."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 224.2,
+            "end": 242.2,
+            "text": " It is a very simple thing, but again, if someone asks you in the interview,  you do not say comment, say it is a dog string.  Suppose in the coming videos, you see something like this in the class,  you will call it a dog string.  If you comment on it, you will be caught that you do not know about the dog string."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 242.2,
+            "end": 251.39999999999998,
+            "text": " So don't do this.  Now if I write the same thing here,  I will write print x here.  Print n, ok.  Suppose I do this."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 251.39999999999998,
+            "end": 263.4,
+            "text": " So will it be a dog string?  No, because it is not a dog string anymore.  Dog string is now a none.  Because the dog string will be what is written after this line.  And in this case, it is a none."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 263.4,
+            "end": 281.59999999999997,
+            "text": " So what you have to do is  put the dog string right below the function name or right above the function body.  You have to put it in this place to make it a valid dog string.  I hope you understood it.  Now let me tell you about Peppet."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 281.59999999999997,
+            "end": 296.59999999999997,
+            "text": " Now what is Peppet?  Peppet is asked about in many interviews.  Peppet provides a guideline and best practice of Python code.  In 2001, Guido von Rossum, Barry Warsaw and Nick Kovlan wrote this.  And what was the focus of this?"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 296.59999999999997,
+            "end": 313.8,
+            "text": " That your Python program should be made consistent, readable, and maintainable.  What is its full form?  Python Enhancement Proposal.  So we have a lot of Peppet, which is a document, which can be that.  Which will tell you how to write good, maintainable and good Python code."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 313.8,
+            "end": 325.8,
+            "text": " Now I want to tell you about Zen of Python.  If you write import this in Python,  I will show you here.  I want to show you this thing here in shell.  I will show you in shell."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 325.8,
+            "end": 340.0,
+            "text": " Or we can do this thing here in our terminal.  If you have Python installed.  If you are in Mac, I am writing Python 3 here.  If you are in Windows, you write Python.  So here you can see that Python RAPEL,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 340.0,
+            "end": 353.0,
+            "text": " REPL, read, evaluate, print loop has started here.  Now don't get confused with the RAPEL of RAPEL.  I told you what is RAPEL, read, evaluate, print loop.  I am using Python 3.11.  If I write import this here,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 353.0,
+            "end": 362.2,
+            "text": " I hit enter, then see something is printed.  Do you know what was printed?  This is Zen of Python by Tim Peters.  There is a poem here.  What is Zen of Python?"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 362.2,
+            "end": 371.2,
+            "text": " So what he has done here is  Beautiful is better than ugly,  Explicit is better than implicit,  Simple is better than complex,  Complex is better than complicated,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 371.2,
+            "end": 379.2,
+            "text": " Flat is better than nested,  Sparse is better than dense,  Readability counts.  There are many things written here.  If you read this once,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 379.2,
+            "end": 390.4,
+            "text": " If you are a beginner,  then you may not understand its importance.  But if you reach an intermediate level,  you have done one or two projects.  If you are not doing big projects in Python,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 390.4,
+            "end": 400.4,
+            "text": " then you will not know the mistake.  When you make a project end to end,  then you understand why I did this.  So when such thoughts come,  until they come to your mind,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 400.4,
+            "end": 408.4,
+            "text": " you will not know what all these things mean.  Then when you come back to this,  after doing one or two projects,  write import this,  and read it once,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 408.4,
+            "end": 416.4,
+            "text": " what is written here,  and you will be able to relate it to your code.  And I am telling you this from my experience.  I am not saying this to look cool.  I am telling you this before."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 416.4,
+            "end": 427.59999999999997,
+            "text": " I am not saying this to look cool.  I have felt this from my heart.  Once you have done one or two projects in Python,  and when you come back to this,  you see that beautiful is better than ugly."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 427.59999999999997,
+            "end": 437.59999999999997,
+            "text": " You see it in your code.  Explicit is better than implicit.  Yes, I did this, I should have done this.  Simple is better than complex.  Complex is better than complicated."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 437.59999999999997,
+            "end": 445.59999999999997,
+            "text": " You will be able to relate it to your project.  The things of your project will be in your mind  when you read it later.  If you are a beginner,  then you may not understand this thing so well."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 445.8,
+            "end": 455.8,
+            "text": " But anyways,  this is an easter egg in Python.  This is printed by writing import this.  This is a little shocking.  People say that by writing import this,"
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 455.8,
+            "end": 465.8,
+            "text": " poem is written.  But this is an easter egg in Python.  This is intentionally put.  It is not that it is of any use.  Poem is written by writing import this."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 465.8,
+            "end": 476.0,
+            "text": " It is just an easter egg in Python.  If someone asks you  what will happen by doing import this,  you can say that Zen of Python is printed.  It has a very good meaning."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 476.0,
+            "end": 486.0,
+            "text": " If you are an intermediate programmer,  then read it once  and you will find similarities in your code.  If you have not accessed the playlist yet,  then do it."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 486.0,
+            "end": 506.52000000000004,
+            "text": " Click here to bookmark or click here to save.  That's all for this video.  Thank you so much for watching this video  and I will see you next time.  Thank you so much for watching this video."
+        },
+        {
+            "number": "029 ",
+            "title": "Docstrings in Python",
+            "start": 506.52000000000004,
+            "end": 510.52000000000004,
+            "text": " I will see you in the next video.  Till then, bye."
+        }
+    ],
+    "text": " In today's video, I will tell you about dog strings and pep8. In both these topics, a lot of people are asked in interviews about what is dog string and what is pep8. But this is not a big rocket science. So I will take you to the computer screen now and we will explore both these topics well. Let's get started. Intro So guys, today we are going to talk about dog strings. Now, dog strings are not a very special thing. I am telling you that dog strings simply help you understand a function correctly. If I wrote a function and you get that function with the description, then there can be no better thing than this. So this is what dog strings do here. So python dog strings are the string literals that appear right after the definition of a function method lassium module. It is not necessary that it is limited to only the function. We can also write dog strings in the definition of a class. And I will tell you how it is different from the comment. So let's say we wrote a function that prints a square. And I run it. And you guys see here what will happen is that as soon as I run it, it shows 25. 5 square 25. But you guys can see here that I have put a string. Takes in a number n, returns a square of n. Which is a dog string that tells me about this function. And tells what is the input of this function, what input is it expecting and what will be its output. Now I want to show you something. You guys will see that you will have a lot of fun seeing that thing. If I write something like this here, square dot underscore underscore doc underscore underscore. If I print something like this, then you guys will see here that this dog string has literally been printed. This means that dog strings are not ignored like comments. And to put dog strings, you have to put a string on the body of the function. Something like this. So this is a special kind of string. This is not a comment. Don't think that this is a comment and it will be ignored. This is a dog string and python gives it a special treatment. Like you guys have already seen. Underscore underscore doc underscore underscore in the variable. In fact, it stores it in the attribute. So if I want to see the dog string of this function, then I can see it like this. And I can parse it. I can find out what kind of input it will take. If I set a specific pattern of my dog string and I told all my fellow programmers that whatever dog string you put, first of all, you write in the first line what is the type of expected input and then write that how many times you can take that input. What is the total number of input and after that we will be able to parse square dot underscore underscore doc. So this kind of work can be done with dog strings. But the comment can be written anything and by changing the comment, the program will not change. By changing the dog string, the program can be changed. Do you understand that the output of the program can be changed? By changing the comment, the output of the program does not change. So you have to keep this thing in your mind. So here is this dog string and its output is definitely 25. And if you print the dog string, then you will get to see this. Now see here, I have written comments versus dog string. Comments are descriptions that help programmers better understand the intent and functionality of the program and Python interpreter completely ignores them. On the other hand, the dog strings are strings used right above the function definition. And they are used to document your code. And you can also access them by using the dog attribute. So this is how I showed you how to access the dog string. So this is our dog string. It is a very simple thing, but again, if someone asks you in the interview, you do not say comment, say it is a dog string. Suppose in the coming videos, you see something like this in the class, you will call it a dog string. If you comment on it, you will be caught that you do not know about the dog string. So don't do this. Now if I write the same thing here, I will write print x here. Print n, ok. Suppose I do this. So will it be a dog string? No, because it is not a dog string anymore. Dog string is now a none. Because the dog string will be what is written after this line. And in this case, it is a none. So what you have to do is put the dog string right below the function name or right above the function body. You have to put it in this place to make it a valid dog string. I hope you understood it. Now let me tell you about Peppet. Now what is Peppet? Peppet is asked about in many interviews. Peppet provides a guideline and best practice of Python code. In 2001, Guido von Rossum, Barry Warsaw and Nick Kovlan wrote this. And what was the focus of this? That your Python program should be made consistent, readable, and maintainable. What is its full form? Python Enhancement Proposal. So we have a lot of Peppet, which is a document, which can be that. Which will tell you how to write good, maintainable and good Python code. Now I want to tell you about Zen of Python. If you write import this in Python, I will show you here. I want to show you this thing here in shell. I will show you in shell. Or we can do this thing here in our terminal. If you have Python installed. If you are in Mac, I am writing Python 3 here. If you are in Windows, you write Python. So here you can see that Python RAPEL, REPL, read, evaluate, print loop has started here. Now don't get confused with the RAPEL of RAPEL. I told you what is RAPEL, read, evaluate, print loop. I am using Python 3.11. If I write import this here, I hit enter, then see something is printed. Do you know what was printed? This is Zen of Python by Tim Peters. There is a poem here. What is Zen of Python? So what he has done here is Beautiful is better than ugly, Explicit is better than implicit, Simple is better than complex, Complex is better than complicated, Flat is better than nested, Sparse is better than dense, Readability counts. There are many things written here. If you read this once, If you are a beginner, then you may not understand its importance. But if you reach an intermediate level, you have done one or two projects. If you are not doing big projects in Python, then you will not know the mistake. When you make a project end to end, then you understand why I did this. So when such thoughts come, until they come to your mind, you will not know what all these things mean. Then when you come back to this, after doing one or two projects, write import this, and read it once, what is written here, and you will be able to relate it to your code. And I am telling you this from my experience. I am not saying this to look cool. I am telling you this before. I am not saying this to look cool. I have felt this from my heart. Once you have done one or two projects in Python, and when you come back to this, you see that beautiful is better than ugly. You see it in your code. Explicit is better than implicit. Yes, I did this, I should have done this. Simple is better than complex. Complex is better than complicated. You will be able to relate it to your project. The things of your project will be in your mind when you read it later. If you are a beginner, then you may not understand this thing so well. But anyways, this is an easter egg in Python. This is printed by writing import this. This is a little shocking. People say that by writing import this, poem is written. But this is an easter egg in Python. This is intentionally put. It is not that it is of any use. Poem is written by writing import this. It is just an easter egg in Python. If someone asks you what will happen by doing import this, you can say that Zen of Python is printed. It has a very good meaning. If you are an intermediate programmer, then read it once and you will find similarities in your code. If you have not accessed the playlist yet, then do it. Click here to bookmark or click here to save. That's all for this video. Thank you so much for watching this video and I will see you next time. Thank you so much for watching this video. I will see you in the next video. Till then, bye."
+}

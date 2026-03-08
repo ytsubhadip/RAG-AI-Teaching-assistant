@@ -1,0 +1,264 @@
+{
+    "chunks": [
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 0.0,
+            "end": 26.400000000000002,
+            "text": " In today's video, we will see exactly what is the syntax of classes and objects in Python,  how you can make classes and objects, let's go to the computer screen and let's get started.  Intro  So guys, we have seen a lot about these things that why do you have to make a class in Python,  what is an object, what is a class, what is the difference between a class and an object."
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 26.4,
+            "end": 49.84,
+            "text": " But today I will write a program for you, so that your clarity will increase a lot.  So, first of all, I will make a class here and the class is made with the help of the class keyword.  Now, I am not telling you anything, at least say a little theory, I will not say any Arabic theory,  I will only do practical, then I will conclude things from it.  So I made a class and suppose I am making a person here, what does a person have?"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 50.800000000000004,
+            "end": 93.35999999999999,
+            "text": " I will say name is equal to Harry, what else does a person have?  Suppose his occupation is software developer and his net worth is 10 rupees,  10 dollars is the same thing, it is not the same thing, but suppose,  so here I wrote 10, now suppose I want to make a new person,  so I will write a is equal to person, so I will write this syntax and after this I will write print a.name,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 93.35999999999999,
+            "end": 124.72,
+            "text": " I have done a simple thing and obviously Harry will be printed here,  but I don't like this Harry, so I can do something like this, a.name is equal to Shubham,  suppose I want to give his name Shubham and his occupation can be something else,  suppose he can be an accountant, so a.occupation is equal to accountant,  if I do it, then if I print a.occupation, I try to print a.occupation"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 124.72,
+            "end": 145.76,
+            "text": " and you can see here if I print a.occupation, then the accountant will come,  but if these two lines are not here, then Harry software developer will come,  so what is the point of doing this?  If you don't do this, then you won't get such a good organization,  now you are not understanding this organization because our class is very small,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 145.76,
+            "end": 167.84,
+            "text": " you will think that this was very simple, I would have made four variables,  one would have made a.name, one would have made a.occupation and it would have worked,  and then b.name, b.occupation, it would have worked, but you will see here,  when I write a.name is equal to Shubham, then it is a clear indication that  the name of a is being changed and Shubham is being kept,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 167.84,
+            "end": 188.56,
+            "text": " a.occupation is equal to accountant, the occupation of a is being changed  and it is being made an accountant, so I can do it this way,  now I can write a method here, I can say def info,  and I will write an f string here,  I will write two variables name, and when I make a method here,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 188.56,
+            "end": 216.88,
+            "text": " I will use the self keyword, now you will say what is this self keyword,  for now you just write the self keyword and I will tell you what happens after this,  I will write here self.name is a and I will write here self.occupation,  I will do this much for now, and you will see that if I call here a.info function,  then you will see what will happen, it will come here,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 216.88,
+            "end": 237.84,
+            "text": " Harry is a software developer, because self.name is Harry and self.occupation is software developer,  now what is this self, what is this self keyword, I will tell you everything,  that what is this self keyword, but for now you don't focus on that,  you focus on this that I made a person here,  I called one method and I got all the information about it,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 237.84,
+            "end": 254.64000000000001,
+            "text": " I just did a.info and I got all the information about it,  if I had to do this work with procedural programming, then what would I do,  I would have written this function, I would have passed it in a,  and then I would have made a separate function def info,  I would have passed it in a, and then I would have seen what is happening there,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 254.72,
+            "end": 271.12,
+            "text": " here I have an object, I can run methods on it,  and things become very easy, now we will talk about self,  we will make classes and objects a little more,  but I wanted to give you a basic idea here,  now if I make name Shubham and occupation accountant,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 271.12,
+            "end": 289.68,
+            "text": " then you see what will happen here, Shubham is an accountant,  it should be written here, but it is coming as a, because it is written here,  we are not playing grammar, we will do it,  now I will tell you from the beginning, what are classes and objects,  a class is a blueprint and a template for creating objects,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 289.68,
+            "end": 305.20000000000005,
+            "text": " like we saw in the last video, the example of railway reservation,  that there is a form, a template, after filling it,  then it becomes an object, a form of a person, an entity,  providing initial values for state,  means consider it as a place holder,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 305.20000000000005,
+            "end": 317.92,
+            "text": " that there is a complete blueprint inside it,  that there will be a name of a person, occupation, net worth,  and there will be an info method inside it,  and many more things can be put inside it,  methods, or properties,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 317.92,
+            "end": 330.96000000000004,
+            "text": " don't know what all can be put inside it,  but now we have put only 3 properties and 1 method,  10 properties and 50 methods can also be there,  the user defined objects are created using the class keyword,  like we have done here, it is a user defined object,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 330.96000000000004,
+            "end": 343.12,
+            "text": " we have defined it,  so in a way we have defined it,  so we are in its control, what should we put in it,  which property should we put, which methods should we put,  the basic syntax to create a class is this,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 343.12,
+            "end": 353.44,
+            "text": " as I have told you here,  the syntax to create an object from this class is this,  as I have shown you here,  I have made a class with the name details,  so I have made the object with the name details,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 353.44,
+            "end": 366.16,
+            "text": " now here I can print its name, age, etc,  I hope everyone understood this,  now here you will have a complaint,  that what is this self, we didn't understand,  so this self is not the car self,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 366.96000000000004,
+            "end": 381.36,
+            "text": " that is also called self,  in our UP, the bike is called self maro,  that is not self,  self parameter is a reference to the current instance of the class,  and is used to access variables that belong to the class,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 381.36,
+            "end": 392.40000000000003,
+            "text": " what is that, listen,  if I have made an object here with the name a,  a is equal to person, I can make one more object,  b is equal to person,  I will make a as shubham,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 392.40000000000003,
+            "end": 402.64,
+            "text": " what will I do to b,  I will make it neetika,  b is neetika,  and b dot occupation is hr,  it is neetika,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 402.64,
+            "end": 412.64,
+            "text": " I have made it hr,  now I can make a dot info or b dot info,  when I will make a dot info,  then self dot name means  the name of a,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 412.64,
+            "end": 422.64,
+            "text": " what is the name of a, shubham,  and a occupation is accountant,  so self means the object for which  this method is being called,  what is self, it means the object for which"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 422.64,
+            "end": 432.64,
+            "text": " this method is being called,  write in the comment what is the meaning of self,  write it, you will remember,  I wrote it in the video of harry bhai,  a means, sorry, self means"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 432.64,
+            "end": 442.64,
+            "text": " the object on which this method is being called,  when I will write a dot info,  and a dot info will go here,  then what will be in self,  the object on which this method is being called,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 442.64,
+            "end": 452.64,
+            "text": " on which is being called, on a,  so self dot name means the name of a,  what is the name of a, shubham,  and if I run it,  shubham is accountant,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 452.64,
+            "end": 462.64,
+            "text": " nitika is HR,  it will come after writing,  there are no surprises in this,  you have understood everything,  the thing here is that I can make"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 462.64,
+            "end": 476.64,
+            "text": " a, b, c, d, e, f, g, h, z,  a, a, b, b, c, c, d, d,  I can make as many person as I want,  and I don't need to specify here again and again,  that the name of a will be,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 476.64,
+            "end": 486.64,
+            "text": " the occupation of a will be,  the occupation of b can be different,  the occupation of c can be different,  a is a person who is living his life,  b is a person who is living his life,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 486.64,
+            "end": 496.64,
+            "text": " he has his occupation, his network,  his name, these values are default,  after this they can be changed,  for now you understand it very simple,  then we will make things more complex,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 496.64,
+            "end": 506.64,
+            "text": " in fact we will not make it complex,  we will understand why things are made,  why are they designed the way they are designed,  we will see this,  for now you understand this much,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 506.64,
+            "end": 516.64,
+            "text": " a, b, c, there are three different objects,  there are three different persons,  there are three different people,  who have their own name,  occupation, network,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 516.64,
+            "end": 526.64,
+            "text": " you understood it,  I know you understood it,  and here if I didn't give anything to c,  I didn't change the name of c,  and the occupation,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 526.64,
+            "end": 536.64,
+            "text": " then what will happen,  the default values will be given to c,  then c's name will remain Harry,  and c's occupation will be software developer,  I hope all this makes sense,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 536.64,
+            "end": 546.64,
+            "text": " you enjoyed it,  and if you haven't accessed the playlist yet,  then do access it,  click here to bookmark,  and save the playlist,"
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 546.64,
+            "end": 568.64,
+            "text": " for now this much in this video,  thank you so much for watching this video,  and I will see you next time.  Music.  Music."
+        },
+        {
+            "number": "057 ",
+            "title": "Classes and Objects in Python",
+            "start": 568.64,
+            "end": 572.64,
+            "text": " Music.  Music."
+        }
+    ],
+    "text": " In today's video, we will see exactly what is the syntax of classes and objects in Python, how you can make classes and objects, let's go to the computer screen and let's get started. Intro So guys, we have seen a lot about these things that why do you have to make a class in Python, what is an object, what is a class, what is the difference between a class and an object. But today I will write a program for you, so that your clarity will increase a lot. So, first of all, I will make a class here and the class is made with the help of the class keyword. Now, I am not telling you anything, at least say a little theory, I will not say any Arabic theory, I will only do practical, then I will conclude things from it. So I made a class and suppose I am making a person here, what does a person have? I will say name is equal to Harry, what else does a person have? Suppose his occupation is software developer and his net worth is 10 rupees, 10 dollars is the same thing, it is not the same thing, but suppose, so here I wrote 10, now suppose I want to make a new person, so I will write a is equal to person, so I will write this syntax and after this I will write print a.name, I have done a simple thing and obviously Harry will be printed here, but I don't like this Harry, so I can do something like this, a.name is equal to Shubham, suppose I want to give his name Shubham and his occupation can be something else, suppose he can be an accountant, so a.occupation is equal to accountant, if I do it, then if I print a.occupation, I try to print a.occupation and you can see here if I print a.occupation, then the accountant will come, but if these two lines are not here, then Harry software developer will come, so what is the point of doing this? If you don't do this, then you won't get such a good organization, now you are not understanding this organization because our class is very small, you will think that this was very simple, I would have made four variables, one would have made a.name, one would have made a.occupation and it would have worked, and then b.name, b.occupation, it would have worked, but you will see here, when I write a.name is equal to Shubham, then it is a clear indication that the name of a is being changed and Shubham is being kept, a.occupation is equal to accountant, the occupation of a is being changed and it is being made an accountant, so I can do it this way, now I can write a method here, I can say def info, and I will write an f string here, I will write two variables name, and when I make a method here, I will use the self keyword, now you will say what is this self keyword, for now you just write the self keyword and I will tell you what happens after this, I will write here self.name is a and I will write here self.occupation, I will do this much for now, and you will see that if I call here a.info function, then you will see what will happen, it will come here, Harry is a software developer, because self.name is Harry and self.occupation is software developer, now what is this self, what is this self keyword, I will tell you everything, that what is this self keyword, but for now you don't focus on that, you focus on this that I made a person here, I called one method and I got all the information about it, I just did a.info and I got all the information about it, if I had to do this work with procedural programming, then what would I do, I would have written this function, I would have passed it in a, and then I would have made a separate function def info, I would have passed it in a, and then I would have seen what is happening there, here I have an object, I can run methods on it, and things become very easy, now we will talk about self, we will make classes and objects a little more, but I wanted to give you a basic idea here, now if I make name Shubham and occupation accountant, then you see what will happen here, Shubham is an accountant, it should be written here, but it is coming as a, because it is written here, we are not playing grammar, we will do it, now I will tell you from the beginning, what are classes and objects, a class is a blueprint and a template for creating objects, like we saw in the last video, the example of railway reservation, that there is a form, a template, after filling it, then it becomes an object, a form of a person, an entity, providing initial values for state, means consider it as a place holder, that there is a complete blueprint inside it, that there will be a name of a person, occupation, net worth, and there will be an info method inside it, and many more things can be put inside it, methods, or properties, don't know what all can be put inside it, but now we have put only 3 properties and 1 method, 10 properties and 50 methods can also be there, the user defined objects are created using the class keyword, like we have done here, it is a user defined object, we have defined it, so in a way we have defined it, so we are in its control, what should we put in it, which property should we put, which methods should we put, the basic syntax to create a class is this, as I have told you here, the syntax to create an object from this class is this, as I have shown you here, I have made a class with the name details, so I have made the object with the name details, now here I can print its name, age, etc, I hope everyone understood this, now here you will have a complaint, that what is this self, we didn't understand, so this self is not the car self, that is also called self, in our UP, the bike is called self maro, that is not self, self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class, what is that, listen, if I have made an object here with the name a, a is equal to person, I can make one more object, b is equal to person, I will make a as shubham, what will I do to b, I will make it neetika, b is neetika, and b dot occupation is hr, it is neetika, I have made it hr, now I can make a dot info or b dot info, when I will make a dot info, then self dot name means the name of a, what is the name of a, shubham, and a occupation is accountant, so self means the object for which this method is being called, what is self, it means the object for which this method is being called, write in the comment what is the meaning of self, write it, you will remember, I wrote it in the video of harry bhai, a means, sorry, self means the object on which this method is being called, when I will write a dot info, and a dot info will go here, then what will be in self, the object on which this method is being called, on which is being called, on a, so self dot name means the name of a, what is the name of a, shubham, and if I run it, shubham is accountant, nitika is HR, it will come after writing, there are no surprises in this, you have understood everything, the thing here is that I can make a, b, c, d, e, f, g, h, z, a, a, b, b, c, c, d, d, I can make as many person as I want, and I don't need to specify here again and again, that the name of a will be, the occupation of a will be, the occupation of b can be different, the occupation of c can be different, a is a person who is living his life, b is a person who is living his life, he has his occupation, his network, his name, these values are default, after this they can be changed, for now you understand it very simple, then we will make things more complex, in fact we will not make it complex, we will understand why things are made, why are they designed the way they are designed, we will see this, for now you understand this much, a, b, c, there are three different objects, there are three different persons, there are three different people, who have their own name, occupation, network, you understood it, I know you understood it, and here if I didn't give anything to c, I didn't change the name of c, and the occupation, then what will happen, the default values will be given to c, then c's name will remain Harry, and c's occupation will be software developer, I hope all this makes sense, you enjoyed it, and if you haven't accessed the playlist yet, then do access it, click here to bookmark, and save the playlist, for now this much in this video, thank you so much for watching this video, and I will see you next time. Music. Music. Music. Music."
+}

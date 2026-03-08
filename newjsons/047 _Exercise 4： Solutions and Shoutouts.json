@@ -1,0 +1,817 @@
+{
+    "chunks": [
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 0.0,
+            "end": 19.900000000000002,
+            "text": " In today's video, I will tell you the solution of exercise 4 first.  After that, we will give shoutouts to those who solved exercise 4 first.  Solved it correctly.  Let's go to the computer screen and let's get started.  \ud83c\udfb5"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 19.900000000000002,
+            "end": 34.54,
+            "text": " So, first of all, I tell you the solution.  After that, we will move towards the shoutouts.  So if I talk about the solution here, then you see.  First of all, I have written here that write a Python program to translate a message into a secret code language.  We have to make a secret code language."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 34.54,
+            "end": 52.3,
+            "text": " The second thing here is that first of all, we will see coding and then we will understand decoding.  So what do I do here?  First of all, I write coding is equal to true here.  And you guys understand what I am doing here.  And I will write here if coding and I will write pass else pass here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 52.3,
+            "end": 65.24000000000001,
+            "text": " Now you guys know what pass is.  I have told you about pass.  Pass means whenever we are making a wireframe, that if we are doing something like this,  that here I have to write only that thing on which I am going to work in the future.  So I will write pass here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 65.24000000000001,
+            "end": 76.54,
+            "text": " This is what happens.  Okay, so I wrote here if coding, wrote pass.  Now I will fill it here.  I will press ctrl backspace.  And what I will do here is that if I have to do coding, that is, I have to code a string."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 76.54,
+            "end": 86.44000000000001,
+            "text": " And this is not coding like programming.  I will write here st is equal to.  Suppose Harry is good.  Suppose I have to code it.  I have to code it."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 86.44000000000001,
+            "end": 102.34,
+            "text": " So what will I do?  First of all, it is written that if the word contains at least three characters,  at least three characters should be there.  So I will write here if len of st and I will say at least three characters should be there.  Greater than equal to three."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 102.34,
+            "end": 113.24,
+            "text": " Then what should happen?  I said greater than equal to three is if len of st.  Remove the first letter and append it to the end.  Okay, so what will I do here?  I will say that st is equal to."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 113.24,
+            "end": 124.84,
+            "text": " I will reassign st.  And what will I write here?  First of all, what I have to do is remove the last character.  No, remove the first letter and append it to the end.  So first of all, I will write st."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 124.84,
+            "end": 134.04,
+            "text": " I will take all the characters starting from one.  And what will I do in this plus?  St zero.  Okay, I will do this.  And what will happen by doing this?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 134.04,
+            "end": 143.84,
+            "text": " I will show you here.  Print st.  If I print st now and run it,  then you will see here that first of all,  because greater than equal to three is the length of st."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 143.84,
+            "end": 156.24,
+            "text": " And after that, st is equal to st one colon zero plus st zero.  So what will happen is that this thing will remove the first character and take all the things here.  And this will take the first character.  So this thing came.  So h went at the end."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 156.24,
+            "end": 168.44,
+            "text": " So I did this step.  Okay.  Now I print three random characters at the starting and the end.  Now I have to do three random characters in the starting.  And three random characters to do in the ending."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 168.44,
+            "end": 180.23999999999998,
+            "text": " So what will I do here?  I will do r1 r2 here.  r1 is equal to my three random characters.  Assume that these are my three random characters.  And r2 will also be my three random characters."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 180.23999999999998,
+            "end": 189.83999999999997,
+            "text": " Okay.  But yes, I know that if I keep it purely random, it will be good.  Here I have made it hard code.  But let's hard code it.  Okay."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 189.83999999999997,
+            "end": 200.23999999999998,
+            "text": " I will write r1 here.  So three random characters here at the starting and three random characters at the end.  Simply reverse the string.  After this, at the end you have to reverse.  Okay, it is in else."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 200.23999999999998,
+            "end": 208.84,
+            "text": " Simply reverse the string.  Okay.  So now I will leave it like this.  Now you see here, I will code anything.  I will just input here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 208.84,
+            "end": 214.84,
+            "text": " Enter message.  Okay.  So I am entering this message.  I will run it.  So assume I write here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 214.84,
+            "end": 222.04,
+            "text": " Go to the office.  Okay.  I wrote this.  So this is the message.  I don't even know what it is."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 222.04,
+            "end": 230.84,
+            "text": " But yes, I know what I should do here.  I should split.  I have to do this work for all words.  Okay.  So I have to do this work for all words first."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 230.84,
+            "end": 240.84,
+            "text": " Because I have to do it, I will split it first.  Okay.  So I will write here for word in words.  Now you will say what is word and what is words.  I will tell you that now."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 240.84,
+            "end": 253.84,
+            "text": " And the st where I have written, I will do word there.  Okay.  And here I will do word again.  And I have to do word instead of st.  And here I do one thing."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 253.84,
+            "end": 260.84000000000003,
+            "text": " I do word here.  I do word here.  And I call it st new.  Okay.  And what will I do here?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 260.84000000000003,
+            "end": 272.84000000000003,
+            "text": " I have written for word in words.  What am I doing for all words?  That I am making one st new.  And I do one thing.  Instead of printing it, I say new words."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 272.84000000000003,
+            "end": 281.84000000000003,
+            "text": " New words is equal to.  Or dot append.  And here I will do st new.  So n words.  What is my st new?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 281.84,
+            "end": 292.84,
+            "text": " First of all, my st new.  Sorry, what is my n words?  What did I do?  My n words is an empty string.  Okay."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 292.84,
+            "end": 299.84,
+            "text": " And I will make this thing for all words.  I will append new words in it.  Okay.  New words will be appended in it.  So first of all, I do this much."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 299.84,
+            "end": 310.84,
+            "text": " I see that my n words are coming properly.  So I will write here dot join.  And here I will do space.  Okay.  Now I run it."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 310.84,
+            "end": 321.84,
+            "text": " Now I will write message here.  Harry is.  How?  Okay.  I wrote something like this."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 321.84,
+            "end": 331.84,
+            "text": " Words is not defined.  Okay.  So I have to do words is equal to st dot split.  Words is equal to st dot split.  This."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 331.84,
+            "end": 339.84,
+            "text": " Okay.  I have to do this.  And here you see.  Enter message.  Harry is good."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 339.84,
+            "end": 349.84,
+            "text": " You know I have done Harry is good.  It says list object has no attribute join.  So I have done something wrong here.  The join method has list here.  And string comes here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 349.84,
+            "end": 357.84,
+            "text": " So now I will run it here.  And I will write here.  Let us say Harry is good.  Or if I write any message here.  So what will it do?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 357.84,
+            "end": 365.84,
+            "text": " First of all, it will split.  First of all, a list of words will be made.  And after that, see here.  It has done this.  Okay."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 365.84,
+            "end": 372.84,
+            "text": " It has done one word.  It has done this second word.  But I have not done one thing here.  And you know what is it?  What did not do?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 372.84,
+            "end": 380.84,
+            "text": " Here if len of word is greater than or equal to 3.  Then I did this.  What will I do otherwise?  Otherwise I have to simply reverse the string.  What will I do otherwise?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 380.84,
+            "end": 389.84,
+            "text": " I will say nwords dot append.  And here I will do.  Reverse the string.  So there is a way to reverse the string.  Which I told you."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 389.84,
+            "end": 395.84,
+            "text": " And what is it?  You can do something like this.  You can say word.  By doing this.  And here minus one."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 395.84,
+            "end": 404.84,
+            "text": " So this is a way to reverse the string.  So what will I do here?  I will simply write Harry is good.  I will write Harry is good.  And as soon as I write,"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 404.84,
+            "end": 412.84,
+            "text": " See this thing is reversed.  And for Harry, he generated this.  Generated for this.  And generated for good.  Now if instead of coding,"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 412.84,
+            "end": 418.84,
+            "text": " decoding would have been done.  What would I do then?  What would I simply do then?  I would say else.  What will happen inside else?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 418.84,
+            "end": 425.84,
+            "text": " That kind of same logic will work.  Okay.  But with a difference.  And what will be the difference?  I will tell you that now."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 425.84,
+            "end": 434.84,
+            "text": " I did this for n words.  And for word in words.  What will we do?  If len of word is.  First of all, I will do this thing."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 434.84,
+            "end": 443.84,
+            "text": " That I will remove three random characters  from starting and ending.  So see if the length of the word is  greater than or equal to three.  So this means that"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 443.84,
+            "end": 451.84,
+            "text": " there will be random characters in it.  Because if there are no random characters in it.  It means that  its length is two.  Around."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 451.84,
+            "end": 460.84,
+            "text": " So what will I do first of all?  I will remove three from starting.  So to remove three from starting.  I will take three to end.  And I will take three to minus three."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 460.84,
+            "end": 467.84,
+            "text": " Okay.  So I will do this thing.  Okay.  And after this what will I do?  After doing this."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 467.84,
+            "end": 478.84,
+            "text": " The first character is.  I will make that last character.  So what will I do after doing this?  That I will write.  stnew is equal to stnew."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 478.84,
+            "end": 488.84,
+            "text": " And here I will write.  I will write minus one.  That is the last character.  And I will do plus stnew.  And after doing this."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 488.84,
+            "end": 498.84,
+            "text": " What will I have to do?  First character.  Last character will come.  Instead of first character.  So I have to take the whole string."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 498.84,
+            "end": 508.84,
+            "text": " From zero to.  And I have to remove the last character.  So minus one.  I know that many people will find this exercise tricky.  Which is fine."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 508.84,
+            "end": 518.8399999999999,
+            "text": " But how will it be fun?  If you don't find it tricky.  Do you understand?  It should be fun.  And I want to give this fun to all of you."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 518.8399999999999,
+            "end": 528.8399999999999,
+            "text": " Okay.  I will do this.  And I will write here.  Harry is good.  And I will copy this string."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 528.8399999999999,
+            "end": 538.84,
+            "text": " This is a coded string.  Now I will make it false.  And now I will run this program.  And this time I will paste this string.  I will paste it here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 538.84,
+            "end": 548.84,
+            "text": " And enter.  So coding is done.  Decoding is done.  So I hope you liked this exercise.  And you must have enjoyed it."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 548.84,
+            "end": 558.84,
+            "text": " Now one thing you have to keep in mind.  If the length of the word is greater than or equal to three.  I have put a check in coding and decoding.  See what is my edge case?  The edge case is that."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 558.84,
+            "end": 568.84,
+            "text": " There will be three characters.  If the word contains less than three characters.  Then we have to reverse it.  But if it is more than three characters.  Then even if append is done."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 568.84,
+            "end": 578.84,
+            "text": " Then it will be more than three.  So if I get more than three characters.  Then I can safely remove the last three.  So I hope you understood.  How to do coding and decoding."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 578.84,
+            "end": 588.84,
+            "text": " So I will ask one more thing.  And I will write here.  Coding is equal to.  And I will write here.  Input."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 588.84,
+            "end": 598.84,
+            "text": " And I will write here.  Coding and decoding.  One for coding.  One for coding.  And zero for decoding."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 598.84,
+            "end": 608.84,
+            "text": " I will write this.  And here I will write again.  Coding is equal to.  And I will write true.  And I will do one thing here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 608.84,
+            "end": 618.84,
+            "text": " I will use the short hand if-else statement.  I will write here.  If coding is equal to one.  Then what to do?  Then code."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 618.84,
+            "end": 628.84,
+            "text": " Then the coding is to be true.  If coding is equal to true.  Else.  Coding.  I will write here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 628.84,
+            "end": 638.84,
+            "text": " Coding is equal to true.  If.  So I wrote here.  Coding is equal to true.  Else false."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 638.84,
+            "end": 648.84,
+            "text": " So I can assign it like this.  I am writing here.  Harry is a nice boy.  I wrote boy or not?  Now it is saying."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 648.84,
+            "end": 658.84,
+            "text": " I want to decode.  So I got this thing.  I will copy it.  Next time I will decode it.  I will paste it."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 658.84,
+            "end": 668.84,
+            "text": " And enter.  Now it is saying coding or decoding.  I want to decode it.  So I can talk to anyone.  No one will know."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 668.84,
+            "end": 678.84,
+            "text": " What is written in it.  You are not getting it.  And.  If I.  Make characters purely random."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 678.84,
+            "end": 688.84,
+            "text": " Then it is done.  Then it is game over.  Then no one will understand.  What you have written.  So you will tell me in the comment section."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 688.84,
+            "end": 698.84,
+            "text": " How to make it purely random.  I can give you a hint.  You can use random module.  Google it.  Get your work done."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 698.84,
+            "end": 708.84,
+            "text": " Get your work done.  But your work should be done.  What I said should be done.  I am not a bad person.  It should be done."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 708.84,
+            "end": 718.84,
+            "text": " Your work should be done.  If your work is done.  You have to make it purely random.  Every time 3 characters.  Every time I want new characters."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 718.84,
+            "end": 728.84,
+            "text": " No one should see the pattern.  Someone will see the pattern.  He will say that DSF comes in every string.  And JKR comes.  We don't have to make our message suspicious."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 728.84,
+            "end": 738.84,
+            "text": " We have to make it.  Such a solution.  So that no one knows.  What message has been sent.  Secret code."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 738.84,
+            "end": 748.84,
+            "text": " With that said.  Let's go to the 4th exercise.  I will go to the cover page.  I will give a shout out.  I will give a shout out to everyone."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 748.84,
+            "end": 758.84,
+            "text": " Who solved this question.  So here.  Shout out.  Let me scroll it.  I will come back after scrolling it."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 758.84,
+            "end": 768.84,
+            "text": " So here you can see.  M Faizan has done it first.  Right or wrong comes later.  But he has attempted.  That is the biggest thing."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 768.84,
+            "end": 778.84,
+            "text": " This exercise was a little tricky.  But I wanted you to challenge.  And you challenge yourself.  So here see.  Message decryption with python program."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 778.84,
+            "end": 788.84,
+            "text": " Let's see if it works.  I will try to run it.  And here.  I am trying.  I am trying."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 788.84,
+            "end": 798.84,
+            "text": " Code or decode or quit.  Enter code.  Harry is good.  Enter your key as 3, 4 or 6.  This is also good."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 798.84,
+            "end": 808.84,
+            "text": " You gave a key here.  So my key was 3.  Now I will try to decode it.  I have typed decode.  Yes."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 808.84,
+            "end": 818.84,
+            "text": " Paste.  Enter.  Enter key for decrypting.  Amazing.  And this key for decrypting concept."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 818.84,
+            "end": 828.84,
+            "text": " I liked it more.  But you can make it purely random.  I want to see the logic.  Because I am impressed.  So what he has done."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 828.84,
+            "end": 838.84,
+            "text": " The three random characters.  He has used random choices.  Amazing.  And what I told you.  Write in the comment."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 838.84,
+            "end": 848.84,
+            "text": " He has done it.  M Faizan has done it.  I thought.  The first program will be wrong.  We will reach in 4th or 5th program."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 848.84,
+            "end": 858.84,
+            "text": " After that we will get a solution.  But M Faizan has changed the game.  Amazing M Faizan 3.  So here.  The logic is simple."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 858.84,
+            "end": 868.84,
+            "text": " He has put a key.  So that.  Encryption is getting better.  Which is a very good thing.  Everyone go and see his program."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 868.84,
+            "end": 878.84,
+            "text": " He has made a good program.  Keep it up man.  After this Ali Raza.  See right and wrong comes later.  He has attempted."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 878.84,
+            "end": 888.84,
+            "text": " He has tried.  That's enough.  I am trying to run the program.  To make a code enter 1.  I hope 1."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 888.84,
+            "end": 898.84,
+            "text": " Harry good.  Here.  My code is this.  To make a code enter 1.  Decode a code."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 898.84,
+            "end": 908.84,
+            "text": " I have done this.  Your message is Harry good.  Wow man.  I want to see the logic again.  So the logic is the same."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 908.84,
+            "end": 918.84,
+            "text": " I want everyone to understand.  One thing.  Here you have written len of a.  I am a little off.  Why did you do it?"
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 918.84,
+            "end": 928.84,
+            "text": " I told you one thing.  Python automatically puts.  What is the need to write?  Why are you wasting your energy?  This program is amazing."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 928.84,
+            "end": 938.84,
+            "text": " I am criticizing it.  My job is to tell you.  You do not have to write.  Here you do not have to write.  You have to leave it."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 938.84,
+            "end": 948.84,
+            "text": " See the video of slicing.  Whoever is confused.  Will see the video of slicing.  Will leave this video.  If you are not coming."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 948.84,
+            "end": 958.84,
+            "text": " Your concept of slicing is not clear.  That's totally fine.  If the concept of slicing is not clear.  There is no problem.  You can go and see again."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 958.84,
+            "end": 968.84,
+            "text": " If you see anything, it is wrong.  In fact, it is your benefit.  But this attitude is very bad.  Ali Raza Jafri.  This is very bad."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 968.84,
+            "end": 978.84,
+            "text": " This thing has disappointed me a little.  This is wrong.  I did not like this a little.  Once you put your message.  That's fine."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 978.84,
+            "end": 988.84,
+            "text": " It is another thing to meet.  What Suryansh Kumar has done.  I am not seeing his shoutout next time.  This is wrong.  Don't do this."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 988.84,
+            "end": 998.84,
+            "text": " Put a message.  If you did not get a shoutout.  Then you will have a motivation.  I have to do it next time.  Will come next time."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 998.84,
+            "end": 1008.84,
+            "text": " Focus on learning.  Do not do this.  The next message is.  Code with Pravar.  Whoever has double message."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1008.84,
+            "end": 1018.84,
+            "text": " I will skip it.  I will ignore it.  And here.  Where did it open?  Here is Code with Pravar."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1018.84,
+            "end": 1028.8400000000001,
+            "text": " Code with Pravar.  Here is their Rappel.  I will try to run it.  And I hope it runs.  And I will write here."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1028.8400000000001,
+            "end": 1038.8400000000001,
+            "text": " What should I write?  Hey, how are you?  I put a dot.  I need this code.  They did a great job."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1038.84,
+            "end": 1048.84,
+            "text": " It is difficult to put special characters.  It is difficult to put special characters.  Your message.  It will be easy to decode.  Because that person will remove your special characters."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1048.84,
+            "end": 1058.84,
+            "text": " Program is good.  Code with Pravar.  But I am giving my opinion.  It is not wrong.  It was not mentioned in the question."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1058.84,
+            "end": 1070.84,
+            "text": " You can't use special characters.  But I am giving my suggestion.  If it was a matter of putting special characters.  I would not have put it.  But if it is not mentioned in the question."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1070.84,
+            "end": 1080.84,
+            "text": " You can do anything.  You can't be blamed.  You can't be blamed.  No one can blame you.  I will give shoutout to some people."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1080.84,
+            "end": 1090.84,
+            "text": " Himanshu Kuba 96.  Ritim Chopra CH.  Yash Agarwal.  Sudanshu Balasa.  Ek Rahi."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1090.84,
+            "end": 1100.84,
+            "text": " Pulauk Raj Anand.  And  Next  Shoutout to  Yash Agarwal."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1100.84,
+            "end": 1110.84,
+            "text": " And  Sudanshu Balasa.  And  Om Ratan.  Prayanshu Kundu."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1110.84,
+            "end": 1120.84,
+            "text": " Just one message.  Please don't put double messages.  I hope you enjoyed.  And those who didn't get a shoutout.  That's totally fine."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1120.84,
+            "end": 1130.84,
+            "text": " You solve the next exercise.  It's not a matter of pressure.  Don't think that I didn't get a shoutout.  Do hard work.  Learn."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1130.84,
+            "end": 1140.84,
+            "text": " And your rebel will shine.  If you haven't reviewed this course.  Then go to the first video.  And please review it.  Comment how you are feeling."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1140.84,
+            "end": 1150.84,
+            "text": " You have seen the videos so far.  Give 5 stars.  How many stars you want to give.  That's all for now.  Thank you so much for watching this video."
+        },
+        {
+            "number": "047 ",
+            "title": "Exercise 4\uff1a Solutions and Shoutouts",
+            "start": 1150.84,
+            "end": 1152.84,
+            "text": " See you next time."
+        }
+    ],
+    "text": " In today's video, I will tell you the solution of exercise 4 first. After that, we will give shoutouts to those who solved exercise 4 first. Solved it correctly. Let's go to the computer screen and let's get started. \ud83c\udfb5 So, first of all, I tell you the solution. After that, we will move towards the shoutouts. So if I talk about the solution here, then you see. First of all, I have written here that write a Python program to translate a message into a secret code language. We have to make a secret code language. The second thing here is that first of all, we will see coding and then we will understand decoding. So what do I do here? First of all, I write coding is equal to true here. And you guys understand what I am doing here. And I will write here if coding and I will write pass else pass here. Now you guys know what pass is. I have told you about pass. Pass means whenever we are making a wireframe, that if we are doing something like this, that here I have to write only that thing on which I am going to work in the future. So I will write pass here. This is what happens. Okay, so I wrote here if coding, wrote pass. Now I will fill it here. I will press ctrl backspace. And what I will do here is that if I have to do coding, that is, I have to code a string. And this is not coding like programming. I will write here st is equal to. Suppose Harry is good. Suppose I have to code it. I have to code it. So what will I do? First of all, it is written that if the word contains at least three characters, at least three characters should be there. So I will write here if len of st and I will say at least three characters should be there. Greater than equal to three. Then what should happen? I said greater than equal to three is if len of st. Remove the first letter and append it to the end. Okay, so what will I do here? I will say that st is equal to. I will reassign st. And what will I write here? First of all, what I have to do is remove the last character. No, remove the first letter and append it to the end. So first of all, I will write st. I will take all the characters starting from one. And what will I do in this plus? St zero. Okay, I will do this. And what will happen by doing this? I will show you here. Print st. If I print st now and run it, then you will see here that first of all, because greater than equal to three is the length of st. And after that, st is equal to st one colon zero plus st zero. So what will happen is that this thing will remove the first character and take all the things here. And this will take the first character. So this thing came. So h went at the end. So I did this step. Okay. Now I print three random characters at the starting and the end. Now I have to do three random characters in the starting. And three random characters to do in the ending. So what will I do here? I will do r1 r2 here. r1 is equal to my three random characters. Assume that these are my three random characters. And r2 will also be my three random characters. Okay. But yes, I know that if I keep it purely random, it will be good. Here I have made it hard code. But let's hard code it. Okay. I will write r1 here. So three random characters here at the starting and three random characters at the end. Simply reverse the string. After this, at the end you have to reverse. Okay, it is in else. Simply reverse the string. Okay. So now I will leave it like this. Now you see here, I will code anything. I will just input here. Enter message. Okay. So I am entering this message. I will run it. So assume I write here. Go to the office. Okay. I wrote this. So this is the message. I don't even know what it is. But yes, I know what I should do here. I should split. I have to do this work for all words. Okay. So I have to do this work for all words first. Because I have to do it, I will split it first. Okay. So I will write here for word in words. Now you will say what is word and what is words. I will tell you that now. And the st where I have written, I will do word there. Okay. And here I will do word again. And I have to do word instead of st. And here I do one thing. I do word here. I do word here. And I call it st new. Okay. And what will I do here? I have written for word in words. What am I doing for all words? That I am making one st new. And I do one thing. Instead of printing it, I say new words. New words is equal to. Or dot append. And here I will do st new. So n words. What is my st new? First of all, my st new. Sorry, what is my n words? What did I do? My n words is an empty string. Okay. And I will make this thing for all words. I will append new words in it. Okay. New words will be appended in it. So first of all, I do this much. I see that my n words are coming properly. So I will write here dot join. And here I will do space. Okay. Now I run it. Now I will write message here. Harry is. How? Okay. I wrote something like this. Words is not defined. Okay. So I have to do words is equal to st dot split. Words is equal to st dot split. This. Okay. I have to do this. And here you see. Enter message. Harry is good. You know I have done Harry is good. It says list object has no attribute join. So I have done something wrong here. The join method has list here. And string comes here. So now I will run it here. And I will write here. Let us say Harry is good. Or if I write any message here. So what will it do? First of all, it will split. First of all, a list of words will be made. And after that, see here. It has done this. Okay. It has done one word. It has done this second word. But I have not done one thing here. And you know what is it? What did not do? Here if len of word is greater than or equal to 3. Then I did this. What will I do otherwise? Otherwise I have to simply reverse the string. What will I do otherwise? I will say nwords dot append. And here I will do. Reverse the string. So there is a way to reverse the string. Which I told you. And what is it? You can do something like this. You can say word. By doing this. And here minus one. So this is a way to reverse the string. So what will I do here? I will simply write Harry is good. I will write Harry is good. And as soon as I write, See this thing is reversed. And for Harry, he generated this. Generated for this. And generated for good. Now if instead of coding, decoding would have been done. What would I do then? What would I simply do then? I would say else. What will happen inside else? That kind of same logic will work. Okay. But with a difference. And what will be the difference? I will tell you that now. I did this for n words. And for word in words. What will we do? If len of word is. First of all, I will do this thing. That I will remove three random characters from starting and ending. So see if the length of the word is greater than or equal to three. So this means that there will be random characters in it. Because if there are no random characters in it. It means that its length is two. Around. So what will I do first of all? I will remove three from starting. So to remove three from starting. I will take three to end. And I will take three to minus three. Okay. So I will do this thing. Okay. And after this what will I do? After doing this. The first character is. I will make that last character. So what will I do after doing this? That I will write. stnew is equal to stnew. And here I will write. I will write minus one. That is the last character. And I will do plus stnew. And after doing this. What will I have to do? First character. Last character will come. Instead of first character. So I have to take the whole string. From zero to. And I have to remove the last character. So minus one. I know that many people will find this exercise tricky. Which is fine. But how will it be fun? If you don't find it tricky. Do you understand? It should be fun. And I want to give this fun to all of you. Okay. I will do this. And I will write here. Harry is good. And I will copy this string. This is a coded string. Now I will make it false. And now I will run this program. And this time I will paste this string. I will paste it here. And enter. So coding is done. Decoding is done. So I hope you liked this exercise. And you must have enjoyed it. Now one thing you have to keep in mind. If the length of the word is greater than or equal to three. I have put a check in coding and decoding. See what is my edge case? The edge case is that. There will be three characters. If the word contains less than three characters. Then we have to reverse it. But if it is more than three characters. Then even if append is done. Then it will be more than three. So if I get more than three characters. Then I can safely remove the last three. So I hope you understood. How to do coding and decoding. So I will ask one more thing. And I will write here. Coding is equal to. And I will write here. Input. And I will write here. Coding and decoding. One for coding. One for coding. And zero for decoding. I will write this. And here I will write again. Coding is equal to. And I will write true. And I will do one thing here. I will use the short hand if-else statement. I will write here. If coding is equal to one. Then what to do? Then code. Then the coding is to be true. If coding is equal to true. Else. Coding. I will write here. Coding is equal to true. If. So I wrote here. Coding is equal to true. Else false. So I can assign it like this. I am writing here. Harry is a nice boy. I wrote boy or not? Now it is saying. I want to decode. So I got this thing. I will copy it. Next time I will decode it. I will paste it. And enter. Now it is saying coding or decoding. I want to decode it. So I can talk to anyone. No one will know. What is written in it. You are not getting it. And. If I. Make characters purely random. Then it is done. Then it is game over. Then no one will understand. What you have written. So you will tell me in the comment section. How to make it purely random. I can give you a hint. You can use random module. Google it. Get your work done. Get your work done. But your work should be done. What I said should be done. I am not a bad person. It should be done. Your work should be done. If your work is done. You have to make it purely random. Every time 3 characters. Every time I want new characters. No one should see the pattern. Someone will see the pattern. He will say that DSF comes in every string. And JKR comes. We don't have to make our message suspicious. We have to make it. Such a solution. So that no one knows. What message has been sent. Secret code. With that said. Let's go to the 4th exercise. I will go to the cover page. I will give a shout out. I will give a shout out to everyone. Who solved this question. So here. Shout out. Let me scroll it. I will come back after scrolling it. So here you can see. M Faizan has done it first. Right or wrong comes later. But he has attempted. That is the biggest thing. This exercise was a little tricky. But I wanted you to challenge. And you challenge yourself. So here see. Message decryption with python program. Let's see if it works. I will try to run it. And here. I am trying. I am trying. Code or decode or quit. Enter code. Harry is good. Enter your key as 3, 4 or 6. This is also good. You gave a key here. So my key was 3. Now I will try to decode it. I have typed decode. Yes. Paste. Enter. Enter key for decrypting. Amazing. And this key for decrypting concept. I liked it more. But you can make it purely random. I want to see the logic. Because I am impressed. So what he has done. The three random characters. He has used random choices. Amazing. And what I told you. Write in the comment. He has done it. M Faizan has done it. I thought. The first program will be wrong. We will reach in 4th or 5th program. After that we will get a solution. But M Faizan has changed the game. Amazing M Faizan 3. So here. The logic is simple. He has put a key. So that. Encryption is getting better. Which is a very good thing. Everyone go and see his program. He has made a good program. Keep it up man. After this Ali Raza. See right and wrong comes later. He has attempted. He has tried. That's enough. I am trying to run the program. To make a code enter 1. I hope 1. Harry good. Here. My code is this. To make a code enter 1. Decode a code. I have done this. Your message is Harry good. Wow man. I want to see the logic again. So the logic is the same. I want everyone to understand. One thing. Here you have written len of a. I am a little off. Why did you do it? I told you one thing. Python automatically puts. What is the need to write? Why are you wasting your energy? This program is amazing. I am criticizing it. My job is to tell you. You do not have to write. Here you do not have to write. You have to leave it. See the video of slicing. Whoever is confused. Will see the video of slicing. Will leave this video. If you are not coming. Your concept of slicing is not clear. That's totally fine. If the concept of slicing is not clear. There is no problem. You can go and see again. If you see anything, it is wrong. In fact, it is your benefit. But this attitude is very bad. Ali Raza Jafri. This is very bad. This thing has disappointed me a little. This is wrong. I did not like this a little. Once you put your message. That's fine. It is another thing to meet. What Suryansh Kumar has done. I am not seeing his shoutout next time. This is wrong. Don't do this. Put a message. If you did not get a shoutout. Then you will have a motivation. I have to do it next time. Will come next time. Focus on learning. Do not do this. The next message is. Code with Pravar. Whoever has double message. I will skip it. I will ignore it. And here. Where did it open? Here is Code with Pravar. Code with Pravar. Here is their Rappel. I will try to run it. And I hope it runs. And I will write here. What should I write? Hey, how are you? I put a dot. I need this code. They did a great job. It is difficult to put special characters. It is difficult to put special characters. Your message. It will be easy to decode. Because that person will remove your special characters. Program is good. Code with Pravar. But I am giving my opinion. It is not wrong. It was not mentioned in the question. You can't use special characters. But I am giving my suggestion. If it was a matter of putting special characters. I would not have put it. But if it is not mentioned in the question. You can do anything. You can't be blamed. You can't be blamed. No one can blame you. I will give shoutout to some people. Himanshu Kuba 96. Ritim Chopra CH. Yash Agarwal. Sudanshu Balasa. Ek Rahi. Pulauk Raj Anand. And Next Shoutout to Yash Agarwal. And Sudanshu Balasa. And Om Ratan. Prayanshu Kundu. Just one message. Please don't put double messages. I hope you enjoyed. And those who didn't get a shoutout. That's totally fine. You solve the next exercise. It's not a matter of pressure. Don't think that I didn't get a shoutout. Do hard work. Learn. And your rebel will shine. If you haven't reviewed this course. Then go to the first video. And please review it. Comment how you are feeling. You have seen the videos so far. Give 5 stars. How many stars you want to give. That's all for now. Thank you so much for watching this video. See you next time."
+}

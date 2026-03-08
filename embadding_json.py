@@ -9,30 +9,33 @@ import joblib
 
 
 def create_embadding(text_list):
-    r = requests.post("http://localhost:11434/api/embed", json={
+    
+        r = requests.post("http://localhost:11434/api/embed", json={
 
-        "model":"bge-m3",
-        "input":text_list
-    }) 
-    embedding = r.json()["embeddings"]
-    return embedding
+            "model":"nomic-embed-text",
+            "input":text_list
+        }) 
+    
+        embedding = r.json()["embeddings"]
+        return embedding
+        
 
 
 
 if __name__ == '__main__':
-    jsons = os.listdir("jsons")
+    jsons = os.listdir("newjsons")
     chanks_id = 0
     my_dicts = []
 
     for json_file in jsons:
         # read json file
-        with open(f"jsons/{json_file}" , encoding="utf-8") as f:
+        with open(f"newjsons/{json_file}" , encoding="utf-8") as f:
             content = json.load(f)
 
         print(f"creating embeding for {json_file}")
         
         #fit all chank text list to the embading function
-        embaddings = create_embadding([c["text"] for c in content["chunks"]])
+        embaddings = create_embadding([c["text"] for c in content["chunks"] if c["text"].strip() != "" ])
 
 
         for i,chuck in enumerate(content["chunks"]):

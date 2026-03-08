@@ -1,0 +1,306 @@
+{
+    "chunks": [
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 0.0,
+            "end": 10.0,
+            "text": " In python you can do operator overloading  and in today's video i am going to tell you  exactly how to do operator overloading  in python  dunder methods which start with underscore underscore"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 10.0,
+            "end": 20.0,
+            "text": " which are those and how to use them  we will cover in this video  let's go to computer screen and let's get started  intro music  intro music"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 20.0,
+            "end": 30.0,
+            "text": " intro music  intro music  intro music  so guys operator overloading is a method  which we can change"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 30.0,
+            "end": 40.0,
+            "text": " operators behavior  for example  let me make a class  complex  or vector"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 40.0,
+            "end": 50.0,
+            "text": " i am saying vector because many people understand it  otherwise i get this complaint  that people say  we don't know this  we don't know complex numbers, we are not mathematicians"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 50.0,
+            "end": 60.0,
+            "text": " we all know vector  what happens in vector  let me say self dot i is equal to i  self dot j is equal to j  self dot k is equal to"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 60.0,
+            "end": 70.0,
+            "text": " k i have done here  and here obviously self i  j and k  i have to put here  so by doing this a vector class will be made"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 70.0,
+            "end": 80.0,
+            "text": " now i am here v is equal to  vector  let's say 3, 5  and 6 i can make  now i have made a vector"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 80.0,
+            "end": 90.0,
+            "text": " and if i print this vector  here  i will make an str method  and this str method  we have seen"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 90.0,
+            "end": 100.0,
+            "text": " i will make underscore underscore str method  i will write self  and after writing self  i will return an f string  what will this f string do"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 100.0,
+            "end": 110.0,
+            "text": " in this self dot i will be  and after this i will get i  and then plus will come here  self dot j and after this  plus will come here and after this"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 110.0,
+            "end": 120.0,
+            "text": " i will write self dot k  now you see here what i am trying to do  don't get bored  see what i am trying to do  so if i print this"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 120.0,
+            "end": 130.0,
+            "text": " 3 i cap, 5 j cap, 6 k cap  i think i should not have kept space  it will look better  without space, so this is a vector  so in vector 3"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 130.0,
+            "end": 140.0,
+            "text": " in our coordinates  in that  length can be 3, 5  and 6, x and y  i had to write j here"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 140.0,
+            "end": 150.0,
+            "text": " ok, j and k  now i have made one more vector  i will make one more vector  if you don't know vector algebra  no problem"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 150.0,
+            "end": 160.0,
+            "text": " i will tell you  v2 and v1  it happens that  when we join two vectors  we have to add their individual components"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 160.0,
+            "end": 170.0,
+            "text": " but python doesn't know this  python is not a human  it is a snake, so what we will do  here we will print v1 plus v2  ok, v1 plus v2"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 170.0,
+            "end": 180.0,
+            "text": " and if we run this  we will get an error, what are you thinking  python is so intelligent that it will join  no it won't, it will give you an error  it will say that"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 180.0,
+            "end": 190.0,
+            "text": " add operation is not defined  in these two vectors  you say add mouse to keyboard  what does it mean  it is not defined"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 190.0,
+            "end": 200.0,
+            "text": " if you define that adding keyboard to mouse  means you have to stick both of them  you have defined it  but if you haven't  then"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 200.0,
+            "end": 210.0,
+            "text": " obviously you will get an error  so how to avoid this error  to avoid this error  you have to define an add operation  in this, ok"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 210.0,
+            "end": 220.0,
+            "text": " if this add operation was already there  ok, if add operation was already there  then it would have been overloaded  ok, but now i am defining  add method, ok"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 220.0,
+            "end": 230.0,
+            "text": " so you see here i have written def add  now what i will do, i will say return  something like this  like i show you  self and"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 230.0,
+            "end": 240.0,
+            "text": " x i have returned  i will do like this  what i will return, i will say  see it is like  i will make space here"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 240.0,
+            "end": 250.0,
+            "text": " add i in self.i  sorry add x.i  and  add x.j in this and add x.k in this  ok"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 250.0,
+            "end": 260.0,
+            "text": " now if we run this  so you see what will happen  because i have defined the operation here  i said that when we  will add it with any other vector"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 260.0,
+            "end": 270.0,
+            "text": " then what will happen  their individual components  will add up and it will look like this  so see when both of them were added  then what happened"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 270.0,
+            "end": 280.0,
+            "text": " that here it printed this thing  now see here there is a problem, do you know what is the problem  this resulting vector will be  a string because i have returned a string  now see if i do here"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 280.0,
+            "end": 290.0,
+            "text": " type of v1 plus v2  ok, this result  will be a string but  we want it to be a vector  sum of two vectors should be a vector"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 290.0,
+            "end": 300.0,
+            "text": " so we want this  to do this what we have to do  we will use vector constructor  we will say see  using vector constructor"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 300.0,
+            "end": 310.0,
+            "text": " make a new vector  make a new  vector  now i will show you how to do this  what we are doing is"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 310.0,
+            "end": 320.0,
+            "text": " we are giving values instead of i,j,k  so i have to play backspace  and replace it with comma  and here  ok"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 320.0,
+            "end": 330.0,
+            "text": " we should be good now  now i will run  so there will be a small change in output  that this is a vector  here you can see the same thing"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 330.0,
+            "end": 340.0,
+            "text": " but this is a vector  so i can do further vector operations  so sum of two vectors, one vector will come  but string will not come  now you are adding two vectors"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 340.0,
+            "end": 350.0,
+            "text": " you don't want this  now if any class  inherits from this class  then what will happen  if we define add"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 350.0,
+            "end": 360.0,
+            "text": " then it will overload  so this is called operator overloading  if i search on google  operator overloading  in python"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 360.0,
+            "end": 370.0,
+            "text": " then you can see  i will open docs.python  in this you will see  everything and there is official documentation  search underscore underscore"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 370.0,
+            "end": 380.0,
+            "text": " add, so see  this is add, sub, mul, matmul  so all these operators are  written here, which case operator  overrides, so you should"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 380.0,
+            "end": 390.0,
+            "text": " explore this, like i want to  subtract, so here i  clicked, so it is telling me  here that what will happen with underscore underscore sub  that this one"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 390.0,
+            "end": 400.0,
+            "text": " minus one  will overload, for star  there is mul, then  for this matrix multiplication  then slash, double forward"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 400.0,
+            "end": 410.0,
+            "text": " slash, so see all these  see all these  and try  that you can do something  useful"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 410.0,
+            "end": 420.0,
+            "text": " so i hope you got to know  what is operator overloading, i have given  example of point here, so you should see this  and if you haven't accessed playlist yet  then do it in this video"
+        },
+        {
+            "number": "077 ",
+            "title": "Operator Overloading in Python",
+            "start": 420.0,
+            "end": 426.0,
+            "text": " so guys thank you so much for watching this video  and i will see you  next time"
+        }
+    ],
+    "text": " In python you can do operator overloading and in today's video i am going to tell you exactly how to do operator overloading in python dunder methods which start with underscore underscore which are those and how to use them we will cover in this video let's go to computer screen and let's get started intro music intro music intro music intro music intro music so guys operator overloading is a method which we can change operators behavior for example let me make a class complex or vector i am saying vector because many people understand it otherwise i get this complaint that people say we don't know this we don't know complex numbers, we are not mathematicians we all know vector what happens in vector let me say self dot i is equal to i self dot j is equal to j self dot k is equal to k i have done here and here obviously self i j and k i have to put here so by doing this a vector class will be made now i am here v is equal to vector let's say 3, 5 and 6 i can make now i have made a vector and if i print this vector here i will make an str method and this str method we have seen i will make underscore underscore str method i will write self and after writing self i will return an f string what will this f string do in this self dot i will be and after this i will get i and then plus will come here self dot j and after this plus will come here and after this i will write self dot k now you see here what i am trying to do don't get bored see what i am trying to do so if i print this 3 i cap, 5 j cap, 6 k cap i think i should not have kept space it will look better without space, so this is a vector so in vector 3 in our coordinates in that length can be 3, 5 and 6, x and y i had to write j here ok, j and k now i have made one more vector i will make one more vector if you don't know vector algebra no problem i will tell you v2 and v1 it happens that when we join two vectors we have to add their individual components but python doesn't know this python is not a human it is a snake, so what we will do here we will print v1 plus v2 ok, v1 plus v2 and if we run this we will get an error, what are you thinking python is so intelligent that it will join no it won't, it will give you an error it will say that add operation is not defined in these two vectors you say add mouse to keyboard what does it mean it is not defined if you define that adding keyboard to mouse means you have to stick both of them you have defined it but if you haven't then obviously you will get an error so how to avoid this error to avoid this error you have to define an add operation in this, ok if this add operation was already there ok, if add operation was already there then it would have been overloaded ok, but now i am defining add method, ok so you see here i have written def add now what i will do, i will say return something like this like i show you self and x i have returned i will do like this what i will return, i will say see it is like i will make space here add i in self.i sorry add x.i and add x.j in this and add x.k in this ok now if we run this so you see what will happen because i have defined the operation here i said that when we will add it with any other vector then what will happen their individual components will add up and it will look like this so see when both of them were added then what happened that here it printed this thing now see here there is a problem, do you know what is the problem this resulting vector will be a string because i have returned a string now see if i do here type of v1 plus v2 ok, this result will be a string but we want it to be a vector sum of two vectors should be a vector so we want this to do this what we have to do we will use vector constructor we will say see using vector constructor make a new vector make a new vector now i will show you how to do this what we are doing is we are giving values instead of i,j,k so i have to play backspace and replace it with comma and here ok we should be good now now i will run so there will be a small change in output that this is a vector here you can see the same thing but this is a vector so i can do further vector operations so sum of two vectors, one vector will come but string will not come now you are adding two vectors you don't want this now if any class inherits from this class then what will happen if we define add then it will overload so this is called operator overloading if i search on google operator overloading in python then you can see i will open docs.python in this you will see everything and there is official documentation search underscore underscore add, so see this is add, sub, mul, matmul so all these operators are written here, which case operator overrides, so you should explore this, like i want to subtract, so here i clicked, so it is telling me here that what will happen with underscore underscore sub that this one minus one will overload, for star there is mul, then for this matrix multiplication then slash, double forward slash, so see all these see all these and try that you can do something useful so i hope you got to know what is operator overloading, i have given example of point here, so you should see this and if you haven't accessed playlist yet then do it in this video so guys thank you so much for watching this video and i will see you next time"
+}

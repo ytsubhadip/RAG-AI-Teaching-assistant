@@ -1,0 +1,488 @@
+{
+    "chunks": [
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 0.0,
+            "end": 15.040000000000001,
+            "text": " Python has a concept of Lambda functions which is very useful to write anonymous functions.  Which is a function which has no name and is an expression.  What am I saying here?  When to use it? How to write a Lambda function?  Let's go to the computer screen and let's get started."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 15.040000000000001,
+            "end": 35.32,
+            "text": " \ud83c\udfb5  Lambda functions are single expressions.  For example, we have a plus b.  Suppose a has a value of 1 and b has a value of 2.  So a plus b is an expression whose value is 2 plus 1 is 3."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 35.32,
+            "end": 48.32,
+            "text": " Now here, Lambda functions are also like an expression.  Let me show you.  First of all, I will make a function here.  I say that there is a function whose name is sum.  So I say def sum."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 48.32,
+            "end": 64.88,
+            "text": " I make def sum in the name of a, b, c or double.  I have also used this example.  So that example is x into 2.  What will it do if I simply print 5?  You will say that don't teach all this."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 64.88,
+            "end": 76.52000000000001,
+            "text": " You will say that I know all this.  It will print 5 into 2 is 10.  And yes, you are right.  Sorry, I had to do double 5.  You will say that the value will go to the function."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 76.52000000000001,
+            "end": 85.60000000000001,
+            "text": " 5 into 2 is 10 will be printed.  What should we do now?  Listen to me.  See what will happen?  I can also write this double like this."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 85.60000000000001,
+            "end": 101.6,
+            "text": " I can say that double is equal to  I will say that double is equal to  Lambda, a Lambda function which takes x and returns x into 2.  You will say that are these two equal?  I will say yes, and you can see it with your own eyes."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 101.6,
+            "end": 106.96000000000001,
+            "text": " This is what a Lambda function is.  That's it.  Now stop here.  And what I said so far,  you have heard that too."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 106.96000000000001,
+            "end": 117.44,
+            "text": " So you know what a Lambda function is.  That it has made a function variable.  And it has used such a function.  That is, either I write  double x written x into 2 in two lines."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 117.44,
+            "end": 127.32,
+            "text": " By using so much indentation,  by doing so much circus.  Or I write in a straight line.  Double is equal to Lambda x colon x into 2.  Now you will say that what a fool you are."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 127.32,
+            "end": 134.68,
+            "text": " By writing in one line.  I can also write in two lines.  And this will be more readable.  Many people can argue that  this is more readable."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 134.68,
+            "end": 143.32,
+            "text": " But according to me,  if you have to make such mini functions.  15-20 in your program.  So this is the best approach.  Lambda functions."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 143.32,
+            "end": 149.32,
+            "text": " Okay.  So what does a Lambda function do?  To transform a value.  Little by little.  Like I made it 2x2."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 149.32,
+            "end": 157.92,
+            "text": " I made it square.  Or you can do something like this.  That you have to cube a number.  Like I can make a function.  Cube."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 157.92,
+            "end": 163.35999999999999,
+            "text": " Now in the way of def.  So you will also make it.  I know.  I am not judging you.  It's not a joke."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 163.35999999999999,
+            "end": 169.88,
+            "text": " You are made in 100 days of code.  You guys are everyday.  It's not like that.  Okay.  So x and return it."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 169.88,
+            "end": 181.28,
+            "text": " I don't need to write return.  I don't need to write def.  I don't need to take care of indentation.  If I print cube of 5 here.  Then I will get 125."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 181.28,
+            "end": 187.32,
+            "text": " Okay.  So you see here.  10 and 125.  Now this cube function.  You can also make def cube x return."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 187.32,
+            "end": 196.0,
+            "text": " x into x into x.  You have to give indentation.  You just have to write like this.  So this is the Lambda function.  Now this is the Lambda function."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 196.0,
+            "end": 204.08,
+            "text": " Now some of you will argue.  I have complex functions.  15-20 lines.  Should I write them like this?  Means is it that you have to write everything in Lambda function from today?"
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 204.08,
+            "end": 212.72,
+            "text": " No, it's not like that.  You keep writing as you do.  Keep writing as you write the function.  Learn this new way.  Because you will get this written."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 212.72,
+            "end": 217.28,
+            "text": " Everywhere.  So don't get confused.  That's it.  Okay.  This is the Lambda function."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 217.28,
+            "end": 222.04,
+            "text": " Now you will say.  This is very complicated.  I used to think it was so easy.  Yes.  That's right."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 222.04,
+            "end": 232.48000000000002,
+            "text": " It's as easy as I showed you.  So can it take multiple values?  If I say.  That I have to make a function of sum name.  Or suppose I have to make a function of average name."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 232.48000000000002,
+            "end": 242.32000000000002,
+            "text": " So can I do something like this?  That Lambda x comma y.  And it returns.  x plus y divided by 2.  Will this also happen?"
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 242.32000000000002,
+            "end": 249.04000000000002,
+            "text": " Yes, this will also happen.  I give good news.  This will also happen.  Okay.  So suppose I get the average of 3 and 5."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 249.04000000000002,
+            "end": 254.72,
+            "text": " It will give me 4.  As you can see.  4.0  Okay.  So this will also happen."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 254.72,
+            "end": 263.44,
+            "text": " There is no problem.  Will it take 3 values?  If I do xyz here.  Something like this.  And I say x plus y plus z."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 263.44,
+            "end": 273.52,
+            "text": " And after that I say divided by 3.  And after this I give 3, 5 and let us say 10.  What will happen?  What is this mistake?  I have 10."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 273.52,
+            "end": 279.08,
+            "text": " So I am saying that 10 is 5.  15.  15 is 3.  18.  18 divided by 3 is 6."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 279.08,
+            "end": 290.28000000000003,
+            "text": " So will it give me 6?  The answer is yes.  So yes, you can give a lot of values in this.  You can also do something like this.  If you have to give 5-6 values."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 290.28000000000003,
+            "end": 298.08000000000004,
+            "text": " If you have to write multiple lines.  You can also write that.  Okay.  You can also do this.  But the thing is."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 298.08000000000004,
+            "end": 305.32,
+            "text": " Would you like to do this?  When you have multiple lines.  Would you like to compress your logic?  The answer is no.  Okay."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 305.32,
+            "end": 312.8,
+            "text": " So when do you want to use lambda functions?  When you want to use one liner.  Okay.  When you want your work to be in one line.  And in fact."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 312.8,
+            "end": 324.08000000000004,
+            "text": " The real use of lambda functions.  Comes when we pass the function as an argument.  Don't get confused.  We pass the function as an argument.  Can we pass a function to a function?"
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 324.08000000000004,
+            "end": 330.6,
+            "text": " The answer is yes.  Okay.  Like suppose.  I take a function.  With the name apply."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 330.6,
+            "end": 337.8,
+            "text": " Or with the name appl.  Okay.  And I say.  Give it a function.  And it will return."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 337.8,
+            "end": 345.0,
+            "text": " 6 plus that function.  fx of.  Or x.  And I write the value here.  Okay."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 345.0,
+            "end": 351.0,
+            "text": " So what will it do?  Here is the value.  So if you.  If you say.  If you say."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 351.0,
+            "end": 358.52,
+            "text": " I want to print appl.  I want to give appl.  A function named cube.  And I want to give it 2.  So what will it do?"
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 358.52,
+            "end": 365.2,
+            "text": " Cube will go.  2 will go in this function.  Cube or 2.  6 plus.  Cube of 2."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 365.2,
+            "end": 370.92,
+            "text": " How much will it be?  8 plus 6.  How much will it be?  14 will be.  Will 14 be printed?"
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 370.92,
+            "end": 379.12,
+            "text": " The answer is yes.  So function can also be passed as a function.  In this case.  I can make a function by def.  I can get a function directly like this."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 379.12,
+            "end": 385.72,
+            "text": " That man.  You take this function.  Where did I make a function by def.  Then I would have passed it.  Here I have passed it in one line."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 385.72,
+            "end": 391.08000000000004,
+            "text": " By writing.  Now see.  Don't be confused.  Because what I told you.  Function is going to pass function."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 391.08000000000004,
+            "end": 396.8,
+            "text": " Digest it easily.  Say to yourself.  Okay.  This can also be done.  Do it."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 396.8,
+            "end": 402.36,
+            "text": " Write a program.  It's not like you are watching the video.  Quietly like Netflix.  No.  See here."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 402.36,
+            "end": 405.76,
+            "text": " Do.  Stop.  Take notes.  See.  Okay."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 405.76,
+            "end": 410.4,
+            "text": " Read this.  What I have written for you.  With so much effort.  Now see.  In Python."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 410.4,
+            "end": 415.44,
+            "text": " Lambda function is small anonymous function.  Without a name.  Its name is not.  It is defined using the lambda key.  But what we have seen."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 415.44,
+            "end": 424.04,
+            "text": " This is its syntax.  Lambda functions are often used.  In a situation where small function is required.  For a short period of time.  They are commonly used."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 424.04,
+            "end": 431.56,
+            "text": " As arguments to higher order functions.  I said.  Sometimes we have to pass function.  Then we use.  Map filter is coming in the next video."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 431.56,
+            "end": 438.76,
+            "text": " So see in that.  We will talk about it next day.  But the example I have given.  I have written it here.  The above lambda function has the same functionality."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 438.76,
+            "end": 443.52,
+            "text": " As double function.  But.  It has no name.  Lambda function.  Like here."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 443.52,
+            "end": 449.68,
+            "text": " We gave its name with the name appl.  It has no name.  Until and unless.  We write double is equal to.  Like in this function."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 449.68,
+            "end": 455.36,
+            "text": " If I pass cube directly.  So this is cube.  This function.  But it has no name.  We have not used the word cube."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 455.36,
+            "end": 462.92,
+            "text": " While passing it.  Here I have made a function named cube.  If I had not made it.  I would have written it directly.  Lambda x colon x into x into x."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 462.92,
+            "end": 471.52000000000004,
+            "text": " Then my work would have been done.  I do not need to make a function with the name cube.  So a nameless function.  An anonymous function.  Okay, leave the cube."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 471.52000000000004,
+            "end": 478.24,
+            "text": " I make a function square.  Have I made a square somewhere?  I have not made a square.  But I have here.  The function named square."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 478.24,
+            "end": 483.72,
+            "text": " In fact.  The function that works with square.  I have passed it.  I have not made a function with the name square.  You see."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 483.72,
+            "end": 488.71999999999997,
+            "text": " Have I made it somewhere?  I have not made it.  But I.  Here I have got x square plus 6.  Which is 4 plus 6."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 488.71999999999997,
+            "end": 495.12,
+            "text": " That is 10.  So I have passed a function.  That function.  I have not made it with any name.  But I have passed that function too."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 495.12,
+            "end": 500.91999999999996,
+            "text": " So an anonymous function.  Who is anonymous?  Anonymous is the one.  Whose name is not known.  If I wear this mask."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 500.91999999999996,
+            "end": 506.52,
+            "text": " Then I am anonymous.  And you will know my name.  But if anyone comes.  By wearing a mask.  Then how will his name be known."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 506.52,
+            "end": 512.72,
+            "text": " Until you see his face.  It is a simple thing.  Okay.  Now you see here.  That lambda functions."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 512.72,
+            "end": 520.32,
+            "text": " Can also include multiple statements.  I told you this here.  And they are like regular functions.  I have just put the differences in front of you.  Okay."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 520.32,
+            "end": 529.32,
+            "text": " So you guys see here.  Digest it a little.  Okay.  And we are going to see map filter and reduce in the next video.  If you have not accessed the playlist yet."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 529.32,
+            "end": 536.5200000000001,
+            "text": " Then do access this playlist.  And do put a review in the first video.  That's all for this video guys.  Thank you so much guys.  For watching this video."
+        },
+        {
+            "number": "052 ",
+            "title": "Lambda functions in Python",
+            "start": 536.5200000000001,
+            "end": 545.32,
+            "text": " And I will see you next time.  Thank you."
+        }
+    ],
+    "text": " Python has a concept of Lambda functions which is very useful to write anonymous functions. Which is a function which has no name and is an expression. What am I saying here? When to use it? How to write a Lambda function? Let's go to the computer screen and let's get started. \ud83c\udfb5 Lambda functions are single expressions. For example, we have a plus b. Suppose a has a value of 1 and b has a value of 2. So a plus b is an expression whose value is 2 plus 1 is 3. Now here, Lambda functions are also like an expression. Let me show you. First of all, I will make a function here. I say that there is a function whose name is sum. So I say def sum. I make def sum in the name of a, b, c or double. I have also used this example. So that example is x into 2. What will it do if I simply print 5? You will say that don't teach all this. You will say that I know all this. It will print 5 into 2 is 10. And yes, you are right. Sorry, I had to do double 5. You will say that the value will go to the function. 5 into 2 is 10 will be printed. What should we do now? Listen to me. See what will happen? I can also write this double like this. I can say that double is equal to I will say that double is equal to Lambda, a Lambda function which takes x and returns x into 2. You will say that are these two equal? I will say yes, and you can see it with your own eyes. This is what a Lambda function is. That's it. Now stop here. And what I said so far, you have heard that too. So you know what a Lambda function is. That it has made a function variable. And it has used such a function. That is, either I write double x written x into 2 in two lines. By using so much indentation, by doing so much circus. Or I write in a straight line. Double is equal to Lambda x colon x into 2. Now you will say that what a fool you are. By writing in one line. I can also write in two lines. And this will be more readable. Many people can argue that this is more readable. But according to me, if you have to make such mini functions. 15-20 in your program. So this is the best approach. Lambda functions. Okay. So what does a Lambda function do? To transform a value. Little by little. Like I made it 2x2. I made it square. Or you can do something like this. That you have to cube a number. Like I can make a function. Cube. Now in the way of def. So you will also make it. I know. I am not judging you. It's not a joke. You are made in 100 days of code. You guys are everyday. It's not like that. Okay. So x and return it. I don't need to write return. I don't need to write def. I don't need to take care of indentation. If I print cube of 5 here. Then I will get 125. Okay. So you see here. 10 and 125. Now this cube function. You can also make def cube x return. x into x into x. You have to give indentation. You just have to write like this. So this is the Lambda function. Now this is the Lambda function. Now some of you will argue. I have complex functions. 15-20 lines. Should I write them like this? Means is it that you have to write everything in Lambda function from today? No, it's not like that. You keep writing as you do. Keep writing as you write the function. Learn this new way. Because you will get this written. Everywhere. So don't get confused. That's it. Okay. This is the Lambda function. Now you will say. This is very complicated. I used to think it was so easy. Yes. That's right. It's as easy as I showed you. So can it take multiple values? If I say. That I have to make a function of sum name. Or suppose I have to make a function of average name. So can I do something like this? That Lambda x comma y. And it returns. x plus y divided by 2. Will this also happen? Yes, this will also happen. I give good news. This will also happen. Okay. So suppose I get the average of 3 and 5. It will give me 4. As you can see. 4.0 Okay. So this will also happen. There is no problem. Will it take 3 values? If I do xyz here. Something like this. And I say x plus y plus z. And after that I say divided by 3. And after this I give 3, 5 and let us say 10. What will happen? What is this mistake? I have 10. So I am saying that 10 is 5. 15. 15 is 3. 18. 18 divided by 3 is 6. So will it give me 6? The answer is yes. So yes, you can give a lot of values in this. You can also do something like this. If you have to give 5-6 values. If you have to write multiple lines. You can also write that. Okay. You can also do this. But the thing is. Would you like to do this? When you have multiple lines. Would you like to compress your logic? The answer is no. Okay. So when do you want to use lambda functions? When you want to use one liner. Okay. When you want your work to be in one line. And in fact. The real use of lambda functions. Comes when we pass the function as an argument. Don't get confused. We pass the function as an argument. Can we pass a function to a function? The answer is yes. Okay. Like suppose. I take a function. With the name apply. Or with the name appl. Okay. And I say. Give it a function. And it will return. 6 plus that function. fx of. Or x. And I write the value here. Okay. So what will it do? Here is the value. So if you. If you say. If you say. I want to print appl. I want to give appl. A function named cube. And I want to give it 2. So what will it do? Cube will go. 2 will go in this function. Cube or 2. 6 plus. Cube of 2. How much will it be? 8 plus 6. How much will it be? 14 will be. Will 14 be printed? The answer is yes. So function can also be passed as a function. In this case. I can make a function by def. I can get a function directly like this. That man. You take this function. Where did I make a function by def. Then I would have passed it. Here I have passed it in one line. By writing. Now see. Don't be confused. Because what I told you. Function is going to pass function. Digest it easily. Say to yourself. Okay. This can also be done. Do it. Write a program. It's not like you are watching the video. Quietly like Netflix. No. See here. Do. Stop. Take notes. See. Okay. Read this. What I have written for you. With so much effort. Now see. In Python. Lambda function is small anonymous function. Without a name. Its name is not. It is defined using the lambda key. But what we have seen. This is its syntax. Lambda functions are often used. In a situation where small function is required. For a short period of time. They are commonly used. As arguments to higher order functions. I said. Sometimes we have to pass function. Then we use. Map filter is coming in the next video. So see in that. We will talk about it next day. But the example I have given. I have written it here. The above lambda function has the same functionality. As double function. But. It has no name. Lambda function. Like here. We gave its name with the name appl. It has no name. Until and unless. We write double is equal to. Like in this function. If I pass cube directly. So this is cube. This function. But it has no name. We have not used the word cube. While passing it. Here I have made a function named cube. If I had not made it. I would have written it directly. Lambda x colon x into x into x. Then my work would have been done. I do not need to make a function with the name cube. So a nameless function. An anonymous function. Okay, leave the cube. I make a function square. Have I made a square somewhere? I have not made a square. But I have here. The function named square. In fact. The function that works with square. I have passed it. I have not made a function with the name square. You see. Have I made it somewhere? I have not made it. But I. Here I have got x square plus 6. Which is 4 plus 6. That is 10. So I have passed a function. That function. I have not made it with any name. But I have passed that function too. So an anonymous function. Who is anonymous? Anonymous is the one. Whose name is not known. If I wear this mask. Then I am anonymous. And you will know my name. But if anyone comes. By wearing a mask. Then how will his name be known. Until you see his face. It is a simple thing. Okay. Now you see here. That lambda functions. Can also include multiple statements. I told you this here. And they are like regular functions. I have just put the differences in front of you. Okay. So you guys see here. Digest it a little. Okay. And we are going to see map filter and reduce in the next video. If you have not accessed the playlist yet. Then do access this playlist. And do put a review in the first video. That's all for this video guys. Thank you so much guys. For watching this video. And I will see you next time. Thank you."
+}

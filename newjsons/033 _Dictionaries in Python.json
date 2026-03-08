@@ -1,0 +1,383 @@
+{
+    "chunks": [
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 0.0,
+            "end": 17.92,
+            "text": " In our homes, there are dictionaries where we see the meanings of words.  In today's video, we will talk about the dictionary of Python.  The dictionary in Python is also very similar.  You can see the corresponding values of the key.  Like in our normal Oxford dictionary, the key is the word we want to see the meaning of."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 17.92,
+            "end": 32.8,
+            "text": " And the value is the actual meaning.  We can make this kind of dictionary personal in Python programming.  And it will be a lot of fun when we see its methods.  And we will see where and how it can be used.  Basically, the access to this is very fast."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 32.8,
+            "end": 46.239999999999995,
+            "text": " Because the dictionary has its own index.  So if you have a lot of elements in your dictionary.  And you want to see the corresponding value of a key.  Then you don't have to scan the whole dictionary one by one.  You can directly reach its index and find out the value."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 46.239999999999995,
+            "end": 65.28,
+            "text": " Let's go to the computer screen and see how all these things are done.  What are the methods of the dictionary?  Let's get started.  So, like we have a dictionary at home, Oxford dictionary.  In which we see the word meanings."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 65.28,
+            "end": 80.48,
+            "text": " The same kind of dictionary is also available in Python.  This is one of the 100 things.  And if I show you a very simple dictionary.  And let's say.  Let's say I write like this."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 80.48,
+            "end": 96.48,
+            "text": " And let's say I write spoon.  And I write here object.  And let's say I put this kind of mapping.  And finally I print dict.  And then something like this Harry."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 96.48,
+            "end": 107.6,
+            "text": " So I can access the human being.  So the combination of key value pairs.  This is one of the 100 things.  Now here it is saying that type object is not a subscriptable.  What is this?"
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 107.6,
+            "end": 119.28,
+            "text": " So I made this with the name DIC.  I didn't make it with the name DICT.  So you can see here that the human being has been printed.  So dictionary is a very simple thing.  Combination of key value pairs."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 119.28,
+            "end": 135.44,
+            "text": " You can use this to store the marks of a particular class of children.  You can use this.  Let's say roll number wise.  To store the grade of a person.  You can map employee ID with employee name."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 135.44,
+            "end": 156.88,
+            "text": " Basically you can make a mapping.  Like if I want to use an integer.  Let's say 344 is employee ID of Harry.  Let's say 56 is employee ID of Shubham.  And 678 is employee ID of Zakir."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 156.88,
+            "end": 167.76,
+            "text": " And let's say 567 is employee ID of Neha.  So if I write 567 here.  Will I get Neha?  Will I get or not?  Of course I will get."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 167.76,
+            "end": 178.8,
+            "text": " Why not?  So I will get Neha only because it is Neha corresponding to 567.  So this is how we can work with dictionaries.  Now you see.  Dictionaries are ordered collection of data items."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 178.8,
+            "end": 194.4,
+            "text": " They store multiple items in a single variable.  Dictionary items are key value pairs that are separated by commas.  And enclosed within curly brackets.  Now what happens is that from Python 3.7 onwards.  Dictionaries are ordered."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 194.4,
+            "end": 204.4,
+            "text": " Earlier dictionaries were not ordered.  So you have to keep this in mind.  According to the version of Python you are using.  Your dictionary can be ordered or unordered.  Now what is the meaning of ordered or unordered?"
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 204.4,
+            "end": 214.4,
+            "text": " It means that if I print the keys of this.  Then I will get it in the same order again and again.  Now how to print the keys?  I will tell you that.  Now what is the key? 344 is the key."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 214.4,
+            "end": 224.4,
+            "text": " Harry is the value.  567 is the key. Neha is the value.  I will put the name of the dictionary here.  And then I will put the key here.  Then I will get the value."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 224.4,
+            "end": 234.4,
+            "text": " Which is Neha.  Now you can do the same thing.  As shown in the example.  That in the info.  Name is currently eligible."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 234.4,
+            "end": 244.4,
+            "text": " Then you will get this dictionary.  But if you want to print a particular value.  Then you can do something like this.  You can say that.  I want the corresponding value of the name in the info."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 244.4,
+            "end": 254.4,
+            "text": " So that is Karan.  And in the info.  You are eligible.  What is the value corresponding to it.  You can also see that."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 254.4,
+            "end": 264.4,
+            "text": " There are two ways to access it.  Either you can do it by naming the info.  Or you can do it by naming the info.get.  I do one thing. I name it again.  So that you understand."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 264.4,
+            "end": 274.4,
+            "text": " This and this.  In a way, it is exactly the same thing.  But there is a difference which I will tell you.  If I name it too.  And I run it."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 274.4,
+            "end": 284.4,
+            "text": " So you see that this line.  It is giving me an error here.  That name2 is giving the key error.  Name2 is not in your info.  But if I get the dot."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 284.4,
+            "end": 294.4,
+            "text": " Then I will get none.  You see here none will be printed.  So if you want your program to throw an error.  If the key does not exist.  Then what will you do?"
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 294.4,
+            "end": 304.4,
+            "text": " Here you will use this kind of syntax.  It will throw an error.  If the key does not exist.  And it will print none.  If the key does not exist."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 304.4,
+            "end": 314.4,
+            "text": " So depending on the use case.  You can do this thing.  But if the name exists.  So I hope you understood this thing.  Now how to access multiple values."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 314.4,
+            "end": 324.4,
+            "text": " If you want.  To access all values together.  Or access all keys together.  So you can do.  You can say that give me all the keys."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 324.4,
+            "end": 334.4,
+            "text": " And you will get all the keys.  You will get the name, age, eligible.  So these are all the keys.  Which you can access.  Now you can do one more thing."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 334.4,
+            "end": 344.4,
+            "text": " You can say for key in info.keys.  And by doing this.  You can iterate all the keys.  And you can do.  Info and something like this."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 344.4,
+            "end": 354.4,
+            "text": " Key.  So you will get all the values.  What is the name corresponding.  What is the age corresponding.  So you got the current1962."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 354.4,
+            "end": 364.4,
+            "text": " So I hope you understood this thing.  Now it is ordered.  So you will see it in the same order.  So by doing dot keys.  You get all the keys."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 364.4,
+            "end": 374.4,
+            "text": " And by doing dot values.  You will get all the values.  So if I do print info dot values.  So you will get all the values.  Because current1962 is true."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 374.4,
+            "end": 384.4,
+            "text": " Current1962 is values.  So if you want to take values.  In the same order.  You can take it like this.  And you can take the keys by iterating."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 384.4,
+            "end": 394.4,
+            "text": " I will use this method.  If I.  I will use f string.  And I will put it in a bracket.  In curly bracket."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 394.4,
+            "end": 404.4,
+            "text": " I will write.  The value corresponding to the key.  Key is.  And I will write this.  So what will be my output."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 404.4,
+            "end": 414.4,
+            "text": " Value corresponding to the key.  Name is Karan.  Age is 19.  The value corresponding to the key.  Eligible is true."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 414.4,
+            "end": 424.4,
+            "text": " So I am iterating all the keys.  And printing their values.  By using this syntax.  So this is the syntax of the dictionary.  So if you are interested."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 424.4,
+            "end": 434.4,
+            "text": " You will get this value.  Which is corresponding to the dictionary.  So as it is written here.  We can access the keys.  By using the syntax."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 434.4,
+            "end": 444.4,
+            "text": " And we can access the key value pairs.  By using the item syntax.  I will tell you that too.  So I comment everything till here.  In fact, I delete everything."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 444.4,
+            "end": 454.4,
+            "text": " Because everything is written here.  Let it be.  There is no point in deleting.  So it gives me the key value pairs.  So you see."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 454.4,
+            "end": 464.4,
+            "text": " The items of this will give me the key value pairs.  You can see the name Karan age 19.  So in this I can iterate.  I can write.  For key value in info dot items."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 464.4,
+            "end": 474.4,
+            "text": " So this tuple will be unpacked.  So I will get the key.  And in the value.  So if I again.  I will copy it from here."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 474.4,
+            "end": 484.4,
+            "text": " Why should I do so much hard work again and again.  So if I do something like this.  The value corresponding to the key.  Key is info.  In fact, I value it."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 484.4,
+            "end": 494.4,
+            "text": " This will also work.  Obviously because the value of the dictionary.  But this will also work.  Because your key came inside the key.  Value came inside the value."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 494.4,
+            "end": 504.4,
+            "text": " So if you print your items like this.  Then you will see it like this.  What is the use of the dictionary?  To create a mapping.  All the marks of the class."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 504.4,
+            "end": 514.4,
+            "text": " Employee code of all the employees of a company.  Their performance metric.  How much can their performance be read out of 100.  Or.  Every."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 514.4,
+            "end": 524.4,
+            "text": " MRP of the item.  In any retail shop.  Like you own a grocery store.  You can make a dictionary.  Item code is this and its price is this."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 524.4,
+            "end": 534.4,
+            "text": " Whenever you have to know the price of any item.  You can access that dictionary.  So this thing.  When you store things in the database.  It is very helpful."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 534.4,
+            "end": 544.4,
+            "text": " So this is our dictionary.  I hope you understood.  And tell me in the comment below.  How is the course going on?  If you have seen the course till the 33rd day."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 544.4,
+            "end": 554.4,
+            "text": " Then you have seen 30% of the course.  So I want you to go to the first video.  And you tell your experience.  I am on day 33.  I am feeling like this."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 554.4,
+            "end": 564.4,
+            "text": " I want all of you to comment.  Go here on day 1.  And put a comment by reviewing.  Review colon.  Whatever you think about this course."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 564.4,
+            "end": 574.4,
+            "text": " As you feel.  If you have any feedback for me.  Now put it.  Because if anyone will come to see this course.  Then I want him to know from the heart."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 574.4,
+            "end": 584.4,
+            "text": " What value is this course doing in their life.  And what is it?  What are the things?  It will feel good from the heart.  If you do this."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 584.4,
+            "end": 594.4,
+            "text": " Go to the first video and put a comment.  Review colon.  How many stars do you give to this course?  Please tell me in the comment.  But not of this video."
+        },
+        {
+            "number": "033 ",
+            "title": "Dictionaries in Python",
+            "start": 594.4,
+            "end": 600.4,
+            "text": " That's all for now.  Thank you so much for watching this video.  And I will see you next time."
+        }
+    ],
+    "text": " In our homes, there are dictionaries where we see the meanings of words. In today's video, we will talk about the dictionary of Python. The dictionary in Python is also very similar. You can see the corresponding values of the key. Like in our normal Oxford dictionary, the key is the word we want to see the meaning of. And the value is the actual meaning. We can make this kind of dictionary personal in Python programming. And it will be a lot of fun when we see its methods. And we will see where and how it can be used. Basically, the access to this is very fast. Because the dictionary has its own index. So if you have a lot of elements in your dictionary. And you want to see the corresponding value of a key. Then you don't have to scan the whole dictionary one by one. You can directly reach its index and find out the value. Let's go to the computer screen and see how all these things are done. What are the methods of the dictionary? Let's get started. So, like we have a dictionary at home, Oxford dictionary. In which we see the word meanings. The same kind of dictionary is also available in Python. This is one of the 100 things. And if I show you a very simple dictionary. And let's say. Let's say I write like this. And let's say I write spoon. And I write here object. And let's say I put this kind of mapping. And finally I print dict. And then something like this Harry. So I can access the human being. So the combination of key value pairs. This is one of the 100 things. Now here it is saying that type object is not a subscriptable. What is this? So I made this with the name DIC. I didn't make it with the name DICT. So you can see here that the human being has been printed. So dictionary is a very simple thing. Combination of key value pairs. You can use this to store the marks of a particular class of children. You can use this. Let's say roll number wise. To store the grade of a person. You can map employee ID with employee name. Basically you can make a mapping. Like if I want to use an integer. Let's say 344 is employee ID of Harry. Let's say 56 is employee ID of Shubham. And 678 is employee ID of Zakir. And let's say 567 is employee ID of Neha. So if I write 567 here. Will I get Neha? Will I get or not? Of course I will get. Why not? So I will get Neha only because it is Neha corresponding to 567. So this is how we can work with dictionaries. Now you see. Dictionaries are ordered collection of data items. They store multiple items in a single variable. Dictionary items are key value pairs that are separated by commas. And enclosed within curly brackets. Now what happens is that from Python 3.7 onwards. Dictionaries are ordered. Earlier dictionaries were not ordered. So you have to keep this in mind. According to the version of Python you are using. Your dictionary can be ordered or unordered. Now what is the meaning of ordered or unordered? It means that if I print the keys of this. Then I will get it in the same order again and again. Now how to print the keys? I will tell you that. Now what is the key? 344 is the key. Harry is the value. 567 is the key. Neha is the value. I will put the name of the dictionary here. And then I will put the key here. Then I will get the value. Which is Neha. Now you can do the same thing. As shown in the example. That in the info. Name is currently eligible. Then you will get this dictionary. But if you want to print a particular value. Then you can do something like this. You can say that. I want the corresponding value of the name in the info. So that is Karan. And in the info. You are eligible. What is the value corresponding to it. You can also see that. There are two ways to access it. Either you can do it by naming the info. Or you can do it by naming the info.get. I do one thing. I name it again. So that you understand. This and this. In a way, it is exactly the same thing. But there is a difference which I will tell you. If I name it too. And I run it. So you see that this line. It is giving me an error here. That name2 is giving the key error. Name2 is not in your info. But if I get the dot. Then I will get none. You see here none will be printed. So if you want your program to throw an error. If the key does not exist. Then what will you do? Here you will use this kind of syntax. It will throw an error. If the key does not exist. And it will print none. If the key does not exist. So depending on the use case. You can do this thing. But if the name exists. So I hope you understood this thing. Now how to access multiple values. If you want. To access all values together. Or access all keys together. So you can do. You can say that give me all the keys. And you will get all the keys. You will get the name, age, eligible. So these are all the keys. Which you can access. Now you can do one more thing. You can say for key in info.keys. And by doing this. You can iterate all the keys. And you can do. Info and something like this. Key. So you will get all the values. What is the name corresponding. What is the age corresponding. So you got the current1962. So I hope you understood this thing. Now it is ordered. So you will see it in the same order. So by doing dot keys. You get all the keys. And by doing dot values. You will get all the values. So if I do print info dot values. So you will get all the values. Because current1962 is true. Current1962 is values. So if you want to take values. In the same order. You can take it like this. And you can take the keys by iterating. I will use this method. If I. I will use f string. And I will put it in a bracket. In curly bracket. I will write. The value corresponding to the key. Key is. And I will write this. So what will be my output. Value corresponding to the key. Name is Karan. Age is 19. The value corresponding to the key. Eligible is true. So I am iterating all the keys. And printing their values. By using this syntax. So this is the syntax of the dictionary. So if you are interested. You will get this value. Which is corresponding to the dictionary. So as it is written here. We can access the keys. By using the syntax. And we can access the key value pairs. By using the item syntax. I will tell you that too. So I comment everything till here. In fact, I delete everything. Because everything is written here. Let it be. There is no point in deleting. So it gives me the key value pairs. So you see. The items of this will give me the key value pairs. You can see the name Karan age 19. So in this I can iterate. I can write. For key value in info dot items. So this tuple will be unpacked. So I will get the key. And in the value. So if I again. I will copy it from here. Why should I do so much hard work again and again. So if I do something like this. The value corresponding to the key. Key is info. In fact, I value it. This will also work. Obviously because the value of the dictionary. But this will also work. Because your key came inside the key. Value came inside the value. So if you print your items like this. Then you will see it like this. What is the use of the dictionary? To create a mapping. All the marks of the class. Employee code of all the employees of a company. Their performance metric. How much can their performance be read out of 100. Or. Every. MRP of the item. In any retail shop. Like you own a grocery store. You can make a dictionary. Item code is this and its price is this. Whenever you have to know the price of any item. You can access that dictionary. So this thing. When you store things in the database. It is very helpful. So this is our dictionary. I hope you understood. And tell me in the comment below. How is the course going on? If you have seen the course till the 33rd day. Then you have seen 30% of the course. So I want you to go to the first video. And you tell your experience. I am on day 33. I am feeling like this. I want all of you to comment. Go here on day 1. And put a comment by reviewing. Review colon. Whatever you think about this course. As you feel. If you have any feedback for me. Now put it. Because if anyone will come to see this course. Then I want him to know from the heart. What value is this course doing in their life. And what is it? What are the things? It will feel good from the heart. If you do this. Go to the first video and put a comment. Review colon. How many stars do you give to this course? Please tell me in the comment. But not of this video. That's all for now. Thank you so much for watching this video. And I will see you next time."
+}

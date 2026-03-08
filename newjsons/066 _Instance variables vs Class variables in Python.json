@@ -1,0 +1,551 @@
+{
+    "chunks": [
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 0.0,
+            "end": 24.32,
+            "text": " Guys, in today's video, I will tell you the difference between instance variables and class variables.  We use instance variables when we have to associate any property with a particular object.  And we use class variables when we have to make a variable for the entire class, which all the instances will share.  Now I will tell you what I have said in this video.  Let's go to the computer screen and let's get started."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 30.0,
+            "end": 51.760000000000005,
+            "text": " So guys, now we are going to talk about the difference between instance and class variables.  But before that, I would like to tell you why we use object-oriented programming.  So basically what does it do?  First of all, we have already talked about the classes that are in real-world entities.  They map things to us."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 51.760000000000005,
+            "end": 73.68,
+            "text": " Along with that, we can make a group logically.  We can make a group of functions, variables, and a logical group in which things are related.  For example, if there is an employee, then all the methods related to the employee are in the employee class.  After that, all the variables related to the employee are in the employee class.  So in this way, we can make a class called employee."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 73.68,
+            "end": 92.0,
+            "text": " So we have already seen this thing.  We had seen about a constructor.  We had seen that the constructor takes the self.  And if I do self.name is equal to name, then whatever incoming name is coming here, it will be set.  The instance of this class."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 92.0,
+            "end": 112.8,
+            "text": " We had also seen that if we make a method called showDetails.  And I write something like this.  I write print the name of the employee is.  And there can be many more details in this.  Self.name"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 112.8,
+            "end": 131.28,
+            "text": " It is not necessary that you only take the name here.  You can take many more things here that are associated with an employee.  Now let's say I make emp1 is equal to employee.  And after that I write Harry.  Now we had seen one thing that if I do something like this."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 131.28,
+            "end": 145.6,
+            "text": " Let's say I make this employee and do showDetails.  So if I do showDetails like this and run it.  So you see here after doing emp1.showDetails.  The name of the employee is Harry is written here.  We had seen this thing."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 145.6,
+            "end": 156.32,
+            "text": " So let me tell you one more thing.  First of all, either I write this.  Or I write this.  Name of the class.  ShowDetails and pass emp1 in it."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 156.32,
+            "end": 166.32,
+            "text": " It is equal.  Now you will say how is it equal?  What happens is when you write this.  emp1.showDetails.  So it is converted in this."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 166.32,
+            "end": 177.28,
+            "text": " You both have written the same thing here.  Now if I tell you to remove its self from here.  And tell me the error.  If I do not tell you this thing.  You do not know this thing."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 177.28,
+            "end": 187.28,
+            "text": " And after this, you run it and see.  And here you get the error.  ShowDetails takes zero position argument.  But one was given.  I have not given any argument to showDetails."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 187.28,
+            "end": 197.28,
+            "text": " There are zero position arguments.  So why is this error coming?  But if I show you this.  Then you will understand clearly.  That one argument is going."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 197.28,
+            "end": 207.28,
+            "text": " So if you are writing emp1.showDetails.  Then also one argument is going.  of emp1.  This will make things easy for you to understand.  See I wrote self here."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 207.28,
+            "end": 217.28,
+            "text": " If I run it, then you see emp1.showDetails.  The name of the employee is Harry.  It is written here.  So you should know this thing.  So by running emp1.showDetails."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 217.28,
+            "end": 227.28,
+            "text": " You will see the name of the employee is Harry.  Now if I remove emp1.  Or remove self, the error is going to come.  We have understood this thing.  Ok. Alright."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 227.28,
+            "end": 237.28,
+            "text": " Now let's talk about instance and class variables.  Ok.  Now see here I have made self.name.  Assume that I  myself here."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 237.28,
+            "end": 247.28,
+            "text": " Raise is equal to  0.02  Assume that this is the raise.  Which is going to be given to the employee in the future.  Ok. I have made self.raise is equal to 0.02."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 247.28,
+            "end": 257.28,
+            "text": " Now I call it raise amount.  Ok. I have made self.raise amount  is equal to 0.02.  So what will happen is that here  an instance variable will be made by the name of raise amount."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 257.28,
+            "end": 267.28,
+            "text": " Now you understand this thing.  What is instance variable?  Instance variable is those variables which are associated with instance.  Not associated with class.  Now you will understand what is the meaning of this."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 267.28,
+            "end": 277.28,
+            "text": " I have made self.raise amount is equal to 0.02.  Ok. Now if I  make another employee. I will comment out this syntax.  And we will stick on this syntax.  Because it is easy."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 277.28,
+            "end": 287.28,
+            "text": " And I will bring it down.  Now you see here that  employee Harry and emp1.show details I have made.  Now assume that  I am going to do the same thing."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 287.28,
+            "end": 297.28,
+            "text": " Employee Rohan and emp.  And I will make it emp2.  Dot show details.  Now you see that  I am writing here"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 297.28,
+            "end": 307.28,
+            "text": " that the name of the employee is self.name  and  the raise amount is  and I will write here  self.raise amount"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 307.28,
+            "end": 317.28,
+            "text": " Ok. And I will write here  self.raise amount  self.raise amount. Ok. And I will close  this bracket. So when I will do show details  then raise amount will come to both of them which is 0.02."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 317.28,
+            "end": 327.28,
+            "text": " Ok. Now you see the name of  employee is Harry and the  raise amount is 0.02. And Rohan  and the raise amount is 0.02.  Now assume that I want to"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 327.28,
+            "end": 337.28,
+            "text": " increase the raise amount of Harry.  So can I increase it directly like this? The answer is yes.  If I say here  emp.raise amount  is equal to 0."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 337.28,
+            "end": 347.28,
+            "text": " Let us say I want to do 3.  So can it be done?  Yes. Will I get it by reflecting on show details?  Yes.  I will show you here. 0.3 is seen here."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 347.28,
+            "end": 357.28,
+            "text": " Ok. So in this way I will directly  change these instance variables  because they are associated with instance.  Ok.  But it will make sense for me that"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 357.28,
+            "end": 367.28,
+            "text": " I will not give different raise to every employee  and make a variable in the whole class  which is associated with class.  Like the raise amount here is  associated with instance."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 367.28,
+            "end": 377.28,
+            "text": " The name is associated with instance.  If I write here emp1 is equal to employee  Harry. So an employee is Harry.  So emp1.raise amount  is the raise amount of this Harry."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 377.28,
+            "end": 387.28,
+            "text": " If I write  emp1.name  then the name of this employee  is Harry.  So all these things are associated with emp1."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 387.28,
+            "end": 397.28,
+            "text": " But I want  to generate some things  like company name.  Now instead of making different company names  for every instance,"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 397.28,
+            "end": 407.28,
+            "text": " I will make a company name for the whole class.  Let us say I write here company name  and I write here  company name is equal to  let us say apple."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 407.28,
+            "end": 417.28,
+            "text": " Let us say I write here apple.  Company name is equal to apple.  So what happens is that company name  is associated with this class.  Now if I write here emp1.company name"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 417.28,
+            "end": 427.28,
+            "text": " I write here  and the raise amount is this.  And the raise amount  in self.company name  is. Now see what happens"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 427.28,
+            "end": 437.28,
+            "text": " if I run this. Here  the company name will be apple.  So by default all the instances  are associated with this class.  So this is a class variable."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 437.28,
+            "end": 447.28,
+            "text": " The company name is associated with the class.  And the emp1.raise amount  and name are  associated with the instance.  This is the property of instance."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 447.28,
+            "end": 457.28,
+            "text": " So the employee Harry will be different for him.  Rohan will be different for him.  Shivani will be different for him.  Shubham will be different for him.  Daksh will be different for him."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 457.28,
+            "end": 467.28,
+            "text": " All the employees we will make  will be different for them.  And what is that?  That is class variable.  So we made one variable which is the property of class."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 467.28,
+            "end": 477.28,
+            "text": " It is not the property of instance.  Now see here the game starts.  And listen carefully.  Because people get stuck here which I am going to tell you.  Now if I say"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 477.28,
+            "end": 487.28,
+            "text": " that company name is equal to apple.  But I want to change the company name.  Suppose I say emp1.company name  is equal to  and I want to do"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 487.28,
+            "end": 497.28,
+            "text": " apple India. Suppose Harry  works in apple India.  Now the company name is apple only.  But apple is working in India.  Harry and Rohan are working in"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 497.28,
+            "end": 507.28,
+            "text": " apple US.  So I want to say that  emp1 is equal to apple India.  Will emp1  company name"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 507.28,
+            "end": 517.28,
+            "text": " add a new instance variable or  this class variable will change.  Let's see what happens.  Now see here  an interesting thing happened."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 517.28,
+            "end": 527.28,
+            "text": " For that I wrote apple India.  But for Rohan I wrote apple.  Why did this happen?  You can say that if by doing this  if by doing this"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 527.28,
+            "end": 537.28,
+            "text": " this variable was changing.  Company name was changing.  Then why did apple come for Rohan again?  So I will tell you  what happens."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 537.28,
+            "end": 547.28,
+            "text": " If there is an instance variable  which was there in Rohan's case.  What is the instance variable?  Instance variable is  company name."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 547.28,
+            "end": 557.28,
+            "text": " Then that company name will be shown.  That was in Harry's case. Sorry, it was not in Rohan's case.  If there is an instance variable, then it will be shown.  If there is a company name associated with emp1  then first of all"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 557.28,
+            "end": 567.28,
+            "text": " we will see in the instance that is there  instance variable.  In this case it was there because we did  emp1.company name is equal to apple India.  Because the instance variable was there"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 567.28,
+            "end": 577.28,
+            "text": " that's why the instance variable was shown.  If the instance variable was not there  then what would have happened?  Then class variable would have been searched.  If class variable was found"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 577.28,
+            "end": 587.28,
+            "text": " then it would have been taken.  Whenever I will write  emp1.company name  then what will come?  First of all we will see"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 587.28,
+            "end": 597.28,
+            "text": " if there is any instance variable  in emp1.company name.  If there is an instance variable  then it will be shown.  But if there is not"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 597.28,
+            "end": 607.28,
+            "text": " then class variable will be found.  When class variable  is found then it will be shown.  Now can I  print the instance variable"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 607.28,
+            "end": 617.28,
+            "text": " of company name like this?  Can I print it like this?  Print and then  emp1.company name  then the answer is yes I can do like this."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 617.28,
+            "end": 627.28,
+            "text": " Can I change it like this?  Now see I did it  so apple came.  Can I change it like this?  That I say emp1.company name is equal to"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 627.28,
+            "end": 637.28,
+            "text": " let's say  I say google.  So will  emp1.company name is equal to google  will google come? Yes it will come."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 637.28,
+            "end": 649.28,
+            "text": " Will rohan's company show google? Yes it will.  But what will happen if I  change rohan's company to emp2?  Obviously if I change rohan's company  then an instance variable will be formed."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 649.28,
+            "end": 659.28,
+            "text": " And because instance variable is formed  I did not write rohan's company  why did I do like this?  I will write here  Nestle"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 659.28,
+            "end": 669.28,
+            "text": " I have written here emp2.company name  is equal to nestle and obviously I will  initialize emp2  after initializing it. So here  when I wrote nestle then"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 669.28,
+            "end": 679.28,
+            "text": " the name of employee is rohan and the  raise amount in nestle is 0.02  I wrote it. So if here  it gets  instance variable"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 679.28,
+            "end": 689.28,
+            "text": " a local instance variable  then it will show it.  But if it does not get it then it will get lost in the class  and these variables are associated with class.  So I hope you understood"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 689.28,
+            "end": 699.28,
+            "text": " what instance variables and class variables are.  Do read it here.  I have given good examples here.  And you will get a good understanding.  I want to give you a very good example here"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 699.28,
+            "end": 709.28,
+            "text": " and that is number of employees.  Number of employees  is equal to. Now assume it is 0.  Number of employees is equal to 0.  And I want number of employees"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 709.28,
+            "end": 719.28,
+            "text": " to increase and increase  as employees are getting added.  So I will write here  employee.numberOfEmployees  plus equals to 1."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 719.28,
+            "end": 729.28,
+            "text": " As employees are getting added  number of employees will increase.  And I also want  that number of employees  here. The name of the employee is this"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 729.28,
+            "end": 739.28,
+            "text": " and the raise amount in  here I will  write. Assume self.  numberOfEmployees  sized company"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 739.28,
+            "end": 749.28,
+            "text": " sized apple. Here the company  name will come here.  Now you see here. I will run it.  And now you see what will happen.  Name of the employee is Harry and raise amount"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 749.28,
+            "end": 759.28,
+            "text": " in one sized company apple India is this.  Because it became 1 from 0.  One employee named Harry got added.  Then when an employee named Rohan got added, it became a two sized company.  As people will get added"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 759.28,
+            "end": 769.28,
+            "text": " number of employees will increase and increase.  Now you think.  I am not getting any use case in my mind  in which you want to make number of employees an instance variable.  You definitely want to associate it with class."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 769.28,
+            "end": 779.28,
+            "text": " You want to associate number of employees with a whole company.  Not with a  particular employee.  You will not say that the number of employees of Harry is this.  You will say that the number of employees of the company is this."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 779.28,
+            "end": 789.28,
+            "text": " You will not say that  number of employees for Rohan is this  and number of employees for Harry is this.  It does not happen. The number of employees in a company  is the same."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 789.28,
+            "end": 799.28,
+            "text": " So with that said, I hope  you understood this thing. Here I have told  that in Python, you can define variables at class level.  If you define it at class level,  then it will be class variables."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 799.28,
+            "end": 809.28,
+            "text": " If you define it at instance level, then it will be instance variables.  So this thing I have  told you. Class variables are  defined at the class level and are shared among  all instances of a class."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 809.28,
+            "end": 819.28,
+            "text": " They are defined outside of any method  and are usually used to store information  that is common to all instances of a class.  For example, a class variable  can be used to store the number of instances"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 819.28,
+            "end": 829.28,
+            "text": " of a class that have been created.  Like we took example of number of employees.  You can run this example and this example.  We have already seen instance variables.  They are defined at instance level."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 829.28,
+            "end": 839.28,
+            "text": " You can give some properties  to all instances and objects  of a class.  For example, the name of an employee,  the employee's employee code,"
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 839.28,
+            "end": 849.28,
+            "text": " the employee's race can be changed.  But the number of employees of an employee  is not there. The number of employees of a company  is there. So I hope you understood this.  That's all for this video."
+        },
+        {
+            "number": "066 ",
+            "title": "Instance variables vs Class variables in Python",
+            "start": 849.28,
+            "end": 859.28,
+            "text": " If you have not accessed this playlist yet,  then do it.  Thank you so much guys for watching this video  and I will see you next  time."
+        }
+    ],
+    "text": " Guys, in today's video, I will tell you the difference between instance variables and class variables. We use instance variables when we have to associate any property with a particular object. And we use class variables when we have to make a variable for the entire class, which all the instances will share. Now I will tell you what I have said in this video. Let's go to the computer screen and let's get started. So guys, now we are going to talk about the difference between instance and class variables. But before that, I would like to tell you why we use object-oriented programming. So basically what does it do? First of all, we have already talked about the classes that are in real-world entities. They map things to us. Along with that, we can make a group logically. We can make a group of functions, variables, and a logical group in which things are related. For example, if there is an employee, then all the methods related to the employee are in the employee class. After that, all the variables related to the employee are in the employee class. So in this way, we can make a class called employee. So we have already seen this thing. We had seen about a constructor. We had seen that the constructor takes the self. And if I do self.name is equal to name, then whatever incoming name is coming here, it will be set. The instance of this class. We had also seen that if we make a method called showDetails. And I write something like this. I write print the name of the employee is. And there can be many more details in this. Self.name It is not necessary that you only take the name here. You can take many more things here that are associated with an employee. Now let's say I make emp1 is equal to employee. And after that I write Harry. Now we had seen one thing that if I do something like this. Let's say I make this employee and do showDetails. So if I do showDetails like this and run it. So you see here after doing emp1.showDetails. The name of the employee is Harry is written here. We had seen this thing. So let me tell you one more thing. First of all, either I write this. Or I write this. Name of the class. ShowDetails and pass emp1 in it. It is equal. Now you will say how is it equal? What happens is when you write this. emp1.showDetails. So it is converted in this. You both have written the same thing here. Now if I tell you to remove its self from here. And tell me the error. If I do not tell you this thing. You do not know this thing. And after this, you run it and see. And here you get the error. ShowDetails takes zero position argument. But one was given. I have not given any argument to showDetails. There are zero position arguments. So why is this error coming? But if I show you this. Then you will understand clearly. That one argument is going. So if you are writing emp1.showDetails. Then also one argument is going. of emp1. This will make things easy for you to understand. See I wrote self here. If I run it, then you see emp1.showDetails. The name of the employee is Harry. It is written here. So you should know this thing. So by running emp1.showDetails. You will see the name of the employee is Harry. Now if I remove emp1. Or remove self, the error is going to come. We have understood this thing. Ok. Alright. Now let's talk about instance and class variables. Ok. Now see here I have made self.name. Assume that I myself here. Raise is equal to 0.02 Assume that this is the raise. Which is going to be given to the employee in the future. Ok. I have made self.raise is equal to 0.02. Now I call it raise amount. Ok. I have made self.raise amount is equal to 0.02. So what will happen is that here an instance variable will be made by the name of raise amount. Now you understand this thing. What is instance variable? Instance variable is those variables which are associated with instance. Not associated with class. Now you will understand what is the meaning of this. I have made self.raise amount is equal to 0.02. Ok. Now if I make another employee. I will comment out this syntax. And we will stick on this syntax. Because it is easy. And I will bring it down. Now you see here that employee Harry and emp1.show details I have made. Now assume that I am going to do the same thing. Employee Rohan and emp. And I will make it emp2. Dot show details. Now you see that I am writing here that the name of the employee is self.name and the raise amount is and I will write here self.raise amount Ok. And I will write here self.raise amount self.raise amount. Ok. And I will close this bracket. So when I will do show details then raise amount will come to both of them which is 0.02. Ok. Now you see the name of employee is Harry and the raise amount is 0.02. And Rohan and the raise amount is 0.02. Now assume that I want to increase the raise amount of Harry. So can I increase it directly like this? The answer is yes. If I say here emp.raise amount is equal to 0. Let us say I want to do 3. So can it be done? Yes. Will I get it by reflecting on show details? Yes. I will show you here. 0.3 is seen here. Ok. So in this way I will directly change these instance variables because they are associated with instance. Ok. But it will make sense for me that I will not give different raise to every employee and make a variable in the whole class which is associated with class. Like the raise amount here is associated with instance. The name is associated with instance. If I write here emp1 is equal to employee Harry. So an employee is Harry. So emp1.raise amount is the raise amount of this Harry. If I write emp1.name then the name of this employee is Harry. So all these things are associated with emp1. But I want to generate some things like company name. Now instead of making different company names for every instance, I will make a company name for the whole class. Let us say I write here company name and I write here company name is equal to let us say apple. Let us say I write here apple. Company name is equal to apple. So what happens is that company name is associated with this class. Now if I write here emp1.company name I write here and the raise amount is this. And the raise amount in self.company name is. Now see what happens if I run this. Here the company name will be apple. So by default all the instances are associated with this class. So this is a class variable. The company name is associated with the class. And the emp1.raise amount and name are associated with the instance. This is the property of instance. So the employee Harry will be different for him. Rohan will be different for him. Shivani will be different for him. Shubham will be different for him. Daksh will be different for him. All the employees we will make will be different for them. And what is that? That is class variable. So we made one variable which is the property of class. It is not the property of instance. Now see here the game starts. And listen carefully. Because people get stuck here which I am going to tell you. Now if I say that company name is equal to apple. But I want to change the company name. Suppose I say emp1.company name is equal to and I want to do apple India. Suppose Harry works in apple India. Now the company name is apple only. But apple is working in India. Harry and Rohan are working in apple US. So I want to say that emp1 is equal to apple India. Will emp1 company name add a new instance variable or this class variable will change. Let's see what happens. Now see here an interesting thing happened. For that I wrote apple India. But for Rohan I wrote apple. Why did this happen? You can say that if by doing this if by doing this this variable was changing. Company name was changing. Then why did apple come for Rohan again? So I will tell you what happens. If there is an instance variable which was there in Rohan's case. What is the instance variable? Instance variable is company name. Then that company name will be shown. That was in Harry's case. Sorry, it was not in Rohan's case. If there is an instance variable, then it will be shown. If there is a company name associated with emp1 then first of all we will see in the instance that is there instance variable. In this case it was there because we did emp1.company name is equal to apple India. Because the instance variable was there that's why the instance variable was shown. If the instance variable was not there then what would have happened? Then class variable would have been searched. If class variable was found then it would have been taken. Whenever I will write emp1.company name then what will come? First of all we will see if there is any instance variable in emp1.company name. If there is an instance variable then it will be shown. But if there is not then class variable will be found. When class variable is found then it will be shown. Now can I print the instance variable of company name like this? Can I print it like this? Print and then emp1.company name then the answer is yes I can do like this. Can I change it like this? Now see I did it so apple came. Can I change it like this? That I say emp1.company name is equal to let's say I say google. So will emp1.company name is equal to google will google come? Yes it will come. Will rohan's company show google? Yes it will. But what will happen if I change rohan's company to emp2? Obviously if I change rohan's company then an instance variable will be formed. And because instance variable is formed I did not write rohan's company why did I do like this? I will write here Nestle I have written here emp2.company name is equal to nestle and obviously I will initialize emp2 after initializing it. So here when I wrote nestle then the name of employee is rohan and the raise amount in nestle is 0.02 I wrote it. So if here it gets instance variable a local instance variable then it will show it. But if it does not get it then it will get lost in the class and these variables are associated with class. So I hope you understood what instance variables and class variables are. Do read it here. I have given good examples here. And you will get a good understanding. I want to give you a very good example here and that is number of employees. Number of employees is equal to. Now assume it is 0. Number of employees is equal to 0. And I want number of employees to increase and increase as employees are getting added. So I will write here employee.numberOfEmployees plus equals to 1. As employees are getting added number of employees will increase. And I also want that number of employees here. The name of the employee is this and the raise amount in here I will write. Assume self. numberOfEmployees sized company sized apple. Here the company name will come here. Now you see here. I will run it. And now you see what will happen. Name of the employee is Harry and raise amount in one sized company apple India is this. Because it became 1 from 0. One employee named Harry got added. Then when an employee named Rohan got added, it became a two sized company. As people will get added number of employees will increase and increase. Now you think. I am not getting any use case in my mind in which you want to make number of employees an instance variable. You definitely want to associate it with class. You want to associate number of employees with a whole company. Not with a particular employee. You will not say that the number of employees of Harry is this. You will say that the number of employees of the company is this. You will not say that number of employees for Rohan is this and number of employees for Harry is this. It does not happen. The number of employees in a company is the same. So with that said, I hope you understood this thing. Here I have told that in Python, you can define variables at class level. If you define it at class level, then it will be class variables. If you define it at instance level, then it will be instance variables. So this thing I have told you. Class variables are defined at the class level and are shared among all instances of a class. They are defined outside of any method and are usually used to store information that is common to all instances of a class. For example, a class variable can be used to store the number of instances of a class that have been created. Like we took example of number of employees. You can run this example and this example. We have already seen instance variables. They are defined at instance level. You can give some properties to all instances and objects of a class. For example, the name of an employee, the employee's employee code, the employee's race can be changed. But the number of employees of an employee is not there. The number of employees of a company is there. So I hope you understood this. That's all for this video. If you have not accessed this playlist yet, then do it. Thank you so much guys for watching this video and I will see you next time."
+}

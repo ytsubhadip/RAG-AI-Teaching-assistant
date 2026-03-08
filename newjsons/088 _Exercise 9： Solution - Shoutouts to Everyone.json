@@ -1,0 +1,467 @@
+{
+    "chunks": [
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 0.0,
+            "end": 22.12,
+            "text": " Guys, in exercise 9, I gave you a shoutout to everyone exercise.  I told you that I am going to give shoutouts to everyone.  In this video, I will tell you how and everyone is going to get a shoutout.  Let's go to the computer screen and let's get started.  Intro"
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 22.12,
+            "end": 34.64,
+            "text": " Now, as I told you that everyone is going to get a shoutout in this video.  Literally everyone.  And how will you get a shoutout?  I will give you that through this exercise.  And you will also say that it was fun."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 34.64,
+            "end": 47.519999999999996,
+            "text": " So, what do I do first?  Let me open this quickly.  And recently I was searching on Google  that how to do text to speech in Mac.  And I came to know that to do text to speech in Mac,"
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 47.519999999999996,
+            "end": 54.400000000000006,
+            "text": " you can simply write something like this.  See, I just ran this.  If I write say hello world.  Hello world.  So, it will say hello world."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 54.400000000000006,
+            "end": 64.08,
+            "text": " I don't know if you can hear it or not, but it said hello world.  Okay.  So, what I am going to do now is  that I am going to copy this program.  My work will be done."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 64.08,
+            "end": 79.6,
+            "text": " And it will be done very easily.  So, first of all, I will write one thing here that this thing is for Mac.  This is for Mac that I imported the system from OS  and I will make an F-string here.  And I will write here"
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 79.6,
+            "end": 86.96,
+            "text": " something like this  name.  Okay.  And now I will run a for loop.  I will say here"
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 86.96,
+            "end": 97.0,
+            "text": " what is running here?  I made an F-string.  I named it.  Okay, the name is not defined.  For name in L."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 97.0,
+            "end": 107.72,
+            "text": " Or let's do for name in names.  Okay.  Names is a list of people whom I have to give a shout out.  Like, let's say Rahul is done.  Okay."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 107.72,
+            "end": 123.24,
+            "text": " Then we have Rohan.  Then after that, let's say we have Javed.  Then let's say we have Ritika.  Then let's say we have John.  Okay."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 123.24,
+            "end": 134.56,
+            "text": " And like this.  Then we have Shahrukh Khan.  Then we have Deepika.  So many people are enough for a shout out.  Okay."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 134.56,
+            "end": 144.48000000000002,
+            "text": " We don't have to make a crowd of shout out people.  Okay.  So many shout outs are enough.  Now see what I will do.  I will run this program in Python 3."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 144.48000000000002,
+            "end": 151.20000000000002,
+            "text": " And obviously it won't work here.  Because I am not in Mac.  When I am running in replit,  I am not in Mac.  Okay."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 151.20000000000002,
+            "end": 167.96,
+            "text": " So I will paste it.  Enter maruka.  Rahul, Rohan, Javed, Ritika, John, Shahrukh Khan, Deepika.  So this program is working.  But I want to do a shout out too."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 167.96,
+            "end": 176.76,
+            "text": " I want to say shout out to John.  Shout out to Rahul.  So I will copy this program.  And I will show you.  When I will paste it."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 176.76,
+            "end": 185.12,
+            "text": " Shout out to Rahul.  Shout out to Rohan.  Shout out to Javed.  Shout out to Ritika.  Shout out to John."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 185.12,
+            "end": 194.36,
+            "text": " So you are all shouting out to Shahrukh Khan.  Okay, that's enough.  I have exited it with ctrl C.  Now if you are in Windows,  which most of the people will be."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 194.36,
+            "end": 203.60000000000002,
+            "text": " So what you guys do simply.  There is a module.  Okay.  It is called Pywin32.  That means Google search will tell you everything."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 203.60000000000002,
+            "end": 213.88000000000002,
+            "text": " Okay, this is the first thing.  The second thing is that.  Let's open the exercise number 9.  I will open the cover page here.  And you have to give a shout out too."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 213.88000000000002,
+            "end": 224.28,
+            "text": " So I will click on the cover page here.  And I will go to its description.  And many of you will say that.  Give us a shout out.  Many people."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 224.28,
+            "end": 234.68,
+            "text": " But today everyone will get a shout out.  See this is someone's program.  PyTTSX3 cake.  There is also a win32client.dispatch.sepi voice.  This one also works."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 234.68,
+            "end": 241.68,
+            "text": " So what is written here?  I don't know whether we all are dumb.  Or is the rapid not working.  I am copy pasting.  See, no one is dumb."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 241.68,
+            "end": 251.68,
+            "text": " And the rapid is not working.  In short, this is that.  You run it on your operating system.  And whatever operating system you run for it.  And it will definitely work."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 251.68,
+            "end": 262.48,
+            "text": " So I will load these comments quickly.  And then I come.  Because I know I have to do a lot of scrolling.  So I come back after scrolling.  The first shout out I would like to give is a manual shout out."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 262.48,
+            "end": 273.48,
+            "text": " To Mohamad Aras who did this exercise first.  Then after this I would like to give it to Arshid Rupani.  And I would also like to give it to Code with Pravar.  After this everyone will get a shout out.  Wait, I know you guys have guessed how it will be."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 273.48,
+            "end": 285.48,
+            "text": " But wait, wait, okay.  Now I will see the rappel of Mohamad Aras first.  What did he do?  Obviously it is not going to work here.  Because it needs an operating system to run it."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 285.48,
+            "end": 298.28000000000003,
+            "text": " But I still want to see his code.  As long as I am seeing his code.  I want to give a shout out to all of you.  And you guessed it.  Right."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 298.28000000000003,
+            "end": 308.28000000000003,
+            "text": " I have written everyone's name here.  And I am going to give a shout out to everyone.  By using this program.  So I will copy it.  And I will paste it here."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 308.28000000000003,
+            "end": 345.08,
+            "text": " And now see.  Auto writing.  As long as I am seeing.  Shout out to Priyanshu48.  Shout out to Kenzi2."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 345.08,
+            "end": 355.08,
+            "text": " Shout out to Rahul Boyal14.  Shout out to Kati Kisarbhi.  Shout out to Aniban Pitti.  Shout out to Rohan Pudaseni.  Shout out to Tech Blogs."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 355.08,
+            "end": 367.08,
+            "text": " Shout out to Joel Thomas 1103.  Shout out to Dhiraya Paulya.  Shout out to Prithvisingh15.  Shout out to Gugol Chad.  Shout out to Moin Hussain."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 367.08,
+            "end": 379.88,
+            "text": " Shout out to Mehi 9 Crore.  Shout out to Mehi 9 Crore 89 Lakhs 89,897.  Who is this?  Shout out to Blitzfond1.  Shout out to Umang001."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 379.88,
+            "end": 389.88,
+            "text": " Shout out to Avijit Mano.  Shout out to Emanian.  Shout out to Meriam Tathia.  Shout out to Nishant Jaiswal2.  Shout out to Anonymous Buddy1."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 389.88,
+            "end": 400.68,
+            "text": " Shout out to Meriam Tathia.  Shout out to Jayankuma1.  Shout out to StarVipin.  Shout out to Vicky.  Shout out to Vivekray Ogadeema."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 400.68,
+            "end": 410.68,
+            "text": " Shout out to Ravishama34.  Shout out to Asantarik3.  Shout out to GyaGyangj.  Shout out to Programashre.  Shout out to Avijit Day5."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 410.68,
+            "end": 420.68,
+            "text": " Shout out to Anshuman097.  Shout out to Anchal Gupta9.  Shout out to Stupid Program1.  Shout out to Himanshu Quma96.  Shout out to Hinkspree Ianshu."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 420.68,
+            "end": 431.48,
+            "text": " Shout out to Maxm50.  Shout out to Prithvisingh.  Shout out to Anshuman.  Shout out to Piyash Boyal.  Shout out to Demand here."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 431.48,
+            "end": 441.48,
+            "text": " Shout out to Krishnanand2.  Shout out to Sivraj Vishwakaten.  Shout out to Nominath Cuba.  Shout out to FerozeeI.  Shout out to Jod9899."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 441.48,
+            "end": 451.48,
+            "text": " Shout out to Irunavad Hickory.  Shout out to Quazi Misbarraza.  Shout out to Historic Mind.  Shout out to Rajbir98.  Shout out to Akshay Nivat."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 451.48,
+            "end": 462.28000000000003,
+            "text": " Shout out to Vicky.  Shout out to Anshuman.  Shout out to Vivekrayogadima.  Shout out to Manit Jil.  Shout out to KrushnSin."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 462.28000000000003,
+            "end": 472.28000000000003,
+            "text": " Shout out to Universal Home.  Shout out to Opgamar Opgamam.  Shout out to Universal Home.  Shout out to Learning Talkadevith Abdulla.  Shout out to Abdulla4laks26351."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 472.28000000000003,
+            "end": 482.28000000000003,
+            "text": " Shout out to Sagapathyak3.  Shout out to Samath Verma.  Shout out to Prithvirajpiti3.  Shout out to Sarab Tripathi.  Shout out to Sagar."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 482.28000000000003,
+            "end": 493.08,
+            "text": " Shout out to Sagar.  Shout out to Sarab Tripathi6.  Shout out to Suman Rajak.  Shout out to Swayam2004.  Shout out to Joydeep2002."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 493.08,
+            "end": 503.08,
+            "text": " Shout out to Pulkit Parikh.  Shout out to Ratnakagautam221B.  Shout out to Tasos AD.  Shout out to Gryhakap.  Shout out to Uttar8088."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 503.08,
+            "end": 513.0799999999999,
+            "text": " Shout out to Athkod.  Shout out to Prasoon Srivast.  Shout out to P.I. Ashboyal.  Shout out to P.I. Ashboyal.  Shout out to P.I. Ashboyal."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 513.88,
+            "end": 523.88,
+            "text": " Shout out to Saptak291.  Shout out to Pratayakshdhank.  Shout out to Zainamad2.  Shout out to Ali Razerazan9.  Shout out to Tridevjha."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 523.88,
+            "end": 533.88,
+            "text": " Shout out to Krish Holda.  Shout out to Heraprogramin1.  Shout out to Sanjeev Kumar78.  Shout out to Irayankashvaha2.  Shout out to Galabhey."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 533.88,
+            "end": 543.88,
+            "text": " Shout out to Ab265.  Shout out to Aayush Gadda.  Shout out to Aayush Gadda.  Shout out to Aayush Gadda.  Shout out to Aayush Gag15."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 543.88,
+            "end": 553.88,
+            "text": " Shout out to Stupid Program1.  Shout out to D.Rajkumar68.  Shout out to Aapit Jaiswal2.  Shout out to Fighters006.  Shout out to Avipandit."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 553.88,
+            "end": 563.88,
+            "text": " Shout out to Mrz004.  Shout out to Avipandit.  Shout out to Mihasing4.  Shout out to NkshkHk.  Shout out to Mskoda5."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 563.88,
+            "end": 573.88,
+            "text": " Shout out to Sivraj Gosain1.  Shout out to D.Rajkumar68.  Shout out to Avipandit.  Shout out to Sivraj Gosain1.  Shout out to Divayanand Pandey."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 573.88,
+            "end": 583.88,
+            "text": " Shout out to Ahmad Shuja.  Shout out to Jdeep Sindhav.  Shout out to Champ7239.  Shout out to P.I Ashboyal.  Shout out to Joydeep2002."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 583.88,
+            "end": 593.88,
+            "text": " Shout out to MuteLvermer8745.  Shout out to V.Durjeshwar Ra.  Shout out to Sachekapur.  Shout out to 41Gaurav Gaurav.  Shout out to V.Asingh Zankar."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 593.88,
+            "end": 603.88,
+            "text": " Shout out to V.Asingh Zankar.  Shout out to V.Asingh Zankar.  Shout out to V.Asingh Zankar.  Shout out to Legend Vibhu.  Shout out to Yashag."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 603.88,
+            "end": 613.88,
+            "text": " Shout out to Vivekray Ogadeema.  Shout out to Priyanshu Kandu.  Shout out to Ayamagamalik.  Shout out to Samad90.  Shout out to Ayamagamalik."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 613.88,
+            "end": 623.88,
+            "text": " Shout out to MuteLvermer8745.  Shout out to Maxm50.  Shout out to ItsGooseboy.  Shout out to P.I Ashboyal.  Shout out to Pavan Kumar."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 623.88,
+            "end": 633.88,
+            "text": " Shout out to P.I Ashboyal.  Shout out to Pavan Teja14.  Shout out to Salogamerk1.  Shout out to Ugam Tivana.  Shout out to P.I Ashboyal."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 633.88,
+            "end": 643.88,
+            "text": " Shout out to Shabham Zaini12.  Shout out to Avish Jain 24.  Shout out to ItsGooseboy.  Shout out to Icewastic Mishra.  Shout out to Srisridh Malti."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 643.88,
+            "end": 653.88,
+            "text": " Shout out to Avish Jain 24.  Shout out to Mfaisan3.  Shout out to Anukul Chauhan.  Shout out to Kodiyo Itty.  Shout out to P.I Ashboyal."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 653.88,
+            "end": 663.88,
+            "text": " Shout out to Anukul Chauhan.  Shout out to Kodiyo Itty.  Shout out to Ashit Rupani.  Shout out to Muhammed Anas11.  Alright, so everyone has got their shout out."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 663.88,
+            "end": 673.88,
+            "text": " Now no one will have any complaint  that we didn't get our shout out.  And it was a long shout out.  And if you guys got bored  then you could have increased the video."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 673.88,
+            "end": 683.88,
+            "text": " But everyone has to hear their name.  I know everyone is waiting for their name.  So, this exercise was quite fun.  I personally don't know about you.  But if you are in macOS then it will work."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 683.88,
+            "end": 693.88,
+            "text": " I am telling you again otherwise it won't work.  If you are in windows then  many of our friends have solved it.  You can go and see  how to run this program for windows."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 693.88,
+            "end": 703.88,
+            "text": " So, you can go to our exercise 9  and see the solution of people.  They have solved it.  I am definitely sure  that someone's code will work."
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 703.88,
+            "end": 713.88,
+            "text": " In fact, most of the people's code will work.  So, if you haven't accessed this playlist yet  then do it. That's all for this video.  Thank you so much for watching this video.  I will see you"
+        },
+        {
+            "number": "088 ",
+            "title": "Exercise 9\uff1a Solution - Shoutouts to Everyone",
+            "start": 713.88,
+            "end": 715.88,
+            "text": " next time."
+        }
+    ],
+    "text": " Guys, in exercise 9, I gave you a shoutout to everyone exercise. I told you that I am going to give shoutouts to everyone. In this video, I will tell you how and everyone is going to get a shoutout. Let's go to the computer screen and let's get started. Intro Now, as I told you that everyone is going to get a shoutout in this video. Literally everyone. And how will you get a shoutout? I will give you that through this exercise. And you will also say that it was fun. So, what do I do first? Let me open this quickly. And recently I was searching on Google that how to do text to speech in Mac. And I came to know that to do text to speech in Mac, you can simply write something like this. See, I just ran this. If I write say hello world. Hello world. So, it will say hello world. I don't know if you can hear it or not, but it said hello world. Okay. So, what I am going to do now is that I am going to copy this program. My work will be done. And it will be done very easily. So, first of all, I will write one thing here that this thing is for Mac. This is for Mac that I imported the system from OS and I will make an F-string here. And I will write here something like this name. Okay. And now I will run a for loop. I will say here what is running here? I made an F-string. I named it. Okay, the name is not defined. For name in L. Or let's do for name in names. Okay. Names is a list of people whom I have to give a shout out. Like, let's say Rahul is done. Okay. Then we have Rohan. Then after that, let's say we have Javed. Then let's say we have Ritika. Then let's say we have John. Okay. And like this. Then we have Shahrukh Khan. Then we have Deepika. So many people are enough for a shout out. Okay. We don't have to make a crowd of shout out people. Okay. So many shout outs are enough. Now see what I will do. I will run this program in Python 3. And obviously it won't work here. Because I am not in Mac. When I am running in replit, I am not in Mac. Okay. So I will paste it. Enter maruka. Rahul, Rohan, Javed, Ritika, John, Shahrukh Khan, Deepika. So this program is working. But I want to do a shout out too. I want to say shout out to John. Shout out to Rahul. So I will copy this program. And I will show you. When I will paste it. Shout out to Rahul. Shout out to Rohan. Shout out to Javed. Shout out to Ritika. Shout out to John. So you are all shouting out to Shahrukh Khan. Okay, that's enough. I have exited it with ctrl C. Now if you are in Windows, which most of the people will be. So what you guys do simply. There is a module. Okay. It is called Pywin32. That means Google search will tell you everything. Okay, this is the first thing. The second thing is that. Let's open the exercise number 9. I will open the cover page here. And you have to give a shout out too. So I will click on the cover page here. And I will go to its description. And many of you will say that. Give us a shout out. Many people. But today everyone will get a shout out. See this is someone's program. PyTTSX3 cake. There is also a win32client.dispatch.sepi voice. This one also works. So what is written here? I don't know whether we all are dumb. Or is the rapid not working. I am copy pasting. See, no one is dumb. And the rapid is not working. In short, this is that. You run it on your operating system. And whatever operating system you run for it. And it will definitely work. So I will load these comments quickly. And then I come. Because I know I have to do a lot of scrolling. So I come back after scrolling. The first shout out I would like to give is a manual shout out. To Mohamad Aras who did this exercise first. Then after this I would like to give it to Arshid Rupani. And I would also like to give it to Code with Pravar. After this everyone will get a shout out. Wait, I know you guys have guessed how it will be. But wait, wait, okay. Now I will see the rappel of Mohamad Aras first. What did he do? Obviously it is not going to work here. Because it needs an operating system to run it. But I still want to see his code. As long as I am seeing his code. I want to give a shout out to all of you. And you guessed it. Right. I have written everyone's name here. And I am going to give a shout out to everyone. By using this program. So I will copy it. And I will paste it here. And now see. Auto writing. As long as I am seeing. Shout out to Priyanshu48. Shout out to Kenzi2. Shout out to Rahul Boyal14. Shout out to Kati Kisarbhi. Shout out to Aniban Pitti. Shout out to Rohan Pudaseni. Shout out to Tech Blogs. Shout out to Joel Thomas 1103. Shout out to Dhiraya Paulya. Shout out to Prithvisingh15. Shout out to Gugol Chad. Shout out to Moin Hussain. Shout out to Mehi 9 Crore. Shout out to Mehi 9 Crore 89 Lakhs 89,897. Who is this? Shout out to Blitzfond1. Shout out to Umang001. Shout out to Avijit Mano. Shout out to Emanian. Shout out to Meriam Tathia. Shout out to Nishant Jaiswal2. Shout out to Anonymous Buddy1. Shout out to Meriam Tathia. Shout out to Jayankuma1. Shout out to StarVipin. Shout out to Vicky. Shout out to Vivekray Ogadeema. Shout out to Ravishama34. Shout out to Asantarik3. Shout out to GyaGyangj. Shout out to Programashre. Shout out to Avijit Day5. Shout out to Anshuman097. Shout out to Anchal Gupta9. Shout out to Stupid Program1. Shout out to Himanshu Quma96. Shout out to Hinkspree Ianshu. Shout out to Maxm50. Shout out to Prithvisingh. Shout out to Anshuman. Shout out to Piyash Boyal. Shout out to Demand here. Shout out to Krishnanand2. Shout out to Sivraj Vishwakaten. Shout out to Nominath Cuba. Shout out to FerozeeI. Shout out to Jod9899. Shout out to Irunavad Hickory. Shout out to Quazi Misbarraza. Shout out to Historic Mind. Shout out to Rajbir98. Shout out to Akshay Nivat. Shout out to Vicky. Shout out to Anshuman. Shout out to Vivekrayogadima. Shout out to Manit Jil. Shout out to KrushnSin. Shout out to Universal Home. Shout out to Opgamar Opgamam. Shout out to Universal Home. Shout out to Learning Talkadevith Abdulla. Shout out to Abdulla4laks26351. Shout out to Sagapathyak3. Shout out to Samath Verma. Shout out to Prithvirajpiti3. Shout out to Sarab Tripathi. Shout out to Sagar. Shout out to Sagar. Shout out to Sarab Tripathi6. Shout out to Suman Rajak. Shout out to Swayam2004. Shout out to Joydeep2002. Shout out to Pulkit Parikh. Shout out to Ratnakagautam221B. Shout out to Tasos AD. Shout out to Gryhakap. Shout out to Uttar8088. Shout out to Athkod. Shout out to Prasoon Srivast. Shout out to P.I. Ashboyal. Shout out to P.I. Ashboyal. Shout out to P.I. Ashboyal. Shout out to Saptak291. Shout out to Pratayakshdhank. Shout out to Zainamad2. Shout out to Ali Razerazan9. Shout out to Tridevjha. Shout out to Krish Holda. Shout out to Heraprogramin1. Shout out to Sanjeev Kumar78. Shout out to Irayankashvaha2. Shout out to Galabhey. Shout out to Ab265. Shout out to Aayush Gadda. Shout out to Aayush Gadda. Shout out to Aayush Gadda. Shout out to Aayush Gag15. Shout out to Stupid Program1. Shout out to D.Rajkumar68. Shout out to Aapit Jaiswal2. Shout out to Fighters006. Shout out to Avipandit. Shout out to Mrz004. Shout out to Avipandit. Shout out to Mihasing4. Shout out to NkshkHk. Shout out to Mskoda5. Shout out to Sivraj Gosain1. Shout out to D.Rajkumar68. Shout out to Avipandit. Shout out to Sivraj Gosain1. Shout out to Divayanand Pandey. Shout out to Ahmad Shuja. Shout out to Jdeep Sindhav. Shout out to Champ7239. Shout out to P.I Ashboyal. Shout out to Joydeep2002. Shout out to MuteLvermer8745. Shout out to V.Durjeshwar Ra. Shout out to Sachekapur. Shout out to 41Gaurav Gaurav. Shout out to V.Asingh Zankar. Shout out to V.Asingh Zankar. Shout out to V.Asingh Zankar. Shout out to V.Asingh Zankar. Shout out to Legend Vibhu. Shout out to Yashag. Shout out to Vivekray Ogadeema. Shout out to Priyanshu Kandu. Shout out to Ayamagamalik. Shout out to Samad90. Shout out to Ayamagamalik. Shout out to MuteLvermer8745. Shout out to Maxm50. Shout out to ItsGooseboy. Shout out to P.I Ashboyal. Shout out to Pavan Kumar. Shout out to P.I Ashboyal. Shout out to Pavan Teja14. Shout out to Salogamerk1. Shout out to Ugam Tivana. Shout out to P.I Ashboyal. Shout out to Shabham Zaini12. Shout out to Avish Jain 24. Shout out to ItsGooseboy. Shout out to Icewastic Mishra. Shout out to Srisridh Malti. Shout out to Avish Jain 24. Shout out to Mfaisan3. Shout out to Anukul Chauhan. Shout out to Kodiyo Itty. Shout out to P.I Ashboyal. Shout out to Anukul Chauhan. Shout out to Kodiyo Itty. Shout out to Ashit Rupani. Shout out to Muhammed Anas11. Alright, so everyone has got their shout out. Now no one will have any complaint that we didn't get our shout out. And it was a long shout out. And if you guys got bored then you could have increased the video. But everyone has to hear their name. I know everyone is waiting for their name. So, this exercise was quite fun. I personally don't know about you. But if you are in macOS then it will work. I am telling you again otherwise it won't work. If you are in windows then many of our friends have solved it. You can go and see how to run this program for windows. So, you can go to our exercise 9 and see the solution of people. They have solved it. I am definitely sure that someone's code will work. In fact, most of the people's code will work. So, if you haven't accessed this playlist yet then do it. That's all for this video. Thank you so much for watching this video. I will see you next time."
+}

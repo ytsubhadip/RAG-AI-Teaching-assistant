@@ -1,0 +1,495 @@
+{
+    "chunks": [
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 0.0,
+            "end": 25.580000000000002,
+            "text": " Map, Filter and Reduce concept is very important in Python.  You guys have to use Map, Filter and Reduce many times to do advanced list manipulation.  How to use Map, Filter and Reduce will make you a successful Python programmer.  Let's go to the computer screen and let's get started.  Intro"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 25.58,
+            "end": 42.879999999999995,
+            "text": " First of all, it is important to know that Map, Filter and Reduce are not only available in Python.  Map, Filter and Reduce can not be used only with lists.  But you guys will say that what is Map, Filter and Reduce?  So I am going to tell you that only in this video.  So first of all, I will tell you about Map."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 42.879999999999995,
+            "end": 58.58,
+            "text": " Suppose I have a function cube.  And what does cube do?  It takes x and returns x into x into x.  I will print, cube of 2 and run.  You will say that I know that 8 will come."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 58.58,
+            "end": 77.58,
+            "text": " Yes, I also know that 8 will come.  But suppose I have a list L.  And I have 1, 2, 4, 6, 4, 3.  Now you will say that I have a list.  I want to get all these numbers in the output list in a cube."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 77.58,
+            "end": 94.58,
+            "text": " So how will that happen?  Now you will put a for loop.  And then you will say, for item in L.  And then you will say, new L is equal to.  Suppose you will say, new L dot append."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 94.58,
+            "end": 105.58,
+            "text": " And you will say, cube of item.  Means how much pain is there?  Do new L.  And make an empty list.  And then append by running a for loop."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 105.58,
+            "end": 115.58,
+            "text": " Isn't there any shortcut?  I have come to tell you that.  So see this method first.  I made an empty list by iterating.  First, by name new L."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 115.58,
+            "end": 135.57999999999998,
+            "text": " Then I said, for every item in L.  What should I do?  For every item in L, insert a new item in new L.  Which is a cube of this item.  Okay, this thing is done."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 135.58,
+            "end": 145.58,
+            "text": " Now what we will do here.  We will see a shortcut method for this.  So see, I did this.  Instead of doing this, what could I do?  I will tell you this."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 145.58,
+            "end": 157.58,
+            "text": " And then you will know what is a map.  I will say, map cube L.  Now you will say, are you kidding?  Will this same thing return me here?  Yes, the same thing will return."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 157.58,
+            "end": 169.58,
+            "text": " But a map object will return.  But you can easily convert this map object into a list.  And finally you will get a list.  Which will return exactly this list.  Isn't it interesting?"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 169.58,
+            "end": 179.58,
+            "text": " Now you will say, why does python bother us?  Why is it returning us a map object?  Why not a list?  You can do it in your desired data type.  Change it."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 179.58,
+            "end": 189.58,
+            "text": " No one is stopping you.  Map object is returned for efficiency purposes.  Okay, so this is a map.  First give the function name.  Then give what?"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 189.58,
+            "end": 207.58,
+            "text": " Then you give the list.  Then you give the list in which you want to apply this function on every element.  Now here this lambda function can also be there.  But I will not confuse you.  Now understand this thing exactly."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 207.58,
+            "end": 217.58,
+            "text": " Digest this much.  I understood the map.  Please write in the comment.  Okay.  So that I feel good after reading your comments."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 217.58,
+            "end": 227.58,
+            "text": " I understood the map.  Now let's move ahead.  Okay.  Let's talk about filter.  What is filter?"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 227.58,
+            "end": 237.58,
+            "text": " Filter is the same filter which is filtered.  Okay.  Now you will say, what are you saying?  Filter is the same which is filtered.  Yes, the filter will be in your house."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 237.58,
+            "end": 247.58,
+            "text": " Which filters the water.  What is the meaning of filter?  One thing goes and some things come out of it.  Dirty water goes, dirt remains.  Water comes out."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 247.58,
+            "end": 257.58000000000004,
+            "text": " So this list will be filtered.  Only those elements will remain from this list.  Which will qualify.  How will you know which one will qualify?  So see, I will write here in capital."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 257.58000000000004,
+            "end": 267.58000000000004,
+            "text": " Map.  Okay.  I am telling you three things.  Map, filter, reduce.  Then filter."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 267.58000000000004,
+            "end": 277.58,
+            "text": " Okay.  I write filter here.  And after this, I am using the same list.  I am using the list of L.  So I will write new L is equal to."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 277.58,
+            "end": 287.58,
+            "text": " Because I have already made new L.  I will say filter.  I will say a function which will filter.  Okay.  A function which will filter."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 287.58,
+            "end": 297.58,
+            "text": " I will give it the name of filter function for now.  And I will have to make this function.  Yes, I will have to make it.  This is not a built-in function which I will not have to make.  And I will write return A is greater than 4."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 297.58,
+            "end": 307.58,
+            "text": " Okay.  So it takes A and returns A is greater than 4.  That means if A is greater than 4,  then it returns true.  Otherwise, it returns false."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 307.58,
+            "end": 317.58,
+            "text": " You are understanding this thing.  If I give greater than 4 value to filter function,  then it will return true.  And if I give it less than 4 or equal to 4 value,  then it will return false."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 317.58,
+            "end": 327.58,
+            "text": " Okay.  So you should understand this thing.  Great.  So I gave new new L  the first function."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 327.58,
+            "end": 337.58,
+            "text": " Filter function which returns true or false.  Based on the value which is given to it.  I will give it L.  That's about it.  Now I will print new new L."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 337.58,
+            "end": 347.58,
+            "text": " So I will get only those elements  which are  greater than A  and greater than 4.  Now it is also giving filter object."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 347.58,
+            "end": 357.58,
+            "text": " Now you will say why is it giving filter object?  You can convert it in list.  You can do this much.  Python is doing everything for you.  You can convert it in list."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 357.58,
+            "end": 367.58,
+            "text": " Now see what was here.  It was 6, 4 and 3.  So only 6 is left which was bigger than 4.  So filter only gave this.  Okay if I convert it to 3,"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 367.58,
+            "end": 377.58,
+            "text": " then what will happen?  If I convert it to 2, then what will happen?  So greater than 2,  all the elements will come.  Not equal to 2, greater than 2."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 377.58,
+            "end": 387.58,
+            "text": " From 4 to here you will get whole list.  Filter is also simple.  Okay. I will tell you about reduce in a while.  I will tell you a little bit about map.  Let's see about map again."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 387.58,
+            "end": 397.58,
+            "text": " Let's see about filter again.  I have to show you lambda function by plugging it.  In Python, map, filter,  and reduce functions are built-in functions.  Which allows you"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 397.58,
+            "end": 407.58,
+            "text": " to return a sequence of elements  and a new sequence of elements.  Input gets a sequence of elements  and output gets a sequence of elements.  These functions are known as"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 407.58,
+            "end": 417.58,
+            "text": " higher order functions as they take  other functions as argument.  I told you in the last video that  function can take function as an argument.  Here also,"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 417.58,
+            "end": 427.58,
+            "text": " it took cube as an argument.  Cube is a function but it took function as an argument.  So when function takes function  as an argument, it is called higher order function.  So map is a higher order function."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 427.58,
+            "end": 437.58,
+            "text": " And filter is also a higher order function.  Reduce is also a higher order function.  I will tell you about it in a while.  Reduce also works exactly like this.  It takes a function. But let's come up now."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 437.58,
+            "end": 447.58,
+            "text": " Okay. How does map work?  Give it a function. Give it iterable.  Give list. Give anything. It should be iterable.  The function argument is a function  that is applied to each element. That's about it."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 447.58,
+            "end": 457.58,
+            "text": " This was the syntax.  You understood it. Okay.  Was I required to make a cube function?  No.  The truth is that it was not."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 457.58,
+            "end": 467.58,
+            "text": " I could have passed a lambda function  instead of cube. I could have said  lambda takes x  and returns x star x star x.  My work would have been done in this much."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 467.58,
+            "end": 477.58,
+            "text": " It will work exactly like this.  Program will run as it should.  I have written print cube 2 here.  I will remove it.  Now see here. It will give"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 477.58,
+            "end": 487.58,
+            "text": " exactly the same output as it was giving earlier.  It is still giving all the elements in cubes.  It was giving in cubes earlier also.  Great. Great. It was fun.  Okay. It was fun. Now see."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 487.58,
+            "end": 497.58,
+            "text": " I told you about map.  Now let's talk about filter. Okay.  You can give lambda function in filter also.  What does filter do? It takes a function.  It takes an iterable."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 497.58,
+            "end": 507.58,
+            "text": " For which values  this function will  return true. Those values  will be in your output. For which it will  return false. Those values will not be in your output."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 507.58,
+            "end": 517.5799999999999,
+            "text": " It is that simple.  I am giving a function.  I am giving a function to filter as the first argument.  This function will either  return false or true."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 517.5799999999999,
+            "end": 527.5799999999999,
+            "text": " Okay. For every value  of this list.  What values do I have in L?  1, 2, 4, 6, 4 and 3. These are the values.  For every value"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 527.58,
+            "end": 537.58,
+            "text": " this filter function will either  return true or false.  Will it or not?  For which values  filter function will return true. Those"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 537.58,
+            "end": 547.58,
+            "text": " will be in my list.  For which it will return false. Those  will not be in my list.  It is that simple.  That's it. That's it."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 547.58,
+            "end": 557.58,
+            "text": " Okay. I will not confuse you more.  I will not confuse you more.  Predicate argument is a function.  This is a function only. Okay.  That returns a boolean value and is"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 557.58,
+            "end": 567.58,
+            "text": " applied to each element in the iterable argument.  The iterable argument can be a  listable or any kind of other iterable  object. The easiest iterable  object is a list. So learn from the list first."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 567.58,
+            "end": 577.58,
+            "text": " Okay. Great.  You have understood this thing.  Now let's talk about the reduce function.  This is also a higher order function.  Okay. This is also a higher order function."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 577.58,
+            "end": 587.58,
+            "text": " This also takes function as an argument.  But we have to import this.  Okay. So I will do one thing.  I am commenting the map and filter  I have told you. Okay."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 587.58,
+            "end": 597.58,
+            "text": " The code is written here. You have to  get it. Now understand the reduce carefully.  First of all, you have to import the reduce.  You need to understand this.  If I do not import the reduce, I will run it"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 597.58,
+            "end": 607.58,
+            "text": " like this. It will say that I do not know what is the reduce.  Okay. You should know this thing  first. After this,  there is a list of numbers.  What are we doing? We are reducing"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 607.58,
+            "end": 617.58,
+            "text": " these numbers.  What does it mean? It means  that first of all, take these two values.  Okay. One and two.  Pass one and two from this function."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 617.58,
+            "end": 627.58,
+            "text": " What is this function? It is simply  summing two numbers. This is a lambda function  which is summing  two numbers. If you  are not understanding this, if you are new to lambda function"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 627.58,
+            "end": 637.58,
+            "text": " then write sum here.  Or write my sum. I have to  call a function with the name my sum.  Def my sum x, y  and here return"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 637.58,
+            "end": 647.58,
+            "text": " x plus y.  Okay. Return x plus y.  I have to do this. Simple.  x comma y and return x  plus y. Okay."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 647.58,
+            "end": 657.58,
+            "text": " What is happening here?  You have to see how it works.  See, first of all, these two values  will be reduced. One and two  will be reduced in three."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 657.58,
+            "end": 667.58,
+            "text": " I will make a copy of this so that you can understand.  If I  apply my sum function in these two  and apply this function which I have given  as first argument to reduce."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 667.58,
+            "end": 677.58,
+            "text": " What will be the value of this? What is two plus one?  It is three. You don't have to add two and one.  You have to apply this function every time.  It is written x plus y in this function. That's why I am adding.  x is my one. y is my two."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 677.58,
+            "end": 687.58,
+            "text": " x plus y is my three. I will make it three.  I will do the same thing for these two.  What will be three and three? Will it be six or not?  Yes, it will be.  After this, six and four. What will be six and four?"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 687.58,
+            "end": 697.58,
+            "text": " Will it be eleven or not? No, it won't be.  You are not paying attention.  It will be ten. Six and four.  What are you doing? Okay. It will be ten.  So, ten comma five."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 697.58,
+            "end": 707.58,
+            "text": " Now, ten comma five is here.  If I sum these two, it will be fifteen.  That will be my final output.  Here it is. I hope  everyone understood this."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 707.58,
+            "end": 717.58,
+            "text": " So, this is how this thing works.  I hope you understood the reduce.  You must have understood map and filter.  I have explained this example.  I hope you will understand."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 717.58,
+            "end": 727.58,
+            "text": " If you haven't accessed this playlist yet,  then you must access it.  I have added all the videos in this.  You will get to see everything from day one to series.  Now, I would like to make one more request."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 727.58,
+            "end": 737.58,
+            "text": " And that is that  if you haven't uploaded your review yet,  then give a review by giving stars out of five.  Thank you so much.  Tech Toneira,"
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 737.58,
+            "end": 747.58,
+            "text": " you reviewed this course.  Thank you so much.  Give stars like this.  It will be fun in the comment section.  I want you to review this course."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 747.58,
+            "end": 757.58,
+            "text": " Give an honest review.  And this will make  a person who comes to see this course  will be able to decide  whether he wants to see this course or not."
+        },
+        {
+            "number": "053 ",
+            "title": "Map, Filter and Reduce in Python",
+            "start": 757.58,
+            "end": 763.58,
+            "text": " Thank you so much for watching this video.  And I will see you next time.  Bye Bye."
+        }
+    ],
+    "text": " Map, Filter and Reduce concept is very important in Python. You guys have to use Map, Filter and Reduce many times to do advanced list manipulation. How to use Map, Filter and Reduce will make you a successful Python programmer. Let's go to the computer screen and let's get started. Intro First of all, it is important to know that Map, Filter and Reduce are not only available in Python. Map, Filter and Reduce can not be used only with lists. But you guys will say that what is Map, Filter and Reduce? So I am going to tell you that only in this video. So first of all, I will tell you about Map. Suppose I have a function cube. And what does cube do? It takes x and returns x into x into x. I will print, cube of 2 and run. You will say that I know that 8 will come. Yes, I also know that 8 will come. But suppose I have a list L. And I have 1, 2, 4, 6, 4, 3. Now you will say that I have a list. I want to get all these numbers in the output list in a cube. So how will that happen? Now you will put a for loop. And then you will say, for item in L. And then you will say, new L is equal to. Suppose you will say, new L dot append. And you will say, cube of item. Means how much pain is there? Do new L. And make an empty list. And then append by running a for loop. Isn't there any shortcut? I have come to tell you that. So see this method first. I made an empty list by iterating. First, by name new L. Then I said, for every item in L. What should I do? For every item in L, insert a new item in new L. Which is a cube of this item. Okay, this thing is done. Now what we will do here. We will see a shortcut method for this. So see, I did this. Instead of doing this, what could I do? I will tell you this. And then you will know what is a map. I will say, map cube L. Now you will say, are you kidding? Will this same thing return me here? Yes, the same thing will return. But a map object will return. But you can easily convert this map object into a list. And finally you will get a list. Which will return exactly this list. Isn't it interesting? Now you will say, why does python bother us? Why is it returning us a map object? Why not a list? You can do it in your desired data type. Change it. No one is stopping you. Map object is returned for efficiency purposes. Okay, so this is a map. First give the function name. Then give what? Then you give the list. Then you give the list in which you want to apply this function on every element. Now here this lambda function can also be there. But I will not confuse you. Now understand this thing exactly. Digest this much. I understood the map. Please write in the comment. Okay. So that I feel good after reading your comments. I understood the map. Now let's move ahead. Okay. Let's talk about filter. What is filter? Filter is the same filter which is filtered. Okay. Now you will say, what are you saying? Filter is the same which is filtered. Yes, the filter will be in your house. Which filters the water. What is the meaning of filter? One thing goes and some things come out of it. Dirty water goes, dirt remains. Water comes out. So this list will be filtered. Only those elements will remain from this list. Which will qualify. How will you know which one will qualify? So see, I will write here in capital. Map. Okay. I am telling you three things. Map, filter, reduce. Then filter. Okay. I write filter here. And after this, I am using the same list. I am using the list of L. So I will write new L is equal to. Because I have already made new L. I will say filter. I will say a function which will filter. Okay. A function which will filter. I will give it the name of filter function for now. And I will have to make this function. Yes, I will have to make it. This is not a built-in function which I will not have to make. And I will write return A is greater than 4. Okay. So it takes A and returns A is greater than 4. That means if A is greater than 4, then it returns true. Otherwise, it returns false. You are understanding this thing. If I give greater than 4 value to filter function, then it will return true. And if I give it less than 4 or equal to 4 value, then it will return false. Okay. So you should understand this thing. Great. So I gave new new L the first function. Filter function which returns true or false. Based on the value which is given to it. I will give it L. That's about it. Now I will print new new L. So I will get only those elements which are greater than A and greater than 4. Now it is also giving filter object. Now you will say why is it giving filter object? You can convert it in list. You can do this much. Python is doing everything for you. You can convert it in list. Now see what was here. It was 6, 4 and 3. So only 6 is left which was bigger than 4. So filter only gave this. Okay if I convert it to 3, then what will happen? If I convert it to 2, then what will happen? So greater than 2, all the elements will come. Not equal to 2, greater than 2. From 4 to here you will get whole list. Filter is also simple. Okay. I will tell you about reduce in a while. I will tell you a little bit about map. Let's see about map again. Let's see about filter again. I have to show you lambda function by plugging it. In Python, map, filter, and reduce functions are built-in functions. Which allows you to return a sequence of elements and a new sequence of elements. Input gets a sequence of elements and output gets a sequence of elements. These functions are known as higher order functions as they take other functions as argument. I told you in the last video that function can take function as an argument. Here also, it took cube as an argument. Cube is a function but it took function as an argument. So when function takes function as an argument, it is called higher order function. So map is a higher order function. And filter is also a higher order function. Reduce is also a higher order function. I will tell you about it in a while. Reduce also works exactly like this. It takes a function. But let's come up now. Okay. How does map work? Give it a function. Give it iterable. Give list. Give anything. It should be iterable. The function argument is a function that is applied to each element. That's about it. This was the syntax. You understood it. Okay. Was I required to make a cube function? No. The truth is that it was not. I could have passed a lambda function instead of cube. I could have said lambda takes x and returns x star x star x. My work would have been done in this much. It will work exactly like this. Program will run as it should. I have written print cube 2 here. I will remove it. Now see here. It will give exactly the same output as it was giving earlier. It is still giving all the elements in cubes. It was giving in cubes earlier also. Great. Great. It was fun. Okay. It was fun. Now see. I told you about map. Now let's talk about filter. Okay. You can give lambda function in filter also. What does filter do? It takes a function. It takes an iterable. For which values this function will return true. Those values will be in your output. For which it will return false. Those values will not be in your output. It is that simple. I am giving a function. I am giving a function to filter as the first argument. This function will either return false or true. Okay. For every value of this list. What values do I have in L? 1, 2, 4, 6, 4 and 3. These are the values. For every value this filter function will either return true or false. Will it or not? For which values filter function will return true. Those will be in my list. For which it will return false. Those will not be in my list. It is that simple. That's it. That's it. Okay. I will not confuse you more. I will not confuse you more. Predicate argument is a function. This is a function only. Okay. That returns a boolean value and is applied to each element in the iterable argument. The iterable argument can be a listable or any kind of other iterable object. The easiest iterable object is a list. So learn from the list first. Okay. Great. You have understood this thing. Now let's talk about the reduce function. This is also a higher order function. Okay. This is also a higher order function. This also takes function as an argument. But we have to import this. Okay. So I will do one thing. I am commenting the map and filter I have told you. Okay. The code is written here. You have to get it. Now understand the reduce carefully. First of all, you have to import the reduce. You need to understand this. If I do not import the reduce, I will run it like this. It will say that I do not know what is the reduce. Okay. You should know this thing first. After this, there is a list of numbers. What are we doing? We are reducing these numbers. What does it mean? It means that first of all, take these two values. Okay. One and two. Pass one and two from this function. What is this function? It is simply summing two numbers. This is a lambda function which is summing two numbers. If you are not understanding this, if you are new to lambda function then write sum here. Or write my sum. I have to call a function with the name my sum. Def my sum x, y and here return x plus y. Okay. Return x plus y. I have to do this. Simple. x comma y and return x plus y. Okay. What is happening here? You have to see how it works. See, first of all, these two values will be reduced. One and two will be reduced in three. I will make a copy of this so that you can understand. If I apply my sum function in these two and apply this function which I have given as first argument to reduce. What will be the value of this? What is two plus one? It is three. You don't have to add two and one. You have to apply this function every time. It is written x plus y in this function. That's why I am adding. x is my one. y is my two. x plus y is my three. I will make it three. I will do the same thing for these two. What will be three and three? Will it be six or not? Yes, it will be. After this, six and four. What will be six and four? Will it be eleven or not? No, it won't be. You are not paying attention. It will be ten. Six and four. What are you doing? Okay. It will be ten. So, ten comma five. Now, ten comma five is here. If I sum these two, it will be fifteen. That will be my final output. Here it is. I hope everyone understood this. So, this is how this thing works. I hope you understood the reduce. You must have understood map and filter. I have explained this example. I hope you will understand. If you haven't accessed this playlist yet, then you must access it. I have added all the videos in this. You will get to see everything from day one to series. Now, I would like to make one more request. And that is that if you haven't uploaded your review yet, then give a review by giving stars out of five. Thank you so much. Tech Toneira, you reviewed this course. Thank you so much. Give stars like this. It will be fun in the comment section. I want you to review this course. Give an honest review. And this will make a person who comes to see this course will be able to decide whether he wants to see this course or not. Thank you so much for watching this video. And I will see you next time. Bye Bye."
+}

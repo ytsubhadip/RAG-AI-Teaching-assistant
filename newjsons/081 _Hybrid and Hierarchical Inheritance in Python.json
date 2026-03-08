@@ -1,0 +1,320 @@
+{
+    "chunks": [
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 0.0,
+            "end": 28.0,
+            "text": " In today's video, we will see hybrid inheritance and hierarchical inheritance.  Let's go to the computer screen and I will show you live examples.  Intro  So we will see about hierarchical and hybrid inheritance.  We have seen about inheritance in detail."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 28.0,
+            "end": 44.0,
+            "text": " Single inheritance, multiple inheritance.  So when we use more than one inheritance, it is called hybrid inheritance.  Suppose I have a class A and I have a class B.  Which I have made from A.  You have to understand this carefully."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 44.0,
+            "end": 57.0,
+            "text": " I am writing pass here.  Now I made A and B.  I have made these two classes.  I made B from A.  This is my base class."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 57.0,
+            "end": 71.0,
+            "text": " I will name it as base class.  And I will name it as derived 1.  Which I made from base class.  And I will make derived 2.  I will make derived 2."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 71.0,
+            "end": 83.0,
+            "text": " And I have made this from base class.  Now I will make another class.  With the name derived 3.  With the name derived 3.  And I am making this from base class."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 83.0,
+            "end": 99.0,
+            "text": " In fact, I will make this from derived 1 and derived 2.  Derived 1 and derived 2.  Now you can see what is this.  First of all, if I say what inheritance is this.  If you have seen only this much, then you can tell that this is single inheritance."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 99.0,
+            "end": 111.0,
+            "text": " Simple single inheritance.  But if you see here, what I have highlighted now.  Then you will know what inheritance is this.  This is multiple inheritance.  So this is a combination of multiple classes."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 111.0,
+            "end": 125.0,
+            "text": " And a third class is being made.  So this is the overall inheritance.  This is hybrid inheritance.  We have combined two or more inheritance forms.  So I hope you understood what hybrid inheritance is."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 125.0,
+            "end": 138.0,
+            "text": " Now let me talk about its example.  I can implement some methods here.  I can make some properties here.  That is going to be exactly the same as we saw earlier.  So this is our hybrid inheritance."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 138.0,
+            "end": 153.0,
+            "text": " Now I want to show you what hierarchical inheritance is.  Hierarchical inheritance is a type of inheritance.  Where multiple subclasses inherit from a single base class.  That means there are many subclasses.  Which are being inherited from a single base class."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 153.0,
+            "end": 166.0,
+            "text": " Now it becomes very easy to understand such examples from the diagram.  So if I talk about hybrid inheritance.  Simply you have to write hybrid inheritance on Google.  And here you have to write hierarchical inheritance.  And go to images and you will understand."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 166.0,
+            "end": 183.0,
+            "text": " So let me give you an example of hierarchical inheritance.  And I will simply write here.  Example of hybrid inheritance.  Now I don't want to waste much time on this.  Because you will see the methods and implementations of this."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 183.0,
+            "end": 196.0,
+            "text": " I just want to tell you what exactly is it.  Now here hierarchical inheritance.  What is hierarchy?  First I will talk about hierarchy.  What is hierarchy?"
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 196.0,
+            "end": 206.0,
+            "text": " Suppose there is a CEO.  CEO is someone's company.  What is the CEO doing?  CEO is simply looking.  Who is working under the CEO?"
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 206.0,
+            "end": 220.0,
+            "text": " Suppose three managers are working.  I am just trying to make this.  I am trying to create a visualization.  Suppose three people are working under the CEO.  One is manager 1."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 220.0,
+            "end": 230.0,
+            "text": " Let's call him M1.  Manager 1 is working.  Manager 2 is working.  Then Manager 3 is working.  Then simply some associates are working under manager 1."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 230.0,
+            "end": 240.0,
+            "text": " Some associates are working under manager 2.  So a hierarchy has been created.  Like you see the hierarchy.  If you know any kind of corporate environment.  Then you have seen the hierarchy."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 240.0,
+            "end": 250.0,
+            "text": " That there is someone above one.  Finally at the top.  Who is the CEO.  So whenever we maintain this hierarchy.  This inheritance is called hierarchical inheritance."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 250.0,
+            "end": 260.0,
+            "text": " Let me give you an example.  Suppose I have a base class.  There are many methods in it.  You can make properties in it.  Now what happened."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 260.0,
+            "end": 270.0,
+            "text": " A derived class called D1 was created.  From this base class.  From this base class D1 was created.  And D2 was also created.  D2 was also created."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 270.0,
+            "end": 280.0,
+            "text": " D2 was also created.  D1 was created.  From base class.  And D2 was created.  Now what will happen."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 280.0,
+            "end": 290.0,
+            "text": " Classes will be created from D1.  Suppose D3 was created.  In fact I will copy paste it.  Now D3 was created.  D3 was created from D1."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 290.0,
+            "end": 300.0,
+            "text": " So a hierarchy is created.  This is called hierarchical inheritance.  I want you to make methods and constructors.  You can explore these things by yourself.  Now as I told you."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 300.0,
+            "end": 310.0,
+            "text": " That opening google images.  Is very useful to understand these things.  In fact I will do one thing.  All inheritances.  You need."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 310.0,
+            "end": 320.0,
+            "text": " Multiple inheritance.  Multiple inheritance.  Multiple inheritance.  And I want to tell you.  How simple it is."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 320.0,
+            "end": 330.0,
+            "text": " To understand things from a diagram.  Single, multiple, multi-level,  Hybrid, hierarchical.  And come in everyone's images.  Come in everyone's images."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 330.0,
+            "end": 340.0,
+            "text": " Now see single inheritance.  Is a very simple thing.  Now D3 was created.  Single inheritance.  Multiple inheritance."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 340.0,
+            "end": 350.0,
+            "text": " We said that there are more than one base class.  More than one parent.  A derived class is created from it.  It is called multiple inheritance.  As you can see in the example."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 350.0,
+            "end": 360.0,
+            "text": " It can be more than one.  It can be more than two.  You can see here.  There are four superclasses.  My class is being created from it."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 360.0,
+            "end": 370.0,
+            "text": " This is an example of multiple inheritance.  In this, levels are created.  One level is one.  Is it only two levels?  No, it is not necessary."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 370.0,
+            "end": 380.0,
+            "text": " It can be 7, 8, 10, 15.  As you can see here.  A complex type of multi-level inheritance.  As an example.  You are shown two levels."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 380.0,
+            "end": 390.0,
+            "text": " A to B, B to C.  But in theory.  And in practice.  You will see in many places.  There are more than two levels."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 390.0,
+            "end": 400.0,
+            "text": " This is called multi-level inheritance.  You can remember it like this.  Level. It is called level.  More than one level.  It is called multi-level."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 400.0,
+            "end": 410.0,
+            "text": " Multiple means more than one.  It is very simple.  Single inheritance.  Multiple inheritance.  If it is more than one."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 410.0,
+            "end": 420.0,
+            "text": " It is called multiple inheritance.  Then after this.  Multi-level inheritance.  As you can see here.  B to C. C to D."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 420.0,
+            "end": 430.0,
+            "text": " D to E. In this way.  When we talk about hybrid.  What is hybrid inheritance?  When more than one form comes.  It is called hybrid."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 430.0,
+            "end": 440.0,
+            "text": " It is a hybrid breed.  It is called hybrid seed.  Hybrid means when more than one  things are given to you.  Something is made."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 440.0,
+            "end": 450.0,
+            "text": " For example.  There are hybrid classes.  Online classes.  Hybrid.  Hybrid means you all know."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 450.0,
+            "end": 460.0,
+            "text": " What happens here? More than one inheritance is seen.  Single inheritance is not seen.  Along with that. I am also seeing multi-level.  Look at the derived class in the base class.  Then derived class 3 is being made."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 460.0,
+            "end": 470.0,
+            "text": " But someone can argue.  This is multi-level inheritance.  And there is multiple inheritance.  How is multiple inheritance?  Derived class 3 is being made."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 470.0,
+            "end": 480.0,
+            "text": " More than one form of inheritance has come.  This is hybrid inheritance.  Then we have hierarchical inheritance.  In which hierarchy is seen.  A to B. B to D and E."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 480.0,
+            "end": 490.0,
+            "text": " A to C. C to F and G.  This tree is running below.  We get to see a tree like structure.  In hierarchical inheritance.  Now I want you to implement all this."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 490.0,
+            "end": 500.0,
+            "text": " Do it yourself.  I don't want to discuss it in detail.  Because we have already seen many constructors.  Many methods.  We have seen many methods."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 500.0,
+            "end": 510.0,
+            "text": " Oops. I hope you all understood.  How Python works.  If you haven't accessed the playlist.  Then do it.  That's all for now."
+        },
+        {
+            "number": "081 ",
+            "title": "Hybrid and Hierarchical Inheritance in Python",
+            "start": 510.0,
+            "end": 534.0,
+            "text": " Thank you so much for watching this video.  I will see you next time.  Thank you for watching it."
+        }
+    ],
+    "text": " In today's video, we will see hybrid inheritance and hierarchical inheritance. Let's go to the computer screen and I will show you live examples. Intro So we will see about hierarchical and hybrid inheritance. We have seen about inheritance in detail. Single inheritance, multiple inheritance. So when we use more than one inheritance, it is called hybrid inheritance. Suppose I have a class A and I have a class B. Which I have made from A. You have to understand this carefully. I am writing pass here. Now I made A and B. I have made these two classes. I made B from A. This is my base class. I will name it as base class. And I will name it as derived 1. Which I made from base class. And I will make derived 2. I will make derived 2. And I have made this from base class. Now I will make another class. With the name derived 3. With the name derived 3. And I am making this from base class. In fact, I will make this from derived 1 and derived 2. Derived 1 and derived 2. Now you can see what is this. First of all, if I say what inheritance is this. If you have seen only this much, then you can tell that this is single inheritance. Simple single inheritance. But if you see here, what I have highlighted now. Then you will know what inheritance is this. This is multiple inheritance. So this is a combination of multiple classes. And a third class is being made. So this is the overall inheritance. This is hybrid inheritance. We have combined two or more inheritance forms. So I hope you understood what hybrid inheritance is. Now let me talk about its example. I can implement some methods here. I can make some properties here. That is going to be exactly the same as we saw earlier. So this is our hybrid inheritance. Now I want to show you what hierarchical inheritance is. Hierarchical inheritance is a type of inheritance. Where multiple subclasses inherit from a single base class. That means there are many subclasses. Which are being inherited from a single base class. Now it becomes very easy to understand such examples from the diagram. So if I talk about hybrid inheritance. Simply you have to write hybrid inheritance on Google. And here you have to write hierarchical inheritance. And go to images and you will understand. So let me give you an example of hierarchical inheritance. And I will simply write here. Example of hybrid inheritance. Now I don't want to waste much time on this. Because you will see the methods and implementations of this. I just want to tell you what exactly is it. Now here hierarchical inheritance. What is hierarchy? First I will talk about hierarchy. What is hierarchy? Suppose there is a CEO. CEO is someone's company. What is the CEO doing? CEO is simply looking. Who is working under the CEO? Suppose three managers are working. I am just trying to make this. I am trying to create a visualization. Suppose three people are working under the CEO. One is manager 1. Let's call him M1. Manager 1 is working. Manager 2 is working. Then Manager 3 is working. Then simply some associates are working under manager 1. Some associates are working under manager 2. So a hierarchy has been created. Like you see the hierarchy. If you know any kind of corporate environment. Then you have seen the hierarchy. That there is someone above one. Finally at the top. Who is the CEO. So whenever we maintain this hierarchy. This inheritance is called hierarchical inheritance. Let me give you an example. Suppose I have a base class. There are many methods in it. You can make properties in it. Now what happened. A derived class called D1 was created. From this base class. From this base class D1 was created. And D2 was also created. D2 was also created. D2 was also created. D1 was created. From base class. And D2 was created. Now what will happen. Classes will be created from D1. Suppose D3 was created. In fact I will copy paste it. Now D3 was created. D3 was created from D1. So a hierarchy is created. This is called hierarchical inheritance. I want you to make methods and constructors. You can explore these things by yourself. Now as I told you. That opening google images. Is very useful to understand these things. In fact I will do one thing. All inheritances. You need. Multiple inheritance. Multiple inheritance. Multiple inheritance. And I want to tell you. How simple it is. To understand things from a diagram. Single, multiple, multi-level, Hybrid, hierarchical. And come in everyone's images. Come in everyone's images. Now see single inheritance. Is a very simple thing. Now D3 was created. Single inheritance. Multiple inheritance. We said that there are more than one base class. More than one parent. A derived class is created from it. It is called multiple inheritance. As you can see in the example. It can be more than one. It can be more than two. You can see here. There are four superclasses. My class is being created from it. This is an example of multiple inheritance. In this, levels are created. One level is one. Is it only two levels? No, it is not necessary. It can be 7, 8, 10, 15. As you can see here. A complex type of multi-level inheritance. As an example. You are shown two levels. A to B, B to C. But in theory. And in practice. You will see in many places. There are more than two levels. This is called multi-level inheritance. You can remember it like this. Level. It is called level. More than one level. It is called multi-level. Multiple means more than one. It is very simple. Single inheritance. Multiple inheritance. If it is more than one. It is called multiple inheritance. Then after this. Multi-level inheritance. As you can see here. B to C. C to D. D to E. In this way. When we talk about hybrid. What is hybrid inheritance? When more than one form comes. It is called hybrid. It is a hybrid breed. It is called hybrid seed. Hybrid means when more than one things are given to you. Something is made. For example. There are hybrid classes. Online classes. Hybrid. Hybrid means you all know. What happens here? More than one inheritance is seen. Single inheritance is not seen. Along with that. I am also seeing multi-level. Look at the derived class in the base class. Then derived class 3 is being made. But someone can argue. This is multi-level inheritance. And there is multiple inheritance. How is multiple inheritance? Derived class 3 is being made. More than one form of inheritance has come. This is hybrid inheritance. Then we have hierarchical inheritance. In which hierarchy is seen. A to B. B to D and E. A to C. C to F and G. This tree is running below. We get to see a tree like structure. In hierarchical inheritance. Now I want you to implement all this. Do it yourself. I don't want to discuss it in detail. Because we have already seen many constructors. Many methods. We have seen many methods. Oops. I hope you all understood. How Python works. If you haven't accessed the playlist. Then do it. That's all for now. Thank you so much for watching this video. I will see you next time. Thank you for watching it."
+}

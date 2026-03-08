@@ -1,0 +1,859 @@
+{
+    "chunks": [
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 0.0,
+            "end": 30.0,
+            "text": " Namaskar, ladies and gentlemen, I am Mitabh Bachchan and you are watching Kaun Panega Crorepati.  So welcome back to 100 days of code.  I gave you an exercise and I told you that you have to write a python program with which people can play Kaun Panega Crorepati.  In today's video, we are going to see this and I will show you how the Kaun Panega Crorepati game can be made in Python programming.  I will give a shoutout to people because I know I will get to see a lot of amazing replicas of you guys."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 30.0,
+            "end": 66.0,
+            "text": " In which you must have told in a very simple way that how to make Kaun Panega Crorepati.  Let's go to the computer screen and let's get started.  So first of all, without wasting time, I want to show you how this program is written.  And after writing this program, we will see who solved it and how dangerous it is.  I want to give you a shoutout from the bottom of my heart if you have made something good."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 66.0,
+            "end": 92.0,
+            "text": " So first of all, I will make an array of questions.  So I will say questions is equal to, that is, our questions will be here.  So what I will do in my mind is that I will take a set format in my mind that my questions are going to be a list.  Now many people call the list an array because in C it is called an array, in JavaScript it is called an array.  Technically it is wrong if you are calling the list an array in Python."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 92.0,
+            "end": 117.0,
+            "text": " But if Python is your first language or you only do Python, then I will tell you that if anyone calls you an array,  then understand that he is talking about the list.  If he says object in Python, then you understand that he is talking to you about the dictionary.  If you are a JavaScript programmer, someone is telling you that the dictionary means object.  Anyway, keeping all these things aside, what we will do is make a format."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 117.0,
+            "end": 139.0,
+            "text": " Suppose I say, which language was used to create Facebook?  This is a question. Now what I will do is that the next one will be option 1.  The next one will be option 2.  I know there are many funny options.  And I say JavaScript."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 139.0,
+            "end": 158.0,
+            "text": " This is a very simple question, don't debate with me that Facebook was also made from JavaScript.  Facebook was made from this.  I am just presenting a random question here.  And I just want to tell you how we have to make this game.  Now the correct option is option number."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 158.0,
+            "end": 176.0,
+            "text": " I will do one thing, I will write the correct index in it.  Its correct answer is 0, 1, 2, 3, 4.  I will say that the answer in the fourth index is correct.  This is going to be my format.  I am going to write this according to you."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 176.0,
+            "end": 195.0,
+            "text": " I found this on the web for correct option.  Option number man is made of correct index.  I don't know what happens to Siri, but I keep my work here.  And my questions are going to be exactly like this.  Now I will replace these questions and fill all these indices."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 195.0,
+            "end": 207.0,
+            "text": " But for now I have to run my program.  So I will just make it like this.  And after making it, you know what I am going to do?  I will simply run a loop here.  I know that I have to run a loop."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 207.0,
+            "end": 225.0,
+            "text": " But before the loop, I want to see what are the levels in KVC.  Maybe I got something on the Wikipedia page.  I just have to see how much the levels are.  See this is the amount.  Level, level, level, I got it right."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 225.0,
+            "end": 237.0,
+            "text": " There are levels from 1000 to 1 crore.  So it's quite good.  So I will do one thing.  I will fill the levels quickly.  So I will write here, levels is equal to."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 237.0,
+            "end": 251.0,
+            "text": " First I will write 1000 rupees.  Then you guys give the second answer correctly.  So 2000 rupees and along with that I will fill it completely.  I have filled the levels completely.  So these are the levels that will be used in our KVC game."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 251.0,
+            "end": 269.0,
+            "text": " Now what am I going to do here?  I am going to write here i is equal to 0.  By the way, there is an enumerate function about which we will talk soon.  And I will write here for i in range.  And I will write here 0 to length of questions."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 269.0,
+            "end": 283.0,
+            "text": " Okay, I will do something like this.  And our question will be like this.  Question is equal to question i.  So I will do something like this.  Question is equal to question i, sorry."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 283.0,
+            "end": 293.0,
+            "text": " Because the questions are listed.  So I will do something like this.  So I got a question.  I got an index.  Now what I will do is I will print it like this."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 293.0,
+            "end": 311.0,
+            "text": " I will say that first of all, the question should be presented in front of the user.  So I will write here, question for rupees.  I will say that your next question is for how much money?  I will write here.  The level is running, that is, whatever question is running, the levels have come."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 311.0,
+            "end": 323.0,
+            "text": " Now I have to present the options.  So what I will do is I will print here.  I will put an f string.  And after putting the f string, I will simply present the first option.  What is my first option? Question 1."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 323.0,
+            "end": 333.0,
+            "text": " Now you will say why?  I will explain why question 1.  First I will write it.  Then I will explain to you.  You will say that it is being written."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 333.0,
+            "end": 345.0,
+            "text": " I will explain now, why are you taking tension?  And I will put a curly bracket here.  So what I will do is I wrote a here.  And I will take some spaces here and write b here.  I will take some space for myself."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 345.0,
+            "end": 355.0,
+            "text": " Why is it not coming to resize?  No problem.  No problem.  I should close it.  Now it is fine."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 355.0,
+            "end": 365.0,
+            "text": " So this is question 2.  Then after this, question 3.  And question 4.  Many of you must have understood why I am writing this.  But if anyone does not understand, then that's fine."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 365.0,
+            "end": 375.0,
+            "text": " So my first option is here.  Sorry, the first option is here.  So you see here, this is my question.  Question 0.  Then after this, question 1 is my first option."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 375.0,
+            "end": 385.0,
+            "text": " Question 2 is my second option.  Question 3 is my third option.  Question 4 is my fourth option.  So I have presented these four options in front of the user.  I said, brother, now you tell me"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 385.0,
+            "end": 397.0,
+            "text": " which is the right answer out of these four.  Now the user will reply.  So I will say, reply is equal to  int of, it can reply me by 1, 2, 3, 4.  I can also complex this program by putting a loop."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 397.0,
+            "end": 407.0,
+            "text": " That if the user wrote A, then  make it 1.  If B is written, then make it 2.  And so on.  But what I will do here is"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 407.0,
+            "end": 417.0,
+            "text": " that I will write,  enter your answer.  Okay.  1 to 4.  Okay."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 417.0,
+            "end": 427.0,
+            "text": " You have to write in this format.  1, 2, 3, 4.  Now what I will do is, I will simply write here  that reply should be equal to  of whose?"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 427.0,
+            "end": 437.0,
+            "text": " Whose?  Whose should it be?  Reply is my index.  Okay.  So I have a question minus 1."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 437.0,
+            "end": 447.0,
+            "text": " Okay.  So the right answer in this is  option number,  not option number 4, index number 4  in this array."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 447.0,
+            "end": 457.0,
+            "text": " So I got easy here.  That's why I used it like this.  I hope you understood.  Now what I will do is, I will print and I will write an abstain here.  And I will simply write here"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 457.0,
+            "end": 467.0,
+            "text": " correct  answer.  Okay.  And you have  1."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 467.0,
+            "end": 477.0,
+            "text": " And how much rupees?  Levels i.  Levels i is done and after that  I  did it like this."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 477.0,
+            "end": 487.0,
+            "text": " You have 1 levels i rupees.  Now I will write here like this.  Rupees levels i.  After doing this,  if the correct answer is there, it will show this."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 487.0,
+            "end": 497.0,
+            "text": " Otherwise, what will be shown to you?  Print  wrong  answer.  This wrong answer will be shown to you."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 497.0,
+            "end": 507.0,
+            "text": " Okay. And if the wrong answer  is there, then it will be broken.  Okay. By the way, the real KVC  what happens in that?  In that, there are levels, if you"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 507.0,
+            "end": 517.0,
+            "text": " quit, if you want to quit,  then you can break the loop.  But if you have played up to a certain level,  maybe up to 3,20,000,  I will see here. Yes. Like if you"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 517.0,
+            "end": 527.0,
+            "text": " have earned 10,000 rupees, then if you have  given a wrong answer here, then you will be at 10,000 only.  If you have won 3,20,000 once  and here you have given a wrong answer,  then you will come directly at 3,20,000."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 527.0,
+            "end": 537.0,
+            "text": " So yes, you can say this.  You can make a variable named master level.  And after that you  can do this that  if you have won 10,000 rupees,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 537.0,
+            "end": 547.0,
+            "text": " then 10,000 are yours. Okay.  So I do one thing, I can do one thing.  I can write here  like this that money  is equal to zero. Okay."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 547.0,
+            "end": 557.0,
+            "text": " I said that money should be zero.  Now I can write here that  if you have given the question number  to what extent, the answer of your question,  if you have solved 5 questions, okay."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 557.0,
+            "end": 567.0,
+            "text": " That means  if your answer is correct  and the value of i  is  what is the value of i?"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 567.0,
+            "end": 577.0,
+            "text": " Zero. I will see from here.  Zero, one, two, three, four.  If your value of i is four,  then  your money"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 577.0,
+            "end": 587.0,
+            "text": " will be 10,000.  Okay. Your money will be 10,000.  And I have written 3,20,000.  I was very lazy. I did not write it further.  You can write it."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 587.0,
+            "end": 597.0,
+            "text": " So you will increase it. It is not a big deal.  Okay. But I  want to tell you that the value of money is zero.  Now assume that  we have given 4 indexes,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 597.0,
+            "end": 607.0,
+            "text": " 5 questions, the answer is correct, then your money will be this.  Okay. And I will  write here else if the value of i  is how much?  If the value of i"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 607.0,
+            "end": 617.0,
+            "text": " is here, you can see that  when it was four, what did I do?  I did 10,000. When it becomes nine,  then I will do 3,20,000. Okay.  When the value of i becomes nine,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 617.0,
+            "end": 627.0,
+            "text": " then what will I do? I will do the value of money  3,20,000. Okay.  So money means what you are going to  take home. 3,20,000.  Okay. 3,20,000."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 627.0,
+            "end": 637.0,
+            "text": " Is that correct?  Okay. 3,20,000.  It is else if. It is not else if.  Okay. Now here I have done this.  Now increase it to 1 crore."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 637.0,
+            "end": 647.0,
+            "text": " And then put one more condition here  that I will put it. Otherwise, why did I not put it?  If it becomes 14, then it will be 1 crore.  Okay. If it becomes 14, then  1 crore. You can increase this game further."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 647.0,
+            "end": 657.0,
+            "text": " If you want, you have more money to give.  If you want to do 7 crore, then  I will make it 14 and I will do  that 3,  2, 5, and"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 657.0,
+            "end": 667.0,
+            "text": " 6, and 7. 7 is zero in crores.  Everyone remembers. Okay.  It will help when you become a  millionaire. Now see here  print wrong answer. Break. Okay."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 667.0,
+            "end": 677.0,
+            "text": " Now here you see money is equal to this.  Money is equal to this. Everything is going well.  But I have so many questions that I can go to this level.  I will have to make that many questions.  So I will do one thing for now."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 677.0,
+            "end": 687.0,
+            "text": " I am replicating this.  And I know that it is a little boring.  It is a little boring. You will say that let's put some questions.  I just want to tell you how it is made.  Okay. I am not putting questions now."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 687.0,
+            "end": 697.0,
+            "text": " You put it. I run it.  Maybe there is an error.  What happened? I did it wrong.  Questions.  Okay. I got it."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 697.0,
+            "end": 707.0,
+            "text": " So what I have to do is  for i in range  length of questions.  I have to do this.  Questions i 1. Like this."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 707.0,
+            "end": 717.0,
+            "text": " Because questions i will be followed by questions.  And after that  1. So do it like this.  I printed the whole list.  So yes. Many people"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 717.0,
+            "end": 727.0,
+            "text": " will be saying that  Okay. I got it.  Why did I do this? I understood.  I should have done question 1.  I did questions 1."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 727.0,
+            "end": 737.0,
+            "text": " Because I have written above.  Question is equal to questions i.  Okay. It will work.  Let's stop it and run it again.  Okay. Question for rupees 1000."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 737.0,
+            "end": 747.0,
+            "text": " Obviously 4.  Okay. PHP.  Wrong answer. How did this work?  How did this work?  I did something wrong. Let me see."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 747.0,
+            "end": 757.0,
+            "text": " Did I write questions again?  I said okay.  Question minus 1. Again here.  I did the same mistake.  First question. 1000 rupees."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 757.0,
+            "end": 767.0,
+            "text": " On your computer screen.  Here it is.  Second question. 2000 rupees.  You won 1000 rupees.  Second question. 2000 rupees."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 767.0,
+            "end": 777.0,
+            "text": " On your computer screen.  Computer Mahasaya.  It was right.  You can do this with many things.  As your skills increase,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 777.0,
+            "end": 787.0,
+            "text": " you can do many things.  I will give a gap here.  I will give a gap here.  I will write backslash twice.  There will be a gap. I will stop it."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 787.0,
+            "end": 797.0,
+            "text": " Now  here  I will do one more thing.  I will write how much money you are taking home.  Your"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 797.0,
+            "end": 807.0,
+            "text": " take  home money is  and here money.  This is take home money.  Assume you gave the answer to the first question."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 807.0,
+            "end": 817.0,
+            "text": " What happened?  Assume you gave the answer to the first question.  You gave the right answer to the second question.  You gave the right answer to the third question.  You gave the right answer to the fourth question."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 817.0,
+            "end": 827.0,
+            "text": " And you gave the right answer to the fifth question.  You won 10,000.  If you gave the wrong answer,  then your take home money will be  10,000."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 827.0,
+            "end": 837.0,
+            "text": " If I run this program again  and I do something like  I gave the answer to the first, second,  and third question right.  But I did it wrong."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 837.0,
+            "end": 847.0,
+            "text": " Then my take home money will be zero.  I implemented this logic.  All the logics are implemented.  You can do the logic of 7 crores.  You can do all these things."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 847.0,
+            "end": 857.0,
+            "text": " If I did something wrong,  then implement it.  I just wrote a simple program.  I just wrote a simple program.  Now it's time"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 857.0,
+            "end": 867.0,
+            "text": " to  give you shout outs.  I will give you shout outs.  Why not?  This is our exercise number 3."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 867.0,
+            "end": 877.0,
+            "text": " I told you to make a new crore.  I told you to make a new crore.  Display the final amount.  I didn't read the question.  I should have read it again."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 877.0,
+            "end": 887.0,
+            "text": " I did this.  List data type to store the questions  and the correct answer.  Display the final amount.  The person is taking home after playing the game."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 887.0,
+            "end": 897.0,
+            "text": " I did this.  Now what we have to do?  Give a shout out to  the person who solved it.  I know that"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 897.0,
+            "end": 907.0,
+            "text": " I can see the rapples.  The tempo is very high.  The tempo is very high.  I will sit and scroll for a while.  I will scroll for 5 minutes."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 907.0,
+            "end": 917.0,
+            "text": " I will scroll for 5 minutes.  I will cut this portion.  The first question  was not solved here.  Ubaid, solve the question."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 917.0,
+            "end": 927.0,
+            "text": " It's not like this in exercise.  The first code was done by Cody Anderson.  I want to see his rapples.  Cody, your rapples  have already received a shout out."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 927.0,
+            "end": 937.0,
+            "text": " Will you get a shout out from me?  If your code is wrong,  I will give you a shout out.  I don't know the name of the code.  I don't want to get exposed."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 937.0,
+            "end": 947.0,
+            "text": " I am randomly guessing.  You will judge me.  You will say that you don't know the code.  I am randomly guessing.  I didn't see the option."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 947.0,
+            "end": 957.0,
+            "text": " It's not like this in KBC.  You are displaying the next question.  It's not like this.  You should finish the game.  You should finish the game."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 957.0,
+            "end": 967.0,
+            "text": " If the user answers wrongly,  then you should simulate KBC.  But it's good.  You have tried it.  You can also tell me"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 967.0,
+            "end": 977.0,
+            "text": " that you didn't make a lifeline.  You didn't do this.  You didn't make an option to quit.  I will make an option to quit.  So that your complaints end."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 977.0,
+            "end": 987.0,
+            "text": " Otherwise, it will be like this.  I will write here simply.  What will I write?  Enter your answer 1 to 4  and press Q to quit."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 987.0,
+            "end": 997.0,
+            "text": " And press 0 to quit.  And  0 to quit.  0 to quit.  Now I will write"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 997.0,
+            "end": 1011.0,
+            "text": " if reply equals  to 0  to 0, then break.  Break.  But before break,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1011.0,
+            "end": 1021.0,
+            "text": " money is equal to  what will happen?  If reply equals to 0,  then I will have to  do level psi minus 1."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1021.0,
+            "end": 1033.0,
+            "text": " I will have to test it.  Level psi minus 1.  Because you will get the money  you earned till the last question.  Now let's see."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1033.0,
+            "end": 1043.0,
+            "text": " I came back to my Apple  in the middle of the shoutout.  Why did you go back to your Apple?  I broke it.  I won 2000 and broke it again."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1043.0,
+            "end": 1053.0,
+            "text": " I won 3000. Now I want to quit.  I will press 0 to enter.  Takeo money is 2000.  I have quit in this question.  I have made a option to quit."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1053.0,
+            "end": 1063.0,
+            "text": " Now no one will complain.  I am ignoring your rappels.  I will show all the rappels.  I will not be able to show all.  But I will show mostly."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1063.0,
+            "end": 1073.0,
+            "text": " I will give shoutout to many people.  Kunal Panchal's next rappel comes here.  I am waiting for a dangerous rappel.  It will be fun to watch.  This is the rappel."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1073.0,
+            "end": 1083.0,
+            "text": " Now they have made it in a similar way.  Question 1.  They have made it by formatting the string.  Which is fine.  User is equal to string."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1083.0,
+            "end": 1093.0,
+            "text": " It is in the string.  Or user equals to c.  If user equals to c,  you could have done  user.lowercase."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1093.0,
+            "end": 1103.0,
+            "text": " You could have done user.lower equals to c.  I am just telling.  And  current amount is given after this.  It is fine."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1103.0,
+            "end": 1113.0,
+            "text": " You could have put a loop.  You have not done hard coding.  Why did you do hard coding?  Use loop.  You will sit here to change."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1113.0,
+            "end": 1123.0,
+            "text": " Instead of entering your choice,  you have to punch in your answer.  For some reason.  You don't have to change everywhere.  You have to do it at one place."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1123.0,
+            "end": 1133.0,
+            "text": " It is fine.  Your program is very good.  I am not saying  it is wrong or bad.  You have made a very good program."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1133.0,
+            "end": 1143.0,
+            "text": " Kunal Panchal.  Next exercise.  I will move to next rappel.  Shivam Pathak 16.  He has not done hard coding."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1143.0,
+            "end": 1153.0,
+            "text": " He has made a list of third option.  Which is fine.  It is not less maintainable.  You have made a list of all four options.  I am just saying."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1153.0,
+            "end": 1163.0,
+            "text": " According to me, this program is less maintainable.  My program is much better.  I am not saying  don't take it like this.  It is maintainable."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1163.0,
+            "end": 1173.0,
+            "text": " I have made just one object.  List of list.  You have made four different variables.  I can see the question.  I am so portioned."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1173.0,
+            "end": 1183.0,
+            "text": " I can see the question, answer, options.  Do you know what is the problem in your rappel?  I can see.  I can see the problem.  If I have to find the answer of the question,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1183.0,
+            "end": 1193.0,
+            "text": " I have to go here.  I am not saying that this is superior.  This is inferior.  I am just saying my thoughts.  You have made exactly"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1193.0,
+            "end": 1203.0,
+            "text": " as I have made.  We get a lot of thoughts.  We get a lot of thoughts.  Is less than length of question list.  You have used while loop."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1203.0,
+            "end": 1213.0,
+            "text": " Good.  It is a good program.  You have to think about it.  Rest is good.  Nothing is wrong."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1213.0,
+            "end": 1223.0,
+            "text": " As long as your program works.  As long as your code is maintainable.  As long as you are writing your program  under the given conditions.  It is good."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1223.0,
+            "end": 1233.0,
+            "text": " What difference does it make?  It should be work.  Then after this  Atharva Patel, Om Ratan, Anukul Chauhan,  Hamza Niazi, Neha Srivastav,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1233.0,
+            "end": 1243.0,
+            "text": " Yusuf Ali, Piyush,  Suandeep, AR Siddharth,  Why did you take so many shoutouts?  My finger got tired.  Who is this?"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1243.0,
+            "end": 1253.0,
+            "text": " Krishna Sarathi.  My finger will become a body.  Krishna Anantu,  Gyan Kumar,  Solo Gamer."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1253.0,
+            "end": 1263.0,
+            "text": " Why are you taking shoutouts twice?  Yugam Tiwana.  Your trick worked.  Congratulations.  Naan Altaf."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1263.0,
+            "end": 1273.0,
+            "text": " I will do it 5 times.  I will get 5 shoutouts.  Rishabh Yadav.  Then Shreeshrid Multi.  I am sorry."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1273.0,
+            "end": 1283.0,
+            "text": " If I am pronouncing it wrong.  Suryansh Kumar,  Atharva Yadav, Shubham Kumar.  He hit it here.  Which is the best line?"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1283.0,
+            "end": 1293.0,
+            "text": " Don't do hard coding.  I am not saying this.  You are beginners.  But try to use your brain.  I have to maintain it."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1293.0,
+            "end": 1303.0,
+            "text": " I have to change it.  After Aryan Patil,  Aadhar,  Kadian, Code with Pravar,  and Summon90."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1303.0,
+            "end": 1313.0,
+            "text": " Naeem Sheikh.  A big shoutout to Naeem Sheikh.  I hope you enjoyed it.  We will meet in the next exercise.  Those who didn't get a shoutout,"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1313.0,
+            "end": 1323.0,
+            "text": " try to watch the video as soon as possible.  Understand the question.  Post your answer.  You are learning.  You are growing."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1323.0,
+            "end": 1333.0,
+            "text": " Give attendance daily.  Do me a favor.  What do you want to do?  Open the first video.  Go to the first video."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1333.0,
+            "end": 1343.0,
+            "text": " Open the first video.  Write a comment below.  Tell us how you liked the course.  Tell us how you liked the course.  Thank you so much to everyone."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1343.0,
+            "end": 1353.0,
+            "text": " Thank you so much to everyone.  I want you to post your review.  So that everyone who is going to start it,  when 100 days are completed,  anyone who wants to learn"
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1353.0,
+            "end": 1363.0,
+            "text": " Python,  I want them to understand it well.  I want them to understand it well.  If you like it,  tell me."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1363.0,
+            "end": 1373.0,
+            "text": " You can praise me.  In fact, I don't want to  start it.  Give a rating of 5.  That's all for now."
+        },
+        {
+            "number": "039 ",
+            "title": "Kaun Banega Crorepati\uff1a Exercise 3 - Solution & Shoutouts",
+            "start": 1373.0,
+            "end": 1377.0,
+            "text": " Thank you so much for watching this video.  I will see you next time."
+        }
+    ],
+    "text": " Namaskar, ladies and gentlemen, I am Mitabh Bachchan and you are watching Kaun Panega Crorepati. So welcome back to 100 days of code. I gave you an exercise and I told you that you have to write a python program with which people can play Kaun Panega Crorepati. In today's video, we are going to see this and I will show you how the Kaun Panega Crorepati game can be made in Python programming. I will give a shoutout to people because I know I will get to see a lot of amazing replicas of you guys. In which you must have told in a very simple way that how to make Kaun Panega Crorepati. Let's go to the computer screen and let's get started. So first of all, without wasting time, I want to show you how this program is written. And after writing this program, we will see who solved it and how dangerous it is. I want to give you a shoutout from the bottom of my heart if you have made something good. So first of all, I will make an array of questions. So I will say questions is equal to, that is, our questions will be here. So what I will do in my mind is that I will take a set format in my mind that my questions are going to be a list. Now many people call the list an array because in C it is called an array, in JavaScript it is called an array. Technically it is wrong if you are calling the list an array in Python. But if Python is your first language or you only do Python, then I will tell you that if anyone calls you an array, then understand that he is talking about the list. If he says object in Python, then you understand that he is talking to you about the dictionary. If you are a JavaScript programmer, someone is telling you that the dictionary means object. Anyway, keeping all these things aside, what we will do is make a format. Suppose I say, which language was used to create Facebook? This is a question. Now what I will do is that the next one will be option 1. The next one will be option 2. I know there are many funny options. And I say JavaScript. This is a very simple question, don't debate with me that Facebook was also made from JavaScript. Facebook was made from this. I am just presenting a random question here. And I just want to tell you how we have to make this game. Now the correct option is option number. I will do one thing, I will write the correct index in it. Its correct answer is 0, 1, 2, 3, 4. I will say that the answer in the fourth index is correct. This is going to be my format. I am going to write this according to you. I found this on the web for correct option. Option number man is made of correct index. I don't know what happens to Siri, but I keep my work here. And my questions are going to be exactly like this. Now I will replace these questions and fill all these indices. But for now I have to run my program. So I will just make it like this. And after making it, you know what I am going to do? I will simply run a loop here. I know that I have to run a loop. But before the loop, I want to see what are the levels in KVC. Maybe I got something on the Wikipedia page. I just have to see how much the levels are. See this is the amount. Level, level, level, I got it right. There are levels from 1000 to 1 crore. So it's quite good. So I will do one thing. I will fill the levels quickly. So I will write here, levels is equal to. First I will write 1000 rupees. Then you guys give the second answer correctly. So 2000 rupees and along with that I will fill it completely. I have filled the levels completely. So these are the levels that will be used in our KVC game. Now what am I going to do here? I am going to write here i is equal to 0. By the way, there is an enumerate function about which we will talk soon. And I will write here for i in range. And I will write here 0 to length of questions. Okay, I will do something like this. And our question will be like this. Question is equal to question i. So I will do something like this. Question is equal to question i, sorry. Because the questions are listed. So I will do something like this. So I got a question. I got an index. Now what I will do is I will print it like this. I will say that first of all, the question should be presented in front of the user. So I will write here, question for rupees. I will say that your next question is for how much money? I will write here. The level is running, that is, whatever question is running, the levels have come. Now I have to present the options. So what I will do is I will print here. I will put an f string. And after putting the f string, I will simply present the first option. What is my first option? Question 1. Now you will say why? I will explain why question 1. First I will write it. Then I will explain to you. You will say that it is being written. I will explain now, why are you taking tension? And I will put a curly bracket here. So what I will do is I wrote a here. And I will take some spaces here and write b here. I will take some space for myself. Why is it not coming to resize? No problem. No problem. I should close it. Now it is fine. So this is question 2. Then after this, question 3. And question 4. Many of you must have understood why I am writing this. But if anyone does not understand, then that's fine. So my first option is here. Sorry, the first option is here. So you see here, this is my question. Question 0. Then after this, question 1 is my first option. Question 2 is my second option. Question 3 is my third option. Question 4 is my fourth option. So I have presented these four options in front of the user. I said, brother, now you tell me which is the right answer out of these four. Now the user will reply. So I will say, reply is equal to int of, it can reply me by 1, 2, 3, 4. I can also complex this program by putting a loop. That if the user wrote A, then make it 1. If B is written, then make it 2. And so on. But what I will do here is that I will write, enter your answer. Okay. 1 to 4. Okay. You have to write in this format. 1, 2, 3, 4. Now what I will do is, I will simply write here that reply should be equal to of whose? Whose? Whose should it be? Reply is my index. Okay. So I have a question minus 1. Okay. So the right answer in this is option number, not option number 4, index number 4 in this array. So I got easy here. That's why I used it like this. I hope you understood. Now what I will do is, I will print and I will write an abstain here. And I will simply write here correct answer. Okay. And you have 1. And how much rupees? Levels i. Levels i is done and after that I did it like this. You have 1 levels i rupees. Now I will write here like this. Rupees levels i. After doing this, if the correct answer is there, it will show this. Otherwise, what will be shown to you? Print wrong answer. This wrong answer will be shown to you. Okay. And if the wrong answer is there, then it will be broken. Okay. By the way, the real KVC what happens in that? In that, there are levels, if you quit, if you want to quit, then you can break the loop. But if you have played up to a certain level, maybe up to 3,20,000, I will see here. Yes. Like if you have earned 10,000 rupees, then if you have given a wrong answer here, then you will be at 10,000 only. If you have won 3,20,000 once and here you have given a wrong answer, then you will come directly at 3,20,000. So yes, you can say this. You can make a variable named master level. And after that you can do this that if you have won 10,000 rupees, then 10,000 are yours. Okay. So I do one thing, I can do one thing. I can write here like this that money is equal to zero. Okay. I said that money should be zero. Now I can write here that if you have given the question number to what extent, the answer of your question, if you have solved 5 questions, okay. That means if your answer is correct and the value of i is what is the value of i? Zero. I will see from here. Zero, one, two, three, four. If your value of i is four, then your money will be 10,000. Okay. Your money will be 10,000. And I have written 3,20,000. I was very lazy. I did not write it further. You can write it. So you will increase it. It is not a big deal. Okay. But I want to tell you that the value of money is zero. Now assume that we have given 4 indexes, 5 questions, the answer is correct, then your money will be this. Okay. And I will write here else if the value of i is how much? If the value of i is here, you can see that when it was four, what did I do? I did 10,000. When it becomes nine, then I will do 3,20,000. Okay. When the value of i becomes nine, then what will I do? I will do the value of money 3,20,000. Okay. So money means what you are going to take home. 3,20,000. Okay. 3,20,000. Is that correct? Okay. 3,20,000. It is else if. It is not else if. Okay. Now here I have done this. Now increase it to 1 crore. And then put one more condition here that I will put it. Otherwise, why did I not put it? If it becomes 14, then it will be 1 crore. Okay. If it becomes 14, then 1 crore. You can increase this game further. If you want, you have more money to give. If you want to do 7 crore, then I will make it 14 and I will do that 3, 2, 5, and 6, and 7. 7 is zero in crores. Everyone remembers. Okay. It will help when you become a millionaire. Now see here print wrong answer. Break. Okay. Now here you see money is equal to this. Money is equal to this. Everything is going well. But I have so many questions that I can go to this level. I will have to make that many questions. So I will do one thing for now. I am replicating this. And I know that it is a little boring. It is a little boring. You will say that let's put some questions. I just want to tell you how it is made. Okay. I am not putting questions now. You put it. I run it. Maybe there is an error. What happened? I did it wrong. Questions. Okay. I got it. So what I have to do is for i in range length of questions. I have to do this. Questions i 1. Like this. Because questions i will be followed by questions. And after that 1. So do it like this. I printed the whole list. So yes. Many people will be saying that Okay. I got it. Why did I do this? I understood. I should have done question 1. I did questions 1. Because I have written above. Question is equal to questions i. Okay. It will work. Let's stop it and run it again. Okay. Question for rupees 1000. Obviously 4. Okay. PHP. Wrong answer. How did this work? How did this work? I did something wrong. Let me see. Did I write questions again? I said okay. Question minus 1. Again here. I did the same mistake. First question. 1000 rupees. On your computer screen. Here it is. Second question. 2000 rupees. You won 1000 rupees. Second question. 2000 rupees. On your computer screen. Computer Mahasaya. It was right. You can do this with many things. As your skills increase, you can do many things. I will give a gap here. I will give a gap here. I will write backslash twice. There will be a gap. I will stop it. Now here I will do one more thing. I will write how much money you are taking home. Your take home money is and here money. This is take home money. Assume you gave the answer to the first question. What happened? Assume you gave the answer to the first question. You gave the right answer to the second question. You gave the right answer to the third question. You gave the right answer to the fourth question. And you gave the right answer to the fifth question. You won 10,000. If you gave the wrong answer, then your take home money will be 10,000. If I run this program again and I do something like I gave the answer to the first, second, and third question right. But I did it wrong. Then my take home money will be zero. I implemented this logic. All the logics are implemented. You can do the logic of 7 crores. You can do all these things. If I did something wrong, then implement it. I just wrote a simple program. I just wrote a simple program. Now it's time to give you shout outs. I will give you shout outs. Why not? This is our exercise number 3. I told you to make a new crore. I told you to make a new crore. Display the final amount. I didn't read the question. I should have read it again. I did this. List data type to store the questions and the correct answer. Display the final amount. The person is taking home after playing the game. I did this. Now what we have to do? Give a shout out to the person who solved it. I know that I can see the rapples. The tempo is very high. The tempo is very high. I will sit and scroll for a while. I will scroll for 5 minutes. I will scroll for 5 minutes. I will cut this portion. The first question was not solved here. Ubaid, solve the question. It's not like this in exercise. The first code was done by Cody Anderson. I want to see his rapples. Cody, your rapples have already received a shout out. Will you get a shout out from me? If your code is wrong, I will give you a shout out. I don't know the name of the code. I don't want to get exposed. I am randomly guessing. You will judge me. You will say that you don't know the code. I am randomly guessing. I didn't see the option. It's not like this in KBC. You are displaying the next question. It's not like this. You should finish the game. You should finish the game. If the user answers wrongly, then you should simulate KBC. But it's good. You have tried it. You can also tell me that you didn't make a lifeline. You didn't do this. You didn't make an option to quit. I will make an option to quit. So that your complaints end. Otherwise, it will be like this. I will write here simply. What will I write? Enter your answer 1 to 4 and press Q to quit. And press 0 to quit. And 0 to quit. 0 to quit. Now I will write if reply equals to 0 to 0, then break. Break. But before break, money is equal to what will happen? If reply equals to 0, then I will have to do level psi minus 1. I will have to test it. Level psi minus 1. Because you will get the money you earned till the last question. Now let's see. I came back to my Apple in the middle of the shoutout. Why did you go back to your Apple? I broke it. I won 2000 and broke it again. I won 3000. Now I want to quit. I will press 0 to enter. Takeo money is 2000. I have quit in this question. I have made a option to quit. Now no one will complain. I am ignoring your rappels. I will show all the rappels. I will not be able to show all. But I will show mostly. I will give shoutout to many people. Kunal Panchal's next rappel comes here. I am waiting for a dangerous rappel. It will be fun to watch. This is the rappel. Now they have made it in a similar way. Question 1. They have made it by formatting the string. Which is fine. User is equal to string. It is in the string. Or user equals to c. If user equals to c, you could have done user.lowercase. You could have done user.lower equals to c. I am just telling. And current amount is given after this. It is fine. You could have put a loop. You have not done hard coding. Why did you do hard coding? Use loop. You will sit here to change. Instead of entering your choice, you have to punch in your answer. For some reason. You don't have to change everywhere. You have to do it at one place. It is fine. Your program is very good. I am not saying it is wrong or bad. You have made a very good program. Kunal Panchal. Next exercise. I will move to next rappel. Shivam Pathak 16. He has not done hard coding. He has made a list of third option. Which is fine. It is not less maintainable. You have made a list of all four options. I am just saying. According to me, this program is less maintainable. My program is much better. I am not saying don't take it like this. It is maintainable. I have made just one object. List of list. You have made four different variables. I can see the question. I am so portioned. I can see the question, answer, options. Do you know what is the problem in your rappel? I can see. I can see the problem. If I have to find the answer of the question, I have to go here. I am not saying that this is superior. This is inferior. I am just saying my thoughts. You have made exactly as I have made. We get a lot of thoughts. We get a lot of thoughts. Is less than length of question list. You have used while loop. Good. It is a good program. You have to think about it. Rest is good. Nothing is wrong. As long as your program works. As long as your code is maintainable. As long as you are writing your program under the given conditions. It is good. What difference does it make? It should be work. Then after this Atharva Patel, Om Ratan, Anukul Chauhan, Hamza Niazi, Neha Srivastav, Yusuf Ali, Piyush, Suandeep, AR Siddharth, Why did you take so many shoutouts? My finger got tired. Who is this? Krishna Sarathi. My finger will become a body. Krishna Anantu, Gyan Kumar, Solo Gamer. Why are you taking shoutouts twice? Yugam Tiwana. Your trick worked. Congratulations. Naan Altaf. I will do it 5 times. I will get 5 shoutouts. Rishabh Yadav. Then Shreeshrid Multi. I am sorry. If I am pronouncing it wrong. Suryansh Kumar, Atharva Yadav, Shubham Kumar. He hit it here. Which is the best line? Don't do hard coding. I am not saying this. You are beginners. But try to use your brain. I have to maintain it. I have to change it. After Aryan Patil, Aadhar, Kadian, Code with Pravar, and Summon90. Naeem Sheikh. A big shoutout to Naeem Sheikh. I hope you enjoyed it. We will meet in the next exercise. Those who didn't get a shoutout, try to watch the video as soon as possible. Understand the question. Post your answer. You are learning. You are growing. Give attendance daily. Do me a favor. What do you want to do? Open the first video. Go to the first video. Open the first video. Write a comment below. Tell us how you liked the course. Tell us how you liked the course. Thank you so much to everyone. Thank you so much to everyone. I want you to post your review. So that everyone who is going to start it, when 100 days are completed, anyone who wants to learn Python, I want them to understand it well. I want them to understand it well. If you like it, tell me. You can praise me. In fact, I don't want to start it. Give a rating of 5. That's all for now. Thank you so much for watching this video. I will see you next time."
+}

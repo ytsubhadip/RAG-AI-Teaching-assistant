@@ -1,0 +1,544 @@
+{
+    "chunks": [
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 0.0,
+            "end": 12.0,
+            "text": " Wow, you have come back in day 38  Today I will tell you about custom errors  If you have a python application  And you want to throw an error on a particular action  So how will you do that?"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 12.0,
+            "end": 20.0,
+            "text": " You can use the raise keyword  And you can throw custom errors  I will tell you in this video  Let's go to the computer screen  And let's get started"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 20.0,
+            "end": 38.0,
+            "text": " Intro  Sometimes we have to raise custom errors  So what I have done here  I have made a rappel for you  And what I will do here quickly"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 38.0,
+            "end": 48.0,
+            "text": " Along with the rappel  I will open a python file  So that I can show you in action  How all these things are done  So I will close it"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 48.0,
+            "end": 58.0,
+            "text": " And here I will open main.py  Where is my main.py  Here it is  And I will show you by raising custom errors  Now see what happens"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 58.0,
+            "end": 66.0,
+            "text": " Whenever there is an error in your program  Any kind of issue comes  Then the error comes  But you can also raise errors from yourself  Now you will say"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 66.0,
+            "end": 76.0,
+            "text": " Why will I create trouble?  Why will I raise errors?  So the biggest reason to raise errors  This will be so that the program stops  And something unexpected happens in the future"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 76.0,
+            "end": 86.0,
+            "text": " Let me explain  So see what I do here  I will put the console here  I will simply write here  a is equal to int"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 86.0,
+            "end": 96.0,
+            "text": " And I will write here  Input  And I will write  Enter any value between 5 and 9  Suppose I said this"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 96.0,
+            "end": 108.0,
+            "text": " I am telling the user  That I have to enter the value between 5 and 9  So I will say here  If a is less than 5  And or I will say here"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 108.0,
+            "end": 118.0,
+            "text": " Or a is greater than 9  Then what I would like to do  I will simply say  Raise value error  And I will say here"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 118.0,
+            "end": 129.0,
+            "text": " Value should be between 5 and 9  Okay  So I will do something like this  And what will be the benefit of doing this?  The benefit of doing this will be"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 129.0,
+            "end": 139.0,
+            "text": " I don't want any program to run in the future  And see here  See  This is not javascript  Actually I have written a lot of javascript today"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 139.0,
+            "end": 146.0,
+            "text": " So javascript is in my hand  Now see here  Enter any value between 5 and 9  Suppose I do here 2  I hit enter"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 146.0,
+            "end": 151.0,
+            "text": " Error came  I mean sometimes I would like  See what is the error  Errors are good  Like the stain is good"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 151.0,
+            "end": 157.0,
+            "text": " You must have heard of surfaxel  Surfaxel  Stains are good  Similarly, errors are also good  Why are errors good?"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 157.0,
+            "end": 165.0,
+            "text": " Because it is possible that the error is here  And you are having a problem  Because of line number 5 error  You are having a problem  Line number 12"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 165.0,
+            "end": 173.0,
+            "text": " Why would you want to be on line number 12  I mean why is our program going up to 12  I can stop here  So the good programmers  There are good coders"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 173.0,
+            "end": 180.0,
+            "text": " They stop there  Like Shaktimaan stops  Stop  Similarly, I said stop here  This is a value error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 180.0,
+            "end": 188.0,
+            "text": " Because the value you have entered  It is not between 5 and 9  If there is value between 5 and 9  Then we will move forward  Understand something like this"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 188.0,
+            "end": 195.0,
+            "text": " Someone told you  Suppose mom said  Here I made samosas  Go and give it to your aunt's house  Now you"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 195.0,
+            "end": 202.0,
+            "text": " Suppose  Mom gives you instead of samosas  Mom accidentally catches you  Vegetable bag  Okay, you see"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 202.0,
+            "end": 209.0,
+            "text": " So why would you take it?  You see on the way  Oh, mom accidentally gave vegetables  So will you take it?  You won't take it"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 209.0,
+            "end": 220.0,
+            "text": " Obviously you will stop there  Similarly, your program should also stop there  Because if something wrong has happened  It has become unexpected  So you don't want to continue with it"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 220.0,
+            "end": 228.0,
+            "text": " I hope that makes sense  Now there are some errors  Which python throws built-in  Means that thing python  Handles and gives you"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 228.0,
+            "end": 236.0,
+            "text": " Like if you have done something like this  Int a is equal to int input  And suppose you wrote here  That Harry  Means value is being asked"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 236.0,
+            "end": 244.0,
+            "text": " Between 5 and 9  You said Harry  So python will stop you here  But how will python know  You need value between 5 and 9"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 244.0,
+            "end": 253.0,
+            "text": " Python can't find that  So you need value between 5 and 9  You need this value  To stop your program from this mistake  You have to raise custom errors"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 253.0,
+            "end": 260.0,
+            "text": " So this happens  And this is what I have written here  In python we can raise custom errors  By using the raise keyword  We can use the raise keyword"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 260.0,
+            "end": 268.0,
+            "text": " To raise custom errors  In the previous tutorial  We learned about different  Built-in exceptions in python  And why it is important"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 268.0,
+            "end": 275.0,
+            "text": " To handle exceptions  Why is it important to handle exceptions?  That's why it is important  Why is it important?  If there is a mistake"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 275.0,
+            "end": 286.0,
+            "text": " Suppose you made a syntax error  So you want to handle it  So that the thing below works  And if I talk about it in reverse  Means in other way round"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 286.0,
+            "end": 292.0,
+            "text": " If I talk to you  If I give you another case  That you have written a program  You want that  A particular thing happens"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 292.0,
+            "end": 298.0,
+            "text": " During the program  That doesn't happen  User said I don't do it  Between 5 and 9  You stop there"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 298.0,
+            "end": 303.0,
+            "text": " You will say that  Brother, it won't work like this  You have to do it between 5 and 9  Value enter  Otherwise I will give an error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 303.0,
+            "end": 310.0,
+            "text": " Programmer says  Python is python  I will stop you  I will give an error here  Stop at line number 4"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 310.0,
+            "end": 319.0,
+            "text": " How dare you  You entered a number  Outside 5 and 9  Okay, so this was the thing  So there are two things"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 319.0,
+            "end": 326.0,
+            "text": " There are two aspects of a coin  One is that  If an error comes  Means unexpected things  Like ordering data from the server"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 326.0,
+            "end": 333.0,
+            "text": " Or doing anything  If an error comes  Then how to handle it?  Because if suppose  My program is written"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 333.0,
+            "end": 339.0,
+            "text": " Which is getting data from a server  Now suppose  The server catches fire  So data can't come  Now because data can't come"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 339.0,
+            "end": 347.0,
+            "text": " That's why you people  Have to handle that error there  Have to stop your program there  Because data can't come  So what is the point of running"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 347.0,
+            "end": 354.0,
+            "text": " Data processing program ahead  There is no point  So we want to stop the program there  This is one aspect of a coin  The second aspect of a coin"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 354.0,
+            "end": 363.0,
+            "text": " Is that  Suppose you have written a program  User gave some input  User gave wrong input  So because user gave wrong input"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 363.0,
+            "end": 372.0,
+            "text": " You raise the error there  So that the program stops  At one place we are saving the program from stopping  Means if an error comes  So skip that part"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 372.0,
+            "end": 378.0,
+            "text": " And move ahead  Means handle the error  And move ahead  One is that  We are deliberately giving an error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 378.0,
+            "end": 384.0,
+            "text": " We are saying give it an error  Because it has put the wrong value  Okay, so these are two things  One is handling error  Raising custom error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 384.0,
+            "end": 392.0,
+            "text": " So this was raising custom error  I hope you people understood something  Now there is one more thing  Which you people think  I would like to not be overlapped"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 392.0,
+            "end": 401.0,
+            "text": " Because it may overlap you  Maybe okay  But I will still tell you  Defining custom exceptions  See if we can raise value error here"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 401.0,
+            "end": 410.0,
+            "text": " We can raise syntax error  We can raise memory error  What else can be raised  You people write here  Python error classes"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 410.0,
+            "end": 418.0,
+            "text": " You people here  Built-in exception  You will get their list  Now all these built-in exceptions  You can raise by reading them"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 418.0,
+            "end": 424.0,
+            "text": " Floating point error  And then your import error  Module not found error  Index error  Key error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 424.0,
+            "end": 432.0,
+            "text": " And also memory error  See I said it just now  Memory error will come when  You people do a lot of data analytics  And you people will load a lot of data"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 432.0,
+            "end": 438.0,
+            "text": " In RAM  RAM will be less  Then after that you will get it  Sometimes it comes due to error  Because if you assume"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 438.0,
+            "end": 446.0,
+            "text": " Command to load data from TV  Issued  So no matter how much RAM you have  Memory error will come  I have memory error on 250 GB server"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 446.0,
+            "end": 453.0,
+            "text": " Yes it has come  Now see here  What we do here  When I say defining custom exceptions  What we do here"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 453.0,
+            "end": 458.0,
+            "text": " We say  Custom exceptions  We can define  By making a new class  You people will say"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 458.0,
+            "end": 464.0,
+            "text": " Class has not been told  What is this  So see  The thing is  I just want to tell you here"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 464.0,
+            "end": 471.0,
+            "text": " That we can't do only this  Assume I want  Harry is angry error  Assume it is a thing  Okay"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 471.0,
+            "end": 477.0,
+            "text": " Assume the response comes from the server  That Harry is angry  So the program will not run  Okay  Okay"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 477.0,
+            "end": 487.0,
+            "text": " I have given a very funny example  I will give you a good example  Assume that server is off error  I want to make this error myself  Assume someone has turned off the server in the data center"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 487.0,
+            "end": 495.0,
+            "text": " Or power is not coming on the server  Assume there is something like this  So I would like  I will raise this error in my program  This will be an error for me"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 495.0,
+            "end": 501.0,
+            "text": " Okay  There will be an error for my organization  That  Server is off error  So what I will do"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 501.0,
+            "end": 509.0,
+            "text": " By importing it from a custom error  By inheriting  In fact, I will tell you what happens in inheritance  This is a class  Which is our base error class"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 509.0,
+            "end": 517.0,
+            "text": " We will make a new class by starting from it  I was saying that overliming will be applied  But it will be applied now  If I tell you the classes, it will not be applied  We will make a new error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 517.0,
+            "end": 527.0,
+            "text": " We will make a new error class  In that we will define different things here  And after defining  This will become our new type of error  So we can raise this type of error"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 527.0,
+            "end": 533.0,
+            "text": " Okay  What can we do  We can raise this type of error  And we can put this type of message  Okay"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 533.0,
+            "end": 542.0,
+            "text": " You understood  So in this way you can make custom errors  You can make custom exceptions  This is useful because sometimes you might want to do something  Where a particular exception is raised"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 542.0,
+            "end": 551.0,
+            "text": " For example, sending an error  I have written this for this whole thing  Why is raising custom error important  But I hope you understood this  And you will be able to raise custom errors"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 551.0,
+            "end": 560.0,
+            "text": " So I want you to do a quick quiz  As I told you here  Between 5 and 9  If we have input  Then error is raised"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 560.0,
+            "end": 568.0,
+            "text": " Now here  Assume the user has written  Quit  Then this error should not come  You have to write a program"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 568.0,
+            "end": 576.0,
+            "text": " You have to rewrite this  If the user has written  In small letters  Then this error should not come  But apart from that, if you put any string"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 576.0,
+            "end": 584.0,
+            "text": " Which is not an integer  Then the user should get an error  Can you write this program for me  In the comment section of raplate  Tell me by making a rapple"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 584.0,
+            "end": 592.0,
+            "text": " See laziness  Anyone can get it  You have to fight laziness  And make a rappel  You will never regret it"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 592.0,
+            "end": 600.0,
+            "text": " You will be happy  That I made a rappel  So I practiced  Make it and give me in the comment section  Show me"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 600.0,
+            "end": 607.0,
+            "text": " Give in the comment section of rapplet  I will see  Because people will take time on rapplet  If laziness comes  Some people will get filtered"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 607.0,
+            "end": 613.0,
+            "text": " There will be very few people  Who will make a rappel of this thing  And I will like to see  I will like to see the rappel of those people  Who have made it"
+        },
+        {
+            "number": "038 ",
+            "title": "Raising custom errors in Python",
+            "start": 613.0,
+            "end": 622.0,
+            "text": " So that's all for this video  If you have not accessed this playlist yet  Then do access it  Thank you so much guys for watching this video  And I will see you next time"
+        }
+    ],
+    "text": " Wow, you have come back in day 38 Today I will tell you about custom errors If you have a python application And you want to throw an error on a particular action So how will you do that? You can use the raise keyword And you can throw custom errors I will tell you in this video Let's go to the computer screen And let's get started Intro Sometimes we have to raise custom errors So what I have done here I have made a rappel for you And what I will do here quickly Along with the rappel I will open a python file So that I can show you in action How all these things are done So I will close it And here I will open main.py Where is my main.py Here it is And I will show you by raising custom errors Now see what happens Whenever there is an error in your program Any kind of issue comes Then the error comes But you can also raise errors from yourself Now you will say Why will I create trouble? Why will I raise errors? So the biggest reason to raise errors This will be so that the program stops And something unexpected happens in the future Let me explain So see what I do here I will put the console here I will simply write here a is equal to int And I will write here Input And I will write Enter any value between 5 and 9 Suppose I said this I am telling the user That I have to enter the value between 5 and 9 So I will say here If a is less than 5 And or I will say here Or a is greater than 9 Then what I would like to do I will simply say Raise value error And I will say here Value should be between 5 and 9 Okay So I will do something like this And what will be the benefit of doing this? The benefit of doing this will be I don't want any program to run in the future And see here See This is not javascript Actually I have written a lot of javascript today So javascript is in my hand Now see here Enter any value between 5 and 9 Suppose I do here 2 I hit enter Error came I mean sometimes I would like See what is the error Errors are good Like the stain is good You must have heard of surfaxel Surfaxel Stains are good Similarly, errors are also good Why are errors good? Because it is possible that the error is here And you are having a problem Because of line number 5 error You are having a problem Line number 12 Why would you want to be on line number 12 I mean why is our program going up to 12 I can stop here So the good programmers There are good coders They stop there Like Shaktimaan stops Stop Similarly, I said stop here This is a value error Because the value you have entered It is not between 5 and 9 If there is value between 5 and 9 Then we will move forward Understand something like this Someone told you Suppose mom said Here I made samosas Go and give it to your aunt's house Now you Suppose Mom gives you instead of samosas Mom accidentally catches you Vegetable bag Okay, you see So why would you take it? You see on the way Oh, mom accidentally gave vegetables So will you take it? You won't take it Obviously you will stop there Similarly, your program should also stop there Because if something wrong has happened It has become unexpected So you don't want to continue with it I hope that makes sense Now there are some errors Which python throws built-in Means that thing python Handles and gives you Like if you have done something like this Int a is equal to int input And suppose you wrote here That Harry Means value is being asked Between 5 and 9 You said Harry So python will stop you here But how will python know You need value between 5 and 9 Python can't find that So you need value between 5 and 9 You need this value To stop your program from this mistake You have to raise custom errors So this happens And this is what I have written here In python we can raise custom errors By using the raise keyword We can use the raise keyword To raise custom errors In the previous tutorial We learned about different Built-in exceptions in python And why it is important To handle exceptions Why is it important to handle exceptions? That's why it is important Why is it important? If there is a mistake Suppose you made a syntax error So you want to handle it So that the thing below works And if I talk about it in reverse Means in other way round If I talk to you If I give you another case That you have written a program You want that A particular thing happens During the program That doesn't happen User said I don't do it Between 5 and 9 You stop there You will say that Brother, it won't work like this You have to do it between 5 and 9 Value enter Otherwise I will give an error Programmer says Python is python I will stop you I will give an error here Stop at line number 4 How dare you You entered a number Outside 5 and 9 Okay, so this was the thing So there are two things There are two aspects of a coin One is that If an error comes Means unexpected things Like ordering data from the server Or doing anything If an error comes Then how to handle it? Because if suppose My program is written Which is getting data from a server Now suppose The server catches fire So data can't come Now because data can't come That's why you people Have to handle that error there Have to stop your program there Because data can't come So what is the point of running Data processing program ahead There is no point So we want to stop the program there This is one aspect of a coin The second aspect of a coin Is that Suppose you have written a program User gave some input User gave wrong input So because user gave wrong input You raise the error there So that the program stops At one place we are saving the program from stopping Means if an error comes So skip that part And move ahead Means handle the error And move ahead One is that We are deliberately giving an error We are saying give it an error Because it has put the wrong value Okay, so these are two things One is handling error Raising custom error So this was raising custom error I hope you people understood something Now there is one more thing Which you people think I would like to not be overlapped Because it may overlap you Maybe okay But I will still tell you Defining custom exceptions See if we can raise value error here We can raise syntax error We can raise memory error What else can be raised You people write here Python error classes You people here Built-in exception You will get their list Now all these built-in exceptions You can raise by reading them Floating point error And then your import error Module not found error Index error Key error And also memory error See I said it just now Memory error will come when You people do a lot of data analytics And you people will load a lot of data In RAM RAM will be less Then after that you will get it Sometimes it comes due to error Because if you assume Command to load data from TV Issued So no matter how much RAM you have Memory error will come I have memory error on 250 GB server Yes it has come Now see here What we do here When I say defining custom exceptions What we do here We say Custom exceptions We can define By making a new class You people will say Class has not been told What is this So see The thing is I just want to tell you here That we can't do only this Assume I want Harry is angry error Assume it is a thing Okay Assume the response comes from the server That Harry is angry So the program will not run Okay Okay I have given a very funny example I will give you a good example Assume that server is off error I want to make this error myself Assume someone has turned off the server in the data center Or power is not coming on the server Assume there is something like this So I would like I will raise this error in my program This will be an error for me Okay There will be an error for my organization That Server is off error So what I will do By importing it from a custom error By inheriting In fact, I will tell you what happens in inheritance This is a class Which is our base error class We will make a new class by starting from it I was saying that overliming will be applied But it will be applied now If I tell you the classes, it will not be applied We will make a new error We will make a new error class In that we will define different things here And after defining This will become our new type of error So we can raise this type of error Okay What can we do We can raise this type of error And we can put this type of message Okay You understood So in this way you can make custom errors You can make custom exceptions This is useful because sometimes you might want to do something Where a particular exception is raised For example, sending an error I have written this for this whole thing Why is raising custom error important But I hope you understood this And you will be able to raise custom errors So I want you to do a quick quiz As I told you here Between 5 and 9 If we have input Then error is raised Now here Assume the user has written Quit Then this error should not come You have to write a program You have to rewrite this If the user has written In small letters Then this error should not come But apart from that, if you put any string Which is not an integer Then the user should get an error Can you write this program for me In the comment section of raplate Tell me by making a rapple See laziness Anyone can get it You have to fight laziness And make a rappel You will never regret it You will be happy That I made a rappel So I practiced Make it and give me in the comment section Show me Give in the comment section of rapplet I will see Because people will take time on rapplet If laziness comes Some people will get filtered There will be very few people Who will make a rappel of this thing And I will like to see I will like to see the rappel of those people Who have made it So that's all for this video If you have not accessed this playlist yet Then do access it Thank you so much guys for watching this video And I will see you next time"
+}

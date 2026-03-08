@@ -1,0 +1,327 @@
+{
+    "chunks": [
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 0.0,
+            "end": 22.52,
+            "text": " In today's video, we will first look at the solution of exercise 10  and then I will give a shoutout to some people  who solved exercise 10. Let's go to the computer screen  and let's get started.  So guys, I told you that you have to make a news app"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 22.52,
+            "end": 34.84,
+            "text": " with the help of news API. So first of all, what I will do  is that I will pull the exercise 10 question  and then I will go to news API  and I will write news API  ok"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 35.24,
+            "end": 49.5,
+            "text": " and  after seeing this question, I will use  news API in my python program  but before that, what I want to do is  I will say import request and here I will write"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 49.5,
+            "end": 64.72,
+            "text": " print, I will write here r is equal to  request.get  and here I will write URL and here I will write  print r.txt and here  the URL will be our https"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 64.72,
+            "end": 79.72,
+            "text": " codewithhari.com ok  I will also put www here and run this program  in the meantime, this is loaded. What is this saying? The question is saying to us  that what you have to do is use news API  and you have to do this"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 79.72,
+            "end": 94.72,
+            "text": " fetch daily news of different topics from request module  ok, you can make it by using  your different options. Now here  what is it that my API is not used  ok, I am telling you with love, what should I say?"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 94.72,
+            "end": 109.72,
+            "text": " In this, there is no need to change the API, my API is  visible here and  people keep using my API, tell me what should I do?  My API is used daily. See how many  are being used, my API is"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 109.72,
+            "end": 124.72,
+            "text": " spread, I don't know, this doesn't even change  what should I do? I mean, you understand  people should be given the option to change the API  to the news API, but ok  what can I do? You are using my API, so"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 124.72,
+            "end": 139.72,
+            "text": " what should I do? I can't do anything, I don't have any option  My API is already spread, this  truth I have to accept  ok, use it yourself, I  will be in trouble in making videos, I know"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 139.72,
+            "end": 154.72,
+            "text": " no one is going to believe me, now what we will do is  I will make an f-string and I will write  query here and I will write here  query is equal to input and I will  ask what type of news"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 154.72,
+            "end": 169.72,
+            "text": " are you interested  in? Ok, I did this and  I will run this and after this you will see  that it will ask me type of news are you interested in?  I wrote cricket and here it showed me"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 169.72,
+            "end": 184.72,
+            "text": " many articles of cricket, see title Ravi Shastri reveals  fundamental reason behind this, now what I have to do is  as a text, now I have to parse it as JSON  ok, this is a string, I have to  parse it as JSON, so for that there is a module JSON"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 184.72,
+            "end": 199.72,
+            "text": " now you will say this is not fair  why are you using JSON module when we have not read JSON module  see there are 50 modules in python  there are 50 modules in fact, ok  and you can't remember all these modules"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 199.72,
+            "end": 214.72,
+            "text": " when they are used, you have to be ready to use them  ok, so I will write here  news is equal to and after this I will write  JSON dot  I think it is loads, JSON dot loads"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 214.72,
+            "end": 229.72,
+            "text": " and after this if I print  news and type of news, now you will say  how do you know this, JSON dot loads  go to JSON documentation, JSON is a package  go to its documentation, I will write here"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 229.72,
+            "end": 244.72,
+            "text": " cricket, see here  its type will be printed, class dictionary, so this is a dictionary  it has many keys and many values, ok what are the keys  and what are the values, we will see this, ok I will tell you one thing  that you can open this news in this way"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 244.72,
+            "end": 259.72,
+            "text": " you know, something like this  request from browser are not allowed on the developer plan  except from localhost  it is not allowing me directly  what can I do, api keys is equal to"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 259.72,
+            "end": 274.72,
+            "text": " ok, so see  now what we are doing is, we have to fetch these articles  it is saying articles, so what I will do here  I will put a for loop, see  I will not print it"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 274.72,
+            "end": 289.72,
+            "text": " I will write here for article  in news dot articles  ok, and I will get articles  ok, I wrote for article  in news dot articles"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 289.72,
+            "end": 304.72,
+            "text": " and here what we have to do is, its source  first of all I will print its title and description  ok, so I will say what is its title and description  and I will  I will write here"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 304.72,
+            "end": 319.72,
+            "text": " print article  dot title and  article dot description  article dot description  ok, now we will run it and see"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 319.72,
+            "end": 334.72,
+            "text": " it prints, let's say I wrote  tennis, ok, what is this  articles, what is this  news is a dictionary  actually this is not javascript, in javascript"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 334.72,
+            "end": 349.72,
+            "text": " you can access it by dotting  in python you have to access it by dotting  so let's say I write cricket here  it is saying dict object has no  oh I did the same thing, you can see"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 349.72,
+            "end": 364.72,
+            "text": " friends, don't do this mistake if you are coming from multiple languages  don't make this mistake  you can see  if I write cricket here  so you can see title and description"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 364.72,
+            "end": 379.72,
+            "text": " title and description  and let's do one thing, to add some more spice  I will print this  so that you can see this news is over  so I will run it again, so you can see"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 379.72,
+            "end": 394.72,
+            "text": " this time it is tennis  and you can see so many news are being printed  so many news are being printed  you can read it, now I am thinking  I want to see weather, so I wrote Delhi weather"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 394.72,
+            "end": 409.72,
+            "text": " see here  it is telling about Delhi weather  ok, so I can read this kind of news  Delhi weather  Delhi weather"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 409.72,
+            "end": 424.72,
+            "text": " Delhi weather  Delhi weather  so you can read it like this  now obviously this kind of news is not that convenient  but if you want to customize it"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 424.72,
+            "end": 439.72,
+            "text": " then you can do it  if you want to see only news of Times of India  then you can go to documentation and explore it  so you can see  how to customize it"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 439.72,
+            "end": 454.72,
+            "text": " so what you have to do is, you have to give this  and also give query like this  and then you can give many things like search in  title, description, content, sources  see they have given examples"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 454.72,
+            "end": 469.72,
+            "text": " it is telling what all sources you can give  and it is telling you to give comma separated string  so see here they have given sources  so by doing slash everything  you can get everything and you can see sources"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 469.72,
+            "end": 484.72,
+            "text": " and documentation, see here it is telling  use AR, use GR  if I want to see only Indian news then I can do  sources is equal to IN  so read this and I have made many videos on this"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 484.72,
+            "end": 499.72,
+            "text": " web development related, python related content is not that much  so you can go and figure out  so I hope you are enjoying  and you will enjoy  now what I will do is"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 499.72,
+            "end": 514.72,
+            "text": " I will give shoutout to those people who  I have to open cover page  what happened to exercise 10  I have to open cover page of exercise 10  and give shoutout to them, so I will leave it"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 514.72,
+            "end": 529.72,
+            "text": " and I will load more comments  and I will load it and come back  so here I will give  shoutout to stupidprogrammer1, suryansh kumar  m faizan, kodvit pravar, yash agarwal"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 529.72,
+            "end": 544.72,
+            "text": " anukul chauhan, archit rupani  shreed shreed, dheeraj kumar  opgamerop  and they have put many names, manshu kumar96  and dhruv toshnival"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 544.72,
+            "end": 559.72,
+            "text": " now here I have some rappels  I am selecting them, this is not done by just writing first  stupidprogrammer, don't be stupid  put your rappel so that I can see  who has put this, hey brother please feature my rappel also"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 559.72,
+            "end": 574.72,
+            "text": " it took me lot of time to create, yeah sure man  so it is not possible to open rappel of everyone, I have told this earlier  and don't just write first, solve the question  and feel like this  if you will come just for shoutout"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 574.72,
+            "end": 589.72,
+            "text": " then it won't work  you have to make something  if I give you shoutout after seeing that then you have to be happy  otherwise nothing will happen just by shoutout  now see here, stockmarketkeyallies"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 589.72,
+            "end": 604.72,
+            "text": " and pressanekeytocontinue  how to lose chest fat for men  and many more  they have told this  which is good"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 604.72,
+            "end": 619.72,
+            "text": " now see they have also written  don't put your api key  you can mask your api key  it is not necessary that your program will run  now some of you will say that if I won't show api key then mask"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 619.72,
+            "end": 634.72,
+            "text": " no, you can revoke if you want, everyone remove their api key  because it has limit  if you don't care then  I just want to tell you  how many headlines you want to see, I want to see 2 headlines"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 634.72,
+            "end": 649.72,
+            "text": " now you can give link  there are many things in this  I hope you enjoyed  if you haven't accessed this playlist then do it  and if you haven't posted review in first video"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 649.72,
+            "end": 664.72,
+            "text": " and we have officially  crossed 2 million learners  21 lakh people have joined  which is amazing  and keep your tempo high"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 664.72,
+            "end": 685.72,
+            "text": " and give your feedback on day 1  thank you so much for watching this video  and I will see you next time  music  music"
+        },
+        {
+            "number": "093 ",
+            "title": "Exercise 10 - News App Solution & Shoutout",
+            "start": 685.72,
+            "end": 691.72,
+            "text": " music  music"
+        }
+    ],
+    "text": " In today's video, we will first look at the solution of exercise 10 and then I will give a shoutout to some people who solved exercise 10. Let's go to the computer screen and let's get started. So guys, I told you that you have to make a news app with the help of news API. So first of all, what I will do is that I will pull the exercise 10 question and then I will go to news API and I will write news API ok and after seeing this question, I will use news API in my python program but before that, what I want to do is I will say import request and here I will write print, I will write here r is equal to request.get and here I will write URL and here I will write print r.txt and here the URL will be our https codewithhari.com ok I will also put www here and run this program in the meantime, this is loaded. What is this saying? The question is saying to us that what you have to do is use news API and you have to do this fetch daily news of different topics from request module ok, you can make it by using your different options. Now here what is it that my API is not used ok, I am telling you with love, what should I say? In this, there is no need to change the API, my API is visible here and people keep using my API, tell me what should I do? My API is used daily. See how many are being used, my API is spread, I don't know, this doesn't even change what should I do? I mean, you understand people should be given the option to change the API to the news API, but ok what can I do? You are using my API, so what should I do? I can't do anything, I don't have any option My API is already spread, this truth I have to accept ok, use it yourself, I will be in trouble in making videos, I know no one is going to believe me, now what we will do is I will make an f-string and I will write query here and I will write here query is equal to input and I will ask what type of news are you interested in? Ok, I did this and I will run this and after this you will see that it will ask me type of news are you interested in? I wrote cricket and here it showed me many articles of cricket, see title Ravi Shastri reveals fundamental reason behind this, now what I have to do is as a text, now I have to parse it as JSON ok, this is a string, I have to parse it as JSON, so for that there is a module JSON now you will say this is not fair why are you using JSON module when we have not read JSON module see there are 50 modules in python there are 50 modules in fact, ok and you can't remember all these modules when they are used, you have to be ready to use them ok, so I will write here news is equal to and after this I will write JSON dot I think it is loads, JSON dot loads and after this if I print news and type of news, now you will say how do you know this, JSON dot loads go to JSON documentation, JSON is a package go to its documentation, I will write here cricket, see here its type will be printed, class dictionary, so this is a dictionary it has many keys and many values, ok what are the keys and what are the values, we will see this, ok I will tell you one thing that you can open this news in this way you know, something like this request from browser are not allowed on the developer plan except from localhost it is not allowing me directly what can I do, api keys is equal to ok, so see now what we are doing is, we have to fetch these articles it is saying articles, so what I will do here I will put a for loop, see I will not print it I will write here for article in news dot articles ok, and I will get articles ok, I wrote for article in news dot articles and here what we have to do is, its source first of all I will print its title and description ok, so I will say what is its title and description and I will I will write here print article dot title and article dot description article dot description ok, now we will run it and see it prints, let's say I wrote tennis, ok, what is this articles, what is this news is a dictionary actually this is not javascript, in javascript you can access it by dotting in python you have to access it by dotting so let's say I write cricket here it is saying dict object has no oh I did the same thing, you can see friends, don't do this mistake if you are coming from multiple languages don't make this mistake you can see if I write cricket here so you can see title and description title and description and let's do one thing, to add some more spice I will print this so that you can see this news is over so I will run it again, so you can see this time it is tennis and you can see so many news are being printed so many news are being printed you can read it, now I am thinking I want to see weather, so I wrote Delhi weather see here it is telling about Delhi weather ok, so I can read this kind of news Delhi weather Delhi weather Delhi weather Delhi weather so you can read it like this now obviously this kind of news is not that convenient but if you want to customize it then you can do it if you want to see only news of Times of India then you can go to documentation and explore it so you can see how to customize it so what you have to do is, you have to give this and also give query like this and then you can give many things like search in title, description, content, sources see they have given examples it is telling what all sources you can give and it is telling you to give comma separated string so see here they have given sources so by doing slash everything you can get everything and you can see sources and documentation, see here it is telling use AR, use GR if I want to see only Indian news then I can do sources is equal to IN so read this and I have made many videos on this web development related, python related content is not that much so you can go and figure out so I hope you are enjoying and you will enjoy now what I will do is I will give shoutout to those people who I have to open cover page what happened to exercise 10 I have to open cover page of exercise 10 and give shoutout to them, so I will leave it and I will load more comments and I will load it and come back so here I will give shoutout to stupidprogrammer1, suryansh kumar m faizan, kodvit pravar, yash agarwal anukul chauhan, archit rupani shreed shreed, dheeraj kumar opgamerop and they have put many names, manshu kumar96 and dhruv toshnival now here I have some rappels I am selecting them, this is not done by just writing first stupidprogrammer, don't be stupid put your rappel so that I can see who has put this, hey brother please feature my rappel also it took me lot of time to create, yeah sure man so it is not possible to open rappel of everyone, I have told this earlier and don't just write first, solve the question and feel like this if you will come just for shoutout then it won't work you have to make something if I give you shoutout after seeing that then you have to be happy otherwise nothing will happen just by shoutout now see here, stockmarketkeyallies and pressanekeytocontinue how to lose chest fat for men and many more they have told this which is good now see they have also written don't put your api key you can mask your api key it is not necessary that your program will run now some of you will say that if I won't show api key then mask no, you can revoke if you want, everyone remove their api key because it has limit if you don't care then I just want to tell you how many headlines you want to see, I want to see 2 headlines now you can give link there are many things in this I hope you enjoyed if you haven't accessed this playlist then do it and if you haven't posted review in first video and we have officially crossed 2 million learners 21 lakh people have joined which is amazing and keep your tempo high and give your feedback on day 1 thank you so much for watching this video and I will see you next time music music music music"
+}

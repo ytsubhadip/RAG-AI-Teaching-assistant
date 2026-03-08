@@ -1,0 +1,313 @@
+{
+    "chunks": [
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 0.0,
+            "end": 11.0,
+            "text": " Today we are going to see request module  Request module is used to send HTTP request  We will see how to use request module in this video  Let's go to the computer screen  Let's get started"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 11.0,
+            "end": 33.0,
+            "text": " Intro  If you want to work practically with python  Then request module is very useful  I will tell you why I used the word practically  Most of the work you do in python"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 33.0,
+            "end": 50.0,
+            "text": " You have to do something that is actually useful for people  When I was freelancing, I was given to scrap web pages  Or to parse an HTML and extract content from it  Then this kind of modules come in use  Now I will show you what it is"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 50.0,
+            "end": 70.0,
+            "text": " If you are in your operating system, then you can install the request by requesting the install  And you can also import request and request.get  And run it like this  As soon as I run it, you will see that I have done request.get in google.com  I got the code of google.com in response"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 70.0,
+            "end": 88.0,
+            "text": " Let's make it a little more quick  And let's call it codewithhari.com  If I call it codewithhari.com, then the code of codewithhari will come here  You can see that the code of codewithhari has come here  So you can see that I got to see an HTML from HTML to HTML"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 88.0,
+            "end": 100.0,
+            "text": " Now if I want, I can parse this HTML  This is a simple get request that has been sent  With the help of request.get  Now what happens is that many times we have to send post requests  And I will show you an example of this"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 100.0,
+            "end": 117.0,
+            "text": " JSON Placeholder  And as soon as I go to JSON Placeholder  You will see that I will get a sample API to send post requests  So if I go here, then see  Key slash post"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 117.0,
+            "end": 131.0,
+            "text": " I have to send a post request on slash post  I can also send a get request on slash post  But I will send a post request and show you how to send a post request  So I do one thing here  I do something like this"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 131.0,
+            "end": 144.0,
+            "text": " And as soon as I do this  As soon as I do this  You see what will happen here  I have posted JSON Placeholder.typecode.com  So what I will do here is request.posturl"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 144.0,
+            "end": 161.0,
+            "text": " And here I show you  As soon as I do this and print the response.text  In fact, I also remove the headers and data here  Do I need to give data? Can I post it and give data here?  I just try to see how this thing will work in its documentation"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 161.0,
+            "end": 175.0,
+            "text": " So here you see that the get request has been given  But I want to send a post request  And how does this post request work?  To see this, I have to go to the guide  So post request patching"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 175.0,
+            "end": 185.0,
+            "text": " Okay  I want to know about post request  Post request  So here  They must have told about post request"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 185.0,
+            "end": 198.0,
+            "text": " I just want to ensure that I do something with the method is equal to post  Now see if I give this data here  So this post request will come right  So I do one thing  I put this post request exactly here"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 198.0,
+            "end": 208.0,
+            "text": " So data is equal to  I do this  And I have to put double click here  Sorry, I have to put double click  And along with that"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 208.0,
+            "end": 220.0,
+            "text": " I also take the headers here  Headers is equal to  Headers is equal to this  And  Because this is a python dictionary"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 220.0,
+            "end": 232.0,
+            "text": " So I have to put something like this  And  I was doing a request to codewithharry.com  I remove this  And now see if there is anything in the response by hitting the post request"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 232.0,
+            "end": 242.0,
+            "text": " And yes, see this came in the response  If I do here harry brother  And instead of bar I do brother  So you see here and instead of id I do 12  So will I get this by return?"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 242.0,
+            "end": 252.0,
+            "text": " Let's see  Harry brother user id 12  So this post request can be killed like this  If you are interested in other types of requests  Like put request, delete request"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 252.0,
+            "end": 262.0,
+            "text": " There are many other HTTP requests  If you are interested in them  You can also kill them  There are methods in the request  So I show you here"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 262.0,
+            "end": 272.0,
+            "text": " Search google for  And see here there are many other methods in the request  It has a complete documentation  A good page comes  Everything is written in it"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 272.0,
+            "end": 282.0,
+            "text": " You will get to see many things  I tell you one thing  Suppose you want to parse a page  Suppose you want to scrap a page  Suppose I want to scrap this page"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 282.0,
+            "end": 292.0,
+            "text": " Codewithharry.com  Suppose I want to scrap this blog  Suppose I want to scrap this blog  Django cheat sheet  And suppose I want to"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 292.0,
+            "end": 302.0,
+            "text": " Take all h2 headings from it  All the headings I want to take h2 headings  So how will I take  First of all, what I will do  I will come here"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 302.0,
+            "end": 312.0,
+            "text": " And here  What I will do  I will do it like this  I don't want to delete the code  I will comment it out"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 312.0,
+            "end": 322.0,
+            "text": " And here  URL is equal to  I will do something like this  And here I will do  Request and I will use this code"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 322.0,
+            "end": 332.0,
+            "text": " Which I did here  Request.getURL  Request.getURL  I do r is equal to  I do r is equal to"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 332.0,
+            "end": 342.0,
+            "text": " r.text  And I will print r.text  If I do this, then the html source code of this page  I will get to see  But I am not interested in html source code"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 342.0,
+            "end": 352.0,
+            "text": " I want to parse it and take all h2 from it  So for that there is a module  BS4  Beautiful Soup is the name of this module  And about this module I tell you"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 352.0,
+            "end": 362.0,
+            "text": " It is a wonderful module  It is fun  When you want to do scrapping  You have to parse html  And when you will parse html"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 362.0,
+            "end": 372.0,
+            "text": " You have to use BS4 module  If you want to make things easy  So I will show you  I will print these three lines and show you  I will also show you h2 headings"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 372.0,
+            "end": 382.0,
+            "text": " So I will make a soup  Soup means  I  From this html  I will make a tree type"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 382.0,
+            "end": 392.0,
+            "text": " Of structure and after that  I will pretify it and print it here  I am printing h2 headings  So you can see here  I have made soup from h2 text and it will be pretified"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 392.0,
+            "end": 402.0,
+            "text": " Now it is adding BS4  Let's wait a little  I should put import statement at the top  And I will put it at the top  And now you can see"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 402.0,
+            "end": 412.0,
+            "text": " Beautiful soup is not defined  Let's run it again  What is going on  From BS4, yes it is fine  Now it has given me a pretify"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 412.0,
+            "end": 422.0,
+            "text": " Now I can do something like  a in  Or I can say for h2 in  Or heading  in soup.findall"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 422.0,
+            "end": 432.0,
+            "text": " find underscore all  And I will put h2 here  So I will get heading  And if I do print heading.text  So I will get all the text"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 432.0,
+            "end": 442.0,
+            "text": " Of heading  Which is h2  I will get all of them  I got only add a new comment  soup.findall h2"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 442.0,
+            "end": 452.0,
+            "text": " Where are all the other h2  So let's see  What is going on  I have found h2 text  Is there any other h2 text"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 452.0,
+            "end": 462.0,
+            "text": " There are many h2 text  There is an installing django plus setup  Then h3 is creating a project  Let's see what is going on  Why it didn't come from findall"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 462.0,
+            "end": 472.0,
+            "text": " I have printed heading.text  Why only add a new comment  Actually the source code  In that h2 has this thing  Only add a comment"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 472.0,
+            "end": 482.0,
+            "text": " And the rest of the thing is  Populated by api  But you can  Scrape the static pages  Very easily"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 482.0,
+            "end": 492.0,
+            "text": " So I hope you guys  Found this video informative  If you haven't accessed the playlist yet  Then do access it  And bookmark it by clicking"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 492.0,
+            "end": 502.0,
+            "text": " And in the first video  Do one thing  Put a review comment  It will be very helpful  That's all for now"
+        },
+        {
+            "number": "089 ",
+            "title": "Requests Module in Python",
+            "start": 502.0,
+            "end": 508.0,
+            "text": " Thank you so much for watching this video  And I will see you  Next time"
+        }
+    ],
+    "text": " Today we are going to see request module Request module is used to send HTTP request We will see how to use request module in this video Let's go to the computer screen Let's get started Intro If you want to work practically with python Then request module is very useful I will tell you why I used the word practically Most of the work you do in python You have to do something that is actually useful for people When I was freelancing, I was given to scrap web pages Or to parse an HTML and extract content from it Then this kind of modules come in use Now I will show you what it is If you are in your operating system, then you can install the request by requesting the install And you can also import request and request.get And run it like this As soon as I run it, you will see that I have done request.get in google.com I got the code of google.com in response Let's make it a little more quick And let's call it codewithhari.com If I call it codewithhari.com, then the code of codewithhari will come here You can see that the code of codewithhari has come here So you can see that I got to see an HTML from HTML to HTML Now if I want, I can parse this HTML This is a simple get request that has been sent With the help of request.get Now what happens is that many times we have to send post requests And I will show you an example of this JSON Placeholder And as soon as I go to JSON Placeholder You will see that I will get a sample API to send post requests So if I go here, then see Key slash post I have to send a post request on slash post I can also send a get request on slash post But I will send a post request and show you how to send a post request So I do one thing here I do something like this And as soon as I do this As soon as I do this You see what will happen here I have posted JSON Placeholder.typecode.com So what I will do here is request.posturl And here I show you As soon as I do this and print the response.text In fact, I also remove the headers and data here Do I need to give data? Can I post it and give data here? I just try to see how this thing will work in its documentation So here you see that the get request has been given But I want to send a post request And how does this post request work? To see this, I have to go to the guide So post request patching Okay I want to know about post request Post request So here They must have told about post request I just want to ensure that I do something with the method is equal to post Now see if I give this data here So this post request will come right So I do one thing I put this post request exactly here So data is equal to I do this And I have to put double click here Sorry, I have to put double click And along with that I also take the headers here Headers is equal to Headers is equal to this And Because this is a python dictionary So I have to put something like this And I was doing a request to codewithharry.com I remove this And now see if there is anything in the response by hitting the post request And yes, see this came in the response If I do here harry brother And instead of bar I do brother So you see here and instead of id I do 12 So will I get this by return? Let's see Harry brother user id 12 So this post request can be killed like this If you are interested in other types of requests Like put request, delete request There are many other HTTP requests If you are interested in them You can also kill them There are methods in the request So I show you here Search google for And see here there are many other methods in the request It has a complete documentation A good page comes Everything is written in it You will get to see many things I tell you one thing Suppose you want to parse a page Suppose you want to scrap a page Suppose I want to scrap this page Codewithharry.com Suppose I want to scrap this blog Suppose I want to scrap this blog Django cheat sheet And suppose I want to Take all h2 headings from it All the headings I want to take h2 headings So how will I take First of all, what I will do I will come here And here What I will do I will do it like this I don't want to delete the code I will comment it out And here URL is equal to I will do something like this And here I will do Request and I will use this code Which I did here Request.getURL Request.getURL I do r is equal to I do r is equal to r.text And I will print r.text If I do this, then the html source code of this page I will get to see But I am not interested in html source code I want to parse it and take all h2 from it So for that there is a module BS4 Beautiful Soup is the name of this module And about this module I tell you It is a wonderful module It is fun When you want to do scrapping You have to parse html And when you will parse html You have to use BS4 module If you want to make things easy So I will show you I will print these three lines and show you I will also show you h2 headings So I will make a soup Soup means I From this html I will make a tree type Of structure and after that I will pretify it and print it here I am printing h2 headings So you can see here I have made soup from h2 text and it will be pretified Now it is adding BS4 Let's wait a little I should put import statement at the top And I will put it at the top And now you can see Beautiful soup is not defined Let's run it again What is going on From BS4, yes it is fine Now it has given me a pretify Now I can do something like a in Or I can say for h2 in Or heading in soup.findall find underscore all And I will put h2 here So I will get heading And if I do print heading.text So I will get all the text Of heading Which is h2 I will get all of them I got only add a new comment soup.findall h2 Where are all the other h2 So let's see What is going on I have found h2 text Is there any other h2 text There are many h2 text There is an installing django plus setup Then h3 is creating a project Let's see what is going on Why it didn't come from findall I have printed heading.text Why only add a new comment Actually the source code In that h2 has this thing Only add a comment And the rest of the thing is Populated by api But you can Scrape the static pages Very easily So I hope you guys Found this video informative If you haven't accessed the playlist yet Then do access it And bookmark it by clicking And in the first video Do one thing Put a review comment It will be very helpful That's all for now Thank you so much for watching this video And I will see you Next time"
+}

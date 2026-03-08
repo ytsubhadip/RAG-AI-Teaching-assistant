@@ -1,0 +1,880 @@
+{
+    "chunks": [
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 0.0,
+            "end": 14.0,
+            "text": " Let's say you are writing a python program.  You have to use a particular version of a package.  When that package is updated, your friend is using another version.  You are using another version.  In this case, you use 50 such packages in your project."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 14.0,
+            "end": 26.0,
+            "text": " How will you maintain the version?  How will you ensure that the packages that your program is using,  your friend should use exactly the same versions.  And how will you distribute your program?  Let's go to the computer screen."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 26.0,
+            "end": 38.0,
+            "text": " We will see about virtual environment,  which makes this task easy for us.  It makes an isolated environment.  Which is completely different from your global python interpreter.  And you can install your own packages in it."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 38.0,
+            "end": 56.0,
+            "text": " Let's get started.  So, the exact use case of virtual environment,  first of all, I will tell you that.  And after that, we will make a virtual environment.  So, it will be a little clearer to you."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 56.0,
+            "end": 66.0,
+            "text": " What exactly is a virtual environment?  And what it is all about?  So, first of all, you guys come to my rappel.  And see what I have written here.  A virtual environment is a tool used to isolate"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 66.0,
+            "end": 76.0,
+            "text": " specific python environments on a single machine.  Allowing you to work on multiple projects with different dependencies  and packages without conflicts.  Okay?  What is this?"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 76.0,
+            "end": 89.0,
+            "text": " It basically says that,  virtual environment helps you to separate your python environment.  For example, I am using version 1 of pandas.  My friend is using version 2 of pandas.  And suppose that,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 89.0,
+            "end": 100.0,
+            "text": " because version 1 is installed in my computer,  how will I run his project?  Will I run my project by uninstalling my version?  So, what can I do now?  I will make a virtual environment for version 1 of pandas."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 100.0,
+            "end": 111.0,
+            "text": " I will make a virtual environment for version 2 of pandas.  Okay?  This was an example.  Now see here, this can be especially useful when working on projects.  That have conflicting package versions"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 111.0,
+            "end": 121.0,
+            "text": " or packages that are not compatible with each other.  Okay?  Now see, this is also a very important point.  Packages that are not compatible with each other.  Suppose I have a package."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 121.0,
+            "end": 131.0,
+            "text": " Package A.  And it depends on package B.  On package B version 1.  Suppose I update package A.  And now it starts depending on package B version 2."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 131.0,
+            "end": 143.0,
+            "text": " So, basically what I have to do?  I have to pick up an environment.  In that, whatever packages I want, I can install.  And those packages' versions will not have any meaning with my Python installed version.  Okay?"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 143.0,
+            "end": 150.0,
+            "text": " If you didn't understand, then I will just tell you.  How is it installed?  How is it made?  So, first of all, what you have to do?  A package named virtual environment."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 150.0,
+            "end": 161.0,
+            "text": " Package named vn will have to be installed.  And as soon as you install this, you can make a virtual environment.  Okay?  Or what will you do?  You will copy it."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 161.0,
+            "end": 172.0,
+            "text": " Python-m vn.  Okay?  And you will run it in any of your folders.  So, I make a new folder.  And I make it here in the name of Python vn."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 172.0,
+            "end": 181.0,
+            "text": " I will right click on it.  I will do new terminal add folder.  If you are not on Mac, but on Windows, then you know how to do all this.  Okay?  So, what I will do here?"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 182.0,
+            "end": 192.0,
+            "text": " I will paste it by right clicking here.  And I will hit enter.  Okay?  And in fact, because I am using Python 3 on Mac.  So, I will run it by typing Python 3."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 192.0,
+            "end": 202.0,
+            "text": " You can see here, I have made Python 3-m vn-myen.  Now, what I will do?  Now, see what will happen as soon as I make this?  I want to tell you this too.  So, I have made this package in this folder."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 202.0,
+            "end": 212.0,
+            "text": " A folder named myen.  You can understand this in a way.  My computer's Python has been copied.  Okay?  The Python on my computer has been copied."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 212.0,
+            "end": 226.0,
+            "text": " Now, I can put one version of any package in it.  I can put one version of any other package.  I will show you by doing that.  But, if I write here, pip3 install pandas.  Then it is saying, requirement already satisfied."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 226.0,
+            "end": 237.0,
+            "text": " Which pandas is it installing?  It is installing the pandas in my computer.  I want to install pandas in this.  Because in my global computer, in my global environment,  pandas are already installed."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 237.0,
+            "end": 245.0,
+            "text": " That's why the requirement is already satisfied.  Okay?  You should know this thing.  Now, see what I will do?  Now, what I want to do here is,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 245.0,
+            "end": 256.0,
+            "text": " I want to activate this virtual environment.  So, the way to activate this is like this.  I will write source,  I will write myenv,  then I will write bin,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 256.0,
+            "end": 267.0,
+            "text": " and then I will write activate.  If you don't know how I typed so fast,  I typed M and it got autocompleted.  Then I typed B and it got autocompleted.  Then I typed AC and it got autocompleted."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 267.0,
+            "end": 274.0,
+            "text": " Okay?  I will type enter.  Now, see here in the bracket, it is written myenv.  This means that,  if you run pip now,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 274.0,
+            "end": 287.0,
+            "text": " then it will be installed in this virtual environment.  And if you run any python program,  it will use this virtual environment.  That means it will use the python installed in it.  I can make 10 virtual environments of this type."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 287.0,
+            "end": 300.0,
+            "text": " That means 10 different separate pythons  on a single computer.  Assume this.  How good is this?  All different environments will have their own packages."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 300.0,
+            "end": 312.0,
+            "text": " Now, if I write a python program here,  I write python3 here.  I will write import pandas as pd.  It is saying, no module named pandas.  Because I have not installed pandas in myenv yet."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 312.0,
+            "end": 321.0,
+            "text": " It is installed in my global computer.  This requirement is already satisfied,  which was written.  Pandas are installed in my global computer.  I have not installed panda in this virtual environment yet."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 321.0,
+            "end": 330.0,
+            "text": " So what I will do?  I will write exit here.  I will close this python interpreter.  I am still in this virtual environment.  I am still in this virtual environment."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 330.0,
+            "end": 339.0,
+            "text": " I will write here pip3 install pandas.  Now pandas will be installed.  See, it is getting installed.  Can you see on your computer screen?  It is getting installed."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 339.0,
+            "end": 350.0,
+            "text": " Why is it getting installed?  Because here, pandas was never installed.  Pandas was installed in my global computer.  You are understanding this.  So, as soon as it is installed,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 350.0,
+            "end": 363.0,
+            "text": " I will import pandas.  By the way, let me tell you  that you can install a particular version of a package.  I will show you.  If I write pandas python here"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 363.0,
+            "end": 378.0,
+            "text": " and show you,  I want to show you the versions here.  See, these are the versions.  1.5.2 is the latest version.  Assume that I want to install 1.4.4 for some reason."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 378.0,
+            "end": 385.0,
+            "text": " Okay.  How will I do?  I will write here equals to equals to 1.  What was it?  4.4."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 385.0,
+            "end": 392.0,
+            "text": " Okay.  4.4.  So, what will happen?  1.4.4 pandas will be installed.  So, it downloaded it first."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 392.0,
+            "end": 402.0,
+            "text": " Okay.  1.4.4 pandas.  And here you see,  it is getting installed.  And"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 403.0,
+            "end": 412.0,
+            "text": " installing build dependencies.  So, we will wait for it to be installed.  So, finally, what happened is  it took a lot of time,  but my pandas was installed."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 412.0,
+            "end": 423.0,
+            "text": " But I want to show you one thing.  If I write python here  and then I write import pandas as pd,  so, I write import pandas,  so, I use pandas."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 423.0,
+            "end": 433.0,
+            "text": " Now I can use pd.  So, I wrote import pandas as pd here,  which is being imported.  I don't know what the problem is.  It took a lot of time to install 1.4."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 433.0,
+            "end": 442.0,
+            "text": " It is taking a lot of time to import.  I don't know why.  So, I am still waiting for it to be imported.  Not sure what's wrong.  And it's done."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 442.0,
+            "end": 458.0,
+            "text": " Now, if I write pd.__version,  so, it is telling me the version of pandas.  Let's exit from here.  Exit is a function that throws you out of the python shell.  Now, if I want to deactivate this virtual environment,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 458.0,
+            "end": 468.0,
+            "text": " that is, I want to  not use the python in my particular folder  in which python is installed,  then I can write deactivate.  Deactivate."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 468.0,
+            "end": 477.0,
+            "text": " And that's about it.  See, myenv is written here.  It has stopped coming.  Now, if I write python3 here  and then I write"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 477.0,
+            "end": 487.0,
+            "text": " import pandas as pd  and I will do the same thing.  pd.__version__  Now, it's 1.5.2.  Why?"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 487.0,
+            "end": 497.0,
+            "text": " Because the python that was installed in my computer  and the pandas in it  had version 1.5.2.  But, I  installed this python"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 497.0,
+            "end": 507.0,
+            "text": " in my computer.  In correct words, I will say  that I installed this virtual environment  and I used another version of pandas  in it. So, whenever I need 1.4.4"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 507.0,
+            "end": 517.0,
+            "text": " or whatever version  of this pandas is,  what was 1.4.4? Yes.  Whenever I have to use this version,  I will activate"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 517.0,
+            "end": 527.0,
+            "text": " this virtual environment  and whenever I have to use  the latest version 1.5.2,  I will use my  python interpreter. I will deactivate"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 527.0,
+            "end": 537.0,
+            "text": " this virtual environment. What if  I need to install a third version?  I need to use 1.5.0.  What will I do then?  Then, I can simply create a new virtual"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 537.0,
+            "end": 547.0,
+            "text": " environment. I will exit  this and I will tell you  how to create a virtual environment.  We will create it exactly the same way as we did earlier.  python3-mvn"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 547.0,
+            "end": 557.0,
+            "text": " and the name of the environment.  This time, I will name it  pandas  1.5. Let's say  I will name it 1-5."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 557.0,
+            "end": 567.0,
+            "text": " It's my wish. I can name it  whatever I want. This is my virtual environment.  You can name your folder or  virtual environment as well. It's my wish  to name it pandas 1-5."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 567.0,
+            "end": 577.0,
+            "text": " It's my wish to name it harry.  It's my wish to name it shubham.  It's my wish to name it rohan.  What we will do here is  python3-mvn"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 577.0,
+            "end": 587.0,
+            "text": " I have done this. Now, I have to  activate it. I will write  source and then I will write pan  tab. It will automatically complete.  I could have typed manually as well. But you can"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 587.0,
+            "end": 597.0,
+            "text": " press tab and it will automatically complete.  Then I will write  pandas 1-5.  Then I will write bin and then I will write activate.  I will hit enter. See, this pandas 1-5"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 597.0,
+            "end": 607.0,
+            "text": " virtual environment has been activated.  Let's do one thing.  Let's write python3 and install pandas.  In fact, I should  install pandas without python3."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 607.0,
+            "end": 617.0,
+            "text": " pip install pandas  See, I didn't even need to write pip3.  I have done my work by writing pip.  I have made a mistake.  I should have written pandas"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 617.0,
+            "end": 629.0,
+            "text": " 1.5 and installed  pandas 1.5 version.  No problem. I will wait for it to install.  It has installed 1.5.1  and 1.5. Now, I will"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 629.0,
+            "end": 639.0,
+            "text": " show you. I will write python and then  import pandas  as pd and then  pd.version  I will write pandas and hit enter."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 639.0,
+            "end": 649.0,
+            "text": " I am waiting for it to run.  You can see here  1.5 has come. So, you got the point.  If we  install virtual environments"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 649.0,
+            "end": 659.0,
+            "text": " then the package which is  installed in the virtual environment  will be used if it is activated.  In this case, pandas 1-5 is activated.  I will deactivate it."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 659.0,
+            "end": 669.0,
+            "text": " Now, which one will work for me?  My python will work globally.  It is the python which I have installed in this macbook.  If I write source  and I will"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 669.0,
+            "end": 679.0,
+            "text": " give the source space and write  myenv  and hit enter.  Myenv is activated.  In this case, the python in this folder will be used."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 679.0,
+            "end": 689.0,
+            "text": " If I write  by deactivating it  obviously  I will deactivate it and come out of this virtual environment.  If I write source"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 689.0,
+            "end": 699.0,
+            "text": " and I will write pandas  which I have given its name.  1-5  and then I will write bin  and then I will write activate. So, this pandas 1-5"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 699.0,
+            "end": 709.0,
+            "text": " will be activated and so on.  I can make as many virtual environments  as I want.  Come to my repl  in which I have explained to you."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 709.0,
+            "end": 719.0,
+            "text": " Now, let's see again what is a virtual environment.  You have seen all these things.  A virtual environment is a tool used to isolate  specific python environments on a single machine  allowing you to work on multiple"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 719.0,
+            "end": 729.0,
+            "text": " projects with different dependencies  and packages without conflicts.  Different packages  in different python virtual environments  can be used."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 729.0,
+            "end": 739.0,
+            "text": " Install and use.  This is the command with which you can make a virtual environment.  This is the command  with which you can activate it.  If it is in windows"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 739.0,
+            "end": 749.0,
+            "text": " then it is very important. Why didn't I tell this before?  If it is in windows, then you have to activate it like this.  Many people will think that  why is it not getting activated?  Let me tell you one more thing from my experience."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 749.0,
+            "end": 759.0,
+            "text": " If you are using PowerShell,  then activate it from myenv.ps1.  Do you understand?  Do it from myenv.ps1.  If you are using PowerShell."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 759.0,
+            "end": 769.0,
+            "text": " Once the virtual environment  is activated, any packages that you  install using pip will be installed  in the virtual environment.  As we saw here, when this was activated,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 769.0,
+            "end": 779.0,
+            "text": " then whatever we install from pip,  it will go to the corresponding python interpreter  of myenv.  It will go to this virtual environment.  The python that is installed in this computer"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 779.0,
+            "end": 789.0,
+            "text": " or this computer has no meaning  to any python virtual environment.  In fact, its python global which is installed in this computer  has no meaning.  So you install packages,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 789.0,
+            "end": 799.0,
+            "text": " use it. When we make a particular project,  then we make a virtual environment  corresponding to it. All the packages of that project  are installed  in that particular virtual environment."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 799.0,
+            "end": 809.0,
+            "text": " And finally, that virtual environment  is used to run that project.  This is done so that  if 5 people are working,  then those 5 people"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 809.0,
+            "end": 819.0,
+            "text": " make that virtual environment in their local computer  or if they deploy  that project somewhere, then they  make that virtual environment  there. For example, I want to deploy"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 819.0,
+            "end": 829.0,
+            "text": " my python project in AWS.  So I will make a virtual environment  and all the packages that are being used  will be installed in that virtual environment  and I will deploy my project."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 829.0,
+            "end": 839.0,
+            "text": " Okay.  Now the thing comes from here  that requirement.txt file.  What is this?  Assume this is a very big project which is not."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 839.0,
+            "end": 849.0,
+            "text": " Okay. This is not a big project  which I have written here  pandas1-5. Let's do one thing.  I will make a main.py file.  Touchmain.py. I have made this main.py file."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 849.0,
+            "end": 859.0,
+            "text": " Touch save. A new file is made.  Assume this is our project which  myenv is using. I will delete it  pandas1-5.  In fact, first I will want to deactivate"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 859.0,
+            "end": 869.0,
+            "text": " then I will delete it.  This was just an example. I just  wanted to tell you.  Assume this is my project which is using  myenv environment. Okay."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 869.0,
+            "end": 879.0,
+            "text": " I will do one thing. I will delete it here.  This is gone from python. In fact,  I will open it with  python would like to access files.  I will not allow it now."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 879.0,
+            "end": 889.0,
+            "text": " I just want to write it in this.  Import  pandas as  pd.print  pd.__"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 889.0,
+            "end": 899.0,
+            "text": " pd.__  I just want to do this. Now if I  show you here. I will close it.  If I show you here. Oops! I opened  VS code. No problem. If I write"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 899.0,
+            "end": 909.0,
+            "text": " python and then I write  main.py  then you see here it is saying python command not found  python 3. Sorry. Python 3.  Python 3 is installed in my computer."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 909.0,
+            "end": 919.0,
+            "text": " main.py. It is saying 1.5.2  is installed. Because it is using global python.  The global python interpreter  is installed in my computer. But if I  write source my env"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 919.0,
+            "end": 929.0,
+            "text": " bin activate which  you will use. Do not use source if you are in windows.  Use this command and instead of bat  do ps1 if you are in powershell.  Okay. With that I entered it."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 929.0,
+            "end": 939.0,
+            "text": " Now if I will do python 3  main.py again then 1.4.4  will come because in this virtual environment I  installed 1.4.4. Okay.  Suppose this was a very big project of mine."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 939.0,
+            "end": 949.0,
+            "text": " And in this many packages  would have been installed. In fact, I  do it. I do pip  install. What should I do?  Date utils."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 949.0,
+            "end": 959.0,
+            "text": " Date utils is there.  Suppose I do  py  pyxml  No. No. I do lxml. Okay."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 959.0,
+            "end": 969.0,
+            "text": " Lxml will be installed.  These are all packages. What do we do with it?  Do not take so much tension now.  Okay. It is saying lxml is being  installed using the legacy"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 969.0,
+            "end": 979.0,
+            "text": " setup.py install method because  it does not have a pyproject.toml.  Okay. So it will be installed.  Let it be installed. After this  I will install some other package."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 979.0,
+            "end": 989.0,
+            "text": " Maybe  py  pyopenxl. Okay. In fact,  I cancel it. I do not have so much time.  pip install"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 989.0,
+            "end": 999.0,
+            "text": " pyopenxl  It is pyopenxl only.  Pyopenxl.  It is pyopenxl. It is something else.  Pyopen"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 999.0,
+            "end": 1009.0,
+            "text": " xlsx. It is  pyopenxl. Sorry.  Pyopenxl is a package.  Pyopenxl  It is openxl. Sorry. It is not pyopenxl."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1009.0,
+            "end": 1019.0,
+            "text": " Openxl  pip install openxl  It is saying no matching distribution for  openpyxl. It is openpyxl.  What is this?"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1019.0,
+            "end": 1029.0,
+            "text": " I also forget. Openpyxl.  This will be installed. Okay.  This will be installed. And then after this  Suppose I have installed 10-15 more like this.  Now I have installed all 10-15"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1029.0,
+            "end": 1039.0,
+            "text": " I will take it in notebook and write their version.  Suppose I have made this project.  Now I want to give it to you.  Now you say that I want to maintain it.  Give it to me. Send the whole project."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1039.0,
+            "end": 1049.0,
+            "text": " And along with the whole project,  send this also that which  packages are being used in it.  So will I write it on paper and give you  all those packages? No. I will want"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1049.0,
+            "end": 1059.0,
+            "text": " an automatic way  so that all the packages are exported.  What is that automatic way?  Come, I will show you.  You can extract the file requirements.txt."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1059.0,
+            "end": 1069.0,
+            "text": " How will you extract? By using a command  which is pip freeze  greater than sign then  requirements.txt. Means pip freeze  is a command. First of all, I will tell you what pip freeze"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1069.0,
+            "end": 1079.0,
+            "text": " does. Pip freeze  gives you all those packages which are installed  in this virtual environment or in your  global python environment.  Whatever is installed in this python environment"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1079.0,
+            "end": 1089.0,
+            "text": " you will get all that.  And if you want to put it in a text file,  then just run this command pip freeze  requirements.txt. A file will be  created requirements.txt and"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1089.0,
+            "end": 1099.0,
+            "text": " in this way all the packages  with versions will come.  Now suppose it goes to your other friend.  What will he do?  Simply this command will run pip install"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1101.0,
+            "end": 1111.0,
+            "text": " minus r. It is important to put minus r.  requirements.txt  will enter.  All the packages in his computer  which are in requirements.txt will be installed."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1111.0,
+            "end": 1121.0,
+            "text": " I hope that you  would not find this video too confusing.  That's all I wanted to tell you.  I will reiterate from the beginning.  Virtual environment in a way"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1121.0,
+            "end": 1131.0,
+            "text": " helps in creating an isolated python  environment.  That means in that python installation  only  those packages will be"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1131.0,
+            "end": 1141.0,
+            "text": " installed which you have done.  And after that you can also come out of  that virtual python installation.  There is a kind of virtual python  installation. Suppose you have put 10"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1141.0,
+            "end": 1151.0,
+            "text": " python.  And  after that you  can put as many packages as you want  in it. You can put any version you want."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1151.0,
+            "end": 1161.0,
+            "text": " In 10 environments, you can put different versions of the same package.  So this is the use  of virtual environment.  Then what happens is that if you  have made a virtual environment, suppose 100 packages"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1161.0,
+            "end": 1171.0,
+            "text": " are installed in it. You have to remove the list of those 100 packages.  Then you can use this command  pip freeze requirements.txt  after greater than sign.  And if you just want to see which packages are installed"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1171.0,
+            "end": 1181.0,
+            "text": " then just write pip freeze.  All those packages will come to your terminal  which are installed in that particular python  virtual environment.  If you want someone to hold the requirements.txt"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1181.0,
+            "end": 1191.0,
+            "text": " file of your computer. Now you want  all those packages to be installed in your computer  or installed in your python environment.  Then you can run this command  pip install minus r"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1191.0,
+            "end": 1201.0,
+            "text": " requirements.txt  And that's about it. It's that simple.  So I will definitely do one thing here.  Import pandas as  pd and"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1201.0,
+            "end": 1211.0,
+            "text": " print  pd dot underscore  underscore version underscore underscore.  This will tell me which version of pandas  is installed here."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1211.0,
+            "end": 1221.0,
+            "text": " Now see, rapit is designed in such a way  that if you have  put a package import here, then it  automatically installs it.  This is designed in such a way."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1221.0,
+            "end": 1231.0,
+            "text": " So here things are a little different.  Here you have to use pip  to install this package.  So I hope you guys  understood how this works."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1231.0,
+            "end": 1241.0,
+            "text": " And why is it important?  Why do you guys and when  you have to make virtual environment  in your computer.  If you have not yet accessed this python playlist,"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1241.0,
+            "end": 1251.0,
+            "text": " then do access it and do me a favor  go to the first video and  write a review comment right now  and tell me how is this course going?  Because if you give a review, it will be very easy for those people"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1251.0,
+            "end": 1261.0,
+            "text": " who are going to start this course.  Many people do not start this course  just because they see  whether this course will be able to teach them  or not. So I want you guys to go"
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1261.0,
+            "end": 1271.0,
+            "text": " in the first video and tell them  what is happening in this course,  whether the exercises are good or not,  whether the concepts are being taught or not.  Now go and tell them."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1271.0,
+            "end": 1281.0,
+            "text": " I will feel very good.  That's all for now in this video.  Thank you so much guys for watching this video  and I will see you  next time."
+        },
+        {
+            "number": "043 ",
+            "title": "Virtual Environment in Python",
+            "start": 1283.0,
+            "end": 1298.0,
+            "text": " Music."
+        }
+    ],
+    "text": " Let's say you are writing a python program. You have to use a particular version of a package. When that package is updated, your friend is using another version. You are using another version. In this case, you use 50 such packages in your project. How will you maintain the version? How will you ensure that the packages that your program is using, your friend should use exactly the same versions. And how will you distribute your program? Let's go to the computer screen. We will see about virtual environment, which makes this task easy for us. It makes an isolated environment. Which is completely different from your global python interpreter. And you can install your own packages in it. Let's get started. So, the exact use case of virtual environment, first of all, I will tell you that. And after that, we will make a virtual environment. So, it will be a little clearer to you. What exactly is a virtual environment? And what it is all about? So, first of all, you guys come to my rappel. And see what I have written here. A virtual environment is a tool used to isolate specific python environments on a single machine. Allowing you to work on multiple projects with different dependencies and packages without conflicts. Okay? What is this? It basically says that, virtual environment helps you to separate your python environment. For example, I am using version 1 of pandas. My friend is using version 2 of pandas. And suppose that, because version 1 is installed in my computer, how will I run his project? Will I run my project by uninstalling my version? So, what can I do now? I will make a virtual environment for version 1 of pandas. I will make a virtual environment for version 2 of pandas. Okay? This was an example. Now see here, this can be especially useful when working on projects. That have conflicting package versions or packages that are not compatible with each other. Okay? Now see, this is also a very important point. Packages that are not compatible with each other. Suppose I have a package. Package A. And it depends on package B. On package B version 1. Suppose I update package A. And now it starts depending on package B version 2. So, basically what I have to do? I have to pick up an environment. In that, whatever packages I want, I can install. And those packages' versions will not have any meaning with my Python installed version. Okay? If you didn't understand, then I will just tell you. How is it installed? How is it made? So, first of all, what you have to do? A package named virtual environment. Package named vn will have to be installed. And as soon as you install this, you can make a virtual environment. Okay? Or what will you do? You will copy it. Python-m vn. Okay? And you will run it in any of your folders. So, I make a new folder. And I make it here in the name of Python vn. I will right click on it. I will do new terminal add folder. If you are not on Mac, but on Windows, then you know how to do all this. Okay? So, what I will do here? I will paste it by right clicking here. And I will hit enter. Okay? And in fact, because I am using Python 3 on Mac. So, I will run it by typing Python 3. You can see here, I have made Python 3-m vn-myen. Now, what I will do? Now, see what will happen as soon as I make this? I want to tell you this too. So, I have made this package in this folder. A folder named myen. You can understand this in a way. My computer's Python has been copied. Okay? The Python on my computer has been copied. Now, I can put one version of any package in it. I can put one version of any other package. I will show you by doing that. But, if I write here, pip3 install pandas. Then it is saying, requirement already satisfied. Which pandas is it installing? It is installing the pandas in my computer. I want to install pandas in this. Because in my global computer, in my global environment, pandas are already installed. That's why the requirement is already satisfied. Okay? You should know this thing. Now, see what I will do? Now, what I want to do here is, I want to activate this virtual environment. So, the way to activate this is like this. I will write source, I will write myenv, then I will write bin, and then I will write activate. If you don't know how I typed so fast, I typed M and it got autocompleted. Then I typed B and it got autocompleted. Then I typed AC and it got autocompleted. Okay? I will type enter. Now, see here in the bracket, it is written myenv. This means that, if you run pip now, then it will be installed in this virtual environment. And if you run any python program, it will use this virtual environment. That means it will use the python installed in it. I can make 10 virtual environments of this type. That means 10 different separate pythons on a single computer. Assume this. How good is this? All different environments will have their own packages. Now, if I write a python program here, I write python3 here. I will write import pandas as pd. It is saying, no module named pandas. Because I have not installed pandas in myenv yet. It is installed in my global computer. This requirement is already satisfied, which was written. Pandas are installed in my global computer. I have not installed panda in this virtual environment yet. So what I will do? I will write exit here. I will close this python interpreter. I am still in this virtual environment. I am still in this virtual environment. I will write here pip3 install pandas. Now pandas will be installed. See, it is getting installed. Can you see on your computer screen? It is getting installed. Why is it getting installed? Because here, pandas was never installed. Pandas was installed in my global computer. You are understanding this. So, as soon as it is installed, I will import pandas. By the way, let me tell you that you can install a particular version of a package. I will show you. If I write pandas python here and show you, I want to show you the versions here. See, these are the versions. 1.5.2 is the latest version. Assume that I want to install 1.4.4 for some reason. Okay. How will I do? I will write here equals to equals to 1. What was it? 4.4. Okay. 4.4. So, what will happen? 1.4.4 pandas will be installed. So, it downloaded it first. Okay. 1.4.4 pandas. And here you see, it is getting installed. And installing build dependencies. So, we will wait for it to be installed. So, finally, what happened is it took a lot of time, but my pandas was installed. But I want to show you one thing. If I write python here and then I write import pandas as pd, so, I write import pandas, so, I use pandas. Now I can use pd. So, I wrote import pandas as pd here, which is being imported. I don't know what the problem is. It took a lot of time to install 1.4. It is taking a lot of time to import. I don't know why. So, I am still waiting for it to be imported. Not sure what's wrong. And it's done. Now, if I write pd.__version, so, it is telling me the version of pandas. Let's exit from here. Exit is a function that throws you out of the python shell. Now, if I want to deactivate this virtual environment, that is, I want to not use the python in my particular folder in which python is installed, then I can write deactivate. Deactivate. And that's about it. See, myenv is written here. It has stopped coming. Now, if I write python3 here and then I write import pandas as pd and I will do the same thing. pd.__version__ Now, it's 1.5.2. Why? Because the python that was installed in my computer and the pandas in it had version 1.5.2. But, I installed this python in my computer. In correct words, I will say that I installed this virtual environment and I used another version of pandas in it. So, whenever I need 1.4.4 or whatever version of this pandas is, what was 1.4.4? Yes. Whenever I have to use this version, I will activate this virtual environment and whenever I have to use the latest version 1.5.2, I will use my python interpreter. I will deactivate this virtual environment. What if I need to install a third version? I need to use 1.5.0. What will I do then? Then, I can simply create a new virtual environment. I will exit this and I will tell you how to create a virtual environment. We will create it exactly the same way as we did earlier. python3-mvn and the name of the environment. This time, I will name it pandas 1.5. Let's say I will name it 1-5. It's my wish. I can name it whatever I want. This is my virtual environment. You can name your folder or virtual environment as well. It's my wish to name it pandas 1-5. It's my wish to name it harry. It's my wish to name it shubham. It's my wish to name it rohan. What we will do here is python3-mvn I have done this. Now, I have to activate it. I will write source and then I will write pan tab. It will automatically complete. I could have typed manually as well. But you can press tab and it will automatically complete. Then I will write pandas 1-5. Then I will write bin and then I will write activate. I will hit enter. See, this pandas 1-5 virtual environment has been activated. Let's do one thing. Let's write python3 and install pandas. In fact, I should install pandas without python3. pip install pandas See, I didn't even need to write pip3. I have done my work by writing pip. I have made a mistake. I should have written pandas 1.5 and installed pandas 1.5 version. No problem. I will wait for it to install. It has installed 1.5.1 and 1.5. Now, I will show you. I will write python and then import pandas as pd and then pd.version I will write pandas and hit enter. I am waiting for it to run. You can see here 1.5 has come. So, you got the point. If we install virtual environments then the package which is installed in the virtual environment will be used if it is activated. In this case, pandas 1-5 is activated. I will deactivate it. Now, which one will work for me? My python will work globally. It is the python which I have installed in this macbook. If I write source and I will give the source space and write myenv and hit enter. Myenv is activated. In this case, the python in this folder will be used. If I write by deactivating it obviously I will deactivate it and come out of this virtual environment. If I write source and I will write pandas which I have given its name. 1-5 and then I will write bin and then I will write activate. So, this pandas 1-5 will be activated and so on. I can make as many virtual environments as I want. Come to my repl in which I have explained to you. Now, let's see again what is a virtual environment. You have seen all these things. A virtual environment is a tool used to isolate specific python environments on a single machine allowing you to work on multiple projects with different dependencies and packages without conflicts. Different packages in different python virtual environments can be used. Install and use. This is the command with which you can make a virtual environment. This is the command with which you can activate it. If it is in windows then it is very important. Why didn't I tell this before? If it is in windows, then you have to activate it like this. Many people will think that why is it not getting activated? Let me tell you one more thing from my experience. If you are using PowerShell, then activate it from myenv.ps1. Do you understand? Do it from myenv.ps1. If you are using PowerShell. Once the virtual environment is activated, any packages that you install using pip will be installed in the virtual environment. As we saw here, when this was activated, then whatever we install from pip, it will go to the corresponding python interpreter of myenv. It will go to this virtual environment. The python that is installed in this computer or this computer has no meaning to any python virtual environment. In fact, its python global which is installed in this computer has no meaning. So you install packages, use it. When we make a particular project, then we make a virtual environment corresponding to it. All the packages of that project are installed in that particular virtual environment. And finally, that virtual environment is used to run that project. This is done so that if 5 people are working, then those 5 people make that virtual environment in their local computer or if they deploy that project somewhere, then they make that virtual environment there. For example, I want to deploy my python project in AWS. So I will make a virtual environment and all the packages that are being used will be installed in that virtual environment and I will deploy my project. Okay. Now the thing comes from here that requirement.txt file. What is this? Assume this is a very big project which is not. Okay. This is not a big project which I have written here pandas1-5. Let's do one thing. I will make a main.py file. Touchmain.py. I have made this main.py file. Touch save. A new file is made. Assume this is our project which myenv is using. I will delete it pandas1-5. In fact, first I will want to deactivate then I will delete it. This was just an example. I just wanted to tell you. Assume this is my project which is using myenv environment. Okay. I will do one thing. I will delete it here. This is gone from python. In fact, I will open it with python would like to access files. I will not allow it now. I just want to write it in this. Import pandas as pd.print pd.__ pd.__ I just want to do this. Now if I show you here. I will close it. If I show you here. Oops! I opened VS code. No problem. If I write python and then I write main.py then you see here it is saying python command not found python 3. Sorry. Python 3. Python 3 is installed in my computer. main.py. It is saying 1.5.2 is installed. Because it is using global python. The global python interpreter is installed in my computer. But if I write source my env bin activate which you will use. Do not use source if you are in windows. Use this command and instead of bat do ps1 if you are in powershell. Okay. With that I entered it. Now if I will do python 3 main.py again then 1.4.4 will come because in this virtual environment I installed 1.4.4. Okay. Suppose this was a very big project of mine. And in this many packages would have been installed. In fact, I do it. I do pip install. What should I do? Date utils. Date utils is there. Suppose I do py pyxml No. No. I do lxml. Okay. Lxml will be installed. These are all packages. What do we do with it? Do not take so much tension now. Okay. It is saying lxml is being installed using the legacy setup.py install method because it does not have a pyproject.toml. Okay. So it will be installed. Let it be installed. After this I will install some other package. Maybe py pyopenxl. Okay. In fact, I cancel it. I do not have so much time. pip install pyopenxl It is pyopenxl only. Pyopenxl. It is pyopenxl. It is something else. Pyopen xlsx. It is pyopenxl. Sorry. Pyopenxl is a package. Pyopenxl It is openxl. Sorry. It is not pyopenxl. Openxl pip install openxl It is saying no matching distribution for openpyxl. It is openpyxl. What is this? I also forget. Openpyxl. This will be installed. Okay. This will be installed. And then after this Suppose I have installed 10-15 more like this. Now I have installed all 10-15 I will take it in notebook and write their version. Suppose I have made this project. Now I want to give it to you. Now you say that I want to maintain it. Give it to me. Send the whole project. And along with the whole project, send this also that which packages are being used in it. So will I write it on paper and give you all those packages? No. I will want an automatic way so that all the packages are exported. What is that automatic way? Come, I will show you. You can extract the file requirements.txt. How will you extract? By using a command which is pip freeze greater than sign then requirements.txt. Means pip freeze is a command. First of all, I will tell you what pip freeze does. Pip freeze gives you all those packages which are installed in this virtual environment or in your global python environment. Whatever is installed in this python environment you will get all that. And if you want to put it in a text file, then just run this command pip freeze requirements.txt. A file will be created requirements.txt and in this way all the packages with versions will come. Now suppose it goes to your other friend. What will he do? Simply this command will run pip install minus r. It is important to put minus r. requirements.txt will enter. All the packages in his computer which are in requirements.txt will be installed. I hope that you would not find this video too confusing. That's all I wanted to tell you. I will reiterate from the beginning. Virtual environment in a way helps in creating an isolated python environment. That means in that python installation only those packages will be installed which you have done. And after that you can also come out of that virtual python installation. There is a kind of virtual python installation. Suppose you have put 10 python. And after that you can put as many packages as you want in it. You can put any version you want. In 10 environments, you can put different versions of the same package. So this is the use of virtual environment. Then what happens is that if you have made a virtual environment, suppose 100 packages are installed in it. You have to remove the list of those 100 packages. Then you can use this command pip freeze requirements.txt after greater than sign. And if you just want to see which packages are installed then just write pip freeze. All those packages will come to your terminal which are installed in that particular python virtual environment. If you want someone to hold the requirements.txt file of your computer. Now you want all those packages to be installed in your computer or installed in your python environment. Then you can run this command pip install minus r requirements.txt And that's about it. It's that simple. So I will definitely do one thing here. Import pandas as pd and print pd dot underscore underscore version underscore underscore. This will tell me which version of pandas is installed here. Now see, rapit is designed in such a way that if you have put a package import here, then it automatically installs it. This is designed in such a way. So here things are a little different. Here you have to use pip to install this package. So I hope you guys understood how this works. And why is it important? Why do you guys and when you have to make virtual environment in your computer. If you have not yet accessed this python playlist, then do access it and do me a favor go to the first video and write a review comment right now and tell me how is this course going? Because if you give a review, it will be very easy for those people who are going to start this course. Many people do not start this course just because they see whether this course will be able to teach them or not. So I want you guys to go in the first video and tell them what is happening in this course, whether the exercises are good or not, whether the concepts are being taught or not. Now go and tell them. I will feel very good. That's all for now in this video. Thank you so much guys for watching this video and I will see you next time. Music."
+}
