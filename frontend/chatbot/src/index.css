@@ -1,0 +1,124 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.chat-box {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box .message {
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 18px;
+  max-width: 70%;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.chat-box .message b {
+  font-weight: bold;
+}
+
+.chat-box .message.user {
+  background-color: #c8e6c9;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.chat-box .message.bot {
+  background-color: #e3f2fd;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.input-box {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.input-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.input-box button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.input-box button:hover {
+  background-color: #5a67d8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .chat-box {
+    height: 300px;
+    padding: 15px;
+  }
+
+  .input-box input,
+  .input-box button {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
