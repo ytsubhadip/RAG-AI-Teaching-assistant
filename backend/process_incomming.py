@@ -53,12 +53,12 @@ def get_output(chat:str) :
     max_index = similarity.argsort()[::-1][0:top_results]
     new_df = df.loc[max_index]
 
-    prompt = f""" I am teaching python for biganears to advance course. Here are video subtitle chunk containing video title, video number,  start time in secound, end time secound, the text at that time:
+    prompt = f"""I am teaching python for biganears to advance course. Here are video subtitle chunk containing video title, video number,  start time in secound, end time secound, the text at that time:
 
     {new_df[["title","number","start","end","text"]].to_json(orient="records")}
     -------------------------------------------------
     '{chat}'
-    User asked this question related to the video chunks, you have answare in a human way(don't mantion the above formate, its for you)where and how much content is tought in which video(in which video and what was the timestap ) and guid the user to go to that particular video. If user ask unrelated question, tell him that you can only answer question related to the course. Don't ask any question to the user. just give the question answare.
+    User asked this question related to the video chunks, you have answare in a human way(don't mantion the above formate, its for you)where and how much content is tought in which video(in which video and what was the timestap ) and guid the user to go to that particular video.answare all question under 100 to 200 words. If user ask unrelated question, tell him that you can only answer question related to the course. Don't ask any question to the user. just give the question answare.
     """
 
     llm_responce = infarence(prompt)["response"]
