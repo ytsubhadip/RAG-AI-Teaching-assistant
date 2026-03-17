@@ -1,5 +1,3 @@
-
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -14,12 +12,12 @@ app.add_middleware(
     allow_headers=["*"],   # allow all headers
 )               
 
+# pydentic class
 class Message(BaseModel):
     message:str
 
 @app.get("/")
 def read_root():
-
     return {"Devloper": "YT subhadip"}
 
 @app.post("/getchat")
